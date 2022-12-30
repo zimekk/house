@@ -6,9 +6,7 @@ import styles from "./App.module.scss";
 const Spinner = () => <span>Loading...</span>;
 
 const PAGES = {
-  post: lazy(() => import("./Post")),
-  push: lazy(() => import("./Push")),
-  hello: lazy(() => import("./Hello")),
+  house: lazy(() => import("./House")),
 };
 
 const getPage = (location: { hash: string }) => {

@@ -1,10 +1,10 @@
 import React from "react";
-import styles from "./Hello.module.scss";
+import styles from "./House.module.scss";
 
 export default function Section() {
   return (
     <section className={styles.Section}>
-      <h2>Hello</h2>
+      <h2>House</h2>
     </section>
   );
 }
