@@ -17,6 +17,7 @@
     "parser": "@typescript-eslint/parser",
     "plugins": [
       "@typescript-eslint",
+      "implicit-dependencies",
       "prettier"
     ],
     "settings": {
@@ -55,9 +56,11 @@
   "devDependencies": {
     "@commitlint/cli": "^17.4.0",
     "@commitlint/config-conventional": "^17.4.0",
+    "@types/node": "^18.11.18",
     "@typescript-eslint/eslint-plugin": "^5.48.0",
     "@typescript-eslint/parser": "^5.48.0",
     "eslint": "^8.31.0",
+    "eslint-plugin-implicit-dependencies": "^1.1.1",
     "eslint-plugin-prettier": "^4.2.1",
     "eslint-plugin-react": "^7.31.11",
     "husky": "^8.0.3",
