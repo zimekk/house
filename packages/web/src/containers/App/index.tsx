@@ -32,44 +32,44 @@ function Box(props) {
 }
 
 // https://codesandbox.io/s/r3f-clipping-example-8feekk
-function Planes() {
-  const mesh = useRef<Mesh>();
+// function Planes() {
+//   const mesh = useRef<Mesh>();
 
-  useFrame((_, delta) => {
-    mesh.current.rotation.x += delta * 0.5;
-    mesh.current.rotation.y += delta * 0.2;
-    mesh.current.scale.setScalar(Math.cos(delta) * 0.125 + 0.875);
-  });
+//   useFrame((_, delta) => {
+//     mesh.current.rotation.x += delta * 0.5;
+//     mesh.current.rotation.y += delta * 0.2;
+//     mesh.current.scale.setScalar(Math.cos(delta) * 0.125 + 0.875);
+//   });
 
-  return (
-    <mesh ref={mesh} castShadow>
-      <torusKnotGeometry args={[0.4, 0.08, 95, 20]} />
-      <meshPhongMaterial color={0x80ee10} shininess={100} side={DoubleSide}>
-        <plane attach="clippingPlanes-0" normal={[0, 1, 0]} constant={0} />
-      </meshPhongMaterial>
-    </mesh>
-  );
-}
+//   return (
+//     <mesh ref={mesh} castShadow>
+//       <torusKnotGeometry args={[0.4, 0.08, 95, 20]} />
+//       <meshPhongMaterial color={0x80ee10} shininess={100} side={DoubleSide}>
+//         <plane attach="clippingPlanes-0" normal={[0, 1, 0]} constant={0} />
+//       </meshPhongMaterial>
+//     </mesh>
+//   );
+// }
 
 // https://codesandbox.io/s/basic-demo-forked-zcv5dr
-function Extrusion({ start = [0, 0], paths, ...props }) {
-  const shape = useMemo(() => {
-    const shape = new Shape();
-    shape.moveTo(...start);
-    paths.forEach((path) => shape.bezierCurveTo(...path));
-    return shape;
-  }, [start, paths]);
-  return (
-    <mesh scale={0.1}>
-      <extrudeGeometry args={[shape, props]} />
-      <meshPhysicalMaterial
-        color="red"
-        clearcoat={1}
-        clearcoatRoughness={0.2}
-      />
-    </mesh>
-  );
-}
+// function Extrusion({ start = [0, 0], paths, ...props }) {
+//   const shape = useMemo(() => {
+//     const shape = new Shape();
+//     shape.moveTo(...start);
+//     paths.forEach((path) => shape.bezierCurveTo(...path));
+//     return shape;
+//   }, [start, paths]);
+//   return (
+//     <mesh scale={0.1}>
+//       <extrudeGeometry args={[shape, props]} />
+//       <meshPhysicalMaterial
+//         color="red"
+//         clearcoat={1}
+//         clearcoatRoughness={0.2}
+//       />
+//     </mesh>
+//   );
+// }
 
 // https://codesandbox.io/s/jflps
 // function Triangle({ color, ...props }) {
@@ -108,18 +108,19 @@ function Extrusion({ start = [0, 0], paths, ...props }) {
 //   )
 // }
 
-function ClippingPlane() {
-  const { gl } = useThree();
-  let plane = new THREE.Plane(new THREE.Vector3(0, -1, 0), 0.8);
-  gl.clippingPlanes = [plane];
-  gl.localClippingEnabled = true;
-  return <></>;
-}
+// https://discourse.threejs.org/t/does-anyone-know-a-good-way-or-examples-of-3d-model-clipping-function-on-react-three-fiber-in-next-js-app/28933/2
+// function ClippingPlane() {
+//   const { gl } = useThree();
+//   let plane = new THREE.Plane(new THREE.Vector3(0, -1, 0), 0.8);
+//   gl.clippingPlanes = [plane];
+//   gl.localClippingEnabled = true;
+//   return <></>;
+// }
 
 export default function App() {
   return (
     <Canvas>
-      <ClippingPlane />
+      {/* <ClippingPlane /> */}
       <ambientLight intensity={0.5} />
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
       <pointLight position={[-10, -10, -10]} />
