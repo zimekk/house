@@ -1,5 +1,5 @@
 import React, { useMemo, useRef, useState } from "react";
-import { Extrude, PivotControls } from "@react-three/drei";
+import { Edges, Extrude, PivotControls } from "@react-three/drei";
 import * as THREE from "three";
 
 const extrudeSettings = { steps: 2, depth: 1, bevelEnabled: false };
@@ -23,9 +23,12 @@ function Block(props) {
 
   return (
     <Extrude args={[shape, extrudeSettings]} {...props}>
-      <meshPhysicalMaterial
+      {/* <meshPhysicalMaterial */}
+      {/* <meshBasicMaterial */}
+      <meshBasicMaterial
+        transparent
         // flatShading
-        color="#3E64FF"
+        // color="#3E64FF"
         // thickness={SIDE}
         // roughness={0.4}
         // clearcoat={1}
@@ -35,6 +38,7 @@ function Block(props) {
         // attenuationTint="#fff"
         // attenuationDistance={0}
       />
+      <Edges />
     </Extrude>
   );
 }
@@ -65,9 +69,12 @@ function Shape(props) {
       ]}
       {...props}
     >
-      <meshPhysicalMaterial
-        flatShading
-        color="#ff3e7b"
+      {/* <meshPhysicalMaterial
+        flatShading */}
+      {/* <meshBasicMaterial */}
+      <meshBasicMaterial
+        transparent
+        // color="#ff3e7b"
         // thickness={SIDE}
         // roughness={0.4}
         // clearcoat={1}
@@ -77,6 +84,7 @@ function Shape(props) {
         // attenuationTint="#fff"
         // attenuationDistance={0}
       />
+      <Edges />
     </Extrude>
   );
 }
@@ -89,7 +97,8 @@ function Floor(props) {
         {...props}
       >
         <boxGeometry args={[5, 0.2, 5]} />
-        <meshStandardMaterial color={"blue"} />
+        <meshBasicMaterial color={"blue"} />
+        {/* <meshStandardMaterial color={"blue"} /> */}
       </mesh>
     </group>
   );
@@ -100,8 +109,133 @@ function Wall(props) {
     <group position={[0, 2.5, -2.6]}>
       <mesh position={[0, 0, 0]} {...props}>
         <boxGeometry args={[5, 5, 0.2]} />
-        <meshStandardMaterial color={"green"} />
+        <meshBasicMaterial color={"green"} />
+        {/* <meshStandardMaterial color={"green"} /> */}
       </mesh>
+    </group>
+  );
+}
+
+function Window(props) {
+  const shape = useMemo(() => {
+    const shape = new THREE.Shape()
+      .moveTo(0, 0)
+      .lineTo(1.35, 0)
+      .lineTo(1.35, 2.7)
+      .lineTo(0, 2.7);
+
+    const holePath = new THREE.Path()
+      .moveTo(0.1, 0.1)
+      .lineTo(1.25, 0.1)
+      .lineTo(1.25, 2.6)
+      .lineTo(0.1, 2.6);
+
+    shape.holes.push(holePath);
+
+    return shape;
+  }, []);
+
+  return (
+    <group {...props}>
+      <Extrude
+        args={[shape, { depth: 0.2, steps: 1, bevelEnabled: false }]}
+        position={[2.7, 0, -2.5]}
+        rotation={[0, -Math.PI / 2, 0]}
+      >
+        <meshBasicMaterial transparent />
+        <Edges />
+      </Extrude>
+    </group>
+  );
+}
+
+function Frame(props) {
+  const shape = useMemo(() => {
+    const shape = new THREE.Shape()
+      .moveTo(0, 0)
+      .lineTo(3, 0)
+      .lineTo(3, 2.9)
+      .lineTo(0, 2.9);
+
+    shape.holes.push(
+      new THREE.Path()
+        .moveTo(0.1, 0.1)
+        .lineTo(1.45, 0.1)
+        .lineTo(1.45, 2.8)
+        .lineTo(0.1, 2.8)
+    );
+
+    shape.holes.push(
+      new THREE.Path()
+        .moveTo(1.55, 0.1)
+        .lineTo(2.9, 0.1)
+        .lineTo(2.9, 2.8)
+        .lineTo(1.55, 2.8)
+    );
+
+    return shape;
+  }, []);
+
+  return (
+    <group position={[-0.05, 1.6, 1.0]} {...props}>
+      <Extrude
+        args={[shape, { depth: 0.1, steps: 1, bevelEnabled: false }]}
+        position={[2.7, 0, -2.5]}
+        rotation={[0, -Math.PI / 2, 0]}
+      >
+        <meshBasicMaterial transparent />
+        <Edges />
+      </Extrude>
+    </group>
+  );
+}
+
+function Windowsill(props) {
+  return (
+    <group position={[2.5, 1.5, 0]} {...props}>
+      <mesh position={[-0.05, 0.05, 0]}>
+        <boxGeometry args={[0.5, 0.1, 3]} />
+        <meshBasicMaterial transparent />
+        <Edges />
+      </mesh>
+    </group>
+  );
+}
+
+// https://codesandbox.io/s/iup24
+function Wall2(props) {
+  const shape = useMemo(() => {
+    const shape = new THREE.Shape()
+      .moveTo(0, 0)
+      .lineTo(5, 0)
+      .lineTo(5, 5)
+      .lineTo(0, 5);
+
+    shape.holes.push(
+      new THREE.Path()
+        .moveTo(1, 1.5)
+        .lineTo(4, 1.5)
+        .lineTo(4, 4.5)
+        .lineTo(1, 4.5)
+    );
+
+    return shape;
+  }, []);
+
+  return (
+    <group {...props}>
+      <Extrude
+        args={[shape, { depth: 0.2, steps: 1, bevelEnabled: false }]}
+        position={[2.7, 0, -2.5]}
+        rotation={[0, -Math.PI / 2, 0]}
+      >
+        <meshBasicMaterial transparent />
+        <Edges />
+      </Extrude>
+      <Frame />
+      <Window position={[0.0, 1.7, 1.1]} />
+      <Window position={[0.0, 1.7, 2.55]} />
+      <Windowsill />
     </group>
   );
 }
@@ -109,11 +243,12 @@ function Wall(props) {
 export default function House() {
   return (
     <group position={[0, -0.5, 0]}>
-      <PivotControls>
+      {/* <PivotControls>
         <Block position={[-0.5, 0.5, -1]} />
         <Shape position={[0, 3, -0.5]} />
-      </PivotControls>
+      </PivotControls> */}
       <Wall />
+      <Wall2 />
       <Floor />
     </group>
   );

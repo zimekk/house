@@ -26,7 +26,8 @@ function Box(props) {
       onPointerOut={(event) => hover(false)}
     >
       <boxGeometry args={[1, 1, 1]} />
-      <meshStandardMaterial color={hovered ? "hotpink" : "orange"} />
+      <meshBasicMaterial color={hovered ? "hotpink" : "orange"} />
+      {/* <meshStandardMaterial color={hovered ? "hotpink" : "orange"} /> */}
     </mesh>
   );
 }
@@ -150,7 +151,9 @@ export default function App() {
         position={[0, 0, -10]}
         rotation={[-Math.PI / 2, 0, 0]}
       />
-      <OrbitControls autoRotate autoRotateSpeed={1} />
+      <OrbitControls makeDefault dampingFactor={0.3} />
+      {/* <OrbitControls /> */}
+      {/* <OrbitControls autoRotate autoRotateSpeed={1} /> */}
     </Canvas>
   );
 }
