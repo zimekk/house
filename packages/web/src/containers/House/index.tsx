@@ -121,14 +121,14 @@ function Window(props) {
     const shape = new THREE.Shape()
       .moveTo(0, 0)
       .lineTo(1.35, 0)
-      .lineTo(1.35, 2.7)
-      .lineTo(0, 2.7);
+      .lineTo(1.35, 3.2)
+      .lineTo(0, 3.2);
 
     const holePath = new THREE.Path()
       .moveTo(0.1, 0.1)
       .lineTo(1.25, 0.1)
-      .lineTo(1.25, 2.6)
-      .lineTo(0.1, 2.6);
+      .lineTo(1.25, 3.1)
+      .lineTo(0.1, 3.1);
 
     shape.holes.push(holePath);
 
@@ -154,30 +154,30 @@ function Frame(props) {
     const shape = new THREE.Shape()
       .moveTo(0, 0)
       .lineTo(3, 0)
-      .lineTo(3, 2.9)
-      .lineTo(0, 2.9);
+      .lineTo(3, 3.4)
+      .lineTo(0, 3.4);
 
     shape.holes.push(
       new THREE.Path()
         .moveTo(0.1, 0.1)
         .lineTo(1.45, 0.1)
-        .lineTo(1.45, 2.8)
-        .lineTo(0.1, 2.8)
+        .lineTo(1.45, 3.3)
+        .lineTo(0.1, 3.3)
     );
 
     shape.holes.push(
       new THREE.Path()
         .moveTo(1.55, 0.1)
         .lineTo(2.9, 0.1)
-        .lineTo(2.9, 2.8)
-        .lineTo(1.55, 2.8)
+        .lineTo(2.9, 3.3)
+        .lineTo(1.55, 3.3)
     );
 
     return shape;
   }, []);
 
   return (
-    <group position={[-0.05, 1.6, 1.0]} {...props}>
+    <group {...props}>
       <Extrude
         args={[shape, { depth: 0.1, steps: 1, bevelEnabled: false }]}
         position={[2.7, 0, -2.5]}
@@ -192,7 +192,7 @@ function Frame(props) {
 
 function Windowsill(props) {
   return (
-    <group position={[2.5, 1.5, 0]} {...props}>
+    <group {...props}>
       <mesh position={[-0.05, 0.05, 0]}>
         <boxGeometry args={[0.5, 0.1, 3]} />
         <meshBasicMaterial transparent />
@@ -212,11 +212,7 @@ function Wall2(props) {
       .lineTo(0, 5);
 
     shape.holes.push(
-      new THREE.Path()
-        .moveTo(1, 1.5)
-        .lineTo(4, 1.5)
-        .lineTo(4, 4.5)
-        .lineTo(1, 4.5)
+      new THREE.Path().moveTo(1, 1).lineTo(4, 1).lineTo(4, 4.5).lineTo(1, 4.5)
     );
 
     return shape;
@@ -232,17 +228,17 @@ function Wall2(props) {
         <meshBasicMaterial transparent />
         <Edges />
       </Extrude>
-      <Frame />
-      <Window position={[0.0, 1.7, 1.1]} />
-      <Window position={[0.0, 1.7, 2.55]} />
-      <Windowsill />
+      <Frame position={[-0.05, 1.1, 1.0]} />
+      <Window position={[0.0, 1.2, 1.1]} />
+      <Window position={[0.0, 1.2, 2.55]} />
+      <Windowsill position={[2.5, 1, 0]} />
     </group>
   );
 }
 
 export default function House() {
   return (
-    <group position={[0, -0.5, 0]}>
+    <group position={[0, -2, 0]}>
       {/* <PivotControls>
         <Block position={[-0.5, 0.5, -1]} />
         <Shape position={[0, 3, -0.5]} />

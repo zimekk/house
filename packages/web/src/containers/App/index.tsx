@@ -125,8 +125,8 @@ export default function App() {
       <ambientLight intensity={0.5} />
       <spotLight position={[10, 10, 10]} angle={0.15} penumbra={1} />
       <pointLight position={[-10, -10, -10]} />
-      <Box position={[-1.2, 0, 0]} />
-      <Box position={[1.2, 0, 0]} />
+      <Box position={[-1.2, -1.5, 0]} />
+      <Box position={[1.2, -1.5, 0]} />
       <House />
       {/* <Planes /> */}
       {/* <Rig>
@@ -148,8 +148,8 @@ export default function App() {
           /> */}
       <gridHelper
         args={[100, 20, "#4D089A", "#4D089A"]}
-        position={[0, 0, -10]}
-        rotation={[-Math.PI / 2, 0, 0]}
+        position={[0, -2, 0]}
+        rotation={[0, 0, 0]}
       />
       <OrbitControls makeDefault dampingFactor={0.3} />
       {/* <OrbitControls /> */}
