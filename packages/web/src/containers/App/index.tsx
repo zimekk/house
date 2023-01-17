@@ -127,7 +127,7 @@ export default function App() {
       <pointLight position={[-10, -10, -10]} />
       <Box position={[-1.2, -1.5, 0]} />
       <Box position={[1.2, -1.5, 0]} />
-      <House />
+      <House position={[-2, -2, 2]} />
       {/* <Planes /> */}
       {/* <Rig>
           <Triangle color="#ff2060" scale={0.009} rotation={[0, 0, Math.PI / 3]} />
@@ -147,7 +147,7 @@ export default function App() {
             ]}
           /> */}
       <gridHelper
-        args={[100, 20, "#4D089A", "#4D089A"]}
+        args={[20, 20, "#4D089A", "#4D089A"]}
         position={[0, -2, 0]}
         rotation={[0, 0, 0]}
       />
