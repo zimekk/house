@@ -202,6 +202,16 @@ function Windowsill(props) {
   );
 }
 
+function Windowsill2({ w, h, x, y }) {
+  return (
+    <mesh position={[0, y + h / 2, -x - w / 2]}>
+      <boxGeometry args={[0.5, h, w]} />
+      <meshBasicMaterial transparent />
+      <Edges />
+    </mesh>
+  );
+}
+
 // https://codesandbox.io/s/iup24
 function Wall2(props) {
   const shape = useMemo(() => {
@@ -236,28 +246,70 @@ function Wall2(props) {
   );
 }
 
-function Window3({ w, h, x, y }) {
+function Inner({ w, h, x, y }) {
+  const k = 0;
+  const m = 0.1;
+  const boxes = useMemo(
+    () => [
+      {
+        w: w - 2 * m,
+        h: h - 2 * m - k,
+        x: x + m,
+        y: y + m + k,
+      },
+    ],
+    []
+  );
+
   const shape = useMemo(() => {
-    // const h = 2;
-    // const edges = [
-    //   [v,0],
-    //   [v,h],
-    //   [0,h],
-    // ]
-
-    // const shape = edges.reduce((shape, [x,y]) => shape.lineTo(x,y), new THREE.Shape().moveTo(0, 0))
-
-    // const shape = new THREE.Shape()
-    //   .moveTo(0, 0)
-    //   .lineTo(5, 0)
-    //   .lineTo(5, 5)
-    //   .lineTo(0, 5);
-
-    // shape.holes.push(
-    //   new THREE.Path().moveTo(1, 1).lineTo(4, 1).lineTo(4, 4.5).lineTo(1, 4.5)
-    // );
     const edges = square(w, h, x, y);
     const shape = createShape(edges);
+
+    boxes.forEach(({ w, h, x, y }) => {
+      const holes = square(w, h, x, y);
+      shape.holes.push(createShape(holes));
+    });
+
+    return shape;
+  }, []);
+
+  return (
+    <group>
+      <Extrude
+        args={[shape, { depth: 0.2, steps: 1, bevelEnabled: false }]}
+        position={[0, 0, 0]}
+        rotation={[0, Math.PI / 2, 0]}
+      >
+        <meshBasicMaterial transparent />
+        <Edges />
+      </Extrude>
+    </group>
+  );
+}
+
+function Window3({ w, h, x, y }) {
+  const k = 0.1;
+  const m = 0.05;
+  const boxes = useMemo(
+    () => [
+      {
+        w: w - 2 * m,
+        h: h - 2 * m - k,
+        x: x + m,
+        y: y + m + k,
+      },
+    ],
+    []
+  );
+
+  const shape = useMemo(() => {
+    const edges = square(w, h, x, y);
+    const shape = createShape(edges);
+
+    boxes.forEach(({ w, h, x, y }) => {
+      const holes = square(w, h, x, y);
+      shape.holes.push(createShape(holes));
+    });
 
     return shape;
   }, []);
@@ -272,10 +324,10 @@ function Window3({ w, h, x, y }) {
         <meshBasicMaterial transparent />
         <Edges />
       </Extrude>
-      {/* <Frame position={[-0.05, 1.1, 1.0]} />
-      <Window position={[0.0, 1.2, 1.1]} />
-      <Window position={[0.0, 1.2, 2.55]} />
-      <Windowsill position={[2.5, 1, 0]} /> */}
+      <Windowsill2 w={w} x={x} y={y} h={k} />
+      {boxes.map((box, key) => (
+        <Inner key={key} {...box} />
+      ))}
     </group>
   );
 }
@@ -327,26 +379,17 @@ function Wall3({ x, y, v, rotate }) {
     return shape;
   }, []);
 
-  //   <mesh position={[x, 0, -y]} rotation={[0,-rotate,0]}>
-  //   <group rotateZ={rotate} position={[-.1/2,0,-v/2]}>
-  // <boxGeometry args={[.1, 1, v]}/>
-  // <meshBasicMaterial transparent />
-  // <Edges />
-  // </group>
-  // </mesh>
-
   return (
     <group position={[x, 0, -y]} rotation={[0, -rotate, 0]}>
       <Extrude
         args={[shape, { depth: 0.2, steps: 1, bevelEnabled: false }]}
-        // position={[-.1/2,0,-v/2]}
         rotation={[0, Math.PI / 2, 0]}
       >
         <meshBasicMaterial transparent />
         <Edges />
       </Extrude>
-      {boxes.map((box) => (
-        <Window3 {...box} />
+      {boxes.map((box, key) => (
+        <Window3 key={key} {...box} />
       ))}
     </group>
   );
@@ -392,28 +435,7 @@ function Floor2(props) {
   }, []);
 
   const shape = useMemo(() => {
-    // const shape = new THREE.Shape()
-    //   .moveTo(0, 0)
-    //   .lineTo(5, 0)
-    //   .lineTo(5, 5)
-    //   .lineTo(1, 5)
-    //   .lineTo(1, 3)
-    //   .lineTo(0, 3)
-    //   .lineTo(0, 0)
-
-    // const edges = [
-    //   [5,0],
-    //   [5,5],
-    //   [1,5],
-    //   [1,3],
-    //   [0,3],
-    //   [0,0],
-    // ]
-
-    const shape = edges.reduce(
-      (shape, [x, y]) => shape.lineTo(x, y),
-      new THREE.Shape().moveTo(0, 0)
-    );
+    const shape = createShape(edges);
 
     return shape;
   }, [edges]);
@@ -422,7 +444,6 @@ function Floor2(props) {
     <group {...props}>
       <Extrude
         args={[shape, { depth: -1, steps: 1, bevelEnabled: false }]}
-        // position={[2.7, 0, -2.5]}
         rotation={[-Math.PI / 2, 0, 0]}
       >
         <meshBasicMaterial transparent />
@@ -436,12 +457,6 @@ function Floor2(props) {
 }
 
 export default function House(props) {
-  // const walls = [
-  // [0, 0],
-  // [0, 0],
-
-  // ];
-
   return (
     <group {...props}>
       {/* <PivotControls>
