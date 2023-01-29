@@ -14,12 +14,12 @@
     "start": "webpack serve --mode development"
   },
   "dependencies": {
-    "@react-three/drei": "^9.53.1",
-    "@react-three/fiber": "^8.10.0",
+    "@react-three/drei": "^9.56.8",
+    "@react-three/fiber": "^8.10.1",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "styled-components": "^5.3.6",
-    "three": "^0.148.0"
+    "three": "^0.149.0"
   },
   "devDependencies": {
     "@babel/core": "^7.20.12",
@@ -31,7 +31,7 @@
     "@types/react": "^18.0.27",
     "@types/react-dom": "^18.0.10",
     "@types/styled-components": "^5.1.26",
-    "@types/three": "^0.148.0",
+    "@types/three": "^0.148.1",
     "@types/webpack": "^5.28.0",
     "@types/webpack-dev-server": "^4.7.2",
     "babel-loader": "^9.1.2",
