@@ -17,12 +17,12 @@ git push -f
 ## install
 
 ```sh
-nvm install v14
+nvm install v16
 npm i -g yarn
 ```
 
 ```sh
-node -v # v14.18.2
+node -v # v16.19.1
 yarn -v # 1.22.19
 ```
 

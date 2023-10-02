@@ -7,7 +7,7 @@ import { OrbitControls } from "@react-three/drei";
 import House from "../House";
 
 // https://codesandbox.io/s/rrppl0y8l4
-function Box(props) {
+function Box(props: any) {
   // This reference gives us direct access to the THREE.Mesh object
   const ref = useRef<Mesh>();
   // Hold state for hovered and clicked events

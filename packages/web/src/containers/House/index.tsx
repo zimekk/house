@@ -6,7 +6,7 @@ const extrudeSettings = { steps: 2, depth: 1, bevelEnabled: false };
 const SIDE = 1;
 
 // https://varun.ca/modular-webgl/
-function Block(props) {
+function Block(props: any) {
   const shape = useMemo(() => {
     const shape = new THREE.Shape()
       .moveTo(0, 0)
@@ -43,7 +43,7 @@ function Block(props) {
   );
 }
 
-function Shape(props) {
+function Shape(props: any) {
   const shape = useMemo(() => {
     // https://github.com/mrdoob/three.js/blob/master/examples/webgl_geometry_shapes.html
     const shape = new THREE.Shape()
@@ -89,7 +89,7 @@ function Shape(props) {
   );
 }
 
-function Floor(props) {
+function Floor(props: any) {
   return (
     <group position={[0, -0.1, 0]}>
       <mesh
@@ -104,7 +104,7 @@ function Floor(props) {
   );
 }
 
-function Wall(props) {
+function Wall(props: any) {
   return (
     <group position={[0, 2.5, -2.6]}>
       <mesh position={[0, 0, 0]} {...props}>
@@ -116,7 +116,7 @@ function Wall(props) {
   );
 }
 
-function Window(props) {
+function Window(props: any) {
   const shape = useMemo(() => {
     const shape = new THREE.Shape()
       .moveTo(0, 0)
@@ -149,7 +149,7 @@ function Window(props) {
   );
 }
 
-function Frame(props) {
+function Frame(props: any) {
   const shape = useMemo(() => {
     const shape = new THREE.Shape()
       .moveTo(0, 0)
@@ -190,7 +190,7 @@ function Frame(props) {
   );
 }
 
-function Windowsill(props) {
+function Windowsill(props: any) {
   return (
     <group {...props}>
       <mesh position={[-0.05, 0.05, 0]}>
@@ -202,7 +202,7 @@ function Windowsill(props) {
   );
 }
 
-function Windowsill2({ w, h, x, y }) {
+function Windowsill2({ w, h, x, y }: any) {
   return (
     <mesh position={[0, y + h / 2, -x - w / 2]}>
       <boxGeometry args={[0.5, h, w]} />
@@ -213,7 +213,7 @@ function Windowsill2({ w, h, x, y }) {
 }
 
 // https://codesandbox.io/s/iup24
-function Wall2(props) {
+function Wall2(props: any) {
   const shape = useMemo(() => {
     const shape = new THREE.Shape()
       .moveTo(0, 0)
@@ -246,7 +246,7 @@ function Wall2(props) {
   );
 }
 
-function Inner({ w, h, x, y }) {
+function Inner({ w, h, x, y }: any) {
   const k = 0;
   const m = 0.1;
   const boxes = useMemo(
@@ -287,7 +287,7 @@ function Inner({ w, h, x, y }) {
   );
 }
 
-function Window3({ w, h, x, y }) {
+function Window3({ w, h, x, y }: any) {
   const k = 0.1;
   const m = 0.05;
   const boxes = useMemo(
@@ -347,7 +347,7 @@ const createShape = (edges: number[][]) =>
     new THREE.Shape()
   );
 
-function Wall3({ x, y, v, rotate }) {
+function Wall3({ x, y, v, rotate }: any) {
   const h = 2;
   const m = 0.5;
   const n = 0.5;
@@ -395,7 +395,7 @@ function Wall3({ x, y, v, rotate }) {
   );
 }
 
-function Floor2(props) {
+function Floor2(props: any) {
   const { edges, walls } = useMemo(() => {
     const vectors = [
       [1, 5],
@@ -407,7 +407,7 @@ function Floor2(props) {
     ];
 
     const { edges, walls } = vectors.reduce(
-      ({ vector, edges, walls, rotate }, [r, v]) =>
+      ({ vector, edges, walls, rotate }: any, [r, v]) =>
         ((vector, [x, y], rotate) => ({
           rotate,
           vector,
@@ -449,14 +449,14 @@ function Floor2(props) {
         <meshBasicMaterial transparent />
         <Edges />
       </Extrude>
-      {walls.map(({ rotate, x, y, v }, key) => (
+      {walls.map(({ rotate, x, y, v }: any, key: any) => (
         <Wall3 key={key} rotate={rotate} x={x} y={y} v={v} />
       ))}
     </group>
   );
 }
 
-export default function House(props) {
+export default function House(props: any) {
   return (
     <group {...props}>
       {/* <PivotControls>
