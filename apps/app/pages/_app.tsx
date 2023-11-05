@@ -6,14 +6,18 @@ import "@vercel/examples-ui/globals.css";
 const Noop = ({ children }: { children?: ReactNode }) => <>{children}</>;
 
 export const getLayout = <LP extends {} = LayoutProps>(
-  Component: any
+  Component: any,
 ): ComponentType<LP> => Component?.Layout || Noop;
 
 export default function MyApp({ Component, pageProps }: AppProps) {
   const Layout = getLayout<LayoutProps>(Component);
 
   return (
-    <Layout title="Monorepo" links={[]} path="solutions/monorepo">
+    <Layout
+      title="Monorepo"
+      links={["budget", "design"]}
+      path="solutions/monorepo"
+    >
       <Component {...pageProps} />
     </Layout>
   );

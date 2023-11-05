@@ -6,10 +6,6 @@ import App from "@dev/web";
 const REPO_URL = "https://github.com/vercel/examples/tree/main";
 const VERCEL_CLONE = "https://vercel.com/new/clone";
 
-export default function Index() {
-  return <App />;
-}
-
 export interface DeployButtonProps {
   repositoryUrl: string;
   env?: string[];
@@ -131,7 +127,7 @@ export interface LayoutProps extends NavProps {
   children?: ReactNode;
 }
 
-Index.Layout = ({ children, ...props }: LayoutProps) => (
+export const Layout = ({ children, ...props }: LayoutProps) => (
   <div className="mx-auto h-screen flex flex-col">
     <Nav {...props} />
 
@@ -153,4 +149,11 @@ Index.Layout = ({ children, ...props }: LayoutProps) => (
       </a>
     </footer>
   </div>
+);
+
+export default Object.assign(
+  function () {
+    return <App />;
+  },
+  { Layout },
 );

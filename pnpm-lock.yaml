@@ -38,6 +38,12 @@ importers:
       '@acme/utils':
         specifier: workspace:*
         version: link:../../packages/utils
+      '@dev/budget':
+        specifier: workspace:*
+        version: link:../../packages/budget
+      '@dev/design':
+        specifier: workspace:*
+        version: link:../../packages/design
       '@dev/web':
         specifier: workspace:*
         version: link:../../packages/web
@@ -75,6 +81,74 @@ importers:
       tailwindcss:
         specifier: ^3.2.1
         version: 3.2.4(postcss@8.4.19)(ts-node@10.9.1)
+      typescript:
+        specifier: 5.2.2
+        version: 5.2.2
+
+  packages/budget:
+    dependencies:
+      next:
+        specifier: '*'
+        version: 0.1.0
+      react:
+        specifier: ^17.0.0 || ^18.0.0-0
+        version: 18.2.0
+      react-dom:
+        specifier: ^17.0.0 || ^18.0.0-0
+        version: 18.2.0(react@18.2.0)
+      styled-components:
+        specifier: ^6.0.0
+        version: 6.0.8(react-dom@18.2.0)(react@18.2.0)
+    devDependencies:
+      '@types/react':
+        specifier: ^18.2.24
+        version: 18.2.24
+      '@types/styled-components':
+        specifier: ^5.1.26
+        version: 5.1.26
+      eslint:
+        specifier: ^8.11.0
+        version: 8.33.0
+      typescript:
+        specifier: 5.2.2
+        version: 5.2.2
+
+  packages/design:
+    dependencies:
+      '@react-three/drei':
+        specifier: ^9.56.8
+        version: 9.56.8(@react-three/fiber@8.10.1)(@types/three@0.158.0)(react-dom@18.2.0)(react@18.2.0)(three@0.158.0)
+      '@react-three/fiber':
+        specifier: ^8.10.1
+        version: 8.10.1(react-dom@18.2.0)(react@18.2.0)(three@0.158.0)
+      next:
+        specifier: '*'
+        version: 0.1.0
+      react:
+        specifier: ^17.0.0 || ^18.0.0-0
+        version: 18.2.0
+      react-dom:
+        specifier: ^17.0.0 || ^18.0.0-0
+        version: 18.2.0(react@18.2.0)
+      styled-components:
+        specifier: ^6.0.0
+        version: 6.0.8(react-dom@18.2.0)(react@18.2.0)
+      three:
+        specifier: ^0.158.0
+        version: 0.158.0
+    devDependencies:
+      '@types/react':
+        specifier: ^18.2.24
+        version: 18.2.24
+      '@types/styled-components':
+        specifier: ^5.1.26
+        version: 5.1.26
+      '@types/three':
+        specifier: ^0.158.0
+        version: 0.158.0
+      eslint:
+        specifier: ^8.11.0
+        version: 8.33.0
       typescript:
         specifier: 5.2.2
         version: 5.2.2

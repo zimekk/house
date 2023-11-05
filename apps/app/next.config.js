@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  basePath: "/house",
+  basePath: process.env.NODE_ENV === "production" ? "/house" : "",
   output: "export",
   transpilePackages: ["@acme/ui"],
 };
