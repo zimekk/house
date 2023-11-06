@@ -52,7 +52,7 @@ importers:
         version: 1.0.4(next@14.0.2-canary.12)(react-dom@18.2.0)(react@18.2.0)
       next:
         specifier: canary
-        version: 14.0.2-canary.12(react-dom@18.2.0)(react@18.2.0)
+        version: 14.0.2-canary.12(react-dom@18.2.0)(react@18.2.0)(sass@1.69.5)
       react:
         specifier: ^18.2.0
         version: 18.2.0
@@ -78,6 +78,9 @@ importers:
       postcss:
         specifier: ^8.4.18
         version: 8.4.19
+      sass:
+        specifier: ^1.69.5
+        version: 1.69.5
       tailwindcss:
         specifier: ^3.2.1
         version: 3.2.4(postcss@8.4.19)(ts-node@10.9.1)
@@ -2267,7 +2270,7 @@ packages:
     dependencies:
       '@swc/helpers': 0.4.14
       clsx: 1.2.1
-      next: 14.0.2-canary.12(react-dom@18.2.0)(react@18.2.0)
+      next: 14.0.2-canary.12(react-dom@18.2.0)(react@18.2.0)(sass@1.69.5)
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
       sugar-high: 0.4.6
@@ -3840,6 +3843,9 @@ packages:
     engines: {node: '>= 4'}
     dev: true
 
+  /immutable@4.3.4:
+    resolution: {integrity: sha512-fsXeu4J4i6WNWSikpI88v/PcVflZz+6kMhUfIwc5SY+poQRPnaf5V7qds6SUyUN3cVxEzuCab7QIoLOQ+DQ1wA==}
+
   /import-fresh@3.3.0:
     resolution: {integrity: sha512-veYYhQa+D1QBKznvhUHxb8faxlrwUnxseDAbAp457E0wLNio2bOSKnjYDhMj+YiAq61xrMGhQk9iXVk5FzgQMw==}
     engines: {node: '>=6'}
@@ -4504,7 +4510,7 @@ packages:
       es5-ext: 0.5.1
     dev: false
 
-  /next@14.0.2-canary.12(react-dom@18.2.0)(react@18.2.0):
+  /next@14.0.2-canary.12(react-dom@18.2.0)(react@18.2.0)(sass@1.69.5):
     resolution: {integrity: sha512-a0cH+VQpwlG2G1wf2l8DrL4vhow0T+H8zoZql8GqQbFrGOg3TgxVycDRvSmwkcrnvOCVN7P/wYA+XhMN8b+oYA==}
     engines: {node: '>=18.17.0'}
     hasBin: true
@@ -4526,6 +4532,7 @@ packages:
       postcss: 8.4.31
       react: 18.2.0
       react-dom: 18.2.0(react@18.2.0)
+      sass: 1.69.5
       styled-jsx: 5.1.1(react@18.2.0)
       watchpack: 2.4.0
     optionalDependencies:
@@ -5181,6 +5188,15 @@ packages:
       get-intrinsic: 1.2.1
       is-regex: 1.1.4
     dev: true
+
+  /sass@1.69.5:
+    resolution: {integrity: sha512-qg2+UCJibLr2LCVOt3OlPhr/dqVHWOa9XtZf2OjbLs/T4VPSJ00udtgJxH3neXZm+QqX8B+3cU7RaLqp1iVfcQ==}
+    engines: {node: '>=14.0.0'}
+    hasBin: true
+    dependencies:
+      chokidar: 3.5.3
+      immutable: 4.3.4
+      source-map-js: 1.0.2
 
   /scheduler@0.21.0:
     resolution: {integrity: sha512-1r87x5fz9MXqswA2ERLo0EbOAU74DpIUO090gIasYTqlVoJeMcl+Z1Rg7WHz+qtPujhS/hGIt9kxZOYBV3faRQ==}
