@@ -131,9 +131,9 @@ export const Layout = ({ children, ...props }: LayoutProps) => (
   <div className="mx-auto h-screen flex flex-col">
     <Nav {...props} />
 
-    <div className="flex-auto">{children}</div>
+    <div className="flex flex-auto">{children}</div>
 
-    <footer className="py-10 w-full mt-auto border-t flex items-center justify-center bg-accents-1 z-20">
+    {/* <footer className="py-10 w-full mt-auto border-t flex items-center justify-center bg-accents-1 z-20">
       <span className="text-primary">Created by</span>
       <a
         href="https://vercel.com"
@@ -147,7 +147,7 @@ export const Layout = ({ children, ...props }: LayoutProps) => (
           alt="Vercel.com Logo"
         />
       </a>
-    </footer>
+    </footer> */}
   </div>
 );
 
