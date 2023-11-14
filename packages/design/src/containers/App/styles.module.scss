@@ -1,0 +1,6 @@
+.Point {
+  cursor: move;
+  &.Active {
+    fill: blue;
+  }
+}

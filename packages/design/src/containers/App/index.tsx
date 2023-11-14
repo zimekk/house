@@ -1,5 +1,7 @@
 import { type MouseEventHandler, useCallback, useRef, useState } from "react";
+import { nanoid } from "nanoid";
 import Plan from "./Plan";
+import styles from "./styles.module.scss";
 
 // https://codesandbox.io/s/2w0oy6qnvn
 function Draggable({ ...props }: { x: number; y: number }) {
@@ -419,7 +421,31 @@ export function Elements() {
   );
 }
 
+type PointType = {
+  i: string;
+  x: number;
+  y: number;
+};
+
+function Point({ point }: { point: PointType }) {
+  return (
+    <circle
+      data-index={point.i}
+      cx={point.x}
+      cy={point.y}
+      r={15}
+      stroke="red"
+      className={styles.Point}
+    ></circle>
+  );
+}
+
 export default function App() {
+  const [active, setActive] = useState<string | undefined>(() => undefined);
+  const [points, setPoints] = useState<Record<string, PointType>>(() => ({}));
+  const ref = useRef<SVGSVGElement>(null);
+
+  console.log({ points });
   return (
     <div
       style={{
@@ -450,18 +476,49 @@ export default function App() {
           }}
         /> */}
         <svg
+          ref={ref}
           xmlns="http://www.w3.org/2000/svg"
-          onMouseDown={useCallback(() => {
-            console.log(["onMouseDown"]);
-          }, [])}
-          onMouseMove={useCallback(() => {
-            console.log(["onMouseMove"]);
-          }, [])}
+          onMouseDown={useCallback<MouseEventHandler>(
+            (e) => {
+              console.log(["onMouseDown"], e, e.target);
+              if (e.target === ref.current) {
+                const { x, y } = ref.current.getBoundingClientRect();
+                const point = { i: nanoid(), x: e.pageX - x, y: e.pageY - y };
+                setPoints((points) => ({
+                  ...points,
+                  [point.i]: point,
+                }));
+              } else if (
+                e.target instanceof SVGElement &&
+                e.target.classList.contains(styles.Point)
+              ) {
+                setActive(e.target.dataset["index"]);
+              }
+            },
+            [ref],
+          )}
+          onMouseMove={useCallback<MouseEventHandler>(
+            (e) => {
+              if (ref.current && active) {
+                const { x, y } = ref.current.getBoundingClientRect();
+                setPoints((points) => ({
+                  ...points,
+                  [active]: {
+                    ...points[active],
+                    x: e.pageX - x,
+                    y: e.pageY - y,
+                  },
+                }));
+              }
+            },
+            [active, points],
+          )}
           onMouseUp={useCallback(() => {
             console.log(["onMouseUp"]);
+            setActive(undefined);
           }, [])}
           onMouseOut={useCallback(() => {
-            console.log(["onMouseOut"]);
+            // console.log(["onMouseOut"]);
           }, [])}
           style={{
             position: "absolute",
@@ -497,9 +554,12 @@ export default function App() {
               d="M50,10 A40,40,1,1,1,50,90 A40,40,1,1,1,50,10 M30,40 Q36,35,42,40 M58,40 Q64,35,70,40 M30,60 Q50,75,70,60 Q50,75,30,60"
             />
           </defs>
-          <Elements />
+          {Object.values(points).map((point) => (
+            <Point key={point.i} point={point} />
+          ))}
+          {/* <Elements /> */}
           <Plan />
-          <svg
+          {/* <svg
             viewBox="0 0 100 100"
             width="60"
             height="30"
@@ -508,7 +568,7 @@ export default function App() {
             y="0"
           >
             <use href="#smiley" />
-          </svg>
+          </svg> */}
         </svg>
       </div>
     </div>
