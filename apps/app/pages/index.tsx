@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
 import { Button, Link } from "@vercel/examples-ui";
-import Vercel from "@vercel/examples-ui/icons/vercel";
+// import Vercel from "@vercel/examples-ui/icons/vercel";
 import App from "@dev/web";
 
 const REPO_URL = "https://github.com/vercel/examples/tree/main";

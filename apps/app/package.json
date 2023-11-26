@@ -17,6 +17,7 @@
     "@acme/utils": "workspace:*",
     "@dev/budget": "workspace:*",
     "@dev/design": "workspace:*",
+    "@dev/map": "workspace:*",
     "@dev/web": "workspace:*",
     "@vercel/examples-ui": "^1.0.4",
     "next": "canary",
