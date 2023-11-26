@@ -6,7 +6,8 @@ import { type Coordinate } from "ol/coordinate";
 import Feature from "ol/Feature";
 import Map from "ol/Map";
 import View from "ol/View";
-import { Polygon } from "ol/geom";
+import { GeoJSON } from "ol/format";
+// import { Polygon } from "ol/geom";
 import { Draw, Modify, Snap } from "ol/interaction";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
 import { transform } from "ol/proj";
@@ -46,34 +47,25 @@ class RotateNorthControl extends Control {
 }
 
 export default function App() {
-  const [features] = useState(() => [
-    new Feature({
-      geometry: new Polygon([
-        [
-          transform(
-            [20.75907447322544, 52.13477143461034],
-            "EPSG:4326",
-            "EPSG:3857",
-          ),
-          transform(
-            [20.75974786143117, 52.13469118662698],
-            "EPSG:4326",
-            "EPSG:3857",
-          ),
-          transform(
-            [20.759971036190713, 52.13442983819979],
-            "EPSG:4326",
-            "EPSG:3857",
-          ),
-          transform(
-            [20.758997907993905, 52.134528896721974],
-            "EPSG:4326",
-            "EPSG:3857",
-          ),
-        ],
-      ]),
-    }),
-  ]);
+  const [features] = useState(() => ({
+    type: "FeatureCollection",
+    features: [
+      {
+        type: "Feature",
+        geometry: {
+          type: "Polygon",
+          coordinates: [
+            [
+              [20.75907447322544, 52.13477143461034],
+              [20.75974786143117, 52.13469118662698],
+              [20.759971036190713, 52.13442983819979],
+              [20.758997907993905, 52.134528896721974],
+            ],
+          ],
+        },
+      },
+    ],
+  }));
   const [selectedCoord, setSelectedCoord] = useState<Coordinate>();
 
   // pull refs
@@ -86,9 +78,15 @@ export default function App() {
 
   // initialize map on first render - logic formerly put into componentDidMount
   useEffect(() => {
-    const source = new VectorSource({ features });
+    // https://gis.stackexchange.com/questions/330287/reproject-geojson-with-openlayers-5
+    const source = new VectorSource({
+      features: new GeoJSON({
+        // dataProjection: 'EPSG:4326',
+        featureProjection: "EPSG:3857",
+      }).readFeatures(features) as Feature[],
+    });
     const vector = new VectorLayer({
-      source: source,
+      source,
       style: new Style({
         fill: new Fill({
           color: "rgba(255, 255, 255, 0.2)",
@@ -155,17 +153,17 @@ export default function App() {
     });
 
     // https://openlayers.org/en/latest/examples/draw-and-modify-features.html
-    const modify = new Modify({ source: source });
+    const modify = new Modify({ source });
     map.addInteraction(modify);
 
     // https://tsauerwein.github.io/ol3/animation-flights/examples/draw-features.html
     const draw = new Draw({
-      source: source,
+      source,
       type: "Polygon",
     });
     map.addInteraction(draw);
 
-    const snap = new Snap({ source: source });
+    const snap = new Snap({ source });
     map.addInteraction(snap);
 
     // set map onclick handler
