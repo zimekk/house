@@ -1,18 +1,26 @@
 import { useEffect, useRef, useState } from "react";
 // openlayers
-import { Control, defaults as defaultControls } from "ol/Control";
+import { Control, defaults as defaultControls } from "ol/control";
 import ScaleLine from "ol/control/ScaleLine";
-import { Coordinate } from "ol/Coordinate";
+import { type Coordinate } from "ol/coordinate";
+// import { toStringXY } from 'ol/coordinate';
+import Feature from "ol/Feature";
 import Map from "ol/Map";
-import OSM from "ol/source/OSM";
 import View from "ol/View";
+import Point from "ol/geom/Point";
+import Polygon from "ol/geom/Polygon";
+import Draw from "ol/interaction/Draw";
 import TileLayer from "ol/layer/Tile";
 import VectorLayer from "ol/layer/Vector";
+import { transform } from "ol/proj";
+import OSM from "ol/source/OSM";
+import TileWMS from "ol/source/TileWMS";
 import VectorSource from "ol/source/Vector";
 // import XYZ from "ol/source/XYZ";
-import TileWMS from "ol/source/TileWMS";
-import { transform } from "ol/proj";
-// import {toStringXY} from 'ol/coordinate';
+import Style from "ol/style/Style";
+import Circle from "ol/style/Circle";
+import Fill from "ol/style/Fill";
+import Stroke from "ol/style/Stroke";
 import "ol/ol.css";
 import styles from "./styles.module.scss";
 
@@ -44,8 +52,42 @@ class RotateNorthControl extends Control {
 }
 
 export default function App() {
-  const [features, setFeatures] = useState(() => []);
-  // const [ featuresLayer, setFeaturesLayer ] = useState()
+  const [features] = useState(() => [
+    new Feature({
+      geometry: new Polygon([
+        [
+          transform(
+            [20.759074648790126, 52.134771410381745],
+            "EPSG:4326",
+            "EPSG:3857",
+          ),
+          transform(
+            [20.75974792819471, 52.13469098286498],
+            "EPSG:4326",
+            "EPSG:3857",
+          ),
+          transform(
+            [20.75997122979982, 52.13442974707036],
+            "EPSG:4326",
+            "EPSG:3857",
+          ),
+          transform(
+            [20.758997850859455, 52.13452854926538],
+            "EPSG:4326",
+            "EPSG:3857",
+          ),
+        ],
+      ]),
+      labelPoint: new Point(
+        transform(
+          [20.75940405898775, 52.13464930933981],
+          "EPSG:4326",
+          "EPSG:3857",
+        ),
+      ),
+      name: "My Polygon",
+    }),
+  ]);
   const [selectedCoord, setSelectedCoord] = useState<Coordinate>();
 
   // pull refs
@@ -58,6 +100,26 @@ export default function App() {
 
   // initialize map on first render - logic formerly put into componentDidMount
   useEffect(() => {
+    const source = new VectorSource();
+    const vector = new VectorLayer({
+      source: source,
+      style: new Style({
+        fill: new Fill({
+          color: "rgba(255, 255, 255, 0.2)",
+        }),
+        stroke: new Stroke({
+          color: "#ffcc33",
+          width: 2,
+        }),
+        image: new Circle({
+          radius: 7,
+          fill: new Fill({
+            color: "#ffcc33",
+          }),
+        }),
+      }),
+    });
+
     // create and add vector source layer
     const initalFeaturesLayer = new VectorLayer({
       source: new VectorSource(),
@@ -94,6 +156,7 @@ export default function App() {
           }),
         }),
         initalFeaturesLayer,
+        vector,
       ].filter(Boolean),
       view: new View({
         // projection: 'EPSG:4326',
@@ -111,12 +174,19 @@ export default function App() {
       ]),
     });
 
+    // https://tsauerwein.github.io/ol3/animation-flights/examples/draw-features.html
+    const draw = new Draw({
+      source: source,
+      type: "Polygon",
+    });
+    initialMap.addInteraction(draw);
+
     // set map onclick handler
     initialMap.on("click", handleMapClick);
 
     mapRef.current = initialMap;
     featuresLayerRef.current = initalFeaturesLayer;
-  }, [mapRef]);
+  }, []);
 
   // update map if features prop changes - logic formerly put into componentDidUpdate
   useEffect(() => {
@@ -131,12 +201,12 @@ export default function App() {
       );
 
       // fit map to feature extent (with 100px of padding)
-      const source = featuresLayerRef.current.getSource();
-      if (source) {
-        mapRef.current.getView().fit(source.getExtent(), {
-          padding: [100, 100, 100, 100],
-        });
-      }
+      // const source = featuresLayerRef.current.getSource();
+      // if (source) {
+      //   mapRef.current.getView().fit(source.getExtent(), {
+      //     padding: [100, 100, 100, 100],
+      //   });
+      // }
     }
   }, [features]);
 
