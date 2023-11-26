@@ -1,26 +1,20 @@
 import { useEffect, useRef, useState } from "react";
 // openlayers
-import { Control, defaults as defaultControls } from "ol/control";
-import ScaleLine from "ol/control/ScaleLine";
+import { Control, ScaleLine, defaults as defaultControls } from "ol/control";
 import { type Coordinate } from "ol/coordinate";
 // import { toStringXY } from 'ol/coordinate';
 import Feature from "ol/Feature";
 import Map from "ol/Map";
 import View from "ol/View";
-import Point from "ol/geom/Point";
-import Polygon from "ol/geom/Polygon";
-import Draw from "ol/interaction/Draw";
-import TileLayer from "ol/layer/Tile";
-import VectorLayer from "ol/layer/Vector";
+import { Polygon } from "ol/geom";
+import { Draw, Modify, Snap } from "ol/interaction";
+import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
 import { transform } from "ol/proj";
 import OSM from "ol/source/OSM";
 import TileWMS from "ol/source/TileWMS";
 import VectorSource from "ol/source/Vector";
 // import XYZ from "ol/source/XYZ";
-import Style from "ol/style/Style";
-import Circle from "ol/style/Circle";
-import Fill from "ol/style/Fill";
-import Stroke from "ol/style/Stroke";
+import { Circle, Fill, Stroke, Style } from "ol/style";
 import "ol/ol.css";
 import styles from "./styles.module.scss";
 
@@ -57,35 +51,27 @@ export default function App() {
       geometry: new Polygon([
         [
           transform(
-            [20.759074648790126, 52.134771410381745],
+            [20.75907447322544, 52.13477143461034],
             "EPSG:4326",
             "EPSG:3857",
           ),
           transform(
-            [20.75974792819471, 52.13469098286498],
+            [20.75974786143117, 52.13469118662698],
             "EPSG:4326",
             "EPSG:3857",
           ),
           transform(
-            [20.75997122979982, 52.13442974707036],
+            [20.759971036190713, 52.13442983819979],
             "EPSG:4326",
             "EPSG:3857",
           ),
           transform(
-            [20.758997850859455, 52.13452854926538],
+            [20.758997907993905, 52.134528896721974],
             "EPSG:4326",
             "EPSG:3857",
           ),
         ],
       ]),
-      labelPoint: new Point(
-        transform(
-          [20.75940405898775, 52.13464930933981],
-          "EPSG:4326",
-          "EPSG:3857",
-        ),
-      ),
-      name: "My Polygon",
     }),
   ]);
   const [selectedCoord, setSelectedCoord] = useState<Coordinate>();
@@ -100,7 +86,7 @@ export default function App() {
 
   // initialize map on first render - logic formerly put into componentDidMount
   useEffect(() => {
-    const source = new VectorSource();
+    const source = new VectorSource({ features });
     const vector = new VectorLayer({
       source: source,
       style: new Style({
@@ -120,13 +106,8 @@ export default function App() {
       }),
     });
 
-    // create and add vector source layer
-    const initalFeaturesLayer = new VectorLayer({
-      source: new VectorSource(),
-    });
-
     // create map
-    const initialMap = new Map({
+    const map = new Map({
       target: mapElement.current || undefined,
       layers: [
         new TileLayer({
@@ -155,7 +136,6 @@ export default function App() {
             },
           }),
         }),
-        initalFeaturesLayer,
         vector,
       ].filter(Boolean),
       view: new View({
@@ -174,32 +154,29 @@ export default function App() {
       ]),
     });
 
+    // https://openlayers.org/en/latest/examples/draw-and-modify-features.html
+    const modify = new Modify({ source: source });
+    map.addInteraction(modify);
+
     // https://tsauerwein.github.io/ol3/animation-flights/examples/draw-features.html
     const draw = new Draw({
       source: source,
       type: "Polygon",
     });
-    initialMap.addInteraction(draw);
+    map.addInteraction(draw);
+
+    const snap = new Snap({ source: source });
+    map.addInteraction(snap);
 
     // set map onclick handler
-    initialMap.on("click", handleMapClick);
+    map.on("click", handleMapClick);
 
-    mapRef.current = initialMap;
-    featuresLayerRef.current = initalFeaturesLayer;
+    mapRef.current = map;
   }, []);
 
   // update map if features prop changes - logic formerly put into componentDidUpdate
   useEffect(() => {
     if (mapRef.current && featuresLayerRef.current && features.length) {
-      // may be null on first render
-
-      // set features to map
-      featuresLayerRef.current.setSource(
-        new VectorSource({
-          features: features, // make sure features is an array
-        }),
-      );
-
       // fit map to feature extent (with 100px of padding)
       // const source = featuresLayerRef.current.getSource();
       // if (source) {
