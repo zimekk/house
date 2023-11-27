@@ -10,7 +10,7 @@ import { GeoJSON } from "ol/format";
 // import { Polygon } from "ol/geom";
 import { Draw, Modify, Snap } from "ol/interaction";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
-import { transform } from "ol/proj";
+import { fromLonLat, transform } from "ol/proj";
 import OSM from "ol/source/OSM";
 import TileWMS from "ol/source/TileWMS";
 import VectorSource from "ol/source/Vector";
@@ -137,13 +137,8 @@ export default function App() {
         vector,
       ].filter(Boolean),
       view: new View({
-        // projection: 'EPSG:4326',
         projection: "EPSG:3857",
-        center: transform(
-          [20.75854578484479, 52.13468296989453],
-          "EPSG:4326",
-          "EPSG:3857",
-        ),
+        center: fromLonLat([20.75854578484479, 52.13468296989453]),
         zoom: 18,
       }),
       controls: defaultControls().extend([
@@ -174,15 +169,15 @@ export default function App() {
 
   // update map if features prop changes - logic formerly put into componentDidUpdate
   useEffect(() => {
-    if (mapRef.current && featuresLayerRef.current && features.length) {
-      // fit map to feature extent (with 100px of padding)
-      // const source = featuresLayerRef.current.getSource();
-      // if (source) {
-      //   mapRef.current.getView().fit(source.getExtent(), {
-      //     padding: [100, 100, 100, 100],
-      //   });
-      // }
-    }
+    // if (mapRef.current && featuresLayerRef.current && features.length) {
+    //   // fit map to feature extent (with 100px of padding)
+    //   const source = featuresLayerRef.current.getSource();
+    //   if (source) {
+    //     mapRef.current.getView().fit(source.getExtent(), {
+    //       padding: [100, 100, 100, 100],
+    //     });
+    //   }
+    // }
   }, [features]);
 
   // map click handler
