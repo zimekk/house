@@ -37,7 +37,7 @@
     "@react-three/drei": "^9.56.8",
     "@react-three/fiber": "^8.10.1",
     "styled-components": "^6.0.0",
-    "three": "^0.159.0"
+    "three": "^0.160.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.24",
