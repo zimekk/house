@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^18.0.0
-        version: 18.6.1(@types/node@20.11.22)(typescript@5.3.3)
+        version: 18.6.1(@types/node@18.19.20)(typescript@5.3.3)
       '@commitlint/config-conventional':
         specifier: ^18.0.0
         version: 18.6.2
@@ -123,7 +123,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.99.4(@react-three/fiber@8.15.16)(@types/react@18.2.60)(@types/three@0.160.0)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
+        version: 9.99.4(@react-three/fiber@8.15.16)(@types/react@18.2.60)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.15.16(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
@@ -156,8 +156,8 @@ importers:
         specifier: ^5.1.26
         version: 5.1.34
       '@types/three':
-        specifier: ^0.160.0
-        version: 0.160.0
+        specifier: ^0.161.0
+        version: 0.161.2
       eslint:
         specifier: ^8.11.0
         version: 8.57.0
@@ -237,7 +237,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.99.4(@react-three/fiber@8.15.16)(@types/react@18.2.60)(@types/three@0.160.0)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
+        version: 9.99.4(@react-three/fiber@8.15.16)(@types/react@18.2.60)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.15.16(react-dom@18.2.0)(react@18.2.0)(three@0.161.0)
@@ -264,8 +264,8 @@ importers:
         specifier: ^5.1.26
         version: 5.1.34
       '@types/three':
-        specifier: ^0.160.0
-        version: 0.160.0
+        specifier: ^0.161.0
+        version: 0.161.2
       eslint:
         specifier: ^8.11.0
         version: 8.57.0
@@ -1602,14 +1602,14 @@ packages:
       to-fast-properties: 2.0.0
     dev: false
 
-  /@commitlint/cli@18.6.1(@types/node@20.11.22)(typescript@5.3.3):
+  /@commitlint/cli@18.6.1(@types/node@18.19.20)(typescript@5.3.3):
     resolution: {integrity: sha512-5IDE0a+lWGdkOvKH892HHAZgbAjcj1mT5QrfA/SVbLJV/BbBMGyKN0W5mhgjekPJJwEQdVNvhl9PwUacY58Usw==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/format': 18.6.1
       '@commitlint/lint': 18.6.1
-      '@commitlint/load': 18.6.1(@types/node@20.11.22)(typescript@5.3.3)
+      '@commitlint/load': 18.6.1(@types/node@18.19.20)(typescript@5.3.3)
       '@commitlint/read': 18.6.1
       '@commitlint/types': 18.6.1
       execa: 5.1.1
@@ -1681,7 +1681,7 @@ packages:
       '@commitlint/types': 18.6.1
     dev: true
 
-  /@commitlint/load@18.6.1(@types/node@20.11.22)(typescript@5.3.3):
+  /@commitlint/load@18.6.1(@types/node@18.19.20)(typescript@5.3.3):
     resolution: {integrity: sha512-p26x8734tSXUHoAw0ERIiHyW4RaI4Bj99D8YgUlVV9SedLf8hlWAfyIFhHRIhfPngLlCe0QYOdRKYFt8gy56TA==}
     engines: {node: '>=v18'}
     dependencies:
@@ -1691,7 +1691,7 @@ packages:
       '@commitlint/types': 18.6.1
       chalk: 4.1.2
       cosmiconfig: 8.3.6(typescript@5.3.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.11.22)(cosmiconfig@8.3.6)(typescript@5.3.3)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@18.19.20)(cosmiconfig@8.3.6)(typescript@5.3.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -2062,7 +2062,7 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.99.4(@react-three/fiber@8.15.16)(@types/react@18.2.60)(@types/three@0.160.0)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0):
+  /@react-three/drei@9.99.4(@react-three/fiber@8.15.16)(@types/react@18.2.60)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.161.0):
     resolution: {integrity: sha512-Dig6SmsOIF1LiGAatU0WjFAgNqCixfHhO6BGlvb16E0vVi+t3S5WJbyEQO6msRgYu7pGQLCy9m0iBcfLUz8vkw==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
@@ -2082,7 +2082,7 @@ packages:
       cross-env: 7.0.3
       detect-gpu: 5.0.38
       glsl-noise: 0.0.0
-      maath: 0.10.7(@types/three@0.160.0)(three@0.161.0)
+      maath: 0.10.7(@types/three@0.161.2)(three@0.161.0)
       meshline: 3.2.0(three@0.161.0)
       react: 18.2.0
       react-composer: 5.0.3(react@18.2.0)
@@ -2192,12 +2192,6 @@ packages:
       undici-types: 5.26.5
     dev: true
 
-  /@types/node@20.11.22:
-    resolution: {integrity: sha512-/G+IxWxma6V3E+pqK1tSl2Fo1kl41pK1yeCyDsgkF9WlVAme4j5ISYM2zR11bgLFJGLN5sVK40T4RJNuiZbEjA==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: true
-
   /@types/normalize-package-data@2.4.4:
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
     dev: true
@@ -2246,20 +2240,16 @@ packages:
     resolution: {integrity: sha512-OSaMrXUKxVigGlKRrET39V2xdhzlztQ9Aqumn1WbCBKHOi9ry7jKSd7rkyj0GzmWaU960Rd+LpOFpLfx5bMQAg==}
     dev: false
 
-  /@types/three@0.160.0:
-    resolution: {integrity: sha512-jWlbUBovicUKaOYxzgkLlhkiEQJkhCVvg4W2IYD2trqD2om3VK4DGLpHH5zQHNr7RweZK/5re/4IVhbhvxbV9w==}
+  /@types/three@0.161.2:
+    resolution: {integrity: sha512-DazpZ+cIfBzbW/p0zm6G8CS03HBMd748A3R1ZOXHpqaXZLv2I5zNgQUrRG//UfJ6zYFp2cUoCQaOLaz8ubH07w==}
     dependencies:
       '@types/stats.js': 0.17.1
-      '@types/webxr': 0.5.5
+      '@types/webxr': 0.5.14
       fflate: 0.6.10
       meshoptimizer: 0.18.1
 
   /@types/webxr@0.5.14:
     resolution: {integrity: sha512-UEMMm/Xn3DtEa+gpzUrOcDj+SJS1tk5YodjwOxcqStNhCfPcwgyC5Srg2ToVKyg2Fhq16Ffpb0UWUQHqoT9AMA==}
-    dev: false
-
-  /@types/webxr@0.5.5:
-    resolution: {integrity: sha512-HVOsSRTQYx3zpVl0c0FBmmmcY/60BkQLzVnpE9M1aG4f2Z0aKlBWfj4XZ2zr++XNBfkQWYcwhGlmuu44RJPDqg==}
 
   /@typescript-eslint/parser@5.44.0(eslint@8.57.0)(typescript@5.3.3):
     resolution: {integrity: sha512-H7LCqbZnKqkkgQHaKLGC6KUjt3pjJDx8ETDqmwncyb6PuoigYajyAwBGz08VU/l86dZWZgI4zm5k2VaKqayYyA==}
@@ -2920,7 +2910,7 @@ packages:
       browserslist: 4.23.0
     dev: false
 
-  /cosmiconfig-typescript-loader@5.0.0(@types/node@20.11.22)(cosmiconfig@8.3.6)(typescript@5.3.3):
+  /cosmiconfig-typescript-loader@5.0.0(@types/node@18.19.20)(cosmiconfig@8.3.6)(typescript@5.3.3):
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==}
     engines: {node: '>=v16'}
     peerDependencies:
@@ -2928,7 +2918,7 @@ packages:
       cosmiconfig: '>=8.2'
       typescript: '>=4'
     dependencies:
-      '@types/node': 20.11.22
+      '@types/node': 18.19.20
       cosmiconfig: 8.3.6(typescript@5.3.3)
       jiti: 1.21.0
       typescript: 5.3.3
@@ -4509,13 +4499,13 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /maath@0.10.7(@types/three@0.160.0)(three@0.161.0):
+  /maath@0.10.7(@types/three@0.161.2)(three@0.161.0):
     resolution: {integrity: sha512-zQ2xd7dNOIVTjAS+hj22fyj1EFYmOJX6tzKjZ92r6WDoq8hyFxjuGA2q950tmR4iC/EKXoMQdSipkaJVuUHDTg==}
     peerDependencies:
       '@types/three': '>=0.144.0'
       three: '>=0.144.0'
     dependencies:
-      '@types/three': 0.160.0
+      '@types/three': 0.161.2
       three: 0.161.0
     dev: false
 
