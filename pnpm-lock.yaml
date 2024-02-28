@@ -200,7 +200,7 @@ importers:
     dependencies:
       '@swc/helpers':
         specifier: ^0.5.0
-        version: 0.5.2
+        version: 0.5.6
       clsx:
         specifier: ^2.0.0
         version: 2.0.0
@@ -2128,6 +2128,12 @@ packages:
 
   /@swc/helpers@0.5.2:
     resolution: {integrity: sha512-E4KcWTpoLHqwPHLxidpOqQbcrZVgi0rsmmZXUle1jXmJfuIf/UWpczUJ7MZZ5tlxytgJXyp0w4PGkkeLiuIdZw==}
+    dependencies:
+      tslib: 2.6.2
+    dev: false
+
+  /@swc/helpers@0.5.6:
+    resolution: {integrity: sha512-aYX01Ke9hunpoCexYAgQucEpARGQ5w/cqHFrIR+e9gdKb1QWTsVJuTJ2ozQzIAxLyRQe/m+2RqzkyOOGiMKRQA==}
     dependencies:
       tslib: 2.6.2
     dev: false
