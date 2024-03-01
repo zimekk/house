@@ -123,7 +123,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.99.5(@react-three/fiber@8.15.16)(@types/react@18.2.61)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+        version: 9.99.5(@react-three/fiber@8.15.16)(@types/react@18.2.61)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.15.16(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
@@ -156,8 +156,8 @@ importers:
         specifier: ^5.1.26
         version: 5.1.34
       '@types/three':
-        specifier: ^0.161.0
-        version: 0.161.2
+        specifier: ^0.162.0
+        version: 0.162.0
       eslint:
         specifier: ^8.11.0
         version: 8.57.0
@@ -237,7 +237,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.99.5(@react-three/fiber@8.15.16)(@types/react@18.2.61)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+        version: 9.99.5(@react-three/fiber@8.15.16)(@types/react@18.2.61)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.15.16(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
@@ -264,8 +264,8 @@ importers:
         specifier: ^5.1.26
         version: 5.1.34
       '@types/three':
-        specifier: ^0.161.0
-        version: 0.161.2
+        specifier: ^0.162.0
+        version: 0.162.0
       eslint:
         specifier: ^8.11.0
         version: 8.57.0
@@ -856,7 +856,7 @@ packages:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.99.5(@react-three/fiber@8.15.16)(@types/react@18.2.61)(@types/three@0.161.2)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0):
+  /@react-three/drei@9.99.5(@react-three/fiber@8.15.16)(@types/react@18.2.61)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0):
     resolution: {integrity: sha512-9gqzYvuyd1Wtvv/+s+FdSogQdehDXUvZmhqKXw8EeBbqZaySpjvMcTf1B2hHNVVkgKl/zQHRf2z+240UsrrPXg==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
@@ -876,7 +876,7 @@ packages:
       cross-env: 7.0.3
       detect-gpu: 5.0.38
       glsl-noise: 0.0.0
-      maath: 0.10.7(@types/three@0.161.2)(three@0.162.0)
+      maath: 0.10.7(@types/three@0.162.0)(three@0.162.0)
       meshline: 3.2.0(three@0.162.0)
       react: 18.2.0
       react-composer: 5.0.3(react@18.2.0)
@@ -979,6 +979,9 @@ packages:
       tslib: 2.6.2
     dev: false
 
+  /@tweenjs/tween.js@23.1.1:
+    resolution: {integrity: sha512-ZpboH7pCPPeyBWKf8c7TJswtCEQObFo3bOBYalm99NzZarATALYCo5OhbCa/n4RQyJyHfhkdx+hNrdL5ByFYDw==}
+
   /@types/conventional-commits-parser@5.0.0:
     resolution: {integrity: sha512-loB369iXNmAZglwWATL+WRe+CRMmmBPtpolYzIebFaX4YA3x+BEfLqhUAV9WanycKI3TG1IMr5bMJDajDKLlUQ==}
     dependencies:
@@ -1050,9 +1053,10 @@ packages:
     resolution: {integrity: sha512-n4sx2bqL0mW1tvDf/loQ+aMX7GQD3lc3fkCMC55VFNDu/vBOabO+LTIeXKM14xK0ppk5TUGcWRjiSpIlUpghKw==}
     dev: false
 
-  /@types/three@0.161.2:
-    resolution: {integrity: sha512-DazpZ+cIfBzbW/p0zm6G8CS03HBMd748A3R1ZOXHpqaXZLv2I5zNgQUrRG//UfJ6zYFp2cUoCQaOLaz8ubH07w==}
+  /@types/three@0.162.0:
+    resolution: {integrity: sha512-0j5yZcVukVIhrhSIC7+LmBPkkMoMuEJ1AfYBZfgNytdYqYREMuiyXWhYOMeZLBElTEAlJIZn7r2W3vqTIgjWlg==}
     dependencies:
+      '@tweenjs/tween.js': 23.1.1
       '@types/stats.js': 0.17.3
       '@types/webxr': 0.5.14
       fflate: 0.6.10
@@ -3125,13 +3129,13 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /maath@0.10.7(@types/three@0.161.2)(three@0.162.0):
+  /maath@0.10.7(@types/three@0.162.0)(three@0.162.0):
     resolution: {integrity: sha512-zQ2xd7dNOIVTjAS+hj22fyj1EFYmOJX6tzKjZ92r6WDoq8hyFxjuGA2q950tmR4iC/EKXoMQdSipkaJVuUHDTg==}
     peerDependencies:
       '@types/three': '>=0.144.0'
       three: '>=0.144.0'
     dependencies:
-      '@types/three': 0.161.2
+      '@types/three': 0.162.0
       three: 0.162.0
     dev: false
 
