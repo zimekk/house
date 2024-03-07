@@ -44,6 +44,6 @@
     "@types/styled-components": "^5.1.26",
     "@types/three": "^0.162.0",
     "eslint": "^8.11.0",
-    "typescript": "5.3.3"
+    "typescript": "5.4.2"
   }
 }
