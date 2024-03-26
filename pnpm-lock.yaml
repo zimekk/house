@@ -135,7 +135,7 @@ importers:
         version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
       ol:
         specifier: ^9.0.0
-        version: 9.0.0
+        version: 9.1.0
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.2.0
@@ -172,7 +172,7 @@ importers:
         version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
       ol:
         specifier: ^9.0.0
-        version: 9.0.0
+        version: 9.1.0
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.2.0
@@ -3530,8 +3530,8 @@ packages:
       es-object-atoms: 1.0.0
     dev: true
 
-  /ol@9.0.0:
-    resolution: {integrity: sha512-+nYHZYbHrRUTDJ8ryxXPdDoAiaT6Zea02cocmGqsJXs4Oac1fYC9EbTIU2Y7803QcmG3u2MR88RxbksBvK+ZfQ==}
+  /ol@9.1.0:
+    resolution: {integrity: sha512-nDrkJ2tzZNpo/wzN/PpHV5zdxbnXZaFktoMaD2cFLEc6gCwlgLY21Yd8wnt/4FjaVYwLBnbN9USXSwIBGcyksQ==}
     dependencies:
       color-rgba: 3.0.0
       color-space: 2.0.1
