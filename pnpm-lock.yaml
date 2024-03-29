@@ -10,7 +10,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.0.0
-        version: 19.2.1(@types/node@20.11.30)(typescript@5.4.3)
+        version: 19.2.1(@types/node@18.19.26)(typescript@5.4.3)
       '@commitlint/config-conventional':
         specifier: ^19.0.0
         version: 19.1.0
@@ -123,10 +123,10 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.102.6(@react-three/fiber@8.16.0)(@types/react@18.2.73)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+        version: 9.102.6(@react-three/fiber@8.16.0)(@types/react@18.2.73)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
       '@react-three/fiber':
         specifier: ^8.10.1
-        version: 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+        version: 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
       nanoid:
         specifier: ^5.0.3
         version: 5.0.6
@@ -146,8 +146,8 @@ importers:
         specifier: ^6.0.0
         version: 6.1.8(react-dom@18.2.0)(react@18.2.0)
       three:
-        specifier: ^0.162.0
-        version: 0.162.0
+        specifier: ^0.163.0
+        version: 0.163.0
     devDependencies:
       '@types/react':
         specifier: ^18.2.24
@@ -237,10 +237,10 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.102.6(@react-three/fiber@8.16.0)(@types/react@18.2.73)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+        version: 9.102.6(@react-three/fiber@8.16.0)(@types/react@18.2.73)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
       '@react-three/fiber':
         specifier: ^8.10.1
-        version: 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+        version: 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
       next:
         specifier: '*'
         version: 14.1.4(react-dom@18.2.0)(react@18.2.0)
@@ -254,8 +254,8 @@ importers:
         specifier: ^6.0.0
         version: 6.1.8(react-dom@18.2.0)(react@18.2.0)
       three:
-        specifier: ^0.162.0
-        version: 0.162.0
+        specifier: ^0.163.0
+        version: 0.163.0
     devDependencies:
       '@types/react':
         specifier: ^18.2.24
@@ -314,14 +314,14 @@ packages:
     dependencies:
       regenerator-runtime: 0.14.1
 
-  /@commitlint/cli@19.2.1(@types/node@20.11.30)(typescript@5.4.3):
+  /@commitlint/cli@19.2.1(@types/node@18.19.26)(typescript@5.4.3):
     resolution: {integrity: sha512-cbkYUJsLqRomccNxvoJTyv5yn0bSy05BBizVyIcLACkRbVUqYorC351Diw/XFSWC/GtpwiwT2eOvQgFZa374bg==}
     engines: {node: '>=v18'}
     hasBin: true
     dependencies:
       '@commitlint/format': 19.0.3
       '@commitlint/lint': 19.1.0
-      '@commitlint/load': 19.2.0(@types/node@20.11.30)(typescript@5.4.3)
+      '@commitlint/load': 19.2.0(@types/node@18.19.26)(typescript@5.4.3)
       '@commitlint/read': 19.2.1
       '@commitlint/types': 19.0.3
       execa: 8.0.1
@@ -390,7 +390,7 @@ packages:
       '@commitlint/types': 19.0.3
     dev: true
 
-  /@commitlint/load@19.2.0(@types/node@20.11.30)(typescript@5.4.3):
+  /@commitlint/load@19.2.0(@types/node@18.19.26)(typescript@5.4.3):
     resolution: {integrity: sha512-XvxxLJTKqZojCxaBQ7u92qQLFMMZc4+p9qrIq/9kJDy8DOrEa7P1yx7Tjdc2u2JxIalqT4KOGraVgCE7eCYJyQ==}
     engines: {node: '>=v18'}
     dependencies:
@@ -400,7 +400,7 @@ packages:
       '@commitlint/types': 19.0.3
       chalk: 5.3.0
       cosmiconfig: 9.0.0(typescript@5.4.3)
-      cosmiconfig-typescript-loader: 5.0.0(@types/node@20.11.30)(cosmiconfig@9.0.0)(typescript@5.4.3)
+      cosmiconfig-typescript-loader: 5.0.0(@types/node@18.19.26)(cosmiconfig@9.0.0)(typescript@5.4.3)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -838,7 +838,7 @@ packages:
       react: 18.2.0
     dev: false
 
-  /@react-spring/three@9.6.1(@react-three/fiber@8.16.0)(react@18.2.0)(three@0.162.0):
+  /@react-spring/three@9.6.1(@react-three/fiber@8.16.0)(react@18.2.0)(three@0.163.0):
     resolution: {integrity: sha512-Tyw2YhZPKJAX3t2FcqvpLRb71CyTe1GvT3V+i+xJzfALgpk10uPGdGaQQ5Xrzmok1340DAeg2pR/MCfaW7b8AA==}
     peerDependencies:
       '@react-three/fiber': '>=6.0'
@@ -849,16 +849,16 @@ packages:
       '@react-spring/core': 9.6.1(react@18.2.0)
       '@react-spring/shared': 9.6.1(react@18.2.0)
       '@react-spring/types': 9.6.1
-      '@react-three/fiber': 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+      '@react-three/fiber': 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
       react: 18.2.0
-      three: 0.162.0
+      three: 0.163.0
     dev: false
 
   /@react-spring/types@9.6.1:
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
     dev: false
 
-  /@react-three/drei@9.102.6(@react-three/fiber@8.16.0)(@types/react@18.2.73)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.162.0):
+  /@react-three/drei@9.102.6(@react-three/fiber@8.16.0)(@types/react@18.2.73)(@types/three@0.162.0)(react-dom@18.2.0)(react@18.2.0)(three@0.163.0):
     resolution: {integrity: sha512-FUR7Ea3GLsxFmAGv8byVPgkhEB84VveiT23gIJMqTb/xCBkSHXvHGCiFgZOiiTScAT+GR8txrlX7dA8nbXJDKg==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
@@ -871,25 +871,25 @@ packages:
     dependencies:
       '@babel/runtime': 7.24.1
       '@mediapipe/tasks-vision': 0.10.8
-      '@react-spring/three': 9.6.1(@react-three/fiber@8.16.0)(react@18.2.0)(three@0.162.0)
-      '@react-three/fiber': 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.162.0)
+      '@react-spring/three': 9.6.1(@react-three/fiber@8.16.0)(react@18.2.0)(three@0.163.0)
+      '@react-three/fiber': 8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.163.0)
       '@use-gesture/react': 10.3.0(react@18.2.0)
-      camera-controls: 2.8.3(three@0.162.0)
+      camera-controls: 2.8.3(three@0.163.0)
       cross-env: 7.0.3
       detect-gpu: 5.0.38
       glsl-noise: 0.0.0
-      maath: 0.10.7(@types/three@0.162.0)(three@0.162.0)
-      meshline: 3.2.0(three@0.162.0)
+      maath: 0.10.7(@types/three@0.162.0)(three@0.163.0)
+      meshline: 3.2.0(three@0.163.0)
       react: 18.2.0
       react-composer: 5.0.3(react@18.2.0)
       react-dom: 18.2.0(react@18.2.0)
       stats-gl: 2.2.7
       stats.js: 0.17.0
       suspend-react: 0.1.3(react@18.2.0)
-      three: 0.162.0
-      three-mesh-bvh: 0.7.3(three@0.162.0)
-      three-stdlib: 2.29.6(three@0.162.0)
-      troika-three-text: 0.49.0(three@0.162.0)
+      three: 0.163.0
+      three-mesh-bvh: 0.7.3(three@0.163.0)
+      three-stdlib: 2.29.6(three@0.163.0)
+      troika-three-text: 0.49.0(three@0.163.0)
       tunnel-rat: 0.1.2(@types/react@18.2.73)(react@18.2.0)
       utility-types: 3.11.0
       uuid: 9.0.1
@@ -900,7 +900,7 @@ packages:
       - immer
     dev: false
 
-  /@react-three/fiber@8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.162.0):
+  /@react-three/fiber@8.16.0(react-dom@18.2.0)(react@18.2.0)(three@0.163.0):
     resolution: {integrity: sha512-mLyeie8UvMmQe8qs5RD/4KGxlekHuG8YXMKSilMbQ8hTIhBs68h+nEa/9xLkDus9ZnXr1GxRzd6WYNNZpU6EkA==}
     peerDependencies:
       expo: '>=43.0'
@@ -937,7 +937,7 @@ packages:
       react-use-measure: 2.1.1(react-dom@18.2.0)(react@18.2.0)
       scheduler: 0.21.0
       suspend-react: 0.1.3(react@18.2.0)
-      three: 0.162.0
+      three: 0.163.0
       zustand: 3.7.2(react@18.2.0)
     dev: false
 
@@ -1007,12 +1007,6 @@ packages:
 
   /@types/node@18.19.26:
     resolution: {integrity: sha512-+wiMJsIwLOYCvUqSdKTrfkS8mpTp+MPINe6+Np4TAGFWWRWiBQ5kSq9nZGCSPkzx9mvT+uEukzpX4MOSCydcvw==}
-    dependencies:
-      undici-types: 5.26.5
-    dev: true
-
-  /@types/node@20.11.30:
-    resolution: {integrity: sha512-dHM6ZxwlmuZaRmUPfv1p+KrdD1Dci04FbdEm/9wEMouFqxYoFl5aMkt0VMAUtYRQDyYvD41WJLukhq/ha3YuTw==}
     dependencies:
       undici-types: 5.26.5
     dev: true
@@ -1497,12 +1491,12 @@ packages:
     resolution: {integrity: sha512-dU+Tx2fsypxTgtLoE36npi3UqcjSSMNYfkqgmoEhtZrraP5VWq0K7FkWVTYa8eMPtnU/G2txVsfdCJTn9uzpuQ==}
     dev: false
 
-  /camera-controls@2.8.3(three@0.162.0):
+  /camera-controls@2.8.3(three@0.163.0):
     resolution: {integrity: sha512-zFjqUR6onLkG+z1A6vAWfzovxZxWVSvp6e5t3lfZgfgPZtX3n74aykNAUaoRbq8Y3tOxadHkDjbfGDOP9hFf2w==}
     peerDependencies:
       three: '>=0.126.1'
     dependencies:
-      three: 0.162.0
+      three: 0.163.0
     dev: false
 
   /caniuse-lite@1.0.30001599:
@@ -1680,7 +1674,7 @@ packages:
       split2: 4.2.0
     dev: true
 
-  /cosmiconfig-typescript-loader@5.0.0(@types/node@20.11.30)(cosmiconfig@9.0.0)(typescript@5.4.3):
+  /cosmiconfig-typescript-loader@5.0.0(@types/node@18.19.26)(cosmiconfig@9.0.0)(typescript@5.4.3):
     resolution: {integrity: sha512-+8cK7jRAReYkMwMiG+bxhcNKiHJDM6bR9FD/nGBXOWdMLuYawjF5cGrtLilJ+LGd3ZjCXnJjR5DkfWPoIVlqJA==}
     engines: {node: '>=v16'}
     peerDependencies:
@@ -1688,7 +1682,7 @@ packages:
       cosmiconfig: '>=8.2'
       typescript: '>=4'
     dependencies:
-      '@types/node': 20.11.30
+      '@types/node': 18.19.26
       cosmiconfig: 9.0.0(typescript@5.4.3)
       jiti: 1.21.0
       typescript: 5.4.3
@@ -3249,14 +3243,14 @@ packages:
       yallist: 4.0.0
     dev: true
 
-  /maath@0.10.7(@types/three@0.162.0)(three@0.162.0):
+  /maath@0.10.7(@types/three@0.162.0)(three@0.163.0):
     resolution: {integrity: sha512-zQ2xd7dNOIVTjAS+hj22fyj1EFYmOJX6tzKjZ92r6WDoq8hyFxjuGA2q950tmR4iC/EKXoMQdSipkaJVuUHDTg==}
     peerDependencies:
       '@types/three': '>=0.144.0'
       three: '>=0.144.0'
     dependencies:
       '@types/three': 0.162.0
-      three: 0.162.0
+      three: 0.163.0
     dev: false
 
   /meow@12.1.1:
@@ -3273,12 +3267,12 @@ packages:
     engines: {node: '>= 8'}
     dev: true
 
-  /meshline@3.2.0(three@0.162.0):
+  /meshline@3.2.0(three@0.163.0):
     resolution: {integrity: sha512-ZaJkC967GTuef7UBdO0rGPX544oIWaNo7tYedVHSoR2lje6RR16fX8IsgMxgxoYYERtjqsRWIYBSPBxG4QR84Q==}
     peerDependencies:
       three: '>=0.137'
     dependencies:
-      three: 0.162.0
+      three: 0.163.0
     dev: false
 
   /meshoptimizer@0.18.1:
@@ -4393,15 +4387,15 @@ packages:
       any-promise: 1.3.0
     dev: true
 
-  /three-mesh-bvh@0.7.3(three@0.162.0):
+  /three-mesh-bvh@0.7.3(three@0.163.0):
     resolution: {integrity: sha512-3W6KjzmupjfE89GuHPT31kxKWZ4YGZPEZJNysJpiOZfQRsBQQgmK7v/VJPpjG6syhAvTnY+5Fr77EvIkTLpGSw==}
     peerDependencies:
       three: '>= 0.151.0'
     dependencies:
-      three: 0.162.0
+      three: 0.163.0
     dev: false
 
-  /three-stdlib@2.29.6(three@0.162.0):
+  /three-stdlib@2.29.6(three@0.163.0):
     resolution: {integrity: sha512-nj9bHkzhhwfmqQcM/keC2RDb0bHhbw6bRXTy81ehzi8F1rtp6pJ5eS0/vl1Eg5RMFqXOMyxJ6sDHPoLU+IrVZg==}
     peerDependencies:
       three: '>=0.128.0'
@@ -4412,11 +4406,11 @@ packages:
       draco3d: 1.5.7
       fflate: 0.6.10
       potpack: 1.0.2
-      three: 0.162.0
+      three: 0.163.0
     dev: false
 
-  /three@0.162.0:
-    resolution: {integrity: sha512-xfCYj4RnlozReCmUd+XQzj6/5OjDNHBy5nT6rVwrOKGENAvpXe2z1jL+DZYaMu4/9pNsjH/4Os/VvS9IrH7IOQ==}
+  /three@0.163.0:
+    resolution: {integrity: sha512-HlMgCb2TF/dTLRtknBnjUTsR8FsDqBY43itYop2+Zg822I+Kd0Ua2vs8CvfBVefXkBdNDrLMoRTGCIIpfCuDew==}
     dev: false
 
   /through@2.3.8:
@@ -4429,24 +4423,24 @@ packages:
     dependencies:
       is-number: 7.0.0
 
-  /troika-three-text@0.49.0(three@0.162.0):
+  /troika-three-text@0.49.0(three@0.163.0):
     resolution: {integrity: sha512-sn9BNC6eIX8OO3iAkPwjecJ7Pn21Ve8P1UNFMNeQzXx759rrqS4i4pSZs7FLMYdWyCKVXBFGimBySFwRKLjq/Q==}
     peerDependencies:
       three: '>=0.125.0'
     dependencies:
       bidi-js: 1.0.3
-      three: 0.162.0
-      troika-three-utils: 0.49.0(three@0.162.0)
+      three: 0.163.0
+      troika-three-utils: 0.49.0(three@0.163.0)
       troika-worker-utils: 0.49.0
       webgl-sdf-generator: 1.1.1
     dev: false
 
-  /troika-three-utils@0.49.0(three@0.162.0):
+  /troika-three-utils@0.49.0(three@0.163.0):
     resolution: {integrity: sha512-umitFL4cT+Fm/uONmaQEq4oZlyRHWwVClaS6ZrdcueRvwc2w+cpNQ47LlJKJswpqtMFWbEhOLy0TekmcPZOdYA==}
     peerDependencies:
       three: '>=0.125.0'
     dependencies:
-      three: 0.162.0
+      three: 0.163.0
     dev: false
 
   /troika-worker-utils@0.49.0:
