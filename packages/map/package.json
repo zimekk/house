@@ -41,6 +41,6 @@
     "@types/react": "^18.2.24",
     "@types/styled-components": "^5.1.26",
     "eslint": "^9.0.0",
-    "typescript": "5.4.4"
+    "typescript": "5.4.5"
   }
 }
