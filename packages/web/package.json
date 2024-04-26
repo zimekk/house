@@ -42,7 +42,7 @@
   "devDependencies": {
     "@types/react": "^18.2.24",
     "@types/styled-components": "^5.1.26",
-    "@types/three": "^0.163.0",
+    "@types/three": "^0.164.0",
     "eslint": "^9.0.0",
     "typescript": "5.4.5"
   }
