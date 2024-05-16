@@ -74,7 +74,7 @@ export default function App() {
   // create state ref that can be accessed in OpenLayers onclick callback function
   //  https://stackoverflow.com/a/60643670
   const mapRef = useRef<Map>();
-  const featuresLayerRef = useRef<VectorLayer<VectorSource>>();
+  // const featuresLayerRef = useRef<VectorLayer<VectorSource>>();
 
   // initialize map on first render - logic formerly put into componentDidMount
   useEffect(() => {
@@ -83,8 +83,8 @@ export default function App() {
       features: new GeoJSON({
         // dataProjection: 'EPSG:4326',
         featureProjection: "EPSG:3857",
-      }).readFeatures(features) as Feature[],
-    });
+      }).readFeatures(features),
+    }) as any; // https://github.com/infra-geo-ouverte/igo2-lib/issues/1516
     const vector = new VectorLayer({
       source,
       style: new Style({
