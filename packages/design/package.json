@@ -39,12 +39,12 @@
     "nanoid": "^5.0.3",
     "ol": "^9.0.0",
     "styled-components": "^6.0.0",
-    "three": "^0.164.0"
+    "three": "^0.167.0"
   },
   "devDependencies": {
     "@types/react": "^18.2.24",
     "@types/styled-components": "^5.1.26",
-    "@types/three": "^0.164.0",
+    "@types/three": "^0.167.0",
     "eslint": "^9.0.0",
     "typescript": "5.4.5"
   }
