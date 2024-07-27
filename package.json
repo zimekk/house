@@ -23,6 +23,7 @@
   "lint-staged": {
     "*.{json,js,jsx,md,scss,ts,tsx,css,yml,yaml}": "prettier --write"
   },
+  "packageManager": "pnpm@9.6.0",
   "scripts": {
     "build": "turbo run build",
     "dev": "turbo run dev",
@@ -33,7 +34,7 @@
     "update:browserlist": "pnpm update caniuse-lite -r",
     "update:dedupe": "pnpm dedupe",
     "update:latest": "pnpm update --interactive --latest",
-    "prepare": "husky install"
+    "prepare": "husky && turbo telemetry disable"
   },
   "workspaces": [
     "apps/*",
@@ -46,7 +47,7 @@
     "husky": "^9.0.0",
     "lint-staged": "^15.0.2",
     "prettier": "^3.0.0",
-    "turbo": "^1.10.16"
+    "turbo": "^2.0.0"
   },
   "resolutions": {
     "next": "~14.2.0"
