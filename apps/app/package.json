@@ -17,6 +17,7 @@
     "@acme/utils": "workspace:*",
     "@dev/budget": "workspace:*",
     "@dev/design": "workspace:*",
+    "@dev/inspirations": "workspace:*",
     "@dev/map": "workspace:*",
     "@dev/rooms": "workspace:*",
     "@dev/web": "workspace:*",
