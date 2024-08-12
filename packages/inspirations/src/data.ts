@@ -1,5 +1,13 @@
 export const inspirations = [
   {
+    url: "https://www.rakceramics.com/europe/en/bathroom-kitchen/collections/rak-joy-uno/",
+    src: "https://diix1yrt822hg.cloudfront.net/media/products/sanitary_ware/suite/images/ambience/__sized__/9ffaec9605707ec57196c0c27881cee3cc6b3b00-crop-c0-5__0-5-1600x775-70.jpg",
+  },
+  {
+    url: "https://www.wallanddeco.com/en-us/catalog/families/contemporary-wallpaper-collection-2019-kansas-city/",
+    src: "https://wd2-media.devark.it/t9xTgotQT7po7oJswgEl8vHpT3o=/960x/filters:quality(100)/http%3A%2F%2Fwadm%2Fcatalog%2Ffamilygallerymediaitem%2Ffile%2Fkansas-city.jpg",
+  },
+  {
     url: "https://sl-ab.com/projekty/wnetrza/heroldow/",
     src: "https://sl-ab.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJ/TNBJTJGJTJGc2wtYWIuY29tJTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDI0JTJGMDElMkZTTEFCLXN0dWRpby1hcmNoaXRla3Rvbmljem5lLWFyY2hpdGVrdHVyYS13bmV0cnotcHJvamVrdC1oZXJvbGRvdy1qYXBhbmRpLTkuanBnJmNhY2hlTWFya2VyPTE3MDU5NTUxMzEtNzE3NTMmdG9rZW49MjgwNDg3ZWRkMzk3OTAyNA.q.jpg",
   },
