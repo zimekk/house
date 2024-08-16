@@ -86,7 +86,7 @@ importers:
         version: 9.9.0(jiti@1.21.6)
       eslint-config-next:
         specifier: canary
-        version: 15.0.0-canary.117(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
+        version: 15.0.0-canary.118(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
       postcss:
         specifier: ^8.4.18
         version: 8.4.41
@@ -132,7 +132,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.110.0(@react-three/fiber@8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1))(@types/react@18.3.3)(@types/three@0.167.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)
+        version: 9.111.0(@react-three/fiber@8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1))(@types/react@18.3.3)(@types/three@0.167.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)
@@ -308,7 +308,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.110.0(@react-three/fiber@8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1))(@types/react@18.3.3)(@types/three@0.167.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)
+        version: 9.111.0(@react-three/fiber@8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1))(@types/react@18.3.3)(@types/three@0.167.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)
@@ -511,8 +511,8 @@ packages:
   '@next/env@14.2.5':
     resolution: {integrity: sha512-/zZGkrTOsraVfYjGP8uM0p6r0BDT6xWpkjdVbcz66PJVSpwXX3yNiRycxAuDfBKGWBrZBXRuK/YVlkNgxHGwmA==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.117':
-    resolution: {integrity: sha512-TV9UTJ53mEujStOE3+GB5x/72VvYnjafXcaXdcmvddwd9aVsqJaiZLxoS4nm4gpNkUNnq0WPV1+rlWOZqND++g==}
+  '@next/eslint-plugin-next@15.0.0-canary.118':
+    resolution: {integrity: sha512-Dz2Z64ZJ2EER9641xdeCDpHOPu5pRGzOb0lnhHx7FSfMlHCbGBGQi/FNGuH9ObEyMBaIdmY/d3l0WFs5ps5lDg==}
 
   '@next/swc-darwin-arm64@14.2.5':
     resolution: {integrity: sha512-/9zVxJ+K9lrzSGli1///ujyRfon/ZneeZ+v4ptpiPoOU+GKZnm8Wj8ELWU1Pm7GHltYRBklmXMTUqM/DqQ99FQ==}
@@ -615,8 +615,8 @@ packages:
   '@react-spring/types@9.6.1':
     resolution: {integrity: sha512-POu8Mk0hIU3lRXB3bGIGe4VHIwwDsQyoD1F394OK7STTiX9w4dG3cTLljjYswkQN+hDSHRrj4O36kuVa7KPU8Q==}
 
-  '@react-three/drei@9.110.0':
-    resolution: {integrity: sha512-i1oJOibzc9IC4h+knNFDGijMu1zvD4zyLcxZlDPywoaRnKrOjjLsncB/aNHrvHX9n7Ocs6X3iDbpPUSr8XYU2w==}
+  '@react-three/drei@9.111.0':
+    resolution: {integrity: sha512-NQnbyjxERulrWPX/rdT0gFnBqKkk745O1e14Zj1WPbwbyjzwIlzbtLGreSSC4HgbAMrUV4xjIND9EKMfFHLprg==}
     peerDependencies:
       '@react-three/fiber': '>=8.0'
       react: '>=18.0'
@@ -1290,8 +1290,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.0.0-canary.117:
-    resolution: {integrity: sha512-ro2Hexj7G1naHueozTw0qeiXoR9xdZ4qMfGDxhgH1dJJ66rOz7pH/LzPLnBmYxLjD5VJlCqGBo+Psml4dd6ahA==}
+  eslint-config-next@15.0.0-canary.118:
+    resolution: {integrity: sha512-wWzct0/1oOlu2uEW0JLbzKE6kRmo7JOmBBNHo4y1RqkPwgSrlJsRC58thGGAeTcyk+D/KVl/3KsjZ9Qj4dln6Q==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -3009,7 +3009,7 @@ snapshots:
 
   '@next/env@14.2.5': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.117':
+  '@next/eslint-plugin-next@15.0.0-canary.118':
     dependencies:
       fast-glob: 3.3.1
 
@@ -3091,7 +3091,7 @@ snapshots:
 
   '@react-spring/types@9.6.1': {}
 
-  '@react-three/drei@9.110.0(@react-three/fiber@8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1))(@types/react@18.3.3)(@types/three@0.167.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)':
+  '@react-three/drei@9.111.0(@react-three/fiber@8.17.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1))(@types/react@18.3.3)(@types/three@0.167.1)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.167.1)':
     dependencies:
       '@babel/runtime': 7.25.0
       '@mediapipe/tasks-vision': 0.10.8
@@ -3906,9 +3906,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.0.0-canary.117(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4):
+  eslint-config-next@15.0.0-canary.118(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.117
+      '@next/eslint-plugin-next': 15.0.0-canary.118
       '@rushstack/eslint-patch': 1.10.1
       '@typescript-eslint/eslint-plugin': 7.17.0(@typescript-eslint/parser@7.2.0(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4))(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
       '@typescript-eslint/parser': 7.2.0(eslint@9.9.0(jiti@1.21.6))(typescript@5.5.4)
