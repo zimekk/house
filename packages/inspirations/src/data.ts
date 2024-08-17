@@ -1,5 +1,193 @@
 export const inspirations = [
   {
+    url: "https://www.intra-lighting.com/family?family=Minus",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions/V-Appartment-3-Minus-Intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Dawn",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/dinning-dawn-intra-lighting-3.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family-child?family=GlazerS",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Yesodot-5-glazer-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Kalis",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/XLAB-1-kalis-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Kalis",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Qualcomm-7-kalis-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Cut",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Cove-rv-lounge-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=PipesTube",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Vinarija-tarpos-6-pipes-tube-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Cove",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Lynar_RI_Zoe_intra_lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Cove",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Insider-1-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=RyloPro",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-office-3-rylo-rylo-pro-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=RyloPro",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-office-1-rylo-pro-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=RyloPro",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions/Private-office-3-rylo-rylo-pro-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Edge",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/corridor-edge-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Fyo",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Lounge-fyo-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Fyo",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Lounge-fyo-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Atos",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/dinning_Dawn_Atos_intra_lighting_3.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Atos",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Kitchen_LYNAR_atos_Biba_intra_lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Atos",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/dinning_Dawn_Atos_intra_lighting_2.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Atos",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Bathroom-Lynar-Futon-Mirror-Atos-intra-lighting-2.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Atos",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/futon-mirror-round-night-scene.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Conic",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-residence-9-conic-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Conic",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Feel-Good-Hotel-3-Conic-WH-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Conic",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-residence-1-conic-insider-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Conic",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-residence-5-conic-insider-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Eye",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-residence-7-eye-insider-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Eye",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/B&W-office-8-biba-lynar-eye-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Pipes",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/G2-travel-6-biba-pipes-c-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Pipes",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/G2-travel-7-pipes-r-pipes-c-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Pipes",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Craft-3-pipes-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Pipes",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/San-secondo-4-pipes-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Pipes",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/residence-mb-pipes-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Hunter",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-office-1-rylo-pro-hunter-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Nola",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/lounge-nola-vitka-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Nola",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Hallway-nola-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Nola",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Corridor-3-nola-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Nola",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Hallway-nola-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family-child?family=NucleoC",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Office-nucleo-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Lona",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/House-M-2-Lona-Intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Lona_O",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Yesodot-10-lona-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Lona_O",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/XLAB-5-lona-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Karo",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Homuth-and-Partner-8-karo-Intra-lighting.jpg",
+  },
+  {
+    url: "https://www.intra-lighting.com/family?family=Karo",
+    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/prostoria_1_karo-intra-lighting.jpg",
+  },
+  {
+    url: "https://www.gabrielash.com/collections/classic/products/the-six",
+    src: "https://www.gabrielash.com/cdn/shop/products/Gabriel-Ash-Greenhouses-Made-in-the-Cotswolds-Classic-Six_1800x1800.jpg",
+  },
+  {
+    url: "https://www.gabrielash.com/collections/cold-frames/products/the-upright-coldframe",
+    src: "https://www.gabrielash.com/cdn/shop/products/Gabriel-Ash-Greenhouses-Upright-Coldframes_1800x1800.jpg?v=1645198352",
+  },
+  {
+    url: "https://hallsgreenhouses.com/halls-qube-square",
+    src: "https://damcache.juliana.com/v-638526057393557627/0e/ab/a734-48cf-4f8e-aa52-a75acc80f7c1/_KSM1639.jpg",
+  },
+  {
+    url: "https://hallsgreenhouses.com/halls-qube-lean-to",
+    src: "https://damcache.juliana.com/v-638525808364968143/12/f4/2923-2299-49c9-aaf1-396142a38a38/f09937_halls_qube_lean-to612_5701701099373-7-lowres.jpg",
+  },
+  {
+    url: "https://juliana.com/juliana-compact",
+    src: "https://damcache.juliana.com/v-638525760762197294/56/9e/57a5-0a59-45a8-b18b-43f1fbe0ce52/f09558-compact-6-6-antr-mani-haerdet.jpg",
+  },
+  {
     url: "https://www.rakceramics.com/europe/en/bathroom-kitchen/collections/rak-joy-uno/",
     src: "https://diix1yrt822hg.cloudfront.net/media/products/sanitary_ware/suite/images/ambience/__sized__/9ffaec9605707ec57196c0c27881cee3cc6b3b00-crop-c0-5__0-5-1600x775-70.jpg",
   },
