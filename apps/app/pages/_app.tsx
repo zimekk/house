@@ -15,7 +15,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
   return (
     <Layout
       title="Monorepo"
-      links={["budget", "design", "inspirations", "map", "rooms"]}
+      links={["budget", "design", "inspirations", "map", "rooms", "tools"]}
       path="solutions/monorepo"
     >
       <Component {...pageProps} />
