@@ -1,4 +1,37 @@
+// copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
+  {
+    url: "https://www.ledvance.com/consumer/company/about-ledvance/power-of-light",
+    src: "https://www.ledvance.com/05_LEDVANCE_and_Partner/13176831/image-thumb__13176831__herostage_slim/asset-13176831_pv_panels_colony_panorama.png",
+  },
+  {
+    url: "https://www.westwing.pl/dekoracja-scienna-serif-151650.html",
+    src: "https://static.westwingnow.de/image/upload/seo/t_default.pdp_seo/simple/44/4491/2239070/Dekoracja-scienna-Serif.jpg",
+  },
+  {
+    url: "https://vhct.pl/beton-architektoniczny/produkt/beton-architektoniczny-3d-pb-09",
+    src: "https://vhct.pl/assets/images/5/50x50-51627-d5022259.jpg",
+  },
+  {
+    url: "https://vhct.pl/beton-architektoniczny/produkt/beton-architektoniczny-3d-pb-10",
+    src: "https://vhct.pl/assets/images/1/VHCT-PB-10-A-22970-cb53aeab.jpg",
+  },
+  {
+    url: "https://vhct.pl/beton-architektoniczny/produkt/beton-architektoniczny-3d-pb-13",
+    src: "https://vhct.pl/assets/images/6/pb13-79197-8489d395.jpg",
+  },
+  {
+    url: "https://vhct.pl/beton-architektoniczny/produkt/beton-architektoniczny-3d-pb-13",
+    src: "https://vhct.pl/assets/images/0/pb13b-89850-3b4b757e.jpg",
+  },
+  {
+    url: "https://vestone.pl/produkt/plyty-tarasowe-musso/",
+    src: "https://vestone.pl/wp-content/uploads/2022/05/MUSSO_topaz_x1022_1200_900-02.jpg",
+  },
+  {
+    url: "https://www.infoarchitekta.pl/window/artykuly/2023/n/okladziny_scienne_od_luxum/Luxum_plyty_betonowe_ryflowane_w_strukturze_Tonale.XX.webp/co/artykuly:3-nowosci-firmowe:25098-najmodniejsze-trendy-okladziny-scienne-od-luxum.html",
+    src: "https://www.infoarchitekta.pl/php/fot_produkt.php?s=htmlarea/uploaded/2023/n/okladziny_scienne_od_luxum/Luxum_plyty_betonowe_ryflowane_w_strukturze_Tonale.XX.webp&ex=jpg&zp=7657&w=1280&h=875&url=Luxum_plyty_betonowe_ryflowane_w_strukturze_Tonale.XX.webp",
+  },
   {
     url: "https://www.intra-lighting.com/family?family=Minus",
     src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions/V-Appartment-3-Minus-Intra-lighting.jpg",
