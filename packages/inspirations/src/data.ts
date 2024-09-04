@@ -1,6 +1,34 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://www.homebook.pl/inspiracje/ogrod/1141221_plyty-imitujace-drewno-bruk-bet-ogrod-styl-rustykalny",
+    src: "https://img.shmbk.pl/rimgsph/1379379_45bda7a6-5952-44d6-8acf-7dabdd01aaff_max_900_1200_plyty-imitujace-drewno-bruk-bet-ogrod-styl-rustykalny.jpg",
+  },
+  {
+    url: "https://www.homebook.pl/inspiracje/ogrod/866209_nowoczesny-ogrod-w-darlowo-ogrod-styl-minimalistyczny",
+    src: "https://img.shmbk.pl/rimgsph/1207744_aa9ca960-2dc0-4c2e-b4d1-297bb2c40164_max_900_1200_nowoczesny-ogrod-w-darlowo-ogrod-styl-minimalistyczny.jpg",
+  },
+  {
+    url: "https://www.homebook.pl/inspiracje/taras/1110528_taras-drewniany-taras-styl-minimalistyczny",
+    src: "https://img.shmbk.pl/rimgsph/1267011_f31c8be6-87d8-4ed3-8d8b-aa675984b226_max_900_1200_taras-drewniany-taras-styl-minimalistyczny.jpg",
+  },
+  {
+    url: "https://www.homebook.pl/inspiracje/taras/758758_gigant-taras-styl-nowoczesny",
+    src: "https://img.shmbk.pl/rimgsph/412362_a2b7b71f-c924-4a11-ad97-e5ac707d5c53_max_1600_1052_gigant-taras-styl-nowoczesny.jpg",
+  },
+  {
+    url: "https://www.homebook.pl/inspiracje/taras/618701_zdjecie-taras-styl-nowoczesny",
+    src: "https://img.shmbk.pl/rimgsph/412362_4663eaa9-03dc-47bf-a62a-1c238844c9f0_max_900_1200_zdjecie-taras-styl-nowoczesny.jpg",
+  },
+  {
+    url: "https://www.homebook.pl/inspiracje/taras/706128_promiennik-podczerwieni-na-stylowym-staywie-taras-styl-nowoczesny",
+    src: "https://img.shmbk.pl/rimgsph/1071355_875d09b3-5e06-4724-bd4f-2b71807d67e4_max_900_1200_promiennik-podczerwieni-na-stylowym-staywie-taras-styl-nowoczesny.jpg",
+  },
+  {
+    url: "https://mrowka.com.pl/porady/artykul/ogrod-w-geometrycznym-planie.html",
+    src: "https://mrowka.com.pl/files/Article_Ant/LeadFoto/geck5e40k8h90l/na_wejscie_ogrod-w-geometrycznym-planie-adobe.jpg",
+  },
+  {
     url: "https://www.ledvance.com/consumer/company/about-ledvance/power-of-light",
     src: "https://www.ledvance.com/05_LEDVANCE_and_Partner/13176831/image-thumb__13176831__herostage_slim/asset-13176831_pv_panels_colony_panorama.png",
   },
