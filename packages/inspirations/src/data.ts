@@ -1,6 +1,526 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-s/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/warszawa-dom-s-fot-piotr-krajewski-HQ_08_D_3K2A2335-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-s/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/warszawa-dom-s-fot-piotr-krajewski-HQ_17_D_3K2A2259-kopia-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-s/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/warszawa-dom-s-fot-piotr-krajewski-HQ_20_DJI_0089-kopia-2048x1365.jpg",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-k/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/konin-dom-k-fot-piotr-krajewski-HQ_18_D_3K2A3233-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-k/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/konin-dom-k-fot-piotr-krajewski-HQ_37_W_3K2A2993-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-k/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/konin-dom-k-fot-piotr-krajewski-HQ_41_W_3K2A3116-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/House-013-2048x1298.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/House-005-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/House-012-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/House-015-2048x1193.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/House-026-2048x1365.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-hai/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/UJECIE-1_DRZEWO-1568x969.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-hai/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/UJECIE-3-2048x1266.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-hai/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/UJECIE-4-2048x1266.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-spleciony/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/UJECIE-1-1568x882.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-spleciony/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/UJECIE-5-1-2048x1152.jpg.webp",
+  },
+  {
+    url: "https://www.stoprocentarchitekci.pl/projekty/dom-spleciony/",
+    src: "https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/07/UJECIE-6-2048x1152.jpg.webp",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_1.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_6.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_10.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_15.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_17.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/littlewood/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_extra2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_A.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_L_4_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_U_4_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_H_Portrait_.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_P_Portrait.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_F_3_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_Q_4_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_R_4_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_D_3_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_T_Portait.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_V_4_Square.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_E_3_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_K_Portrait.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/stucco-house/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_S_4_5B.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/homegrown/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_UF10_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/homegrown/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_UF10_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/homegrown/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_UF10_4.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_1.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_16.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_10_square.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_11.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_14.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_4.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH6_13.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_1.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_5-e1717565338150.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_4.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_8.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_9.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_10.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-3-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_14.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH9_4.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH9_13.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH9_6.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH9_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH9_15B.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH9_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-8-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH17_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-8-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH17_11.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-8-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH17_9.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/malvern-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH13_6.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/malvern-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH13_14.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/malvern-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH13_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/malvern-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH13_9.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/hawthorn-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH11_11B.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/hawthorn-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH11_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/hawthorn-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH11_13.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/hawthorn-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH11_5-e1717474743618.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/hawthorn-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH11_14.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-6-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH8_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-6-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH8_9.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_12.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_13.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_3.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_8.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_11.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-2-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/Inform_Valley106115_1.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-2-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/Inform_Valley106105_1.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/glen-iris-2-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/InForm-Glen-Iris-2-18.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_4.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_3B.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_1-e1717561689557.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_6.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/blairgowrie-4-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_2.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-6-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH20_14.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-6-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH20_8.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-6-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH20_4.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-6-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH20_7.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/brighton-6-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH20_13.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/kew-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH22_7B.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/kew-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH22_10.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/kew-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH22_5.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/kew-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH22_11.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/kew-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH22_4.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/kew-east-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH22_12.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/sorrento-house-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH23_18B.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/sorrento-house-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH23_11.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/sorrento-house-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH23_10.jpg",
+  },
+  {
+    url: "https://informdesign.com.au/completed/sorrento-house-2/",
+    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH23_3.jpg",
+  },
+  {
+    url: "https://www.vogue.com/article/puffy-furniture-is-2021s-most-delightful-home-trend",
+    src: "https://assets.vogue.com/photos/6090681cfbf6959095844367/master/w_2560%2Cc_limit/1005lv.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/pethouse-w-krakowie-wnetrze-z-drewna-kamienia-i-stali",
+    src: "https://www.vogue.pl/uploads/repository/aplikacja/oskar-firek-angel-stradom--oni-studio-1875-24.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/pethouse-w-krakowie-wnetrze-z-drewna-kamienia-i-stali",
+    src: "https://www.vogue.pl/images/blog/gallery/4085/oskar-firek-angel-stradom--oni-studio-1809-19_1600.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/pethouse-w-krakowie-wnetrze-z-drewna-kamienia-i-stali",
+    src: "https://www.vogue.pl/images/blog/gallery/4085/rw6gg_1600.jpeg",
+  },
+  {
+    url: "https://www.vogue.pl/a/pethouse-w-krakowie-wnetrze-z-drewna-kamienia-i-stali",
+    src: "https://www.vogue.pl/images/blog/gallery/4085/oskar-firek-angel-stradom--oni-studio-1952-28_1600.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/pethouse-w-krakowie-wnetrze-z-drewna-kamienia-i-stali",
+    src: "https://www.vogue.pl/images/blog/gallery/4085/s8ih1_1600.jpeg",
+  },
+  {
+    url: "https://www.vogue.pl/a/letni-dom-parterowy-wtopiony-w-zielen-nieopodal-warszawy",
+    src: "https://www.vogue.pl/uploads/repository/dom_w_warszawie/mana-design-radonie--oni-studio-7880-20.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/letni-dom-parterowy-wtopiony-w-zielen-nieopodal-warszawy",
+    src: "https://www.vogue.pl/images/blog/gallery/4314/mana-design-radonie--oni-studio-2537-1_1600.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/letni-dom-parterowy-wtopiony-w-zielen-nieopodal-warszawy",
+    src: "https://www.vogue.pl/images/blog/gallery/4314/mana-design-radonie--oni-studio-5449-3_1600.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/letni-dom-parterowy-wtopiony-w-zielen-nieopodal-warszawy",
+    src: "https://www.vogue.pl/images/blog/gallery/4314/mana-design-radonie--oni-studio-7752-14_1600.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/letni-dom-parterowy-wtopiony-w-zielen-nieopodal-warszawy",
+    src: "https://www.vogue.pl/images/blog/gallery/4314/mana-design-radonie--oni-studio-7698-12_1600.jpg",
+  },
+  {
+    url: "https://www.vogue.pl/a/letni-dom-parterowy-wtopiony-w-zielen-nieopodal-warszawy",
+    src: "https://www.vogue.pl/images/blog/gallery/4314/oliwer-rasztawicki-radonie--oni-studio-2258-31_1600.jpg",
+  },
+  {
+    url: "https://www.voguescandinavia.com/articles/best-nordic-interior-design-arrivals-july-2024-2",
+    src: "https://images.vs-static.com/x3r0XOzVsUFXIev7k2RXyl4h1j0=/750x0/Foku_chairs_by_101_Copenhagen_8fa06c8eb1/Foku_chairs_by_101_Copenhagen_8fa06c8eb1.jpg",
+  },
+  {
+    url: "https://www.voguescandinavia.com/articles/best-nordic-interior-design-arrivals-july-2024-2",
+    src: "https://images.vs-static.com/wY7LrhBXBHaVsVMFuAGga6g4TQE=/1900x0/Ilva_sofa_314ff6bc59/Ilva_sofa_314ff6bc59.jpg",
+  },
+  {
     url: "https://www.homebook.pl/inspiracje/ogrod/1141221_plyty-imitujace-drewno-bruk-bet-ogrod-styl-rustykalny",
     src: "https://img.shmbk.pl/rimgsph/1379379_45bda7a6-5952-44d6-8acf-7dabdd01aaff_max_900_1200_plyty-imitujace-drewno-bruk-bet-ogrod-styl-rustykalny.jpg",
   },
@@ -267,6 +787,50 @@ export const inspirations = [
   {
     url: "https://www.tectastudio.pl/wn%C4%99trza?pgid=l1c3l0e1-8e69497c-5713-40c5-b956-b2dc62b30da8",
     src: "https://static.wixstatic.com/media/d67420_f63390746d50499db620f97dcec0b945~mv2.jpg/v1/fit/w_646,h_540,q_90/d67420_f63390746d50499db620f97dcec0b945~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-41a378e4-aee1-48c3-a98d-8e1aefecab71",
+    src: "https://static.wixstatic.com/media/d67420_0d2760c1771f4cdfb8ae07bfd99cb3fc~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_0d2760c1771f4cdfb8ae07bfd99cb3fc~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-0554b843-b229-41cc-a17d-9461a77a2dab",
+    src: "https://static.wixstatic.com/media/d67420_aa926f5e76a74cb59e08ce12aa62e509~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_aa926f5e76a74cb59e08ce12aa62e509~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-153cae0b-ead3-4f41-b346-4c83a7141b46",
+    src: "https://static.wixstatic.com/media/d67420_e1a3a70d81434d399cdce647448be76a~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_e1a3a70d81434d399cdce647448be76a~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-b137efdc-6c0d-464a-a90e-6f1022751832",
+    src: "https://static.wixstatic.com/media/d67420_ef9e9b3c5d014e12ae3cd029018884b0~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_ef9e9b3c5d014e12ae3cd029018884b0~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-68f478dc-7c3a-4072-aaad-fa22217deadc",
+    src: "https://static.wixstatic.com/media/d67420_e904f97f63d6437fa8f2a2c2dc60ff24~mv2.png/v1/fit/w_1100,h_294,q_90/d67420_e904f97f63d6437fa8f2a2c2dc60ff24~mv2.png",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-e336b051-6926-4d2b-95c2-a5f94edb9250",
+    src: "https://static.wixstatic.com/media/d67420_a0f107e1e85b446eb3311bbd7746e6b0~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_a0f107e1e85b446eb3311bbd7746e6b0~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-474f3ee9-73d2-4aad-bc2f-2bcc7cad1001",
+    src: "https://static.wixstatic.com/media/d67420_1c7d907e81a64c18abda99445becd078~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_1c7d907e81a64c18abda99445becd078~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-72dbae5c-919b-4b5c-949a-da5e3d0cc564",
+    src: "https://static.wixstatic.com/media/d67420_66fc85e26c5a497195a67859d586357a~mv2.png/v1/fit/w_1100,h_294,q_90/d67420_66fc85e26c5a497195a67859d586357a~mv2.png",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-070fa600-c6e2-4038-93ca-90d8972efaff",
+    src: "https://static.wixstatic.com/media/d67420_03e491d7af734f18a78700a138a0a8fa~mv2.png/v1/fit/w_1100,h_294,q_90/d67420_03e491d7af734f18a78700a138a0a8fa~mv2.png",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-6e17e133-3d84-4581-a454-ff809c61a42d",
+    src: "https://static.wixstatic.com/media/d67420_271d92fa857747a2816bb883dd7ae01d~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_271d92fa857747a2816bb883dd7ae01d~mv2.jpg",
+  },
+  {
+    url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-5b0b6b9e-013e-46b7-903f-da1a1741c3e9",
+    src: "https://static.wixstatic.com/media/d67420_e55f128bf01f4380982f9840580a9b3d~mv2.png/v1/fit/w_1100,h_294,q_90/d67420_e55f128bf01f4380982f9840580a9b3d~mv2.png",
   },
   {
     url: "https://www.gornikarch.pl/projects/penthouse-wwa",
