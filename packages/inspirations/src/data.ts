@@ -1,6 +1,602 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://greencell.global/pl/ladowarki-ev/5714-green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.html#gallery-2",
+    src: "https://greencell.global/59640-thickbox_default/green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.jpg",
+  },
+  {
+    url: "https://greencell.global/pl/ladowarki-ev/5714-green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.html#gallery-3",
+    src: "https://greencell.global/59420-thickbox_default/green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.jpg",
+  },
+  {
+    url: "https://greencell.global/pl/ladowarki-ev/5714-green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.html#gallery-7",
+    src: "https://greencell.global/59516-thickbox_default/green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.jpg",
+  },
+  {
+    url: "https://greencell.global/pl/ladowarki-ev/5714-green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.html#gallery-10",
+    src: "https://greencell.global/59434-thickbox_default/green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.jpg",
+  },
+  {
+    url: "https://greencell.global/pl/gcnews/inne/program-moj-prad-50-i-dofinansowanie-magazynow-energii-green-cell-powernest?utm_source=salesmanago&utm_medium=www&utm_campaign=moj-prad",
+    src: "https://greencell.global/modules/ph_simpleblog/featured/146.jpg?v=1703153179",
+  },
+  {
+    url: "https://greencell.global/pl/gcnews/inne/program-moj-prad-50-i-dofinansowanie-magazynow-energii-green-cell-powernest?utm_source=salesmanago&utm_medium=www&utm_campaign=moj-prad",
+    src: "https://greencell.global/img/cms/6_1.jpg",
+  },
+  {
+    url: "https://greencell.global/pl/magazyny-energii/4846-green-cell-gc-powernest-magazyn-energii-akumulator-lifepo4-5-kwh-48-v.html",
+    src: "https://greencell.global/themes/green-cell/cms/powernest/img/desktop/main-desktop.jpg",
+  },
+  {
+    url: "https://greencell.global/pl/magazyny-energii/4846-green-cell-gc-powernest-magazyn-energii-akumulator-lifepo4-5-kwh-48-v.html",
+    src: "https://greencell.global/themes/green-cell/cms/powernest/img/desktop/bess-inside-desktop.jpg",
+  },
+  {
+    url: "https://greencell.global/pl/magazyny-energii/4846-green-cell-gc-powernest-magazyn-energii-akumulator-lifepo4-5-kwh-48-v.html",
+    src: "https://greencell.global/themes/green-cell/cms/powernest/img/desktop/bess2-desktop.png",
+  },
+  {
+    url: "https://greencell.global/pl/magazyny-energii/4846-green-cell-gc-powernest-magazyn-energii-akumulator-lifepo4-5-kwh-48-v.html",
+    src: "https://greencell.global/themes/green-cell/cms/powernest/img/desktop/bessx8-desktop.png",
+  },
+  {
+    url: "https://greencell.global/pl/inwertery-solarne/4832-inwerter-solarny-falownik-off-grid-z-ladowarka-solarna-mppt-green-cell-48vdc-230vac-3000va3000w-czysta-sinusoida.html",
+    src: "https://swiatbaterii.pl/img/cms/INVSOL/DESKTOP/INVSOL04/1.png",
+  },
+  {
+    url: "https://greencell.global/pl/inwertery-solarne/4832-inwerter-solarny-falownik-off-grid-z-ladowarka-solarna-mppt-green-cell-48vdc-230vac-3000va3000w-czysta-sinusoida.html",
+    src: "https://swiatbaterii.pl/img/cms/INVSOL/DESKTOP/2.png",
+  },
+  {
+    url: "https://greencell.global/pl/inwertery-solarne/4832-inwerter-solarny-falownik-off-grid-z-ladowarka-solarna-mppt-green-cell-48vdc-230vac-3000va3000w-czysta-sinusoida.html",
+    src: "https://swiatbaterii.pl/img/cms/INVSOL/DESKTOP/INVSOL04/4.png",
+  },
+  {
+    url: "https://greencell.global/pl/inwertery-solarne/4832-inwerter-solarny-falownik-off-grid-z-ladowarka-solarna-mppt-green-cell-48vdc-230vac-3000va3000w-czysta-sinusoida.html",
+    src: "https://swiatbaterii.pl/img/cms/INVSOL/DESKTOP/INVSOL04/9.png",
+  },
+
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-prewired.JPG.transform/default-mobile/image.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-standards.JPG.transform/default-mobile/image.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-hybrid.jpg.transform/default-mobile/image.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-form-of-delivery.JPG",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/skymoon",
+    src: "https://www07.abb.com/images/librariesprovider84/Home-page/skymoon2b4108e7c1f463c09537ff0000433538.jpg?sfvrsn=1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/sky-niessen",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/sky-niessen_1183x353.jpg?sfvrsn=15601b14_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/building-automation/product-range/abb-i-bus-knx/products/user-operation-busch-axcent-busch-dynasty-carat-future-linear-pure-stainless-steel-solo/design-ranges/pure-stainless-steel",
+    src: "https://www07.abb.com/images/librariesprovider84/building-products/pure-stainless-steel_beton01_header.jpg?sfvrsn=bc90b314_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-freeathome/produkty/linie-wzornicze",
+    src: "https://www07.abb.com/images/librariesprovider84/home-page/fah_design-ranges_header.jpg?sfvrsn=360b313_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/future-linear",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/future_switch_1183x353.jpg?sfvrsn=18f34214_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/zenit",
+    src: "https://www07.abb.com/images/librariesprovider84/residential-products/zenit-key-visual_1183x353.jpg?sfvrsn=ac613008_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/swing",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/swingl_switch_1183x350.jpg?sfvrsn=2ba60a14_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/seria-decento",
+    src: "https://www07.abb.com/images/librariesprovider84/Products/LPWA/busch-jaeger/1183x353_header_image/decento.jpg?sfvrsn=1",
+  },
+
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/materialy-instalacyjne/podtynkowe-puszki-montazowe",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/filpwa/1183x353_header-image/au5-6_banneri_a.jpg?sfvrsn=c8c48a13_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/impressivo/white-matt",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/filpwa/full-size-images/1065uc-884_fiilis_kansikuva-tif.jpg?sfvrsn=cb2b309_1&CropWidth=4110&CropHeight=1370&Quality=High&CropX=471&CropY=404&Width=1205&Height=401&Method=CropToFixedAreaCropToFixedAreaArguments&Key=77e43a5e223527a88403182e070828ea",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/impressivo/white-matt",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/filpwa/full-size-images/impressivo_dsc0954_sitefinity.jpg?sfvrsn=81adb309_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/impressivo/white-matt",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/filpwa/full-size-images/impressivo_dsc0972_sitefinity.jpg?sfvrsn=d9adb309_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/impressivo/white-matt",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/filpwa/full-size-images/impressivo_dsc1001_sitefinity.jpg?sfvrsn=ecb5b309_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/impressivo",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/impressivo_1183x535.jpg?sfvrsn=722ee514_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/pure-stainless-steel",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/pure-stainless-steel_1183x353.jpg?sfvrsn=55501014_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/zenit-s-VDE",
+    src: "https://www07.abb.com/images/librariesprovider84/home-page/abb_zenit_set-the-tone-with-slimline-designs111.png?Culture=en&sfvrsn=fae4420c_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/zenit-s-VDE",
+    src: "https://www07.abb.com/images/librariesprovider84/home-page/funciones-2.jpg?Culture=en&sfvrsn=fb8b4a0c_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/busch-art-linear",
+    src: "https://new.abb.com/images/librariesprovider84/elsb-images/depth-busch-art-linear.jpg?sfvrsn=bba9d00b_0",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/busch-art-linear",
+    src: "https://www07.abb.com/images/librariesprovider84/elsb-images/functions-busch-art-linear.jpg?sfvrsn=c6abd00b_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/busch-art-linear",
+    src: "https://www07.abb.com/images/librariesprovider84/elsb-images/trevion-busch-art-linear.jpg?sfvrsn=2895d00b_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/building-automation/news-and-highlights/abb-trevion",
+    src: "https://www07.abb.com/images/librariesprovider84/elsb-images/wide-slider-trevion.jpg?sfvrsn=5b22130b_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/building-automation/news-and-highlights/abb-trevion",
+    src: "https://www07.abb.com/images/librariesprovider84/elsb-images/trevion-web-display.jpg?sfvrsn=98e2120b_1&CropWidth=1125&CropHeight=625&Quality=High&CropX=0&CropY=0&Width=852&Height=473&Method=CropToFixedAreaCropToFixedAreaArguments&Key=e7b2cd8ad8690e29b80eaeb0b77329c2",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/building-automation/news-and-highlights/abb-trevion",
+    src: "https://www07.abb.com/images/librariesprovider84/elsb-images/trevion-web-keypads.jpg?sfvrsn=f3e2120b_1&CropWidth=1125&CropHeight=625&Quality=High&CropX=0&CropY=0&Width=852&Height=473&Method=CropToFixedAreaCropToFixedAreaArguments&Key=e7b2cd8ad8690e29b80eaeb0b77329c2",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/future-linear",
+    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/future_switch_1183x353.jpg?sfvrsn=18f34214_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/millenium",
+    src: "https://www07.abb.com/images/librariesprovider84/residential-products/millenium_1183x353_headerimage.jpg?sfvrsn=da677816_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/inora",
+    src: "https://www07.abb.com/images/librariesprovider84/home-page/inora_key_visual_web_banner_1183x353.jpg?sfvrsn=706c9508_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/weatherproof",
+    src: "https://www07.abb.com/images/librariesprovider84/home-page/weatherproof7915fff2c1f463c09537ff0000433538.jpg?sfvrsn=47e19c0a_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/chiara",
+    src: "https://www07.abb.com/images/librariesprovider84/home-page/cover-catalogo-chiara_abb_longer2.png?sfvrsn=81b6fe0a_1",
+  },
+  {
+    url: "https://www.jung.de/pl/920/produkty/serie-osprzetu-gniazda-i-wylaczniki/a-creation-wykonany-ze-szkla/",
+    src: "https://www.jung.de/~mi/6931/11599/designachead1.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/920/produkty/serie-osprzetu-gniazda-i-wylaczniki/a-creation-wykonany-ze-szkla/",
+    src: "https://www.jung.de/~mi/6932/11601/designachead2.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/920/produkty/serie-osprzetu-gniazda-i-wylaczniki/a-creation-wykonany-ze-szkla/",
+    src: "https://www.jung.de/~mi/6933/11603/designachead3.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/8660/14406/jung-smart-radio-dab.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/8480/14403/jung-smart-radio-dab.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/8659/14405/jung-smart-radio-dab.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/7801/14404/jung-smart-radio-dab.jpg",
+  },
+
+  {
+    url: "https://www.gira.com/en/en/products/smart-home#",
+    src: "https://partner.gira.de/abbildungen/gira-system-3000-e2-touchaufsatz-milieu-hero_25452_1701350457.webp",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home#",
+    src: "https://partner.gira.de/abbildungen/GIRA_KNX_1_1600x990_26940_1658991699.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home#",
+    src: "https://partner.gira.de/abbildungen/gira-g1-glas-schwarz-en-sprachversion-milieu-flur-nachts-1000x600_25282_en_1683196854.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home#",
+    src: "https://partner.gira.de/abbildungen/Gira_System_3000_Heizungssteuerung_milieu_21406_1599333336.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-one#",
+    src: "https://partner.gira.de/abbildungen/gira-one-knx-taster-2fach-gira-e2-schw-mt-1920x1080_28516_1677672994.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-one#",
+    src: "https://partner.gira.de/abbildungen/GiraOne_Website_1600x990_EN_27218_27218_en_1669913797.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-one#functions",
+    src: "https://partner.gira.de/abbildungen/gira-one-knx-rf-bedienaufsatz-gira-e2-2f-rw-gl-1600x990.png_28518_1678193400.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-one#",
+    src: "https://partner.gira.de/abbildungen/gira-one-knx-rf-bedienaufsatz-gira-e2-1f-gr-mt-1600x900_28521_1677673428.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-one#",
+    src: "https://partner.gira.de/abbildungen/gira-one-bedienzentrale-gira-g1-tuerko-1600x900.png_28522_1678193423.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-one#faqs",
+    src: "https://partner.gira.de/abbildungen/gira-website-com-vde-certificate-one_30369_1686655122.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-knx-rf",
+    src: "https://partner.gira.de/abbildungen/Gira-KNX-RF-Tastsensor-Lichtreflexe-1920x1080_25412_1642164413_25412_1686758209.webp",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-knx-rf",
+    src: "https://partner.gira.de/abbildungen/Gira-KNX-RF-Tastsensor-Esszimmer-1600x990_25416_1642164977.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-knx-rf",
+    src: "https://partner.gira.de/abbildungen/Gira-KNX-RF-Tastsensor-Glasscheibe-1600x990_25417_1642165028.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/systems/gira-knx-rf",
+    src: "https://partner.gira.de/abbildungen/Gira-KNX-RF-Handsender-1600x990.png_25414_1643116454.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/gira-system-106-flaechenbuendig-verkehrsweiss-milieu-hauseingang-header-1920x1080_28159_1667223763.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/Gira_System_106_Unterputz__24380_1629718467.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/gira-system-106-keyless-in-abgesetzt-milieu-1920x1080_28160_1667224102.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/gira-sys-106-tuerstation-3fach-einbaudose-flaechenbuendig-milieu-toreinfahrt-1600x990_28291_1670837490.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/System106_TuerSeite_schwarz_matt_31046_1700843142.webp",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/gira-website-system-106-bronze-milieu-1000x600_28292_1682594302.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/b2c_3_10_1_1_Gira_System_106_Bild_05_18501_1540276181.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/Gira_System-106-T__rstation-T__rstationsmodul_Freigestellt_Gira_01_18502_1590654412.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/b2c_3_10_1_1_Gira_System_106_Bild_14_18510_1540276300.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/solutions-outdoors/gira-system-106#",
+    src: "https://partner.gira.de/abbildungen/gira-showroom-polen-tastsensoren-1920x1080_26269_1652255740.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/gira-home-station",
+    src: "https://partner.gira.de/abbildungen/b2c_3_10_2_1_Tuersprechanlage_Gira_Wohnungsstation_Bild_01_18315_1539335273.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/gira-home-station",
+    src: "https://partner.gira.de/abbildungen/Gira-Wohnungsstation-Video-AP-Plus-Linoleum-Multiplex-1600x990_25526_1643902781.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/gira-home-station",
+    src: "https://partner.gira.de/abbildungen/Gira-Wohnungsstation-Video-AP-Plus-wei__-Milieu-1600x990_25525_1643873068.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/gira-door-station",
+    src: "https://partner.gira.de/abbildungen/b2c_3_10_1_2_Gira_Tuerstation_Bild_01_18234_1539161274.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/gira-door-station",
+    src: "https://partner.gira.de/abbildungen/t__rstation-hauswand-holz_20768_1584349686_19056_1593082967.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/gira-door-station",
+    src: "https://partner.gira.de/abbildungen/b2c_3_10_1_2_Gira_Tuerstation_Bild_04_18313_1539334599_18313_1593083193.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/open-door-without-keys#",
+    src: "https://partner.gira.de/abbildungen/gira-keyless-in-fingerprint-system-106-milieu-steinwand-1600x900_26798_1659687453.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/open-door-without-keys#",
+    src: "https://partner.gira.de/abbildungen/b2c_3_10_4_Gira_Keylessin_Bild_02_18654_1541499675.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/open-door-without-keys#",
+    src: "https://partner.gira.de/abbildungen/b2c_3_10_4_Gira_Keylessin_Bild_05_18657_1541499716.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/open-door-without-keys#stylepark-selected-award",
+    src: "https://partner.gira.de/abbildungen/gira-keyless-in-fingerprint-system-106-milieu-klinkersteine-1600x900_26800_1657562011_26800_1686757938.webp",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/open-door-without-keys#",
+    src: "https://partner.gira.de/abbildungen/gira-keyless-in-fingerprint-system-106-abgesetzt-milieu-26801-1600x900_26801_1657563869.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/open-door-without-keys#stylepark-selected-award",
+    src: "https://partner.gira.de/abbildungen/gira-keyless-in-fingerprint-system-106-stand-alone-milieu-garagentor-26802-1600x900_26802_1657562726.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/door-communication/open-door-without-keys#",
+    src: "https://partner.gira.de/abbildungen/gira-keyless-in-fingerprint-system-106-milieu-holzwand-1600x900_26804_1659687541.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#",
+    src: "https://partner.gira.de/abbildungen/gira-system-3000-e2-touchaufsatz-milieu-hero_25452_1701350457.webp",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#",
+    src: "https://partner.gira.de/abbildungen/Gira_E2-System-3000-Jalousieuhr-Display_Milieu_Gira_02_20691_1584105030_20691_1593673031.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#",
+    src: "https://partner.gira.de/abbildungen/b2c_3_4_3_1_Gira_System_3000_Schaltuhr_Bluetooth_Bild_01_18439_1539865773_18439_1593672946.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#touch-top-unit-image",
+    src: "https://partner.gira.de/abbildungen/gira_system_3000_touchaufsatz_21794_1606412783.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#lighting-control",
+    src: "https://partner.gira.de/abbildungen/GiraSystem3000-Update-WandsenderBT-freigestellt-Slider-1600x900_26097_1652191359.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#lighting-control",
+    src: "https://partner.gira.de/abbildungen/GiraSystem3000-WandsenderBT-Milieu-Slider-1600x900_26263_1652189669.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#blind-control",
+    src: "https://partner.gira.de/abbildungen/b2c_3_3_2_1_Gira_System_3000_Jalousieuhr_Display_Bild_02_18401_1539760672.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#blind-control",
+    src: "https://partner.gira.de/abbildungen/b2c_3_3_3_1_Gira_System_3000_Jalousieuhr_Bluetooth_Bild_04_18416_1539776439_18416_1593770687.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#blind-control",
+    src: "https://partner.gira.de/abbildungen/gira_rtr_21532_1601367591.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/heating-temperature-control/manual-heating-control/automatic-heating-control",
+    src: "https://partner.gira.de/abbildungen/Gira_System_3000_RTR_1800x960_20658_1584087716_20658_1593505412.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/heating-temperature-control/manual-heating-control/automatic-heating-control",
+    src: "https://partner.gira.de/abbildungen/Gira_System_3000_Heizungssteuerung_schwarz_21407_1599334041.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/gira-knx-taster-2fach-schwarz-milieu-hero_25519_1701350604.webp",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/b2c_3_3_1_2_Manuelle_Jalousie_Gira_System_3000_Bedienaufsatz_Bild_05_18269_1539245819.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/Gira-KNX-Taster-E2-1fach-grau-Milieu-1920x1080_25520_1643808917.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/Gira_E2_System55_Grau_Matt_888_600px_20655_1584087616.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/gira-e2-aufputz-schwarz-matt-milieu-1600x990_26554_1654787107.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/gira-website-e2-schuko-steckdose-reinweiss-glaenzend-milieu-1000x600_25521_1682597856.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/gira-e2-ap-wippschalter-beleuchtungselement-milieu-weinkeller-1600x900_27256_1663164902.png",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/design-plus-award-gira-e2-aufputz-schwarz-matt-beleuchtungselement-1600x900-26688-kompriminiert.png_26688_1656593357.jpg",
+  },
+  {
+    url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
+    src: "https://partner.gira.de/abbildungen/hue_webseite_19759_1567662860.jpg",
+  },
+
+  {
+    url: "https://www.enet-smarthome.com/en/your-benefits/#c29495",
+    src: "https://www.enet-smarthome.com/fileadmin/Redesign/Vorteile/IhreVorteile_Preisgekroent_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x400px_srgb_rz2.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x444px_srgb_rz2.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x444px_srgb_rz.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x400px_srgb_rz2.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x400px_srgb_rz3.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_11.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-home-planned-flexibly/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_5.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-home-planned-flexibly/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_13.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-home-planned-flexibly/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_2.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-home-planned-flexibly/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_7.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-home-planned-flexibly/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_19b.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-home-planned-flexibly/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_12.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-home-planned-flexibly/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20201009_Galerie_600x400px_srgb_rz_15.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20191210_Header_Referenz_Voledam_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Headermotiv_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ar190828_DSC5683_srgb_rz_01.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20190923_Referenz_Marl_600x600px_srgb_2_01.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ar190828_DSC5680_srgb_rz_01.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/20190923_Referenz_Marl_600x600px_srgb_3.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ar190828_DSC5689_2_zu_3_srgb_rz.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ar190828_DSC5691_srgb_rz.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ar190828_DSC5695_srgb_rz.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ar190828_DSC5629_2_zu_3_srgb_rz.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/a-smart-home-simply-installed/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ar190828_DSC5719_2_zu_3_srgb_rz.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ReferenzBerlin_Inhaltsmotiv5_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ReferenzBerlin_Inhaltsmotiv3_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ReferenzBerlin_Inhaltsmotiv1_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ReferenzBerlin_Inhaltsmotiv6_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/ReferenzBerlin_Inhaltsmotiv2_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/_processed_/3/1/csm__DSC2983_srgb_rz_c5e29ae852.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/_processed_/0/5/csm__DSC3022_srgb_rz_6aecf2284f.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/_processed_/2/4/csm__DSC3114_srgb_rz_f354914cc0.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/four-smart-floors-in-the-middle-of-berlin/",
+    src: "https://www.enet-smarthome.com/fileadmin/_processed_/f/4/csm__DSC2781_srgb_rz_9637f22c98.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Header_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-possibilities-in-new-construction/",
+    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Content_Motiv_2_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-possibilities-in-new-construction/",
+    src: "https://www.enet-smarthome.com/fileadmin/enet/Referenzgalerie/Eichgraben/Content_Motiv_4_600x400px_srgb.jpg",
+  },
+  {
+    url: "https://www.enet-smarthome.com/en/references/smart-possibilities-in-new-construction/",
+    src: "https://www.enet-smarthome.com/fileadmin/enet/Referenzgalerie/Eichgraben/Content_Motiv_1_600x400px_srgb.jpg",
+  },
+  {
     url: "https://hager.com/pl/rozwiazania/osprzet-elektroinstalacyjny",
     src: "https://assets.sc.hager.com/pl/-/media/project/hagerdeep/portugal/hager/b2b/solution-page/value-page/writing-accessories/wiringaccessories_master_landscape.jpg?h=767&la=pl-pl&hash=7167B2FA2A294C35098E94D8C0AAF0EC",
   },
