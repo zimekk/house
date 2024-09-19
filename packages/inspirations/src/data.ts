@@ -1,6 +1,146 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/0_APHome_h_800x705px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/CF_APHome-H_08.2018_700.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/2017/09/filtry-m.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/FPX_08.2018_900px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/Bypass-100_112020.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/AP-Home_550px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/10_APhome_wymiennik_entalpijny_8bit_800px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/tablet_na-strone-02_8bit.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/AP-Home-300-500h-wymiary-1934px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/Air_5-cali_akcesoria.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-h/",
+    src: "https://thesslagreen.com/wp-content/uploads/w1_AirL_akcesoria_0.3x.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-v/",
+    src: "https://thesslagreen.com/wp-content/uploads/0__APHome_v_800x705px-kopia.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-v/",
+    src: "https://thesslagreen.com/wp-content/uploads/APHome_v__CF_700px_.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-v/",
+    src: "https://thesslagreen.com/wp-content/uploads/FPX_08.2018_900px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-v/",
+    src: "https://thesslagreen.com/wp-content/uploads/Bypass-100_112020.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-v/",
+    src: "https://thesslagreen.com/wp-content/uploads/AP-Home_550px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-v/",
+    src: "https://thesslagreen.com/wp-content/uploads/10_APhome_wymiennik_entalpijny_8bit_800px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack-home-v/",
+    src: "https://thesslagreen.com/wp-content/uploads/AP-Home-300-500v-wymiary.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/0__AP4_h_800x705px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/10_APglowna_wymiennik_entalpijny_8bit_.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/1_APglowna_AP4przekroj.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/top-AFC_v1.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/4_APglowna_CF.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/8bit.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/7_APglowna_expansion_v3_8bit.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/8_AP4-H-V-modul_Air-600px.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airpack4h/",
+    src: "https://thesslagreen.com/wp-content/uploads/DT__AirPack4_300-400-500h_pl_v2.png",
+  },
+  {
+    url: "https://thesslagreen.com/airpack4h-afc/",
+    src: "https://thesslagreen.com/wp-content/uploads/AirPlusPlus_filtry-OK-grey.png",
+  },
+  {
+    url: "https://thesslagreen.com/airpack4h-afc/",
+    src: "https://thesslagreen.com/wp-content/uploads/3_AP4-AFC_3prostekroki_.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airtube/",
+    src: "https://thesslagreen.com/wp-content/uploads/0_AirTube_zestaw2.png",
+  },
+  {
+    url: "https://thesslagreen.com/product/airtube/",
+    src: "https://thesslagreen.com/wp-content/uploads/subinter_V_7_1200px.jpg",
+  },
+  {
+    url: "https://thesslagreen.com/product/airtube/",
+    src: "https://thesslagreen.com/wp-content/uploads/RURA_600px_8bit.png",
+  },
+  {
+    url: "https://www.nibe.eu/pl/pl/wiedza/jak-to-dziala/gruntowe-pompy-ciepla",
+    src: "https://www.nibe.eu/images/18.61728fcd18e343cd8bc22dd/1712754989584/(2)%20Gruntowa%20pompa%20ciep%C5%82a.webp",
+  },
+  {
+    url: "https://www.nibe.eu/pl/pl/wiedza/jak-to-dziala/gruntowe-pompy-ciepla",
+    src: "https://www.nibe.eu/images/18.61728fcd18e343cd8bc22e1/1712755012804/(2)%20Gruntowe%20pompy%20ciep%C5%82a.webp",
+  },
+  {
+    url: "https://www.nibe.eu/pl/pl/produkty/seria-s",
+    src: "https://www.nibe.eu/images/18.3b0e15d818cfe80b013286d/1708074297781/SMART%20range_UK.jpg",
+  },
+  {
     url: "https://greencell.global/pl/ladowarki-ev/5714-green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.html#gallery-2",
     src: "https://greencell.global/59640-thickbox_default/green-cell-gc-habuden-wallbox-22kw-32a-5m-kabel-typ-2-inteligentna-stacja-ladowania-ev-z-aplikacja-gc-app-bluetooth-wifi.jpg",
   },
