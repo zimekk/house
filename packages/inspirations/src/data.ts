@@ -1,6 +1,826 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://www.hormann.pl/prywatni-inwestorzy/bramy-garazowe/bramy-segmentowe/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/Global_Images/Produkte/Garagentore/Garagen-Sectionaltore/Hoermann_Garagen-Sektionaltor_Duradecor_-_1920x768px.jpg",
+  },
+  {
+    url: "https://www.hormann.pl/prywatni-inwestorzy/napedy/napedy-do-bram-garazowych/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/Global_Images/Produkte/Antriebe/Garagentor-Antriebe/teaser_garagentorantriebe_1920x768.jpg",
+  },
+  {
+    url: "https://www.hormann.pl/prywatni-inwestorzy/napedy/napedy-do-bram-garazowych/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/Global_Images/Produkte/Antriebe/Garagentor-Antriebe/Garagentor-Antrieb-SupraMatic4_1000x700_.jpg",
+  },
+  {
+    url: "https://www.hormann.pl/prywatni-inwestorzy/napedy/napedy-do-bram-garazowych/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/Global_Images/Produkte/Antriebe/Garagentor-Antriebe/Garagentor-Antrieb-ProMatic4_1000x700_.jpg",
+  },
+  {
+    url: "https://www.hormann.pl/prywatni-inwestorzy/drzwi/zewnetrzne-drzwi-wejsciowe/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/_country/kataloge/img/86892_Aluminiowe_drzwi_zewnetrzne_HTS_2206-PL_nowy2.jpg?v=1671017807",
+  },
+  {
+    url: "https://www.hormann.pl/przedsiebiorcy/bramy-przemyslowe/wjazdowe-bramy-przesuwne/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/Global_Images/Produkte/Industrietor-Systeme/Hofschiebetore/teaser_hofschiebetore_1920x768.jpg",
+  },
+  {
+    url: "https://www.hormann.pl/przedsiebiorcy/napedy/napedy-do-bram-garazowych/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/_country/PL/_data/Photos_und_Bilder/02_headerbild_garagentorantriebe_2_1920x768.jpg",
+  },
+  {
+    url: "https://www.hormann.pl/przedsiebiorcy/napedy/napedy-do-bram-garazowych/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/_processed_/6/5/csm_hoermann_antriebe_querformat_97cc251d78.jpg",
+  },
+  {
+    url: "https://www.hormann.pl/przedsiebiorcy/bramy-garazowe/bramy-segmentowe/",
+    src: "https://cdn.hoermann-cloud.de/fileadmin/Global_Images/Produkte/Garagentore/Garagen-Sectionaltore/teaser_garagensectionaltore_gewerbe_1920x768.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,2662/radioodbiornik-ox4t-4-kanalowy-uniwersalny-opera",
+    src: "https://www.nice.pl/resources/image/Centrale_sterujce/A01.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,1886/pilot-2-kanalowy-on2e",
+    src: "https://www.nice.pl/resources/image/Piloty/EraOne2.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,10575/pilot-2-kanalowy-flo2re",
+    src: "https://www.nice.pl/resources/image/Piloty/Era_Flor_2.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,1533/robus-600-naped-do-bram-przesuwnych",
+    src: "https://www.nice.pl/resources/image/produkty/Automatyka%20do%20bram%20przesuwnych/Robus%20600%20i%201000.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,1319/fotokomorki-f210b-bluebus",
+    src: "https://www.nice.pl/resources/image/Akcesoria/produkty/F210.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,13874/fotokomorki-epmb",
+    src: "https://www.nice.pl/resources/image/Nice_/epmb.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,13310/karta-zblizeniowa-mocard",
+    src: "https://www.nice.pl/resources/image/Akcesoria/produkty/MOCARD.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,14660/karta-zblizeniowa-brelok-hsb1",
+    src: "https://www.nice.pl/resources/image/Akcesoria/HSB1.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16332/lampa-sygnalizacyjna-eldc",
+    src: "https://www.nice.pl/resources/image/Akcesoria/el.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16432/spy650hsbdkce-zestaw-automatyki-do-bram-garazowych-1",
+    src: "https://www.nice.pl/resources/image/produkty/Automatyka%20do%20bram%20gara%C5%BCowych/SPYHS.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16432/spy650hsbdkce-zestaw-automatyki-do-bram-garazowych-1",
+    src: "https://www.nice.pl/media/cache/resolve/product_small/resources/image/produkty/Automatyka%2520do%2520bram%2520gara%25C5%25BCowych/SPYHS.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16432/spy650hsbdkce-zestaw-automatyki-do-bram-garazowych-1",
+    src: "https://www.nice.pl/media/cache/resolve/product_small/resources/image/produkty/Automatyka%2520do%2520bram%2520gara%25C5%25BCowych/SPYBOX.JPG",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16422/radioodbiornik-oxibd",
+    src: "https://www.nice.pl/resources/image/produkty/Akcesoria/OXIBD.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16154/wymagania-techniczne",
+    src: "https://www.nice.pl/resources/image/Bramy/Gar%C5%BCowe/wymagania_tech.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16154/wymagania-techniczne",
+    src: "https://nice.pl/resources/image/Bramy/Gar%C5%BCowe/schemat_instalacji_shel.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16039/model-design-bez-przetloczen",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Design/Design_Srebrny_RAL.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16039/model-design-bez-przetloczen",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Design/Design_Biel.1.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16037/model-classic-przetloczenia-waskie",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Classic_Antracyt.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16037/model-classic-przetloczenia-waskie",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Classic_Antracyt_RAL.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16038/model-premium-przetloczenia-szerokie",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Premium/Premium_Biel_RAL_9016_II.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16038/model-premium-przetloczenia-szerokie",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Premium/Premium_Biel.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16039/model-design-bez-przetloczen",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Design/Design_Srebrny.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16039/model-design-bez-przetloczen",
+    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Design/Design_Srebrny_RAL.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16164/model-simple-classic",
+    src: "https://www.nice.pl/uploads/Og%C3%B3lne/Orzech-2_27277413-.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16155/model-design-iso-60",
+    src: "https://www.nice.pl/uploads/Og%C3%B3lne/Bramy%20gara%C5%BCowe/1.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16155/model-design-iso-60",
+    src: "https://www.nice.pl/uploads/Og%C3%B3lne/Bramy%20gara%C5%BCowe/2.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16155/model-design-iso-60",
+    src: "https://www.nice.pl/uploads/Og%C3%B3lne/Bramy%20gara%C5%BCowe/3.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16155/model-design-iso-60",
+    src: "https://www.nice.pl/uploads/Og%C3%B3lne/Bramy%20gara%C5%BCowe/4.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16155/model-design-iso-60",
+    src: "https://www.nice.pl/uploads/Og%C3%B3lne/Bramy%20gara%C5%BCowe/5.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16155/model-design-iso-60",
+    src: "https://www.nice.pl/uploads/Og%C3%B3lne/Bramy%20gara%C5%BCowe/Brama%2060.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16563/panel-rozmowny-ip-blue-eye-plus",
+    src: "https://www.nice.pl/resources/image/produkty/Wideodomofony/IP/Panel%20rozm%C3%B3wny%20IP%20BLUE%20EYE%20PLUS.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16560/monitor-ip-blue-view",
+    src: "https://www.nice.pl/resources/image/produkty/Wideodomofony/IP/Monitor%20IP%20BLUE%20VIEW.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16561/monitor-ip-blue-pro",
+    src: "https://www.nice.pl/resources/image/produkty/Wideodomofony/IP/Monitor%20IP%20BLUE%20PRO.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16587/flood-control",
+    src: "https://www.nice.pl/resources/image/produkty/Smart%20Home/FLOOD-CONTROL.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16591/d-w-control-wh-bl-br",
+    src: "https://www.nice.pl/resources/image/produkty/Smart%20Home/D_W-CONTROL%20WH_BL_BR.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16629/filo-600-kit",
+    src: "https://nice.pl/resources/image/NiceHome/filo600.png",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16626/zestaw-do-bram-garazowych-avio-1000",
+    src: "https://nice.pl/resources/image/NiceHome/avio1000.png",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16668/ln432km-zestaw-do-bram-przesuwnych",
+    src: "https://www.nice.pl/resources/image/moovo/LN432KMzestaw.jpg",
+  },
+  {
+    url: "https://www.nice.pl/produkty,16670/ts432km-zestaw-do-bram-garazowych",
+    src: "https://www.nice.pl/resources/image/moovo/MD432KM_zestaw.jpg",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2066g2h-i-u-/?subName=DS-2CD2066G2H-IU",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/asset/SM000050853/images/%E7%AD%92%E6%9C%BA91-%E9%BB%91%E7%99%BD%E5%A0%86%E5%8F%A0-%E6%B5%B7%E5%A4%96-%E6%97%A0mic-%E5%B7%A6%E4%BE%A7.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2066g2h-i-u-/?subName=DS-2CD2066G2H-IU",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/asset/SM000050853/images/%E7%AD%92%E6%9C%BA91-%E6%B5%B7%E5%A4%96-%E5%B7%A6%E9%9D%A2-%E6%97%A0mic.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2166g2h-i-su-/?subName=DS-2CD2166G2H-ISU",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/asset/SM000050848/images/%E5%8D%8A%E7%90%8361%E7%BA%A2%E5%A4%96%E5%8F%8D%E5%B0%84%E5%BC%8F%E8%A1%A5%E5%85%89_%E9%BB%91%E7%99%BD%E5%A0%86%E5%8F%A0%E5%9B%BE.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/IP-Products/Network-Cameras/Pro-Series-EasyIP-/ds-2cd2166g2h-i-su-/?subName=DS-2CD2166G2H-ISU",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/asset/SM000050848/images/%E5%8D%8A%E7%90%8361-%E6%B5%B7%E5%BA%B7%E9%BB%91-%E5%8F%B3%E4%BE%A7.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/IP-Products/Network-Video-Recorders/Pro-Series/ds-7616nxi-i2-16p-s/?subName=DS-7616NXI-I2%2F16P%2FS%28E%29",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/asset/SM000060201/images/MB-0261YNN-H10-380A0-U1L0-A0-P-HIKVISION.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/2-wire-Series/2-wire-hd/?category=Wideodomofon&subCategory=Seria+2-%C5%BCy%C5%82owa&series=2+Wire+HD&checkedSubSeries=NONE",
+    src: "https://www.hikvision.com/content/dam/hikvision/en/marketing/image/products/video-intercom-products/2-wire-series/2-wire-hd/2-wire-HD_Feature01_easy-retrofit.jpg",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/2-wire-Series/2-wire-hd/?category=Wideodomofon&subCategory=Seria+2-%C5%BCy%C5%82owa&series=2+Wire+HD&checkedSubSeries=NONE",
+    src: "https://www.hikvision.com/content/dam/hikvision/en/marketing/image/products/video-intercom-products/2-wire-series/2-wire-hd/2-wire-HD_Feature03-great-image-quality.jpg",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/2-wire-Series/2-wire-hd/?category=Wideodomofon&subCategory=Seria+2-%C5%BCy%C5%82owa&series=2+Wire+HD&checkedSubSeries=NONE",
+    src: "https://www.hikvision.com/content/dam/hikvision/en/marketing/image/products/video-intercom-products/2-wire-series/2-wire-hd/2-wire-HD_Feature04-abundant-features-with-intuitive-control.jpg",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/2-wire-Series/2-wire-hd/?category=Wideodomofon&subCategory=Seria+2-%C5%BCy%C5%82owa&series=2+Wire+HD&checkedSubSeries=NONE",
+    src: "https://www.hikvision.com/content/dam/hikvision/en/marketing/image/products/video-intercom-products/2-wire-series/2-wire-hd/2-wire-HD_Feature04-abundant-features-with-intuitive-control.jpg",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/2-wire-Series/2-wire-hd/ds-kd7003ey-ime2-aluminum/",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/asset/M000116883/images/KD7003%E9%93%9D%E5%90%88%E9%87%91%E5%8D%95%E6%A8%A1%E5%9D%97-%E6%AD%A3%E8%A7%86%E5%9B%BE.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/IP-Series/Pro-Series/DS-KD-E/",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000083/S000000129/S000000131/OFR002104/M000005661/images/reader.jpg",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/IP-Series/Pro-Series/DS-KD-IN/",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000083/S000000129/S000000131/OFR002104/M000004917/images/IN.jpg",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/IP-Series/Pro-Series/ds-kd-mfb/",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000083/S000000129/S000000131/OFR002104/M000115552/images/DS-KD-MFB---front-view.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/IP-Series/Pro-Series/ds-kv8113-wme1-c--eu/",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000083/S000000129/S000000131/OFR000170/M000067714/images/DS-KV8113-WME1B_%E5%9F%BA%E7%BA%BF_%E9%97%A8%E5%8F%A3%E6%9C%BA_%E6%AD%A3%E8%A7%86%E5%9B%BE.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/IP-Series/Pro-Series/ds-kh8520-wte1-eu/",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000083/S000000129/S000000131/OFR000165/M000025796/images/DS-KH8520-WTE1-Front-view.png",
+  },
+  {
+    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/IP-Series/Pro-Series/ds-kh6320-le1-b-/",
+    src: "https://www.hikvision.com/content/dam/hikvision/products/S000000001/S000000083/S000000129/S000000131/OFR000164/M000059053/images/DS-KH6320-LE1B-%E5%AE%A4%E5%86%85%E6%9C%BA-%E9%BB%91-%E6%AD%A3%E8%A7%86%E5%9B%BE.png",
+  },
+  {
+    url: "https://tripplite.eaton.com/smartrack-26u-low-profile-switch-depth-wall-mount-rack-enclosure-cabinet-hinged-back~SRW26US",
+    src: "https://assets.tripplite.com/2xl-image/srw26us-front-2xl.jpg",
+  },
+  {
+    url: "https://tripplite.eaton.com/smartrack-26u-low-profile-switch-depth-wall-mount-rack-enclosure-cabinet-hinged-back~SRW26US",
+    src: "https://assets.tripplite.com/2xl-image/srw26us-other01-2xl.jpg",
+  },
+  {
+    url: "https://tripplite.eaton.com/42u-smartrack-shallow-depth-rack-enclosure-cabinet-doors-side-panels~SR42UBSD",
+    src: "https://assets.tripplite.com/2xl-image/sr42ubsd-front-2xl.jpg",
+  },
+  {
+    url: "https://tripplite.eaton.com/42u-smartrack-shallow-depth-rack-enclosure-cabinet-doors-side-panels~SR42UBSD",
+    src: "https://assets.tripplite.com/2xl-image/sr42ubsd-back-2xl.jpg",
+  },
+  {
+    url: "https://tripplite.eaton.com/42u-smartrack-shallow-depth-rack-enclosure-cabinet-doors-side-panels~SR42UBSD",
+    src: "https://assets.tripplite.com/2xl-image/sr42ubsd-other01-2xl.jpg",
+  },
+  {
+    url: "https://tripplite.eaton.com/42u-smartrack-shallow-depth-rack-enclosure-cabinet-doors-side-panels~SR42UBSD",
+    src: "https://assets.tripplite.com/2xl-image/sr42ubsd-other02-2xl.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-metered-input-rack-pdu0.html",
+    src: "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/eaton-metered-input-rack-pdu/Eaton%20Metered%20Input%20ePDU.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-metered-input-rack-pdu0.html",
+    src: "https://dynamicmedia.eaton.com/is/image/eaton/Eaton-RACKPDUG4-productimage-Custom_FM5-LR-en-gb:feature-block-mobile",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-metered-input-rack-pdu0.html",
+    src: "https://dynamicmedia.eaton.com/is/image/eaton/PDU-EPBZ99-HORIZONTAL-RACKMOUNT_C:feature-block-mobile",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-basic-rack-pdu0.html",
+    src: "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/eaton-basic-rack-pdu/Eaton-Basic-Rack-PDU-Family.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-basic-rack-pdu0.html",
+    src: "https://dynamicmedia.eaton.com/is/image/eaton/Eaton-RACKPDUG4-productimage-Custom_FM5-LR-en-gb:feature-block-mobile",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-basic-rack-pdu0.html",
+    src: "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/eaton-basic-rack-pdu/ePDUG3-grip-plug4.jpg.transform/default-mobile/image.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-emea.html",
+    src: "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/backup-power-ups/eaton-5px-g2-ups/eaton-5px-g2-ups-emea/eaton-5px-g2-ups-emea-images/eaton-5px-g2-2u-fm.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-emea.html",
+    src: "https://dynamicmedia.eaton.com/is/image/eaton/5PX1500RTG2-UPS-EBM-4POSTRACK_C:feature-block-mobile",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-emea.html",
+    src: "https://dynamicmedia.eaton.com/is/image/eaton/eaton-5px-g2-batt-dt:feature-block-mobile",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-emea.html",
+    src: "https://dynamicmedia.eaton.com/is/image/eaton/eaton-5px-g2-lcd-dt:feature-block-mobile",
+  },
+  {
+    url: "https://ui.com/eu/en/cloud-gateways/large-scale",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fui.com%2Fmicrosite%2Fstatic%2Fmedia%2Fbuild-features-1.5a2d94c4.png&q=75&w=1400",
+  },
+  {
+    url: "https://ui.com/eu/en/cloud-gateways/large-scale",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fui.com%2Fmicrosite%2Fstatic%2Fmedia%2Fdeployment-diagram.29325ea1.png&q=75&w=2380",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/unifi-cloud-gateways/udm-se?s=eu",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1b6fcc08-a6b8-4496-a831-6125a47c412f%2F7e862151-95e5-4cea-b4cb-164dc61ae8ed.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/unifi-cloud-gateways/udm-se?s=eu",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1b6fcc08-a6b8-4496-a831-6125a47c412f%2F52402d1f-8641-4fd3-97c3-709e807db7f9.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/unifi-cloud-gateways/udm-se?s=eu#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1b6fcc08-a6b8-4496-a831-6125a47c412f%2F2794bdc2-2d4a-4996-9194-2e3436d38edd.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/unifi-cloud-gateways/udm-se?s=eu#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1b6fcc08-a6b8-4496-a831-6125a47c412f%2F148125d6-5d75-44f5-b106-18f5fedf7c7f.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/unifi-cloud-gateways/udm-se?s=eu#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1b6fcc08-a6b8-4496-a831-6125a47c412f%2F72e59662-e1db-4a63-94fa-67d289fbd8ed.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-enterprise-48-poe?subcategory=all-switching",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F81802ee3-ab5d-46f6-b6f7-2abbe2a5968b%2F0bb15529-4fa3-476c-a57d-b45f10944cdf.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-enterprise-48-poe?subcategory=all-switching",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F81802ee3-ab5d-46f6-b6f7-2abbe2a5968b%2Fe5e88535-b254-401f-8069-4348532dd3c5.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-enterprise-48-poe?subcategory=all-switching#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F81802ee3-ab5d-46f6-b6f7-2abbe2a5968b%2F370bee67-2313-43f0-84cb-7420ffd3b5a4.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-enterprise-48-poe?subcategory=all-switching#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F81802ee3-ab5d-46f6-b6f7-2abbe2a5968b%2F41742982-4569-4f83-b209-3676a8374332.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-enterprise-48-poe?subcategory=all-switching#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F81802ee3-ab5d-46f6-b6f7-2abbe2a5968b%2Fa8307c3f-3c23-48fe-884e-d06c80049612.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-enterprise-48-poe?subcategory=all-switching#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F81802ee3-ab5d-46f6-b6f7-2abbe2a5968b%2Fdd0847a1-28c3-44a1-b8c2-7854dfeab972.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-pro-24-poe?subcategory=all-switching",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5b69cdb5-e7ea-44e6-ae16-8714339038fb%2Fa4709719-da8a-4b02-b8c8-236d6b730b71.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-pro-24-poe?subcategory=all-switching",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5b69cdb5-e7ea-44e6-ae16-8714339038fb%2F69e8aff0-4d8b-4c06-aba2-3724f4c73305.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-pro-24-poe?subcategory=all-switching#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5b69cdb5-e7ea-44e6-ae16-8714339038fb%2F6f200019-3044-423e-8c8c-1bd02b67d4da.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-pro-24-poe?subcategory=all-switching#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5b69cdb5-e7ea-44e6-ae16-8714339038fb%2F8f85af7b-7d44-4a3d-89e4-6e0c8fae35c1.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-pro-24-poe?subcategory=all-switching#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5b69cdb5-e7ea-44e6-ae16-8714339038fb%2F3c28954d-8dcd-4c6d-b8a4-6e94edf930c7.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/switching/usw-pro-24-poe?subcategory=all-switching#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5b69cdb5-e7ea-44e6-ae16-8714339038fb%2Fcdc9def6-10f1-4b5f-b7c3-4c7c1e320801.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2Fcfbd5b81-d5ee-4502-9aa4-b91a9bca2885.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2F2f5bd3c2-467a-4419-bc7c-fa35ce9d30c0.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2F4bb23d3d-8a31-460b-be56-56d37a4ef081.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2Fab5bc8a4-6135-402e-a695-e3ea5e16d3e6.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2F5eae34b5-a885-43a1-b32e-f9fb21e3bdbf.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2F51948ab3-99b3-40eb-bd99-21f71d938057.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2F49f591c8-f7d5-4c69-8106-80450f90a4d2.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Ffa8dd4e4-36c8-4c79-a928-22c7bff2ce29%2F8f0b4a4a-bd6f-402e-9158-db3c9da949a6.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2Fcc3f4b0a-bb39-4b6b-a5fb-8bda04d868d3.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2F57c5f387-49f4-4955-a428-97bb08d2d0a5.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2F2f24ac5e-4767-4ef9-8ff4-32d47d457538.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2Ff1cb65a5-c557-4e02-bcbb-090502a95b84.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2Fd7e2c2db-eef4-4b19-a7ae-746122c010db.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2F0be2527f-57a2-4d69-b419-edd9722fec9b.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2Fff7117af-322f-4a29-b12d-b54b135c1bd3.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2Fd9456cd8-51f7-4834-816e-f407e843905b.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-pro-wall?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7dacb4f6-b703-4154-9264-784f2eb0dbda%2F582ce5ca-da66-4d9c-bcd3-1c5cc95032c7.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2F5780da7d-a4d2-4001-a61e-187ec9bf0b37.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2Fc279c78c-30d2-46f6-9fe6-d1797e89cafb.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2F4975bf95-649c-4db7-a40b-e518643819f3.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2F8d62e767-900a-4c39-bd47-91e2ff477d53.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2F8e06ea2b-408c-4c9d-baa4-94d1f74af4d1.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2Fcccd54e3-3437-4026-950f-904fc18fc832.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2F2707abf2-1d65-4c5f-86a9-03d5ca47069c.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2F6ce81d8e-acd2-4748-a5fe-89a638ea22f2.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2F796ac7c9-c777-4dae-b300-cb75587a2c83.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/wifi/u7-outdoor?subcategory=all-wifi#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F62cc30b7-9559-480f-9668-b9edf40c0772%2Fc776cf50-786f-4639-9750-4ff2bf8ad781.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/unvr?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F8a3b51c6-d3e9-4ea7-95b3-49a1253c4542%2F70c29dc5-d038-4e97-9c4e-85919cec1543.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/unvr?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F8a3b51c6-d3e9-4ea7-95b3-49a1253c4542%2F193453fa-e064-4fa6-8a60-29ca4065913e.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/unvr?subcategory=all-cameras-nvrs#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F8a3b51c6-d3e9-4ea7-95b3-49a1253c4542%2Fd9f778fa-d410-4e33-b302-f710c2adfc89.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/unvr?subcategory=all-cameras-nvrs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F8a3b51c6-d3e9-4ea7-95b3-49a1253c4542%2F3d6cf066-5547-4655-8f60-7d10a052fe7d.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/unvr?subcategory=all-cameras-nvrs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F8a3b51c6-d3e9-4ea7-95b3-49a1253c4542%2F104368b8-c766-483d-b68c-60baff2aa979.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/unvr?subcategory=all-cameras-nvrs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F8a3b51c6-d3e9-4ea7-95b3-49a1253c4542%2F8543f76b-9fed-45dd-9e29-6a101044ca52.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-pro?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F38dd06cd-7c6b-4d6e-8e64-981d504d468f%2Fbbda5189-a1a8-4701-a5f8-8d14d522a074.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-pro?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F38dd06cd-7c6b-4d6e-8e64-981d504d468f%2F7bacd241-4cd6-4008-8121-0d666e16e78a.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-pro?subcategory=all-cameras-nvrs#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F38dd06cd-7c6b-4d6e-8e64-981d504d468f%2Fbaa95830-a794-4191-bbd7-637806f21595.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-pro?subcategory=all-cameras-nvrs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F38dd06cd-7c6b-4d6e-8e64-981d504d468f%2Fc6e0a80d-006b-4789-b575-0d82201d777a.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome-ultra?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc2eb7a6f-7d6a-4b84-b1bd-7dc54e26c4e2%2F0787a5b5-0713-4f45-98e7-e03815bd6e4c.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome-ultra?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc2eb7a6f-7d6a-4b84-b1bd-7dc54e26c4e2%2F21f867eb-283b-4db8-9a51-da5716438e14.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome-ultra?subcategory=all-cameras-nvrs#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc2eb7a6f-7d6a-4b84-b1bd-7dc54e26c4e2%2F7a049456-92ae-4abf-b147-3e00f9f60970.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome-ultra?subcategory=all-cameras-nvrs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc2eb7a6f-7d6a-4b84-b1bd-7dc54e26c4e2%2F6417969a-f091-4db6-a8dc-7f7226e5968c.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1c20460a-b90b-4430-bbf1-8adf26ec2122%2F341957aa-c9ab-4fe3-968d-a41c92c09058.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome?subcategory=all-cameras-nvrs",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1c20460a-b90b-4430-bbf1-8adf26ec2122%2F47cd11bf-f939-4bf6-bb90-a2eb2e2688dc.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome?subcategory=all-cameras-nvrs#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1c20460a-b90b-4430-bbf1-8adf26ec2122%2F4bdd8857-186d-43ba-83a0-e9ae1c341f7f.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cameras-nvrs/uvc-g5-dome?subcategory=all-cameras-nvrs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F1c20460a-b90b-4430-bbf1-8adf26ec2122%2F4f2c84e7-71ff-4560-b952-d5d7923b9738.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2-sk?subcategory=all-door-access",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F6eeba275-c1d8-4112-86c8-769605e458bb%2F0a956bd0-870c-42ff-8f72-22b6fd154f75.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2-sk?subcategory=all-door-access",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F6eeba275-c1d8-4112-86c8-769605e458bb%2F5a4be7b5-1530-451a-a1e6-e3eb8780d2cc.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2-sk?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F6eeba275-c1d8-4112-86c8-769605e458bb%2Fe7511b4b-eb00-4796-8201-048eef633467.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2-sk?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F6eeba275-c1d8-4112-86c8-769605e458bb%2F662118f4-f74a-4bf6-a0fa-ee7e5f236bfc.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2-sk?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F6eeba275-c1d8-4112-86c8-769605e458bb%2F12edb0a5-e8a0-4ad8-a32e-3cf07348f2fb.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2F7fdaa539-3641-44b6-acb7-84a928e70449.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2F0593e812-5fc8-4b4c-9b3b-dedbc5b23cc6.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2F8e71aab0-1aa2-40ff-8bec-f6618f79f54a.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2F91a12382-2801-4c2b-a8ba-4a18b0fdde3c.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2Fd1318822-3b0d-4a6d-9c6d-4a2f7507fdec.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2F0061524b-3925-4847-bc7a-e5ecaa39ac6a.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2Fd6e1b317-dd51-4611-b297-1a0c1a599951.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/door-access/ua-g2?subcategory=all-door-access#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F685fe5ec-5dab-4561-835f-408555ce5234%2Fc04cf664-8871-4ad8-88d1-83f9f7248a18.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cloud-keys-gateways/uxg-pro?subcategory=all-cloud-keys-gateways",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F40f3906a-6663-4c6f-9059-abb517fff6fe%2F54b13089-e82e-4a86-8d25-4a9643d470fa.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cloud-keys-gateways/uxg-pro?subcategory=all-cloud-keys-gateways#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F40f3906a-6663-4c6f-9059-abb517fff6fe%2F3a283b8a-878d-428d-8db8-645ac1993a39.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cloud-keys-gateways/uxg-pro?subcategory=all-cloud-keys-gateways#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F40f3906a-6663-4c6f-9059-abb517fff6fe%2Fd1ad5824-8b52-49d7-9d88-c1e085712f75.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/cloud-keys-gateways/uxg-pro?subcategory=all-cloud-keys-gateways#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F40f3906a-6663-4c6f-9059-abb517fff6fe%2F64fec065-c701-4c91-9f21-24df51e86f50.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usw-mission-critical?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F0a2a7ba1-12c3-4736-a31d-ed9a0e9f44d1%2F148aac3a-a892-4f54-ac59-02dd09aa96c0.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usw-mission-critical?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F0a2a7ba1-12c3-4736-a31d-ed9a0e9f44d1%2Fcce56ffb-5f8c-4daf-bd3d-34383e8239ee.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usw-mission-critical?subcategory=all-power-tech#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F0a2a7ba1-12c3-4736-a31d-ed9a0e9f44d1%2F1c888921-e70c-4402-8ce6-f1453c5a23f6.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usw-mission-critical?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F0a2a7ba1-12c3-4736-a31d-ed9a0e9f44d1%2F08f7fc34-f02b-4cfa-9733-ae7e11e7321c.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usw-mission-critical?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F0a2a7ba1-12c3-4736-a31d-ed9a0e9f44d1%2F7c3f3f28-130a-4d75-8375-176eed655b07.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usw-mission-critical?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F0a2a7ba1-12c3-4736-a31d-ed9a0e9f44d1%2Feef7001d-d674-466a-bb66-0025b666c106.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-rps?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F3b8eb586-5c9a-4c5d-a60a-b6ed0676f33c%2F805772fd-6ad5-4071-99b9-a3bd4b516e65.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-rps?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F3b8eb586-5c9a-4c5d-a60a-b6ed0676f33c%2F22efb754-8155-488d-86fc-a601ef157ac6.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-rps?subcategory=all-power-tech#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F3b8eb586-5c9a-4c5d-a60a-b6ed0676f33c%2F88f1dbe5-cb91-41bf-9573-d3166bf94fcc.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-rps?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F3b8eb586-5c9a-4c5d-a60a-b6ed0676f33c%2Fc0f1f5dc-5ecb-4644-a8fb-a36cd1c66c08.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-rps?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F3b8eb586-5c9a-4c5d-a60a-b6ed0676f33c%2Fd88d8a71-5ec6-4520-b7fa-0eeb9cc70acc.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-rps?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F3b8eb586-5c9a-4c5d-a60a-b6ed0676f33c%2Fd1d94f40-956d-4a46-8b01-d48833a410da.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-pro?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fb178b896-3499-4fa3-8c56-ce2822be933f%2F79ee9194-a423-479a-94e3-3189a71d4295.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-pro?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fb178b896-3499-4fa3-8c56-ce2822be933f%2F1ed3c623-185f-46af-ba47-1269301bf8a5.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-pro?subcategory=all-power-tech#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fb178b896-3499-4fa3-8c56-ce2822be933f%2Fcb03d603-0165-449d-aca5-967afa4dbbf0.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-pro?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fb178b896-3499-4fa3-8c56-ce2822be933f%2Fc0535cc1-e046-44e4-952a-87e0c259b4e7.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-pro?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fb178b896-3499-4fa3-8c56-ce2822be933f%2Ffe1564e0-3c52-4963-ae75-dc7b49c6a51a.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-pro?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fb178b896-3499-4fa3-8c56-ce2822be933f%2F9e685a93-c9c9-41a2-a5b0-24302bee961d.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-hd?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc9546905-27d5-45fd-8370-f7bfdb0698db%2F67c5a4a4-5123-4896-a4ac-ac327512a420.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-hd?subcategory=all-power-tech",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc9546905-27d5-45fd-8370-f7bfdb0698db%2Fd1ead7b7-c05d-4416-a702-e6247c2524c5.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-hd?subcategory=all-power-tech#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc9546905-27d5-45fd-8370-f7bfdb0698db%2F5b9b8482-e868-4baa-8286-f7192764820e.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/usp-pdu-hd?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fc9546905-27d5-45fd-8370-f7bfdb0698db%2F25fcf5c4-7f1e-4342-8810-61a993e5bf64.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/unifi-smartpower-cable?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7bdfa637-2100-4538-a38d-6cbf3f0ada7c%2F104168dc-4c94-48bb-a464-904f8f477de5.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/unifi-smartpower-cable?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7bdfa637-2100-4538-a38d-6cbf3f0ada7c%2F77f18e12-af6e-467b-b3ea-1da8438d633e.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/unifi-smartpower-cable?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7bdfa637-2100-4538-a38d-6cbf3f0ada7c%2F8036cb18-9833-413a-a96a-864e64d2fd7b.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/power-tech/unifi-smartpower-cable?subcategory=all-power-tech#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F7bdfa637-2100-4538-a38d-6cbf3f0ada7c%2F4c4d7245-d856-4920-8679-e54abed9f981.jpg&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uci?subcategory=all-new-integrations",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F994152e4-baf8-4ea1-b8d6-22f9765e98c4%2F72b58751-ccb4-4925-bca7-b60accca27a8.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uci?subcategory=all-new-integrations",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F994152e4-baf8-4ea1-b8d6-22f9765e98c4%2F67410869-8756-41b2-9577-68d6bf2a6de3.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uci?subcategory=all-new-integrations#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F994152e4-baf8-4ea1-b8d6-22f9765e98c4%2Fbeb40d98-f754-4d0e-865d-e2644938b07d.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uci?subcategory=all-new-integrations#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F994152e4-baf8-4ea1-b8d6-22f9765e98c4%2F95cc2a9d-bd5b-43c8-8afd-1c57e346a288.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uc-ev-station-lite?subcategory=all-new-integrations",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5c615a25-b1cf-4257-901a-99afbc15d62e%2F5e94a9e5-5e7f-410e-bed6-6251d2e5ddad.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uc-ev-station-lite?subcategory=all-new-integrations",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5c615a25-b1cf-4257-901a-99afbc15d62e%2Ffbbca9cd-e816-413d-9767-ad5cb01655bc.png&q=75&w=1080",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uc-ev-station-lite?subcategory=all-new-integrations#in-the-box",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5c615a25-b1cf-4257-901a-99afbc15d62e%2F094149bc-669e-47a3-a6dd-a56b01c05707.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uc-ev-station-lite?subcategory=all-new-integrations#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5c615a25-b1cf-4257-901a-99afbc15d62e%2F92c138bc-a447-48a3-8691-0cbdc6454451.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uc-ev-station-lite?subcategory=all-new-integrations#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5c615a25-b1cf-4257-901a-99afbc15d62e%2Fa342046a-0e74-4f86-ade2-1ddac38c43dc.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/new-integrations/uc-ev-station-lite?subcategory=all-new-integrations#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F5c615a25-b1cf-4257-901a-99afbc15d62e%2F9997036a-95f4-4f98-b049-8d5ae0db98fd.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/accessories/unifi-ethernet-patch-cable-with-bendable-booted-rj45?subcategory=accessories-cables-dacs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2F4436004e-b03e-41e8-bc14-50d82fcdfe0c%2F85ad792f-69cf-4cfb-b6fd-2201de340256.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/accessories/uacc-cable-patch-el?subcategory=accessories-cables-dacs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fbd6349c7-5a1c-4717-b322-c430d7106ebc%2Ff40d68ae-bffc-4643-b2a3-94629cde0c99.png&q=75&w=3840",
+  },
+  {
+    url: "https://techspecs.ui.com/unifi/accessories/uacc-cable-patch-el?subcategory=accessories-cables-dacs#marketing-images",
+    src: "https://images.svc.ui.com/?u=https%3A%2F%2Fcdn.ecomm.ui.com%2Fproducts%2Fbd6349c7-5a1c-4717-b322-c430d7106ebc%2Fdaca5318-07b1-4314-9e1d-e1eb3bea91a4.png&q=75&w=3840",
+  },
+  {
+    url: "https://www.solaredge.com/pl/produkty/dla-domu/falowniki/solaredge-home-hub",
+    src: "https://www.solaredge.com/pl/sites/pl/files/2023-01/SE-Home-Hub-Inverter-%281-%26-3-ph%29-with-caption.jpg",
+  },
+  {
+    url: "https://www.solaredge.com/pl/produkty/dla-domu/magazynowanie-energii/magazyn-energii-solaredge-home-400v",
+    src: "https://www.solaredge.com/pl/sites/pl/files/2023-01/Battery_400V_%20%281%29.png",
+  },
+  {
+    url: "https://www.solaredge.com/pl/produkty/dla-domu/magazynowanie-energii/magazyn-energii-solaredge-home-400v",
+    src: "https://www.solaredge.com/pl/sites/pl/files/styles/tiny_convert/public/Webpages/Products/battrey%20400v/A-complete-solution-from-roof-to-grid.jpg?itok=zj3PNPT8",
+  },
+  {
+    url: "https://www.solaredge.com/pl/produkty/dla-domu/magazynowanie-energii/magazyn-energii-solaredge-home-400v",
+    src: "https://www.solaredge.com/pl/sites/pl/files/styles/tiny_convert/public/Webpages/Products/battrey%20400v/image%2078.jpg?itok=74j1B39-",
+  },
+  {
+    url: "https://www.solaredge.com/pl/produkty/dla-domu/ladowanie-ev",
+    src: "https://www.solaredge.com/pl/sites/pl/files/2023-01/EV%20Charger_GUN_V9_.jpg",
+  },
+  {
     url: "https://thesslagreen.com/product/airpack-home-h/",
     src: "https://thesslagreen.com/wp-content/uploads/0_APHome_h_800x705px.png",
   },
