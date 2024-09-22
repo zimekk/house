@@ -147,7 +147,7 @@ importers:
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1)
       ol:
         specifier: ^10.0.0
-        version: 10.1.0
+        version: 10.2.0
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -221,7 +221,7 @@ importers:
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.1)
       ol:
         specifier: ^10.0.0
-        version: 10.1.0
+        version: 10.2.0
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -741,8 +741,8 @@ packages:
   '@types/prop-types@15.7.13':
     resolution: {integrity: sha512-hCZTSvwbzWGvhqxp/RqVqwU999pBf2vp7hzIjiYOsl8wqOmUxkQ6ddw1cV3l8811+kdUFus/q4d1Y3E3SyEifA==}
 
-  '@types/rbush@3.0.4':
-    resolution: {integrity: sha512-knSt9cCW8jj1ZSFcFeBZaX++OucmfPxxHiRwTahZfJlnQsek7O0bazTJHWD2RVj9LEoejUYF2de3/stf+QXcXw==}
+  '@types/rbush@3.0.3':
+    resolution: {integrity: sha512-lX55lR0iYCgapxD3IrgujpQA1zDxwZI5qMRelKvmKAsSMplFVr7wmMpG7/6+Op2tjrgEex8o3vjg8CRDrRNYxg==}
 
   '@types/react-reconciler@0.26.7':
     resolution: {integrity: sha512-mBDYl8x+oyPX/VBb3E638N0B7xG+SPk/EAMcVPeexqus/5aTpTphQi0curhhshOqRrc9t6OPoJfEUkbymse/lQ==}
@@ -2107,8 +2107,8 @@ packages:
     resolution: {integrity: sha512-yBYjY9QX2hnRmZHAjG/f13MzmBzxzYgQhFrke06TTyKY5zSTEqkOeukBzIdVA3j3ulu8Qa3MbVFShV7T2RmGtQ==}
     engines: {node: '>= 0.4'}
 
-  ol@10.1.0:
-    resolution: {integrity: sha512-/efepydpzhFoeczA9KAN5t7G0WpFhP46ZXEfSl6JbZ7ipQZ2axpkYB2qt0qcOUlPFYMt7/XQFApH652KB08tTg==}
+  ol@10.2.0:
+    resolution: {integrity: sha512-yYFNV8LzN3uOP9qDecMdq07IKlD5P3KfbT+pfOje/XlsnMNLXOb3ZjCZN86wtbew8aq+RfdJ+XylVI8MZsp4Vw==}
 
   onetime@6.0.0:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
@@ -3278,7 +3278,7 @@ snapshots:
 
   '@types/prop-types@15.7.13': {}
 
-  '@types/rbush@3.0.4': {}
+  '@types/rbush@3.0.3': {}
 
   '@types/react-reconciler@0.26.7':
     dependencies:
@@ -4885,9 +4885,9 @@ snapshots:
       define-properties: 1.2.1
       es-object-atoms: 1.0.0
 
-  ol@10.1.0:
+  ol@10.2.0:
     dependencies:
-      '@types/rbush': 3.0.4
+      '@types/rbush': 3.0.3
       color-rgba: 3.0.0
       color-space: 2.0.1
       earcut: 3.0.0
