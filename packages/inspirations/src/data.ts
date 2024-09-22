@@ -1,6 +1,254 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://www.velux.pl/inspiracje/pokoje/sypialnia",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/ceemaster/cdp/img/room-pages/bedroom-hero-id10161870.jpg?cc=grid_12_fullsection&key=key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/pokoje/sypialnia",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/ceemaster/cdp/img/room-pages/visualize-daylight-bedroom-2.jpg?cc=grid_12_fullsection&key=key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/active/new/135523-01-xxl_veluxactive_1280x450.png?cc=grid_12_fullsection&key=key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/active/new/velux_smartphone_showcase_ui_4-3/velux_smartphone_showcase_ui_4-4.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/velux-active/133284-01-velux-active_2_coll.png?h=300&iar=0&w=350&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/velux-active/133429-02_velux_actiev_starter_kit_300x300.jpg?h=300&iar=0&w=300&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/velux-active/130609-03_velux_active_departure_btn_300x300.jpg?h=300&iar=0&w=300&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/velux-active/130610-03-velux-actiev_climate_sensor_300x300.jpg?h=300&iar=0&w=300&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/velux-active/133147-03-xl_velux_active_gateway_200x200.jpg?h=200&iar=0&w=200&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/smart-home/velux-active",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/smart%20home/velux-app-control/135582-01-xxl_1280x450_app-control_wall.jpg?cc=grid_12_fullsection&key=key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-zewnetrzne#",
+    src: "https://cdn-blinds.velux.com/-/media/blindsconfigurator/blinds/shutters.png",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-zewnetrzne#",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/600/roleta-zewnetrzna-nagrody-450.jpg?h=227&iar=0&w=450&cc=grid_4&key=1614072370",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-zewnetrzne#",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/1280/velux-rolety-zewnetrzne-ekspert.jpg?cc=grid_12_fullsection&key=key=156499452102194",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-zewnetrzne#",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/600/dobor-odpowiedniego-wyposazenia-okien-dachowych-poradnik-600.jpg?h=849&iar=0&w=600&cc=grid_4&key=1612223378",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-zewnetrzne#",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/velux-active-baner-slider-1280x458.jpg?cc=grid_12_fullsection&key=key=158928017947628",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/rolety-zewnetrzne/jak-zamontowac-rolety-zewnetrzne-velux-na-oknach-dachowych",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/poradnik/rolety-zewnetrzne/jak-dopasowac-rolete-zewnetrzna-velux.jpg?h=580&iar=0&w=572&cc=grid_6&key=156509084541819",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/rolety-zewnetrzne/jak-zamontowac-rolety-zewnetrzne-velux-na-oknach-dachowych",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/poradnik/rolety-zewnetrzne/rolety-zewnetrzne-sterowanie.jpg?h=330&iar=0&w=572&cc=grid_6&key=156509086857522",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/rolety-zewnetrzne/jak-zamontowac-rolety-zewnetrzne-velux-na-oknach-dachowych",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/poradnik/rolety-zewnetrzne/montaz-rolety-zewnetrznej.jpg?h=676&iar=0&w=573&cc=grid_6&key=156509084963706",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/gorne-otwieranie-standard",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/nowe%20strony%20-%20grafiki/okna-drewniane-velux-gorne-otwieranie-1280-960.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/gorne-otwieranie-standard",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/nowe%20strony%20-%20grafiki/gorne-otwieranie-okna-velux-1280-960.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/gorne-otwieranie-standard",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/nowe%20strony%20-%20grafiki/przekroj-okna-3-szyby-drewniane-958-1280.jpg?h=1280&iar=0&w=958&cc=grid_5&key=156569733061175",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/markizy/wszystko-co-powinienes-wiedziec-o-markizach-na-okna-dachowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/poradnik/markizy/markizy-zewnetrzne-na-okna-dachowe-velux.jpg?h=853&iar=0&w=1280&cc=grid_12&key=156402492311163",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/markizy/wszystko-co-powinienes-wiedziec-o-markizach-na-okna-dachowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/poradnik/markizy/markizy-velux-ochrona-przed-sloncem.jpg?h=853&iar=0&w=1280&cc=grid_12&key=15640248872993",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/markizy/wszystko-co-powinienes-wiedziec-o-markizach-na-okna-dachowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/poradnik/markizy/markizy-na-okna-dachowe-obsluga-manualna.jpg?h=853&iar=0&w=1280&cc=grid_12&key=156402486896184",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-i-markizy/markizy",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/markizy/markiza-na-okno-dachowe-velux-2.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-i-markizy/markizy",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/markizy/markiza-na-okno-dachowe-velux-3.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-i-markizy/markizy",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/markizy/markiza-na-okno-dachowe-velux-5.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/rolety-i-markizy/markizy",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/markizy/markiza-na-okno-dachowe-velux-6.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/zestawy-okien-velux/zestaw-velux-duo#details",
+    src: "https://cdn-marketing.velux.com/-/media/next/products/roof-windows/combination-solutions/twin-solution-112035-02-xxl-940x940.jpg?h=940&iar=0&w=940&cc=grid_12&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/zestawy-okien-velux/zestaw-velux-duo#details",
+    src: "https://cdn-marketing.velux.com/-/media/next/products/roof-windows/combination-solutions/twin-solution-146493-02-xxl-940x940.jpg?h=940&iar=0&w=940&cc=grid_12&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/zestawy-okien-velux/zestaw-velux-duo#details",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/ceemaster/combi-solutions/main-page/id10116769_146060-01-940x940.jpg?h=940&iar=0&w=940&cc=grid_12&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/zestawy-okien-velux/zestaw-velux-duo#details",
+    src: "https://cdn-marketing.velux.com/-/media/next/products/roof-windows/combination-solutions/twin-solution-131176-02-xxl-960x960.jpg?h=960&iar=0&w=960&cc=grid_12&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/zestawy-okien-velux/zestaw-velux-duo#details",
+    src: "https://cdn-marketing.velux.com/-/media/next/products/roof-windows/combination-solutions/twin-solution-146554-01-xxl-960x960.jpg?h=960&iar=0&w=960&cc=grid_12&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/gabka-uszczelniajaca-flex-1280x853.jpg?h=853&iar=0&w=1280&cc=grid_5&key=158928017342579",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/uk/products/flashings/standard%20installation_300x300.jpg?h=300&iar=0&w=300&cc=grid_4&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/uk/products/flashings/recessed%20installation_300x300.jpg?h=300&iar=0&w=300&cc=grid_4&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/flex-gabka-okno-dachowe.jpg?h=940&iar=0&w=940&cc=grid_4&key=158928024025885",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-eds_940x940.jpg?h=940&iar=0&w=940&cc=grid_4&key=156560960746322",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/ceemaster/edq/edq-thumb_940x940.jpg?h=940&iar=0&w=940&cc=grid_4&key=1695731469",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/ceemaster/edq/id10097444-edt-300x300.jpg?h=300&iar=0&w=300&cc=grid_4&key=1702381452",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-edb_940x940.jpg?h=940&iar=0&w=940&cc=grid_4&key=156560957653727",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-edl_940x940.jpg?h=940&iar=0&w=940&cc=grid_4&key=156560959255658",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/kolnierz-gabka-uszczelniajaca.jpg?h=940&iar=0&w=940&cc=grid_4&key=158928010615543",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-edn_940x940.jpg?h=940&iar=0&w=940&cc=grid_4&key=156560960034102",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-edz_940x940.jpg?h=940&iar=0&w=940&cc=grid_3&key=156560962318001",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-edw_940x940.jpg?h=940&iar=0&w=940&cc=grid_3&key=156560961495761",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-eds_940x940.jpg?h=940&iar=0&w=940&cc=grid_3&key=156560960746322",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-edb_940x940.jpg?h=940&iar=0&w=940&cc=grid_3&key=156560957653727",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/940/940x940/kolnierz-edj_940x940.jpg?h=940&iar=0&w=940&cc=grid_3&key=156560958578724",
+  },
+  {
+    url: "https://www.velux.pl/produkty/produkty-montazowe/kolnierze",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/edt-kolnierz-velux-500.jpg?h=500&iar=0&w=500&cc=grid_3&key=159595616420661",
+  },
+  {
+    url: "https://www.velux.pl/inspiracje/dachowe-swietliki-tunelowe/dachowe-swietliki-tunelowe-wszystko-co-musisz-o-nich-wiedziec",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/poradnik/dachowe-swietliki-tunelowe/velux-dachowy-swietlik-tunelowy.jpg?h=526&iar=0&w=436&cc=grid_6&key=156280705145888",
+  },
+  {
+    url: "https://www.velux.pl/produkty/dachowe-swietliki-tunelowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/sun%20tunnel/sun%20tunnel2%20%20ligt%20122592%2001%20xxl%201280x900.jpg?cc=grid_12_fullsection&key=key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/dachowe-swietliki-tunelowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/sun%20tunnel/edgeglowe%203.jpg?h=387&iar=0&w=460&cc=grid_6&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/nowe%20strony%20-%20grafiki/okno-3-szybkowe-velux-gallery-spot-760x920.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/nowe%20strony%20-%20grafiki/okno-poliuretanowe-glu-velux-1280x853.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/nowe%20strony%20-%20grafiki/otwieranie-okna-dolna-klamka-velux-1280-905.jpg",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/pl/produkty/okno-dolne-otwieranie-poliuretanowe-velux-1280x960.png?h=960&iar=0&w=1280&key=15892801850631",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/windows/material/940x940/3-layer-pane_pu-window_130446-01_940x940.jpg?h=940&iar=0&w=940&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/windows/thermo%20technology/pu_thermotechnology_130444-01_940x940.jpg?h=940&iar=0&w=940&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/windows/ce%20ee/photos/940x940/131089-02-xxl%20sound%20reduction.jpg?h=958&iar=0&w=958&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/windows/material/exterior/113218-01_940x940.jpg?h=940&iar=0&w=940&cc=grid_2&key=-62135596800",
+  },
+  {
+    url: "https://www.velux.pl/produkty/okna-dachowe/dolne-otwieranie-standard-drewniano-poliuretanowe",
+    src: "https://cdn-marketing.velux.com/-/media/marketing/master/products/windows/material/940x940/pane_polyurethane_116859%2001_940x940.jpg?h=940&iar=0&w=940&cc=grid_2&key=-62135596800",
+  },
+  {
     url: "https://www.hormann.pl/prywatni-inwestorzy/bramy-garazowe/bramy-segmentowe/",
     src: "https://cdn.hoermann-cloud.de/fileadmin/Global_Images/Produkte/Garagentore/Garagen-Sectionaltore/Hoermann_Garagen-Sektionaltor_Duradecor_-_1920x768px.jpg",
   },
@@ -319,6 +567,22 @@ export const inspirations = [
   {
     url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-5px-g2-emea.html",
     src: "https://dynamicmedia.eaton.com/is/image/eaton/eaton-5px-g2-lcd-dt:feature-block-mobile",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-prewired.JPG.transform/default-mobile/image.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-standards.JPG.transform/default-mobile/image.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-hybrid.jpg.transform/default-mobile/image.jpg",
+  },
+  {
+    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
+    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-form-of-delivery.JPG",
   },
   {
     url: "https://ui.com/eu/en/cloud-gateways/large-scale",
@@ -1016,22 +1280,217 @@ export const inspirations = [
     url: "https://greencell.global/pl/inwertery-solarne/4832-inwerter-solarny-falownik-off-grid-z-ladowarka-solarna-mppt-green-cell-48vdc-230vac-3000va3000w-czysta-sinusoida.html",
     src: "https://swiatbaterii.pl/img/cms/INVSOL/DESKTOP/INVSOL04/9.png",
   },
-
   {
-    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
-    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-prewired.JPG.transform/default-mobile/image.jpg",
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10005570?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_IC02_XX_00725j.JPG",
   },
   {
-    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
-    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-standards.JPG.transform/default-mobile/image.jpg",
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/5TA2156-0KA",
+    src: "https://www.automation.siemens.com/bilddb/interfaces/InterfaceImageDB.asmx/GetImageVariant?objectkey=G_I201_XX_20135&amp;imagevariantid=16&amp;lang=&amp;interfaceuserid=MALL",
   },
   {
-    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
-    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-hybrid.jpg.transform/default-mobile/image.jpg",
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/5TC8903",
+    src: "https://www.automation.siemens.com/bilddb/interfaces/InterfaceImageDB.asmx/GetImageVariant?objectkey=P_I202_XX_00696&amp;imagevariantid=16&amp;lang=&amp;interfaceuserid=MALL",
   },
   {
-    url: "https://www.eaton.com/pl/pl-pl/catalog/low-voltage-power-distribution-controls-systems/xcomfort-klv.html#tab-1",
-    src: "https://www.eaton.com/content/dam/eaton/products/low-voltage-power-distribution-controls-systems/xcomfort-klv/eaton-xcomfort-klv-form-of-delivery.JPG",
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10000427?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_10727j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10007391?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_10727j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10007391?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_10728j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10007391?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13394j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10007391?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13395j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10018746?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_10751j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10018746?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13398j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10018746?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13399j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10028888?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_12131j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10028888?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13400j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10028888?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13401j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10028889?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_12132j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10036005?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13394j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10036005?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13395j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_I201_XX_01443j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_I201_XX_01444j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_I201_XX_00767j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_I201_XX_04488j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_I201_XX_00769j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_I201_XX_04489j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/P_I201_XX_04490j.JPG",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/S55770-T396",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/jpg/P_BT01_XX_05712i.jpg",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/S55770-T347",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/jpg/P_BT01_XX_06067i.jpg",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/S55370-C162",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/jpg/P_BT01_XX_00430i.jpg",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/5WG1221-2DB12",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/jpg/P_I202_XX_01597i.jpg",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/5WG1287-2DB13",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/jpg/P_I201_XX_07901i.jpg",
+  },
+  {
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Product/S55770-T429",
+    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/jpg/P_BT01_XX_07153i.jpg",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
+    src: "https://www07.abb.com/images/librariesprovider84/building-products/climaeco-sensors_range-layout_1183x353.jpg?sfvrsn=b5ea7d15_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
+    src: "https://www07.abb.com/images/librariesprovider84/products/home-and-building-automation/knx-/tenton/abb-tenton-architects.png?sfvrsn=beac5817_1&CropWidth=395&CropHeight=395&Quality=High&CropX=0&CropY=0&Width=395&Height=395&Method=CropToFixedAreaCropToFixedAreaArguments&Key=fc951b3d700c8edd88fbe9e1bc324ddd",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
+    src: "https://www07.abb.com/images/librariesprovider84/products/home-and-building-automation/knx-/tenton/abb-tenton-integrators.png?sfvrsn=42ac5817_1&CropWidth=395&CropHeight=395&Quality=High&CropX=0&CropY=0&Width=395&Height=395&Method=CropToFixedAreaCropToFixedAreaArguments&Key=fc951b3d700c8edd88fbe9e1bc324ddd",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
+    src: "https://www07.abb.com/images/librariesprovider84/products/home-and-building-automation/knx-/tenton/abb-tenton-installers.png?sfvrsn=46ac5817_1&CropWidth=395&CropHeight=395&Quality=High&CropX=0&CropY=0&Width=395&Height=395&Method=CropToFixedAreaCropToFixedAreaArguments&Key=fc951b3d700c8edd88fbe9e1bc324ddd",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
+    src: "https://www07.abb.com/images/librariesprovider84/products/home-and-building-automation/knx-/tenton/abb-tenton-installers.png?sfvrsn=46ac5817_1&CropWidth=395&CropHeight=395&Quality=High&CropX=0&CropY=0&Width=395&Height=395&Method=CropToFixedAreaCropToFixedAreaArguments&Key=fc951b3d700c8edd88fbe9e1bc324ddd",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/infrastruktura-i-interfejsy-systemu",
+    src: "https://www07.abb.com/images/librariesprovider84/products/knx/product-image--ipr-s3-5-1_preview.jpg?sfvrsn=7c4f9c12_1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/wizualizacja-wyswietlanie-i-sygnalizacja",
+    src: "https://webimages.imagebank.abb.com/public/default/product/9AAC189199/presentation",
+  },
+  {
+    url: "https://new.abb.com/products/2TMA200050W0007/rt-u30-0-1-811",
+    src: "https://cdn.productimages.abb.com/9PAA00000154037_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2TMA130050B0067/h8236-5b",
+    src: "https://cdn.productimages.abb.com/9PAA00000280968_400x400.png",
+  },
+  {
+    url: "https://new.abb.com/products/2TMA130050B0067/h8236-5b",
+    src: "https://cdn.productimages.abb.com/9PAA00000280969_400x400.png",
+  },
+  {
+    url: "https://new.abb.com/products/2TMA130050W0055/h8237-5w",
+    src: "https://cdn.productimages.abb.com/9PAA00000280975_400x400.png",
+  },
+  {
+    url: "https://new.abb.com/products/2TMA130050W0055/h8237-5w",
+    src: "https://cdn.productimages.abb.com/9PAA00000280976_400x400.png",
+  },
+  {
+    url: "https://new.abb.com/products/2TMA310051B0004/st-u10-4-1-825",
+    src: "https://cdn.productimages.abb.com/9PAA00000099806_400x400.png",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/user-operation-busch-axcent-busch-dynasty-carat-future-linear-pure-stainless-steel-solo/linie-wzornicze",
+    src: "https://www07.abb.com/images/librariesprovider84/Products/Home-and-Building-Automation/user_operation_header.jpg?sfvrsn=1",
+  },
+  {
+    url: "https://new.abb.com/low-voltage/products/building-automation/product-range/abb-i-bus-knx/system/installation",
+    src: "https://www07.abb.com/images/librariesprovider84/Products/KNX/Building-automation-portal/technology-of-choice_825x617.jpg?sfvrsn=1",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0006/sbs-u10-0-1-84",
+    src: "https://cdn.productimages.abb.com/f_sbs_u10.0.1-84_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0080/sb-u12-0-1-83",
+    src: "https://cdn.productimages.abb.com/9PAA00000029728_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0060/sbc-u6-0-1-884",
+    src: "https://cdn.productimages.abb.com/9PAA00000029735_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0043/sbr-u6-0-1-885",
+    src: "https://cdn.productimages.abb.com/9PAA00000029749_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0073/sb-u8-0-1-885",
+    src: "https://cdn.productimages.abb.com/9PAA00000029721_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0055/sbr-u10-0-1-885",
+    src: "https://cdn.productimages.abb.com/9PAA00000029755_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0067/sbc-u10-0-1-885",
+    src: "https://cdn.productimages.abb.com/9PAA00000029742_400x400.jpg",
+  },
+  {
+    url: "https://new.abb.com/products/2CKA006330A0044/sbr-u6-0-1-83",
+    src: "https://cdn.productimages.abb.com/9PAA00000257704_400x400.jpg",
   },
   {
     url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/skymoon",
@@ -1145,6 +1604,190 @@ export const inspirations = [
   {
     url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/chiara",
     src: "https://www07.abb.com/images/librariesprovider84/home-page/cover-catalogo-chiara_abb_longer2.png?sfvrsn=81b6fe0a_1",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-abb-tenton-/20705817#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20705817/busch-tenton-silber-c-busch-jaeger-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-busch-comforttouch-/1567935#&gid=1&pid=1",
+    src: "https://image.architonic.com/img_pro2-4/156/7935/einzelprodukte-cp-9-glw-wohnz-de-sw-b.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-ls-990-knx-compact-room-controller-f-50/20706148#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20706148/ls990-f50-krc-swm-4gang-4gang-pers-rgb-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-a-550-knx-compact-room-controller-f-40/20705858#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20705858/a550-f40-krc-ww-2gang-4gang-pers-rgb-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-a-550-knx-compact-room-controller-f-50/20705878#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20705878/a550-f50-krc-al-2gang-pers-rgb-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-ls-990-knx-compact-room-controller-f-50/20706183#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20706183/ls990-f50-krc-al-4gang-pers-rgb-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-ls-990-knx-compact-room-controller-f-40/20706109#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20706109/ls990-f40-krc-wwm-pers-rgb-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-ls-990-touch-anthracite/20706231#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20706231/ls-touch-ls990-an-pers-v2-cmyk-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-a-550-jung-home-schuko-socket-energy-in-white/20722506#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20722506/a550-ww-home-socket-led-pers-green-rgb-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/jung-ls-990-knx-compact-room-controller-f-50/20706148#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/20706148/ls990-f50-krc-swm-4gang-4gang-pers-rgb-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/",
+    src: "https://www.jung.de/~mi/12335/20037/jung-home.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/",
+    src: "https://www.jung.de/~mi/12336/20038/ls-touch.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/",
+    src: "https://www.jung.de/~mi/12337/20039/ls-1912-matt.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4478/produkty/technologia/videodomofony-i-stacje-zewnetrzne/stacja-wewnetrzna-wideo/",
+    src: "https://www.jung.de/~mi/3766/6692/video-innenstationen.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4478/produkty/technologia/videodomofony-i-stacje-zewnetrzne/stacja-wewnetrzna-wideo/",
+    src: "https://www.jung.de/~mi/3772/6698/video-innenstation.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4479/produkty/technologia/videodomofony-i-stacje-zewnetrzne/stacja-wewnetrzna-audio/",
+    src: "https://www.jung.de/~mi/3767/6694/audio-innenstationen.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4479/produkty/technologia/videodomofony-i-stacje-zewnetrzne/stacja-wewnetrzna-audio/",
+    src: "https://www.jung.de/~mi/3773/6699/audio-innenstationen.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4480/produkty/technologia/videodomofony-i-stacje-zewnetrzne/standardowa-stacja-wewnetrzna-audio/",
+    src: "https://www.jung.de/~mi/3768/6693/audio-innenstation-standard.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4480/produkty/technologia/videodomofony-i-stacje-zewnetrzne/standardowa-stacja-wewnetrzna-audio/",
+    src: "https://www.jung.de/~mi/3775/6700/audio-innenstation-standard.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4481/produkty/technologia/videodomofony-i-stacje-zewnetrzne/sterowanie-budynkiem/",
+    src: "https://www.jung.de/~mi/3747/6640/gebaeudesystemtechnik.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4481/produkty/technologia/videodomofony-i-stacje-zewnetrzne/sterowanie-budynkiem/",
+    src: "https://www.jung.de/~mi/11244/18641/smart-control-range.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4481/produkty/technologia/videodomofony-i-stacje-zewnetrzne/sterowanie-budynkiem/",
+    src: "https://www.jung.de/~mi/3777/6702/ihb.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4483/produkty/technologia/videodomofony-i-stacje-zewnetrzne/systemy-komunikacji-siedle/",
+    src: "https://www.jung.de/~mi/3746/6639/sss-siedle.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/4483/produkty/technologia/videodomofony-i-stacje-zewnetrzne/systemy-komunikacji-siedle/",
+    src: "https://www.jung.de/~mi/3776/6701/siedle-tuerstationen.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/8660/14406/jung-smart-radio-dab.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/8480/14403/jung-smart-radio-dab.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/8659/14405/jung-smart-radio-dab.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
+    src: "https://www.jung.de/~mi/7801/14404/jung-smart-radio-dab.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/7330/12244/knx-tastsensor-f50.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/7332/12247/knx-tastsensor-f50.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/7347/12278/knx-tastsensor-f50-in-lc.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/1898/3264/f50.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/2037/3629/knx-push-button-sensors-f-50.png",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/1798/3100/f-50-design-cover.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/1800/3101/f-50-leds.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/1802/3105/f-50-anschluss.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1987/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/",
+    src: "https://www.jung.de/~mi/1801/3104/f-50-montage.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1988/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/f-50-maksymalna-roznorodnosc-i-swoboda-wyboru/#f50-ls",
+    src: "https://www.jung.de/~mi/10323/17261/knx-tastsensor-f-50-serie-a.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/1988/produkty/technologia/system-knx/przyciski-uniwersalne-knx-f-50/f-50-maksymalna-roznorodnosc-i-swoboda-wyboru/#f50-ls",
+    src: "https://www.jung.de/~mi/10325/17263/knx-tastsensor-f-50-serie-ls.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/901/produkty/technologia/system-knx/przyciski-funkcyjne-knx-f-40/",
+    src: "https://www.jung.de/~mi/7336/12254/knx-tastsensor-f40.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/901/produkty/technologia/system-knx/przyciski-funkcyjne-knx-f-40/",
+    src: "https://www.jung.de/~mi/7350/12285/knx-tastsensor-f40.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/901/produkty/technologia/system-knx/przyciski-funkcyjne-knx-f-40/",
+    src: "https://www.jung.de/~mi/7346/12276/knx-tastsensor-f40-a-creation.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/901/produkty/technologia/system-knx/przyciski-funkcyjne-knx-f-40/",
+    src: "https://www.jung.de/~mi/7339/12262/knx-tastsensor-f40-ls-990.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/901/produkty/technologia/system-knx/przyciski-funkcyjne-knx-f-40/",
+    src: "https://www.jung.de/~mi/751/1156/knx-tastsensor-module-fd-design.jpg",
+  },
+  {
+    url: "https://www.jung.de/pl/901/produkty/technologia/system-knx/przyciski-funkcyjne-knx-f-40/",
+    src: "https://www.jung.de/~mi/5473/9509/tastsensor-f-40-temperatur.png",
+  },
+  {
+    url: "https://www.jung.de/pl/901/produkty/technologia/system-knx/przyciski-funkcyjne-knx-f-40/",
+    src: "https://www.jung.de/~mi/742/1141/knx-tastsensor-module.jpg",
   },
   {
     url: "https://www.jung.de/pl/920/produkty/serie-osprzetu-gniazda-i-wylaczniki/a-creation-wykonany-ze-szkla/",
