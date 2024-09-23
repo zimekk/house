@@ -1,6 +1,422 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-notti-oval-szary-eye-on-design-1.webp?v=1721313161&width=1877",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-notti-oval-szary-eye-on-design-2.webp?v=1721313162&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-notti-oval-szary-eye-on-design-4.webp?v=1721313167&width=853",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-notti-oval-szary-eye-on-design-4.webp?v=1721313167&width=853",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-notti-mocha",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-notti-czarny-eye-on-design-1.webp?v=1721313171&width=1877",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-notti-mocha",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-notti-czarny-eye-on-design-3.webp?v=1721313175&width=853",
+  },
+  {
+    url: "https://pl.eyeon.design/products/notti-table-lamp-terracotta",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-notti-terracotta-eye-on-design-1.png?v=1721307237&width=1326",
+  },
+  {
+    url: "https://pl.eyeon.design/products/notti-table-lamp-terracotta",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-notti-terracotta-eye-on-design-2.webp?v=1721307240&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/notti-table-lamp-terracotta",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-notti-terracotta-eye-on-design-2.webp?v=1721307240&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-glossy-marmur-eye-on-design-2.webp?v=1721311093&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-glossy-marmur-eye-on-design-3.webp?v=1721311096&width=1365",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-glossy-marmur-eye-on-design-5.webp?v=1721311100&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/products/hqdefault_b2e2802a-bd68-4dbb-991c-11ac34d1a891.jpg?v=1655977026&width=480",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/products/hqdefault_b2e2802a-bd68-4dbb-991c-11ac34d1a891.jpg?v=1655977026&width=480",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-grant",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-grant-zloty-eye-on-design-1.webp?v=1721313135&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-grant",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-grant-zloty-eye-on-design-6.webp?v=1721313147&width=1368",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-grant",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-grant-zloty-eye-on-design-7.webp?v=1721313150&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-artist-40-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-czarny-eye-on-design-1.png?v=1721311140&width=864",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-artist-40-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-czarny-eye-on-design-2.webp?v=1721311143&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-artist-40-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-czarny-eye-on-design-3.webp?v=1721311145&width=1049",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-artist-40-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-czarny-eye-on-design-4.webp?v=1721311147&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-artist-40-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-czarny-eye-on-design-6.webp?v=1721311151&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/carmen-45-pendant-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-carmen-czarny-eye-on-design-1.png?v=1721307203&width=1014",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/carmen-45-pendant-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-carmen-czarny-eye-on-design-2.png?v=1721307206&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/carmen-45-pendant-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-carmen-czarny-eye-on-design-2.png?v=1721307206&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-quatro-czarny-eye-on-design-2.webp?v=1721312781&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-quatro-czarny-eye-on-design-4.webp?v=1721312785&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-quatro-czarny-eye-on-design-4.webp?v=1721312785&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-clyde-czarny-eye-on-design-2.webp?v=1721311554&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-clyde-czarny-eye-on-design-4.webp?v=1721311558&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-clyde-czarny-eye-on-design-4.webp?v=1721311558&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-clyde-czarny-eye-on-design-2.webp?v=1721312876&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-clyde-czarny-eye-on-design-3.webp?v=1721312879&width=2048",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-clyde-czarny-eye-on-design-3.webp?v=1721312879&width=2048",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-clyde-czarny-eye-on-design-4.webp?v=1721311557&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-clyde-czarny-eye-on-design-5.webp?v=1721311559&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-clyde-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-clyde-czarny-eye-on-design-5.webp?v=1721311559&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/clyde-4-spot-light-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-sufitowa-clyde-czarny-eye-on-design-2.png?v=1721307185&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-90-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-duo-czarny-eye-on-design-1.webp?v=1721311140&width=947",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-90-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-duo-czarny-eye-on-design-2.webp?v=1721311141&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-90-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-duo-czarny-eye-on-design-2.webp?v=1721311141&width=655",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-galloway-czarno-zloty",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-galloway-czarny-ze-zlotymi-detalami-eye-on-design-4.webp?v=1721311558&width=687",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-galloway-czarno-zloty",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-galloway-czarny-ze-zlotymi-detalami-eye-on-design-4.webp?v=1721311558&width=687",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-ellen-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-ellen-czarny-eye-on-design-1.webp?v=1721311442&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-ellen-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-ellen-czarny-eye-on-design-3.webp?v=1721311447&width=903",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-ellen-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-ellen-czarny-eye-on-design-4.webp?v=1721311448&width=685",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-ellen-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-ellen-czarny-eye-on-design-5.webp?v=1721311450&width=775",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-ellen-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-ellen-czarny-eye-on-design-5.webp?v=1721311450&width=775",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-ellen-czarny-eye-on-design-1.png?v=1721311443&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-ellen-czarny-eye-on-design-3.webp?v=1721311447&width=824",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-ellen-czarny-eye-on-design-4.webp?v=1721311450&width=775",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-ellen-czarny-eye-on-design-4.webp?v=1721311450&width=775",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-artist-40-bezowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-bezowy-eye-on-design-2.webp?v=1721311143&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-artist-40-bezowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-bezowy-eye-on-design-8.webp?v=1721311156&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-artist-40-bezowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-bezowy-eye-on-design-10.webp?v=1721311161&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-artist-40-bezowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-bezowy-eye-on-design-10.webp?v=1721311161&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-lilly-czarny-eye-on-design-1.webp?v=1721311611&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-lilly-czarny-eye-on-design-3.webp?v=1721311615&width=1365",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-lilly-czarny-eye-on-design-5.webp?v=1721311619&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-lilly-czarny-eye-on-design-5.webp?v=1721311619&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/products/landom-smart-long-ceiling-light-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-sufitowa-landon-long-czarny-eye-on-design-1.webp?v=1721307429&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/landom-smart-long-ceiling-light-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-sufitowa-landon-long-czarny-eye-on-design-2.webp?v=1721307431&width=1387",
+  },
+  {
+    url: "https://pl.eyeon.design/products/explore-table-lamp-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-explore-czarny-eye-on-design-1.webp?v=1721307592&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/explore-table-lamp-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-explore-czarny-eye-on-design-2.webp?v=1721307594&width=1365",
+  },
+  {
+    url: "https://pl.eyeon.design/products/explore-wall-light-brass",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-explore-mosiezny-eye-on-design-1.webp?v=1721307250&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/explore-wall-light-brass",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-explore-mosiezny-eye-on-design-2.webp?v=1721307252&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/explore-wall-light-brass",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-explore-mosiezny-eye-on-design-2.webp?v=1721307252&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-mib-bialy-eye-on-design-2.webp?v=1721311183&width=1365",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-mib-bialy-eye-on-design-1.webp?v=1721311180&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-mib-bialy-eye-on-design-2.webp?v=1721311183&width=683",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-mib-bialy-eye-on-design-3.webp?v=1721311185&width=1365",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-mib-bialy-eye-on-design-4.webp?v=1721311188&width=1024",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-mib-bialy-eye-on-design-4.webp?v=1721311188&width=1024",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-mib-bialy-eye-on-design-1.webp?v=1721311180&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-mib-bialy-eye-on-design-2.webp?v=1721311184&width=1366",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-mib-bialy-eye-on-design-2.webp?v=1721311170&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-mib-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-mib-bialy-eye-on-design-3.webp?v=1721311173&width=1388",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-omari-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-omari-czarny-eye-on-design-1.webp?v=1721311566&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-omari-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-omari-czarny-eye-on-design-4.webp?v=1721311571&width=683",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-omari-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-omari-czarny-eye-on-design-4.webp?v=1721311571&width=683",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-omari-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-omari-czarny-eye-on-design-2.webp?v=1721311584&width=725",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-kinver-26-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-kinver-czarny-eye-on-design-1.webp?v=1721311512&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-kinver-26-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-kinver-czarny-eye-on-design-3.webp?v=1721311517&width=768",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-kinver-26-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-kinver-czarny-eye-on-design-7.webp?v=1721311528&width=1366",
+  },
+  {
+    url: "https://pl.eyeon.design/products/kinkiet-kinver-26-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-kinver-czarny-eye-on-design-7.webp?v=1721311528&width=1366",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-4-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-quatro-czarny-eye-on-design-3.jpg?v=1721305941&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-4-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-quatro-czarny-eye-on-design-4.jpg?v=1721305943&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-4-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-quatro-czarny-eye-on-design-5.jpg?v=1721305945&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-4-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-quatro-czarny-eye-on-design-6.jpg?v=1721305947&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-4-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-quatro-czarny-eye-on-design-6.jpg?v=1721305947&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stojaca-bot-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stojaca-bot-czarny-eye-on-design-4.webp?v=1721306531&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stojaca-bot-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stojaca-bot-czarny-eye-on-design-4.webp?v=1721306531&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-6-white",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-hexa-bialy-eye-on-design-4.webp?v=1721306805&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-6-white",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-hexa-bialy-eye-on-design-6.webp?v=1721306810&width=1600",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bosso-mini-14-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bosso-czarny-eye-on-design-2.webp?v=1721306072&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-wiszaca-bosso-mini-14-black",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bosso-czarny-eye-on-design-7.webp?v=1721306082&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-milford-30",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-milford-oval-szklo-z-bialym-wykonczeniem-eye-on-design-1.png?v=1721313136&width=2048",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-milford-30",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-milford-oval-szklo-z-bialym-wykonczeniem-eye-on-design-2.webp?v=1721313138&width=960",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-milford-30",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-milford-oval-szklo-z-bialym-wykonczeniem-eye-on-design-3.webp?v=1721313140&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-milford-30",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-milford-oval-szklo-z-bialym-wykonczeniem-eye-on-design-3.webp?v=1721313140&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-milford-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-milford-bialy-eye-on-design-2.webp?v=1721310884&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-podlogowa-milford-bialy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-milford-bialy-eye-on-design-3.webp?v=1721310887&width=1390",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-milford-drewniana",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-milford-drewniana-podstawa-eye-on-design-2.webp?v=1721312796&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/products/lampa-stolowa-milford-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-milford-czarny-eye-on-design-2.webp?v=1721312854&width=857",
+  },
+  {
     url: "https://salus.afriso.pl/",
     src: "https://salus.afriso.pl/images/header/salus-header.webp",
   },
@@ -2977,6 +3393,270 @@ export const inspirations = [
   {
     url: "https://deltalight.com/pl/projekt/private-residence-be-003047?filters[family][0]=tagline",
     src: "https://deltalight.com/media/cache/resolve/website_widget_images_640/assets/9dd844d6-2fb9-11ed-99b2-00505693b57f/003047-rea26.jpg",
+  },
+  {
+    url: "https://www.zennio.com/",
+    src: "https://www.zennio.com/wp-content/uploads/2022/09/CGI0285JCAM02V02_M55NEG3H_DER_F55X1_2USB_SSCH_Z35_reflejo-web.jpg",
+  },
+  {
+    url: "https://www.zennio.com/",
+    src: "https://www.zennio.com/wp-content/uploads/2021/02/portada-productos.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design",
+    src: "https://www.zennio.com/wp-content/uploads/2021/12/zennio_z35.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design",
+    src: "https://www.zennio.com/wp-content/uploads/2021/12/zennio_flat.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/flat",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/flat-touch.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/flat",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d5e50f83639340017000126-1-900.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/flat",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d37f79a6166320016000238-1-900.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/flat",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d37ff6d616632001c0000cc-1-900.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/flat",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d3809b2616632001800011d-1-1400.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/flat",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d394bae61663200210001a0-1-2000.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design",
+    src: "https://www.zennio.com/wp-content/uploads/2021/12/zennio_z41.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/z41",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5c33247f346634042d0003ca-1-900.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/z41",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d385189616632001e000299-1-2000.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/z41",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d38523d6166320021000280-1-1400.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/z41",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d385701616632001d00006d-1-900.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/z41",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d38570661663200220003a3-1-900.jpg",
+  },
+  {
+    url: "https://www.zennio.com/design/z41",
+    src: "https://www.zennio.com/wp-content/uploads/2022/06/5d385704616632001900027a-1-900.jpg",
+  },
+  {
+    url: "https://www.control4.com/",
+    src: "https://res.cloudinary.com/control4/image/upload/f_auto,q_auto,dpr_auto/OS_3_WWW_Home_1a.jpg",
+  },
+  {
+    url: "https://www.control4.com/",
+    src: "https://res.cloudinary.com/control4/image/upload/f_auto,q_auto,dpr_auto/www/control4/homepage/OS_3_WWW_Home_1b.jpg",
+  },
+  {
+    url: "https://www.control4.com/",
+    src: "https://res.cloudinary.com/control4/image/upload/v1629316538/688888760_C4_WWW_Home_Page_2021_Updates_Lighting_Bckt_v2.jpg",
+  },
+  {
+    url: "https://www.control4.com/",
+    src: "https://res.cloudinary.com/control4/image/upload/v1627688932/688888760_C4_WWW_Home_Page_2021_Updates_P-of-M_Bckt.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/connected-cammeray-home",
+    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/jdrrqnlmsv4cbkvbsrog.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/connected-cammeray-home",
+    src: "https://res.cloudinary.com/control4/image/upload/w_548,h_366,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/zinnmxrrre7oqqmxccuc.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/connected-cammeray-home",
+    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/joj3jhqfdztijadjredt.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/connected-cammeray-home",
+    src: "https://res.cloudinary.com/control4/image/upload/w_548,h_366,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/zcmcviwzag9uufxwcqul.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/wood-end-manor",
+    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/aucv01aybgzmqtdjdvsr.png",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/wood-end-manor",
+    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/ejln1xfc8afc7ckdoz32.png",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery",
+    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/xcrolz4m5qqhxl75b2kf.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/beautiful-bel-air-condo",
+    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/xcrolz4m5qqhxl75b2kf.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery/beautiful-bel-air-condo",
+    src: "https://res.cloudinary.com/control4/image/upload/w_548,h_366,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/nxrkn0bidtvurbczejjg.jpg",
+  },
+  {
+    url: "https://www.control4.com/idea_gallery",
+    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/it7r0jm9qodzzjclaxyu.jpg",
+  },
+  {
+    url: "https://www.control4.com/solutions/smart-lighting",
+    src: "https://res.cloudinary.com/control4/image/upload/www/control4/solutions/smart-lighting/Hero_Image_1.jpg",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_960xauto/public/2024-08/bloque_5_-_simon_100.png.webp?itok=rTpWedBJ",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-100/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/3-Simon-Hub-Pro-iO.webp?itok=J7RnI_1c",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-100/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/Sin-Wifi_new.webp?itok=IoZXsTyW",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-100/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/5-con-wifi_new.webp?itok=9uB0S9QQ",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-100/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/9-FULL-WIDTH-Universo-Simon-Io.webp?itok=O3h2Q7yt",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-100/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/13-FULL-WIDTH-M%C3%A1sters.webp?itok=HO1gmbaG",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-100/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/14-Mucho-m%C3%A1s-que-un-pulsador.webp?itok=vG0Up6dm",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_960xauto/public/2024-08/bloque_5_-_simon_270.png.webp?itok=z0pdRZzu",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-270/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/gadget_introduction_type_6_resp/public/2021-07/Simon%20270%20iO.webp?itok=XSjNH_Qd",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-270/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/io_dimmer_960_c.webp?itok=KBLpPn0j",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-270/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2022-11/002_sim01_ter_amb01_2.jpg.webp?itok=JRdCwxG9",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-270/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/esquema_1.webp?itok=c6Dpvcp6",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-270/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/esquema_2.webp?itok=PKjDl80m",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-270/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2022-11/002_sim01_hub_amb01.jpg.webp?itok=6WXI4_bJ",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-270/io",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-07/2021_simon_d2_960x675.webp?itok=mskhOmay",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/gadget_introduction_type_6_resp/public/2022-04/Background%20Hero%20Mobile.jpg.webp?itok=dVNd1AT6",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2022-02/bloque_2.jpg.webp?itok=vGrrUwQO",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2022-06/geometria_en_esencia.jpg.webp?itok=8Dd7nb-n",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-12/slim_drop_4.png.webp?itok=AHu6I1dW",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2022-02/5._mires_donde_mires.jpg.webp?itok=FbGvRd8V",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-12/lluvia_luminosa.png.webp?itok=jbNDlrR4",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2021-12/slim_drop_7.png.webp?itok=ukjK2JXY",
+  },
+  {
+    url: "https://www.simonelectric.com/simon-slim-system-drop",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_600xauto/public/2021-12/001_SIM01_SF2_AMB01.jpg?itok=7drXLL7u",
+  },
+  {
+    url: "https://www.simonelectric.com/enchufes-usb",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2024-06/Usb_Hero%20%281%29_0.png.webp?itok=ExZviQCG",
+  },
+  {
+    url: "https://www.simonelectric.com/enchufes-usb",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2024-06/01_usb_ac_1.png.webp?itok=YeCkqEKo",
+  },
+  {
+    url: "https://www.simonelectric.com/enchufes-usb",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2024-06/02_base_usb_c.png.webp?itok=NH4cbF7s",
+  },
+  {
+    url: "https://www.simonelectric.com/enchufes-usb",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2024-06/03_usb_c.png.webp?itok=vZ3QKOJf",
+  },
+  {
+    url: "https://www.simonelectric.com/enchufes-usb",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2024-06/04_bases_doble_cargador.png.webp?itok=nYuydxLa",
+  },
+  {
+    url: "https://www.simonelectric.com/enchufes-usb",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2024-06/usb_acabados.png.webp?itok=lBG7zOlp",
+  },
+  {
+    url: "https://www.simonelectric.com/enchufes-usb",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2024-06/bloque_imagen.png.webp?itok=pw-eAN4m",
+  },
+  {
+    url: "https://configurator-workplaces.simonelectric.com/login",
+    src: "https://configurator-workplaces.simonelectric.com/image-login.508da04.png",
+  },
+  {
+    url: "https://www.simonelectric.com/blog/soluciones-iluminacion-lineal-810",
+    src: "https://static.simonelectric.com/sites/default/files/styles/manual_crop_scale_and_crop_1920x700/public/2023-02/cabecera_blog_810.jpg.webp?itok=OuGyM-AA",
+  },
+  {
+    url: "https://www.simonelectric.com/blog/soluciones-iluminacion-lineal-810",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2023-02/800x450_003_sim01_tld_det01_0.jpg.webp?itok=bVcx65fP",
+  },
+  {
+    url: "https://www.simonelectric.com/blog/soluciones-iluminacion-lineal-810",
+    src: "https://static.simonelectric.com/sites/default/files/styles/scale_1920xauto/public/2023-02/800x450_michelena_15-04.jpg.webp?itok=rjJ-G7ZJ",
   },
   {
     url: "https://www.kontakt-simon.com.pl/pl/Simon-GO.html",
