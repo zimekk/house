@@ -1,6 +1,102 @@
 // copy({ url: document.location.href, src:$0.src })
 export const inspirations = [
   {
+    url: "https://salus.afriso.pl/",
+    src: "https://salus.afriso.pl/images/header/salus-header.webp",
+  },
+  {
+    url: "https://salus.afriso.pl/",
+    src: "https://salus.afriso.pl/images/homepage/flagowy-produkt-salus-091FLRFv2.webp",
+  },
+  {
+    url: "https://salus.afriso.pl/",
+    src: "https://salus.afriso.pl/images/homepage/tsa-01-afriso.webp",
+  },
+  {
+    url: "https://salus.afriso.pl/",
+    src: "https://salus.afriso.pl/images/products/standardowe-termostaty.webp",
+  },
+  {
+    url: "https://salus.afriso.pl/",
+    src: "https://salus.afriso.pl/images/products/sterowanie-przewodowe.webp",
+  },
+  {
+    url: "https://salus.afriso.pl/",
+    src: "https://salus.afriso.pl/images/products/dodatkowe-produkty.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/cb500-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2649/pl_PL/large/cb500-przewodowa-listwa-sterujaca-galeria-afriso-1.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/cb500-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2649/pl_PL/large/cb500-przewodowa-listwa-sterujaca-galeria-afriso-2.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/cb500-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2649/pl_PL/large/cb500-przewodowa-listwa-sterujaca-galeria-afriso-4.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/cb500-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2649/pl_PL/large/cb500-przewodowa-listwa-sterujaca-galeria-afriso-5.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/kl08nsb-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2674/pl_PL/large/kl08nsb-przewodowa-listwa-sterujaca-galeria-afriso-1.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/kl08nsb-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2674/pl_PL/large/kl08nsb-przewodowa-listwa-sterujaca-galeria-afriso-2.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/kl08nsb-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2674/pl_PL/large/kl08nsb-przewodowa-listwa-sterujaca-galeria-afriso-3.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/kl08nsb-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2674/pl_PL/large/kl08nsb-przewodowa-listwa-sterujaca-galeria-afriso-4.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/kl08nsb-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2674/pl_PL/large/kl08nsb-przewodowa-listwa-sterujaca-galeria-afriso-5.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/kl08nsb-przewodowa-listwa-sterujaca",
+    src: "https://afriso.pl/storage/product-galleries/2674/pl_PL/large/kl08nsb-przewodowa-listwa-sterujaca-galeria-afriso-6.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/sq610-przewodowybezprzewodowy",
+    src: "https://afriso.pl/storage/product-galleries/2652/pl_PL/large/sq610-przewodowybezprzewodowy-galeria-afriso-1.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/sq610-przewodowybezprzewodowy",
+    src: "https://afriso.pl/storage/product-galleries/2652/pl_PL/large/sq610-przewodowybezprzewodowy-galeria-afriso-2.webp",
+  },
+  {
+    url: "https://afriso.pl/katalog-produktow-salus/przewodowy-system-sterowania-ogrzewaniem-podlogowym-salus-controls/sq610-przewodowybezprzewodowy",
+    src: "https://afriso.pl/storage/product-galleries/2652/pl_PL/large/sq610-przewodowybezprzewodowy-galeria-afriso-4.webp",
+  },
+  {
+    url: "https://www.satel.pl/kategoria-produktu/systemy-kontroli-dostepu/acco/",
+    src: "https://www.satel.pl/wp-content/uploads/2022/04/ACCO-SO-MF5-B_wall.jpg",
+  },
+  {
+    url: "https://www.satel.pl/kategoria-produktu/systemy-kontroli-dostepu/",
+    src: "https://www.satel.pl/wp-content/uploads/2020/02/SKD-set.jpg",
+  },
+  {
+    url: "https://www.satel.pl/kategoria-produktu/automatyka-budynkowa/knx/",
+    src: "https://www.satel.pl/wp-content/uploads/2021/02/knx_bezpieczenstwo_schemat.jpg",
+  },
+  {
+    url: "https://www.satel.pl/kategoria-produktu/automatyka-budynkowa/knx/",
+    src: "https://www.satel.pl/wp-content/uploads/2021/02/knx_int-knx2.jpg",
+  },
+  {
+    url: "https://www.satel.pl/kategoria-produktu/automatyka-budynkowa/knx/",
+    src: "https://www.satel.pl/wp-content/uploads/2021/01/knx_set_new.jpg",
+  },
+  {
     url: "https://www.velux.pl/inspiracje/pokoje/sypialnia",
     src: "https://cdn-marketing.velux.com/-/media/marketing/ceemaster/cdp/img/room-pages/bedroom-hero-id10161870.jpg?cc=grid_12_fullsection&key=key=-62135596800",
   },
@@ -1401,6 +1497,38 @@ export const inspirations = [
     src: "https://mall.industry.siemens.com/mall/collaterals/files/169/jpg/P_BT01_XX_07153i.jpg",
   },
   {
+    url: "https://www.architekturaibiznes.pl/abb-dla-inteligentnego-domu,9795.html?srsltid=AfmBOoqgareRiZ9VOncFjhUSathOkNZVMBNmwSBiIZfBkjGPutU1Dt5a#lg=1&slide=0",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/9795/images/750x0/urzadzenie-sterujace-abb-roomtouch-zostalo-zaprojektowane-w-celu-wspierania-klientow-w-prowadzeniu-bardziej-zrownowazonej-dzialalnosci-zarowno-dzis-jak-i-w-przyszlosci-169124.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/abb-dla-inteligentnego-domu,9795.html?srsltid=AfmBOoqgareRiZ9VOncFjhUSathOkNZVMBNmwSBiIZfBkjGPutU1Dt5a#lg=1&slide=1",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/66144/images/1920x0/abb-tenton-to-urzadzenie-w-ktore-laczy-w-sobie-czujniki-temperatury-wilgotnosci-i-co-169125.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/abb-dla-inteligentnego-domu,9795.html?srsltid=AfmBOoqgareRiZ9VOncFjhUSathOkNZVMBNmwSBiIZfBkjGPutU1Dt5a#lg=1&slide=2",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/66145/images/1920x0/seria-axcent-pur-umozliwia-indywidualne-podejscie-do-projektowanych-wnetrz-169126.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/abb-dla-inteligentnego-domu,9795.html?srsltid=AfmBOoqgareRiZ9VOncFjhUSathOkNZVMBNmwSBiIZfBkjGPutU1Dt5a#lg=1&slide=3",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/66146/images/1920x0/nowa-generacja-cyfrowego-radia-od-abb-to-najlepszej-jakosci-dzwiek-prosty-sposob-na-przeniesienie-muzyki-i-informacji-do-kazdego-wnetrza-bez-zajmowania-zbyt-duzo-miejsca-i-bez-placzacych-sie-kabli-169127.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/abb-dla-inteligentnego-domu,9795.html?srsltid=AfmBOoqgareRiZ9VOncFjhUSathOkNZVMBNmwSBiIZfBkjGPutU1Dt5a#lg=1&slide=3",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/66146/images/1920x0/nowa-generacja-cyfrowego-radia-od-abb-to-najlepszej-jakosci-dzwiek-prosty-sposob-na-przeniesienie-muzyki-i-informacji-do-kazdego-wnetrza-bez-zajmowania-zbyt-duzo-miejsca-i-bez-placzacych-sie-kabli-169127.jpg",
+  },
+  {
+    url: "https://quicktec.pl/apartamentowiec-aloha-residence/",
+    src: "https://quicktec.pl/wp-content/uploads/2023/02/IMG_1567-768x1024.jpg",
+  },
+  {
+    url: "https://quicktec.pl/apartamentowiec-aloha-residence/",
+    src: "https://quicktec.pl/wp-content/uploads/2023/02/signal-2023-02-27-144222_003-768x1024.jpeg",
+  },
+  {
+    url: "https://quicktec.pl/apartamentowiec-aloha-residence/",
+    src: "https://quicktec.pl/wp-content/uploads/2023/02/311738375_456835729876523_5770080678058186016_n.jpg",
+  },
+  {
     url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
     src: "https://www07.abb.com/images/librariesprovider84/building-products/climaeco-sensors_range-layout_1183x353.jpg?sfvrsn=b5ea7d15_1",
   },
@@ -1604,6 +1732,262 @@ export const inspirations = [
   {
     url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/chiara",
     src: "https://www07.abb.com/images/librariesprovider84/home-page/cover-catalogo-chiara_abb_longer2.png?sfvrsn=81b6fe0a_1",
+  },
+  {
+    url: "https://www.architonic.com/en/story/barbara-jahn-rosel-concrete-control-knx-building-systems-technology-by-busch-jaeger/20036719#&gid=null&pid=1",
+    src: "https://image.architonic.com/sto3-2/20036719/01-bammental-haus-rgb-steffen-fuchs-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/barbara-jahn-rosel-concrete-control-knx-building-systems-technology-by-busch-jaeger/20036719#&gid=null&pid=2",
+    src: "https://image.architonic.com/sto3-2/20036719/02-bammental-panel-kueche-rgb-bauwerk-bau-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/barbara-jahn-rosel-concrete-control-knx-building-systems-technology-by-busch-jaeger/20036719#&gid=null&pid=3",
+    src: "https://image.architonic.com/sto3-2/20036719/03-bammental-schlafzimmer-rgb-stephan-baumann-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=2",
+    src: "https://image.architonic.com/sto3-2/20148664/zutrittskontrolle-ip-door-communication-retusche-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=4",
+    src: "https://image.architonic.com/sto3-2/20148664/loft-v13-anzeige-comp8-red-bj-a01-purpur-abb-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=5",
+    src: "https://image.architonic.com/sto3-2/20148664/busch-roomtouch-ansichten-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=7",
+    src: "https://image.architonic.com/sto3-2/20148664/0748-bje-axcent-inspiration-detail-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=7",
+    src: "https://image.architonic.com/sto3-2/20148664/0748-bje-axcent-inspiration-detail-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-abb-welcome-fingerprint-module/1567980#&gid=1&pid=3",
+    src: "https://image.architonic.com/pfm3-3/2127242/busch-welcome-2-fam-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-abb-welcome-transponder-module/1567992#&gid=1&pid=1",
+    src: "https://image.architonic.com/img_pro2-4/156/7992/einzelprodukte-am-cardreader-wht-b1-01r-h-b.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-decento-/1566710#&gid=1&pid=1",
+    src: "https://image.architonic.com/img_pro2-4/156/6710/decento-1fach-wippe-02-b.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-decento-/1566710#&gid=1&pid=2",
+    src: "https://image.architonic.com/pfm3-3/2127102/decento-1-fam-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-decento-/1566710#&gid=1&pid=3",
+    src: "https://image.architonic.com/pfm3-3/2127102/decento-fam-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/feller-standarddue-push-button-white/1509055#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/1509055/fpr-7561-qmi-a-61-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-impuls/1566758#&gid=1&pid=1",
+    src: "https://image.architonic.com/img_pro2-4/156/6758/impuls-wippe-schwarz-matt-b.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-impuls/1566758#&gid=1&pid=2",
+    src: "https://image.architonic.com/pfm3-3/2127098/impuls-1-fam-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/busch-jaeger-impuls/1566758#&gid=1&pid=3",
+    src: "https://image.architonic.com/pfm3-3/2127098/impuls-fam-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/james-wormald-switch-it-up-five-light-switch-questions-to-help-turn-interiors-on/20722428",
+    src: "https://image.architonic.com/sto3-1/20722428/switch-it-up-five-light-switch-questions-to-help-turn-interiors-on-03-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/forbes-lomax-invisible-lightswitch-with-antique-bronze-dolly/1509856#&gid=1&pid=11",
+    src: "https://image.architonic.com/img_pfm2-4/211/8857/invisible-lightswitch-with-nickel-silver-dolly-3-b.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/james-wormald-switch-it-up-five-light-switch-questions-to-help-turn-interiors-on/20722428",
+    src: "https://image.architonic.com/sto3-1/20722428/switch-it-up-five-light-switch-questions-to-help-turn-interiors-on-04-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-1g-white/1574430",
+    src: "https://image.architonic.com/pro2-2/1574430/dimmer-switches-1g-dimmer-hr-white-brass-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-1g-white/1574430",
+    src: "https://image.architonic.com/pro2-2/1574430/dimmer-switches-1g-dimmer-hr-steel-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-1g-white/1574430",
+    src: "https://image.architonic.com/pro2-2/1574430/dimmer-switches-1g-dimmer-hr-steel-brass-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-1g-white/1574430",
+    src: "https://image.architonic.com/pro2-2/1574430/dimmer-switches-bp-door-hardware-row-s-cross-smoked-bronze-uk-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-1g-white/1574430",
+    src: "https://image.architonic.com/pro2-2/1574430/dimmer-switches-kronfoto-sankt-eriksgatan-90-tryck29-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-door-hardware-door-lever-handle-brass/1574970#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/1574970/door-hardware-row-door-handle-linear-brass-a3-pro-bjpg-pro-b-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-door-hardware-door-lever-handle-brass/1574970#&gid=1&pid=4",
+    src: "https://image.architonic.com/pro2-3/1574970/door-hardware-row-door-handle-linear-steel-a1-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-door-hardware-door-lever-handle-brass/1574970#&gid=1&pid=6",
+    src: "https://image.architonic.com/pro2-3/1574970/door-hardware-bp-lifestyle-crop-row-door-handle-linear-brass-xl-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-door-hardware-door-lever-handle-brass/1574970#&gid=1&pid=7",
+    src: "https://image.architonic.com/pro2-3/1574970/door-hardware-bp-lifestyle-crop-door-hardware-linear-steel-xl-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-door-hardware-door-lever-handle-brass/1574970#&gid=1&pid=8",
+    src: "https://image.architonic.com/pro2-3/1574970/door-hardware-bp-door-accesories-4-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=2",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-1g-toggle-smoked-bronze-steel-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=3",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-1g-toggle-steel-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=4",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-1g-toggle-steel-brass-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=6",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-bp-door-hardware-row-s-cross-steel-uk-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=7",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-bp-door-hardware-row-s-linear-brass-uk-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=8",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-bp-interior-c-2g-toggle-uk-black-brass-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=9",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-bp-studio-lifestyle-electricity-uk-1g-toggle-euro-1g-socket-black-brass-portrait-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-toggle-switches-1g-smoked-bronze-brass/1574601#&gid=1&pid=10",
+    src: "https://image.architonic.com/pro2-3/1574601/toggle-switches-toggle-switches-bp-electricity-1g-toggle-brass-uk-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-2g/1574477#&gid=1&pid=1",
+    src: "https://image.architonic.com/pro2-3/1574477/dimmer-switches-2g-dimmer-hr-black-brass-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-2g/1574477#&gid=1&pid=3",
+    src: "https://image.architonic.com/pro2-3/1574477/dimmer-switches-2g-dimmer-hr-steel-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-2g/1574477#&gid=1&pid=10",
+    src: "https://image.architonic.com/pro2-3/1574477/dimmer-switches-bp-interior-b-2g-dimmer-uk-steel-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-2g/1574477#&gid=1&pid=12",
+    src: "https://image.architonic.com/pro2-3/1574477/dimmer-switches-kronfoto-sankt-eriksgatan-90-tryck03-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/product/buster-punch-dimmer-switches-2g/1574477#&gid=1&pid=13",
+    src: "https://image.architonic.com/pro2-3/1574477/dimmer-switches-bp-door-hardware-row-s-linear-steel-uk-pro-g-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-latest-smart-solutions-from-busch-jaeger-for-secure-living/20763522#&gid=null&pid=1",
+    src: "https://image.architonic.com/sto3-2/20763522/busch-jaegers-latest-smart-solutions-for-secure-living-01-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-latest-smart-solutions-from-busch-jaeger-for-secure-living/20763522#&gid=null&pid=2",
+    src: "https://image.architonic.com/sto3-2/20763522/busch-jaegers-latest-smart-solutions-for-secure-living-02-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-latest-smart-solutions-from-busch-jaeger-for-secure-living/20763522#&gid=null&pid=3",
+    src: "https://image.architonic.com/sto3-2/20763522/busch-jaegers-latest-smart-solutions-for-secure-living-03-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-latest-smart-solutions-from-busch-jaeger-for-secure-living/20763522#&gid=null&pid=4",
+    src: "https://image.architonic.com/sto3-2/20763522/Captura-de-pantalla-2024-04-29-a-la%28s%29-12.00.22-p.-m.-arcit18.png",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-latest-smart-solutions-from-busch-jaeger-for-secure-living/20763522#&gid=null&pid=5",
+    src: "https://image.architonic.com/sto3-2/20763522/busch-jaegers-latest-smart-solutions-for-secure-living-04-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-latest-smart-solutions-from-busch-jaeger-for-secure-living/20763522#&gid=null&pid=6",
+    src: "https://image.architonic.com/sto3-2/20763522/busch-jaegers-latest-smart-solutions-for-secure-living-05-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-latest-smart-solutions-from-busch-jaeger-for-secure-living/20763522#&gid=null&pid=7",
+    src: "https://image.architonic.com/sto3-2/20763522/busch-jaegers-latest-smart-solutions-for-secure-living-06-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-busch-jaeger-for-more-security-and-comfort-in-entrance-areas/20222781#&gid=null&pid=1",
+    src: "https://image.architonic.com/sto3-2/20222781/Busch-welcome-modular-02-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-busch-jaeger-for-more-security-and-comfort-in-entrance-areas/20222781#&gid=null&pid=2",
+    src: "https://image.architonic.com/sto3-2/20222781/Busch-welcome-modular-06-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-busch-jaeger-for-more-security-and-comfort-in-entrance-areas/20222781#&gid=null&pid=3",
+    src: "https://image.architonic.com/sto3-2/20222781/Busch-welcome-modular-04-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-busch-jaeger-for-more-security-and-comfort-in-entrance-areas/20222781#&gid=null&pid=4",
+    src: "https://image.architonic.com/sto3-2/20222781/Busch-welcome-modular-05-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-busch-jaeger-for-more-security-and-comfort-in-entrance-areas/20222781#&gid=null&pid=5",
+    src: "https://image.architonic.com/sto3-2/20222781/Busch-welcome-modular-03-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-busch-jaeger-for-more-security-and-comfort-in-entrance-areas/20222781#&gid=null&pid=6",
+    src: "https://image.architonic.com/sto3-2/20222781/Busch-welcome-modular-07-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-busch-jaeger-for-more-security-and-comfort-in-entrance-areas/20222781#&gid=null&pid=7",
+    src: "https://image.architonic.com/sto3-2/20222781/Busch-welcome-modular-01-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-smart-home-as-a-jewel-busch-jaeger/20053268#&gid=null&pid=2",
+    src: "https://image.architonic.com/sto3-2/20053268/busch-jaeger-02-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-smart-home-as-a-jewel-busch-jaeger/20053268#&gid=null&pid=3",
+    src: "https://image.architonic.com/sto3-2/20053268/busch-jaeger-03-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-smart-home-as-a-jewel-busch-jaeger/20053268#&gid=null&pid=4",
+    src: "https://image.architonic.com/sto3-2/20053268/busch-jaeger-04-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-smart-home-as-a-jewel-busch-jaeger/20053268#&gid=null&pid=5",
+    src: "https://image.architonic.com/sto3-2/20053268/busch-jaeger-05-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-smart-home-as-a-jewel-busch-jaeger/20053268#&gid=null&pid=6",
+    src: "https://image.architonic.com/sto3-2/20053268/busch-jaeger-06-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-smart-home-as-a-jewel-busch-jaeger/20053268#&gid=null&pid=7",
+    src: "https://image.architonic.com/sto3-2/20053268/busch-jaeger-07-arcit18.jpg",
+  },
+  {
+    url: "https://www.architonic.com/en/story/busch-jaeger-the-smart-home-as-a-jewel-busch-jaeger/20053268#&gid=null&pid=1",
+    src: "https://image.architonic.com/sto3-2/20053268/busch-jaeger-01-arcit18.jpg",
   },
   {
     url: "https://www.architonic.com/en/product/busch-jaeger-abb-tenton-/20705817#&gid=1&pid=1",
@@ -1817,7 +2201,30 @@ export const inspirations = [
     url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
     src: "https://www.jung.de/~mi/7801/14404/jung-smart-radio-dab.jpg",
   },
-
+  {
+    url: "https://www.architekturaibiznes.pl/osprzet-elektryczny-i-rozwiazania-smart-home-gira,16757.html#lg=1&slide=0",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/16757/images/750x0/domofon-gira-system-z-czytnikiem-linii-papilarnych-256952.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/osprzet-elektryczny-i-rozwiazania-smart-home-gira,16757.html#lg=1&slide=1",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/116772/images/1920x0/internetowe-radio-podtynkowe-gira-256962.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/osprzet-elektryczny-i-rozwiazania-smart-home-gira,16757.html#lg=1&slide=2",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/116769/images/1920x0/czujnik-przyciskowy-system-gira-256959.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/osprzet-elektryczny-i-rozwiazania-smart-home-gira,16757.html#lg=1&slide=3",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/116768/images/1920x0/nowe-kolory-ramek-serii-gira-esprit-256958.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/osprzet-elektryczny-i-rozwiazania-smart-home-gira,16757.html#lg=1&slide=4",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/116770/images/1920x0/internetowe-radio-podtynkowe-gira-256960.jpg",
+  },
+  {
+    url: "https://www.architekturaibiznes.pl/osprzet-elektryczny-i-rozwiazania-smart-home-gira,16757.html#lg=1&slide=5",
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/116771/images/1920x0/czytnik-odcisku-palca-gira-system-256961.jpg",
+  },
   {
     url: "https://www.gira.com/en/en/products/smart-home#",
     src: "https://partner.gira.de/abbildungen/gira-system-3000-e2-touchaufsatz-milieu-hero_25452_1701350457.webp",
@@ -4646,6 +5053,434 @@ export const inspirations = [
   {
     url: "https://unilight.com.pl/pl/p/LAMPA-WISZACA-FLUSSO-43-GRANDE-CZARNE/62405",
     src: "https://unilight.com.pl/userdata/public/gfx/201710/flusso-grande0778ae278a50f9ae2b2744caff411ed8.jpg",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/spotlights-for-track/parscan-new-intrack-7335/",
+    src: "https://www.erco.com/images/parscan-new-intrack-7335/eur-7335-rep.jpg#2022-06-01_20-30-36",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/spotlights-for-track/parscan-new-intrack-7335/",
+    src: "https://www.erco.com/images/parscan-new-intrack-7335/eur-7335-400.jpg#2022-06-01_08-12-34",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/spotlights-for-track/parscan-new-intrack-7335/",
+    src: "https://www.erco.com/images/parscan-new-intrack-7335/eur-7335-450.jpg#2022-06-01_08-07-31",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/spotlights-for-track/parscan-new-intrack-7335/",
+    src: "https://www.erco.com/images/parscan-new-intrack-7335/eur-7335-500.jpg#2022-06-01_08-12-48",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/spotlights-for-track/parscan-new-intrack-7335/",
+    src: "https://www.erco.com/images/parscan-new-intrack-7335/eur-7335-550.jpg#2022-06-01_08-08-02",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/spotlights-for-track/parscan-new-intrack-7335/",
+    src: "https://www.erco.com/images/parscan-new-intrack-7335/eur-7335-600.jpg#2022-06-01_08-12-57",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur-7339-66938-header-mobile.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_8_7339-66941--110-mediacockpit-2668099-66941.jpg#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_8_7339-66941--120-mediacockpit-2744130-66941.jpg#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_8_7339-67001--200-mediacockpit-2749462--67001.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur-7339-67002-rep-1-1800.jpg#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_10_7339-67214--110-mediacockpit-2660712--67214.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_13_7339-67214--210-mediacockpit-2660720--67214.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_16_7339-67214--310-mediacockpit-2660725--67214.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur-7339-67129-rep-1-1800.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_8_7339-67048--100-mediacockpit-2749301--67048.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_9_7339-67099--106-mediacockpit-2660687-67099.jpg#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/cdn/products/parscan-microsite/accessories/z0-platzhalter-leuchte.png",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/cdn/products/parscan-microsite/accessories/z1-lichtverteilung_strahler_1.png",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/cdn/products/parscan-microsite/accessories/z2-linse_weichzeichner.png",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/cdn/products/parscan-microsite/accessories/z3-filter_cold.png",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/cdn/products/parscan-microsite/accessories/z4-abblend_elment_snoot_1.png",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/the-next-generation-spotlight-the-new-parscan-7339/",
+    src: "https://www.erco.com/images/the-next-generation-spotlight-the-new-parscan-7339/eur_aktion_aktion_9_7339-67437--106-mediacockpit-2661642--67437.png#2023-09-08_09-03-10",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/",
+    src: "https://www.erco.com/images/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/eur_aktion_aktion_8_6814-60944--110-mediacockpit-2133609-60944.jpg#2018-05-03_09-00-09",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/",
+    src: "https://www.erco.com/images/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/eur_aktion_aktion_8_6814-60944--210-mediacockpit-2133591-60944.jpg#2018-05-03_09-00-40",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/",
+    src: "https://www.erco.com/images/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/eur_aktion_aktion_8_6814-60944--410-mediacockpit-2133587-60944.jpg#2018-05-03_09-02-29",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/",
+    src: "https://www.erco.com/images/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/eur_aktion_aktion_8_6814-60944--510-mediacockpit-2133600-60944.jpg#2018-05-03_09-03-03",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/",
+    src: "https://www.erco.com/images/private-house-of-stephen-yeomans-and-anita-findlay-lewes-6814/eur_aktion_aktion_8_6814-60944--610-mediacockpit-2133571-60944.jpg#2018-05-03_09-03-41",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-5765-rep.jpg#2014-03-28_12-31-22",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-erco-synaesthetic-architecture-intro-4-1.jpg#2016-08-18_08-48-41",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-erco-synaesthetic-architecture-intro-4-2.jpg#2016-08-18_08-48-41",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-erco-synaesthetic-architecture-intro-6-1.jpg#2016-08-18_08-48-41",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-erco-synaesthetic-architecture-intro-6-2.jpg#2016-08-18_08-48-41",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-erco-synaesthetic-architecture-intro-8-2.jpg#2016-08-18_08-48-41",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-erco-synaesthetic-architecture-intro-10-1.jpg#2016-08-18_08-48-41",
+  },
+  {
+    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
+    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-5765-rep.jpg#2014-03-28_12-31-22",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/invia-48v-light-structure-7439/",
+    src: "https://www.erco.com/images/invia-48v-light-structure-7439/eur-7439-70629-header-mobile.jpg#2022-12-13_08-01-43",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/invia-48v-light-structure-7439/",
+    src: "https://www.erco.com/images/invia-48v-light-structure-7439/eur-7439-70631-fade-2-mobile.jpg#2022-12-13_11-09-57",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/invia-48v-light-structure-7439/",
+    src: "https://www.erco.com/images/invia-48v-light-structure-7439/eur-7439-67925-rep-1-1800.jpg#2022-12-13_11-41-00",
+  },
+  {
+    url: "https://www.erco.com/en/service/microsites/products/invia-48v-light-structure-7439/",
+    src: "https://www.erco.com/images/invia-48v-light-structure-7439/eur-7439-68989-rep-2-800.jpg#2022-12-13_08-01-43",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/recessed-luminaires/",
+    src: "https://www.erco.com/images/recessed-luminaires-7853/eur-7853-rep.jpg#2020-01-09_15-03-27",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/recessed-luminaires/",
+    src: "https://www.erco.com/images/recessed-luminaires-7853/eur-erco-recessed-luminaires-intro-4-30.jpg#2019-11-28_14-00-12",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/recessed-luminaires/",
+    src: "https://www.erco.com/images/recessed-luminaires-7853/eur-erco-recessed-luminaires-intro-4-40.jpg#2019-11-28_14-00-34",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/recessed-luminaires/",
+    src: "https://www.erco.com/images/recessed-luminaires-7853/eur-erco-recessed-luminaires-intro-4-60.jpg#2020-01-08_08-52-27",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur-7892-rep.jpg#2023-11-02_17-54-28",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/cdn/images/configurator/chf_220621_ls_cta_track_config.png",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur-erco-track-and-singlets-intro-6-20.jpg#2023-12-11_09-36-12",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur_aktion_aktion_8_7892-74349--40-mediacockpit-2490483-74349.jpg#2023-11-02_16-35-57",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur_aktion_aktion_8_7892-74350--40-mediacockpit-2479749-74350.jpg#2023-11-02_16-36-29",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur_aktion_aktion_8_7892-74334--70-mediacockpit-2575556-74334.jpg#2023-11-02_16-29-38",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur_aktion_aktion_8_7892-74344--70-mediacockpit-2575554-74344.jpg#2023-11-02_16-30-56",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur_aktion_aktion_8_7892-74345--70-mediacockpit-2575589-74345.jpg#2023-11-02_16-33-32",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur-erco-track-and-singlets-intro-23-20.jpg#2023-11-02_16-39-12",
+  },
+  {
+    url: "https://www.erco.com/en/products/indoor/track-and-singlets/",
+    src: "https://www.erco.com/images/track-and-singlets-7892/eur-erco-track-and-singlets-intro-23-100.jpg#2023-11-02_16-41-57",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-zaha-hadid-architects/",
+    src: "https://casambi.com/wp-content/uploads/2023/09/zahahadid-london-04-2000x1336.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-zaha-hadid-architects/",
+    src: "https://casambi.com/wp-content/uploads/2023/09/zahahadid-london-13-1300x1950.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-zaha-hadid-architects/",
+    src: "https://casambi.com/wp-content/uploads/2023/09/zahahadid-london-02-1300x1954.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-zaha-hadid-architects/",
+    src: "https://casambi.com/wp-content/uploads/2023/09/zahahadid-london-12-1300x867.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-zaha-hadid-architects/",
+    src: "https://casambi.com/wp-content/uploads/2023/09/zahahadid-london-01-1300x867.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-zaha-hadid-architects/",
+    src: "https://casambi.com/wp-content/uploads/2023/09/zahahadid-london-07-1300x867.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/stas-factory/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/4c8520ce-91ae-4f42-8763-28faada52d33-casambi-awards-project-picture-1-deltalight-stas-011web.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/stas-factory/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/4c8520ce-91ae-4f42-8763-28faada52d33-casambi-awards-project-picture-6-deltalight-stas-048web.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/stas-factory/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/4c8520ce-91ae-4f42-8763-28faada52d33-casambi-awards-project-picture-2-deltalight-stas-013web.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/stas-factory/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/4c8520ce-91ae-4f42-8763-28faada52d33-casambi-awards-project-picture-4-deltalight-stas-032web.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/stas-factory/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/4c8520ce-91ae-4f42-8763-28faada52d33-casambi-awards-project-picture-1-deltalight-stas-011web-1300x867.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/miami-residence/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/1e2a8933-36ee-4518-b7e4-deb9cddd13c1-casambi-awards-project-picture-3-coronet-miami-ph-phlservice-13copy.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/miami-residence/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/1e2a8933-36ee-4518-b7e4-deb9cddd13c1-casambi-awards-project-picture-2-coronet-miami-ph-phlservice-5-copy-1300x976.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/miami-residence/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/1e2a8933-36ee-4518-b7e4-deb9cddd13c1-casambi-awards-project-picture-4-coronet-miami-ph-phlservice-26-1300x838.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/miami-residence/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/1e2a8933-36ee-4518-b7e4-deb9cddd13c1-casambi-awards-project-picture-5-coronet-miami-ph-phlservice-36-1300x1732.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/miami-residence/",
+    src: "https://casambi.com/wp-content/uploads/2023/05/1e2a8933-36ee-4518-b7e4-deb9cddd13c1-casambi-awards-project-picture-1-coronet-miami-ph-phlservice-1copy.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/miami-residence/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/irel5-800x533.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/miami-residence/",
+    src: "https://casambi.com/wp-content/uploads/2020/05/gallery-house-sydney-wireless-lighting-control-kitchen-800x533.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/cox-architecture/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/74e2a3f7-63f7-45f6-a5ce-0caa059dde0b-casambi-awards-project-picture-1-cox-sydney-21048-hr-2000x1333.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/cox-architecture/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/74e2a3f7-63f7-45f6-a5ce-0caa059dde0b-casambi-awards-project-picture-3-cox-sydney-21703-hr-1300x867.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/cox-architecture/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/74e2a3f7-63f7-45f6-a5ce-0caa059dde0b-casambi-awards-project-picture-1-cox-sydney-21048-hr-1300x867.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/cox-architecture/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/74e2a3f7-63f7-45f6-a5ce-0caa059dde0b-casambi-awards-project-picture-4-cox-sydney-21752-hr-1300x867.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/cox-architecture/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/74e2a3f7-63f7-45f6-a5ce-0caa059dde0b-casambi-awards-project-picture-2-cox-sydney-21541-hr-1300x867.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/dale-play-records/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/dsc-3479-2000x1250.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/dale-play-records/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/dsc-3533-1300x813.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/dale-play-records/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/dsc-3479-1300x813.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/dale-play-records/",
+    src: "https://casambi.com/wp-content/uploads/2023/03/dsc-3497-1300x813.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/dale-play-records/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/santander-headquarters-2-800x536.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/residential-home-country-clare-ireland/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/irel5-2000x1333.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/residential-home-country-clare-ireland/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/irel1-1300x866.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/residential-home-country-clare-ireland/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/irel4-1300x1384.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/residential-home-country-clare-ireland/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/irel3-1300x1391.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/residential-home-country-clare-ireland/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/irel2-1300x867.jpeg",
+  },
+  {
+    url: "https://casambi.com/projects/surabaya-private-residence/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/03-2000x1355.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/surabaya-private-residence/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/01-1300x767.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/surabaya-private-residence/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/02-1300x820.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/surabaya-private-residence/",
+    src: "https://casambi.com/wp-content/uploads/2022/11/03-1300x880.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/vhc-container-restaurant/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/vhc-container-restaurant-4.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/vhc-container-restaurant/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/vhc-container-restaurant-4-1300x975.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/vhc-container-restaurant/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/vhc-container-restaurant-1-1300x975.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/vhc-container-restaurant/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/vhc-container-restaurant-3-1300x975.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/banco-santanders-uruguay-headquarters/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/santander-headquarters-2-2000x1341.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/banco-santanders-uruguay-headquarters/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/santander-headquarters-4-1300x865.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/banco-santanders-uruguay-headquarters/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/santander-headquarters-2-1300x872.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/banco-santanders-uruguay-headquarters/",
+    src: "https://casambi.com/wp-content/uploads/2022/03/santander-headquarters-1-1300x865.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-abby-lighting-switchgear/",
+    src: "https://casambi.com/wp-content/uploads/2020/04/abby-lighting-office-2000x1277.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-abby-lighting-switchgear/",
+    src: "https://casambi.com/wp-content/uploads/2020/04/abby-lighting-open-office-1300x867.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-abby-lighting-switchgear/",
+    src: "https://casambi.com/wp-content/uploads/2020/04/abby-lighting-office-kitchen-1300x867.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/office-of-abby-lighting-switchgear/",
+    src: "https://casambi.com/wp-content/uploads/2020/04/abby-lighting-office-meeting-room-1300x867.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/the-gallery-house-in-sydney/",
+    src: "https://casambi.com/wp-content/uploads/2020/05/gallery-house-sydney-wireless-lighting-control-kitchen-2000x1334.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/the-gallery-house-in-sydney/",
+    src: "https://casambi.com/wp-content/uploads/2020/05/gallery-house-sydney-lighting-control-living-room-1300x867.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/the-gallery-house-in-sydney/",
+    src: "https://casambi.com/wp-content/uploads/2020/05/gallery-house-sydney-lighting-control-outside.jpg",
+  },
+  {
+    url: "https://casambi.com/projects/the-gallery-house-in-sydney/",
+    src: "https://casambi.com/wp-content/uploads/2020/05/gallery-house-sydney-wireless-lighting-control-kitchen-1300x867.jpg",
   },
   {
     url: "https://www.aagstucchi.it/en/products/category/378/",
