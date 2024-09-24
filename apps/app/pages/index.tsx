@@ -92,6 +92,7 @@ export const Nav = ({ title, links, path, deployButton }: NavProps) => {
                   {link}
                 </Link>
               ))}
+              <a href="tmp/catch-ext.zip">ext</a>
             </li>
           </ul>
         </div>
