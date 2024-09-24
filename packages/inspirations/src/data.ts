@@ -1,5 +1,694 @@
 // copy({ url: document.location.href, src:$0.src })
+
+// const temp = [{ src: "", url: "" }];
+// copy(Object.entries(
+//   temp.reduce(
+//     (list, { src, url }) => Object.assign(list, { [src]: url }),
+//     {},
+//   ),
+// ).map(([src, url]) => ({ url, src })));
+
 export const inspirations = [
+  {
+    url: "https://www.duravit.com/",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ecbfb0c0a3bc4/aurena_stage_1920x1080.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a811b6a57/aurena_02.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a81886a65/aurena_03.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a80ad6a49/aurena_06.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a7eab69fc/aurena_07.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a7ff26a26/aurena_05.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a80506a34/aurena_04.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a7f956a18/aurena_08.jpg?derivate=width~1024",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b08a36b99/aurena_12.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b08266b8b/aurena_14.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b09ac6bb5/aurena_15.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b09306ba7/aurena_16.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b24ea6c48/aurena_18.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b244e6c3a/aurena_19.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b59d16cc6/aurena_20.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b58d76cb8/aurena_21.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b3c906c79/aurena_22.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a80506a34/aurena_04.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f974e6f017f9bec15303aee/tulum_12.jpg?derivate=width~200",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/aurena.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f974e6f017f9bec44eb3c29/tulum_14.jpg?derivate=width~200",
+  },
+  {
+    url: "https://www.duravit.com/",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec6ff13851423/sivida_stage_1920x1080.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f0ecaf063b/sivida_07.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f0e9840603/sivida_03.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f0e7de05f5/sivida_01.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f0eb0a061f/sivida_04.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f0ea4e0611/sivida_05.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f0ebd4062d/sivida_08.jpg?derivate=width~1024",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f10e720730/sivida_09.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f10c2106ff/sivida_10.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f12e0407d1/sivida_15.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f1309307ed/sivida_17.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f1316e07fb/sivida_16.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f12fb907df/sivida_18.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f133320817/sivida_19.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f132580809/sivida_20.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f15b3d089c/sivida_21.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f15c6608b1/sivida_22.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f15d5008bf/sivida_23.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec2f18bff093d/sivida_26.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec32d11830db7/ketho2_33.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/sivida.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ec32d1a690dd3/ketho2_35.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d90394ce701905ef6a5c20326/artisan_22.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7a7f956a18/aurena_08.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ebd7b59d16cc6/aurena_20.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d90394ce701905ef6b1180342/artisan_24.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a3081af93208/artisan_15.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a309cb9f3224/artisan_16.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a29f3db22dfe/artisan_14.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a309cd733232/artisan_17.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d90394ce701905ef6ba9a0388/artisan_23.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a30585b93002/bentostarckbox_1.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a3058ebe302c/bentostarckbox_8.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a305a18330f0/bentostarckbox_7.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a305a02c30d4/bentostarckbox_14.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d90394ce701905ef6b5e80365/artisan_26.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186c01dcc2753ba/artisan_zencha.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f754d39017f8d48c54a53c8/zencha_12.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f754d39017f8d48d5af544d/zencha_6.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f754d39017f8d48dd6c54a8/zencha_13.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ed14fd9e851ae/millio_15.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ed15663545287/millio_19.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/artisan_lines.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ed14fdff151bc/millio_16.jpg?derivate=width~768",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/finishes.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d87ae409f0187b2921201111e/finishes.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/black_bathrooms_stylish_simplicity.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f9185c1017f9249a19b1e28/zencha_19.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/black_bathrooms_stylish_simplicity.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186bb60421a2dfb/vitrium_6.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/black_bathrooms_stylish_simplicity.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d6cb7ef2e016cd259a1100027/hd2p-hell-produkte-wanne.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/black_bathrooms_stylish_simplicity.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d6cb7ef2e016cf6cc622f5e6a/hd2p-produkte-spiegel-02.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/black_bathrooms_stylish_simplicity.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8b1a704d018c827a58746381/sensowash-starck-f_hauptmillieu.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/realize/find_a_duravit_retailer.com-en.html",
+    src: "https://www.duravit.com/file/dummy/bg-retailersearch-fullwidth.jpg",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/a_sauna_in_the_bathroom_pure_relaxation.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8f51b61b018f7c5d829e63e3/istock_duravit_magazin_sauna5.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/a_sauna_in_the_bathroom_pure_relaxation.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8f51b61b018f7c5d81b463c7/istock_duravit_magazin_sauna6.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/a_sauna_in_the_bathroom_pure_relaxation.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8f51b61b018f7c5d815763b9/istock_duravit_magazin_sauna1.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/a_sauna_in_the_bathroom_pure_relaxation.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d835c5bb2018364487b004952/starck_shower_tray.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/the_perfect_washing_area.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69bef0260169c4a59dfc1fda/storage_space_luv.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/the_perfect_washing_area.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c8c544f81437/der_perfekte_waschplatz_03_happyd2.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/tips__tricks/storage_in_the_bathroom_eight_ideas_for_creating_more_space.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186bb606c942fb4/vitrium_25.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/tips__tricks/storage_in_the_bathroom_eight_ideas_for_creating_more_space.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186a7cf1f134029/qatego_31.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/tips__tricks/storage_in_the_bathroom_eight_ideas_for_creating_more_space.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8a28f202018abc40060864c4/duravit_no-1_34.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/tips__tricks/storage_in_the_bathroom_eight_ideas_for_creating_more_space.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d869c075d0186c6f336404abe/l-cube_33.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/tips__tricks/storage_in_the_bathroom_eight_ideas_for_creating_more_space.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7849cfae01784a6988d017eb/dneo_minimal_stage.jpg?derivate=width~600",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/tips__tricks/storage_in_the_bathroom_eight_ideas_for_creating_more_space.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d895873010189875296f74708/bath_accessories_12.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/bathrooms_in_size_xs.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c95fd4b1588a/small-bathroom_01_xsquare_with_durasquare_and_vero_air_wc.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/bathrooms_in_size_xs.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c95fd4b1588a/small-bathroom_01_xsquare_with_durasquare_and_vero_air_wc.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/bathrooms_in_size_xs.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c95fd34a587c/small-bathroom_02_xsquare_with_durasquare_and_vero_air_wc.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/bathrooms_in_size_xs.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c95fda7b58c2/small-bathroom_06_brioso_with_me_by_starck.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/bathrooms_in_size_xs.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c95fd6945898/small-bathroom_10_vero_air_with_l-cube.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/bathrooms_in_size_xs.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c95fd7ad58a6/small-bathroom_11_durastyle_with_durastyle_wc.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/bathrooms_in_size_xs.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d69c883570169c95fdd2958de/small-bathroom_14_stonetto.jpg?derivate=width~300",
+  },
+  {
+    url: "https://www.duravit.com/inspiration/get_inspired/style__trends/gray_bathrooms_tips_for_trendy_bathroom_colors.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d782d0337017835cf534508d0/dneo_minimal_01.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/service/material_knowledge.com-en.html#article-396b",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8b1a704d018b243f81a905da/luv_02.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/service/material_knowledge.com-en.html#article-396b",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d6c08aa06016c0a577a484b55/starck_starck_tm_wanne_02.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/service/material_knowledge.com-en.html#article-396b",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d835c5bb201835f5a835a29ee/tempano_stage.jpg?derivate=width~600",
+  },
+  {
+    url: "https://www.duravit.com/service/material_knowledge.com-en.html#article-396b",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d828818eb0182da5270fa506f/sustano_05.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/service/material_knowledge.com-en.html#article-396b",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d707c2f1801709a427e2b2396/hd2p-c-bonded-tm2.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/sink_area/bathroom_furniture.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d81d22c6b0181dca43fa51620/ketho2_furniture_bathroom_shelf_01.jpg?derivate=width~1440",
+  },
+  {
+    url: "https://www.duravit.com/products/sink_area/bathroom_furniture.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7cdc581e017d27eb8e665c00.de.0/l-cube_individuality_milieu.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/sink_area/bathroom_furniture.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d5319648701535b990f850fe2.de.0/durastyle_teilmilieu_nussbaumnatur_233813_ds-6398_253709_01_0147_news2016.jpg?derivate=width~600",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/soleil_by_starck.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f754d39017f88c587c5146c/soleil_01.jpg?derivate=width~1024",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/soleil_by_starck.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f754d39017f88c5b174147a/soleil_02.jpg?derivate=width~1024",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/soleil_by_starck.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f754d39017f890289481654/soleil_17.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.duravit.com/products/all_series/soleil_by_starck.com-en.html",
+    src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d7f754d39017f8903623916e0/soleil_19.jpg?derivate=width~450",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4715.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4714.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4712.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_5229.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_5225.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_5227.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4698.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_5228.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4700.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4697.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4689.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4694.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4688.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4696.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4690.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_5222.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4692.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_5223.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_4691.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/foriu/",
+    src: "https://www.simas.it/img/pages/folio_5231.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_4462.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_5240.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_5237.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_4576.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_5236.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_4577.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_5235.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_4578.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_4583.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_4567.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_6423.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_6422.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/henges/",
+    src: "https://www.simas.it/img/pages/henges_6419.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4481.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4482.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4483.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_5244.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4603.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4605.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_5243.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_5245.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_5242.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4604.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_5241.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_5246.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4607.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4610.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4608.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4612.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4611.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/agile/",
+    src: "https://www.simas.it/img/pages/agile_4609.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/wave/",
+    src: "https://www.simas.it/img/pages/wave_4592.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/wave/",
+    src: "https://www.simas.it/img/pages/wave_4586.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/wave/",
+    src: "https://www.simas.it/img/pages/wave_4593.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/wave/",
+    src: "https://www.simas.it/img/pages/wave_4587.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/wave/",
+    src: "https://www.simas.it/img/pages/wave_4585.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/badenbaden/",
+    src: "https://www.simas.it/img/pages/badenbaden_4564.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/badenbaden/",
+    src: "https://www.simas.it/img/pages/badenbaden_5270.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/badenbaden/",
+    src: "https://www.simas.it/img/pages/badenbaden_4639.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/badenbaden/",
+    src: "https://www.simas.it/img/pages/badenbaden_4636.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/badenbaden/",
+    src: "https://www.simas.it/img/pages/badenbaden_5274.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/badenbaden/",
+    src: "https://www.simas.it/img/pages/badenbaden_5275.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/badenbaden/",
+    src: "https://www.simas.it/img/pages/badenbaden_5272.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/showers/",
+    src: "https://www.simas.it/img/pages/docce_5925.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/showers/",
+    src: "https://www.simas.it/img/pages/docce_5919.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/showers/",
+    src: "https://www.simas.it/img/pages/docce_5918.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/tokyo/",
+    src: "https://www.simas.it/img/pages/tommla_5965.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/tokyo/",
+    src: "https://www.simas.it/img/pages/tommlm_5968.jpg",
+  },
+  {
+    url: "https://www.simas.it/en/collections/tokyo/",
+    src: "https://www.simas.it/img/pages/tommla_5971.jpg",
+  },
   {
     url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-notti-oval-szary-eye-on-design-1.webp?v=1721313161&width=1877",
@@ -7,10 +696,6 @@ export const inspirations = [
   {
     url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-notti-oval-szary-eye-on-design-2.webp?v=1721313162&width=857",
-  },
-  {
-    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-notti-oval-szary-eye-on-design-4.webp?v=1721313167&width=853",
   },
   {
     url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-notti-szary",
@@ -33,10 +718,6 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-notti-terracotta-eye-on-design-2.webp?v=1721307240&width=1400",
   },
   {
-    url: "https://pl.eyeon.design/products/notti-table-lamp-terracotta",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-notti-terracotta-eye-on-design-2.webp?v=1721307240&width=1400",
-  },
-  {
     url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-glossy-marmur-eye-on-design-2.webp?v=1721311093&width=1400",
   },
@@ -47,10 +728,6 @@ export const inspirations = [
   {
     url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-glossy-marmur-eye-on-design-5.webp?v=1721311100&width=1400",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
-    src: "https://pl.eyeon.design/cdn/shop/products/hqdefault_b2e2802a-bd68-4dbb-991c-11ac34d1a891.jpg?v=1655977026&width=480",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-stolowa-glossy-bialy",
@@ -97,16 +774,8 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-carmen-czarny-eye-on-design-2.png?v=1721307206&width=1400",
   },
   {
-    url: "https://pl.eyeon.design/collections/wiszace/products/carmen-45-pendant-black",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-carmen-czarny-eye-on-design-2.png?v=1721307206&width=1400",
-  },
-  {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-quatro-czarny-eye-on-design-2.webp?v=1721312781&width=857",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-quatro-czarny-eye-on-design-4.webp?v=1721312785&width=857",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-czarny",
@@ -121,10 +790,6 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-clyde-czarny-eye-on-design-4.webp?v=1721311558&width=655",
   },
   {
-    url: "https://pl.eyeon.design/products/lampa-stolowa-clyde-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-clyde-czarny-eye-on-design-4.webp?v=1721311558&width=655",
-  },
-  {
     url: "https://pl.eyeon.design/products/kinkiet-clyde-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-clyde-czarny-eye-on-design-2.webp?v=1721312876&width=857",
   },
@@ -133,16 +798,8 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-clyde-czarny-eye-on-design-3.webp?v=1721312879&width=2048",
   },
   {
-    url: "https://pl.eyeon.design/products/kinkiet-clyde-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-clyde-czarny-eye-on-design-3.webp?v=1721312879&width=2048",
-  },
-  {
     url: "https://pl.eyeon.design/products/lampa-podlogowa-clyde-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-clyde-czarny-eye-on-design-4.webp?v=1721311557&width=655",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-podlogowa-clyde-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-clyde-czarny-eye-on-design-5.webp?v=1721311559&width=655",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-podlogowa-clyde-czarny",
@@ -159,14 +816,6 @@ export const inspirations = [
   {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-90-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-duo-czarny-eye-on-design-2.webp?v=1721311141&width=655",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-wiszaca-clyde-90-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-clyde-duo-czarny-eye-on-design-2.webp?v=1721311141&width=655",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-wiszaca-galloway-czarno-zloty",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-galloway-czarny-ze-zlotymi-detalami-eye-on-design-4.webp?v=1721311558&width=687",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-galloway-czarno-zloty",
@@ -189,20 +838,12 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-ellen-czarny-eye-on-design-5.webp?v=1721311450&width=775",
   },
   {
-    url: "https://pl.eyeon.design/products/lampa-stolowa-ellen-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-ellen-czarny-eye-on-design-5.webp?v=1721311450&width=775",
-  },
-  {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-ellen-czarny-eye-on-design-1.png?v=1721311443&width=1200",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-ellen-czarny-eye-on-design-3.webp?v=1721311447&width=824",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-ellen-czarny-eye-on-design-4.webp?v=1721311450&width=775",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-ellen-o30-czarny",
@@ -221,20 +862,12 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-bezowy-eye-on-design-10.webp?v=1721311161&width=1400",
   },
   {
-    url: "https://pl.eyeon.design/products/lampa-wiszaca-artist-40-bezowy",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-artist-bezowy-eye-on-design-10.webp?v=1721311161&width=1400",
-  },
-  {
     url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-lilly-czarny-eye-on-design-1.webp?v=1721311611&width=1400",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-lilly-czarny-eye-on-design-3.webp?v=1721311615&width=1365",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-lilly-czarny-eye-on-design-5.webp?v=1721311619&width=1000",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-stojaca-lilly-czarny",
@@ -265,10 +898,6 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-explore-mosiezny-eye-on-design-2.webp?v=1721307252&width=1400",
   },
   {
-    url: "https://pl.eyeon.design/products/explore-wall-light-brass",
-    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-explore-mosiezny-eye-on-design-2.webp?v=1721307252&width=1400",
-  },
-  {
     url: "https://pl.eyeon.design/products/kinkiet-mib-bialy",
     src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-mib-bialy-eye-on-design-2.webp?v=1721311183&width=1365",
   },
@@ -283,10 +912,6 @@ export const inspirations = [
   {
     url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-mib-bialy-eye-on-design-3.webp?v=1721311185&width=1365",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-mib-bialy-eye-on-design-4.webp?v=1721311188&width=1024",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-podlogowa-mib-bialy",
@@ -317,10 +942,6 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-omari-czarny-eye-on-design-4.webp?v=1721311571&width=683",
   },
   {
-    url: "https://pl.eyeon.design/products/lampa-podlogowa-omari-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-omari-czarny-eye-on-design-4.webp?v=1721311571&width=683",
-  },
-  {
     url: "https://pl.eyeon.design/products/lampa-stolowa-omari-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-omari-czarny-eye-on-design-2.webp?v=1721311584&width=725",
   },
@@ -331,10 +952,6 @@ export const inspirations = [
   {
     url: "https://pl.eyeon.design/products/kinkiet-kinver-26-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-kinver-czarny-eye-on-design-3.webp?v=1721311517&width=768",
-  },
-  {
-    url: "https://pl.eyeon.design/products/kinkiet-kinver-26-czarny",
-    src: "https://pl.eyeon.design/cdn/shop/files/kinkiet-kinver-czarny-eye-on-design-7.webp?v=1721311528&width=1366",
   },
   {
     url: "https://pl.eyeon.design/products/kinkiet-kinver-26-czarny",
@@ -355,14 +972,6 @@ export const inspirations = [
   {
     url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-4-black",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-quatro-czarny-eye-on-design-6.jpg?v=1721305947&width=1200",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-wiszaca-bot-4-black",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-bot-quatro-czarny-eye-on-design-6.jpg?v=1721305947&width=1200",
-  },
-  {
-    url: "https://pl.eyeon.design/products/lampa-stojaca-bot-black",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-stojaca-bot-czarny-eye-on-design-4.webp?v=1721306531&width=1200",
   },
   {
     url: "https://pl.eyeon.design/products/lampa-stojaca-bot-black",
@@ -397,10 +1006,6 @@ export const inspirations = [
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-milford-oval-szklo-z-bialym-wykonczeniem-eye-on-design-3.webp?v=1721313140&width=857",
   },
   {
-    url: "https://pl.eyeon.design/collections/wiszace/products/lampa-wiszaca-milford-30",
-    src: "https://pl.eyeon.design/cdn/shop/files/lampa-wiszaca-milford-oval-szklo-z-bialym-wykonczeniem-eye-on-design-3.webp?v=1721313140&width=857",
-  },
-  {
     url: "https://pl.eyeon.design/products/lampa-podlogowa-milford-bialy",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-podlogowa-milford-bialy-eye-on-design-2.webp?v=1721310884&width=1400",
   },
@@ -415,6 +1020,134 @@ export const inspirations = [
   {
     url: "https://pl.eyeon.design/products/lampa-stolowa-milford-czarny",
     src: "https://pl.eyeon.design/cdn/shop/files/lampa-stolowa-milford-czarny-eye-on-design-2.webp?v=1721312854&width=857",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-rondo-inox-zieta-studio",
+    src: "https://pl.eyeon.design/cdn/shop/files/lustro-rondo-inox-eye-on-design-2.jpg?v=1716442002&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-rondo-inox-zieta-studio",
+    src: "https://pl.eyeon.design/cdn/shop/files/lustro-rondo-inox-eye-on-design-10.jpg?v=1716442027&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-circum-pomaranczowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lustro-circum-pomaranczowy-eye-on-design-2.jpg?v=1721303704&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-circum-pomaranczowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/lustro-circum-pomaranczowy-eye-on-design-3.jpg?v=1721303706&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-organic-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/files/lustro-organic-czarny-eye-on-design-2.webp?v=1716434676&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-stolowe-angui-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/products/lustro-stolowe-angui-czarny-marmur-eye-on-design-2.jpg?v=1717052685&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-stolowe-angui-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/products/lustro-stolowe-angui-czarny-marmur-eye-on-design-3.jpg?v=1717052688&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-stolowe-angui-czarny",
+    src: "https://pl.eyeon.design/cdn/shop/products/lustro-stolowe-angui-czarny-marmur-eye-on-design-6.jpg?v=1717052696&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-bevel-szare-szklo",
+    src: "https://pl.eyeon.design/cdn/shop/files/lustro-bevel-szare-szklo-eye-on-design-2.jpg?v=1721250018&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/lustra/products/lustro-bevel-szare-szklo",
+    src: "https://pl.eyeon.design/cdn/shop/files/lustro-bevel-szare-szklo-eye-on-design-3.jpg?v=1721250021&width=1200",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-with-bed-function-and-box-matera-3-seats-beige-240x108x86-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-z-funkcja-spania-matera-bezowy-szenil-eye-on-design-1.jpg?v=1716036999&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-with-bed-function-and-box-matera-3-seats-beige-240x108x86-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-z-funkcja-spania-matera-bezowy-szenil-eye-on-design-5.jpg?v=1716037016&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-with-bed-function-and-box-matera-3-seats-beige-240x108x86-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-z-funkcja-spania-matera-bezowy-szenil-eye-on-design-2.jpg?v=1716037002&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-3-osobowa-martina-ecru",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-3-osobowa-martina-baranek-ecru-eye-on-design-2.png?v=1716050750&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-3-osobowa-martina-ecru",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-3-osobowa-martina-baranek-ecru-eye-on-design-5.png?v=1716050759&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-3-osobowa-martina-ecru",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-3-osobowa-martina-baranek-ecru-eye-on-design-8.png?v=1716050768&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-3-osobowa-martina-ecru",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-3-osobowa-martina-baranek-ecru-eye-on-design-9.jpg?v=1716050770&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-lola-3-seats-beige-235x95x72-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-w-tkaninie-chenillowej-3-osobowa-lola-bezowy-eye-on-design-2.jpg?v=1716023390&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-lola-3-seats-beige-235x95x72-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-w-tkaninie-chenillowej-3-osobowa-lola-bezowy-eye-on-design-5.jpg?v=1716023401&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/boucle-sofa-essen-3-seats-beige-230x95x86-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-3-osobowa-essen-bezowy-boucle-eye-on-design-2.jpg?v=1716037116&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/boucle-sofa-essen-3-seats-beige-230x95x86-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-3-osobowa-essen-bezowy-boucle-eye-on-design-4.jpg?v=1716037124&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/velvet-modular-sofa-tropea-2-seats-terracotta-188x94x63-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/products/sofa-aksamitna-2-osobowa-tropea-terracotta-eye-on-design-1.jpg?v=1716042067&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/velvet-modular-sofa-tropea-2-seats-terracotta-188x94x63-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/products/sofa-aksamitna-2-osobowa-tropea-terracotta-eye-on-design-2.jpg?v=1716042070&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/velvet-modular-sofa-tropea-2-seats-terracotta-188x94x63-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-aksamitna-2-osobowa-tropea-terracotta-eye-on-design-8.jpg?v=1716042090&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/velvet-modular-sofa-tropea-2-seats-terracotta-188x94x63-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/sofa-aksamitna-2-osobowa-tropea-terracotta-eye-on-design-9.jpg?v=1716042093&width=1000",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/velvet-modular-sofa-tropea-2-seats-terracotta-188x94x63-made-in-europe",
+    src: "https://pl.eyeon.design/cdn/shop/files/preview_images/2430b29722274d0a87c531504a0e4ff9.thumbnail.0000000000.jpg?v=1716240123&width=600",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-vanda-3-seats-208x100x85-made-in-europe-13",
+    src: "https://pl.eyeon.design/cdn/shop/products/sofa-aksamitna-3-osobowa-vanda-szary-eye-on-design-1.jpg?v=1716446497&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-vanda-3-seats-208x100x85-made-in-europe-13",
+    src: "https://pl.eyeon.design/cdn/shop/products/sofa-aksamitna-3-osobowa-vanda-szary-eye-on-design-2.jpg?v=1716446500&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-vanda-3-seats-208x100x85-made-in-europe-13",
+    src: "https://pl.eyeon.design/cdn/shop/products/sofa-aksamitna-3-osobowa-vanda-szary-eye-on-design-5.jpg?v=1716446513&width=1400",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-3-osobowa-salamanca-brazowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/KARE-87346-master-30-700x700.jpg?v=1722618316&width=800",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-3-osobowa-salamanca-brazowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/KARE-87346-master-mood-a-700x700.jpg?v=1722618315&width=700",
+  },
+  {
+    url: "https://pl.eyeon.design/collections/sofa/products/sofa-3-osobowa-salamanca-brazowy",
+    src: "https://pl.eyeon.design/cdn/shop/files/KARE-87346-master-mood-b-700x700.jpg?v=1722618316&width=700",
   },
   {
     url: "https://salus.afriso.pl/",
@@ -885,10 +1618,6 @@ export const inspirations = [
     src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Design/Design_Srebrny.jpg",
   },
   {
-    url: "https://www.nice.pl/produkty,16039/model-design-bez-przetloczen",
-    src: "https://nice.pl/resources/image/produkty/Bramy%20gara%C5%BCowe/Model%20Design/Design_Srebrny_RAL.jpg",
-  },
-  {
     url: "https://www.nice.pl/produkty,16164/model-simple-classic",
     src: "https://www.nice.pl/uploads/Og%C3%B3lne/Orzech-2_27277413-.jpg",
   },
@@ -985,10 +1714,6 @@ export const inspirations = [
     src: "https://www.hikvision.com/content/dam/hikvision/en/marketing/image/products/video-intercom-products/2-wire-series/2-wire-hd/2-wire-HD_Feature04-abundant-features-with-intuitive-control.jpg",
   },
   {
-    url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/2-wire-Series/2-wire-hd/?category=Wideodomofon&subCategory=Seria+2-%C5%BCy%C5%82owa&series=2+Wire+HD&checkedSubSeries=NONE",
-    src: "https://www.hikvision.com/content/dam/hikvision/en/marketing/image/products/video-intercom-products/2-wire-series/2-wire-hd/2-wire-HD_Feature04-abundant-features-with-intuitive-control.jpg",
-  },
-  {
     url: "https://www.hikvision.com/pl/products/Video-Intercom-Products/2-wire-Series/2-wire-hd/ds-kd7003ey-ime2-aluminum/",
     src: "https://www.hikvision.com/content/dam/hikvision/products/asset/M000116883/images/KD7003%E9%93%9D%E5%90%88%E9%87%91%E5%8D%95%E6%A8%A1%E5%9D%97-%E6%AD%A3%E8%A7%86%E5%9B%BE.png",
   },
@@ -1045,7 +1770,7 @@ export const inspirations = [
     src: "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/eaton-metered-input-rack-pdu/Eaton%20Metered%20Input%20ePDU.jpg",
   },
   {
-    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-metered-input-rack-pdu0.html",
+    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-basic-rack-pdu0.html",
     src: "https://dynamicmedia.eaton.com/is/image/eaton/Eaton-RACKPDUG4-productimage-Custom_FM5-LR-en-gb:feature-block-mobile",
   },
   {
@@ -1055,10 +1780,6 @@ export const inspirations = [
   {
     url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-basic-rack-pdu0.html",
     src: "https://www.eaton.com/content/dam/eaton/products/backup-power-ups-surge-it-power-distribution/power-distribution-for-it-equipment/eaton-basic-rack-pdu/Eaton-Basic-Rack-PDU-Family.jpg",
-  },
-  {
-    url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-basic-rack-pdu0.html",
-    src: "https://dynamicmedia.eaton.com/is/image/eaton/Eaton-RACKPDUG4-productimage-Custom_FM5-LR-en-gb:feature-block-mobile",
   },
   {
     url: "https://www.eaton.com/pl/pl-pl/catalog/backup-power-ups-surge-it-power-distribution/eaton-basic-rack-pdu0.html",
@@ -1609,19 +2330,19 @@ export const inspirations = [
     src: "https://thesslagreen.com/wp-content/uploads/2017/09/filtry-m.png",
   },
   {
-    url: "https://thesslagreen.com/product/airpack-home-h/",
+    url: "https://thesslagreen.com/product/airpack-home-v/",
     src: "https://thesslagreen.com/wp-content/uploads/FPX_08.2018_900px.png",
   },
   {
-    url: "https://thesslagreen.com/product/airpack-home-h/",
+    url: "https://thesslagreen.com/product/airpack-home-v/",
     src: "https://thesslagreen.com/wp-content/uploads/Bypass-100_112020.png",
   },
   {
-    url: "https://thesslagreen.com/product/airpack-home-h/",
+    url: "https://thesslagreen.com/product/airpack-home-v/",
     src: "https://thesslagreen.com/wp-content/uploads/AP-Home_550px.png",
   },
   {
-    url: "https://thesslagreen.com/product/airpack-home-h/",
+    url: "https://thesslagreen.com/product/airpack-home-v/",
     src: "https://thesslagreen.com/wp-content/uploads/10_APhome_wymiennik_entalpijny_8bit_800px.png",
   },
   {
@@ -1647,22 +2368,6 @@ export const inspirations = [
   {
     url: "https://thesslagreen.com/product/airpack-home-v/",
     src: "https://thesslagreen.com/wp-content/uploads/APHome_v__CF_700px_.png",
-  },
-  {
-    url: "https://thesslagreen.com/product/airpack-home-v/",
-    src: "https://thesslagreen.com/wp-content/uploads/FPX_08.2018_900px.png",
-  },
-  {
-    url: "https://thesslagreen.com/product/airpack-home-v/",
-    src: "https://thesslagreen.com/wp-content/uploads/Bypass-100_112020.png",
-  },
-  {
-    url: "https://thesslagreen.com/product/airpack-home-v/",
-    src: "https://thesslagreen.com/wp-content/uploads/AP-Home_550px.png",
-  },
-  {
-    url: "https://thesslagreen.com/product/airpack-home-v/",
-    src: "https://thesslagreen.com/wp-content/uploads/10_APhome_wymiennik_entalpijny_8bit_800px.png",
   },
   {
     url: "https://thesslagreen.com/product/airpack-home-v/",
@@ -1805,10 +2510,6 @@ export const inspirations = [
     src: "https://www.automation.siemens.com/bilddb/interfaces/InterfaceImageDB.asmx/GetImageVariant?objectkey=P_I202_XX_00696&amp;imagevariantid=16&amp;lang=&amp;interfaceuserid=MALL",
   },
   {
-    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10000427?tree=CatalogTree",
-    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_10727j.JPG",
-  },
-  {
     url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10007391?tree=CatalogTree",
     src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_10727j.JPG",
   },
@@ -1817,11 +2518,11 @@ export const inspirations = [
     src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_10728j.JPG",
   },
   {
-    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10007391?tree=CatalogTree",
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10036005?tree=CatalogTree",
     src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13394j.JPG",
   },
   {
-    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10007391?tree=CatalogTree",
+    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10036005?tree=CatalogTree",
     src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13395j.JPG",
   },
   {
@@ -1851,14 +2552,6 @@ export const inspirations = [
   {
     url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10028889?tree=CatalogTree",
     src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_12132j.JPG",
-  },
-  {
-    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10036005?tree=CatalogTree",
-    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13394j.JPG",
-  },
-  {
-    url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10036005?tree=CatalogTree",
-    src: "https://mall.industry.siemens.com/mall/collaterals/files/169/JPG/G_I201_EN_13395j.JPG",
   },
   {
     url: "https://mall.industry.siemens.com/mall/en/WW/Catalog/Products/10006697?tree=CatalogTree",
@@ -1929,10 +2622,6 @@ export const inspirations = [
     src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/66146/images/1920x0/nowa-generacja-cyfrowego-radia-od-abb-to-najlepszej-jakosci-dzwiek-prosty-sposob-na-przeniesienie-muzyki-i-informacji-do-kazdego-wnetrza-bez-zajmowania-zbyt-duzo-miejsca-i-bez-placzacych-sie-kabli-169127.jpg",
   },
   {
-    url: "https://www.architekturaibiznes.pl/abb-dla-inteligentnego-domu,9795.html?srsltid=AfmBOoqgareRiZ9VOncFjhUSathOkNZVMBNmwSBiIZfBkjGPutU1Dt5a#lg=1&slide=3",
-    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/66146/images/1920x0/nowa-generacja-cyfrowego-radia-od-abb-to-najlepszej-jakosci-dzwiek-prosty-sposob-na-przeniesienie-muzyki-i-informacji-do-kazdego-wnetrza-bez-zajmowania-zbyt-duzo-miejsca-i-bez-placzacych-sie-kabli-169127.jpg",
-  },
-  {
     url: "https://quicktec.pl/apartamentowiec-aloha-residence/",
     src: "https://quicktec.pl/wp-content/uploads/2023/02/IMG_1567-768x1024.jpg",
   },
@@ -1955,10 +2644,6 @@ export const inspirations = [
   {
     url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
     src: "https://www07.abb.com/images/librariesprovider84/products/home-and-building-automation/knx-/tenton/abb-tenton-integrators.png?sfvrsn=42ac5817_1&CropWidth=395&CropHeight=395&Quality=High&CropX=0&CropY=0&Width=395&Height=395&Method=CropToFixedAreaCropToFixedAreaArguments&Key=fc951b3d700c8edd88fbe9e1bc324ddd",
-  },
-  {
-    url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
-    src: "https://www07.abb.com/images/librariesprovider84/products/home-and-building-automation/knx-/tenton/abb-tenton-installers.png?sfvrsn=46ac5817_1&CropWidth=395&CropHeight=395&Quality=High&CropX=0&CropY=0&Width=395&Height=395&Method=CropToFixedAreaCropToFixedAreaArguments&Key=fc951b3d700c8edd88fbe9e1bc324ddd",
   },
   {
     url: "https://new.abb.com/low-voltage/pl/produkty/automatyka-domowa-i-budynkowa/gama-produktow/abb-i-bus-knx/produkty/abb-tenton",
@@ -2053,7 +2738,7 @@ export const inspirations = [
     src: "https://www07.abb.com/images/librariesprovider84/home-page/fah_design-ranges_header.jpg?sfvrsn=360b313_1",
   },
   {
-    url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/future-linear",
+    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/future-linear",
     src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/future_switch_1183x353.jpg?sfvrsn=18f34214_1",
   },
   {
@@ -2068,7 +2753,6 @@ export const inspirations = [
     url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/oferta-wylacznikow-swiatla/seria-decento",
     src: "https://www07.abb.com/images/librariesprovider84/Products/LPWA/busch-jaeger/1183x353_header_image/decento.jpg?sfvrsn=1",
   },
-
   {
     url: "https://new.abb.com/low-voltage/pl/produkty/produkty-dla-budownictwa-mieszkaniowego/materialy-instalacyjne/podtynkowe-puszki-montazowe",
     src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/filpwa/1183x353_header-image/au5-6_banneri_a.jpg?sfvrsn=c8c48a13_1",
@@ -2130,10 +2814,6 @@ export const inspirations = [
     src: "https://www07.abb.com/images/librariesprovider84/elsb-images/trevion-web-keypads.jpg?sfvrsn=f3e2120b_1&CropWidth=1125&CropHeight=625&Quality=High&CropX=0&CropY=0&Width=852&Height=473&Method=CropToFixedAreaCropToFixedAreaArguments&Key=e7b2cd8ad8690e29b80eaeb0b77329c2",
   },
   {
-    url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/future-linear",
-    src: "https://www07.abb.com/images/librariesprovider84/products/lpwa/residential-products/1183-x-353-px/future_switch_1183x353.jpg?sfvrsn=18f34214_1",
-  },
-  {
     url: "https://new.abb.com/low-voltage/products/wiringaccessories/switch-ranges/millenium",
     src: "https://www07.abb.com/images/librariesprovider84/residential-products/millenium_1183x353_headerimage.jpg?sfvrsn=da677816_1",
   },
@@ -2172,10 +2852,6 @@ export const inspirations = [
   {
     url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=5",
     src: "https://image.architonic.com/sto3-2/20148664/busch-roomtouch-ansichten-arcit18.jpg",
-  },
-  {
-    url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=7",
-    src: "https://image.architonic.com/sto3-2/20148664/0748-bje-axcent-inspiration-detail-arcit18.jpg",
   },
   {
     url: "https://www.architonic.com/en/story/busch-jaeger-all-under-control-busch-jaeger/20148664#&gid=null&pid=7",
@@ -2442,10 +3118,6 @@ export const inspirations = [
     src: "https://image.architonic.com/pro2-3/20722506/a550-ww-home-socket-led-pers-green-rgb-pro-b-arcit18.jpg",
   },
   {
-    url: "https://www.architonic.com/en/product/jung-ls-990-knx-compact-room-controller-f-50/20706148#&gid=1&pid=1",
-    src: "https://image.architonic.com/pro2-3/20706148/ls990-f50-krc-swm-4gang-4gang-pers-rgb-pro-b-arcit18.jpg",
-  },
-  {
     url: "https://www.jung.de/pl/",
     src: "https://www.jung.de/~mi/12335/20037/jung-home.jpg",
   },
@@ -2602,22 +3274,6 @@ export const inspirations = [
     src: "https://www.jung.de/~mi/6933/11603/designachead3.jpg",
   },
   {
-    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
-    src: "https://www.jung.de/~mi/8660/14406/jung-smart-radio-dab.jpg",
-  },
-  {
-    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
-    src: "https://www.jung.de/~mi/8480/14403/jung-smart-radio-dab.jpg",
-  },
-  {
-    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
-    src: "https://www.jung.de/~mi/8659/14405/jung-smart-radio-dab.jpg",
-  },
-  {
-    url: "https://www.jung.de/pl/833/produkty/technologia/muzyka-i-nie-tylko/",
-    src: "https://www.jung.de/~mi/7801/14404/jung-smart-radio-dab.jpg",
-  },
-  {
     url: "https://www.architekturaibiznes.pl/osprzet-elektryczny-i-rozwiazania-smart-home-gira,16757.html#lg=1&slide=0",
     src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/16757/images/750x0/domofon-gira-system-z-czytnikiem-linii-papilarnych-256952.jpg",
   },
@@ -2642,7 +3298,7 @@ export const inspirations = [
     src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/116771/images/1920x0/czytnik-odcisku-palca-gira-system-256961.jpg",
   },
   {
-    url: "https://www.gira.com/en/en/products/smart-home#",
+    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#",
     src: "https://partner.gira.de/abbildungen/gira-system-3000-e2-touchaufsatz-milieu-hero_25452_1701350457.webp",
   },
   {
@@ -2791,10 +3447,6 @@ export const inspirations = [
   },
   {
     url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#",
-    src: "https://partner.gira.de/abbildungen/gira-system-3000-e2-touchaufsatz-milieu-hero_25452_1701350457.webp",
-  },
-  {
-    url: "https://www.gira.com/en/en/products/smart-home/gira-system-3000#",
     src: "https://partner.gira.de/abbildungen/Gira_E2-System-3000-Jalousieuhr-Display_Milieu_Gira_02_20691_1584105030_20691_1593673031.jpg",
   },
   {
@@ -2869,13 +3521,12 @@ export const inspirations = [
     url: "https://www.gira.com/en/en/products/design-lines/gira-e2#",
     src: "https://partner.gira.de/abbildungen/hue_webseite_19759_1567662860.jpg",
   },
-
   {
     url: "https://www.enet-smarthome.com/en/your-benefits/#c29495",
     src: "https://www.enet-smarthome.com/fileadmin/Redesign/Vorteile/IhreVorteile_Preisgekroent_600x400px_srgb.jpg",
   },
   {
-    url: "https://www.enet-smarthome.com/en/",
+    url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
     src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x400px_srgb_rz2.jpg",
   },
   {
@@ -2885,10 +3536,6 @@ export const inspirations = [
   {
     url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
     src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x444px_srgb_rz.jpg",
-  },
-  {
-    url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
-    src: "https://www.enet-smarthome.com/fileadmin/user_upload/Referenzbilder_600x400px_srgb_rz2.jpg",
   },
   {
     url: "https://www.enet-smarthome.com/en/references/stately-mansion-becomes-smart/",
@@ -3127,46 +3774,6 @@ export const inspirations = [
     src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
   },
   {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/siam-spa-kz-003395?filters[family][0]=deep-ringo",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/71adf568-4840-11ee-bf5b-00505693bd3f/003395-rea15.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
-  },
-  {
     url: "https://deltalight.com/pl/projekt/the-hub-gent-be-003369?filters[family][0]=deep-ringo",
     src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/634abff2-d00d-11ed-9cc4-00505693b57f/003369-rea12.jpg?b358dd5b59529b42a6c40c08cdd425774f820c74",
   },
@@ -3203,10 +3810,6 @@ export const inspirations = [
     src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/bc980a06-e01b-11ed-a338-00505693b57f/boxy-put-it-on-a-shiftline.jpg",
   },
   {
-    url: "https://deltalight.com/pl/produkty/boxy?perPage=12&filters[collection][0]=7be13d26-2f76-11ed-ad06-00505693b57f&filters[collection][1]=537e604e-d993-11ed-bc1b-00505693b57f&filters[collection][2]=7bf5a1da-2f76-11ed-a0ac-00505693b57f&filters[location]=7a8f0b24-2f76-11ed-9132-00505693b57f&filters[fixation]=7acc5740-2f76-11ed-b663-00505693b57f&filters[installation]=7b36a514-2f76-11ed-89e0-00505693b57f&sorting=newest",
-    src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/bc980a06-e01b-11ed-a338-00505693b57f/boxy-put-it-on-a-shiftline.jpg",
-  },
-  {
     url: "https://deltalight.com/pl/produkty/vizir-hedra?perPage=12&filters[collection][0]=7be13d26-2f76-11ed-ad06-00505693b57f&filters[collection][1]=537e604e-d993-11ed-bc1b-00505693b57f&filters[collection][2]=7bf5a1da-2f76-11ed-a0ac-00505693b57f&filters[location]=7a8f0b24-2f76-11ed-9132-00505693b57f&filters[fixation]=7acc5740-2f76-11ed-b663-00505693b57f&filters[installation]=7b36a514-2f76-11ed-89e0-00505693b57f&sorting=newest",
     src: "https://deltalight.com/media/cache/resolve/website_image_w_640/assets/550f4ec8-c9c6-11ed-8f58-00505693b57f/fam-hedra-62-w-fx01.jpg",
   },
@@ -3221,10 +3824,6 @@ export const inspirations = [
   {
     url: "https://deltalight.com/pl/projekt/allia-brussel-be-003151?filters[family][0]=vizir-hedra",
     src: "https://deltalight.com/media/cache/resolve/website_widget_images_640/assets/4dbb1964-2fba-11ed-b10b-00505693b57f/003151-rea05.jpg",
-  },
-  {
-    url: "https://deltalight.com/pl/projekt/allia-brussel-be-003151?filters[family][0]=vizir-hedra",
-    src: "https://deltalight.com/media/cache/resolve/website_widget_images_640/assets/4cce8ab8-2fba-11ed-ab2a-00505693b57f/003151-rea04.jpg",
   },
   {
     url: "https://deltalight.com/pl/projekt/allia-brussel-be-003151?filters[family][0]=vizir-hedra",
@@ -3313,10 +3912,6 @@ export const inspirations = [
   {
     url: "https://deltalight.com/pl/produkty/shiftline?perPage=12&filters[collection][0]=7be13d26-2f76-11ed-ad06-00505693b57f&filters[collection][1]=537e604e-d993-11ed-bc1b-00505693b57f&filters[collection][2]=7bf5a1da-2f76-11ed-a0ac-00505693b57f&filters[location]=7a8f0b24-2f76-11ed-9132-00505693b57f&filters[fixation]=7acc5740-2f76-11ed-b663-00505693b57f&filters[installation]=7b36a514-2f76-11ed-89e0-00505693b57f&sorting=newest",
     src: "https://deltalight.com/media/cache/resolve/website_widget_images_640/assets/4b82994a-66b0-11ef-91b6-00505693b57f/003382-rea01.jpg",
-  },
-  {
-    url: "https://deltalight.com/pl/produkty/shiftline?perPage=12&filters[collection][0]=7be13d26-2f76-11ed-ad06-00505693b57f&filters[collection][1]=537e604e-d993-11ed-bc1b-00505693b57f&filters[collection][2]=7bf5a1da-2f76-11ed-a0ac-00505693b57f&filters[location]=7a8f0b24-2f76-11ed-9132-00505693b57f&filters[fixation]=7acc5740-2f76-11ed-b663-00505693b57f&filters[installation]=7b36a514-2f76-11ed-89e0-00505693b57f&sorting=newest",
-    src: "https://deltalight.com/media/cache/resolve/website_widget_images_640/assets/4b8368ac-66b0-11ef-a590-00505693b57f/003393-rea24.jpg",
   },
   {
     url: "https://deltalight.com/pl/produkty/shiftline?perPage=12&filters[collection][0]=7be13d26-2f76-11ed-ad06-00505693b57f&filters[collection][1]=537e604e-d993-11ed-bc1b-00505693b57f&filters[collection][2]=7bf5a1da-2f76-11ed-a0ac-00505693b57f&filters[location]=7a8f0b24-2f76-11ed-9132-00505693b57f&filters[fixation]=7acc5740-2f76-11ed-b663-00505693b57f&filters[installation]=7b36a514-2f76-11ed-89e0-00505693b57f&sorting=newest",
@@ -3501,10 +4096,6 @@ export const inspirations = [
   {
     url: "https://www.control4.com/idea_gallery/wood-end-manor",
     src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/ejln1xfc8afc7ckdoz32.png",
-  },
-  {
-    url: "https://www.control4.com/idea_gallery",
-    src: "https://res.cloudinary.com/control4/image/upload/w_1120,h_748,c_fill,f_auto,q_auto,dpr_auto/idea_gallery/xcrolz4m5qqhxl75b2kf.jpg",
   },
   {
     url: "https://www.control4.com/idea_gallery/beautiful-bel-air-condo",
@@ -3699,15 +4290,15 @@ export const inspirations = [
     src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/simon-55/main/12.jpg",
   },
   {
-    url: "https://www.kontakt-simon.com.pl/pl/Simon-100.html",
+    url: "https://www.kontakt-simon.com.pl/pl/Simon-100/Wygoda.html",
     src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/page-headers//simon-100/simon-100_2000x520_01.jpg",
   },
   {
-    url: "https://www.kontakt-simon.com.pl/pl/Simon-100.html",
+    url: "https://www.kontakt-simon.com.pl/pl/Simon-100/Wygoda.html",
     src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/page-headers//simon-100/simon-100_2000x520_02.jpg",
   },
   {
-    url: "https://www.kontakt-simon.com.pl/pl/Simon-100.html",
+    url: "https://www.kontakt-simon.com.pl/pl/Simon-100/Wygoda.html",
     src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/page-headers//simon-100/simon-100_2000x520_03.jpg",
   },
   {
@@ -3733,18 +4324,6 @@ export const inspirations = [
   {
     url: "https://www.kontakt-simon.com.pl/pl/Simon-100.html",
     src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/simon-100/main/06.jpg",
-  },
-  {
-    url: "https://www.kontakt-simon.com.pl/pl/Simon-100/Wygoda.html",
-    src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/page-headers//simon-100/simon-100_2000x520_01.jpg",
-  },
-  {
-    url: "https://www.kontakt-simon.com.pl/pl/Simon-100/Wygoda.html",
-    src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/page-headers//simon-100/simon-100_2000x520_02.jpg",
-  },
-  {
-    url: "https://www.kontakt-simon.com.pl/pl/Simon-100/Wygoda.html",
-    src: "https://www.kontakt-simon.com.pl/assets/res/lib/img/page-headers//simon-100/simon-100_2000x520_03.jpg",
   },
   {
     url: "https://www.kontakt-simon.com.pl/pl/Simon-100/Wygoda.html",
@@ -3933,10 +4512,6 @@ export const inspirations = [
   {
     url: "https://paulmann.pl/oswietlenie-wewnetrzne/oprawa-oswietleniowa-urail-spot-sphere-7-5w-dim-4000k-czarny-mat-chrom-230v",
     src: "https://paulmann.pl/media/catalog/product/cache/829d6d7053d2e81441330fd4a24e732b/7/6/76218_1_1.jpg",
-  },
-  {
-    url: "https://paulmann.pl/oswietlenie-wewnetrzne/oprawa-oswietleniowa-urail-spot-sphere-7-5w-dim-4000k-czarny-mat-chrom-230v",
-    src: "https://paulmann.pl/media/catalog/product/cache/829d6d7053d2e81441330fd4a24e732b/7/6/76218_5_1.jpg",
   },
   {
     url: "https://paulmann.pl/oswietlenie-wewnetrzne/oprawa-oswietleniowa-urail-spot-sphere-7-5w-dim-4000k-czarny-mat-chrom-230v",
@@ -4221,10 +4796,6 @@ export const inspirations = [
   {
     url: "https://paulmann.pl/oswietlenie-wewnetrzne/urail-system-spot-sabik-1x13w-chrom-mat-230v-metal-tworzywo-sztuczne-sciemniany",
     src: "https://paulmann.pl/media/catalog/product/cache/829d6d7053d2e81441330fd4a24e732b/6/7/67422_02.jpg",
-  },
-  {
-    url: "https://paulmann.pl/oswietlenie-wewnetrzne/urail-system-spot-sabik-1x13w-chrom-mat-230v-metal-tworzywo-sztuczne-sciemniany",
-    src: "https://paulmann.pl/media/catalog/product/cache/829d6d7053d2e81441330fd4a24e732b/6/7/67422_03.jpg",
   },
   {
     url: "https://paulmann.pl/oswietlenie-wewnetrzne/urail-system-spot-aldan-1x9w-230v-metal-tworzywo-sztuczne-sciemniany",
@@ -4981,10 +5552,6 @@ export const inspirations = [
   {
     url: "https://paulmann.pl/oswietlenie-zewnetrzne/oprawa-najazdowa-house-ip67-3000k-2w-okragla-230v-stal-nierdzewna",
     src: "https://paulmann.pl/media/catalog/product/cache/829d6d7053d2e81441330fd4a24e732b/7/1/71422_5_1.jpg",
-  },
-  {
-    url: "https://paulmann.pl/oswietlenie-zewnetrzne/oprawa-najazdowa-house-ip67-3000k-2w-kwadratowa-230v-stal-nierdzewna",
-    src: "https://paulmann.pl/media/catalog/product/cache/829d6d7053d2e81441330fd4a24e732b/7/1/71423_3.jpg",
   },
   {
     url: "https://paulmann.pl/oswietlenie-zewnetrzne/oprawa-najazdowa-house-ip67-3000k-2w-kwadratowa-230v-stal-nierdzewna",
@@ -5875,10 +6442,6 @@ export const inspirations = [
     src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-erco-synaesthetic-architecture-intro-10-1.jpg#2016-08-18_08-48-41",
   },
   {
-    url: "https://www.erco.com/en/projects/living/synaesthetic-architecture-5765/",
-    src: "https://www.erco.com/images/synaesthetic-architecture-5765/eur-5765-rep.jpg#2014-03-28_12-31-22",
-  },
-  {
     url: "https://www.erco.com/en/service/microsites/products/invia-48v-light-structure-7439/",
     src: "https://www.erco.com/images/invia-48v-light-structure-7439/eur-7439-70629-header-mobile.jpg#2022-12-13_08-01-43",
   },
@@ -6343,14 +6906,6 @@ export const inspirations = [
     src: "https://maytoni.de/upload/iblock/2a9/1i7bkmo5o2egnz9gahybx1594vqmfx9x.jpeg",
   },
   {
-    url: "https://maytoni.de/pl/catalog/decorative/lampy-wisz-ce/mod157pl-l6b4k1/",
-    src: "https://maytoni.de/upload/iblock/2a9/1i7bkmo5o2egnz9gahybx1594vqmfx9x.jpeg",
-  },
-  {
-    url: "https://maytoni.de/pl/catalog/decorative/lampy-wisz-ce/mod157pl-l6b4k1/",
-    src: "https://maytoni.de/upload/iblock/2a9/1i7bkmo5o2egnz9gahybx1594vqmfx9x.jpeg",
-  },
-  {
     url: "https://maytoni.de/pl/catalog/decorative/lampy-wisz-ce/mod167pl-01b/",
     src: "https://maytoni.de/upload/iblock/bd3/dwqs6vpcazl06e54j6tt7tc3r3c8gzhy.jpeg",
   },
@@ -6389,10 +6944,6 @@ export const inspirations = [
   {
     url: "https://maytoni.de/pl/catalog/decorative/lampy-pod-ogowe/z177-fl-01-br/",
     src: "https://maytoni.de/upload/iblock/b07/n4qa796sqzd6olkvvhv6bny2oagvcgp5.jpeg",
-  },
-  {
-    url: "https://maytoni.de/pl/catalog/decorative/lampy-pod-ogowe/z177-fl-01-br/",
-    src: "https://maytoni.de/upload/iblock/2d6/6u1emoyh12v45d5nxwa3yw8wwkbagsox.jpg",
   },
   {
     url: "https://maytoni.de/pl/catalog/decorative/lampy-pod-ogowe/z177-fl-01-br/",
@@ -6459,12 +7010,8 @@ export const inspirations = [
     src: "https://images.ctfassets.net/w2xcep4i3dcd/34xrw5ctfr3MJm4Il0tHTy/2fef0e7239745b83733bd3a0a119a1f7/BE22215_55941_Iserlohn_013b_anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-kierowanym-22215/?product-finish=coating-graphite",
+    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe-wpuszczane/kompaktowe-oprawy-typu-downlight-ze-szklem-krysztalowym-55941/?colour-temperature=3000",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/2IOGFuqdqo6YiMHtnKyMDG/ce8046c3a7319a5f317e61e088e8b6cd/BE22215_55941_Iserlohn_012b_anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-kierowanym-22215/?product-finish=coating-graphite",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/6WHZbHC7RCAOaospKXrnBm/ef389a9833a0c5f93f031d34c75d3068/22215_02.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-kierowanym-22215/?product-finish=coating-graphite",
@@ -6485,10 +7032,6 @@ export const inspirations = [
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-przysonietym-24471/?product-finish=coating-graphite&colour-temperature=3000",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/6hZ8gYFHuLJseOBVJ23AtH/8a87887fdf07aadff5958f42ff285c85/33319_02.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-przysonietym-24471/?product-finish=coating-graphite&colour-temperature=3000",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/64CqXtTYH1N9GsVadJW7Zp/5aaacb56800020fbe187ad02e698ca91/33319_11.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-przysonietym-24471/?product-finish=coating-graphite&colour-temperature=3000",
@@ -6561,10 +7104,6 @@ export const inspirations = [
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-kierowanym-22392/?t=jednostronny-rozsy-swiata&product-finish=coating-graphite&colour-temperature=3000",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/20A5XJkQDxy875umuDmLy3/5774512d7967815589b558c03a257ddb/BE22392_Jubelpark_bru__ssel_45b_anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-kierowanym-22392/?t=jednostronny-rozsy-swiata&product-finish=coating-graphite&colour-temperature=3000",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/4gEcZfM56DNxcjc36Z0Iz3/409fa2619d18b5b3eca6eb677fcf5343/22392_03.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-scienne/oprawy-scienne-ze-swiatem-kierowanym-22392/?t=jednostronny-rozsy-swiata&product-finish=coating-graphite&colour-temperature=3000",
@@ -6657,10 +7196,6 @@ export const inspirations = [
   {
     url: "https://www.bega.com/pl-pl/produkty/zasilanie-elektryczne/supy-przyaczeniowe/supy-przyaczeniowe-71253/",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/6ysTbWCoLYjeR8gsZbTrZb/b3e3b46d65e9f7620d09708ed4c5a33a/71253_001.anw.jpg?fit=fill&fm=jpg&w=420&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/zasilanie-elektryczne/supy-przyaczeniowe/supy-przyaczeniowe-71253/",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/2TIXdrljtzXXbnAb1Nd9OP/70abfd559aa9ff474ad6aff97fe812a1/70375_02.anw.jpg?fit=fill&fm=jpg&w=420&f=center&q=80",
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/zasilanie-elektryczne/supy-przyaczeniowe/supy-przyaczeniowe-71253/",
@@ -6896,10 +7431,6 @@ export const inspirations = [
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe/kompaktowe-oprawy-typu-downlight-z-bega-hybrid-optics-24398/?product-finish=coating-graphite&colour-temperature=3000",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/7hLujiC2D9U51DgYTpTpZB/1c7f11735a0245518fdd72c0d1763e76/66974_01.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe/kompaktowe-oprawy-typu-downlight-z-bega-hybrid-optics-24398/?product-finish=coating-graphite&colour-temperature=3000",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/5rgeg7KnWC8TjUvn2sIC95/f8ce4634f99637caec3044e48deca7dd/66974_06.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
@@ -7020,10 +7551,6 @@ export const inspirations = [
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe-wpuszczane/kompaktowe-oprawy-typu-downlight-ze-szklem-krysztalowym-55941/?colour-temperature=3000",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/2IOGFuqdqo6YiMHtnKyMDG/ce8046c3a7319a5f317e61e088e8b6cd/BE22215_55941_Iserlohn_012b_anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe-wpuszczane/kompaktowe-oprawy-typu-downlight-ze-szklem-krysztalowym-55941/?colour-temperature=3000",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/4fhDWOJpzV4vufH6IU11UH/f12bb371e9efb9d4dcfbf9d5798e9972/Haus_Hohlen_Dornbirn_03_55941_Radon.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
@@ -7033,10 +7560,6 @@ export const inspirations = [
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe-wpuszczane/kompaktowe-oprawy-typu-downlight-ze-szklem-krysztalowym-55941/?colour-temperature=3000",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/36QrMHHUXRnJ3ZOy8NX8ao/57d3f97e65b74c38546e7824584f49cf/55941_01.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe-wpuszczane/kompaktowe-oprawy-typu-downlight-z-regulowanym-rozsylem-swiatla-24530/?product-finish=coating-graphite&colour-temperature=3000",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/5jQNVROXNtZIoig5wfIJZo/c53d0c5f910a811dea49d44079b0e068/55841_04.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-zewnetrzne/oprawy-stropowe-wpuszczane/kompaktowe-oprawy-typu-downlight-z-regulowanym-rozsylem-swiatla-24530/?product-finish=coating-graphite&colour-temperature=3000",
@@ -7093,10 +7616,6 @@ export const inspirations = [
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-wewnetrzne/reflektor-do-szyn-pradowych/reflektor-do-szyn-pradowych-51037/?t=typ-a-51037&product-finish=colour-white-velvet&colour-temperature=3000",
     src: "https://images.ctfassets.net/w2xcep4i3dcd/3wX7fGn2J0lQ67QkSRjXnS/58cbe9369d787870c55e8cd1a34a8778/Li51037_Messe_01.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
-  },
-  {
-    url: "https://www.bega.com/pl-pl/produkty/oprawy-wewnetrzne/reflektor-do-szyn-pradowych/reflektor-do-szyn-pradowych-51037/?t=typ-a-51037&product-finish=colour-white-velvet&colour-temperature=3000",
-    src: "https://images.ctfassets.net/w2xcep4i3dcd/4O1HMhWsQeJvK8ZH0fLO0a/7e0e8430eda0366744f18c107de1eb9a/GL51037_001.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80",
   },
   {
     url: "https://www.bega.com/pl-pl/produkty/oprawy-wewnetrzne/reflektor-do-szyn-pradowych/reflektor-do-szyn-pradowych-51037/?t=typ-a-51037&product-finish=colour-white-velvet&colour-temperature=3000",
@@ -7351,7 +7870,7 @@ export const inspirations = [
     src: "https://vasco.eu/files/images/_860x720_crop_center-center_75_none/Gallery_Zana_Vertical_ZV-1_ZV-2_interior_bluegrey.jpg",
   },
   {
-    url: "https://vasco.eu/pl/grzejniki-dekoracyjne/zana/zana-verticaal-zv-2",
+    url: "https://vasco.eu/pl/grzejniki-dekoracyjne/zana/zana-pionowa-zv-1",
     src: "https://vasco.eu/files/images/_860x720_crop_center-center_75_none/Gallery_Zana_Vertical_ZV-1_ZV-2_interior_grey.jpg",
   },
   {
@@ -7367,20 +7886,12 @@ export const inspirations = [
     src: "https://vasco.eu/files/images/_860x720_crop_center-center_75_none/Gallery_Zana_Vertical_ZV-2_detail.jpg",
   },
   {
-    url: "https://vasco.eu/pl/grzejniki-dekoracyjne/zana/zana-pionowa-zv-1",
-    src: "https://vasco.eu/files/images/_860x720_crop_center-center_75_none/Gallery_Zana_Vertical_ZV-1_ZV-2_interior_grey.jpg",
-  },
-  {
     url: "https://vasco.eu/pl/grzejniki-dekoracyjne/zana/zana-bad-e-volve-zbd-el",
     src: "https://vasco.eu/files/images/_860x720_crop_center-center_75_none/Gallery_Zana_Bath-EL_interior.jpg",
   },
   {
     url: "https://vasco.eu/pl/grzejniki-dekoracyjne/zana/zana-bad-e-volve-zbd-el",
     src: "https://vasco.eu/files/images/_860x720_crop_center-center_75_none/Gallery_Zana_Bath-EL_product_2.jpg",
-  },
-  {
-    url: "https://vasco.eu/pl/grzejniki-dekoracyjne/zana/zana-bad-zbd",
-    src: "https://vasco.eu/files/images/_860x720_crop_center-center_75_none/Gallery_Zana_Bath_ZBD_interior.jpg",
   },
   {
     url: "https://vasco.eu/pl/grzejniki-dekoracyjne/zana/zana-bad-zbd",
@@ -7517,10 +8028,6 @@ export const inspirations = [
   {
     url: "https://www.daikin.pl/pl_pl/klienci/products-and-advice/product-categories/air-conditioners/concealed-ceiling.html",
     src: "https://www.daikin.pl/adobe/dynamicmedia/deliver/dm-aid--632cb259-ba1b-42d1-b04d-64591b1464c5/fdxm-f-1-1-2a.jpg",
-  },
-  {
-    url: "https://www.daikin.pl/pl_pl/klienci/products-and-advice/product-categories/air-conditioners/concealed-ceiling.html",
-    src: "https://www.daikin.pl/adobe/dynamicmedia/deliver/dm-aid--8b2897a6-2af2-4f46-b338-8fa6019742a7/rxm-r-1-1-5a.jpg",
   },
   {
     url: "https://www.aircon.panasonic.eu/PL_pl/happening/heat-recovery-ventilation-unit/",
@@ -8000,10 +8507,6 @@ export const inspirations = [
   },
   {
     url: "https://informdesign.com.au/completed/brighton-east-5-2/",
-    src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_3.jpg",
-  },
-  {
-    url: "https://informdesign.com.au/completed/brighton-east-5-2/",
     src: "https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH14_8.jpg",
   },
   {
@@ -8295,10 +8798,6 @@ export const inspirations = [
     src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Lounge-fyo-intra-lighting.jpg",
   },
   {
-    url: "https://www.intra-lighting.com/family?family=Fyo",
-    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Lounge-fyo-intra-lighting.jpg",
-  },
-  {
     url: "https://www.intra-lighting.com/family?family=Atos",
     src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/dinning_Dawn_Atos_intra_lighting_3.jpg",
   },
@@ -8377,10 +8876,6 @@ export const inspirations = [
   {
     url: "https://www.intra-lighting.com/family?family=Nola",
     src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Corridor-3-nola-intra-lighting.jpg",
-  },
-  {
-    url: "https://www.intra-lighting.com/family?family=Nola",
-    src: "https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Hallway-nola-intra-lighting.jpg",
   },
   {
     url: "https://www.intra-lighting.com/family-child?family=NucleoC",
@@ -8489,10 +8984,6 @@ export const inspirations = [
   {
     url: "https://www.tectastudio.pl/kopia-wn%C4%99trza?pgid=l1c4su41-5b0b6b9e-013e-46b7-903f-da1a1741c3e9",
     src: "https://static.wixstatic.com/media/d67420_e55f128bf01f4380982f9840580a9b3d~mv2.png/v1/fit/w_1100,h_294,q_90/d67420_e55f128bf01f4380982f9840580a9b3d~mv2.png",
-  },
-  {
-    url: "https://www.gornikarch.pl/projects/penthouse-wwa",
-    src: "https://www.gornikarch.pl/images/zdjecia-projektow/Penthouse-konesera-Wwa/LOFT2.jpg",
   },
   {
     url: "https://www.gornikarch.pl/projects/penthouse-wwa",
