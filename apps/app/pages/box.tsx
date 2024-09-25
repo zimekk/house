@@ -1,4 +1,4 @@
-import App from "@dev/floors";
+import App from "@dev/web";
 import { Layout } from ".";
 
 export default Object.assign(

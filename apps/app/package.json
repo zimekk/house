@@ -18,6 +18,7 @@
     "@dev/budget": "workspace:*",
     "@dev/design": "workspace:*",
     "@dev/ext": "workspace:*",
+    "@dev/floors": "workspace:*",
     "@dev/inspirations": "workspace:*",
     "@dev/map": "workspace:*",
     "@dev/rooms": "workspace:*",

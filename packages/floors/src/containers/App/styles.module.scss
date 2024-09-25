@@ -1,0 +1,15 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+}
+.Map {
+  height: 500px;
+}
+.RotateNorth {
+  top: 65px;
+  left: 0.5em;
+  :global(.ol-touch) & {
+    top: 80px;
+  }
+}

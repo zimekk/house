@@ -1,10 +1,18 @@
 import type { ReactNode } from "react";
 import { Button, Link } from "@vercel/examples-ui";
 // import Vercel from "@vercel/examples-ui/icons/vercel";
-import App from "@dev/web";
+// import App from "@dev/web";
 
 const REPO_URL = "https://github.com/vercel/examples/tree/main";
 const VERCEL_CLONE = "https://vercel.com/new/clone";
+
+function App() {
+  return (
+    <div>
+      <h1>house</h1>
+    </div>
+  );
+}
 
 export interface DeployButtonProps {
   repositoryUrl: string;
