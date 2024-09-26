@@ -156,7 +156,7 @@ importers:
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.3)
       ol:
         specifier: ^10.0.0
-        version: 10.2.0
+        version: 10.2.1
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -197,7 +197,7 @@ importers:
     devDependencies:
       '@crxjs/vite-plugin':
         specifier: ^1.0.14
-        version: 1.0.14(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0))
+        version: 1.0.14(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0))
       '@types/chrome':
         specifier: ^0.0.272
         version: 0.0.272
@@ -209,10 +209,10 @@ importers:
         version: 18.3.0
       '@vitejs/plugin-react':
         specifier: ^4.2.0
-        version: 4.3.1(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0))
+        version: 4.3.1(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0))
       vite:
         specifier: ~5.4.0
-        version: 5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0)
+        version: 5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0)
 
   packages/floors:
     dependencies:
@@ -221,7 +221,7 @@ importers:
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.3)
       ol:
         specifier: ^10.0.0
-        version: 10.2.0
+        version: 10.2.1
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -289,7 +289,7 @@ importers:
         version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.3)
       ol:
         specifier: ^10.0.0
-        version: 10.2.0
+        version: 10.2.1
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -1564,8 +1564,8 @@ packages:
   caniuse-lite@1.0.30001646:
     resolution: {integrity: sha512-dRg00gudiBDDTmUhClSdv3hqRfpbOnU28IpI1T6PBTLWa+kOj0681C8uML3PifYfREuBrVjDGhL3adYpBT6spw==}
 
-  caniuse-lite@1.0.30001663:
-    resolution: {integrity: sha512-o9C3X27GLKbLeTYZ6HBOLU1tsAcBZsLis28wrVzddShCS16RujjHp9GDHKZqrB3meE0YjhawvMFsGb/igqiPzA==}
+  caniuse-lite@1.0.30001664:
+    resolution: {integrity: sha512-AmE7k4dXiNKQipgn7a2xg558IRqPN3jMQY/rOsbxDhrd0tyChwbITBfiwtnqz8bi2M5mIWbxAYBvk7W7QBUS2g==}
 
   chalk@2.4.2:
     resolution: {integrity: sha512-Mti+f9lpJNcwF4tWV8/OrTTtF1gZi+f8FqlyAdouralcFWFQWF2+NgCHShjkCb+IFBLq9buZwE1xckQU4peSuQ==}
@@ -1846,8 +1846,8 @@ packages:
   eastasianwidth@0.2.0:
     resolution: {integrity: sha512-I88TYZWc9XiYHRQ4/3c5rjjfgkjhLyW2luGIheGERbNQ6OY7yTybanSpDXZa8y7VUP9YmDcYa+eyq4ca7iLqWA==}
 
-  electron-to-chromium@1.5.28:
-    resolution: {integrity: sha512-VufdJl+rzaKZoYVUijN13QcXVF5dWPZANeFTLNy+OSpHdDL5ynXTF35+60RSBbaQYB1ae723lQXHCrf4pyLsMw==}
+  electron-to-chromium@1.5.29:
+    resolution: {integrity: sha512-PF8n2AlIhCKXQ+gTpiJi0VhcHDb69kYX4MtCiivctc2QD3XuNZ/XIOlbGzt7WAjjEev0TtaH6Cu3arZExm5DOw==}
 
   electron-to-chromium@1.5.4:
     resolution: {integrity: sha512-orzA81VqLyIGUEA77YkVA1D+N+nNfl2isJVjjmOyrlxuooZ19ynb+dOlaDTqd/idKRS9lDCSBmtzM+kyCsMnkA==}
@@ -2793,8 +2793,8 @@ packages:
     resolution: {integrity: sha512-yBYjY9QX2hnRmZHAjG/f13MzmBzxzYgQhFrke06TTyKY5zSTEqkOeukBzIdVA3j3ulu8Qa3MbVFShV7T2RmGtQ==}
     engines: {node: '>= 0.4'}
 
-  ol@10.2.0:
-    resolution: {integrity: sha512-yYFNV8LzN3uOP9qDecMdq07IKlD5P3KfbT+pfOje/XlsnMNLXOb3ZjCZN86wtbew8aq+RfdJ+XylVI8MZsp4Vw==}
+  ol@10.2.1:
+    resolution: {integrity: sha512-2bB/y2vEnmzjqynP0NA7Cp8k86No3Psn63Dueicep3E3i09axWRVIG5IS/bylEAGfWQx0QXD/uljkyFoY60Wig==}
 
   onetime@6.0.0:
     resolution: {integrity: sha512-1FlR+gjXK7X+AsAHso35MnyN5KqGwJRi/31ft6x0M194ht7S+rWAvd7PHss9xSKMzE0asv1pyIHaJYq+BbacAQ==}
@@ -3370,8 +3370,8 @@ packages:
       uglify-js:
         optional: true
 
-  terser@5.33.0:
-    resolution: {integrity: sha512-JuPVaB7s1gdFKPKTelwUyRq5Sid2A3Gko2S0PncwdBq7kN9Ti9HPWDQ06MPsEDGsZeVESjKEnyGy68quBk1w6g==}
+  terser@5.34.0:
+    resolution: {integrity: sha512-y5NUX+U9HhVsK/zihZwoq4r9dICLyV2jXGOriDAVOeKhq3LKVjgJbGO90FisozXLlJfvjHqgckGmJFBb9KYoWQ==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -3971,7 +3971,7 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.0
       chalk: 5.3.0
 
-  '@crxjs/vite-plugin@1.0.14(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0))':
+  '@crxjs/vite-plugin@1.0.14(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0))':
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
@@ -3987,9 +3987,9 @@ snapshots:
       picocolors: 1.1.0
       react-refresh: 0.13.0
       rollup: 2.79.1
-      vite: 5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0)
     optionalDependencies:
-      '@vitejs/plugin-react': 4.3.1(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0))
+      '@vitejs/plugin-react': 4.3.1(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0))
     transitivePeerDependencies:
       - supports-color
 
@@ -4607,14 +4607,14 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       sugar-high: 0.4.7
 
-  '@vitejs/plugin-react@4.3.1(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0))':
+  '@vitejs/plugin-react@4.3.1(vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0))':
     dependencies:
       '@babel/core': 7.25.2
       '@babel/plugin-transform-react-jsx-self': 7.24.7(@babel/core@7.25.2)
       '@babel/plugin-transform-react-jsx-source': 7.24.7(@babel/core@7.25.2)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0)
+      vite: 5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -4913,8 +4913,8 @@ snapshots:
 
   browserslist@4.24.0:
     dependencies:
-      caniuse-lite: 1.0.30001663
-      electron-to-chromium: 1.5.28
+      caniuse-lite: 1.0.30001664
+      electron-to-chromium: 1.5.29
       node-releases: 2.0.18
       update-browserslist-db: 1.1.0(browserslist@4.24.0)
 
@@ -4949,7 +4949,7 @@ snapshots:
 
   caniuse-lite@1.0.30001646: {}
 
-  caniuse-lite@1.0.30001663: {}
+  caniuse-lite@1.0.30001664: {}
 
   chalk@2.4.2:
     dependencies:
@@ -5246,7 +5246,7 @@ snapshots:
 
   eastasianwidth@0.2.0: {}
 
-  electron-to-chromium@1.5.28: {}
+  electron-to-chromium@1.5.29: {}
 
   electron-to-chromium@1.5.4: {}
 
@@ -6328,7 +6328,7 @@ snapshots:
       define-properties: 1.2.1
       es-object-atoms: 1.0.0
 
-  ol@10.2.0:
+  ol@10.2.1:
     dependencies:
       '@types/rbush': 3.0.3
       color-rgba: 3.0.0
@@ -6929,10 +6929,10 @@ snapshots:
       jest-worker: 27.5.1
       schema-utils: 3.3.0
       serialize-javascript: 6.0.2
-      terser: 5.33.0
+      terser: 5.34.0
       webpack: 5.94.0
 
-  terser@5.33.0:
+  terser@5.34.0:
     dependencies:
       '@jridgewell/source-map': 0.3.6
       acorn: 8.12.1
@@ -7131,7 +7131,7 @@ snapshots:
 
   uuid@9.0.1: {}
 
-  vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.33.0):
+  vite@5.4.8(@types/node@22.7.2)(sass@1.79.3)(terser@5.34.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.47
@@ -7140,7 +7140,7 @@ snapshots:
       '@types/node': 22.7.2
       fsevents: 2.3.3
       sass: 1.79.3
-      terser: 5.33.0
+      terser: 5.34.0
 
   watchpack@2.4.2:
     dependencies:
