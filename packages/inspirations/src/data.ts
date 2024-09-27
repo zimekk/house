@@ -1,14 +1,2320 @@
 // copy({ url: document.location.href, src:$0.src })
-
-// const temp = [{ src: "", url: "" }];
 // copy(Object.entries(
-//   temp.reduce(
+//   inspirations.reduce(
 //     (list, { src, url }) => Object.assign(list, { [src]: url }),
 //     {},
 //   ),
 // ).map(([src, url]) => ({ url, src })));
 
 export const inspirations = [
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(1).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(2).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(3).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(4).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(5).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(6).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(9).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(10).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(11).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(12).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(14).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(16).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(18).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(19).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/diw2012/slideshow/dom%20i%20wnetrze%202012%20-%20xystudio%20(7).jpg",
+  },
+  {
+    url: "https://www.xystudio.pl/domyjednorodzinne.htm",
+    src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/diw2012/slideshow/dom%20i%20wnetrze%202012%20-%20xystudio%20(8).jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-4-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-3-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-2-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-1-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-5-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-parter-1-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-parter-2-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-parter-3-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-parter-5-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-pietro-2-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-pietro-10-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Salon-17-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Salon-2-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/WC-parter-3-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Sypialnia-1-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Lazienka-2-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Lazienka-1-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Garderoba-3-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Garderoba-5-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/park-hill-mokotow/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/10/11-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/park-hill-mokotow/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/14.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/park-hill-mokotow/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/2.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/park-hill-mokotow/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/park-hill-mokotow/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/6.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/park-hill-mokotow/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/19.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/10.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/5.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/3j-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/4j-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/2j-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/5j-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/2023_06_01_KONSTANCIN-GRANICZNA-WARIANT-1_2.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/6j-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/2023_06_01_KONSTANCIN-GRANICZNA-WARIANT-1_1b.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/2_logo.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/3_logo.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/1_logo.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/Schemat-2-Dom-z-Obroconym-Sercem-Z3Z-ARCHITEKCI.jpg.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/Schemat-4-Dom-z-Obroconym-Sercem-Z3Z-ARCHITEKCI.jpg.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/5_logo.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/Dom-z-Obroconym-Sercem-Z3Z-ARCHITEKCI_PZT-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/Dom-z-Obroconym-Sercem-Z3Z-ARCHITEKCI_Rzut-Parteru-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/Dom-z-Obroconym-Sercem-Z3Z-ARCHITEKCI_Rzut-Pietra-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/Dom-z-Obroconym-Sercem-Z3Z-ARCHITEKCI-10.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/Dom-z-Obroconym-Sercem-Z3Z-ARCHITEKCI-11.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-obroconym-sercem/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/01/6_logo.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-27-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-5a-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-29-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-20-pion-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-15-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-13-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-28-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-30-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-40-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-z-dwiema-kalenicami/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-32-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/2.1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/2-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/3-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/4-1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/5.1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/5.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/8-1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/9-1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/Schemat_2.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-podkowie-lesnej/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2022/11/7-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/1-1.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/6-1.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/9.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/10.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/11.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/12.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/13.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/14.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/16.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/17.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/18.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/19.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/20.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/21.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/23.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/24.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-milanowku-2/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/25.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/domki-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/Z3Z-ARCHITEKCI-Beskid-Makowski-1.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/domki-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/Z3Z-ARCHITEKCI-Beskid-Makowski-2.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/domki-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/Z3Z-ARCHITEKCI-Beskid-Makowski-3.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/domki-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/Z3Z-ARCHITEKCI-Beskid-Makowski-4.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/domki-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2023/03/Z3Z-ARCHITEKCI-Beskid-Makowski-6.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Jastkowie-1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Jastkowie-2-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Jastkowie-3-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Jastkow-schemat-0.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Jastkowie-4-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Jastkow-schemat.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Jastkowie-5-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-jastkowie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Jastkow-schemat-1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/0_lekawica_1.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/lekawica.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/W2_1A.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/W2_1B.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/W2_2A-copy.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-w-beskidzie-makowskim/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/W2_2B-copy.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Magdalence.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Magdalence-2.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Magdalence-3.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Magdalence-4.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Magdalence-5.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Magdalence-7.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_1.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_2.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_3.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_4.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_5.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_6.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_7.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_8.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_9.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_11.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_12.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_13.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_17.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom_Bialy_19.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-bialy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/schemat-2.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom-U-kierunkowany-2j.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-4.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-5.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-7.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Dom-U-kierunkowany-10nm.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/1.IZABELIN_SITE-PLAN-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/U-DIRECTED-HOUSE-SCHEME-1-scaled.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-12.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-41.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-43.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-44.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-u-kierunkowany/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/jpeg-optimizer-Dom-U-kierunkowany-45.webp",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-6.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-17.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-9.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-18.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-8.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-15.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-2.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-13.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-7.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-pol-parterowy/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/polparterowy_dom-10.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom_podmiejski/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Podmiejski-7.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom_podmiejski/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Podmiejski-6.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom_podmiejski/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Podmiejski-18.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom_podmiejski/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Podmiejski-10.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom_podmiejski/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Podmiejski-13.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom_podmiejski/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2020/10/Podmiejski-9.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-prosto-katny/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-Prostokatny1b.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-prosto-katny/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-Prostokatny2b.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-prosto-katny/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-Prostokatny3b.jpg",
+  },
+  {
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-prosto-katny/",
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-Prostokatny4b.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_7d4c5efa727646bdbc0cb8d41305d1d3~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_7d4c5efa727646bdbc0cb8d41305d1d3~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_4822983745b64fe3a280caff32b5facf~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_4822983745b64fe3a280caff32b5facf~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_76594dbc88fb40ef947872238d0e5df6~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_76594dbc88fb40ef947872238d0e5df6~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_47797217e33c436eab2da61e74ffab65~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_47797217e33c436eab2da61e74ffab65~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_6ab38f7195454149a89202f5dfb257d0~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_6ab38f7195454149a89202f5dfb257d0~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_e8b7e5a6aeba4d6785b528653b9019f1~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_e8b7e5a6aeba4d6785b528653b9019f1~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_15f17901062b4444ae4f67d2ee4dff02~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_15f17901062b4444ae4f67d2ee4dff02~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_7e72846e263a46ce931f01f6461db91a~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_7e72846e263a46ce931f01f6461db91a~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-4",
+    src: "https://static.wixstatic.com/media/d1fd4b_fb825cdd89294699b324d3648cf31ba2~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_fb825cdd89294699b324d3648cf31ba2~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/e7fa30_5e4260d3ea184247bcd9393584b05e19~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_5e4260d3ea184247bcd9393584b05e19~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_ab6a83e89fb245d5b806485c2148adfc~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_ab6a83e89fb245d5b806485c2148adfc~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_9e3f7e4398634188b2df2133b6e5ba14~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_9e3f7e4398634188b2df2133b6e5ba14~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_d4134e54f821460d9a02e740605ab5c1~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_d4134e54f821460d9a02e740605ab5c1~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_a25cce139b224a2c983a1e64192dbb9e~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_a25cce139b224a2c983a1e64192dbb9e~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_3ea2102ab45f4914b1e237d3f9bbb49c~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_3ea2102ab45f4914b1e237d3f9bbb49c~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_227a515525d74d359581aa61d1ffcb76~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_227a515525d74d359581aa61d1ffcb76~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_f976fd95626447fa83bc5fdc7bd1b0b6~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_f976fd95626447fa83bc5fdc7bd1b0b6~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/fil-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_823e188aff8a48dda067d774cbeb0cd6~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_823e188aff8a48dda067d774cbeb0cd6~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-6",
+    src: "https://static.wixstatic.com/media/d1fd4b_f73d4a91cca244879cf0648d913cf3e5~mv2.jpg/v1/fit/w_335,h_540,q_90/d1fd4b_f73d4a91cca244879cf0648d913cf3e5~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-6",
+    src: "https://static.wixstatic.com/media/d1fd4b_ea71c37377a44b8491d2da25912c5bdb~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_ea71c37377a44b8491d2da25912c5bdb~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-6",
+    src: "https://static.wixstatic.com/media/d1fd4b_145c8104bb834d0cb9cfd2ea0c8cac79~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_145c8104bb834d0cb9cfd2ea0c8cac79~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-6",
+    src: "https://static.wixstatic.com/media/d1fd4b_17c8188b7bad4c32bd85d68e9121cea1~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_17c8188b7bad4c32bd85d68e9121cea1~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-6",
+    src: "https://static.wixstatic.com/media/d1fd4b_42c04b8d98cc4b8f935d45dc92fb3ddf~mv2.jpg/v1/fit/w_335,h_540,q_90/d1fd4b_42c04b8d98cc4b8f935d45dc92fb3ddf~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/project-title-6",
+    src: "https://static.wixstatic.com/media/d1fd4b_ad646dcd52f1434a9a74e0fe5ab1dcda~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_ad646dcd52f1434a9a74e0fe5ab1dcda~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/e7fa30_b447ec7b18824eb5a728073eea0c2667~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_b447ec7b18824eb5a728073eea0c2667~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/e7fa30_0a6ec8d86b394c88b179d06e5108b801~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_0a6ec8d86b394c88b179d06e5108b801~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/e7fa30_3d89d2ccdb984128aaf6346811b30aa0~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_3d89d2ccdb984128aaf6346811b30aa0~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/e7fa30_615766fdc0a44818978dd8a30fa71b58~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_615766fdc0a44818978dd8a30fa71b58~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/e7fa30_279e53d4cdd942b1b3b8f1b53eb43f76~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_279e53d4cdd942b1b3b8f1b53eb43f76~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/e7fa30_ab1929b3b4694a26b758aa6e6d66df20~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_ab1929b3b4694a26b758aa6e6d66df20~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/d1fd4b_9bbb57354ff14f6fa4e9473af2af3d0c~mv2.png/v1/fit/w_335,h_540,q_90/d1fd4b_9bbb57354ff14f6fa4e9473af2af3d0c~mv2.png",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/d1fd4b_8f7706ccf90d461a876fb613a2fe50f9~mv2.png/v1/fit/w_335,h_540,q_90/d1fd4b_8f7706ccf90d461a876fb613a2fe50f9~mv2.png",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/d1fd4b_0f97e77462fe437b8e80ac3cd4894c39~mv2.png/v1/fit/w_335,h_540,q_90/d1fd4b_0f97e77462fe437b8e80ac3cd4894c39~mv2.png",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/star",
+    src: "https://static.wixstatic.com/media/d1fd4b_81892f3243d648419bbb3617205b76b5~mv2.png/v1/fit/w_335,h_540,q_90/d1fd4b_81892f3243d648419bbb3617205b76b5~mv2.png",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bin-house",
+    src: "https://static.wixstatic.com/media/e7fa30_63232ad83e404884993c32849c59cd79~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_63232ad83e404884993c32849c59cd79~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bin-house",
+    src: "https://static.wixstatic.com/media/e7fa30_e279a3d186c145178f29040d1619178a~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_e279a3d186c145178f29040d1619178a~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bin-house",
+    src: "https://static.wixstatic.com/media/e7fa30_c563103f38874ba99680bca5845dd4d3~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_c563103f38874ba99680bca5845dd4d3~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bin-house",
+    src: "https://static.wixstatic.com/media/e7fa30_81e5d44c9873412ea85a03b4b1748080~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_81e5d44c9873412ea85a03b4b1748080~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/sal-house-d53cf2",
+    src: "https://static.wixstatic.com/media/d1fd4b_4c9c4950ec9e48fdb6f79b384b395e32~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_4c9c4950ec9e48fdb6f79b384b395e32~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/sal-house-d53cf2",
+    src: "https://static.wixstatic.com/media/e7fa30_60d1d71b6f3949bb8d2099d57fac9343~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_60d1d71b6f3949bb8d2099d57fac9343~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bba-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_a27d89cf260942dc995f19d68ef37318~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_a27d89cf260942dc995f19d68ef37318~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bba-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_2b2679fb14c4477892aa917aaee67d81~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_2b2679fb14c4477892aa917aaee67d81~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bba-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_0b73af92be9947bfa2c1858cba1a0289~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_0b73af92be9947bfa2c1858cba1a0289~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/bba-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_2f8dbfa38c9449d98985cd9dd276e55a~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_2f8dbfa38c9449d98985cd9dd276e55a~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/grz-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_879b85650650433699fe11c00e03fd83~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_879b85650650433699fe11c00e03fd83~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/grz-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_b82a378954904a23bfb4efbd49fa10b0~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_b82a378954904a23bfb4efbd49fa10b0~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/grz-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_48bbcf694fc341dd9c7b36da0cab7751~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_48bbcf694fc341dd9c7b36da0cab7751~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/grz-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_b16c04f9e27345f88b5023f2aa02ee3a~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_b16c04f9e27345f88b5023f2aa02ee3a~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/grz-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_b6a12680f55a4d7a991d1fd65beb5945~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_b6a12680f55a4d7a991d1fd65beb5945~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/grz-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_19b2e7f9326c4f7790a4e315043534eb~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_19b2e7f9326c4f7790a4e315043534eb~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/str2-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_36e3cdb6959c476d8a7b935270a89864~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_36e3cdb6959c476d8a7b935270a89864~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/str2-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_b296658fcafc407e9c3f31e22cfbd997~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_b296658fcafc407e9c3f31e22cfbd997~mv2.jpg",
+  },
+  {
+    url: "https://www.beczak.pl/portfolio-collections/my-portfolio/str2-house",
+    src: "https://static.wixstatic.com/media/d1fd4b_6c92916111e4420e8c068253b78312ce~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_6c92916111e4420e8c068253b78312ce~mv2.jpg",
+  },
+  {
+    url: "https://081.com.pl/rop_22/",
+    src: "https://081.com.pl/wp-content/uploads/2023/04/081-architekci-realizacja-wnetrze-rop-lublin-14.jpg",
+  },
+  {
+    url: "https://081.com.pl/rop_22/",
+    src: "https://081.com.pl/wp-content/uploads/2023/04/081-architekci-realizacja-wnetrze-rop-lublin-15.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-pasek.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-dron-1620x1080.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-10.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-09.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-08.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-07.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-02.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho/",
+    src: "https://081.com.pl/wp-content/uploads/2014/02/pulawy-rzut-00.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-01.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-02.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-03.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-05.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-06.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-07.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-09.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-12.jpg",
+  },
+  {
+    url: "https://081.com.pl/cho_20/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-16.jpg",
+  },
+  {
+    url: "https://081.com.pl/ogo_24/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-07.jpg",
+  },
+  {
+    url: "https://081.com.pl/ogo_24/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-08.jpg",
+  },
+  {
+    url: "https://081.com.pl/ogo_24/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-09.jpg",
+  },
+  {
+    url: "https://081.com.pl/ogo_24/",
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-11.jpg",
+  },
+  {
+    url: "https://wadolowski.eu/37kowalski.html",
+    src: "https://wadolowski.eu/img/portfolio/37kowalski/d1.jpg",
+  },
+  {
+    url: "https://wadolowski.eu/37kowalski.html",
+    src: "https://wadolowski.eu/img/portfolio/37kowalski/d2.jpg",
+  },
+  {
+    url: "https://wadolowski.eu/37kowalski.html",
+    src: "https://wadolowski.eu/img/portfolio/37kowalski/d3.jpg",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/01_Projekt_domu_w_stylu_stodola_do_125_m2_z_garazem_na_dwa_auta_Modern_House_NewHouse_755_G2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/02_Projekt_domu_w_stylu_nowoczesnej_stodoly_z_garazem_dwustanowiskowym_Modern_House_NewHouse_755_G2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/03_Modern_House_NewHouse_755_G2_projekt_domu_z_poddaszem_o_3_sypialnie_gabinet_na_parterze_Modern_House_NewHouse_755_G2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/04_Projekt_domu_z_3_sypialniami_i_gabinetem_na_parterze_125_m2_Modern_House_New_house_755_g2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/05_Projekt_domu_do_120_m2_zadaszony_taras_4_pokoje_Modern_House_NewHouse_755_G2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/06_Gotowy_projekt_domu_z_dachem_dwuspadowym_garazem_na_dwa_auta_4_pokojami_Modern_House_NewHouse_755_G2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/07_Nowoczesny_projekt_domu_z_poddaszem_zadaszonym_tarasem_garazem_dwustanowiskowym_Modern_House_NewHouse_755_G2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/08_Projekt_domu_z_garazem_dwustanowiskowym_powierzchnia_do_120_m2_Modern_House_NewHouse_755_G2-1920x960.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/MH-NH-755_G2-KONCEPCJA-PARTER-min-scaled.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/MH-NH-755_G2-KONCEPCJA-PODDASZE-min-scaled.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/MH-NH-755_G2-KONCEPCJA-PRZEKROJ-min-scaled.webp",
+  },
+  {
+    url: "https://modernhouse-projekty.pl/projekt/newhouse-755-g2/",
+    src: "https://modernhouse-projekty.pl/wp-content/uploads/2024/07/ZT_podstawa_NH_755_G2-scaled.webp",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-1-widok-na-front.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-2-widok-na-garaz.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-3-widok-na-wjazd.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-5-widok-na-ogrod.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-7-widok-na-taras.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-9-widok-na-bryle.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-11-widok-na-elewacje-boczna.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/projection/hk-117-g2-koncepcja-parter.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/projection/hk-117-g2-koncepcja-przekroj.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/visual/projekt-domu-z-garazem-homekoncept-117-g2-elewacja-frontowa0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/visual/projekt-domu-z-garazem-homekoncept-117-g2-elewacja-boczna-i0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/visual/projekt-domu-z-garazem-homekoncept-117-g2-elewacja-ogrodowa0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/visual/projekt-domu-z-garazem-homekoncept-117-g2-elewacja-boczna-ii0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-117-g2/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61203/projection-main/projekt-domu-z-garazem-homekoncept-117-g2-zt.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-8.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-9.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-10.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-11.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-12.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-1.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-2.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-3.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-4.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-5.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-6.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-7.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-1.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-2.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-3.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-40.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-6.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-7.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-8.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-9.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-10.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-11.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-12.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-13.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/projection/hk-119-g2-l-koncepcja-parter0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/projection/hk-119-g2-l-koncepcja-poddasze0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/projection/hk-119-g2-l-koncepcja-przekroj0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/visual/nowoczesna-stodola-homekoncept-119-g2-lustro-elewacja-front.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/visual/nowoczesna-stodola-homekoncept-119-g2-lustro-elewacja-boczna-i.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/visual/nowoczesna-stodola-homekoncept-119-g2-lustro-elewacja-ogrod.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/visual/nowoczesna-stodola-homekoncept-119-g2-lustro-elewacja-boczna-ii.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-119-g2/?mirror=true&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61229/projection-main/nowoczesna-stodola-homekoncept-119-g2-lustro-zt.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-2.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-3.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-4.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-5.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-6.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-7.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-8.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-9.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-10.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-11.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-12.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-13.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-14.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-15.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-16.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-17.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-18.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-19.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-20.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-21.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-22.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-23.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-110.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-211.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-31.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-40.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-50.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-60.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-70.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-80.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-90.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-100.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-111.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-120.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-130.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-140.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-150.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-160.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-170.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-180.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-190.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-200.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-210.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-220.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-230.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-240.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-250.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-260.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-270.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-280.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-290.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-wnetrza-homekoncept-112-g2-w-02-wnetrze-300.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/projection/hk-112-g2-w2-koncepcja-parter0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/projection/hk-112-g2-w2-koncepcja-poddasze0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/projection/hk-112-g2-w2-koncepcja-przekroj.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/visual/projekt-willi-homekoncept-112-g2-w-02-elewacja-front0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/visual/projekt-willi-homekoncept-112-g2-w-02-elewacja-boczna-i0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/visual/projekt-willi-homekoncept-112-g2-w-02-elewacja-ogrod0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/visual/projekt-willi-homekoncept-112-g2-w-02-elewacja-boczna-ii0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-112-g2-wariant-02/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61225/projection-main/projekt-willi-homekoncept-112-g2-w-02-zt.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-1.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-6.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-2.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-4.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-3.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-5.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/15.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/20.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/30.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/40.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/50.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/60.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/70.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/80.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/90.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/100.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/110.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/120.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/130.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty%3Fmirror%3Dtrue&galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/estimate/140.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/projection/hk-103-koncepcja-parter.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/projection/hk-103-koncepcja-poddasze.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/projection/hk-103-koncepcja-przekroj.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/visual/homekoncept-103-elewacja-front0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/visual/homekoncept-103-elewacja-boczna-i0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/visual/homekoncept-103-elewacja-ogrod0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/visual/homekoncept-103-elewacja-boczna-ii0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-103/?content=rzuty&galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61190/projection-main/homekoncept-103-zt.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-2.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-3.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-4.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-5.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-6.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-7.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-8.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-9.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-10.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-11.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-12.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-13.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-domu-z-poddaszem-homekoncept-109-zdjecie-14.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-1.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-2.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-3.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-4.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-5.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-6.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-7.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-8.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-9.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-10.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-11.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-12.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-13.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-14.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-15.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/estimate/projekt-wnetrza-homekoncept-109-wnetrze-16.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/projection/hk-109-koncepcja-parter.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/projection/hk-109-koncepcja-poddasze.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/projection/hk-109-koncepcja-przekroj.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/visual/projekt-domu-z-poddaszem-homekoncept-109-elewacja-frontowa0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/visual/projekt-domu-z-poddaszem-homekoncept-109-elewacja-boczna-i0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/visual/projekt-domu-z-poddaszem-homekoncept-109-elewacja-ogrodowa0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61208/visual/projekt-domu-z-poddaszem-homekoncept-109-elewacja-boczna-ii0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-109/",
+    src: "https://homekoncept.com.pl/api/file/design/61208/projection-main/projekt-domu-z-poddaszem-homekoncept-109-zt.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-1.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-2.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-5.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-6.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-9.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-7.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-8.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-3.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-4.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-110.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-20.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-30.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-40.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-50.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-60.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-70.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=inside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-wnetrze-80.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/projection/hk-99-koncepcja-parter0.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/projection/hk-99-koncepcja-poddasze.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/projection/hk-99-koncepcja-przekroj.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/visual/homekoncept-99-elewacja-front.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/visual/homekoncept-99-elewacja-boczna-i.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/visual/homekoncept-99-elewacja-ogrod.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/visual/homekoncept-99-elewacja-boczna-ii.jpg",
+  },
+  {
+    url: "https://www.homekoncept.com.pl/produkt/projekt-domu-homekoncept-99/?galleryView=outside",
+    src: "https://homekoncept.com.pl/api/file/design/61186/projection-main/homekoncept-99-zt.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/1_Easy-Resize.com_-3.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/4_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/5_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/2_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/7_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2018/10/8a_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/9_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/10_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/11_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/12_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-otwartego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/07/13_Easy-Resize.com_-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-z-jednosladem/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2019/07/8_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-jednorodzinnego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/1-3.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-jednorodzinnego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/4.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-jednorodzinnego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/15a.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-jednorodzinnego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/2-4.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-jednorodzinnego/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/11.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2434-2-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/4-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/5-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2580-2-2-e1727036346908.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/8-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2612-2-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/2-5.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/3-5.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2657-2-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-otwarty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/1-3.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-otwarty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/bb-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-otwarty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/06/DSF5140.png",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-otwarty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/hhhh.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-otwarty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/rzuty-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-otwarty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/333.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-otwarty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/06/DSF5133.png",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/zolty-dom/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2022/08/MG_3002_kor.png",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/zolty-dom/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/MG_1002.png",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/zolty-dom/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/%C5%82aczka38_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/zolty-dom/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/MG_3143.png",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/zolty-dom/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/%C5%82aczka49_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/zolty-dom/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/MG_1001-1.png",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-kostka/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/1-5.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-kostka/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/7-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-kostka/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/5-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2511-Edit-2-2-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-wnetrze/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/1-7.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-prostego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/1-2_Easy-Resize.com_-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-prostego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/1-5_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-prostego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/1-1_Easy-Resize.com_-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-prostego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/1-4_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-prostego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/1-3_Easy-Resize.com_-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/2_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/finito-z-kreska_2_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/3_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/4_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/rzuty-Strzeszyn_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/5_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/6_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/10/Webp.net-gifmaker-1.gif",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/01/1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/01/2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/01/3.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/01/4.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/02/a.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/02/b.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/02/c.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/02/5.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/02/d.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-2-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/d2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2991-Edit-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2797-Edit-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/3-3.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2775-Edit-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/rzuty-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_3162-Edit-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/11-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_3013-Edit-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2956-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2985-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2971-Edit-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-prosty-3/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2850-Edit-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-parterowego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-parterowego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/hhh.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-parterowego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/14.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/wnetrze-domu-parterowego-2/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/17.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6872-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6573-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6485-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6704-2-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6534-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6595-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6562-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6689-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6509-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6665-HDR-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6587-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6820-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/RZUTY.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6515-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6707-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6675-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6521-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6682-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6692-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6807-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6697-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6749-2-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6715-z-lasem-2.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6780-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie-realizacja/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6770-2-1.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/MG_5088_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/MG_5065_cor_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/01/1_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/01/2_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/2020/01/5_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/MG_5085_Easy-Resize.com_.jpg",
+  },
+  {
+    url: "https://kturaarchitekci.pl/projekty/dom-w-lesie/",
+    src: "https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/MG_5096_Easy-Resize.com_.jpg",
+  },
   {
     url: "https://www.duravit.com/",
     src: "https://wgassets.duravit.com/photomanager-duravit/file/8a8a818d8e5d8680018ecbfb0c0a3bc4/aurena_stage_1920x1080.jpg?derivate=width~1440",
