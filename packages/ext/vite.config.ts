@@ -20,7 +20,7 @@ const manifest = defineManifest({
   },
   options_page: "options.html",
   permissions: [
-    // "activeTab",
+    "activeTab",
     "background",
     // "bookmarks",
     "contextMenus",
