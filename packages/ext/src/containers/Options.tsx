@@ -29,7 +29,9 @@ export default function Options() {
           >
             copy
           </button>
-          <button onClick={() => set([])}>clear</button>
+          {data.length > 0 && (
+            <button onClick={() => set([])}>clear ({data.length})</button>
+          )}
           <pre>{JSON.stringify(data, null, 2)}</pre>
         </div>
       )}

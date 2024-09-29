@@ -3,7 +3,7 @@ const KEY = "data";
 export const get = () =>
   chrome.storage.local.get([KEY]).then((result) => {
     console.log(["result"], result);
-    return result.data;
+    return KEY in result ? result[KEY] : [];
   });
 
 export const set = (data: object) =>
