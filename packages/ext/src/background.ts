@@ -1,3 +1,5 @@
+import { append, get } from "./storage";
+
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   console.log(`Change URL: ${tab.url}`);
 });
@@ -12,8 +14,6 @@ chrome.runtime.onMessageExternal.addListener((message, sender) => {
   console.log(["onMessageExternal"], { message, sender });
 });
 
-const data = [];
-
 chrome.runtime.onInstalled.addListener((details) => {
   console.log(["onInstalled"], { details });
 
@@ -27,22 +27,23 @@ chrome.runtime.onInstalled.addListener((details) => {
 });
 
 chrome.action.onClicked.addListener((tab) => {
-  console.log(["onClicked"], { data });
-
-  chrome.scripting.executeScript({
-    target: { tabId: tab.id },
-    func: function (data) {
-      // window.postMessage({ type });
-      console.log(data);
-      // navigator.clipboard.writeText(JSON.stringify(data))
-    },
-    args: [data],
-  });
+  console.log(["onClicked"]);
+  get().then((data) =>
+    chrome.scripting.executeScript({
+      target: { tabId: tab.id },
+      func: function (data) {
+        // window.postMessage({ type });
+        console.log(data);
+        // navigator.clipboard.writeText(JSON.stringify(data))
+      },
+      args: [data],
+    }),
+  );
 });
 
 chrome.contextMenus.onClicked.addListener(async (info, tab) => {
   console.log({ info, tab });
-  data.push({ url: info.pageUrl, src: info.srcUrl });
+  append({ url: info.pageUrl, src: info.srcUrl });
 });
 
 export {};
