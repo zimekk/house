@@ -8,6 +8,970 @@
 
 export const inspirations = [
   {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/1-12-1612x1007.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/2-7-1612x1103.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/3-10-1612x1208.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/7-1612x1075.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/6-3-1612x1076.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/4-9-1612x1074.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/5-6-1612x1075.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/9-1-1612x882.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/10-1-1612x1118.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/11-2-1612x928.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/11_1-1612x2418.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/12-1116x1674.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/13_1-1116x1674.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/13-1612x1075.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/14-1612x1075.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/15-1612x1064.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/15_1-1612x2418.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/WIZUALIZACJA-1-1612x1004.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://kropka-studio.pl/wp-content/uploads/2015/03/WIZUALIZACJA-2-1612x763.jpg",
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090552-17_ps.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090446-4.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090447-5_ps_jasniej.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090449-7_ps.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090598-25_ps.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090567-21_ps.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090710-36_ps.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090663-30_ps.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090477-12.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090439-2_ps.jpg",
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401632_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401632_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401617_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401617_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS406361_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS406361_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401661_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401661_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401688_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401688_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402884_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402884_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402890_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402890_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402876_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402876_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402789_321-min-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402789_321-min-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9491w-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9491w-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9469-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9469-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9141-2-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9141-2-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9249-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9249-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5603-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5603-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5664uciete-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5664uciete-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5562-Edit-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5562-Edit-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5606.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5606.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5645-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5645-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6949-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6949-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6952-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6952-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0638-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0638-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0593-W-2-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0593-W-2-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0669-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0669-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0731-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0731-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0848-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0848-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0766-W-%E2%80%94-kopia-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0766-W-%E2%80%94-kopia-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0873-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0873-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0865-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0865-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0886-W-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0886-W-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1026-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1026-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1036-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1036-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0988-W-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0988-W-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0941-W-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0941-W-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3920-3-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3920-3-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3892-2-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3892-2-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3947-Edit-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3947-Edit-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3885-2-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3885-2-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3837-3-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3837-3-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3871.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3871.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/09_Dom-w-polu.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/09_Dom-w-polu.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/08_Dom-w-polu.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/08_Dom-w-polu.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/2-1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/2-1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/4-1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/4-1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/5-1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/5-1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/6-1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/6-1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/7.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/7.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/8.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/8.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/10.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/10.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/9.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/9.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/lazienka-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/lazienka-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/TARAS-05.04.2023-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/TARAS-05.04.2023-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/2-1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/2-1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/3.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/3.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/4.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/4.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/1zniebem.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/1zniebem.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/sypialnia-glowna.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/sypialnia-glowna.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08458_241_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08458_241_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/11_Chyby_W.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/11_Chyby_W.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/13_Chyby_W.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/13_Chyby_W.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08330_241_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08330_241_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08540_241_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08540_241_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08272_241_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08272_241_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-4.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-4.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wiz1.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2021/08/wiz1.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/10/01.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/10/01.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/02.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/02.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/03.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/03.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/04.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2018/06/04.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia.png",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia.png",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/jadalnia.png",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/jadalnia.png",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia2.png",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia2.png",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon1.png",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/salon1.png",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon2.png",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/salon2.png",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon4.png",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/salon4.png",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9544-1-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9544-1-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9392-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9392-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/4_PRZ_9618-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/4_PRZ_9618-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/9_PRZ_9706-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/9_PRZ_9706-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9713-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9713-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/7_PRZ_9719-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/7_PRZ_9719-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/8_PRZ_9721-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/8_PRZ_9721-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9427-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9427-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/3_PRZ_9434-HDR-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/3_PRZ_9434-HDR-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9660-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9660-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/5_PRZ_9654-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/5_PRZ_9654-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/6_PRZ_9681-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2016/12/6_PRZ_9681-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1135w-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1135w-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1057w-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1057w-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0945w-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0945w-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1195-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1195-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0961w-scaled.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0961w-scaled.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/009____%C2%A9Tom-Kurek_TS402061_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/009____%C2%A9Tom-Kurek_TS402061_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/010____%C2%A9Tom-Kurek_TS402068_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/010____%C2%A9Tom-Kurek_TS402068_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/014____%C2%A9Tom-Kurek_TS402101_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/014____%C2%A9Tom-Kurek_TS402101_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/%C2%A9Tom-Kurek_TS408444_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/%C2%A9Tom-Kurek_TS408444_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/002____%C2%A9Tom-Kurek_TS402029_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/002____%C2%A9Tom-Kurek_TS402029_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/003____%C2%A9Tom-Kurek_TS402031_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/003____%C2%A9Tom-Kurek_TS402031_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/029____%C2%A9Tom-Kurek_TS305250_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/029____%C2%A9Tom-Kurek_TS305250_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/019____%C2%A9Tom-Kurek_TS402005_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/019____%C2%A9Tom-Kurek_TS402005_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/016____%C2%A9Tom-Kurek_TS401969_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/016____%C2%A9Tom-Kurek_TS401969_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/022____%C2%A9Tom-Kurek_TS402139_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/022____%C2%A9Tom-Kurek_TS402139_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/026____%C2%A9Tom-Kurek_TS402162_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/026____%C2%A9Tom-Kurek_TS402162_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/025____%C2%A9Tom-Kurek_TS402153_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/025____%C2%A9Tom-Kurek_TS402153_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/032____%C2%A9Tom-Kurek_TS402195_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/032____%C2%A9Tom-Kurek_TS402195_321_2048.jpg",
+  },
+  {
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/030____%C2%A9Tom-Kurek_TS402189_321_2048.jpg",
+    url: "https://ev-architects.pl/wp-content/uploads/2019/12/030____%C2%A9Tom-Kurek_TS402189_321_2048.jpg",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/01_John-Pawson_Giessen-House_High-Res-3.jpg",
+    url: "https://www.johnpawson.com/works/giessen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/02_John-Pawson_Giessen-House_High-Res-15.jpg",
+    url: "https://www.johnpawson.com/works/giessen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/03_John-Pawson_Giessen-House_High-Res-2.jpg",
+    url: "https://www.johnpawson.com/works/giessen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/06_John-Pawson_Giessen-House_High-Res-5.jpg",
+    url: "https://www.johnpawson.com/works/giessen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/07_John-Pawson_Giessen-House_High-Res-1.jpg",
+    url: "https://www.johnpawson.com/works/giessen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/09_John-Pawson_Giessen-House_High-Res-S2-38.jpg",
+    url: "https://www.johnpawson.com/works/giessen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/12_John-Pawson_Giessen-House_High-Res-13.jpg",
+    url: "https://www.johnpawson.com/works/giessen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/01-JP_Sta.Elena-High-Res-009.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/02-JP_Sta.Elena-High-Res-2-2.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/03-JP_Sta.Elena-High-Res-005.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/04-JP_Sta.Elena-High-Res-019.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/06-JP_Sta.Elena-High-Res-010.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/04B-JP_Sta.Elena-High-Res.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/05-JP_Sta.Elena-High-Res-2.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/06B-JP_Sta.Elena-High-Res.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/07-JP_Sta.Elena-High-Res-013.jpg",
+    url: "https://www.johnpawson.com/works/philippines-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_3.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_1.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_4.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_5.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_7.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_6.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_8.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_9.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_10.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_11.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_12.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/06-L1050483.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/01-L1050579.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/04-L1050529.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/02-L1050581.jpg",
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2023-The-Mass/01-003_2612.jpg",
+    url: "https://www.johnpawson.com/works/john-pawson-1",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2023-The-Mass/02-012_2800.jpg",
+    url: "https://www.johnpawson.com/works/john-pawson-1",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2023-The-Mass/08-049_2837.jpg",
+    url: "https://www.johnpawson.com/works/john-pawson-1",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/02-CPH-Apartment-03.jpg",
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/03-CPH-Apartment-05.jpg",
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/04-CPH-apartment-06.jpg",
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/06-CPH-Apartment-08.jpg",
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/07-CPH-Apartment-09.jpg",
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/08-CPH-Apartment-14.jpg",
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Tacta-Chair-Passoni/NEW/01-Passonidesign-Tacta-by-John-Pawson_16.jpg",
+    url: "https://www.johnpawson.com/works/tacta-chair",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Tacta-Chair-Passoni/NEW/02-Passonidesign-Tacta-by-John-Pawson_10.jpg",
+    url: "https://www.johnpawson.com/works/tacta-chair",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Tacta-Chair-Passoni/NEW/03-Passonidesign-Tacta-by-John-Pawson_06.jpg",
+    url: "https://www.johnpawson.com/works/tacta-chair",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2021-Obumex/01A_OBUMEX_SHOWROOM_019.jpg",
+    url: "https://www.johnpawson.com/works/obumex-ii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2021-Obumex/02C_OBUMEX_SHOWROOM_025.jpg",
+    url: "https://www.johnpawson.com/works/obumex-ii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2021-Obumex/03A_OBUMEX_SHOWROOM_023.jpg",
+    url: "https://www.johnpawson.com/works/obumex-ii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2021-Obumex/07_OBUMEX_SHOWROOM_038.jpg",
+    url: "https://www.johnpawson.com/works/obumex-ii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2021-Obumex/08A_OBUMEX_SHOWROOM_055.jpg",
+    url: "https://www.johnpawson.com/works/obumex-ii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Bastian-Gallery-Berlin/02_220325_MG_Bastian.jpg",
+    url: "https://www.johnpawson.com/works/bastian-gallery",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2022-Bastian-Gallery-Berlin/03_220325_MG_Bastian.jpg",
+    url: "https://www.johnpawson.com/works/bastian-gallery",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/02_102_MM_191008_3434_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/house-tyrol",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/03_102_MM_191008_3518_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/house-tyrol",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/04_102_MM_201127_5519_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/house-tyrol",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/06_102_MM_200218_3745_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/house-tyrol",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/07_102_MM_200218_3784_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/house-tyrol",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/08_102_MM_200601_4038_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/house-tyrol",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/09_102_MM_201028_5074_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/house-tyrol",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2020-GEO-Hardware/Lever-handle-straight-SSS-web.jpg",
+    url: "https://www.johnpawson.com/works/door-handle",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-Barbican-Apartment/190604_GMc_Barbican_05.jpg",
+    url: "https://www.johnpawson.com/works/barbican-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2019-Barbican-Apartment/190604_GMc_Barbican_06.jpg",
+    url: "https://www.johnpawson.com/works/barbican-apartment",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2018-Kitzb%C3%BChel-House/07-144_JP_170808_3550_JP_OJ.jpg",
+    url: "https://www.johnpawson.com/works/kitzbuhel-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2018-Kitzb%C3%BChel-House/09-235_HH_181008_1277_JP_Jaist.jpg",
+    url: "https://www.johnpawson.com/works/kitzbuhel-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Journal/2016/06.-June-2016/Tripiti-2/Final/Paros_House_3_3_Douglas_Tuck.jpg",
+    url: "https://www.johnpawson.com/works/paros-house-iii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Journal/2016/06.-June-2016/Tripiti-2/Final/Paros_House_3_1_Douglas_Tuck.jpg",
+    url: "https://www.johnpawson.com/works/paros-house-iii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Journal/2016/06.-June-2016/Tripiti-2/Final/Paros_House_3_5_John_Pawson.jpg",
+    url: "https://www.johnpawson.com/works/paros-house-iii",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6752_DxO.jpg",
+    url: "https://www.johnpawson.com/works/paros-house-i",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6736_DxO.jpg",
+    url: "https://www.johnpawson.com/works/paros-house-i",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6402.jpg",
+    url: "https://www.johnpawson.com/works/paros-house-i",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6804_DxO.jpg",
+    url: "https://www.johnpawson.com/works/paros-house-i",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Picornell-House-Majorca/2013_Picornell_House_Majorca_07.jpg",
+    url: "https://www.johnpawson.com/works/picornell-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Picornell-House-Majorca/2013_Picornell_House_Majorca_03.jpg",
+    url: "https://www.johnpawson.com/works/picornell-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Picornell-House-Majorca/2013_Picornell_House_Majorca_06.jpg",
+    url: "https://www.johnpawson.com/works/picornell-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/2.jpg",
+    url: "https://www.johnpawson.com/works/palmgren-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/5.jpg",
+    url: "https://www.johnpawson.com/works/palmgren-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/4.jpg",
+    url: "https://www.johnpawson.com/works/palmgren-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/1.jpg",
+    url: "https://www.johnpawson.com/works/palmgren-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/7.jpg",
+    url: "https://www.johnpawson.com/works/palmgren-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/8.jpg",
+    url: "https://www.johnpawson.com/works/palmgren-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/9.jpg",
+    url: "https://www.johnpawson.com/works/palmgren-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_03.jpg",
+    url: "https://www.johnpawson.com/works/house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_05.jpg",
+    url: "https://www.johnpawson.com/works/house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_04.jpg",
+    url: "https://www.johnpawson.com/works/house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_07.jpg",
+    url: "https://www.johnpawson.com/works/house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_08.jpg",
+    url: "https://www.johnpawson.com/works/house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_06.jpg",
+    url: "https://www.johnpawson.com/works/house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2009-Martyrs-Pavilion-St-Edw/Martyrs_Pavilion_01.jpg",
+    url: "https://www.johnpawson.com/works/martyrs-pavilion",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_01.jpg",
+    url: "https://www.johnpawson.com/works/baron-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_03.jpg",
+    url: "https://www.johnpawson.com/works/baron-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_04.jpg",
+    url: "https://www.johnpawson.com/works/baron-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_05.jpg",
+    url: "https://www.johnpawson.com/works/baron-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_06.jpg",
+    url: "https://www.johnpawson.com/works/baron-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_07.jpg",
+    url: "https://www.johnpawson.com/works/baron-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_01.jpg",
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_02.jpg",
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_06.jpg",
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_03.jpg",
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_01b.jpg",
+    url: "https://www.johnpawson.com/works/pawson-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_03.jpg",
+    url: "https://www.johnpawson.com/works/pawson-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_04.jpg",
+    url: "https://www.johnpawson.com/works/pawson-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_05.jpg",
+    url: "https://www.johnpawson.com/works/pawson-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_06.jpg",
+    url: "https://www.johnpawson.com/works/pawson-house",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/1994-Pawson-House-London-En/Pawson_House_1994_02.jpg",
+    url: "https://www.johnpawson.com/works/pawson-house-1",
+  },
+  {
+    src: "https://www.johnpawson.com/assets/Works/1994-Pawson-House-London-En/Pawson_House_1994_03.jpg",
+    url: "https://www.johnpawson.com/works/pawson-house-1",
+  },
+  {
     url: "https://www.xystudio.pl/domyjednorodzinne.htm",
     src: "https://www.xystudio.pl/projekty/domy%20jednorodzinne/kuczynski/slideshow/kucz%20(1).jpg",
   },
