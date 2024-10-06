@@ -65,7 +65,12 @@ export function Filters({
 }
 
 function Table({ queries }: any) {
-  const [list] = useState(() => inspirations);
+  const [list] = useState(() =>
+    inspirations.map(({ src, url }) => ({
+      src: src.replace(/^https:\/\/[^\/]+\.(cdninstagram)\.com/, "/$1"),
+      url,
+    })),
+  );
   const [selected, setSelected] = useState(() => list.map((_, key) => key));
 
   const filtered = useMemo(

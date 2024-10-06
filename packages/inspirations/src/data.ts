@@ -8,968 +8,5260 @@
 
 export const inspirations = [
   {
+    src: "https://cms.nowoczesnastodola.pl/assets/7e7d3cac-c37f-42f8-ade5-5e9119aec453?width=2560&height=1624&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/gornik-architects-mazowieckie?image=0f73e12b-2643-47e4-a3aa-2d45e1094838",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/05c6b508-aa2a-4a87-83d1-8d6bed081d5b?width=2560&height=1624&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/gornik-architects-mazowieckie?image=f4a64c6c-782c-4eac-80a5-944652f592d2",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/2ea2b775-e60b-406f-ae45-e923f9ff53ad?width=2560&height=1624&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/gornik-architects-mazowieckie?image=5e725c28-6ec3-409c-a979-3afe6b240310",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/647fd10c-90cd-4701-b1f0-b4d789d225a7?width=2560&height=1624&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/gornik-architects-mazowieckie?image=55acc869-2696-471f-ab43-ff9f6dc02c65",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/0d42dd7a-320b-4d2c-9313-043936576e48?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=9f8ffa0b-0ae1-44a4-b51c-fcefe9acd31f",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/259010be-2e92-41a8-a452-bc5da3c05c52?width=2560&height=3200&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=80d8ee66-95a7-46b1-b0b1-99ac8fa942ac",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/a11346fb-e938-4385-8a74-d22b031c5000?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=e5a2cebe-e395-4935-8c76-7edad9c3e300",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d39fafe4-0982-422e-a2bf-41a5dcb1af67?width=2560&height=3200&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=0fd52bd1-f398-4405-8b28-280cdd036036",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/e46403c7-fd07-458a-ab0c-7882609f3ceb?width=2560&height=3200&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=b95ef83c-1a6a-4e7a-82ff-b90e18d9dde2",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/dc3042dc-4774-4b66-b058-15a00970e07e?width=2560&height=1708&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=284e9869-5f6a-4c55-b5c2-e7bea8b8fba8",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/94524483-8856-431c-b6a0-cd5ffa5d9737?width=2560&height=3834&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=9ca20e58-2173-4a19-b98d-3bca7960aaa0",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/4f04a45f-c5a3-4a5e-9a1e-c52c8734deaa?width=2560&height=3834&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=d1b88712-a9c9-4ed5-b176-d29498610640",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/ed79e704-20a7-4089-9bfe-1b578aa25f7b?width=2560&height=1708&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=3cf08a8f-a55a-4ef4-9bc3-b4618ab2e519",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/254953f3-ca0c-4a18-b761-92014350645e?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/architekci/mokaa-architekci-malopolskie?image=5f577e6f-6e9d-4172-90cd-7b67ac88eeba",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10507/images/1920x0/dom-jednorodzinny-krz-nawiazuje-do-stylu-nowoczesnej-stodoly-181711.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-krz-21-projektu-081-architekci,10507.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71733/images/1920x0/dom-zostal-podzielony-na-trzy-bloki-funkcjonalne-181719.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-krz-21-projektu-081-architekci,10507.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71735/images/1920x0/taras-oraz-podloga-w-calym-domu-zostaly-wykonane-z-betonu-181721.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-krz-21-projektu-081-architekci,10507.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71742/images/1920x0/projekt-domu-krz-widok-od-strony-drogi-181728.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-krz-21-projektu-081-architekci,10507.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71741/images/1920x0/dom-wpisuje-sie-w-rozlozysta-dzialke-otoczona-polami-181727.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-krz-21-projektu-081-architekci,10507.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71744/images/1920x0/projekt-domu-krz-rzut-181730.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-krz-21-projektu-081-architekci,10507.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71743/images/1920x0/projekt-domu-krz-przekroje-181729.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-krz-21-projektu-081-architekci,10507.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10404/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179847.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70843/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179827.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70840/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179824.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70836/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179820.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70849/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179833.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70851/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179835.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70847/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179831.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70842/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179826.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70846/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179830.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70831/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179815.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70832/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179816.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70833/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179817.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70834/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179818.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70835/images/1920x0/taras-z-domem-nad-jeziorem-proj-ugo-architecture-179819.jpg",
+    url: "https://www.architekturaibiznes.pl/taras-z-domem-nad-jeziorem-ugo-architecture,10404.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10339/images/1920x0/tez-miedzy-brzozami-widok-od-strony-tarasu-179216.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70537/images/1920x0/tez-miedzy-brzozami-od-strony-zachodniej-179195.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70538/images/1920x0/tez-miedzy-brzozami-od-strony-bramy-179196.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70539/images/1920x0/tez-miedzy-brzozami-widok-na-taras-179197.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70540/images/1920x0/tez-miedzy-brzozami-widok-na-taras-z-zaslonietymi-przeszkleniami-179198.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70542/images/1920x0/tez-miedzy-brzozami-wnetrze-179200.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70543/images/1920x0/tez-miedzy-brzozami-widok-z-wnetrza-na-taras-179201.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70544/images/1920x0/tez-miedzy-brzozami-widok-na-wnetrze-z-zewnatrz-179202.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70545/images/1920x0/tez-miedzy-brzozami-widok-od-strony-tarasu-179203.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70546/images/1920x0/tez-miedzy-brzozami-detal-179204.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70557/images/1920x0/tez-miedzy-brzozami-rzut-179215.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70555/images/1920x0/tez-miedzy-brzozami-przekroj-179213.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/70556/images/1920x0/tez-miedzy-brzozami-przekroj-179214.jpg",
+    url: "https://www.architekturaibiznes.pl/wkompnowac-i-nie-niszczyc-dom-tez...-miedzy-brzozami-projektu-tez-architekci,10339.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10158/images/1920x0/dom-w-sekocinie-176476.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69154/images/1920x0/strefa-wejscia-od-polnocy-176492.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69156/images/1920x0/taras-otwiera-sie-na-poludniowy-wschod-176494.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69146/images/1920x0/aksonometria-176484.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69147/images/1920x0/aksonometria-176485.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69148/images/1920x0/aksonometria-176486.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69149/images/1920x0/aksonometria-176487.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69151/images/1920x0/rzut-parteru-176489.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69152/images/1920x0/rzut-pietra-176490.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69150/images/1920x0/rzut-dachu-176488.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69153/images/1920x0/przekroj-176491.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-sekocinie-89-stopni,10158.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10148/images/1920x0/dom-w-parku-cietrzewia-otwiera-sie-przeszkleniami-w-strone-rozlewisk-176402.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-parku-cietrzewia-projektu-kruszewski-architekci,10148.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69114/images/1920x0/dom-w-parku-cietrzewia-znajduje-sie-w-dzielnicy-wlochy-176409.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-parku-cietrzewia-projektu-kruszewski-architekci,10148.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69102/images/1920x0/dom-w-parku-cietrzewia-przeszklenia-otwieraja-sie-na-otoczenie-176385.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-parku-cietrzewia-projektu-kruszewski-architekci,10148.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69110/images/1920x0/dom-w-parku-cietrzewia-widoczny-od-strony-ulicy-176393.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-parku-cietrzewia-projektu-kruszewski-architekci,10148.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69109/images/1920x0/dom-w-parku-cietrzewia-ma-geometryczna-forme-176392.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-parku-cietrzewia-projektu-kruszewski-architekci,10148.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69145/images/1920x0/dom-w-parku-cietrzewia-taras-sprawia-wrazenie-jakby-unosil-sie-nad-terenem-dzialki-176473.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-parku-cietrzewia-projektu-kruszewski-architekci,10148.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/69103/images/1920x0/dom-w-parku-cietrzewia-widok-na-ogrod-176386.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-parku-cietrzewia-projektu-kruszewski-architekci,10148.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/9749/images/1920x0/dom-k-od-strony-wewnetrznej-168511.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-k-stoprocent-architekci,9749.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/65889/images/1920x0/dom-k-z-ujeciem-schodow-od-strony-zieleni-168505.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-k-stoprocent-architekci,9749.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/65890/images/1920x0/bryla-domu-z-patio-168506.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-k-stoprocent-architekci,9749.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/65893/images/1920x0/lazienka-168509.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-k-stoprocent-architekci,9749.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/65895/images/1920x0/bryla-od-strony-zewnetrznej-168520.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-k-stoprocent-architekci,9749.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/9348/images/1920x0/dom-jednorodzinny-czarna-perla-w-lanckoronie-162898.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-czarna-perla-w-lanckoronie,9348.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/63255/images/1920x0/czarna-perla-w-lanckoronie-162905.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-czarna-perla-w-lanckoronie,9348.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/63232/images/1920x0/czarna-perla-to-dom-parterowy-162875.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-czarna-perla-w-lanckoronie,9348.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/63252/images/1920x0/czarna-perla-posadowiona-jest-na-zelbetowej-podmurowce-162895.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-czarna-perla-w-lanckoronie,9348.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/63235/images/1920x0/czarna-perla-zostala-wykonana-w-konstrukcji-drewnianej-162878.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-czarna-perla-w-lanckoronie,9348.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/63245/images/1920x0/czarna-perla-od-strony-ganku-162888.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-czarna-perla-w-lanckoronie,9348.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/63229/images/1920x0/czarna-perla-w-lanckoronie-aksonometira-162872.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-czarna-perla-w-lanckoronie,9348.html#lg=1&slide=17",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-16-ogrod-na-schody.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-16-ogrod-na-schody-2.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/06/1-Biala-brama-szare-opierzenia-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-16-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-16-ogrod-zblizenie-na-podcien-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-17-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-18-705x529.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-19-705x529.jpg",
+    url: "https://www.trzy.be/?portfolios=p051-wkrotce",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/zadaszenie-wejscia-2.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/zadaszenie-wejscia.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/zadaszenie-wejscia-2-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/2.-noc__Scene-28-705x529.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/13.-noc__Scene-19-705x529.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/5.-dzien__Scene-7-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/11.-noc__Scene-26-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/12.-dzien__Scene-19-987x740.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2024/02/14.-dzien__Scene-14-2-705x529.jpg",
+    url: "https://www.trzy.be/?portfolios=p063-dom-pod-opolem",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2020/05/V1_sc2-1.jpg",
+    url: "https://www.trzy.be/?portfolios=projekt-domu-jednorodzinnego-d_037-olesno-v1",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2020/05/V1_sc17-9.jpg",
+    url: "https://www.trzy.be/?portfolios=projekt-domu-jednorodzinnego-d_037-olesno-v1",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2020/05/V1_sc19-11.jpg",
+    url: "https://www.trzy.be/?portfolios=projekt-domu-jednorodzinnego-d_037-olesno-v1",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2020/05/V1_sc11-5.jpg",
+    url: "https://www.trzy.be/?portfolios=projekt-domu-jednorodzinnego-d_037-olesno-v1",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2020/05/V1_sc21-13.jpg",
+    url: "https://www.trzy.be/?portfolios=projekt-domu-jednorodzinnego-d_037-olesno-v1",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2020/05/V1_sc5-2.jpg",
+    url: "https://www.trzy.be/?portfolios=projekt-domu-jednorodzinnego-d_037-olesno-v1",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_rano_sc27.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_wieczor__Scene-27.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_wieczor__Scene-24.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_rano_sc24.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_wieczor__Scene-17.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_rano_sc28.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_wieczor__Scene-28.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_rano_sc21.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_wieczor__Scene-21.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_wieczor__Scene-7.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2021/05/v2_rano_sc7.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-czarno-bialy-d_044",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2018/09/50000-1.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-w-poznaniu-5",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2018/09/60000-1.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-w-poznaniu-5",
+  },
+  {
+    src: "https://www.trzy.be/wp-content/uploads/2018/09/4-1.jpg",
+    url: "https://www.trzy.be/?portfolios=dom-w-poznaniu-5",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/ebf68b16-6e30-4f42-87dd-af8edb201056?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=238260b5-4dfb-46ea-bc2f-7a547b6f5cc4",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/633b5ef1-f69f-4b18-913a-7f05b31839a6?width=2560&height=2532&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=9a0ba798-509c-4b4f-9077-e78fb7ae77dd",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/7b431ee7-5c2a-48e1-a834-ba19354cd999?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=0dc121eb-795b-43f3-90f2-2743365441d2",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/c04614d5-8e53-4978-8be1-77370c44e608?width=2560&height=1706&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=9424a263-54ba-4a67-bf95-363145a8526e",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/906077e7-168a-41be-9a31-7a694113a259?width=2560&height=1706&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=ec9f6e32-3ecb-4432-b1d6-b27c562db503",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d89ae125-a96c-4d9a-9f0e-cc5d5e0bf008?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=b0e85234-c025-4804-9366-dca8401b5113",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/83b1ca92-bde6-44ef-aa2e-09f5d00f9be7?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=546abd3c-3375-42cd-b140-4cb27cfcac1a",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/eb275fbf-e1b4-4d68-a702-64ce3aa965a0?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=378fed2f-6ded-49ab-9c0e-c3da41438796",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/5b8f6458-c4bb-4a30-90e2-602ca28c5bff?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=d87c5048-105e-4a1b-979c-b1000a122433",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/65b32076-1543-430a-aba2-c9c5e6dd7148?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=6d15c998-5a72-44e9-a0f7-03328814efd3",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/9677621b-b95d-4de9-8d0b-6e3769a0f4bd?width=2560&height=1706&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=39a84b36-db16-4b0c-b768-e4f62b24fced",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d78725ba-aabf-401a-a1af-bde1383f74e3?width=2560&height=1706&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=4ca35ab7-aac8-43ec-af62-b558afb2e660",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/07bc9409-8837-45a4-a0c1-34cf68847d51?width=2560&height=1706&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=5d3107f2-1bfc-4209-9ad1-31ab23332c63",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/621ddbad-5835-4e13-ba2e-56408fd20995?width=2560&height=2410&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=d9874c0d-2fdf-4e96-8f37-5223fdf11671",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/f36ed10c-a6da-46cb-a754-182b66a7099a?width=2560&height=3840&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=c2e4edb3-cb8b-4af9-8704-895da184fc9b",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/6fcec346-6a58-46e9-ba69-f207f94cf99a?width=2560&height=1706&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=41d5a83f-4b95-40ba-b34c-8f2f04693bfd",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d288858d-f2b9-4a8d-bdab-bc4fd6ce97d7?width=2560&height=1706&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/rio-house-paulo-merlini-arquitetos?image=ab799f77-99a3-4e94-9bd9-eca1a97c06a2",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/b2d2b3cd-6ec3-4892-9f37-b1e98b07eaf6?width=2560&height=1708&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=caaa4be7-533b-403a-b7e1-e62365e2afd4",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/a70ed238-f74e-4ff1-af4f-54cb019d46b1?width=2560&height=1708&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=5f35df2b-c00b-4da0-9521-6b0cff1482b9",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/2bec0283-f0ad-49bf-b465-6036e4eca971?width=2560&height=1726&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=23914d48-d5c8-4e31-bbd5-1a00af28df8b",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/f99148e6-d813-4027-b8eb-9f89f6b70d5e?width=2560&height=1764&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=d96f2282-5054-4557-8098-5977c0b5dfec",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/b929acb4-90be-4cd7-8e92-6a61b08df258?width=2560&height=1708&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=a8872a71-e96c-4dc4-81ca-896741c477c3",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/9174e601-38db-41b4-8573-7103afb03d09?width=2560&height=3170&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=28d9373f-7eb7-4244-904d-cd3fac49aa42",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/3ea19e70-177f-4f9c-9332-ef963e02e9a0?width=2560&height=3838&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=104d2e05-9041-42db-acb1-b34dbd0b652c",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/15637662-6f95-454f-9e86-a4f0f3d2a1a3?width=2560&height=3838&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=3681cc9c-9910-4a5c-a5c6-658c1ba4c845",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/c08d5139-cabf-4b62-b4b2-c6c2c1b00239?width=2560&height=1708&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=3ed523ef-711a-4f5c-8c0e-fc14868d2454",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/3cabe214-b972-4ec9-ae71-936d90f9b56b?width=2560&height=3838&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/summer-cottage-studio-ardess?image=80643db9-9cd0-4648-a2f8-c71c41dbc176",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d4016371-65a3-4215-a7bc-029e2758a099?width=2560&height=1702&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=89f94c3e-b1a8-4b02-a3a4-1fddad84f53c",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/aa1d84b6-c2c0-45b0-835b-aca8c6ed493c?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=e007d5b5-7d17-4f98-87a3-66f74d95b760",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/217bda55-5bf0-44d8-a292-5f7078ed4377?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=7b772321-bb85-4ca8-9919-49bd71a39b6b",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/71648f61-b2ea-4a18-90e7-34ee22b5efd1?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=34178556-2952-4349-9560-4f156ff70993",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/c7cb6c56-e495-4b9a-b151-7ffaab6ea27d?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=4b2d9fb4-ffb7-42c0-a859-ab7acf8f2ada",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/a57897b8-20f4-44fe-a049-2ce31d066870?width=2560&height=1688&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=34aeda2a-ba9f-438d-bd97-46b9d6195dc2",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/2f376db8-a7ca-4a05-b33f-070043113d19?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=83c79ef6-3db4-4adf-b52d-faf99bfff0f5",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/b474fc7e-4c9f-48e8-91ab-44c27345db1a?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=bb956bea-d349-47e4-b624-57676b1fba4b",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/e0976371-0f2e-4418-8243-4f9d1062dd2b?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=28fd514e-c04e-4fd1-9716-5262a36d6782",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/f2f4e3be-13b0-4e3d-84a5-181eb5aa8073?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=07bc78f9-af65-433b-8148-e1a64b85ec64",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/aadb95b7-223d-4853-a75c-9788e38b87c4?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=e31bf273-bd3f-4a91-9d5f-7a3e219e1d8c",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/68b79028-d2d5-4c1e-935f-287dbee1e9ef?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/meadow-house-maasland-jury?image=63b7d82b-3f0f-4277-9269-59db21f709f8",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/c0546cd4-6450-47ac-9230-a940f2ac117f?width=2560&height=1440&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=ceae0cd3-305c-44ef-8776-82668a432af4",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/c2ab1edd-3e5d-48be-91db-f5ae7c07c309?width=2560&height=1440&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=ae855c6e-e4ea-41b5-acc1-84a2e531a269",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/061bd398-6df7-4003-936d-24c872555f66?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=47f2d184-6d36-4184-ab1c-ce5f56ae262b",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/fc9a9e2a-435b-4e6e-ab2f-35a685294a06?width=2560&height=1280&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=d6601abe-2776-4f38-bed2-fd8c1d0f2c1b",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/c3747529-733e-4142-afcc-e38e72ef40a7?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=ce54c5e6-b9ba-4d67-a88f-773f1e2b4ff7",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/91654a27-db5a-479d-9963-4dd77ae226d6?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=60757363-715f-41bf-aeca-b364e8379e4a",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d9512bd3-ff5c-4fd2-91e7-2def426263bc?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=961a9e1e-fabd-4872-831d-ae16e6581e80",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/4ef598a7-a7ab-4ffb-b2c1-66180343cf4c?width=2560&height=1440&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=230ee1fe-c2e9-4c19-b995-3a50cdc3e105",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/1cb009f5-03d2-448e-adb8-8ab98f30f920?width=2560&height=1280&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=57c74566-731e-4ca3-bb2c-90a28bcf1be8",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/e73548ac-1ec4-4875-b9b8-a87e5c477b9b?width=2560&height=1280&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=c770abf0-4eac-467e-bc82-4f9bba44f664",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/7acc690d-e2a6-406c-bd82-bfaca8a7aa69?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-podwarszawskich-markach-klangor-studio?image=c10e72c8-4cf6-439f-9a4d-14981b59ca86",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/60d3726a085b9a051ed5725c/925a18d8-f5a2-4ef2-952d-d17f87d82f27/230131_Cam_003.jpg?format=2500w",
+    url: "https://www.klangorstudio.pl/work-1/jeczydol",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/60d3726a085b9a051ed5725c/f1946f40-b4d3-40ba-a352-6577d1be464e/230131_Cam_009.jpg?format=2500w",
+    url: "https://www.klangorstudio.pl/work-1/jeczydol",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/60d3726a085b9a051ed5725c/bc310be3-b7e9-4780-ab3d-cac95bdcdd7f/230214_Cam_001.jpg?format=2500w",
+    url: "https://www.klangorstudio.pl/work-1/jeczydol",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/60d3726a085b9a051ed5725c/ddb8b379-5f84-4021-980f-d7c7a6b87469/230214_Cam_004.jpg?format=2500w",
+    url: "https://www.klangorstudio.pl/work-1/jeczydol",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/60d3726a085b9a051ed5725c/3a4dde62-71c7-473d-aa43-a6c9411ed40c/230214_Cam_005.jpg?format=2500w",
+    url: "https://www.klangorstudio.pl/work-1/jeczydol",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/60d3726a085b9a051ed5725c/7debbd43-9e1c-4395-96d3-4ba9b78b10c2/230131_Cam_007.jpg?format=2500w",
+    url: "https://www.klangorstudio.pl/work-1/jeczydol",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/ecae8970-207b-4f02-9677-bbb6dc770135?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/house-clt-01-atelier-amasa?image=a19e3b77-f6df-45b7-8601-94fb5cf5748e",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/bfe4482f-20a6-4aa0-91dd-cbfd533f24ab?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/house-clt-01-atelier-amasa?image=49a055ed-593c-492b-ba4c-f2a9ab21de78",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/94b74fed-68ee-41a0-b300-26899668a15d?width=2560&height=1704&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/house-clt-01-atelier-amasa?image=bfe93104-edf0-4365-ac6d-91beb96c37da",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/9b9600e4-0876-4e82-bbfd-8a4b33cd329f?width=2560&height=1600&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-eleganckim-wydaniu-ef-architekci?image=2c855df8-2bc4-46cb-bdf0-8bbca307e594",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/6ed375ad-a19c-4648-bc3e-466ad48b3b9e?width=2560&height=1600&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-eleganckim-wydaniu-ef-architekci?image=7ef4c080-51fe-426a-9eb3-3373f2b25204",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/c5e16a8b-1f1b-4411-8a12-1de96c660daa?width=2560&height=1600&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-eleganckim-wydaniu-ef-architekci?image=96814a0f-d39e-4cfc-98b5-7b9ad6af4b2c",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/6f4ace79-12a8-46a2-b3a8-233bf1e88f84?width=2560&height=1600&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-eleganckim-wydaniu-ef-architekci?image=5e9a2539-e81d-4454-b5f6-1f075ead6fa9",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/a274110d-e806-4c52-97c6-ea063d112ed2?width=2560&height=2048&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-eleganckim-wydaniu-ef-architekci?image=d7de2d32-46f2-4dbc-90ad-5e2874952e52",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/fe12b7d7-cb73-403a-b42e-3eec162b93d6?width=2560&height=2048&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/nowoczesna-stodola-w-eleganckim-wydaniu-ef-architekci?image=2340fb00-4f51-49b7-9984-6a210d4c9177",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10483/images/1920x0/modernistyczny-dom-w-polu-181198.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71479/images/1920x0/doswietlajace-wnetrze-okno-kolankowe-181202.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71481/images/1920x0/wysoki-salon-181204.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72746/images/1920x0/modernistyczne-wnetrze-jadalni-183715.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71477/images/1920x0/kuchnia-w-domu-i-kuchnia-letnia-181200.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71480/images/1920x0/w-lazience-wykorzystano-czarny-wapien-181203.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71482/images/1920x0/aksonometria-181205.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71483/images/1920x0/aksonometria-181206.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71484/images/1920x0/przekroj-poprzeczny-181207.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/71485/images/1920x0/rzut-parteru-181208.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-letniskowy-ggrupa,10483.html#lg=1&slide=9",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2022/07/Eklektyczne-wnetrze-kamienicy-na-Warszawskiej-Pradze-Ggrupa-Gabriela-Glowacka-profilowe-2.jpg",
+    url: "https://ggrupa.pl/eklektyczne-wnetrze-kamienicy-na-warszawskiej-pradze/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2022/07/Nowoczesny-projekt-wnetrza-kamienicy-w-Warszawie-Ggrupa-Gabrysia-Glowacka-profilowe.jpg",
+    url: "https://ggrupa.pl/eklektyczne-wnetrze-kamienicy-na-warszawskiej-pradze/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2022/07/Eklektyczny-Projekt-wnetrza-kamienicy-w-Warszawie-Ggrupa-Gabrysia-Glowacka.jpg",
+    url: "https://ggrupa.pl/eklektyczne-wnetrze-kamienicy-na-warszawskiej-pradze/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2022/07/Projekt-wnetrza-kamienicy-na-pradze-w-Warszawie-Nowoczesna-aranzacja-Ggrupa-Gabrysia-Glowacka-1.jpg",
+    url: "https://ggrupa.pl/eklektyczne-wnetrze-kamienicy-na-warszawskiej-pradze/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2022/07/Marmurowa-lazienka-w-projekcie-wnetrza-kamienicy-w-Warszawie-Ggrupa-Gabrysia-Glowacka.jpg",
+    url: "https://ggrupa.pl/eklektyczne-wnetrze-kamienicy-na-warszawskiej-pradze/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/02/P2_dom-si%C3%B3str-podkarpacie_uj%C4%99cie-na-wprost-HR1112.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/02/P2_dom-si%C3%B3str-podkarpacie_uj%C4%99cie-na-wprost-HR_WireColor-1.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/02/P2_dom-si%C3%B3str-podkarpacie_uj%C4%99cie-na-wprost-HR.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/02/P2_dom-si%C3%B3str-podkarpacie_03-HR.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/indywidualny-dom-w-g%C3%B3rach-110-m2-wn%C4%99trze-4-2000x1500.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/WNETRZE-SI%C3%93STR4.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/indywidualny-dom-w-g%C3%B3rach-110-m2-wn%C4%99trze-czesc-dzienna-salon-i-jadalnia-2000x2000.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/indywidualny-dom-w-g%C3%B3rach-110-m2-wn%C4%99trze-sypialnia-z-widokiem-na-g%C3%B3ry-1-2000x2015.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/indywidualny-dom-w-g%C3%B3rach-110-m2-wn%C4%99trze-betonowa-%C5%82azienka-wapie%C5%84-3.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/indywidualny-dom-w-g%C3%B3rach-110-m2-wn%C4%99trze-betonowa-%C5%82azienka-widok-2-wapien.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/dom-siostr-akso.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/rzut-4.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/przekr%C3%B3j-domu-w-g%C3%B3rach-indywidualny-projekt.jpg",
+    url: "https://ggrupa.pl/dom-na-podkarpaciu/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/01/Browary-Warszawskie-Wn%C4%99trze-Minimalizm-Mikrocement-Drewno-Fronty-uchnia-Norweska-Projekt-Wn%C4%99trza-e1627730682777.jpg",
+    url: "https://ggrupa.pl/cieply-minimalizm-wnetrze-warszawa/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/05/Browary-Warszawskie-Wn%C4%99trze-Minimalizm-Mikrocement-Drewno-Fronty-uchnia-Norweska-Projekt-Wn%C4%99trza-Drewniane-Uchwyty-2000x3000.jpg",
+    url: "https://ggrupa.pl/cieply-minimalizm-wnetrze-warszawa/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/05/Browary-Warszawskie-Wn%C4%99trze-Minimalizm-Mikrocement-Drewno-Fronty-uchnia-Norweska-Projekt-Wn%C4%99trza-Skandynawska-Kuchnia-2000x3000.jpg",
+    url: "https://ggrupa.pl/cieply-minimalizm-wnetrze-warszawa/",
+  },
+  {
+    src: "https://ggrupa.pl/wp-content/uploads/2021/05/Browary-Warszawskie-Projekt-Jadalni-Ciep%C5%82y-minimalizm-Drewno-e1627730719659.jpg",
+    url: "https://ggrupa.pl/cieply-minimalizm-wnetrze-warszawa/",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10624/images/1920x0/dom-z-atrium-powstaje-w-tuszowie-narodowym-183588.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72655/images/1920x0/garaz-zostal-polaczony-z-domem-plaskim-dachem-183549.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72652/images/1920x0/zewnetrzny-taras-i-atrium-wpuszczaja-duzo-swiatla-do-wnetrza-domu-183546.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72657/images/1920x0/atrium-znajduje-sie-w-centrum-domu-a-z-tarasu-mozna-podziwiac-niebo-183551.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72653/images/1920x0/dom-z-atrium-nawiazuje-do-wspolczesnej-stodoly-183547.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72654/images/1920x0/elewacje-pokryto-deska-modrzewiowa-i-plytami-z-betonu-architektonicznego-183548.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72656/images/1920x0/garaz-laczy-sie-z-domem-183550.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72665/images/1920x0/dach-pokryty-zostal-blacha-ocynkowana-183559.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72685/images/1920x0/dom-powstaje-w-zalesionej-okolicy-183595.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72663/images/1920x0/dom-z-atrium-widok-od-strony-ulicy-183557.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72661/images/1920x0/dwuspadowy-dach-wpisuje-dom-w-okoliczna-zabudowe-183555.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72658/images/1920x0/atrium-zima-183552.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=12",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72659/images/1920x0/w-atrium-posadzona-zostanie-grusza-183553.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72664/images/1920x0/atrium-to-prywatna-enklawa-mieszkancow-183558.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72639/images/1920x0/dom-z-atrium-aksonometria-183533.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/72650/images/1920x0/dom-z-atrium-sytuacja-183544.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-atrium-projektu-meeko-architekci,10624.html#lg=1&slide=17",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1479-43-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1469-39-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1481-44-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1401-40-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1400-36-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1372-34-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1364-37-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1328-33-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1410-35-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/Meeko_Zlotniki_%C2%A9_ONI_Studio_1571-42-copy.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/03/MEEKO-Architects-House-near-mielec-foto-03b.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2017/11/MLC-ZLO-dom-AXO-schmat-b-07-2000px.png",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2017/11/MLC-ZLO-house-PR-02-2000px.png",
+    url: "https://meeko.pl/project/dom-pod-mielcem",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-AXO-2200px.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-sytaucja-2200px.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-wiz-01-copy-scaled.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-wiz-07-copy-scaled.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-wiz-06-copy-scaled.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-wiz-05-copy-scaled.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-wiz-04-copy-scaled.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-wiz-03-copy-scaled.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/MLC-KJA-dom-wiz-02-copy-scaled.jpg",
+    url: "https://meeko.pl/project/przekrecona-stodola",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0695-2.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1000-16.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0758-4.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0789-5.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1201-30.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1197-32.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0777-7.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1031-9.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0853-19.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1035-10.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0966-15.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0923-12.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1072-21.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1083-20.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1156-29.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_0927-13.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1091-22.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1093-23.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1100-25.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1107-24.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1118-26.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/Meeko_Zlotniki_%C2%A9_ONI_Studio_1125-27.jpg",
+    url: "https://meeko.pl/project/dom-pod-mielcem-wnetrza",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23591-1-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23668-18-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23575-8-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23556-12-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23728-23-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23687-20-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23712-22-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23615-10-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23625-14-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23694-21-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23610-2-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23805-28-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_4797-3-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23650-15-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23655-16-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/02/Meeko_Westerplatte_%C2%A9_ONI_Studio_23662-17-copy.jpg",
+    url: "https://meeko.pl/project/apartament-wes",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-AXO-01-scaled.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-04-copy-scaled.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-03-copy-scaled.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-02-copy-scaled.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-07-copy-scaled.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-09-copy.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-08-copy.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-10-copy.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-06-copy.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/06/KIE-MAS-dom-wizualizacja-05-copy-scaled.jpg",
+    url: "https://meeko.pl/project/dom-w-maslowie",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-axo-02-copy.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-axo-03-copy.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-axo-01-copy.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-axo-04-copy.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-wiz-02-scaled.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-wiz-05-scaled.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-wiz-04-scaled.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-wiz-03-scaled.jpg",
+    url: "https://meeko.pl/project/dom-nowoczesna-stodla-v3-mielec",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/220919-TAR-ZAW-dom-PB-axo-2200px.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-03-copy.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-01-copy.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-04-copy.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-05-copy.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-06-copy.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-07-copy.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-08-copy.jpg",
+    url: "https://meeko.pl/project/dom-zawada#",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/KOL-KRA-dom-AXO-01-2800px-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-04-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-09-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-10-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-01-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/11/KOL-KRA-dom-wiz-08b-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-03-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-07-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-06-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2022/08/KOL-KRA-dom-wiz-02-copy-scaled.jpg",
+    url: "https://meeko.pl/project/stodola-lasowiak",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/006_MEEKO-Architekci-Willa-Stary-MielecA2A7593-HDR.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/007_MEEKO-Architekci-Willa-Stary-MielecA2A7509-pion.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/015_MEEKO-Architekci-Willa-Stary-MielecA2A7664-HDR.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/014_MEEKO-Architekci-Willa-Stary-MielecA2A7646-HDR.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/012_MEEKO-Architekci-Willa-Stary-MielecA2A7642-HDR-scaled.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/013_MEEKO-Architekci-Willa-Stary-MielecA2A7625.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/019_MEEKO-Architekci-Willa-Stary-MielecA2A7409-HDR-scaled.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/018_MEEKO-Architekci-Willa-Stary-MielecA2A7417-HDR-scaled.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/027_MEEKO-Architekci-Willa-Stary-MielecA2A7472-HDR.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/021_MEEKO-Architekci-Willa-Stary-MielecA2A7382.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/020_MEEKO-Architekci-Willa-Stary-MielecA2A7388-HDR-scaled.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/028_MEEKO-Architekci-Willa-Stary-MielecA2A7373-HDR.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/024_MEEKO-Architekci-Willa-Stary-MielecA2A7434-HDR.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/001_MEEKO-Architekci-Willa-Stary-MielecA2A7680-scaled.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    src: "https://meeko.pl/wp-content/uploads/2023/10/002_MEEKO-Architekci-Willa-Stary-MielecA2A7685.jpg",
+    url: "https://meeko.pl/project/willa-stare-miasto",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/90-1236x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/80-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/90-1236x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/101-1-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/110-512x724.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/130-1236x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/19_photo-Jakub-Certowicz_Living-Garden-House-in-Izbica_Robert-Konieczny-KWK-Promes.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/150-1236x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/160-512x724.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/170-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/180-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/190-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/living-garden-house-w-izbicy/11062",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2015/01/200-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/00-1-1236x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/00-2-1236x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/00-3-1236x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/154-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/195-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/203-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/212-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/223-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/24-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/252-724x512.jpg",
+  },
+  {
+    url: "https://www.kwkpromes.pl/dom-bezpieczny-2/2248",
+    src: "https://www.kwkpromes.pl/wp-content/uploads/2013/05/27-1236x512.jpg",
+  },
+  {
+    src: "https://bjerg.nu/wp-content/uploads/2022/09/Dyrestien-Tornby_06_Bjerg-Arkitektur-2048x1152.jpg.webp",
+    url: "https://bjerg.nu/pl/project/dyrestien/",
+  },
+  {
+    src: "https://bjerg.nu/wp-content/uploads/2022/09/Dyrestien-Tornby_03_Bjerg-Arkitektur-scaled-e1664439832557.jpg.webp",
+    url: "https://bjerg.nu/pl/project/dyrestien/",
+  },
+  {
+    src: "https://bjerg.nu/wp-content/uploads/2022/09/Dyrestien-Tornby_Inde_Bjerg-Arkitektur-1536x1024.jpg.webp",
+    url: "https://bjerg.nu/pl/project/dyrestien/",
+  },
+  {
+    src: "https://bjerg.nu/wp-content/uploads/2022/09/plantegning-DYRESTIEN-2048x1448.png.webp",
+    url: "https://bjerg.nu/pl/project/dyrestien/",
+  },
+  {
+    src: "https://bjerg.nu/wp-content/uploads/2022/09/plantegning-DYRESTIEN-2048x1448.png.webp",
+    url: "https://bjerg.nu/pl/project/dyrestien/",
+  },
+  {
+    src: "https://bjerg.nu/wp-content/uploads/2022/09/Dyrestien_diagram_bjerg-arkitektur.png.webp",
+    url: "https://bjerg.nu/pl/project/dyrestien/",
+  },
+  {
+    src: "https://bjerg.nu/wp-content/uploads/2022/09/Bjerg-arkitektur-snit-dyrestien_2000px-1024x724.png.webp",
+    url: "https://bjerg.nu/pl/project/dyrestien/",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/12067/images/1920x0/dom-stanal-w-borowcu-pod-poznaniem-206979.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83366/images/1920x0/od-strony-ogrodu-architekci-wprowadzili-przeszklenia-206973.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83371/images/1920x0/granica-miedzy-wnetrzem-a-zewnetrzem-zostala-zatarta-206978.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83370/images/1920x0/oranzeria-wychodzi-w-strone-ogrodu-206977.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83363/images/1920x0/dom-charakteryzuje-sie-oszczednoscia-w-zastosowanych-materialach-206970.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83364/images/1920x0/elewacja-to-blacha-oraz-naturalny-kamien-206971.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83365/images/1920x0/od-strony-ulicy-architekci-ograniczyli-ilosc-okien-206972.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83372/images/1920x0/dom-zostal-zaprojektowany-dla-milosnikow-gor-206980.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83373/images/1920x0/wnetrze-rozdziela-box-206981.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83378/images/1920x0/architekci-zdecydowali-sie-na-ukazanie-konstrukcji-we-wnetrzu-206986.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83384/images/1920x0/jasna-otwarta-przestrzen-dzienna-206992.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83385/images/1920x0/w-salonie-waznym-elementem-jest-kominek-i-sciana-z-kamienia-206993.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83374/images/1920x0/dom-w-borowcu-wnetrze-garderoby-206982.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=12",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83375/images/1920x0/oranzeria-zaprasza-otoczenie-do-srodka-domu-206983.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83376/images/1920x0/duze-przeszklenia-doswietlaja-dom-206984.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83377/images/1920x0/taras-od-strony-ogrodu-206985.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83379/images/1920x0/glowna-sypialna-wykonana-w-minimalistycznym-stylu-206987.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83380/images/1920x0/w-glownej-sypialni-dominuje-drewno-206988.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83381/images/1920x0/czteronozni-mieszkancy-domu-206989.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83382/images/1920x0/lazienka-z-widokiem-na-ogrod-206990.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=19",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83383/images/1920x0/box-z-lazienka-206991.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83389/images/1920x0/lazienka-rozswietla-sie-noca-206997.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=21",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83388/images/1920x0/schody-umieszone-za-czarnym-boxem-prowadza-na-poddasze-206996.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=22",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83387/images/1920x0/pod-schodami-skrywa-sie-wiele-schowkow-206995.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=23",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83390/images/1920x0/dom-w-borowcu-rzut-parteru-206998.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=24",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83391/images/1920x0/dom-w-borowcu-rzut-poddasza-i-antresoli-206999.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=25",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83392/images/1920x0/dom-w-borowcu-elewacja-207000.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=26",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83393/images/1920x0/dom-w-borowcu-elewacja-207001.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-borowcu-projektu-miliwcz-architekci,12067.html#lg=1&slide=27",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83251/images/1920x0/dom-energooszczedny-sml-house-206754.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-energooszczedny-blsk.studio,12055.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83253/images/1920x0/w-zalozeniu-inwestorow-dom-mialy-cechowac-pragmatyzm-i-troska-o-srodowisko-naturalne-206756.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-energooszczedny-blsk.studio,12055.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83259/images/1920x0/taras-z-widokiem-na-malownicza-okolice-206762.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-energooszczedny-blsk.studio,12055.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83263/images/1920x0/jadalnia-206766.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-energooszczedny-blsk.studio,12055.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83261/images/1920x0/otwarta-kuchnia-z-jadalnia-i-salonem-206764.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-energooszczedny-blsk.studio,12055.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/11060/images/1920x0/gardeninhouse-powstaje-w-wojewodztwie-lodzkim-190114.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-garden-in-house-projektu-kamecki-architektura,11060.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75821/images/1920x0/frontowa-elewacja-mocno-izoluje-domownikow-od-ulicy-190121.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-garden-in-house-projektu-kamecki-architektura,11060.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75822/images/1920x0/projekt-domu-garden-in-house-wejscie-osloniete-od-strony-ulicy-190122.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-garden-in-house-projektu-kamecki-architektura,11060.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75824/images/1920x0/otwarta-przestrzen-miedzy-budynkami-umozliwia-relaks-190124.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-garden-in-house-projektu-kamecki-architektura,11060.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75826/images/1920x0/wnetrza-z-duza-iloscia-roslin-190126.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-garden-in-house-projektu-kamecki-architektura,11060.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75828/images/1920x0/projekt-domu-garden-in-house-rzut-parteru-190128.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-garden-in-house-projektu-kamecki-architektura,11060.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75829/images/1920x0/projekt-domu-garden-in-house-rzut-pietra-190129.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-garden-in-house-projektu-kamecki-architektura,11060.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/11036/images/1920x0/elegancka-nowoczesnosc-189866.jpg",
+    url: "https://www.architekturaibiznes.pl/poznan-house,11036.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75691/images/1920x0/wizualizacja-poznan-house-od-strony-ulicy-189867.jpg",
+    url: "https://www.architekturaibiznes.pl/poznan-house,11036.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75693/images/1920x0/wizualizacja-tarasu-189869.jpg",
+    url: "https://www.architekturaibiznes.pl/poznan-house,11036.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75697/images/1920x0/wizualizacja-budynku-189873.jpg",
+    url: "https://www.architekturaibiznes.pl/poznan-house,11036.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75698/images/1920x0/wizualizacja-tarasow-189874.jpg",
+    url: "https://www.architekturaibiznes.pl/poznan-house,11036.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75699/images/1920x0/wizualizacja-budynku-od-strony-ogrodu-189875.jpg",
+    url: "https://www.architekturaibiznes.pl/poznan-house,11036.html#lg=1&slide=7",
+  },
+  {
+    src: "https://p-3.pl/images/ebff7e9e-7c36-43e5-93a2-044ed6275372/1920x1080-www1-3.jpg",
+    url: "https://p-3.pl/realizacje/dom-na-ogrodach",
+  },
+  {
+    src: "https://p-3.pl/images/11d2b9e6-6a17-437f-910c-a8a677c8743f/1920x1080-www1-4.jpg",
+    url: "https://p-3.pl/realizacje/dom-na-ogrodach",
+  },
+  {
+    src: "https://p-3.pl/images/f9d94ba9-d095-4350-9c60-5de81394ef9b/1920x1080-www1-1.jpg",
+    url: "https://p-3.pl/realizacje/dom-na-ogrodach",
+  },
+  {
+    src: "https://p-3.pl/images/1e4b8d38-9644-49c5-8d50-9c6fb72a6553/1920x1080-www1-2.jpg",
+    url: "https://p-3.pl/realizacje/dom-na-ogrodach",
+  },
+  {
+    src: "https://p-3.pl/images/2c75ee6e-cae8-499f-85cd-431409ac2ba2/760x700-parter.jpg",
+    url: "https://p-3.pl/realizacje/dom-na-ogrodach",
+  },
+  {
+    src: "https://p-3.pl/images/dc10f017-515b-4d81-9271-3b97f6fb8327/760x700-piwnica.jpg",
+    url: "https://p-3.pl/realizacje/dom-na-ogrodach",
+  },
+  {
+    src: "https://p-3.pl/images/4bcdedf9-b4c1-426a-804b-cdd5048b3c32/tyl.jpg",
+    url: "https://p-3.pl/realizacje/cottage-house",
+  },
+  {
+    src: "https://p-3.pl/images/b0d221df-1cdf-42e9-8fe3-11b8207b9fd3/front.jpg",
+    url: "https://p-3.pl/realizacje/cottage-house",
+  },
+  {
+    src: "https://p-3.pl/images/236d65d0-d4ef-4381-9a87-065c2d26cc0d/izo.png",
+    url: "https://p-3.pl/realizacje/cottage-house",
+  },
+  {
+    src: "https://p-3.pl/images/7b5866af-29bd-426b-b597-d9a7f51b60e8/schemat-pzt-3.jpg",
+    url: "https://p-3.pl/realizacje/cottage-house",
+  },
+  {
+    src: "https://p-3.pl/images/563c3825-9837-4ae9-84dd-9cf70e2755ad/lisowki-rzut.jpg",
+    url: "https://p-3.pl/realizacje/cottage-house",
+  },
+  {
+    src: "https://p-3.pl/images/78837997-68b8-4fb1-a696-e03cc7ca9802/2k-basen-bok.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/2c082f7c-c045-42aa-a38a-8f9299b0a3f9/2k-b.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/75bdc5eb-52f8-44ac-b561-b011579233a9/2k-gora-2.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/97b8ee9a-74c6-4b1e-96eb-664ad24e43dc/2k-f-kat-3.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/7bf0d4b3-fb88-4cd4-bdba-a05cc3ec9f87/2k-gora.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/d792cb9b-91f2-4096-b3d9-09c87912d817/gora-4.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/50e6e98c-1ee3-4d68-a069-8c7ab4902427/c.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/ac8f37d4-e3c2-4ec8-aed6-5384921b8de1/2k-kajak.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/80c913d7-015c-4e43-bbae-883c99af429e/760x700-www.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://p-3.pl/images/6085f2b1-05f0-4aa9-8780-f3f684132fb2/760x700-szkic-www.jpg",
+    url: "https://p-3.pl/realizacje/lake-house",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10970/images/1920x0/from-the-garden-house-188729.jpg",
+    url: "https://www.architekturaibiznes.pl/robert-konieczny-zawod-architekt,10970.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75196/images/1920x0/from-the-garden-house-188730.jpg",
+    url: "https://www.architekturaibiznes.pl/robert-konieczny-zawod-architekt,10970.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75197/images/1920x0/from-the-garden-house-188731.jpg",
+    url: "https://www.architekturaibiznes.pl/robert-konieczny-zawod-architekt,10970.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75198/images/1920x0/from-the-garden-house-188732.jpg",
+    url: "https://www.architekturaibiznes.pl/robert-konieczny-zawod-architekt,10970.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/75199/images/1920x0/from-the-garden-house-188733.jpg",
+    url: "https://www.architekturaibiznes.pl/robert-konieczny-zawod-architekt,10970.html#lg=1&slide=4",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_fb68c2d808ac4a02bed2d3bb631730c2~mv2.jpg/v1/fill/w_1549,h_939,al_c,q_85,enc_auto/3a_PS%20kopia.jpg",
+    url: "https://www.studiogab.net/kopia-dom-w-promnicach",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_99ba62ac7fb44df38870c1bd2cb5ea91~mv2.jpg/v1/fill/w_1649,h_1000,al_c,q_85,enc_auto/1a_PS%20kopia.jpg",
+    url: "https://www.studiogab.net/kopia-dom-w-promnicach",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_2797e5760ce04027b12de01e921a9ff0~mv2.jpg/v1/fill/w_1326,h_874,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8bf7e8_2797e5760ce04027b12de01e921a9ff0~mv2.jpg",
+    url: "https://www.studiogab.net/kopia-dom-w-promnicach",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_a1441c3017e7446a97d7a9a1c123fe28~mv2.jpg/v1/fill/w_1326,h_874,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/8bf7e8_a1441c3017e7446a97d7a9a1c123fe28~mv2.jpg",
+    url: "https://www.studiogab.net/kopia-dom-w-promnicach",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_955f1c37550440f595b408e842a04b61~mv2.jpg/v1/fill/w_2688,h_1762,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/8bf7e8_955f1c37550440f595b408e842a04b61~mv2.jpg",
+    url: "https://www.studiogab.net/kopia-dom-w-promnicach",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_01e9676db1f14bacaf7146205ff87625~mv2.jpg/v1/fill/w_1635,h_1000,al_c,q_85,enc_auto/8bf7e8_01e9676db1f14bacaf7146205ff87625~mv2.jpg",
+    url: "https://www.studiogab.net/kopia-dom-w-promnicach",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_88ec84b8f34f42e282962967b0a58bad~mv2.jpg/v1/fill/w_1500,h_994,al_c,q_85,enc_auto/06_GAB_Piotr_Grabowski_Anna_B_Gregorczyk.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_bcb33cfd5c48492ba203d0f8b34b45ff~mv2.jpg/v1/fill/w_1500,h_996,al_c,q_85,enc_auto/07_GAB_Piotr_Grabowski_Anna_B_Gregorczyk.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_58dced2156d647d3b0c57ac9d1d16113~mv2.jpg/v1/fill/w_1376,h_914,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/04_GAB_Piotr_Grabowski_Anna_B_Gregorczyk.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_f9fcecbbd0f5449c982d57b19bb83839~mv2.jpg/v1/fill/w_1400,h_929,al_c,q_85,enc_auto/02_GAB_Piotr_Grabowski_Anna_B_Gregorczyk.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_323ebec981c448a58b14a01a46010de8~mv2.jpg/v1/fill/w_1500,h_996,al_c,q_85,enc_auto/01_GAB_Piotr_Grabowski_Anna_B_Gregorczyk.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_5006d22da4484795a8595bcc0f57fbee~mv2.jpg/v1/fill/w_1500,h_999,al_c,q_85,enc_auto/03_GAB_Piotr_Grabowski_Anna_B_Gregorczyk.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_d32e78c43f23435bac58d31f4f5f9f0b~mv2_d_3000_2000_s_2.jpg/v1/fill/w_1312,h_876,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/DSC_0011_JPG.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_0d58d052878c41a687a2e12f564cd3be~mv2.jpg/v1/fill/w_1000,h_1494,al_c,q_85,enc_auto/05_GAB_Piotr_Grabowski_Anna_B_Gregorczyk.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_4b44ed3de15d400fb3c326c15c057263~mv2_d_5566_3689_s_4_2.jpg/v1/fill/w_2682,h_1780,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/123456.jpg",
+    url: "https://www.studiogab.net/nowa-gorka",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_bae60199cd3a41a6b97ed245080aa164~mv2.jpg/v1/crop/x_0,y_233,w_2880,h_1454/fill/w_2682,h_1354,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/GAB_Cynamonowa_%C2%A9_ONI_Studio_5264-21.jpg",
+    url: "https://www.studiogab.net/dom-w-poznaniu",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_d16a6c7e406647bfb30fa9db754867fa~mv2.jpg/v1/crop/x_0,y_156,w_2880,h_1608/fill/w_2690,h_1502,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/GAB_Cynamonowa_%C2%A9_ONI_Studio_5175-17.jpg",
+    url: "https://www.studiogab.net/dom-w-poznaniu",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_767b5821a001434c9bef4c1e55ac4352~mv2.jpg/v1/crop/x_0,y_653,w_1920,h_2227/fill/w_1052,h_1218,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/GAB_Cynamonowa_%C2%A9_ONI_Studio_5268-22.jpg",
+    url: "https://www.studiogab.net/dom-w-poznaniu",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_47f54437e0cd450db13bb932bc4fcac1~mv2.jpg/v1/crop/x_0,y_329,w_1920,h_2223/fill/w_1052,h_1218,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/GAB_Cynamonowa_%C2%A9_ONI_Studio_5257-20.jpg",
+    url: "https://www.studiogab.net/dom-w-poznaniu",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_0da51fcf5a6048eda1ec2f2e259d4c3a~mv2.jpg/v1/fill/w_2690,h_1278,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/GAB_Cynamonowa_%C2%A9_ONI_Studio_5150-15.jpg",
+    url: "https://www.studiogab.net/dom-w-poznaniu",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_845a64aab23a4503a73265db399d11cd~mv2.jpg/v1/fill/w_2690,h_1278,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/GAB_Cynamonowa_%C2%A9_ONI_Studio_4787-8.jpg",
+    url: "https://www.studiogab.net/dom-w-poznaniu",
+  },
+  {
+    src: "https://static.wixstatic.com/media/8bf7e8_fd149affb7044acca8a2112a74104681~mv2.jpg/v1/crop/x_160,y_0,w_2718,h_1920/fill/w_2694,h_1902,al_c,q_90,usm_0.66_1.00_0.01,enc_auto/GAB_Cynamonowa_%C2%A9_ONI_Studio_4828-7.jpg",
+    url: "https://www.studiogab.net/dom-w-poznaniu",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204054/images/1920x0/dom-na-skraju-w-jablonnej-423216.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204058/images/1920x0/dom-na-skraju-w-jablonnej-423220.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204059/images/1920x0/dom-na-skraju-w-jablonnej-423221.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204061/images/1920x0/dom-na-skraju-w-jablonnej-423223.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204062/images/1920x0/dom-na-skraju-w-jablonnej-423224.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204063/images/1920x0/dom-na-skraju-w-jablonnej-423225.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204069/images/1920x0/dom-na-skraju-w-jablonnej-423231.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204070/images/1920x0/dom-na-skraju-w-jablonnej-423232.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204072/images/1920x0/dom-na-skraju-w-jablonnej-423234.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204077/images/1920x0/dom-na-skraju-w-jablonnej-423239.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=25",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204078/images/1920x0/dom-na-skraju-w-jablonnej-423240.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=26",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204080/images/1920x0/dom-na-skraju-w-jablonnej-423242.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=28",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204081/images/1920x0/dom-na-skraju-w-jablonnej-423243.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=29",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204088/images/1920x0/dom-na-skraju-w-jablonnej-423250.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=36",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204090/images/1920x0/dom-na-skraju-w-jablonnej-423252.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=38",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204091/images/1920x0/dom-na-skraju-w-jablonnej-423253.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=39",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204092/images/1920x0/dom-na-skraju-w-jablonnej-423254.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=40",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204093/images/1920x0/dom-na-skraju-w-jablonnej-423255.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=41",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204097/images/1920x0/dom-na-skraju-w-jablonnej-423259.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=45",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204099/images/1920x0/dom-na-skraju-w-jablonnej-423261.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=47",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204102/images/1920x0/dom-na-skraju-w-jablonnej-423264.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=50",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204106/images/1920x0/dom-na-skraju-w-jablonnej-423268.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=54",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204055/images/1920x0/dom-na-skraju-w-jablonnej-423217.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-na-skraju-77-studio-architektury,35456.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/32608/images/1920x0/dom-oparty-o-skarpe-396782.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194171/images/1920x0/rzut-poziomu-396794.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194169/images/1920x0/rzut-poziomu-396792.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194173/images/1920x0/przekroj-396796.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194172/images/1920x0/widok-od-strony-ogrodu-396795.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194176/images/1920x0/ogrod-powstal-dzieki-wspolpracy-marzeny-bakowskiej-barwy-ogrodow-i-jerzego-kecela-agrobud-396799.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194180/images/1920x0/czarna-rama-okalajaca-elewacje-kadruje-widoki-396803.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194177/images/1920x0/wiszacy-naroznik-396800.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194179/images/1920x0/taras-396802.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194175/images/1920x0/czarna-rama-na-elewacji-396798.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194181/images/1920x0/dom-na-skarpie-396804.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194178/images/1920x0/wjazd-do-garazu-396801.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=12",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194182/images/1920x0/pokoj-dzienny-396805.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194187/images/1920x0/strefa-dzienna-396810.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194186/images/1920x0/widok-na-czesc-dzienna-396809.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194184/images/1920x0/jadalnia-396807.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194190/images/1920x0/kuchnia-396813.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194191/images/1920x0/minimalistyczna-kuchnia-396814.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194185/images/1920x0/wnetrza-utrzymane-sa-w-rozmaitych-odcieniach-szarosci-396808.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=19",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194183/images/1920x0/surowe-wnetrza-domu-396806.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194188/images/1920x0/nowoczesne-wnetrze-domu-projektu-projektu-eweliny-jankowskiej-architektki-z-pracowni-ev-architects-396811.jpg",
+    url: "https://www.architekturaibiznes.pl/wrzeszcz-architekci-dom-oparty-o-skarpe,32608.html#lg=1&slide=21",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/207524/images/original/7e7c6382e2ae6212ad20060cab686f83.jpg",
+    url: "https://www.architekturaibiznes.pl/naww-2024-nominacje-najlepsza-architektura-wlkp,36110.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192085/images/1920x0/widok-wejscia-do-domu-391670.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192091/images/1920x0/elewacja-polnocno-zachodnia-391676.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192096/images/1920x0/widok-od-strony-zachodnio-poludniowej-391681.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192092/images/1920x0/elewacja-polnocna-391677.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=12",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192095/images/1920x0/elewacja-poludniowa-391680.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192093/images/1920x0/elewacja-poludniowo-wschodnia-391678.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192094/images/1920x0/widok-od-strony-poludniowo-wschodniej-391679.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192102/images/1920x0/przestrzenie-zewnetrzne-domu-391687.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192101/images/1920x0/przestrzenie-zewnetrzne-391686.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192104/images/1920x0/widok-na-taras-391689.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192105/images/1920x0/taras-391690.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=19",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192109/images/1920x0/panorama-wnetrza-domu-391694.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192106/images/1920x0/strefa-wejsciowa-391691.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=21",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192107/images/1920x0/korytarz-391692.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=22",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192110/images/1920x0/sypialnia-391695.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=23",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192087/images/1920x0/rzuty-391672.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192090/images/1920x0/elewacje-391675.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192098/images/1920x0/widok-z-lotu-ptaka-391683.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalizm-dom-jednorodzinny-dd-architekci,32237.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/32248/images/1920x0/dom-wsrod-drzew-proj-exterio-391602.jpg",
+    url: "https://www.architekturaibiznes.pl/przeszklony-lacznik-domu-wsrod-drzew-exterio,32248.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192052/images/1920x0/architekci-chcieli-by-forma-budynku-oraz-materialy-elewacyjne-maksymalnie-wpisywaly-sie-w-lesne-otoczenie-391603.jpg",
+    url: "https://www.architekturaibiznes.pl/przeszklony-lacznik-domu-wsrod-drzew-exterio,32248.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192053/images/1920x0/bryly-zostaly-polaczone-przeszklonym-lacznikiem-ktory-jednoczesnie-jest-zwornikiem-funkcjonalnym-budynku-391604.jpg",
+    url: "https://www.architekturaibiznes.pl/przeszklony-lacznik-domu-wsrod-drzew-exterio,32248.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192054/images/1920x0/dom-zlozony-zostal-z-dwoch-bryl-ktore-odpowiadaja-za-podzial-wnetrza-na-strefe-dzienna-i-strefe-odpoczynku-391605.jpg",
+    url: "https://www.architekturaibiznes.pl/przeszklony-lacznik-domu-wsrod-drzew-exterio,32248.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192055/images/1920x0/forma-budynku-miala-odwolywac-sie-do-rustykalnego-charakteru-mazowsza-391606.jpg",
+    url: "https://www.architekturaibiznes.pl/przeszklony-lacznik-domu-wsrod-drzew-exterio,32248.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192056/images/1920x0/dom-zlokalizowany-jest-pod-warszawa-391607.jpg",
+    url: "https://www.architekturaibiznes.pl/przeszklony-lacznik-domu-wsrod-drzew-exterio,32248.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/30338/images/1920x0/bdr-architekci-stworzyli-dom-w-konstrukcji-hybrydowej-372794.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/185112/images/1920x0/otwarcie-na-zewnatrz-bylo-podyktowane-nie-tylko-wykorzystaniu-dzialki-ale-rowniez-zwiekszeniu-powierzchni-biologicznie-czynnej-372795.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/185113/images/1920x0/strefa-dzienna-zostala-maksymalnie-otwarta-na-zewnetrzne-otoczenie-372796.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/185114/images/1920x0/taras-stanowi-istotny-element-calego-zalozenia-372797.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/185115/images/1920x0/wnetrze-domu-372798.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/185116/images/1920x0/wnetrze-domu-372799.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/185117/images/1920x0/inwestor-wykazywal-duze-zaufanie-oraz-byl-otwarty-na-wiele-niekonwencjonalnych-rozwiazan-372800.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/185118/images/1920x0/najwiekszym-wyzwaniem-bylo-zdecydowanie-rozplanowanie-programu-funkcjonalnego-na-dzialce-i-w-budynku-372801.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-z-konstrukcja-hybrydowa,30338.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/28208/images/1920x0/dom-s-zaprojektowali-przemyslaw-kaczkowski-i-magdalena-morelewska-362676.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181391/images/1920x0/projekt-musial-zostac-wkomponowany-w-trudna-nieduza-dzialke-362682.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181390/images/1920x0/trudne-do-pogodzenia-bylo-polaczenie-ogrodu-i-wjazdu-od-strony-poludniowej-362681.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181386/images/1920x0/indywidualny-wzor-fasady-ceramicznej-ktory-zastosowano-w-realizacji-362677.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181388/images/1920x0/dom-zaprojektowano-uwzgledniajac-moduly-362679.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181389/images/1920x0/rownie-istotna-byla-przestrzen-wokol-domu-362680.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181392/images/1920x0/taras-od-strony-poludniowej-362683.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181393/images/1920x0/istotne-bylo-zachowanie-wysokiej-brzozy-ktora-mogla-ucierpiec-przy-pracach-budowlanych-362684.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181394/images/1920x0/wnetrze-domu-362685.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181395/images/1920x0/wnetrze-domu-362686.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/28208/images/1920x0/dom-s-zaprojektowali-przemyslaw-kaczkowski-i-magdalena-morelewska-362676.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-przy-ktorym-uratowano-brzoze,28208.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179632/images/fit/1100x0/34cb0c90224e3e1f38069ead414bde1c.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179542/images/fit/1100x0/4005d11955156df3a29eff022c3a4b24.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179534/images/fit/1100x0/0052b54e1a83d938026e53be763687dc.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179546/images/fit/1100x0/165604b4c926a856ec59d77866795e4f.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179532/images/fit/1100x0/4b2a401422413b009cab2a91fd6e17ad.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179535/images/fit/1100x0/dab662bea5c27b46bad79cd42fc33885.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179537/images/fit/1100x0/3d2db9d5f0733e30aca4c35227f8a8af.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179543/images/fit/1100x0/ca9208d68e1c4bf33d87595d4625fa07.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-norwegii-projektu-polskich-architektow,28005.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/27707/images/1920x0/parterowy-dom-kel-powstal-w-lublinie-355925.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177166/images/1920x0/dom-otwiera-sie-w-strone-ogrodu-355931.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177160/images/1920x0/dom-jest-minimalistyczny-i-parterowy-355910.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177158/images/1920x0/dom-kel-widok-z-lotu-ptaka-355908.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177159/images/1920x0/dom-kel-powstal-w-otoczeniu-rozwijajacego-sie-osiedla-355909.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177152/images/1920x0/dom-kel-powstal-w-lublinie-355902.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177144/images/1920x0/dodatkowe-oslony-wplywaja-na-poczucie-prywatnosci-355894.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177146/images/1920x0/dom-kel-osloniety-jest-od-pobliskiej-zabuodowy-355896.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177150/images/1920x0/architekci-postanowili-odciac-sie-od-dynamicznie-rozwijajacego-sie-osiedla-i-otworzyc-dom-na-polnocny-wschod-355900.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177154/images/1920x0/dom-kel-noca-355904.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177157/images/1920x0/dom-kel-od-strony-ogrodka-355907.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177155/images/1920x0/dom-w-lublinie-noca-355905.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177156/images/1920x0/podjazd-do-domu-355906.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177162/images/1920x0/dom-kel-m-rzut-355912.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177163/images/1920x0/dom-kel-przekroj-355913.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177164/images/1920x0/dom-kel-elewacje-355914.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=19",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/177165/images/1920x0/dom-kel-elewacje-355915.jpg",
+    url: "https://www.architekturaibiznes.pl/parterowy-dom-w-lublinie,27707.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/27177/images/1920x0/dom-w-grzepnicy-349792.jpg",
+    url: "https://www.architekturaibiznes.pl/grafit-zolc-i-prefabrykaty-dom-projektu-maxberg,27177.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/173603/images/1920x0/dom-w-grzepnicy-zostal-zbudowany-pod-szczecinem-349793.jpg",
+    url: "https://www.architekturaibiznes.pl/grafit-zolc-i-prefabrykaty-dom-projektu-maxberg,27177.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/173604/images/1920x0/dom-zostal-zbudowany-z-prefabrykatow-349794.jpg",
+    url: "https://www.architekturaibiznes.pl/grafit-zolc-i-prefabrykaty-dom-projektu-maxberg,27177.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/173605/images/1920x0/zespol-zlozony-zostal-z-trzech-polaczonych-segmentow-i-wolnostojacego-garazu-349795.jpg",
+    url: "https://www.architekturaibiznes.pl/grafit-zolc-i-prefabrykaty-dom-projektu-maxberg,27177.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/173606/images/1920x0/na-elewacji-wykorzystano-dwa-kolory-grafit-i-zolc-349796.jpg",
+    url: "https://www.architekturaibiznes.pl/grafit-zolc-i-prefabrykaty-dom-projektu-maxberg,27177.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/173607/images/1920x0/dom-w-grzepnicy-349797.jpg",
+    url: "https://www.architekturaibiznes.pl/grafit-zolc-i-prefabrykaty-dom-projektu-maxberg,27177.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/173608/images/1920x0/taras-349798.jpg",
+    url: "https://www.architekturaibiznes.pl/grafit-zolc-i-prefabrykaty-dom-projektu-maxberg,27177.html#lg=1&slide=6",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo10front.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo2web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo1web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo10web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo9web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo8web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo7web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo6web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo5web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo4web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/05/maxberg_jaskowo3web.jpg",
+    url: "https://maxberg.pl/item/dom-w-jaskowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/02/Wirow-Front.jpg",
+    url: "https://maxberg.pl/item/dom-w-wirowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/02/Wirow-web05.jpg",
+    url: "https://maxberg.pl/item/dom-w-wirowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/02/Wirow-web04.jpg",
+    url: "https://maxberg.pl/item/dom-w-wirowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/02/Wirow-web01.jpg",
+    url: "https://maxberg.pl/item/dom-w-wirowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/02/Wirow-web03.jpg",
+    url: "https://maxberg.pl/item/dom-w-wirowie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/07/maxberg_mirabelki-1big.jpg",
+    url: "https://maxberg.pl/item/dom-przekrecony/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/07/maxberg_mirabelki-3.jpg",
+    url: "https://maxberg.pl/item/dom-przekrecony/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/07/maxberg_mirabelki-2.jpg",
+    url: "https://maxberg.pl/item/dom-przekrecony/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/03/Ostoja01-front.jpg",
+    url: "https://maxberg.pl/item/dom-w-ostoi/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/03/Ostoja02-web.jpg",
+    url: "https://maxberg.pl/item/dom-w-ostoi/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/03/Ostoja03-web.jpg",
+    url: "https://maxberg.pl/item/dom-w-ostoi/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/03/Ostoja04-web.jpg",
+    url: "https://maxberg.pl/item/dom-w-ostoi/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2021/03/Ostoja01-web.jpg",
+    url: "https://maxberg.pl/item/dom-w-ostoi/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Trier-Front-squer.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Trier-Back-squer.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/TRIER_ONLINE.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Hol-wejsciowy-web.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Salon-3-web.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Salon-web.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Salon4-web.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Salon2-web.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Sypialnia1-web.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2017/07/Sypialnia2-web.jpg",
+    url: "https://maxberg.pl/item/budynek-szeregowy-w-trewirze/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2018/10/Dom-Atrialny-cover.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-91.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-4.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-11.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-17.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-18.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-26.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-40.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-43.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-44.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-48.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-90.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-91.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Dom-Atrialny-92.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Miedwie02.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/Miedwie01.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/JADALNIA-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/%C5%81AZIENKA-G%C5%81%C3%93WNA-1A-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/%C5%81AZIENKA-G%C5%81%C3%93WNA-2A-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/POKOJ-C%C3%93RKI1-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/POKOJ-GOSCINNY-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/SALON-1-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/SYPIALNIA-2-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/BASEN2-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/PAKERNIA1-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/GARDEROBA-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/HOL-BASEN-SALON-1-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/11/HOL-PINGPONG-RESZTA-8-M.jpg",
+    url: "https://maxberg.pl/item/dom-atrialny/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2018/09/Dobra-Front.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra2.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra4.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra18.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra21.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra23.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra31.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra47.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra54.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra57.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra58.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra59.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/Dobra60.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/DomDobraSzczecinska02.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2016/03/DomDobraSzczecinska01.jpg",
+    url: "https://maxberg.pl/item/dom-w-dobrej-szczecinskiej/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/Blankensee-Front.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_04web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_05web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_06wb.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_12web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_13web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_14web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_15web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_16web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_17web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_19web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_20web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_21web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_08web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_22web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2019/11/190923_Blankensee_24web.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2015/12/blankensee-w02-full.jpg",
+    url: "https://maxberg.pl/item/dom-w-blankensee/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_5-front.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_8-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_7-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_6-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_5-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_4-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_3-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_1-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna1_2-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_5-front.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_8-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_1-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_7-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_6-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_5-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_4-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_3-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://maxberg.pl/wp-content/uploads/2023/11/maxberg_przestrzenna2_2-web.jpg",
+    url: "https://maxberg.pl/item/apartament-w-szczecinie-ii/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2023/08/PRZ_2033-2.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2023/08/PRZ_2027-2.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2021/11/DSC_5995.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2021/11/DSC_6004.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2021/11/DSC_6120.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2023/08/PRZ_2018-2-1.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2023/08/PRZ_2056-2.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2023/08/PRZ_2081-2.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2021/11/DSC_6117.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2021/05/ultra-architects-dom-poznan-06d.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2021/05/ultra-architects-dom-poznan-06e.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://ultra-architects.pl/wp-content/uploads/2021/05/ultra-architects-dom-poznan-06a-scaled.jpg",
+    url: "https://ultra-architects.pl/dom-pod-poznaniem/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-01.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-02.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-03.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-04.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-05.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-07.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-08.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-09.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-10.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-11.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-14.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-projekt-wnetrze-ogo-jozefow-15.jpg",
+    url: "https://081.com.pl/ogo_24/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/11/081-architekci-projekt-dom-jednorodzinny-ogo-jozefow-01.jpg",
+    url: "https://081.com.pl/ogo_23/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/11/081-architekci-projekt-dom-jednorodzinny-ogo-jozefow-03.jpg",
+    url: "https://081.com.pl/ogo_23/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/11/081-architekci-projekt-dom-jednorodzinny-ogo-jozefow-05.jpg",
+    url: "https://081.com.pl/ogo_23/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-01.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-02.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-03.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-04.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-05.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-06.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-07.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-08.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-09.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-10.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-11.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-12.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-13.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-14.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-15.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-16.jpg",
+    url: "https://081.com.pl/cho_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-01.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-02.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-03.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-04.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-06.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-07.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-08.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-09.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-10.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-11.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-12.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-13.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-14.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-15.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-16.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/07/081-architekci-projekt-dom-jednorodzinny-murem-otoczony-kel-lublin-17.jpg",
+    url: "https://081.com.pl/kel_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-pasek.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-dron-1620x1080.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-10.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-09.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-08.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-07.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-06.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-05.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-02.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/pulawy-rzut-00.jpg",
+    url: "https://081.com.pl/cho/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/01/081-architekci-projekt-dom-jednorodzinny-gor-miechow-01.jpg",
+    url: "https://081.com.pl/gor_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/01/081-architekci-projekt-dom-jednorodzinny-gor-miechow-02.jpg",
+    url: "https://081.com.pl/gor_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/01/081-architekci-projekt-dom-jednorodzinny-gor-miechow-03.jpg",
+    url: "https://081.com.pl/gor_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/01/081-architekci-projekt-dom-jednorodzinny-gor-miechow-04.jpg",
+    url: "https://081.com.pl/gor_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/01/081-architekci-projekt-dom-jednorodzinny-gor-miechow-05.jpg",
+    url: "https://081.com.pl/gor_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/01/081-architekci-projekt-dom-jednorodzinny-gor-miechow-06.jpg",
+    url: "https://081.com.pl/gor_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2023/01/081-architekci-projekt-dom-jednorodzinny-gor-miechow-07.jpg",
+    url: "https://081.com.pl/gor_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-blizniak-sib-lublin_01.jpg",
+    url: "https://081.com.pl/sib_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-blizniak-sib-lublin_02.jpg",
+    url: "https://081.com.pl/sib_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-blizniak-sib-lublin_03.jpg",
+    url: "https://081.com.pl/sib_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-blizniak-sib-lublin_04.jpg",
+    url: "https://081.com.pl/sib_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-blizniak-sib-lublin_05.jpg",
+    url: "https://081.com.pl/sib_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-blizniak-sib-lublin_06.jpg",
+    url: "https://081.com.pl/sib_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-dom-law-lubartow_02.jpg",
+    url: "https://081.com.pl/law_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-dom-law-lubartow_04.jpg",
+    url: "https://081.com.pl/law_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-dom-law-lubartow_05.jpg",
+    url: "https://081.com.pl/law_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/08/081-architekci-projekt-dom-law-lubartow_01.jpg",
+    url: "https://081.com.pl/law_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-01.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-02.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-03.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-04.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-05.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-06.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-07.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-08.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-09.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-10.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-11.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2018/11/081-architekci-projekt-dom-jednorodzinny-koz-lublin-12.jpg",
+    url: "https://081.com.pl/koz/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_01-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_02-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_03-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_04-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_05-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_06-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_07-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_08-1.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_09.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_10.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_11.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_12.jpg",
+    url: "https://081.com.pl/poz_16/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/04_czarny_dom.jpg",
+    url: "https://081.com.pl/pie/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/05_czarny_dom.jpg",
+    url: "https://081.com.pl/pie/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/03_czarny_dom.jpg",
+    url: "https://081.com.pl/pie/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/02_czarny_dom.jpg",
+    url: "https://081.com.pl/pie/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/t_08.jpg",
+    url: "https://081.com.pl/pie/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2014/02/t_09.jpg",
+    url: "https://081.com.pl/pie/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_02.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_03.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_04.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_05.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_06.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_07.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_08.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_09.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_10.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/07/081-architekci-projekt-wnetrze-lublin-poz_20_11.jpg",
+    url: "https://081.com.pl/poz_20/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-01.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-02.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-04.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-05.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-06.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-07.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-08.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-11.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-12.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-14.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-15.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2022/02/081-architekci-projekt-wnetrze-kel-lublin-16.jpg",
+    url: "https://081.com.pl/kel_22/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-01.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-02.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-03.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-04.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-05.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-06.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-08.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-09.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-10.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-11.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-12.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-13.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-15.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-16.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-17.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-18.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-19.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-22.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-23.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-24.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-25.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2021/10/081-architekci-realizacja-wnetrze-bar-elizowka-26.jpg",
+    url: "https://081.com.pl/bar_21/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-wejscie-01-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-salon-01-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-salon-03-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-salon-02-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-wejscie-02-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-kuchnia-03.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-kuchnia-02.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-kuchnia-01-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-wc-01-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-wc-02-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-wejscie-03-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-sypialnia-01-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-lazienka-02-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2020/01/081-architekci-projekt-wnetrz-cwi-lublin-lazienka-01-copy.jpg",
+    url: "https://081.com.pl/cwi/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-gabinet_01.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-sypialnia_04.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-sypialnia_02.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-salon_04.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-salon_02.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-lazienka_01.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-kuchnia_03.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-kuchnia_04.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://081.com.pl/wp-content/uploads/2019/02/081-architekci-projekt-wnetrz-was-winterberg-kuchnia_02.jpg",
+    url: "https://081.com.pl/was/",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886828772-LIXBDZZ3NDMIUAW5Y1GP/dom+lesny_81wawpl_+%281%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886800146-AU8CY4XKKH2EP4OR7157/dom+lesny_81wawpl_+%282%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886828548-2I2XT20BNAWRTJQ7YE65/dom+lesny_81wawpl_+%283%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886824361-6YSRU06I7JC9DCWN55CZ/dom+lesny_81wawpl_+%284%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886808176-DMXNKP12MF9S4MBG709P/dom+lesny_81wawpl_+%285%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886852061-ZTEBJLUR0PJ4F2EESHW3/dom+lesny_81wawpl_+%287%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886852960-9VA0ILMEYE2MZV71AAFX/dom+lesny_81wawpl_+%288%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886879260-JJ1B2KVHKAJ7XHYKWFJG/dom+lesny_81wawpl_+%2811%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886869728-UMQJW4FISKUQKUB1CHF6/dom+lesny_81wawpl_+%2812%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886886795-8XRMZ25KVWFBAU84FSTG/dom+lesny_81wawpl_+%2813%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886897020-LD9660IK8BRT3SQLL3WB/dom+lesny_81wawpl_+%2816%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886919847-KCPA6C4V1RFKWISONO38/dom+lesny_81wawpl_+%2819%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886937558-NT9QGKMIQKBK86AM7ZY3/dom+lesny_81wawpl_+%2823%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580886946083-7NFO8GT0NT4N4NIE0BKT/dom+lesny_81wawpl_+%2826%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-lesny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/805f53cb-eda1-49b0-a72f-c6b7faa50ce6/Dom+na+zach%C3%B3d_81WAWPL_00.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/162ec7d3-9a68-4423-a5a6-d88937d65e1d/Dom+na+zach%C3%B3d_81WAWPL_00b.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/c5c1fc26-d5f1-4d0f-b9d2-fb6d5b52363e/Dom+na+zach%C3%B3d_81WAWPL_2.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/fa12729e-022c-434b-a5de-d8cd6cd3a91d/Dom+na+zach%C3%B3d_81WAWPL_3.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/7521afee-ba76-448c-9324-b77f953f591a/Dom+na+zach%C3%B3d_81WAWPL_5.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/c02d37d2-47e2-40a0-a6a9-61ca4b168c64/Dom+na+zach%C3%B3d_81WAWPL_6.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/b4e0904b-5da6-4dcd-ac47-587349e7da52/Dom+na+zach%C3%B3d_81WAWPL_6a.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/5383c8e6-44e5-4891-8a99-663def58f3a2/Dom+na+zach%C3%B3d_81WAWPL_12.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/e0c34dd4-3af6-4f62-8e57-b6af423da1ad/Dom+na+zach%C3%B3d_81WAWPL_13.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/6c62fcdf-3ca3-4b2d-9947-e07b6a850f15/Dom+na+zach%C3%B3d_81WAWPL_14.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-zachod",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/3ba3614f-5d4e-48e3-8f72-f4290882e200/Dom+Bukova+Forest+2024_81WAWPL+Bukowa+3_low+res_+%283%29+kopia+2+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-bukova-forest",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/6b71c572-c9a6-4deb-ae76-39789fd51da8/Dom+Bukova+Forest+2024_81WAWPL+Bukowa+3_low+res_+%287%29+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-bukova-forest",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/af04b101-9dae-49a9-b770-397cf05df6d5/Dom+Bukova+Forest+2024_81WAWPL+Bukowa+3_low+res_+%2816%29+kopia+3+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-bukova-forest",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/ab357380-7f43-477e-b781-04de9ad86f39/Dom+Bukova+Forest+2024_81WAWPL+Bukowa+3_low+res_+%2825%29+kopia+2+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-bukova-forest",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882574929-JPYNUQA32WQ5ESF9DVUO/dom+polny_81wawpl_+%282%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882606117-8EFS9R7TIWJG4N3A89NA/dom+polny_81wawpl_+%2819%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882607882-FPYGAFWFX90YMITEY45R/dom+polny_81wawpl_+%2823%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882592118-R7367J8H8MSTDYD3AQPH/dom+polny_81wawpl_+%2811%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882596236-X0XSOL5IVCYOXB0KU3B1/dom+polny_81wawpl_+%2813%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882579156-GWT6LGWC79ZWWW2IF1M8/dom+polny_81wawpl_+%2833%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882580596-8X2DUZNAJAQM53J43VHW/dom+polny_81wawpl_+%2832%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1580882614537-D7VLOSVT1S6DLSUE7PGO/dom+polny_81wawpl_+%2824%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-polny",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/9c5c118c-1df3-4506-a6e8-fe542462b583/Dom+Jak+Las_8.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/cf982d1f-1756-407a-ab4d-ae8e1a602269/03.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/bbf9e43e-733c-4f80-92d5-1a133bbebf39/Dom+Jak+Las_3.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/35954c45-a027-441e-bce4-b462745eb77b/07.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/37470b77-a005-4fa5-8a6b-e7cda8b1bc8d/Dom+Jak+Las_13.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/3a420533-f6d0-405f-aa2f-adcc87d575ff/01.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/7c41f7bd-749a-4b9a-88f5-256db36d0302/Dom+Jak+Las_18.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/e473ebf2-3094-4ce0-b66c-0f8543fe0c8f/05.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/0f53efbd-3902-4426-b2e9-9b801bfe3bff/Dom+Jak+Las_18.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/93e26681-a1e4-40a1-9769-4bb3ecfc91c5/Dom+Jak+Las_10.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/f0de0aef-5252-4227-8177-a27c08cbceb0/Dom+Jak+Las_11.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/0f8243d1-13b8-4217-917a-ffcf54b6b966/Dom+Jak+Las_7.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/4ee934e7-41a3-4f8e-8869-c68a9b4731a5/04.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-jak-las",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/d0285bd3-46d4-4ef2-8083-2f24169132ec/OD0A5+7550.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/bc2f92d1-8302-48ee-bd5b-1ca63afdca5d/OD0A9+7864.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/5b929ae0-88dc-40aa-abdd-dd6540d6af9f/OD0A8+7856.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/6412afb7-41e8-452d-8129-d47957863d9d/OD0A12+8042.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/13994833-fafb-4416-8856-08bd4dd5d44e/OD0A11+8009.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/c55fc17a-ebd7-433b-b8f7-17f147e46b97/OD0A10+7907.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/919c1e3b-7776-4f80-bfa3-0a4620ea1b52/OD0A7+7781.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/a9cbab79-a9e1-47d3-ae40-812dd8232888/OD0A17+8127.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/5be3b29d-b1a6-4cc0-91d8-4b469dfd7428/OD0A16+8124.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/3d813159-3b7f-4d79-9bce-ef3c79ec4685/OD0A14+8092.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/cd69a290-1b56-4023-a8de-a8dcf1556288/OD0A20+8214.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/8b52f003-6368-4721-8b4b-cec4136e4aff/OD0A3+7504.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/e642d725-0489-4491-80af-e6689e1eef48/OD0A2+7500+kopia.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/39d7a36f-df0e-4723-a5bf-9fb705c15c8c/OD0A19+8206.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-y",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/403942c8-e7b0-49a1-8613-7dce7a5a3952/Dom+Przelamany_2023_81WAWPL+04+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/7fe53bf7-8560-46d7-b61f-cfa46afdbf04/Dom+Przelamany_2023_81WAWPL+05+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/a63e7e2c-e8c6-453e-af7a-7bbd72585f07/Dom+Przelamany_2023_81WAWPL+06+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/6d4baf27-9e01-4eba-bb53-f0d07db31872/Dom+Przelamany_2023_81WAWPL+07+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/76e81874-387f-4f52-bcf0-acbc373929db/Dom+Przelamany_2023_81WAWPL+08+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/35893a9b-40ee-450c-91c2-8bbb5f94e480/Dom+Przelamany_2023_81WAWPL+17+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/b71a179a-8342-4d6c-8c96-dcf08d5c9574/Dom+Przelamany_2023_81WAWPL+001+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/af8f6573-3a84-4984-8a4f-d50464d75fd4/Dom+Przelamany_2023_81WAWPL+001E+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/b3d3a657-877c-4b38-a6bd-7d9d4e2f2b68/Dom+Przelamany_2023_81WAWPL+2-2+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/0c355fdf-467c-4798-8656-81e303dd8b86/Dom+Przelamany_2023_81WAWPL+2-3+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/da1f378a-3f09-4f2e-b03d-8ba7401541d2/Dom+Przelamany_2023_81WAWPL+2-6+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/38fdbbf6-16f8-4309-b1d5-42d5a8c7e938/Dom+Przelamany_2023_81WAWPL+03-1+.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-przelamany",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/7ea10930-bf19-4068-94ba-46714178ef69/zorro_81wawpl_01.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-zorro",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/fa83f645-a6b0-41a0-bf89-1b37d2a34a1f/zorro_81wawpl_02.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-zorro",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/0e151618-2b30-41fb-958c-8c08b587de56/zorro_81wawpl_04.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-zorro",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/5390b84f-9873-4297-b987-1f2400168f97/zorro_81wawpl_03.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-zorro",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/770c75ae-3862-4bd9-aeab-50a428ef2911/zorro_81wawpl_05.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-zorro",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/3f2dc24e-8282-4c55-b8f8-3200f37924bd/model_02_cam_09.jpg?format=1500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/5c3fe3fa-9742-4ffd-8c3a-d2a311f87d5e/model_02_cam_06.jpg?format=1500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/c6eef4b0-6bce-4a47-9c32-298cf4ff254d/model_01_cam_02.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/be614971-ee8e-408c-af53-ccd66f486879/model_01_cam_03.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/99fc4587-b1f4-4322-a676-543b34f89b8d/model_03_cam_01.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/9cc75856-6d1b-49f8-aa8b-c66012280e56/model_02_cam_06.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/f724346b-b3db-4ac7-800c-611c4f954d47/dom-ki+w+lesie_81wawpl_03.jpg?format=1500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem-dm77x",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/38e5a637-d448-4e64-8a0a-50aa44479a4a/dom-ki+w+lesie_81wawpl_02.jpg?format=1500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem-dm77x",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/ad7d87a1-26ac-46af-ad98-04700113e5a3/dom-ki+w+lesie_81wawpl_05.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-z-widokiem-dm77x",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/4d6af413-5e92-4b8f-a93f-04d7b10aebe6/Dom+na+liter-z-e+K_81wawpl_+01.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-literze-k",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/aa251f85-7abd-47f6-9b7a-6ca709ccf8b8/Dom+na+liter-z-e+K_81wawpl_+04.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-literze-k",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/26be6eba-ed2d-41cf-a88f-38e4b6ba9fca/Dom+na+liter-z-e+K_81wawpl_+06.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-na-literze-k",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1581224146466-227NFBI92GSWHL4RXKE9/dom+po+przekatna_81wawpl_+%289%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-po-przekatnej",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1581224097548-HZ9O4RLGTMMPNLZJ36IU/dom+po+przekatna_81wawpl_+%283%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-po-przekatnej",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1581224093984-JWIW8NWB8O4UT79IUV3Q/dom+po+przekatna_81wawpl_+%282%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-po-przekatnej",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1581224108231-FTBNVUXV7BXG3QMTR7RF/dom+po+przekatna_81wawpl_+%284%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-po-przekatnej",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1581224139345-YF8H6C2L1Z3P6N5JL0HY/dom+po+przekatna_81wawpl_+%288%29.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-po-przekatnej",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/0cad2710-da1e-4523-b4c4-bc1834d4f1ce/dom+polny_81wawpl_+07.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/lipova-living",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/0318dd51-eeeb-49ff-b0e0-70ed243bbe88/dom+polny_81wawpl_+06.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/lipova-living",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/ee8e4e57-f9e8-4f68-9956-f8ee382bc79b/dom+polny_81wawpl_+01.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/lipova-living",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/4eaf06ab-446e-4961-9b51-242631ab7d4b/dom+polny_81wawpl_+02.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/lipova-living",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/6d50624e-06b7-4f90-add8-8a864614106c/dom+polny_81wawpl_+04.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/lipova-living",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/84be75b1-398f-4962-807c-3cb63a014611/dom+polny_81wawpl_+05.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/lipova-living",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/4add5434-fa96-4446-b985-70e913b82f34/dom+nad+brzegiem_81WAWPL_01.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-nad-brzegiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/92bf0354-8da9-490a-9492-74e611ed1b7d/dom+nad+brzegiem_81WAWPL_02.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-nad-brzegiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/90e7bb27-b48f-4284-8626-5e23b24473b7/dom+nad+brzegiem_81WAWPL_03.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-nad-brzegiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/833933d6-8753-42a4-8efc-f46ba5c6e3b9/dom+nad+brzegiem_81WAWPL_04.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-nad-brzegiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/efaa830e-d082-4e73-9a39-7f088c87ee77/dom+nad+brzegiem_81WAWPL_05.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-nad-brzegiem",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1581225428379-BIHX487VJ40A02XALBMJ/Dom+pod+linia_81wawpl_02.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-pod-linia",
+  },
+  {
+    src: "https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/1581225428209-RH68ZUYOCLWMLG437GGB/Dom+pod+linia_81wawpl_03.jpg?format=2500w",
+    url: "https://www.81.waw.pl/projekty/dom-pod-linia",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/08_KADZIOLECZKI_15_04_2022-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/07_KADZIOLECZKI_15_04_2022-1-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/09_KADZIOLECZKI_15_04_2022-1-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/06_KADZIOLECZKI_25_03_2022.jpg",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/05_KADZIOLECZKI_25_03_2022.jpg",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/04_KADZIOLECZKI_25_03_2022.jpg",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/K_0.png",
+  },
+  {
+    url: "https://kael.eu/project/011a-kadzioleczki",
+    src: "https://kael.eu/wp-content/uploads/K_I.png",
+  },
+  {
+    url: "https://kael.eu/project/007a-wilanow",
+    src: "https://kael.eu/wp-content/uploads/01a_SZALWIOWA__24_02_2023-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/007a-wilanow",
+    src: "https://kael.eu/wp-content/uploads/02a_SZALWIOWA__24_02_2023-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/007a-wilanow",
+    src: "https://kael.eu/wp-content/uploads/04_BIALOLEKA-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/007a-wilanow",
+    src: "https://kael.eu/wp-content/uploads/03a_SZALWIOWA__24_02_2023-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/007a-wilanow",
+    src: "https://kael.eu/wp-content/uploads/04b_SZALWIOWA__24_02_2023-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/007a-wilanow",
+    src: "https://kael.eu/wp-content/uploads/bialoleka_rzut.png",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/01_dobrzykowice_kaelarchitekci-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/06_dobrzykowice_kaelarchitekci-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/03_dobrzykowice_kaelarchitekci-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/04_dobrzykowice_kaelarchitekci-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/05_dobrzykowice_kaelarchitekci-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/02_dobrzykowice_kaelarchitekci-scaled.jpg",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/DOBRZYKOWICE_I.png",
+  },
+  {
+    url: "https://kael.eu/project/004a-dobrzykowice",
+    src: "https://kael.eu/wp-content/uploads/DOBRZYKOWICE_II.png",
+  },
+  {
+    url: "https://kael.eu/project/krzyzewo",
+    src: "https://kael.eu/wp-content/uploads/01-projekty-domow-warszawa-marki-kael-architekci.jpg",
+  },
+  {
+    url: "https://kael.eu/project/krzyzewo",
+    src: "https://kael.eu/wp-content/uploads/02-projekty-domow-warszawa-marki-kael-architekci.jpg",
+  },
+  {
+    url: "https://kael.eu/project/krzyzewo",
+    src: "https://kael.eu/wp-content/uploads/03-projekty-domow-warszawa-marki-kael-architekci.jpg",
+  },
+  {
+    url: "https://kael.eu/project/krzyzewo",
+    src: "https://kael.eu/wp-content/uploads/04-projekty-domow-warszawa-marki-kael-architekci.jpg",
+  },
+  {
+    url: "https://kael.eu/project/krzyzewo",
+    src: "https://kael.eu/wp-content/uploads/RZUT_krzyzewo_kael_architekci-1.png",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/wnetrza/mieszkanie-p/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2024/07/1107_LA_0003M.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/wnetrza/mieszkanie-p/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2024/07/1107_LA_0001M.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/wnetrza/mieszkanie-p/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2024/07/1107_LA_0002M.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/wnetrza/mieszkanie-p/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2024/07/1107_LA_0005M.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/wnetrza/mieszkanie-p/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2024/07/1107_LA_0016M.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/triple-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/06/triple-house_1-2560x1059.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/triple-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/06/triple-house_2-1920x897.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/triple-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/06/triple-house_1-1-e1655988697929-1920x812.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/triple-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/06/triple-house_3-2560x1118.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/triple-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/06/triple-house_4-1920x1006.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/triple-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/06/triple-house_5-1920x796.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/narrow-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/10/WIZ_3_-2560x1265.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/narrow-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/03/WIZ_4_-1920x945.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/narrow-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/03/WIZ_1_-2560x1260.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/narrow-house/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2022/03/WIZ_2-1920x1020.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-naturalny/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/wiz-1_znak-wodny_2_male-2560x767.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-naturalny/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/wiz-2_znak-wodny_male-2560x954.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-naturalny/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/wiz-4_znak-wodny_male-1920x723.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-naturalny/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/wiz-3_znak-wodny_male-2560x936.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-japonski/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/12/wiz-1_male-2560x796.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-japonski/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/12/wiz-3_male-1920x598.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-japonski/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/12/wiz-6_male-1920x904.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-japonski/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/12/wiz-2_male-2560x835.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-japonski/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/12/wiz-7-D_male-2560x870.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-kryty-lupkiem/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/2_male-2560x1798.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-kryty-lupkiem/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/4_male-scaled-e1603982621718-1280x1309.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-kryty-lupkiem/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/3_male-1920x1275.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-kryty-lupkiem/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/6_male-1920x1161.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-kryty-lupkiem/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/7-panorama_mala-2560x783.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-dobry-2/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/wiz-2-b-scaled.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-dobry-2/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/wiz-1-b-scaled.jpg",
+  },
+  {
+    url: "https://libidoarchitekci.pl/portfolio/architektura/mieszkaniowa/dom-dobry-2/",
+    src: "https://libidoarchitekci.pl/wp-content/uploads/2020/10/wiz-5-1-1920x784.jpg",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/C9hGOV8IiRq/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/451435012_471688595465030_8654222832836321952_n.jpg?stp=dst-jpg_e35_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=102&_nc_ohc=8HuTsFAesx4Q7kNvgEFtJgx&_nc_gid=9f6655096e564deeb0a4947e32aba362&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAwYa-wbQnY1uTRNZUiRC5TI2nSyKkTVDymtY9N1cXf4w&oe=67082B36&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/C85Eda7ootT/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/449709221_1379082866099041_2439716484774337504_n.jpg?stp=dst-jpg_e35_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=101&_nc_ohc=eVHKZE3gPmQQ7kNvgFRbdF7&_nc_gid=a369a7c45a6b47dba3aa42df992e86a5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAfbfGeOhJGr0md3zco74AQQKQ1WJZyqQVogN9jYgUvXw&oe=67082ED7&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/CzyJoOGoSh7/?img_index=1",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/402806583_1037157054197790_1429223192958703783_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNTAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=106&_nc_ohc=_yEPKK9V1JYQ7kNvgH6qVnD&_nc_gid=84afe4f2d41b4c41aa0f847b36d65165&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAMuuF5OtWgK_VZUthOTpIzwRdrMAERUIhfIo-6DYl-lw&oe=6708321C&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/Cu9LQ8aou_b/",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/361930823_272113915554118_5823191456092592373_n.jpg?stp=dst-jpg_e35_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MTguc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=cx7x31iI4eYQ7kNvgFKDToj&_nc_gid=0c630081172f4a5888f712841c6b06f1&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCZHGQlZUCtydTOKXl4lcWPrt4TpFKRpSShVvv85IlYAw&oe=670819CC&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/Cu7X-99Inle/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/361928607_676753474468476_159105070639668478_n.jpg?stp=dst-jpg_e35_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MTguc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=100&_nc_ohc=bZvKGZl7mUMQ7kNvgGuNwIK&_nc_gid=d10cb44cc54847dda48a476e4f8cdda5&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYADgvTj-w0we65tY3cHpo-mJtj3rNCl__MfNFx1mEK6hQ&oe=6708177E&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/CutQ0OioYUk/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/359786393_749841620161457_1678780436564225959_n.jpg?stp=dst-jpg_e35_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE3OTkuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=105&_nc_ohc=PiUhHkOtzt8Q7kNvgEmIli7&_nc_gid=bc5bdf490aba46aa91a2f636fe160f73&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB-ljf0kxsLR02u45b0MNpl8fAUw8B4Iw1FPsA9Uu52FQ&oe=670840C0&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/CnjWcjgIHYj/",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/325672137_616451453578007_6901027845319936927_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNjMuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=dpQCX9n6FNcQ7kNvgFDSf57&_nc_gid=55c1d66034c44965b6072eba27cda8e1&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAhku_2T33KGD3Po71F2t9xLkWN7W-2oDqXmbEDRiOf4A&oe=67082FAE&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/Cl5l4lQIFVO/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/318776830_704715541044186_2756174685183295336_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNjMuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=106&_nc_ohc=0bR2HYMLrMAQ7kNvgEG6Fv6&_nc_gid=b241fc7e9cba489b9b9edf2d6b2936d9&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBWgqw9Er_kTjFP3Pyn0Y_qundLBEyXfCuiwVwd-LnHhA&oe=67084674&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/Clf0cbponVx/",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/317371774_894619908218745_1995419489036427839_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNjMuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=WqKyyQ62lTAQ7kNvgHqjJMR&_nc_gid=0ffa5188655747b99d66c5eaeeea9c83&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBZ2KDceXHJmUNqr54Iiz9I4umeXu4hxT45h65yxiryYw&oe=67084175&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/Ci11E3pIEKq/",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/308063362_2087024851497704_7143598573537068938_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNjMuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=108&_nc_ohc=LqWeY-i12sMQ7kNvgFQr_p4&_nc_gid=2ab7baad83bd44e8abbc67ea7c7f0902&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC3R6sWFi3XfbczC8qDip3eHr9PQSgOKaUsX6S-xYSC0A&oe=67082371&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/Cit08k2IqRZ/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/307446835_480024100670547_4503281936955234190_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNjMuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=103&_nc_ohc=93Pw4yaOs0YQ7kNvgG-skFv&_nc_gid=63cb65adea834ec38d11cdce1b979382&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCeIbl6jms47ANXSBijZyJewfPqISGJ_kX13_VoIEOWWw&oe=6708286C&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/CirXAH-IRFE/",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/307801302_1224466585069520_3129296613333326596_n.jpg?stp=dst-jpg_e15_fr_p1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNjMuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=108&_nc_ohc=Zuf-Gd933RUQ7kNvgGajylq&_nc_gid=c5ff7d91638f4600b02243dd7b21be63&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDORhoyA_MMuMGcOc-BDuuOjKORlustYdcXXg-gbQVUvw&oe=67082AD8&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/CiR7zHpoawP/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/305651967_786568009276165_1084579845276617822_n.jpg?stp=dst-jpg_e35_p750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDEzNjMuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=101&_nc_ohc=qzXLXq_VPngQ7kNvgGWwf75&_nc_gid=52118dcd6df04c73b79547579ee923ff&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCRq1CYUbTRyeAyXQpqW6iJZ9kYX6M7PnXWVjro3z_07A&oe=67082C9A&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/Bc0CDTvgd68/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.2885-15/25012211_1568977859823822_4372934893886242816_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDc3OS5zZHIuZjI4ODUuZGVmYXVsdF9pbWFnZSJ9&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=106&_nc_ohc=Tmg4n8cZOF0Q7kNvgHVYyxS&_nc_gid=344a5e01ecbc4b01983fe50ed6113d14&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAZgXbajQq97BoRPTLukmWQMmeU5UOtL5Mzz6s4tZsowQ&oe=670820BC&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/ppmartaszlachta/p/BcrbjgVgsPe/",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.2885-15/25021727_137789220264682_8233828111775432704_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgweDgwOC5zZHIuZjI4ODUuZGVmYXVsdF9pbWFnZSJ9&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=0ylK40QEkm0Q7kNvgH5yBVu&_nc_gid=48745f5bd98d4ee7baa73692e5508e5c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC9t97JSkd2Gz8-0VK1CeSwXpDZFytJPw23XK1-cCu6SA&oe=67082F5E&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-2xnbZocM5/",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/455389855_1146668549736881_1782211244494810815_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=105&_nc_ohc=ZBcvl7yJAcQQ7kNvgGL9xCD&_nc_gid=315f3f8aaa6b47c780b3b3e383512547&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYCb99hVv7LMqt6-a_WMBFXpOiAwdEaogXvtIPy1GRZq4g&oe=67081F89&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-2xPwlINYg/?img_index=1",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/456333735_517536733983157_1380408117742571465_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=101&_nc_ohc=UNA4Usk5aYsQ7kNvgF0_CHk&_nc_gid=eb0bac0bbeb0406dbdbbe7f5a6c563bc&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYArUem9LiaEUBroze02NeRD-jugUiwQaTlVsNPt5bNPZg&oe=67082FB0&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-2xPwlINYg/?img_index=2",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/456076732_1612243752676955_5100848217992478320_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=eAO6AkDWIjgQ7kNvgERfXdm&_nc_gid=eb0bac0bbeb0406dbdbbe7f5a6c563bc&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC_tFOAq43lOC5Zj0ksfXVh22SzynUjnPtQXJSzQZmK6Q&oe=67082232&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-2xPwlINYg/?img_index=3",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/456080505_1052895663216575_5853277068001976846_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=J3ga_M1O1hMQ7kNvgGJG_KB&_nc_gid=eb0bac0bbeb0406dbdbbe7f5a6c563bc&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBhK21dM7BFkqdUXhOm4FxlWCEgJWbh5bnAvNCrpLsWLQ&oe=67083B77&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-upgo6Ia1y/?img_index=1",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/455292254_1959967911130305_2428601918456870543_n.jpg?stp=dst-jpg_e35_s1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=i9ByxIlquPoQ7kNvgH8P2Tx&_nc_gid=ed07992ac1794992a0ce504a79aabd66&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAXKkFDQCxdCsVjGhWcUgFysDYw-a6g7n0X0sS4wpmU0g&oe=6708198D&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-upgo6Ia1y/?img_index=2",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/455620883_2635948803263982_5812018479644241478_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=106&_nc_ohc=jCte55C7LJ4Q7kNvgE5JsQc&_nc_gid=ed07992ac1794992a0ce504a79aabd66&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYDpRglmO8GvfV6qWDuXVleg6QMOOGIQQaDwnHHXyd9W4g&oe=67083507&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-upgo6Ia1y/?img_index=3",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/455698914_1672137490304372_397999706195265604_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDc5eDEwNzkuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=108&_nc_ohc=ab9gyHRtvwAQ7kNvgFbHzVp&_nc_gid=ed07992ac1794992a0ce504a79aabd66&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYB3anX0xcT3XwaV9BUVQaA74UixjjR-Q4QqMimSLaidEQ&oe=67084090&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C-uo7yJoCq8/?img_index=1",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/455688144_1726345907770689_4125832780350904436_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=109&_nc_ohc=JdLU0VmnDH0Q7kNvgF0HPXU&_nc_gid=36bb6a1bd35242f6b83c87186f853348&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYChT1j_jq6xW7O6LaXJOEJlDclFeWzWeUhmmuoN3F-gzw&oe=67083046&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/C0y9-Q5MfUr/?img_index=1",
+    src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/410295523_1909687292759153_9007801641345267536_n.jpg?stp=dst-jpg_e35_s1080x1080&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=105&_nc_ohc=xWIU-piiGTsQ7kNvgGL6qQg&_nc_gid=4832b642caa64bd4a8f48247534a04bb&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYC1_FTFSbKYNiI-6vG7M16Id-yAYu3fGjk65-ro6_iJsw&oe=67082631&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/Cydr2NuM433/?img_index=1",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/391400567_881577756868487_4093680059203230653_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=111&_nc_ohc=q6wx5e-OHCgQ7kNvgEfO3Ji&_nc_gid=8d8b2d2ff0b5478193314925b7f2ca7c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYBmK5XVTjnBEovxBDIBX2qi72IpYKmUbdEsayMVsKqVhw&oe=67084540&_nc_sid=d885a2",
+  },
+  {
+    url: "https://www.instagram.com/89_stopni/p/Cydr2NuM433/?img_index=2",
+    src: "https://scontent-waw2-1.cdninstagram.com/v/t51.29350-15/391209316_240731422307746_3905258447842188735_n.jpg?stp=dst-jpg_e35_s750x750_sh0.08&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xMDgxeDEwODEuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-1.cdninstagram.com&_nc_cat=110&_nc_ohc=pHNKbaIMpc8Q7kNvgGDITrO&_nc_gid=8d8b2d2ff0b5478193314925b7f2ca7c&edm=ANTKIIoBAAAA&ccb=7-5&oh=00_AYAAd8fFnNJ2mHOvrFq8RkGjixoFJrboNl1Spl1lq8Z61g&oe=67082E9C&_nc_sid=d885a2",
+  },
+  {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/1-12-1612x1007.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/2-7-1612x1103.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/3-10-1612x1208.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/7-1612x1075.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/6-3-1612x1076.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/4-9-1612x1074.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/5-6-1612x1075.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/9-1-1612x882.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/10-1-1612x1118.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/11-2-1612x928.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/11_1-1612x2418.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/12-1116x1674.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/13_1-1116x1674.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/13-1612x1075.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/14-1612x1075.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/15-1612x1064.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/15_1-1612x2418.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/WIZUALIZACJA-1-1612x1004.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
     src: "https://kropka-studio.pl/wp-content/uploads/2015/03/WIZUALIZACJA-2-1612x763.jpg",
-    url: "https://kropka-studio.pl/portfolio/dom-w-gorach/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090552-17_ps.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090446-4.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090447-5_ps_jasniej.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090449-7_ps.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090598-25_ps.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090567-21_ps.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090710-36_ps.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090663-30_ps.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090477-12.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
+    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
     src: "https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090439-2_ps.jpg",
-    url: "https://www.whitemad.pl/piekno-cegly-nowoczesny-blizniak-w-gdansku/",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401632_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401632_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401632_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401617_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401617_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401617_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS406361_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS406361_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS406361_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401661_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401661_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401661_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401688_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401688_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS401688_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402884_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402884_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402884_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402890_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402890_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402890_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402876_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402876_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402876_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402789_321-min-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402789_321-min-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/%C2%A9Tom-Kurek_TS402789_321-min-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9491w-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9491w-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9491w-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9469-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9469-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9469-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9141-2-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9141-2-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9141-2-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9249-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9249-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_9249-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5603-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5603-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5603-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5664uciete-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5664uciete-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5664uciete-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5562-Edit-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5562-Edit-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5562-Edit-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5606.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5606.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5606.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5645-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5645-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5645-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6949-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6949-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6949-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6952-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6952-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6952-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0638-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0638-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0638-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0593-W-2-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0593-W-2-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0593-W-2-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0669-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0669-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0669-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0731-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0731-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0731-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0848-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0848-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0848-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0766-W-%E2%80%94-kopia-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0766-W-%E2%80%94-kopia-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0766-W-%E2%80%94-kopia-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0873-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0873-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0873-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0865-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0865-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0865-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0886-W-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0886-W-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0886-W-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1026-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1026-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1026-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1036-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1036-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_1036-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0988-W-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0988-W-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0988-W-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0941-W-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0941-W-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK_MG_0941-W-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3920-3-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3920-3-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3920-3-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3892-2-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3892-2-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3892-2-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3947-Edit-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3947-Edit-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3947-Edit-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3885-2-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3885-2-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3885-2-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3837-3-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3837-3-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3837-3-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3871.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3871.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3871.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/09_Dom-w-polu.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/09_Dom-w-polu.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/09_Dom-w-polu.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/08_Dom-w-polu.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/08_Dom-w-polu.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/08_Dom-w-polu.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/2-1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/2-1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/2-1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/4-1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/4-1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/4-1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/5-1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/5-1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/5-1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/6-1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/6-1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/6-1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/7.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/7.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/7.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/8.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/8.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/8.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/10.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/10.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/10.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/9.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/9.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/9.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/lazienka-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/lazienka-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/lazienka-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/TARAS-05.04.2023-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/TARAS-05.04.2023-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/TARAS-05.04.2023-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/2-1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/2-1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/2-1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/3.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/3.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/3.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/4.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/4.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/4.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/1zniebem.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/1zniebem.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/1zniebem.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/sypialnia-glowna.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/sypialnia-glowna.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/sypialnia-glowna.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08458_241_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08458_241_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08458_241_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/11_Chyby_W.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/11_Chyby_W.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/11_Chyby_W.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/13_Chyby_W.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/13_Chyby_W.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/13_Chyby_W.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08330_241_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08330_241_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08330_241_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08540_241_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08540_241_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08540_241_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08272_241_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08272_241_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/DSC08272_241_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-4.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-4.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wizualizacja-4.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wiz1.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2021/08/wiz1.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2021/08/wiz1.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/10/01.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/10/01.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/10/01.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/02.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/02.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/02.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/03.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/03.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/03.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2018/06/04.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2018/06/04.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2018/06/04.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia.png",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia.png",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia.png",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/jadalnia.png",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/jadalnia.png",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/jadalnia.png",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia2.png",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia2.png",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/kuchnia2.png",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon1.png",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/salon1.png",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon1.png",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon2.png",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/salon2.png",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon2.png",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon4.png",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/salon4.png",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/salon4.png",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9544-1-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9544-1-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9544-1-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9392-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9392-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9392-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/4_PRZ_9618-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/4_PRZ_9618-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/4_PRZ_9618-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/9_PRZ_9706-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/9_PRZ_9706-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/9_PRZ_9706-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9713-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9713-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9713-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/7_PRZ_9719-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/7_PRZ_9719-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/7_PRZ_9719-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/8_PRZ_9721-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/8_PRZ_9721-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/8_PRZ_9721-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
-    url: "https://ev-architects.pl/wp-content/uploads/2016/12/1_PRZ_9276-scaled.jpg",
-  },
-  {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9427-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9427-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/2_PRZ_9427-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/3_PRZ_9434-HDR-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/3_PRZ_9434-HDR-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/3_PRZ_9434-HDR-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9660-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9660-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/PRZ_9660-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/5_PRZ_9654-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/5_PRZ_9654-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/5_PRZ_9654-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2016/12/6_PRZ_9681-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2016/12/6_PRZ_9681-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2016/12/6_PRZ_9681-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1135w-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1135w-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1135w-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1057w-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1057w-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1057w-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0945w-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0945w-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0945w-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1195-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1195-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_1195-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0961w-scaled.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0961w-scaled.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2024/03/FOT.-KSZTALTY.COM-NORBERT-BANASZYK-IMG_0961w-scaled.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/009____%C2%A9Tom-Kurek_TS402061_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/009____%C2%A9Tom-Kurek_TS402061_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/009____%C2%A9Tom-Kurek_TS402061_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/010____%C2%A9Tom-Kurek_TS402068_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/010____%C2%A9Tom-Kurek_TS402068_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/010____%C2%A9Tom-Kurek_TS402068_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/014____%C2%A9Tom-Kurek_TS402101_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/014____%C2%A9Tom-Kurek_TS402101_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/014____%C2%A9Tom-Kurek_TS402101_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/%C2%A9Tom-Kurek_TS408444_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/%C2%A9Tom-Kurek_TS408444_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/%C2%A9Tom-Kurek_TS408444_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/002____%C2%A9Tom-Kurek_TS402029_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/002____%C2%A9Tom-Kurek_TS402029_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/002____%C2%A9Tom-Kurek_TS402029_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/003____%C2%A9Tom-Kurek_TS402031_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/003____%C2%A9Tom-Kurek_TS402031_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/003____%C2%A9Tom-Kurek_TS402031_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/029____%C2%A9Tom-Kurek_TS305250_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/029____%C2%A9Tom-Kurek_TS305250_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/029____%C2%A9Tom-Kurek_TS305250_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/019____%C2%A9Tom-Kurek_TS402005_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/019____%C2%A9Tom-Kurek_TS402005_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/019____%C2%A9Tom-Kurek_TS402005_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/016____%C2%A9Tom-Kurek_TS401969_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/016____%C2%A9Tom-Kurek_TS401969_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/016____%C2%A9Tom-Kurek_TS401969_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/022____%C2%A9Tom-Kurek_TS402139_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/022____%C2%A9Tom-Kurek_TS402139_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/022____%C2%A9Tom-Kurek_TS402139_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/026____%C2%A9Tom-Kurek_TS402162_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/026____%C2%A9Tom-Kurek_TS402162_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/026____%C2%A9Tom-Kurek_TS402162_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/025____%C2%A9Tom-Kurek_TS402153_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/025____%C2%A9Tom-Kurek_TS402153_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/025____%C2%A9Tom-Kurek_TS402153_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/032____%C2%A9Tom-Kurek_TS402195_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/032____%C2%A9Tom-Kurek_TS402195_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/032____%C2%A9Tom-Kurek_TS402195_321_2048.jpg",
   },
   {
-    src: "https://ev-architects.pl/wp-content/uploads/2019/12/030____%C2%A9Tom-Kurek_TS402189_321_2048.jpg",
     url: "https://ev-architects.pl/wp-content/uploads/2019/12/030____%C2%A9Tom-Kurek_TS402189_321_2048.jpg",
+    src: "https://ev-architects.pl/wp-content/uploads/2019/12/030____%C2%A9Tom-Kurek_TS402189_321_2048.jpg",
   },
   {
+    url: "https://www.johnpawson.com/works/giessen-house",
     src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/01_John-Pawson_Giessen-House_High-Res-3.jpg",
-    url: "https://www.johnpawson.com/works/giessen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/giessen-house",
     src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/02_John-Pawson_Giessen-House_High-Res-15.jpg",
-    url: "https://www.johnpawson.com/works/giessen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/giessen-house",
     src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/03_John-Pawson_Giessen-House_High-Res-2.jpg",
-    url: "https://www.johnpawson.com/works/giessen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/giessen-house",
     src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/06_John-Pawson_Giessen-House_High-Res-5.jpg",
-    url: "https://www.johnpawson.com/works/giessen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/giessen-house",
     src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/07_John-Pawson_Giessen-House_High-Res-1.jpg",
-    url: "https://www.johnpawson.com/works/giessen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/giessen-house",
     src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/09_John-Pawson_Giessen-House_High-Res-S2-38.jpg",
-    url: "https://www.johnpawson.com/works/giessen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/giessen-house",
     src: "https://www.johnpawson.com/assets/Works/2022-Giessen-House/12_John-Pawson_Giessen-House_High-Res-13.jpg",
-    url: "https://www.johnpawson.com/works/giessen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/01-JP_Sta.Elena-High-Res-009.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/02-JP_Sta.Elena-High-Res-2-2.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/03-JP_Sta.Elena-High-Res-005.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/04-JP_Sta.Elena-High-Res-019.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/06-JP_Sta.Elena-High-Res-010.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/04B-JP_Sta.Elena-High-Res.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/05-JP_Sta.Elena-High-Res-2.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/06B-JP_Sta.Elena-High-Res.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/philippines-house",
     src: "https://www.johnpawson.com/assets/Works/2024-Philippines-House/07-JP_Sta.Elena-High-Res-013.jpg",
-    url: "https://www.johnpawson.com/works/philippines-house",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_3.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_1.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_4.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_5.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_7.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_6.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_8.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_9.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_10.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_11.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/St_Tropez_Houses_12.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/06-L1050483.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/01-L1050579.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/04-L1050529.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/st-tropez-houses",
     src: "https://www.johnpawson.com/assets/Works/2014-St.-Tropez-NEW/House-3/02-L1050581.jpg",
-    url: "https://www.johnpawson.com/works/st-tropez-houses",
   },
   {
+    url: "https://www.johnpawson.com/works/john-pawson-1",
     src: "https://www.johnpawson.com/assets/Works/2023-The-Mass/01-003_2612.jpg",
-    url: "https://www.johnpawson.com/works/john-pawson-1",
   },
   {
+    url: "https://www.johnpawson.com/works/john-pawson-1",
     src: "https://www.johnpawson.com/assets/Works/2023-The-Mass/02-012_2800.jpg",
-    url: "https://www.johnpawson.com/works/john-pawson-1",
   },
   {
+    url: "https://www.johnpawson.com/works/john-pawson-1",
     src: "https://www.johnpawson.com/assets/Works/2023-The-Mass/08-049_2837.jpg",
-    url: "https://www.johnpawson.com/works/john-pawson-1",
   },
   {
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
     src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/02-CPH-Apartment-03.jpg",
-    url: "https://www.johnpawson.com/works/copenhagen-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
     src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/03-CPH-Apartment-05.jpg",
-    url: "https://www.johnpawson.com/works/copenhagen-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
     src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/04-CPH-apartment-06.jpg",
-    url: "https://www.johnpawson.com/works/copenhagen-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
     src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/06-CPH-Apartment-08.jpg",
-    url: "https://www.johnpawson.com/works/copenhagen-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
     src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/07-CPH-Apartment-09.jpg",
-    url: "https://www.johnpawson.com/works/copenhagen-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/copenhagen-apartment",
     src: "https://www.johnpawson.com/assets/Works/2022-Copenhagen-Apartment/New/08-CPH-Apartment-14.jpg",
-    url: "https://www.johnpawson.com/works/copenhagen-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/tacta-chair",
     src: "https://www.johnpawson.com/assets/Works/2022-Tacta-Chair-Passoni/NEW/01-Passonidesign-Tacta-by-John-Pawson_16.jpg",
-    url: "https://www.johnpawson.com/works/tacta-chair",
   },
   {
+    url: "https://www.johnpawson.com/works/tacta-chair",
     src: "https://www.johnpawson.com/assets/Works/2022-Tacta-Chair-Passoni/NEW/02-Passonidesign-Tacta-by-John-Pawson_10.jpg",
-    url: "https://www.johnpawson.com/works/tacta-chair",
   },
   {
+    url: "https://www.johnpawson.com/works/tacta-chair",
     src: "https://www.johnpawson.com/assets/Works/2022-Tacta-Chair-Passoni/NEW/03-Passonidesign-Tacta-by-John-Pawson_06.jpg",
-    url: "https://www.johnpawson.com/works/tacta-chair",
   },
   {
+    url: "https://www.johnpawson.com/works/obumex-ii",
     src: "https://www.johnpawson.com/assets/Works/2021-Obumex/01A_OBUMEX_SHOWROOM_019.jpg",
-    url: "https://www.johnpawson.com/works/obumex-ii",
   },
   {
+    url: "https://www.johnpawson.com/works/obumex-ii",
     src: "https://www.johnpawson.com/assets/Works/2021-Obumex/02C_OBUMEX_SHOWROOM_025.jpg",
-    url: "https://www.johnpawson.com/works/obumex-ii",
   },
   {
+    url: "https://www.johnpawson.com/works/obumex-ii",
     src: "https://www.johnpawson.com/assets/Works/2021-Obumex/03A_OBUMEX_SHOWROOM_023.jpg",
-    url: "https://www.johnpawson.com/works/obumex-ii",
   },
   {
+    url: "https://www.johnpawson.com/works/obumex-ii",
     src: "https://www.johnpawson.com/assets/Works/2021-Obumex/07_OBUMEX_SHOWROOM_038.jpg",
-    url: "https://www.johnpawson.com/works/obumex-ii",
   },
   {
+    url: "https://www.johnpawson.com/works/obumex-ii",
     src: "https://www.johnpawson.com/assets/Works/2021-Obumex/08A_OBUMEX_SHOWROOM_055.jpg",
-    url: "https://www.johnpawson.com/works/obumex-ii",
   },
   {
+    url: "https://www.johnpawson.com/works/bastian-gallery",
     src: "https://www.johnpawson.com/assets/Works/2022-Bastian-Gallery-Berlin/02_220325_MG_Bastian.jpg",
-    url: "https://www.johnpawson.com/works/bastian-gallery",
   },
   {
+    url: "https://www.johnpawson.com/works/bastian-gallery",
     src: "https://www.johnpawson.com/assets/Works/2022-Bastian-Gallery-Berlin/03_220325_MG_Bastian.jpg",
-    url: "https://www.johnpawson.com/works/bastian-gallery",
   },
   {
+    url: "https://www.johnpawson.com/works/house-tyrol",
     src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/02_102_MM_191008_3434_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/house-tyrol",
   },
   {
+    url: "https://www.johnpawson.com/works/house-tyrol",
     src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/03_102_MM_191008_3518_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/house-tyrol",
   },
   {
+    url: "https://www.johnpawson.com/works/house-tyrol",
     src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/04_102_MM_201127_5519_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/house-tyrol",
   },
   {
+    url: "https://www.johnpawson.com/works/house-tyrol",
     src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/06_102_MM_200218_3745_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/house-tyrol",
   },
   {
+    url: "https://www.johnpawson.com/works/house-tyrol",
     src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/07_102_MM_200218_3784_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/house-tyrol",
   },
   {
+    url: "https://www.johnpawson.com/works/house-tyrol",
     src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/08_102_MM_200601_4038_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/house-tyrol",
   },
   {
+    url: "https://www.johnpawson.com/works/house-tyrol",
     src: "https://www.johnpawson.com/assets/Works/2019-House-Tyrol/09_102_MM_201028_5074_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/house-tyrol",
   },
   {
-    src: "https://www.johnpawson.com/assets/Works/2020-GEO-Hardware/Lever-handle-straight-SSS-web.jpg",
     url: "https://www.johnpawson.com/works/door-handle",
+    src: "https://www.johnpawson.com/assets/Works/2020-GEO-Hardware/Lever-handle-straight-SSS-web.jpg",
   },
   {
+    url: "https://www.johnpawson.com/works/barbican-apartment",
     src: "https://www.johnpawson.com/assets/Works/2019-Barbican-Apartment/190604_GMc_Barbican_05.jpg",
-    url: "https://www.johnpawson.com/works/barbican-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/barbican-apartment",
     src: "https://www.johnpawson.com/assets/Works/2019-Barbican-Apartment/190604_GMc_Barbican_06.jpg",
-    url: "https://www.johnpawson.com/works/barbican-apartment",
   },
   {
+    url: "https://www.johnpawson.com/works/kitzbuhel-house",
     src: "https://www.johnpawson.com/assets/Works/2018-Kitzb%C3%BChel-House/07-144_JP_170808_3550_JP_OJ.jpg",
-    url: "https://www.johnpawson.com/works/kitzbuhel-house",
   },
   {
+    url: "https://www.johnpawson.com/works/kitzbuhel-house",
     src: "https://www.johnpawson.com/assets/Works/2018-Kitzb%C3%BChel-House/09-235_HH_181008_1277_JP_Jaist.jpg",
-    url: "https://www.johnpawson.com/works/kitzbuhel-house",
   },
   {
+    url: "https://www.johnpawson.com/works/paros-house-iii",
     src: "https://www.johnpawson.com/assets/Journal/2016/06.-June-2016/Tripiti-2/Final/Paros_House_3_3_Douglas_Tuck.jpg",
-    url: "https://www.johnpawson.com/works/paros-house-iii",
   },
   {
+    url: "https://www.johnpawson.com/works/paros-house-iii",
     src: "https://www.johnpawson.com/assets/Journal/2016/06.-June-2016/Tripiti-2/Final/Paros_House_3_1_Douglas_Tuck.jpg",
-    url: "https://www.johnpawson.com/works/paros-house-iii",
   },
   {
+    url: "https://www.johnpawson.com/works/paros-house-iii",
     src: "https://www.johnpawson.com/assets/Journal/2016/06.-June-2016/Tripiti-2/Final/Paros_House_3_5_John_Pawson.jpg",
-    url: "https://www.johnpawson.com/works/paros-house-iii",
   },
   {
+    url: "https://www.johnpawson.com/works/paros-house-i",
     src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6752_DxO.jpg",
-    url: "https://www.johnpawson.com/works/paros-house-i",
   },
   {
+    url: "https://www.johnpawson.com/works/paros-house-i",
     src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6736_DxO.jpg",
-    url: "https://www.johnpawson.com/works/paros-house-i",
   },
   {
+    url: "https://www.johnpawson.com/works/paros-house-i",
     src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6402.jpg",
-    url: "https://www.johnpawson.com/works/paros-house-i",
   },
   {
+    url: "https://www.johnpawson.com/works/paros-house-i",
     src: "https://www.johnpawson.com/assets/Works/2016-Paros-Tripiti/High-Resolution/MG_6804_DxO.jpg",
-    url: "https://www.johnpawson.com/works/paros-house-i",
   },
   {
+    url: "https://www.johnpawson.com/works/picornell-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Picornell-House-Majorca/2013_Picornell_House_Majorca_07.jpg",
-    url: "https://www.johnpawson.com/works/picornell-house",
   },
   {
+    url: "https://www.johnpawson.com/works/picornell-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Picornell-House-Majorca/2013_Picornell_House_Majorca_03.jpg",
-    url: "https://www.johnpawson.com/works/picornell-house",
   },
   {
+    url: "https://www.johnpawson.com/works/picornell-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Picornell-House-Majorca/2013_Picornell_House_Majorca_06.jpg",
-    url: "https://www.johnpawson.com/works/picornell-house",
   },
   {
+    url: "https://www.johnpawson.com/works/palmgren-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/2.jpg",
-    url: "https://www.johnpawson.com/works/palmgren-house",
   },
   {
+    url: "https://www.johnpawson.com/works/palmgren-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/5.jpg",
-    url: "https://www.johnpawson.com/works/palmgren-house",
   },
   {
+    url: "https://www.johnpawson.com/works/palmgren-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/4.jpg",
-    url: "https://www.johnpawson.com/works/palmgren-house",
   },
   {
+    url: "https://www.johnpawson.com/works/palmgren-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/1.jpg",
-    url: "https://www.johnpawson.com/works/palmgren-house",
   },
   {
+    url: "https://www.johnpawson.com/works/palmgren-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/7.jpg",
-    url: "https://www.johnpawson.com/works/palmgren-house",
   },
   {
+    url: "https://www.johnpawson.com/works/palmgren-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/8.jpg",
-    url: "https://www.johnpawson.com/works/palmgren-house",
   },
   {
+    url: "https://www.johnpawson.com/works/palmgren-house",
     src: "https://www.johnpawson.com/assets/Works/2013-Palmgren-House-Drevvike/1601-New/9.jpg",
-    url: "https://www.johnpawson.com/works/palmgren-house",
   },
   {
+    url: "https://www.johnpawson.com/works/house",
     src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_03.jpg",
-    url: "https://www.johnpawson.com/works/house",
   },
   {
+    url: "https://www.johnpawson.com/works/house",
     src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_05.jpg",
-    url: "https://www.johnpawson.com/works/house",
   },
   {
+    url: "https://www.johnpawson.com/works/house",
     src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_04.jpg",
-    url: "https://www.johnpawson.com/works/house",
   },
   {
+    url: "https://www.johnpawson.com/works/house",
     src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_07.jpg",
-    url: "https://www.johnpawson.com/works/house",
   },
   {
+    url: "https://www.johnpawson.com/works/house",
     src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_08.jpg",
-    url: "https://www.johnpawson.com/works/house",
   },
   {
+    url: "https://www.johnpawson.com/works/house",
     src: "https://www.johnpawson.com/assets/Works/2009-Private-House-Los-Angel/Private_House_Los_Angeles_06.jpg",
-    url: "https://www.johnpawson.com/works/house",
   },
   {
-    src: "https://www.johnpawson.com/assets/Works/2009-Martyrs-Pavilion-St-Edw/Martyrs_Pavilion_01.jpg",
     url: "https://www.johnpawson.com/works/martyrs-pavilion",
+    src: "https://www.johnpawson.com/assets/Works/2009-Martyrs-Pavilion-St-Edw/Martyrs_Pavilion_01.jpg",
   },
   {
+    url: "https://www.johnpawson.com/works/baron-house",
     src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_01.jpg",
-    url: "https://www.johnpawson.com/works/baron-house",
   },
   {
+    url: "https://www.johnpawson.com/works/baron-house",
     src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_03.jpg",
-    url: "https://www.johnpawson.com/works/baron-house",
   },
   {
+    url: "https://www.johnpawson.com/works/baron-house",
     src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_04.jpg",
-    url: "https://www.johnpawson.com/works/baron-house",
   },
   {
+    url: "https://www.johnpawson.com/works/baron-house",
     src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_05.jpg",
-    url: "https://www.johnpawson.com/works/baron-house",
   },
   {
+    url: "https://www.johnpawson.com/works/baron-house",
     src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_06.jpg",
-    url: "https://www.johnpawson.com/works/baron-house",
   },
   {
+    url: "https://www.johnpawson.com/works/baron-house",
     src: "https://www.johnpawson.com/assets/Works/2005-Baron-House-Skane-Swe/Baron_House_07.jpg",
-    url: "https://www.johnpawson.com/works/baron-house",
   },
   {
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
     src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_01.jpg",
-    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
     src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_02.jpg",
-    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
     src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_06.jpg",
-    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
     src: "https://www.johnpawson.com/assets/Works/2003-Private-House-Nordrhein/Private_House_Nordrhein_Westfalen_03.jpg",
-    url: "https://www.johnpawson.com/works/nordrhein-westfalen-house",
   },
   {
+    url: "https://www.johnpawson.com/works/pawson-house",
     src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_01b.jpg",
-    url: "https://www.johnpawson.com/works/pawson-house",
   },
   {
+    url: "https://www.johnpawson.com/works/pawson-house",
     src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_03.jpg",
-    url: "https://www.johnpawson.com/works/pawson-house",
   },
   {
+    url: "https://www.johnpawson.com/works/pawson-house",
     src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_04.jpg",
-    url: "https://www.johnpawson.com/works/pawson-house",
   },
   {
+    url: "https://www.johnpawson.com/works/pawson-house",
     src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_05.jpg",
-    url: "https://www.johnpawson.com/works/pawson-house",
   },
   {
+    url: "https://www.johnpawson.com/works/pawson-house",
     src: "https://www.johnpawson.com/assets/Works/1999-Pawson-House-London-En/Pawson_House_1999_06.jpg",
-    url: "https://www.johnpawson.com/works/pawson-house",
   },
   {
+    url: "https://www.johnpawson.com/works/pawson-house-1",
     src: "https://www.johnpawson.com/assets/Works/1994-Pawson-House-London-En/Pawson_House_1994_02.jpg",
-    url: "https://www.johnpawson.com/works/pawson-house-1",
   },
   {
-    src: "https://www.johnpawson.com/assets/Works/1994-Pawson-House-London-En/Pawson_House_1994_03.jpg",
     url: "https://www.johnpawson.com/works/pawson-house-1",
+    src: "https://www.johnpawson.com/assets/Works/1994-Pawson-House-London-En/Pawson_House_1994_03.jpg",
   },
   {
     url: "https://www.xystudio.pl/domyjednorodzinne.htm",

@@ -21,6 +21,15 @@ const nextConfig = {
     );
     return config;
   },
+  // https://blog.logrocket.com/how-to-use-proxy-next-js/
+  async rewrites() {
+    return [
+      {
+        source: "/cdninstagram/:path*",
+        destination: "https://scontent-waw2-2.cdninstagram.com/:path*",
+      },
+    ];
+  },
 };
 
 module.exports = nextConfig;
