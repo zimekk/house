@@ -8,6 +8,714 @@
 
 export const inspirations = [
   {
+    src: "https://vame.pl/wp-content/uploads/2023/08/A002-01-dom-jednorodzinny-black-house.jpg",
+    url: "https://vame.pl/czarny-dom-gdansk/",
+  },
+  {
+    src: "https://vame.pl/wp-content/uploads/2023/08/A002-02-dom-jednorodzinny-black-house.jpg",
+    url: "https://vame.pl/czarny-dom-gdansk/",
+  },
+  {
+    src: "https://vame.pl/wp-content/uploads/2023/08/A002-06-dom-jednorodzinny-black-house.jpg",
+    url: "https://vame.pl/czarny-dom-gdansk/",
+  },
+  {
+    src: "https://vame.pl/wp-content/uploads/2023/08/A002-07-dom-jednorodzinny-black-house-scaled.jpg",
+    url: "https://vame.pl/czarny-dom-gdansk/",
+  },
+  {
+    src: "https://vame.pl/wp-content/uploads/2023/08/A002-08-dom-jednorodzinny-black-house-scaled.jpg",
+    url: "https://vame.pl/czarny-dom-gdansk/",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/7663/images/kadr12/fit/730x480/smu-house-134128.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/7663/images/1920x0/smu-house-134128.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49595/images/1920x0/dom-w-lesie-134141.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49592/images/1920x0/smu-house-drewniana-i-kamienna-elewacja-134138.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49593/images/1920x0/dom-otaczaja-atria-134139.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49594/images/1920x0/ciemna-elewacja-i-duze-przeszklenia-134140.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49596/images/1920x0/atrium-sprzyja-relaksowi-134142.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49640/images/1920x0/smu-house-pzt-134235.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49637/images/1920x0/smu-house-rzut-parteru-134232.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49638/images/1920x0/smu-house-rzut-pietra-134233.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/49639/images/1920x0/smu-house-przekroj-134234.jpg",
+    url: "https://www.architekturaibiznes.pl/smu-house-dom-pod-warszawa,7663.html#lg=1&slide=10",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/05/%C5%81azy-wizka-2.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/06/%C5%82azy-makieta-foto-kopia-1-2048x1339.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/05/idea-akso-2048x1802.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/05/rzut-parteru-2048x1749.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/06/rzut-pietra-2048x1749.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/05/elew-polnocna-2048x999.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/05/elew-zach-2048x1160.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/05/elew-pld-2048x999.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2024/05/pzekr-a-a-2048x999.jpg",
+    url: "https://yumiarchitekci.com/dom-w-lazach/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/STARA-PRAWDA-WIZKA-2-opacity-2048x1229.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/stara-prawda-na-www-1729x2048.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/idea-i-akso-1448x2048.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/rzut-parteru-strzalka-2048x1105.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/rzut-poddasza-strzalka-2048x1035.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/elewacja-p%C3%B3%C5%82nocna-mono-2048x1188.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/elewacja-zachodnia-mono-2048x630.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/przekroj-a-a.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://yumiarchitekci.com/wp-content/uploads/2020/09/przekroj-b-b-3.jpg",
+    url: "https://yumiarchitekci.com/przykladowy-wpis-7/",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/6621/images/1920x0/dom-w-czeladzi-117042.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42146/images/1920x0/dom-w-czeladzi-minimalistyczna-bryla-117020.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42147/images/1920x0/obok-domu-znajduje-sie-budynek-gospodarczy-117021.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42159/images/1920x0/dom-w-czeladzi-od-strony-drogi-117033.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42150/images/1920x0/minimalistyczna-bryla-domu-117024.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42155/images/1920x0/elewacje-wykonano-z-modrzewia-117029.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42143/images/1920x0/dom-w-czeladzi-z-dachem-dwuspadowym-117017.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42144/images/1920x0/balkony-wciete-w-bryle-domu-117018.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42145/images/1920x0/dom-w-czeladzi-zwarta-bryla-117019.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42153/images/1920x0/dom-w-czeladzi-wpisany-w-otoczenie-117027.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42166/images/1920x0/dom-w-czeladzi-zagospodarowanie-terenu-117040.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42163/images/1920x0/dom-w-czeladzi-rzut-parteru-117037.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42164/images/1920x0/dom-w-czeladzi-rzut-pietra-117038.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=19",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42161/images/1920x0/dom-w-czeladzi-elewacje-117035.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42162/images/1920x0/dom-w-czeladzi-elewacje-117036.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=21",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/42165/images/1920x0/dom-w-czeladzi-koncepcje-projektowe-117039.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-w-czeladzi-be3pracowania,6621.html#lg=1&slide=22",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/5365/images/1920x0/domy-w-borach-tucholskich-113820.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40605/images/1920x0/dom-z-ciemna-elewacja-113843.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40607/images/1920x0/dom-z-jasna-elewacja-113845.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40612/images/1920x0/prosta-forma-i-skosny-dach-113850.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40598/images/1920x0/domy-w-borach-tucholskich-z-widokiem-na-jezioro-113836.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40602/images/1920x0/domy-w-borach-tucholskich-elewacja-pokryta-drewnem-113840.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40611/images/1920x0/wejscie-i-taras-113849.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40595/images/1920x0/domy-w-borach-tucholskich-widok-od-strony-ulicy-113833.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40597/images/1920x0/bryly-budynkow-przypominaja-nowoczesna-stodole-113835.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40596/images/1920x0/domy-w-borach-tucholskich-brama-113834.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40599/images/1920x0/naturalna-elewacja-budynkow-113837.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40600/images/1920x0/domy-w-borach-tucholskich-taras-113838.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40604/images/1920x0/domy-w-borach-tucholskich-salon-z-widokiem-113842.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40606/images/1920x0/dom-wbudowany-w-skarpe-113844.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40608/images/1920x0/z-salonu-mozna-podziwiac-jezioro-113846.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40610/images/1920x0/dom-wybudowano-na-skarpie-113848.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40614/images/1920x0/domy-w-borach-tucholskich-wieczor-113852.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40615/images/1920x0/domy-w-borach-tucholskich-wieczorem-113853.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40616/images/1920x0/domy-w-borach-tucholskich-taras-wieczorem-113854.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=19",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40617/images/1920x0/domy-w-borach-tucholskich-iluminacja-wieczorem-113855.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40621/images/1920x0/rzut-domu-b-113863.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=21",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40622/images/1920x0/rzut-domu-a-113864.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=22",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/40592/images/1920x0/domy-w-borach-tucholskich-elewacje-113830.jpg",
+    url: "https://www.architekturaibiznes.pl/domy-w-borach-tucholskich-maka-studio,5365.html#lg=1&slide=23",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/fc50f814b482f6ca48092353fac72f7171081e6b377f80101cff4dbf4c1009ae/IMG_20180720_183314_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/f691bbcd367d0ccaaa3943080d17e92e2743fd545df0c3497c921f8d1ca24f86/4.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/e4b407d16c1841b0a5405589f8a1a152c443badcc32fdf7659cd88956736bed8/5.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/a4749ab1b6f9f2f6a0b5bc81a5e73e8347183040cf80f0f081c41ee04c82c975/10a.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/081f133c59b373668ba7b9585a686ad6034e239446a3ddb5fe635dd218d7d36e/12a.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/5fcae03a2038f774929350ca1e033127c042f764abbc734ef7d0890bc1d2ba52/13a_3_o.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/a8e5837670592654443288717b319545bd605ea0fe9d3c9fe03b61bc67853dc6/b-zdjecie-4.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/0c84ae0951b93d02722c0671515c0d3c642a9d9784e2007d3dcc7bde190c9045/b-zdjecie-8.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/40b2d0b6fbf70a63d13418ba33942c6725e3d69315db12a37330bb44e68254cd/13a_o.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/3c2197a2787bf34e40d40f25564d116ea6da127b137b9a7eca21a0e0aa8b1f5b/DSC_0245_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/5803b72f857f62303a46b2664cead6791f9a55af035e13c9c0b357d4e2c4ccfa/DSC_0301_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/16cd8b6882b2c12c27fc1fe9fc0f6d33a8bfc3fa71b270b741dd200684c2f0e6/DSC_0333_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/727aaaa10c464aea45b4f8aaa2aad54ddc47fc2bd378bda6bab6339748f65ff6/DSC_0369_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/7680664087fdd785bf8361174fe80613917169e1c5f9c095eb2726f12cfbabda/IMG_20180720_182718_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/e60339859e605db2a1d4a998db604a9f1f43acb8456cb02e5ed0c84f117ee804/IMG_20180720_182955_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/26154f582b80b56c153c7f2c4bf3eb43f4f52e7cbfc30dee1ce4738d811cf449/IMG_20180720_183218_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/e7b7685747bf38a924d4a888c20f0f44b96a8d27fdd792f4f51f7ead265e5113/prw_12.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/440fc8350d97159b0762d7c6c46b1ed9d27848deb33d480da4f88373172c0bcd/mk03_04_jednorodzinny_pierwoszyno_o.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/bf37bc4f7c1b8138751e4c0ddf1448e1daf110690702284b2d9b350e8e500fbf/38928980_307290829818997_6821829322265853952_n.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/24bed78e68b879d60c41db473f71e9372535f5f930b84c9b46189974f9486cba/1.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://freight.cargo.site/t/original/i/e5e822c1319ec5894046df0a0ed12f3125a0c00b69a3a8fbb6dfe0a2bb4bc074/IMG_20180720_183710_maka.jpg",
+    url: "https://maka.studio/PRW",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/5125/images/kadr12/fit/730x480/dom-dla-n-s-108151.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/5125/images/1920x0/dom-dla-n-s-108151.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38307/images/1920x0/dom-dla-n-s-w-puszczykowie-108175.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38306/images/1920x0/jasna-blacha-na-skosnym-dachu-108174.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38309/images/1920x0/taras-schowany-pod-dachem-108177.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38301/images/1920x0/dom-dla-n-s-plan-dzialki-108169.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38300/images/1920x0/dom-dla-n-s-aksonometria-108168.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38302/images/1920x0/dom-dla-n-s-rzut-parteru-108170.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38303/images/1920x0/dom-dla-n-s-rzut-pietra-108171.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38304/images/1920x0/dom-dla-n-s-przekroj-aa-108172.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=12",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/38305/images/1920x0/dom-dla-n-s-przekroj-bb-108173.jpg",
+    url: "https://www.architekturaibiznes.pl/zycie-blisko-natury-dom-dla-n-s,5125.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/5031/images/1920x0/dom-we-wsi-jeziorowskie-105739.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36912/images/1920x0/nad-stawem-znajduje-sie-pawilon-105844.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36906/images/1920x0/budynki-tworza-wewnetrzny-dziedziniec-105838.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36926/images/1920x0/elewacje-wykonano-z-cegly-105858.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36931/images/1920x0/przeszklony-lacznik-z-basenem-105863.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36895/images/1920x0/tradycyjne-ksztalty-budynkow-105827.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36901/images/1920x0/dach-pokryty-jest-ceramiczna-dachowka-105833.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36923/images/1920x0/szklany-lacznik-z-basenem-105855.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36907/images/1920x0/dom-znajduje-sie-na-rozleglym-terenie-105839.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36915/images/1920x0/tradycyjny-ksztalt-domow-105847.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36922/images/1920x0/basen-i-jacuzzi-105854.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36904/images/1920x0/wewnetrze-podworko-105836.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36924/images/1920x0/przeszklenie-i-taras-105856.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=12",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36928/images/1920x0/basen-noca-105860.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36918/images/1920x0/przeszkolony-basen-105850.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36927/images/1920x0/korty-tenisowe-105859.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36920/images/1920x0/cegla-na-elewacji-i-wewnetrzne-podworko-105852.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36905/images/1920x0/ceglana-elewacja-105837.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36908/images/1920x0/elewacja-z-drewna-105840.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=18",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36910/images/1920x0/pawilon-nad-stawem-105842.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=19",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36911/images/1920x0/nowoczesny-pawilon-nad-stawem-105843.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=20",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36913/images/1920x0/pawilon-nad-stawem-105845.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=21",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36914/images/1920x0/nowoczesny-pawilon-105846.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=22",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36916/images/1920x0/pawilon-na-jeziorem-105848.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=23",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36900/images/1920x0/duze-okna-i-widok-na-jezioro-105832.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=24",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36896/images/1920x0/wnetrze-salonu-charakterystyczne-lampy-105828.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=25",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36897/images/1920x0/kuchnia-polaczona-z-jadalnia-105829.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=26",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36898/images/1920x0/jasne-wnetrze-i-duzo-przeszklen-105830.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=27",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36899/images/1920x0/drewniane-schody-prowadza-na-pietro-105831.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=28",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36902/images/1920x0/jasny-salon-105834.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=29",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36903/images/1920x0/jedna-z-sypialni-105835.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=30",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36930/images/1920x0/plan-zagospodarowania-terenu-105862.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=31",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36932/images/1920x0/elewacja-polnocna-i-poludniowa-105864.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=32",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36933/images/1920x0/elewacja-wschodnia-i-zachodnia-105865.jpg",
+    url: "https://www.architekturaibiznes.pl/siedlisko-na-mazurach-projektu-jagny-bielowickiej,5031.html#lg=1&slide=33",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/4747/images/1920x0/energooszczedny-dom-parterowy-projekt-midi-architekci-98768.jpg",
+    url: "https://www.architekturaibiznes.pl/energooszczedny-dom-parterowy-midi,4747.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/33406/images/1920x0/rzut-domu-98785.jpg",
+    url: "https://www.architekturaibiznes.pl/energooszczedny-dom-parterowy-midi,4747.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/4680/images/1920x0/willa-w-lasku-wolskim-97292.jpg",
+    url: "https://www.architekturaibiznes.pl/willa-w-lasku-wolskim-noww-studio,4680.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/32604/images/1920x0/willa-w-lasku-wolskim-zielony-dach-97298.jpg",
+    url: "https://www.architekturaibiznes.pl/willa-w-lasku-wolskim-noww-studio,4680.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/32606/images/1920x0/willa-w-lasku-wolskim-glowne-wejscie-97300.jpg",
+    url: "https://www.architekturaibiznes.pl/willa-w-lasku-wolskim-noww-studio,4680.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/32605/images/1920x0/willa-w-lasku-wolskim-parking-w-podziemiu-97299.jpg",
+    url: "https://www.architekturaibiznes.pl/willa-w-lasku-wolskim-noww-studio,4680.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/32609/images/1920x0/rzuty-willi-na-woli-justowskiej-97303.jpg",
+    url: "https://www.architekturaibiznes.pl/willa-w-lasku-wolskim-noww-studio,4680.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/4618/images/1920x0/dom-w-lomiankach-dolnych-96014.jpg",
+    url: "https://www.architekturaibiznes.pl/bialy-dom-w-lomiankach-moomoo,4618.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31919/images/1920x0/dom-w-lomiankach-od-strony-ogrodu-96016.jpg",
+    url: "https://www.architekturaibiznes.pl/bialy-dom-w-lomiankach-moomoo,4618.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31920/images/1920x0/dom-w-lomiankach-bialy-dach-z-membrana-96017.jpg",
+    url: "https://www.architekturaibiznes.pl/bialy-dom-w-lomiankach-moomoo,4618.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31918/images/1920x0/dom-w-lomiankach-przeszklony-parter-96015.jpg",
+    url: "https://www.architekturaibiznes.pl/bialy-dom-w-lomiankach-moomoo,4618.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31921/images/1920x0/dom-w-lomiankach-atrium-96018.jpg",
+    url: "https://www.architekturaibiznes.pl/bialy-dom-w-lomiankach-moomoo,4618.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/4571/images/1920x0/dom-w-tychach-94750.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-w-tychach,4571.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31114/images/1920x0/dom-w-tychach-94756.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-w-tychach,4571.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31112/images/1920x0/dom-w-tychach-aksonometria-94754.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-w-tychach,4571.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31113/images/1920x0/dom-w-tychach-aksonometria-garaz-94755.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-w-tychach,4571.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31109/images/1920x0/dom-w-tychach-rzuty-94751.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-w-tychach,4571.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31110/images/1920x0/dom-w-tychach-przekroje-94752.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-w-tychach,4571.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31111/images/1920x0/dom-w-tychach-elewacje-94753.jpg",
+    url: "https://www.architekturaibiznes.pl/dom-jednorodzinny-w-tychach,4571.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/4528/images/1920x0/dom-k-93861.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=0",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30580/images/1920x0/dom-k-przestrzen-dzienna-i-sypialna-93867.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=1",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30582/images/1920x0/dom-k-dwie-bryly-nalozone-na-siebie-93869.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=2",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30575/images/1920x0/dom-k-sklada-sie-z-dwoch-jasnych-bryl-93862.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=3",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30576/images/1920x0/dom-k-minimalistyczna-forma-93863.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=4",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30577/images/1920x0/dom-k-jasna-elewacja-93864.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=5",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30578/images/1920x0/dom-k-glowne-wejscie-93865.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=6",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30579/images/1920x0/dom-k-patio-z-drzewem-93866.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=7",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30581/images/1920x0/dom-k-przestrzen-do-relaksu-93868.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=8",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30583/images/1920x0/dom-k-wnetrze-93870.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=9",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30584/images/1920x0/dom-k-strefa-dzienna-93871.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=10",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30585/images/1920x0/dom-k-dwukondygnacyjny-salon-93872.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=11",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30589/images/1920x0/dom-k-widok-na-patio-93876.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=12",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30586/images/1920x0/dom-k-gabinet-93873.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=13",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30587/images/1920x0/dom-k-gabinet-z-duzym-oknem-93874.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=14",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30588/images/1920x0/dom-k-czesc-sypialna-93875.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=15",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30590/images/1920x0/dom-k-poziom-93877.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=16",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30592/images/1920x0/dom-k-poziom-z-proponowanym-basenem-93879.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=17",
+  },
+  {
+    src: "https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30591/images/1920x0/dom-k-poziom-93878.jpg",
+    url: "https://www.architekturaibiznes.pl/minimalistyczny-dom-z-patio,4528.html#lg=1&slide=18",
+  },
+  {
     src: "https://cms.nowoczesnastodola.pl/assets/7e7d3cac-c37f-42f8-ade5-5e9119aec453?width=2560&height=1624&format=webp&quality=100",
     url: "https://nowoczesnastodola.pl/architekci/gornik-architects-mazowieckie?image=0f73e12b-2643-47e4-a3aa-2d45e1094838",
   },
