@@ -98,7 +98,7 @@ importers:
         version: 9.12.0(jiti@1.21.6)
       eslint-config-next:
         specifier: canary
-        version: 15.0.0-canary.183(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
+        version: 15.0.0-canary.190(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
       postcss:
         specifier: ^8.4.18
         version: 8.4.43
@@ -116,7 +116,7 @@ importers:
     dependencies:
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -153,7 +153,7 @@ importers:
         version: 5.0.7
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       ol:
         specifier: ^10.0.0
         version: 10.2.1
@@ -199,8 +199,8 @@ importers:
         specifier: ^1.0.14
         version: 1.0.14(vite@5.4.8(@types/node@22.7.5)(sass@1.79.5)(terser@5.34.1))
       '@types/chrome':
-        specifier: ^0.0.277
-        version: 0.0.277
+        specifier: ^0.0.278
+        version: 0.0.278
       '@types/react':
         specifier: ^18.3.8
         version: 18.3.11
@@ -218,7 +218,7 @@ importers:
     dependencies:
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       ol:
         specifier: ^10.0.0
         version: 10.2.1
@@ -252,7 +252,7 @@ importers:
         version: 2.1.1
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -286,7 +286,7 @@ importers:
     dependencies:
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       ol:
         specifier: ^10.0.0
         version: 10.2.1
@@ -317,7 +317,7 @@ importers:
     dependencies:
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -345,7 +345,7 @@ importers:
     dependencies:
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -379,7 +379,7 @@ importers:
         version: 2.1.1
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -416,7 +416,7 @@ importers:
         version: 8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.169.0)
       next:
         specifier: ~14.2.0
-        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4)
+        version: 14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5)
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -855,8 +855,8 @@ packages:
   '@next/env@14.2.5':
     resolution: {integrity: sha512-/zZGkrTOsraVfYjGP8uM0p6r0BDT6xWpkjdVbcz66PJVSpwXX3yNiRycxAuDfBKGWBrZBXRuK/YVlkNgxHGwmA==}
 
-  '@next/eslint-plugin-next@15.0.0-canary.183':
-    resolution: {integrity: sha512-53v9P2Quaps4Pres9huEENdpwvD7guERRR2N7c/q824yw/tYzjE4HSe02hHVWUdoxt2zlvsdAW/mj9mrp8wOLA==}
+  '@next/eslint-plugin-next@15.0.0-canary.190':
+    resolution: {integrity: sha512-MiCo+XNvSf+zwlBbKDqyCjnUuosVPeui8yQry3ozLf9NwF9a2lUcAvniuQ1vpV+nWb9n9+Jp/K4eljjiUPs8Bg==}
 
   '@next/swc-darwin-arm64@14.2.5':
     resolution: {integrity: sha512-/9zVxJ+K9lrzSGli1///ujyRfon/ZneeZ+v4ptpiPoOU+GKZnm8Wj8ELWU1Pm7GHltYRBklmXMTUqM/DqQ99FQ==}
@@ -1192,8 +1192,8 @@ packages:
   '@types/babel__traverse@7.20.6':
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
 
-  '@types/chrome@0.0.277':
-    resolution: {integrity: sha512-qoTgBcDWblSsX+jvFnpUlLUE3LAuOhZfBh9MyMWMQHDsQiYVgBvdZWu9COrdB9+aNnInEyXcFgfc2HE16sdSYQ==}
+  '@types/chrome@0.0.278':
+    resolution: {integrity: sha512-PDIJodOu7o54PpSOYLybPW/MDZBCjM1TKgf31I3Q/qaEbNpIH09rOM3tSEH3N7Q+FAqb1933LhF8ksUPYeQLNg==}
 
   '@types/conventional-commits-parser@5.0.0':
     resolution: {integrity: sha512-loB369iXNmAZglwWATL+WRe+CRMmmBPtpolYzIebFaX4YA3x+BEfLqhUAV9WanycKI3TG1IMr5bMJDajDKLlUQ==}
@@ -2026,8 +2026,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.0.0-canary.183:
-    resolution: {integrity: sha512-NJ7mkj9FoX77YHluYaCxYMy1IZWmnRgNhnrmlgJKr49OFeIm2aT6mx0D6l/nXLVDxbsJjg4qKMNOA5X9QF2sgA==}
+  eslint-config-next@15.0.0-canary.190:
+    resolution: {integrity: sha512-bmVY5dPUuciOYuI14jybm+GdDgr+OqKEaBHcIjG7nE9UWm1sc7Qskx7oeEHP2p1KPg27v1kEEXKQ4PJjTSpUzg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0
       typescript: '>=3.3.1'
@@ -3223,11 +3223,6 @@ packages:
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
 
-  sass@1.79.4:
-    resolution: {integrity: sha512-K0QDSNPXgyqO4GZq2HO5Q70TLxTH6cIT59RdoCHMivrC8rqzaTw5ab9prjz9KUN1El4FLXrBXJhik61JR4HcGg==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
-
   sass@1.79.5:
     resolution: {integrity: sha512-W1h5kp6bdhqFh2tk3DsI771MoEJjvrSY/2ihJRJS4pjIyfJCw0nTsxqhnrUzaLMOJjFchj8rOvraI/YUVjtx5g==}
     engines: {node: '>=14.0.0'}
@@ -4259,7 +4254,7 @@ snapshots:
 
   '@next/env@14.2.5': {}
 
-  '@next/eslint-plugin-next@15.0.0-canary.183':
+  '@next/eslint-plugin-next@15.0.0-canary.190':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4551,7 +4546,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.25.6
 
-  '@types/chrome@0.0.277':
+  '@types/chrome@0.0.278':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.15
@@ -5568,9 +5563,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.0.0-canary.183(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3):
+  eslint-config-next@15.0.0-canary.190(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.0-canary.183
+      '@next/eslint-plugin-next': 15.0.0-canary.190
       '@rushstack/eslint-patch': 1.10.1
       '@typescript-eslint/eslint-plugin': 7.17.0(@typescript-eslint/parser@7.2.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3))(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
       '@typescript-eslint/parser': 7.2.0(eslint@9.12.0(jiti@1.21.6))(typescript@5.6.3)
@@ -6402,32 +6397,6 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.4):
-    dependencies:
-      '@next/env': 14.2.5
-      '@swc/helpers': 0.5.5
-      busboy: 1.6.0
-      caniuse-lite: 1.0.30001646
-      graceful-fs: 4.2.11
-      postcss: 8.4.31
-      react: 18.3.1
-      react-dom: 18.3.1(react@18.3.1)
-      styled-jsx: 5.1.1(react@18.3.1)
-    optionalDependencies:
-      '@next/swc-darwin-arm64': 14.2.5
-      '@next/swc-darwin-x64': 14.2.5
-      '@next/swc-linux-arm64-gnu': 14.2.5
-      '@next/swc-linux-arm64-musl': 14.2.5
-      '@next/swc-linux-x64-gnu': 14.2.5
-      '@next/swc-linux-x64-musl': 14.2.5
-      '@next/swc-win32-arm64-msvc': 14.2.5
-      '@next/swc-win32-ia32-msvc': 14.2.5
-      '@next/swc-win32-x64-msvc': 14.2.5
-      sass: 1.79.4
-    transitivePeerDependencies:
-      - '@babel/core'
-      - babel-plugin-macros
-
   next@14.2.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.79.5):
     dependencies:
       '@next/env': 14.2.5
@@ -6857,13 +6826,6 @@ snapshots:
       is-regex: 1.1.4
 
   safer-buffer@2.1.2: {}
-
-  sass@1.79.4:
-    dependencies:
-      chokidar: 4.0.1
-      immutable: 4.3.7
-      source-map-js: 1.2.1
-    optional: true
 
   sass@1.79.5:
     dependencies:
