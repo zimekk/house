@@ -1,12 +1,1814 @@
 // copy({ url: document.location.href, src:$0.src })
-// copy(Object.entries(
-//   inspirations.reduce(
-//     (list, { src, url }) => Object.assign(list, { [src]: url }),
-//     {},
-//   ),
-// ).map(([src, url]) => ({ url, src })));
+// copy(
+//   Object.entries(
+//     inspirations.reduce(
+//       (list, { src, url }) => Object.assign(list, { [src]: url }),
+//       {},
+//     ),
+//   ).map(([src, url]) => ({ url, src })),
+// );
 
 export const inspirations = [
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b24/f2f1/3e43/3bad/753f/slideshow/mp-ii-house-kruk-architekci_1.jpg?1707498289",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b24f2f13e433bad753f-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b2c/f2f1/3e43/3bad/7541/slideshow/mp-ii-house-kruk-architekci_4.jpg?1707498303",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b2cf2f13e433bad7541-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b05/f2f1/3e43/3bad/7537/slideshow/mp-ii-house-kruk-architekci_2.jpg?1707498264",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b05f2f13e433bad7537-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b11/b451/ce7a/fd95/64a8/slideshow/mp-ii-house-kruk-architekci_6.jpg?1707498276",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b11b451ce7afd9564a8-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b0c/f2f1/3e43/3bad/7538/slideshow/mp-ii-house-kruk-architekci_16.jpg?1707498270",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b0cf2f13e433bad7538-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b20/b451/ce7a/fd95/64ab/slideshow/mp-ii-house-kruk-architekci_7.jpg?1707498288",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b20b451ce7afd9564ab-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b19/f2f1/3e43/3bad/753c/slideshow/mp-ii-house-kruk-architekci_5.jpg?1707498285",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b19f2f13e433bad753c-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b1f/b451/ce7a/fd95/64aa/slideshow/mp-ii-house-kruk-architekci_9.jpg?1707498288",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b1fb451ce7afd9564aa-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b18/f2f1/3e43/3bad/753b/slideshow/mp-ii-house-kruk-architekci_3.jpg?1707498281",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b18f2f13e433bad753b-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b1b/f2f1/3e43/3bad/753d/slideshow/mp-ii-house-kruk-architekci_8.jpg?1707498284",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b1bf2f13e433bad753d-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b1f/f2f1/3e43/3bad/753e/slideshow/mp-ii-house-kruk-architekci_10.jpg?1707498288",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b1ff2f13e433bad753e-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b0d/f2f1/3e43/3bad/7539/slideshow/mp-ii-house-kruk-architekci_11.jpg?1707498271",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b0df2f13e433bad7539-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b0c/b451/ce7a/fd95/64a7/slideshow/mp-ii-house-kruk-architekci_12.jpg?1707498271",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b0cb451ce7afd9564a7-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b18/b451/ce60/5f52/f718/slideshow/mp-ii-house-kruk-architekci_13.jpg?1707498283",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b18b451ce605f52f718-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b11/f2f1/3e43/3bad/753a/slideshow/mp-ii-house-kruk-architekci_14.jpg?1707498275",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b11f2f13e433bad753a-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b14/b451/ce7a/fd95/64a9/slideshow/mp-ii-house-kruk-architekci_15.jpg?1707498280",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b14b451ce7afd9564a9-mp-ii-house-kruk-architekci-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b26/f2f1/3e43/3bad/7540/slideshow/0-1.jpg?1707498320",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b26f2f13e433bad7540-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b38/b451/ce7a/fd95/64ae/slideshow/el-2-2.jpg?1707498346",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b38b451ce7afd9564ae-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b2c/b451/ce7a/fd95/64ac/slideshow/el-3-3.jpg?1707498335",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b2cb451ce7afd9564ac-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b38/f2f1/3e43/3bad/7545/slideshow/el-4-4.jpg?1707498345",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b38f2f13e433bad7545-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b30/f2f1/3e43/3bad/7542/slideshow/el1-5.jpg?1707498339",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b30f2f13e433bad7542-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b3a/b451/ce7a/fd95/64af/slideshow/r-6.jpg?1707498346",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b3ab451ce7afd9564af-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b40/b451/ce7a/fd95/64b0/slideshow/s-1-7.jpg?1707498360",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b40b451ce7afd9564b0-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b33/f2f1/3e43/3bad/7543/slideshow/s-2-8.jpg?1707498345",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b33f2f13e433bad7543-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b37/f2f1/3e43/3bad/7544/slideshow/sch-1-9.jpg?1707498336",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b37f2f13e433bad7544-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/65c6/5b38/b451/ce7a/fd95/64ad/slideshow/sch-2-10.jpg?1707498336",
+    url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b38b451ce7afd9564ad-mp-ii-house-kruk-architekci-?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a05c/8c33/f448/8681/abee/slideshow/multi-gable-house-bkm-group_11.jpg?1671733457",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a05c8c33f4488681abee-multi-gable-house-bkm-group-photo",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a043/8c33/f419/6a96/4924/slideshow/multi-gable-house-bkm-group_8.jpg?1671733374",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0438c33f4196a964924-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a067/8c33/f419/6a96/492b/slideshow/multi-gable-house-bkm-group_13.jpg?1671733420",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0678c33f4196a96492b-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a068/8c33/f419/6a96/492c/slideshow/multi-gable-house-bkm-group_21.jpg?1671733405",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0688c33f4196a96492c-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a047/8c33/f419/6a96/4925/slideshow/multi-gable-house-bkm-group_18.jpg?1671733372",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0478c33f4196a964925-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a026/6c62/5701/701f/b50d/slideshow/multi-gable-house-bkm-group_1.jpg?1671733340",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0266c625701701fb50d-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a03e/6c62/5701/701f/b510/slideshow/multi-gable-house-bkm-group_10.jpg?1671733371",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a03e6c625701701fb510-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a049/6c62/5701/701f/b511/slideshow/multi-gable-house-bkm-group_12.jpg?1671733396",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0496c625701701fb511-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a053/8c33/f419/6a96/4927/slideshow/multi-gable-house-bkm-group_14.jpg?1671733381",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0538c33f4196a964927-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a067/8c33/f448/8681/abef/slideshow/multi-gable-house-bkm-group_15.jpg?1671733400",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0678c33f4488681abef-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a069/6c62/5701/701f/b51a/slideshow/multi-gable-house-bkm-group_17.jpg?1671733416",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0696c625701701fb51a-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a04f/6c62/5701/701f/b512/slideshow/multi-gable-house-bkm-group_16.jpg?1671733385",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a04f6c625701701fb512-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a068/6c62/5701/701f/b519/slideshow/multi-gable-house-bkm-group_19.jpg?1671733408",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0686c625701701fb519-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a03f/8c33/f419/6a96/4923/slideshow/multi-gable-house-bkm-group_2.jpg?1671733366",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a03f8c33f4196a964923-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a061/8c33/f419/6a96/492a/slideshow/multi-gable-house-bkm-group_20.jpg?1671733402",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0618c33f4196a96492a-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a057/6c62/5701/701f/b514/slideshow/multi-gable-house-bkm-group_22.jpg?1671733390",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0576c625701701fb514-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a067/6c62/5701/701f/b518/slideshow/multi-gable-house-bkm-group_23.jpg?1671733402",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0676c625701701fb518-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a060/6c62/5701/701f/b516/slideshow/multi-gable-house-bkm-group_24.jpg?1671733398",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0606c625701701fb516-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a06a/6c62/5701/701f/b51b/slideshow/multi-gable-house-bkm-group_25.jpg?1671733409",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a06a6c625701701fb51b-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a05c/6c62/5701/701f/b515/slideshow/multi-gable-house-bkm-group_26.jpg?1671733394",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a05c6c625701701fb515-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a050/6c62/5701/701f/b513/slideshow/multi-gable-house-bkm-group_5.jpg?1671733394",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0506c625701701fb513-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a03c/6c62/5701/701f/b50f/slideshow/multi-gable-house-bkm-group_3.jpg?1671733372",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a03c6c625701701fb50f-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a026/8c33/f448/8681/abed/slideshow/multi-gable-house-bkm-group_4.jpg?1671733346",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0268c33f4488681abed-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a02b/6c62/5701/701f/b50e/slideshow/multi-gable-house-bkm-group_6.jpg?1671733346",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a02b6c625701701fb50e-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a04f/8c33/f419/6a96/4926/slideshow/multi-gable-house-bkm-group_7.jpg?1671733397",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a04f8c33f4196a964926-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/a064/6c62/5701/701f/b517/slideshow/multi-gable-house-bkm-group_9.jpg?1671733404",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0646c625701701fb517-multi-gable-house-bkm-group-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/9f90/6c62/5701/701f/b505/slideshow/001-site-plan-bkm-group-1.jpg?1671733171",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f906c625701701fb505-multi-gable-house-bkm-group-plan-site?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/9f8d/8c33/f419/6a96/4922/slideshow/002-ground-floor-plan-bkm-group-2.jpg?1671733170",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8d8c33f4196a964922-multi-gable-house-bkm-group-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/9f8c/8c33/f419/6a96/4921/slideshow/003-first-floor-plan-bkm-group-3.jpg?1671733158",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8c8c33f4196a964921-multi-gable-house-bkm-group-plan-1st-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/9f8c/6c62/5701/701f/b504/slideshow/003-section-ii-bkm-group-4.jpg?1671733186",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8c6c625701701fb504-multi-gable-house-bkm-group-section-i-i?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/63a4/9f8c/6c62/5701/701f/b503/slideshow/004-section-aa-bkm-group-5.jpg?1671733153",
+    url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8c6c625701701fb503-multi-gable-house-bkm-group-section-a-a?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/043b/63c0/177b/1600/01e0/slideshow/_ONI9615-28-35.jpg?1603142695",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e043b63c0177b160001e0-apartments-in-wolf-clearing-studio-dateria-photo",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0109/63c0/177b/1600/01ce/slideshow/_ONI9112-1.jpg?1603141878",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e010963c0177b160001ce-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/083d/63c0/177b/1600/01f9/slideshow/ONI-0004-17-60-57.jpg?1603143722",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e083d63c0177b160001f9-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0826/63c0/1713/1a00/01b0/slideshow/_ONI9840-43-45.jpg?1603143702",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e082663c017131a0001b0-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/054d/63c0/177b/1600/01e7/slideshow/_ONI9640-31-37.jpg?1603142970",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e054d63c0177b160001e7-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0682/63c0/177b/1600/01ed/slideshow/_ONI9728-70-68.jpg?1603143280",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e068263c0177b160001ed-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0452/63c0/1713/1a00/0195/slideshow/_ONI9623-1.jpg?1603142719",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e045263c017131a000195-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/051a/63c0/177b/1600/01e5/slideshow/_ONI9630-29-36.jpg?1603142919",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e051a63c0177b160001e5-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0751/63c0/1713/1a00/01a8/slideshow/_ONI9744-38-8.jpg?1603143491",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e075163c017131a0001a8-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/01a8/63c0/177b/1600/01d6/slideshow/_ONI9215-5-1.jpg?1603142040",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e01a863c0177b160001d6-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/02f1/63c0/177b/1600/01dc/slideshow/_ONI9484-68-65.jpg?1603142362",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e02f163c0177b160001dc-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0655/63c0/177b/1600/01eb/slideshow/_ONI9645-69-66.jpg?1603143236",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e065563c0177b160001eb-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/030d/63c0/177b/1600/01de/slideshow/_ONI9519-24-32.jpg?1603142387",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e030d63c0177b160001de-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/011b/63c0/1713/1a00/017f/slideshow/_ONI9158-2-16.jpg?1603141898",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e011b63c017131a00017f-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/026a/63c0/1713/1a00/0187/slideshow/_ONI9345-15-3.jpg?1603142234",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e026a63c017131a000187-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/09e8/63c0/177b/1600/020f/slideshow/ONI-0059-55-51.jpg?1603144148",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e09e863c0177b1600020f-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0906/63c0/177b/1600/0203/slideshow/ONI-0043-2-57-54.jpg?1603143926",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e090663c0177b16000203-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/099a/63c0/177b/1600/020b/slideshow/ONI-0043-67-64.jpg?1603144072",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e099a63c0177b1600020b-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0763/63c0/177b/1600/01f3/slideshow/_ONI9759-39.jpg?1603143508",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e076363c0177b160001f3-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/08ba/63c0/177b/1600/01ff/slideshow/ONI-0017-5-11-22.jpg?1603143851",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e08ba63c0177b160001ff-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/01f1/63c0/177b/1600/01d8/slideshow/_ONI9285-63-60.jpg?1603142114",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e01f163c0177b160001d8-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8e/0256/63c0/177b/1600/01da/slideshow/_ONI9296-65-62.jpg?1603142213",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e025663c0177b160001da-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/f9a8/63c0/1713/1a00/0159/slideshow/1.KARPACZ-SITE_PLAN.jpg?1603139980",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8df9a863c017131a000159-apartments-in-wolf-clearing-studio-dateria-site-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fa41/63c0/177b/1600/01ae/slideshow/3.KARPACZ-P1.-1_-_basement_plan.jpg?1603140133",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa4163c0177b160001ae-apartments-in-wolf-clearing-studio-dateria-p1-plan-basement?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fc0f/63c0/177b/1600/01b6/slideshow/9.KARPACZ-P2.-1_-_basement_plan.jpg?1603140591",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfc0f63c0177b160001b6-apartments-in-wolf-clearing-studio-dateria-p2-plan-basement?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fa63/63c0/1713/1a00/015b/slideshow/4.KARPACZ-P1.00_-_ground_floor_plan.jpg?1603140176",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa6363c017131a00015b-apartments-in-wolf-clearing-studio-dateria-p1-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fcf4/63c0/1713/1a00/0169/slideshow/10.KARPACZ-P2.00_-_ground_floor_plan.jpg?1603140833",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfcf463c017131a000169-apartments-in-wolf-clearing-studio-dateria-p2-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fa78/63c0/177b/1600/01af/slideshow/5.KARPACZ-P1.01_-_first_floor_plan.jpg?1603140199",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa7863c0177b160001af-apartments-in-wolf-clearing-studio-dateria-p1-plan-first-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fd5b/63c0/177b/1600/01bb/slideshow/11.KARPACZ-P2.01_-_first_floor_plan.jpg?1603140941",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfd5b63c0177b160001bb-apartments-in-wolf-clearing-studio-dateria-p2-plan-first-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fa8c/63c0/1713/1a00/015c/slideshow/6.KARPACZ-P1.02_-_second_floor_plan.jpg?1603140221",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa8c63c017131a00015c-apartments-in-wolf-clearing-studio-dateria-p1-plan-second-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fe2e/63c0/177b/1600/01bc/slideshow/12.KARPACZ-P2.02_-_second_floor_plan.jpg?1603141146",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfe2e63c0177b160001bc-apartments-in-wolf-clearing-studio-dateria-p2-plan-second-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/faf3/63c0/177b/1600/01b0/slideshow/7.KARPACZ-P1.03_-_roof_floor_plan.jpg?1603140323",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfaf363c0177b160001b0-apartments-in-wolf-clearing-studio-dateria-p1-plan-roof?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/feba/63c0/177b/1600/01c2/slideshow/13.KARPACZ-P2.03_-_roof_floor_plan.jpg?1603141290",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfeba63c0177b160001c2-apartments-in-wolf-clearing-studio-dateria-p2-plan-roof?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/f9eb/63c0/177b/1600/01ad/slideshow/2.Karpacz.sections.jpg?1603140011",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8df9eb63c0177b160001ad-apartments-in-wolf-clearing-studio-dateria-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/fb32/63c0/1713/1a00/0161/slideshow/8.KARPACZ-P1._-_section.jpg?1603140379",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfb3263c017131a000161-apartments-in-wolf-clearing-studio-dateria-section-p1?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f8d/ff37/63c0/177b/1600/01c3/slideshow/14.KARPACZ-P2._-_section.jpg?1603141415",
+    url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dff3763c0177b160001c3-apartments-in-wolf-clearing-studio-dateria-section-p2?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f718/63c0/17fc/5100/02ae/slideshow/IMG_3694a.jpg?1607399181",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef71863c017fc510002ae-single-houses-in-bory-tucholskie-maktudio-photo",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f731/63c0/17d8/7500/0202/slideshow/IMG_3696a.jpg?1607399197",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef73163c017d875000202-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f6b7/63c0/17fc/5100/02a4/slideshow/IMG_3627a.jpg?1607399081",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6b763c017fc510002a4-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f6c6/63c0/17fc/5100/02a6/slideshow/IMG_3638a.jpg?1607399101",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6c663c017fc510002a6-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f69a/63c0/17fc/5100/02a2/slideshow/IMG_3509a.jpg?1607399056",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef69a63c017fc510002a2-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f754/63c0/17fc/5100/02b0/slideshow/IMG_3702a.jpg?1607399239",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef75463c017fc510002b0-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f778/63c0/17fc/5100/02b4/slideshow/IMG_3719a.jpg?1607399277",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef77863c017fc510002b4-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f768/63c0/17fc/5100/02b2/slideshow/IMG_3711a.jpg?1607399258",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef76863c017fc510002b2-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f741/63c0/17d8/7500/0204/slideshow/IMG_3697a.jpg?1607399223",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef74163c017d875000204-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f60a/63c0/17fc/5100/0296/slideshow/IMG_3115a.jpg?1607398913",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef60a63c017fc51000296-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f61e/63c0/17fc/5100/0298/slideshow/IMG_3141a.jpg?1607398928",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef61e63c017fc51000298-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f632/63c0/17fc/5100/029a/slideshow/IMG_3230a.jpg?1607398948",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef63263c017fc5100029a-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f63c/63c0/17d8/7500/01f8/slideshow/IMG_3250a.jpg?1607398964",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef63c63c017d8750001f8-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f64f/63c0/17fc/5100/029c/slideshow/IMG_3260a.jpg?1607398977",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef64f63c017fc5100029c-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f66d/63c0/17fc/5100/029e/slideshow/IMG_3309a.jpg?1607399011",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef66d63c017fc5100029e-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f67b/63c0/17fc/5100/02a0/slideshow/IMG_3434a.jpg?1607399027",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef67b63c017fc510002a0-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f68c/63c0/17d8/7500/01fc/slideshow/IMG_3486a.jpg?1607399038",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef68c63c017d8750001fc-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f6a5/63c0/17d8/7500/01fe/slideshow/IMG_3620a.jpg?1607399068",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6a563c017d8750001fe-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f6d6/63c0/17d8/7500/0200/slideshow/IMG_3641a.jpg?1607399112",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6d663c017d875000200-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f6e3/63c0/17fc/5100/02a8/slideshow/IMG_3660a.jpg?1607399131",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6e363c017fc510002a8-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f6f8/63c0/17fc/5100/02aa/slideshow/IMG_3674a.jpg?1607399146",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6f863c017fc510002aa-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f707/63c0/17fc/5100/02ac/slideshow/IMG_3677a.jpg?1607399166",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef70763c017fc510002ac-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f65f/63c0/17d8/7500/01fa/slideshow/IMG_3267a.jpg?1607398993",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef65f63c017d8750001fa-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f5c8/63c0/17d8/7500/01f6/slideshow/floorplans2.jpg?1607398850",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5c863c017d8750001f6-single-houses-in-bory-tucholskie-maktudio-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f5d4/63c0/17d8/7500/01f7/slideshow/scheme.jpg?1607398862",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5d463c017d8750001f7-single-houses-in-bory-tucholskie-maktudio-scheme?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f5b7/63c0/17d8/7500/01f5/slideshow/elevations.jpg?1607398834",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5b763c017d8750001f5-single-houses-in-bory-tucholskie-maktudio-elevations?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5fce/f5bf/63c0/17fc/5100/0295/slideshow/floorplans1.jpg?1607398841",
+    url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5bf63c017fc51000295-single-houses-in-bory-tucholskie-maktudio-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/02b7/b357/65ef/3100/005c/slideshow/101.jpg?1595277996",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602b7b35765ef3100005c-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0422/b357/65ef/3100/0067/slideshow/115.jpg?1595278359",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160422b35765ef31000067-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/045b/b357/65ef/3100/0068/slideshow/202.jpg?1595278416",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f16045bb35765ef31000068-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/044b/b357/658b/5b00/0096/slideshow/201.jpg?1595278400",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f16044bb357658b5b000096-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/03da/b357/658b/5b00/0093/slideshow/112.jpg?1595278285",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603dab357658b5b000093-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/03fa/b357/658b/5b00/0094/slideshow/114.jpg?1595278319",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603fab357658b5b000094-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0324/b357/658b/5b00/0087/slideshow/105.jpg?1595278104",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160324b357658b5b000087-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/02a8/b357/658b/5b00/0083/slideshow/102.jpg?1595277981",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602a8b357658b5b000083-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/02e9/b357/658b/5b00/0085/slideshow/103.jpg?1595278046",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602e9b357658b5b000085-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/02f8/b357/65ef/3100/005e/slideshow/104.jpg?1595278061",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602f8b35765ef3100005e-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0334/b357/65ef/3100/0060/slideshow/106.jpg?1595278121",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160334b35765ef31000060-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0376/b357/658b/5b00/0089/slideshow/108.jpg?1595278187",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160376b357658b5b000089-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0366/b357/65ef/3100/0062/slideshow/107.jpg?1595278172",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160366b35765ef31000062-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/03a6/b357/658b/5b00/0091/slideshow/109.jpg?1595278235",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603a6b357658b5b000091-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/03c8/b357/65ef/3100/0064/slideshow/111.jpg?1595278268",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603c8b35765ef31000064-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/03b7/b357/658b/5b00/0092/slideshow/110.jpg?1595278252",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603b7b357658b5b000092-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/04a1/b357/65ef/3100/006b/slideshow/207.jpg?1595278487",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1604a1b35765ef3100006b-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/03e9/b357/65ef/3100/0065/slideshow/113.jpg?1595278301",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603e9b35765ef31000065-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0476/b357/65ef/3100/0069/slideshow/204.jpg?1595278443",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160476b35765ef31000069-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0491/b357/65ef/3100/006a/slideshow/206.jpg?1595278470",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160491b35765ef3100006a-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0483/b357/658b/5b00/0098/slideshow/205.jpg?1595278457",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160483b357658b5b000098-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0468/b357/658b/5b00/0097/slideshow/203.jpg?1595278430",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160468b357658b5b000097-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0314/b357/65ef/3100/005f/slideshow/20200710_HH_T_4.jpg?1595278089",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160314b35765ef3100005f-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/02c9/b357/658b/5b00/0084/slideshow/20200710_HH_T_1.jpg?1595278013",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602c9b357658b5b000084-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/02d8/b357/65ef/3100/005d/slideshow/20200710_HH_T_2.jpg?1595278029",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602d8b35765ef3100005d-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0307/b357/658b/5b00/0086/slideshow/20200710_HH_T_3.jpg?1595278074",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160307b357658b5b000086-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0355/b357/65ef/3100/0061/slideshow/20200710_HH_T_6.jpg?1595278154",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160355b35765ef31000061-herba-house-pracownia-projectowa-jakub-sucharski-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0345/b357/658b/5b00/0088/slideshow/20200710_HH_T_5.jpg?1595278137",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160345b357658b5b000088-herba-house-pracownia-projectowa-jakub-sucharski-elevation?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0386/b357/658b/5b00/008a/slideshow/20200710_HH_T_7.jpg?1595278202",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160386b357658b5b00008a-herba-house-pracownia-projectowa-jakub-sucharski-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/5f16/0398/b357/65ef/3100/0063/slideshow/20200710_HH_T_8.jpg?1595278219",
+    url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160398b35765ef31000063-herba-house-pracownia-projectowa-jakub-sucharski-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b78c/e58e/ce5a/8200/00e3/slideshow/arches_3.jpg?1475721094",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b78ce58ece5a820000e3-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7d4/e58e/ce5a/8200/00e5/slideshow/arches_9.jpg?1475721165",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7d4e58ece5a820000e5-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b846/e58e/cec3/9400/0064/slideshow/arches_19.jpg?1475721279",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b846e58ecec394000064-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b75f/e58e/ce5a/8200/00e1/slideshow/arches_1_THE_MAIN.jpg?1475721049",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b75fe58ece5a820000e1-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7df/e58e/cec3/9400/005f/slideshow/arches_10.jpg?1475721177",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7dfe58ecec39400005f-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b80c/e58e/cec3/9400/0061/slideshow/arches_14.jpg?1475721222",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b80ce58ecec394000061-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b85d/e58e/cec3/9400/0065/slideshow/arches_21.jpg?1475721302",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b85de58ecec394000065-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b801/e58e/ce5a/8200/00e7/slideshow/arches_13.jpg?1475721211",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b801e58ece5a820000e7-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b83a/e58e/cec3/9400/0063/slideshow/arches_18.jpg?1475721267",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b83ae58ecec394000063-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b8ef/e58e/ce5a/8200/00f1/slideshow/arches_36.jpg?1475721449",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8efe58ece5a820000f1-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b82f/e58e/ce5a/8200/00e9/slideshow/arches_17.jpg?1475721256",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b82fe58ece5a820000e9-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7ae/e58e/cec3/9400/005c/slideshow/arches_6.jpg?1475721127",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7aee58ecec39400005c-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b850/e58e/ce5a/8200/00ea/slideshow/arches_20.jpg?1475721290",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b850e58ece5a820000ea-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b87d/e58e/ce5a/8200/00ec/slideshow/arches_24.jpg?1475721335",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b87de58ece5a820000ec-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b894/e58e/ce5a/8200/00ed/slideshow/arches_26.jpg?1475721357",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b894e58ece5a820000ed-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b8e5/e58e/cec3/9400/006b/slideshow/arches_33.jpg?1475721439",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8e5e58ecec39400006b-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b889/e58e/cec3/9400/0067/slideshow/arches_25.jpg?1475721346",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b889e58ecec394000067-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b8c2/e58e/cec3/9400/0069/slideshow/arches_30.jpg?1475721403",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8c2e58ecec394000069-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b8b7/e58e/ce5a/8200/00ef/slideshow/arches_29.jpg?1475721393",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8b7e58ece5a820000ef-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7c8/e58e/cec3/9400/005e/slideshow/arches_8.jpg?1475721153",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7c8e58ecec39400005e-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7ea/e58e/ce5a/8200/00e6/slideshow/arches_11.jpg?1475721187",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7eae58ece5a820000e6-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b873/e58e/cec3/9400/0066/slideshow/arches_23.jpg?1475721324",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b873e58ecec394000066-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b8ab/e58e/ce5a/8200/00ee/slideshow/arches_28.jpg?1475721380",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8abe58ece5a820000ee-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7a3/e58e/ce5a/8200/00e4/slideshow/arches_5.jpg?1475721117",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7a3e58ece5a820000e4-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b823/e58e/cec3/9400/0062/slideshow/arches_16.jpg?1475721244",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b823e58ecec394000062-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b76a/e58e/cec3/9400/0059/slideshow/arches_2.jpg?1475721059",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b76ae58ecec394000059-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b8d9/e58e/cec3/9400/006a/slideshow/arches_32.jpg?1475721426",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8d9e58ecec39400006a-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b867/e58e/ce5a/8200/00eb/slideshow/arches_22.jpg?1475721312",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b867e58ece5a820000eb-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b818/e58e/ce5a/8200/00e8/slideshow/arches_15.jpg?1475721233",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b818e58ece5a820000e8-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7ba/e58e/cec3/9400/005d/slideshow/arches_7.jpg?1475721140",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7bae58ecec39400005d-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b8a1/e58e/cec3/9400/0068/slideshow/arches_27.jpg?1475721369",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8a1e58ecec394000068-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b797/e58e/cec3/9400/005b/slideshow/arches_4.jpg?1475721104",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b797e58ecec39400005b-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/b7f6/e58e/cec3/9400/0060/slideshow/arches_12.jpg?1475721199",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7f6e58ecec394000060-valley-villa-arches-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/ba72/e58e/ce5a/8200/00f3/slideshow/SCHEME.jpg?1475721835",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba72e58ece5a820000f3-valley-villa-arches-diagram?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/ba45/e58e/cec3/9400/006c/slideshow/P1.jpg?1475721791",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba45e58ecec39400006c-valley-villa-arches-plan-1?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/ba5b/e58e/cec3/9400/006d/slideshow/P2.jpg?1475721814",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba5be58ecec39400006d-valley-villa-arches-plan-2?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/57f5/ba52/e58e/ce5a/8200/00f2/slideshow/E1.jpg?1475721803",
+    url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba52e58ece5a820000f2-valley-villa-arches-elevation?next_project=no",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/unnamed-3.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=3",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/unnamed.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=5",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/unnamed-2.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=2",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/unnamed-4.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=4",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/unnamed-1.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=1",
+  },
+  {
+    src: "https://procural-group.com/media/cache/realisation_main_retina/uploads/thumbnail/dom-prywatny-1.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/",
+  },
+  {
+    src: "https://procural-group.com/media/cache/realisation_main_retina/uploads/realisation/thumbnail/3121/Dom%20prywatny%20-%20Slowacja%201g.jpg",
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/",
+  },
+  {
+    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%201g.jpg",
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=1",
+  },
+  {
+    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%202g.jpg",
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=1",
+  },
+  {
+    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%2011g.jpg",
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
+  },
+  {
+    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%201g.jpg",
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
+  },
+  {
+    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%202g.jpg",
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
+  },
+  {
+    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%2011g.jpg",
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow2g-1.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow6g-1.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow24g.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
+  },
+  {
+    src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow37g.jpg",
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/115325_C86A4124-HDR.jpg?itok=yFkm9LkG",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/115328_C86A3417-HDR.jpg?itok=1GEqTC49",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/115329_C86A4691-HDR.jpg?itok=oG9iA8gl",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/115330_C86A3447-HDR.jpg?itok=GR4-ctpM",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/115331_C86A3179-HDR.jpg?itok=wfASUA6c",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/115332_C86A3214-HDR%20%282%29.jpg?itok=61eO-Eq-",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/115333_C86A3400.jpg?itok=kwWjIRV7",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112294_5S0A1616.jpg?itok=K2-sxQ88",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112224_5S0A0603.jpg?itok=Ife4uaNA",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112225_5S0A0570.jpg?itok=JPZOBjTu",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112251_5S0A0970.jpg?itok=WpSOOxE1",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112309_5S0A1734.jpg?itok=45nc6GPp",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112267_5S0A1212.jpg?itok=qqia1XdM",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112291_5S0A1609.jpg?itok=QvRRfgpG",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-south-water",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/112289_5S0A1591.jpg?itok=9c0VraJs",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-lake-wakatipu-house-otago",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73803_Lake%20Wakatipu%20House6.JPG?itok=mHRPSubO",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-lake-wakatipu-house-otago",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73801_Lake%20Wakatipu%20House8.jpg?itok=IlbLMNzC",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-lake-wakatipu-house-otago",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73811_Lake%20Wakatipu%20House12.JPG?itok=xCgqzYws",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-lake-wakatipu-house-otago",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73814_Lake%20Wakatipu%20House1.JPG?itok=cdEy5ZVg",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-newbridge-avenue-dublin",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63033_Newbridge%20Avenue_04.jpg?itok=F4-yqub6",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-newbridge-avenue-dublin",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63032_Newbridge%20Avenue_05.jpg?itok=whFqWsN2",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-newbridge-avenue-dublin",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63034_Newbridge%20Avenue_03.jpg?itok=_tYQWLkp",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-newbridge-avenue-dublin",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63031_Newbridge%20Avenue_06.jpg?itok=hGwl_DQX",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-newbridge-avenue-dublin",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63036_Newbridge%20Avenue_01.jpg?itok=XBQzMuTT",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-newbridge-avenue-dublin",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63035_Newbridge%20Avenue_02.jpg?itok=WQ-X6BaA",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-maison-privee-le-pouliguen-le-pouliguen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/61123_Maison%20Priv%C3%A9e%20-%20Le%20Pouliguen%20%20%288%29.jpg?itok=Ud2eNHw8",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-maison-privee-le-pouliguen-le-pouliguen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/61113_Maison%20Priv%C3%A9e%20-%20Le%20Pouliguen%20%20%2818%29.jpg?itok=ne6Bdsh5",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-maison-privee-le-pouliguen-le-pouliguen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/61128_Maison%20Priv%C3%A9e%20-%20Le%20Pouliguen%20%20%283%29.jpg?itok=HRFSR_n0",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-maison-privee-le-pouliguen-le-pouliguen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/61111_Maison%20Priv%C3%A9e%20-%20Le%20Pouliguen%20%20%2820%29.jpg?itok=WGJM7VAI",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-maison-privee-le-pouliguen-le-pouliguen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/61119_Maison%20Priv%C3%A9e%20-%20Le%20Pouliguen%20%20%2812%29.jpg?itok=ndrzpL6i",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-maison-privee-le-pouliguen-le-pouliguen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/61112_Maison%20Priv%C3%A9e%20-%20Le%20Pouliguen%20%20%2819%29.jpg?itok=IETm9XiM",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63580_Valley%20Villa_02.jpg?itok=6bGcdLqj",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63583_Valley%20Villa_08.jpg?itok=OZAWHocu",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63584_Valley%20Villa_05.jpg?itok=Q5al2Xij",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63593_Valley%20Villa_07.jpg?itok=LnGivZhR",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63591_Valley%20Villa_11.jpg?itok=Z-OE6q1J",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63581_Valley%20Villa_01.jpg?itok=Q-5RgP-r",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63590_Valley%20Villa_12.jpg?itok=9a5kKTWy",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63594_Valley%20Villa_06.jpg?itok=7E2EahjX",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63586_Valley%20Villa_03.jpg?itok=1vNwhTU9",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63587_Valley%20Villa_04.jpg?itok=Hz4cbyxn",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63592_Valley%20Villa_10.jpg?itok=xIdOWpXL",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63589_Valley%20Villa_13.jpg?itok=XBuV4jGl",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-valley-villa-vilnius",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63582_Valley%20Villa_09.jpg?itok=0dFmaFZs",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-apartament-hi-finity-w-nicei-nice",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/65217_Reynaers%20Aluminium_HiFinity%20Nice%2006.jpg?itok=mfAENNVi",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-apartament-hi-finity-w-nicei-nice",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/65180_Reynaers%20Aluminium_HiFinity%20Nice%2014.jpg?itok=W7ZEtg2V",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-apartament-hi-finity-w-nicei-nice",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/65214_Reynaers%20Aluminium_HiFinity%20Nice%2009.jpg?itok=tpyoATz8",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-apartament-hi-finity-w-nicei-nice",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/65218_Reynaers%20Aluminium_HiFinity%20Nice%2005.jpg?itok=bbLSsM_A",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-apartament-hi-finity-w-nicei-nice",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/65222_Reynaers%20Aluminium_HiFinity%20Nice%2001.jpg?itok=mmVM8Blc",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-apartament-hi-finity-w-nicei-nice",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/65213_Reynaers%20Aluminium_HiFinity%20Nice%2010.jpg?itok=14_wtQ5E",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-apartament-hi-finity-w-nicei-nice",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/65221_Reynaers%20Aluminium_HiFinity%20Nice%2002.jpg?itok=Zw2Z1pXR",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-rezydencja",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/69115_Buftea%20Residence%206.jpg?itok=lWBW5k6z",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-rezydencja",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/69113_Buftea%20Residence%208.jpg?itok=V4zzYsn2",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-rezydencja",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/69110_Buftea%20Residence%2011.jpg?itok=5LkYRhwI",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-rezydencja",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/69109_Buftea%20Residence%2012.jpg?itok=J9BBB3V6",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-rezydencja",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/69103_Buftea%20Residence%203.jpg?itok=J6ffsHVc",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-villa-syvota-nad-morzem-igoumenitsa",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/66428_Seaside%20villas%20Syvota%204.jpg?itok=i0k8JcKI",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-villa-syvota-nad-morzem-igoumenitsa",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/66426_Seaside%20villas%20Syvota%206.jpg?itok=vRAAboUo",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-villa-syvota-nad-morzem-igoumenitsa",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/66424_Seaside%20villas%20Syvota%208.jpg?itok=Wj0Wa9KB",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-villa-syvota-nad-morzem-igoumenitsa",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/66425_Seaside%20villas%20Syvota%207.jpg?itok=-EUNxkGs",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-villa-syvota-nad-morzem-igoumenitsa",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/66429_Seaside%20villas%20Syvota%203.jpg?itok=gNzfj9iR",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-villa-syvota-nad-morzem-igoumenitsa",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/66430_Seaside%20villas%20Syvota%202.jpg?itok=z-F8hBZf",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-okna-aluminiowe-villa-syvota-nad-morzem-igoumenitsa",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/66427_Seaside%20villas%20Syvota%205.jpg?itok=YhZ2v3ca",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valley-21",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/67158_Valley21%2001.jpg?itok=aXXS2JfD",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valley-21",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/67161_Valley21%2002.jpg?itok=8p9hpwpw",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valley-21",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/67160_Valley21%2003.jpg?itok=k8aMhg3W",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valley-21",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/67159_Valley21%2004.jpg?itok=UiorIO2q",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63473_The%20Giving%20Tree_17.jpg?itok=aDF_usOe",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63477_The%20Giving%20Tree_13.jpg?itok=XF3YG8ZH",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63472_The%20Giving%20Tree_18.jpg?itok=Ubnyep6C",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63457_The%20Giving%20Tree_34.jpg?itok=rBPZ9q6J",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63461_The%20Giving%20Tree_30.jpg?itok=6J4UWnjo",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63471_The%20Giving%20Tree_19.jpg?itok=xljQTmWk",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63484_The%20Giving%20Tree_06.jpg?itok=pKJWwHJ9",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63480_The%20Giving%20Tree_10.jpg?itok=iaOfNdYm",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63459_The%20Giving%20Tree_32.jpg?itok=r7xP3aeF",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63466_The%20Giving%20Tree_24.jpg?itok=gH_qdezm",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63470_The%20Giving%20Tree_20.jpg?itok=CJwoQKDF",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63448_The%20Giving%20Tree_43.jpg?itok=pXVJ3xBh",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63489_The%20Giving%20Tree_01.jpg?itok=1nUn5Uph",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63488_The%20Giving%20Tree_02.jpg?itok=1gi1z9rk",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63467_The%20Giving%20Tree_23.jpg?itok=uDCul3j6",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63455_The%20Giving%20Tree_36.jpg?itok=GYAuYFh2",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63475_The%20Giving%20Tree_15.jpg?itok=FkPtz02f",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63485_The%20Giving%20Tree_05.jpg?itok=d5RUVKRP",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63452_The%20Giving%20Tree_39.jpg?itok=WmZ65FsJ",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63483_The%20Giving%20Tree_07.jpg?itok=OUqsVgts",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63464_The%20Giving%20Tree_26.jpg?itok=rCUKeJiN",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63482_The%20Giving%20Tree_08.jpg?itok=Ljtg8lFw",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63449_The%20Giving%20Tree_42.jpg?itok=r5N2ynvV",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63456_The%20Giving%20Tree_35.jpg?itok=Dpg9I1-W",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63486_The%20Giving%20Tree_04.jpg?itok=WQJdiDUP",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63481_The%20Giving%20Tree_09.jpg?itok=3Uv8XB9n",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63479_The%20Giving%20Tree_11.jpg?itok=B4Yk0SOR",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63469_The%20Giving%20Tree_21.jpg?itok=7C2yCmUd",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63463_The%20Giving%20Tree_27.jpg?itok=Wx98iBer",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63478_The%20Giving%20Tree_12.jpg?itok=0vTD04Bg",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63476_The%20Giving%20Tree_14.jpg?itok=daRDQmFz",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63465_The%20Giving%20Tree_25.jpg?itok=qCsJsNNZ",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63462_The%20Giving%20Tree_28.jpg?itok=_UePnOVx",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63474_The%20Giving%20Tree_16.jpg?itok=T9Ngimaj",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63451_The%20Giving%20Tree_40.jpg?itok=r6eA-8lT",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63450_The%20Giving%20Tree_41.jpg?itok=IrJlvYlI",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63468_The%20Giving%20Tree_22.jpg?itok=SMWOdoo1",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63458_The%20Giving%20Tree_33.jpg?itok=5rHt_89W",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63487_The%20Giving%20Tree_03.jpg?itok=YkbjEVnq",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63460_The%20Giving%20Tree_31.jpg?itok=BBigsKKE",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63453_The%20Giving%20Tree_38.jpg?itok=Da5mF-i0",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-giving-tree",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63454_The%20Giving%20Tree_37.jpg?itok=4ob_0p4W",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64677_Villa%20Hi-Finity%20Bergamo_9.jpg?itok=KSZC0Z9C",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64679_Villa%20Hi-Finity%20Bergamo_7.jpg?itok=GB8EKmYI",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64672_Villa%20Hi-Finity%20Bergamo_14.jpg?itok=dawwqF4k",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64674_Villa%20Hi-Finity%20Bergamo_12.jpg?itok=8oY88a83",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64656_Villa%20Hi-Finity%20Bergamo_31.jpg?itok=0Tv3BBov",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64658_Villa%20Hi-Finity%20Bergamo_29.jpg?itok=VyYSa_Y3",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64657_Villa%20Hi-Finity%20Bergamo_30.jpg?itok=rTlCAdwo",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64676_Villa%20Hi-Finity%20Bergamo_10.jpg?itok=MLdZdilb",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64666_Villa%20Hi-Finity%20Bergamo_20.jpg?itok=_68CsqMZ",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-villa-hi-finity-bergamo-bergamo",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/64670_Villa%20Hi-Finity%20Bergamo_16.jpg?itok=gIUABedu",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73906_Private%20House%20K3.jpg?itok=swTUcBet",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73903_Private%20House%20K6.jpg?itok=mkI2thMh",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73907_Private%20House%20K2.jpg?itok=w8HK6Ct1",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73901_Private%20House%20K8.jpg?itok=GwQN2ak1",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73908_Private%20House%20K1.jpg?itok=wvquXbwV",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73905_Private%20House%20K4.jpg?itok=5gNgFvo_",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73904_Private%20House%20K5.jpg?itok=gRwEnAup",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/oslony-przeciwsloneczne-drzwi-przesuwne-aluminiowe-private-house-k",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/73902_Private%20House%20K7.jpg?itok=v2vspGrX",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-private-house",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/76162_Private%20House%20Ilfov4.jpg?itok=tfpDD2Ow",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-private-house",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/76163_Private%20House%20Ilfov3.jpg?itok=9Zogjj_k",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/ogrody-zimowe-conservatory-brasschaat-3-brasschaat",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81920_REYN-2596.jpg?itok=7hSL4lvK",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/ogrody-zimowe-conservatory-brasschaat-3-brasschaat",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81921_REYN-2595.jpg?itok=YQTeZv0S",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/ogrody-zimowe-conservatory-brasschaat-3-brasschaat",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81919_REYN-2597.jpg?itok=Ph09SUwy",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/ogrody-zimowe-conservatory-brasschaat-3-brasschaat",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81918_REYN-2598.jpg?itok=v0pN12MC",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/ogrody-zimowe-conservatory-merksem-1-merksem",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81906_REYN-2611.jpg?itok=WkQnTAuF",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/ogrody-zimowe-conservatory-merksem-1-merksem",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81907_REYN-2610.jpg?itok=G5e3FX-R",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/ogrody-zimowe-conservatory-merksem-1-merksem",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81905_REYN-2612.jpg?itok=z4En2_uO",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/systemy-uzupelniajace-conservatory-dadizele-1-dadizele",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82745_REYN-1698.jpg?itok=EX-v9e0P",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/systemy-uzupelniajace-conservatory-dadizele-1-dadizele",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82744_REYN-1699.jpg?itok=9aI7YueR",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/systemy-uzupelniajace-private-house-belgium-21",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82871_REYN-1567.jpg?itok=_z-mGVQn",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/systemy-uzupelniajace-private-house-belgium-21",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82870_REYN-1568.jpg?itok=sfBq6Iys",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-antwerp-2-antwerp",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81889_REYN-2629.jpg?itok=v2HnFJIF",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-antwerp-2-antwerp",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81890_REYN-2628.jpg?itok=X0WNo_Q9",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80020_REYN-4668.jpg?itok=dySnn77s",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80019_REYN-4669.jpg?itok=knqTlFTD",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79972_REYN-4725.jpg?itok=VRauIaxc",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80021_REYN-4667.jpg?itok=rBCBtE-Q",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80018_REYN-4670.jpg?itok=t96FJLhz",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80022_REYN-4666.jpg?itok=Gj5i9MFI",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80017_REYN-4671.jpg?itok=rAa08x8A",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-aluminiowe-okna-aluminiowe-drzwi-przesuwne-aluminiowe-villa-oisterwijk-oisterwijk",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80016_REYN-4672.jpg?itok=oF5Y8m9c",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-uznach-uznach",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79919_REYN-4786.jpg?itok=mOPaNavs",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-uznach-uznach",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79921_REYN-4784.jpg?itok=xlmERPCQ",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-uznach-uznach",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79920_REYN-4785.jpg?itok=7tETXtlZ",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-uznach-uznach",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79923_REYN-4782.jpg?itok=S7uPpZgJ",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-uznach-uznach",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79922_REYN-4783.jpg?itok=Wh7gRR8R",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valtinovska-prague",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79851_REYN-4859.jpg?itok=C3qltM_G",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valtinovska-prague",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79854_REYN-4856.jpg?itok=1xvrymkd",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valtinovska-prague",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79855_REYN-4855.jpg?itok=rq6xtQqQ",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valtinovska-prague",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79853_REYN-4857.jpg?itok=JlVlGqek",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/valtinovska-prague",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79852_REYN-4858.jpg?itok=y3YLCX52",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-van-acker",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80056_REYN-4628.jpg?itok=y4j6i3Lp",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-van-acker",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80057_REYN-4627.jpg?itok=ZWsDEqwu",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-van-acker",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/76113_Van%20Acker%20Sissau%20villa5.jpg?itok=q8z4eaZC",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-van-acker",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/76112_Van%20Acker%20Sissau%20villa6.jpg?itok=u5-jwErK",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-van-acker",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80053_REYN-4631.jpg?itok=wZhdbpBd",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-van-acker",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/76115_Van%20Acker%20Sissau%20villa3.jpg?itok=OVn_O0z3",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-passive-house-ath",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80085_REYN-4594.jpg?itok=s0kPVhB3",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-passive-house-ath",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80086_REYN-4593.jpg?itok=YFTL03mc",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-passive-house-ath",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80084_REYN-4595.jpg?itok=NQKYQqxw",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79615_REYN-5121.jpg?itok=SsgKdHNA",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79611_REYN-5125.jpg?itok=rlfC_8pS",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79617_REYN-5119.jpg?itok=QWoKzf_3",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79612_REYN-5124.jpg?itok=6LNnXLS4",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79610_REYN-5126.jpg?itok=P9cnviIr",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79616_REYN-5120.jpg?itok=pvr4mt2K",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79609_REYN-5127.jpg?itok=g-Z3MUAS",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79614_REYN-5122.jpg?itok=iuvxsmSH",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-drzwi-przesuwne-aluminiowe-private-house-el-papiol-barcelona",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79613_REYN-5123.jpg?itok=f57LycAt",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-heusden-zolder-1-heusden-zolder",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81927_REYN-2589.jpg?itok=zddcmYbD",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-heusden-zolder-1-heusden-zolder",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82155_REYN-2342.jpg?itok=CAH9_IGY",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-heusden-zolder-1-heusden-zolder",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81926_REYN-2590.jpg?itok=RH9CvdyR",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-heusden-zolder-1-heusden-zolder",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82154_REYN-2343.jpg?itok=DS3hG0CD",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-heusden-zolder-1-heusden-zolder",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82153_REYN-2344.jpg?itok=eN8XLXFV",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-private-house-mechelen-1-mechelen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80584_REYN-4051.jpg?itok=j28rFHUX",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-private-house-mechelen-1-mechelen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80585_REYN-4050.jpg?itok=L1hy9acy",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-private-house-mechelen-1-mechelen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80586_REYN-4049.jpg?itok=1DBM4-bS",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/sciany-oslonowe-aluminiowe-private-house-mechelen-1-mechelen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80583_REYN-4052.jpg?itok=FGTxL5Uy",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-goirle-1-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80838_REYN-3785.jpg?itok=ONaRW3T6",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-goirle-1-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80841_REYN-3782.jpg?itok=icboAhyB",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-goirle-1-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80843_REYN-3780.jpg?itok=7xYXRI5v",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-goirle-1-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80839_REYN-3784.jpg?itok=ekfe6mII",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-goirle-1-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80840_REYN-3783.jpg?itok=9AJkBBCx",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-goirle-1-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80842_REYN-3781.jpg?itok=iJABIp6W",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-hasselt-1-hasselt",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81840_REYN-2680.jpg?itok=LG0_Zd9i",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-hasselt-1-hasselt",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81839_REYN-2681.jpg?itok=YJtEsYQp",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-herk-de-stad-1-herk-de-stad",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82152_REYN-2345.jpg?itok=l1_JHkCe",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-herk-de-stad-1-herk-de-stad",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82149_REYN-2348.jpg?itok=s189dlyK",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-herk-de-stad-1-herk-de-stad",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82148_REYN-2349.jpg?itok=T3D_3lpY",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-herk-de-stad-1-herk-de-stad",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82150_REYN-2347.jpg?itok=4abFnKPu",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-herk-de-stad-1-herk-de-stad",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/82151_REYN-2346.jpg?itok=of74rGC-",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-meise-meise",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79928_REYN-4777.jpg?itok=dQVLJqPG",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-meise-meise",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79927_REYN-4778.jpg?itok=Spl4a8K6",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-meise-meise",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79924_REYN-4781.jpg?itok=fPNCmOtq",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-meise-meise",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79925_REYN-4780.jpg?itok=EUNPgVC0",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-meise-meise",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79926_REYN-4779.jpg?itok=Gkg-oSlD",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-sevres-sevres",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79580_REYN-5156.jpg?itok=nVRAzrFS",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-sevres-sevres",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79579_REYN-5157.jpg?itok=9oGd3t8z",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-sevres-sevres",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79578_REYN-5158.jpg?itok=D7O-H-GF",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-sevres-sevres",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79581_REYN-5155.jpg?itok=9gTRUMHG",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-sevres-sevres",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79575_REYN-5161.jpg?itok=8rh3YT4G",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-sevres-sevres",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79576_REYN-5160.jpg?itok=yi0MhH6P",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-private-house-sevres-sevres",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79577_REYN-5159.jpg?itok=e8kk_s3R",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-munich-munchen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80951_REYN-3654.jpg?itok=K-MEQcXP",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-munich-munchen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80950_REYN-3655.jpg?itok=aJexnrcL",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/private-house-munich-munchen",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/80954_REYN-3651.jpg?itok=mq-69yF6",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-watervillas-wilnis",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81402_REYN-3145.jpg?itok=90CJ0i1r",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-watervillas-wilnis",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81401_REYN-3146.jpg?itok=x9mMXtwx",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-watervillas-wilnis",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81399_REYN-3148.jpg?itok=wF8mZUy9",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-watervillas-wilnis",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81398_REYN-3149.jpg?itok=p4jmt7yX",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-watervillas-wilnis",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/81400_REYN-3147.jpg?itok=nPmXd_mP",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-villa-rotonda-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/68921_2011%20Villa%20Rotonda%20Goirle%20%2817%29.jpg?itok=49J2KoKP",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-villa-rotonda-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/68931_2011%20Villa%20Rotonda%20Goirle%20%287%29.jpg?itok=SlDZK9HR",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-villa-rotonda-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/77591_REYN-4808.jpg?itok=Bhj8hGwq",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-villa-rotonda-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79897_REYN-4810.jpg?itok=vtldbs4t",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-villa-rotonda-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79898_REYN-4807.jpg?itok=2W8l6zkx",
+  },
+  {
+    url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/okna-aluminiowe-drzwi-aluminiowe-drzwi-przesuwne-aluminiowe-villa-rotonda-goirle",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/79899_REYN-4806.jpg?itok=Uu80fZr6",
+  },
+  {
+    url: "https://www.reynaers.pl/produkty/okladzina-elewacyjna/paralline",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/product_header_mobile/public/inriver/images/111980_DoorPull%20Hook_Paralline.webp?h=b044a8f9&itok=MJL7r9Z7",
+  },
+  {
+    url: "https://www.reynaers.pl/produkty/okladzina-elewacyjna/paralline",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/product_header_mobile/public/inriver/images/77863_REYN-5432.webp?h=d73728dc&itok=BQSGgazz",
+  },
+  {
+    url: "https://www.reynaers.pl/inspiracje/przeglad-inspiracji/design/jaki-otwor-pod-drzwi-70-80-i-90-cm",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/page_header_large/public/2023-11/Villa%20Wolf%20SL%2038_15.webp?h=736c76d2&itok=13xHKFsT",
+  },
+  {
+    url: "https://www.reynaers.pl/inspiracje/przeglad-inspiracji/design/jaki-otwor-pod-drzwi-70-80-i-90-cm",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/2023-11/Nowa_Magdalenka_10.jpg?itok=nu5W-tZA",
+  },
+  {
+    url: "https://www.reynaers.pl/inspiracje/przeglad-inspiracji/design/jaki-otwor-pod-drzwi-70-80-i-90-cm",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/2023-11/Painted%20Feather-CourtyardDay-3.jpg?itok=72bZcnmn",
+  },
+  {
+    url: "https://www.reynaers.pl/inspiracje/przeglad-inspiracji/design/jaki-otwor-pod-drzwi-70-80-i-90-cm",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/2023-11/Private%20House%20Holsbeek19.jpg?itok=OjFYL_lt",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/pic_1.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_a_1.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_a_2.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_a_3.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_a_4.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_a_5.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_b_1.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_b_2.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/slider_b_3.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/galllery_large_1.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/galllery_large_2.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/galllery_large_3.png",
+  },
+  {
+    url: "https://www.przestrzenzperspektywa.pl/",
+    src: "https://www.przestrzenzperspektywa.pl/images/galllery_large_4.png",
+  },
+  {
+    url: "https://www.reynaers.pl/inspiracje/przeglad-inspiracji/drzwi-przesuwne-lub-skladane-idealne-rozwiazanie-dla-twojego-projektu",
+    src: "https://www.reynaers.pl/sites/default/files/public/styles/landscape_full_width/public/2022-03/Reynaers-Aluminium-folding-doors-2.webp?h=61f1cca7&itok=2LfVV2Fo",
+  },
   {
     url: "https://www.instagram.com/ppmartaszlachta/p/C9hGOV8IiRq/",
     src: "https://scontent-waw2-2.cdninstagram.com/v/t51.29350-15/451435012_471688595465030_8654222832836321952_n.jpg?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE4MDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=scontent-waw2-2.cdninstagram.com&_nc_cat=102&_nc_ohc=E4AHfSVW6bQQ7kNvgFNgUqq&_nc_gid=d6be15626a5846fd848cfb5a947fdb0b&edm=AP4sbd4BAAAA&ccb=7-5&ig_cache_key=MzQxNDAzNzM2NjQzMjczNjM2Mg%3D%3D.3-ccb7-5&oh=00_AYASs_whd490RJ4Xle-gMrgf6LYnvj_S4VwsU9J9SNQkHQ&oe=67104C76&_nc_sid=7a9f4b",
