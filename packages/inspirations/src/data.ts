@@ -10,6 +10,614 @@
 
 export const inspirations = [
   {
+    src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_4936-5-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5037-13-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5123-19-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5128-20-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_4912-2-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5113-17-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9645-69-66-1920x1536.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/karpacz-_ONI9519-24-32-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9215-5-1-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9655-1-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9112-1-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9722-36-42-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9648-1-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9961-54-52-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9158-2-16-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9840-43-45-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9191-3-17-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9635-30-6-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9484-68-65-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9630-29-36-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9654-33-40-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9742-37-7-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9450-20-29-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9710-34-39-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9640-31-37-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9721-35-41-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9922-51-49-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9728-70-68-1536x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0027-4-56-53-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0004-12-12-23-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0059-55-51-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0043-67-64-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0014-8-58-55-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0004-17-60-57-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0043-2-57-54-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9903-49-13-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9892-47-12-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9880-46-47-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9874-44-46-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9473-21-30-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9502-23-31-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9744-38-8-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9328-14-25-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9365-16-26-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9783-40-44-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9426-18-27-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/karpacz-rzut2-1920x1920.png",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/karpacz-rzut1-1920x1396.png",
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl25-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl21-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl19-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl24-1920x1080.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl05-1920x1080.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl23-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl02-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl01-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl06-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl22-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl04-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl03-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl12-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl14-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl15-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl11-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl13-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl07-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl08-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl09-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl17-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl18-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl16-1280x1920.jpg",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/08/przebudowa_rzut_parter-1920x1357.png",
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv227-1920x1281.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv228-1920x1281.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv218-1920x1287.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv201-1284x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv206-1281x1920.jpeg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv226-1920x1284.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv223-1277x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv221-1920x1282.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv222-1920x1280.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv219-1920x1289.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv220-1920x1282.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv224-1920x1281.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv202-1280x1920.jpeg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv217-1282x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv216-1920x1281.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv215-1282x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv214-1282x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv213-1920x1281.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv211-1920x1284.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv207-1920x1281.jpeg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv212-1282x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv209-1920x1279.jpg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv205-1281x1920.jpeg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv204-1281x1920.jpeg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv203-1281x1920.jpeg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv208-1281x1920.jpeg",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jasnarola_rzut_piwnica-1-1492x1920.png",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/jasnarola_rzut_parter-1-1492x1920.png",
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-13-26-05_1_wejscie-1920x1080.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-48-29_1_wejscie_kwadrat-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-51-10_5_patio-kwadrat-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-13-30-32_3b_kwadrat-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-53-18_4_patio_kwadrat_p-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-13-44-38_11_int-kwadrat_p-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-41-54_3_patio-1920x1080.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-17-49_7_back-1920x1080.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-16-51_9_kwadrat-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-24-00_10_kwadrat_d-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-44-17_10_kwadrat_p-1920x1920.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-34-26_6_bok-1920x1080.jpg",
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_4.jpg",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_3.jpg",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_2.jpg",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_8.jpg",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_7.jpg",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_6.jpg",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_5.jpg",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_rzut_parter-1920x1358.png",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_rzut_pietro-1920x1358.png",
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+  },
+  {
+    url: "https://www.wydmy.studio/",
+    src: "https://www.wydmy.studio/upload/hd/d07a1d6ff3590f7b76f378048377baa8.jpg",
+  },
+  {
+    url: "https://www.wydmy.studio/",
+    src: "https://www.wydmy.studio/upload/hd/d951404910a4b068a166d41801e735f6.jpg",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/0CfVnzFnH2vgDM6inBED9Xj2_jfEhr597jbtxEsxksPCsel7XO5oSfuXm_pFyRTX3YnbMb1AkmdeEPF265xVnHLz8a1O1g=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/gWNzbV1E6ZE1uB3BvXbNPNyT5NwhXPci2zu1AzICasEAh2qyKSabBDccrrGMr5V81CwUz8mjx4wB9CIg7zW0lIeq3JbSuytY=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/skr38iDvAyL5agFBPiAPWMjHKghSvLeT0SyO1GrZcJqkJ-uM5BE8Jf0ciTeetaIXX8f26RjcqN10LU0Hndp_S6b1ocPVFteq=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/fHBIhDqhm9zFhEnX5AsnFQtCdLjBjJKP4xu7sLmV3IZ0eqVIWAGM5r2cjOc7FfYPhl5gJs6BU5Y-8PzRoy9e2RHDL7YYLEc=s1200",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/CWWF2JWTj0BeJFYePRMgbxCxNlej7tu55tHgUhCketHiZ8pzYgokgrqzGIL5HclwPm4AYSCC43UXD89jotrBiCfdFbzpLQ=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/2wg5ZYMx-XxtmCJuwchnk0ADshu9L2WeakFKg1uSXYAR1n9h65qOBTssYKnN82CHZ-tIdCgWl2vLFCGa60vEZzpW5xASiK8G=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/ndLRV3JLfjovvRgQzI-M9H0kypWTIprhfYwuLjcxbw2552QxDvxyDXFPsmsM__6Y7tkfuoDQ-J1oMeKIogfEQ1amRRUemA=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/xic_x5brBOKV86rf8WZ22Gp9M_mv5WDDZzYKLymKOaaZukf3P5dwxYOh2BCsRYcBkD1zlZYy_KxqshpfHbe02VaFlLpJC3VH=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_sch",
+    src: "https://lh3.googleusercontent.com/gl2ekLJ4Mt80Kk_amMYbTM6HIi8Kr-71kjUuDiLOwSI5dIKPx2UMimrTPRzkZLCDM7-5BE0hsSSRbJ8Kr4Li6SaqmD1sGXM=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_kd",
+    src: "https://lh3.googleusercontent.com/7LbGd2ZDABaIYOG1b53VdrjdiNQh1Eji694UGkozSupQ9JUGnOoHA7jqDpY6_9GoBuKOBVYRvdT-JoeqoQQdoLPtP67eFJg=s1365",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_kd",
+    src: "https://lh3.googleusercontent.com/ebv5yfywstkQQH590_P8VfA01f9CS3Rlnr_Ao-gHpWOpI0RZAxbg3hP0AIS0iNFUy6YRHU9bajFr2MmOIFBAtoQ2KBnHv1k=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/dh_s",
+    src: "https://lh3.googleusercontent.com/29v4ES6vysCc9Oj3bklVLhem_vtDQhq33a2D-vPk5d_KtCchWBQ8oaz0UmSrgW20vpdfG6ifxz9qa-47s2G-5Uqi2V4f9Ps=s1365",
+  },
+  {
+    url: "https://www.raumstaerke.de/dh_s",
+    src: "https://lh3.googleusercontent.com/Itqlf3ZeQAWwIAJq22xxW9k_gx9xA6dWQywX_HYH9PdIG3da1AcC47PyayZf071EN137RhHFsb5zB3NrzHo_IbIpXUIBHw=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/dh_s",
+    src: "https://lh3.googleusercontent.com/d23DyWeLeAau_MRzWCmNVrFAec7pkdsOXG-mF4y0PqW3KihOiBURP2IRiJ45sTQwe6ObyD3U-FASLdU81E4h9IhoJjgKZw=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/dh_s",
+    src: "https://lh3.googleusercontent.com/xkuICz8Eazum-C5jHKrdCU_TrDqFK3UhTXgNtD1AOojtwYquMpeuzEPVYiBfkOS0Nr_KLcWYeNO99k7Ld_yUuYYU0oEHGErX=s1365",
+  },
+  {
+    url: "https://www.raumstaerke.de/dh_s",
+    src: "https://lh3.googleusercontent.com/vQTfRy9iuiwP4pqRXBdoYW8B3_MKGgU9J-oXGmbFkuWSrWFaCtfsI-f_K-kfKNjUtder6Df0XsVXST7Cm3l-W-TFbC2rKn4=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/dh_s",
+    src: "https://lh3.googleusercontent.com/GfSu9iatjfzwaW8Obb6KN6d89-H1bFQdc7Hgqbx5Ia6t2-EVBCzbXlgaN_AmgZUzsr0bGvA1Xk23lH7Knb2hJQbLG6bDjWA=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_so",
+    src: "https://lh3.googleusercontent.com/bfiluY0q_vtwbezE5xtQtJLayrrOXcilCMEpStXXAtto1A3DymrEKKmmaQN2jh2zlAggvx0gqI9bOuvbYPDxC6fnHJEDng=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_so",
+    src: "https://lh3.googleusercontent.com/AZxFi6vq5yTJ3tk9kbE6u84dHvHnkV99fzf2Q7Cuv2kSgaR0pfU61mjqYglh_PLMbMLVYR3gUVe7LR0nozWFVstR8vjn_9g=s1365",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_so",
+    src: "https://lh3.googleusercontent.com/hqYxT4kUapw5_91wT_vUXYf91oklWn4mrzwPXOckekXv97R2d_GCLVOrfNogTI8YBDcd7PhDDljp5wqG3jGvRNLWyEFGPw=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_so",
+    src: "https://lh3.googleusercontent.com/0r2PPx9ysS42egwY2dx5n8gQNNAwzMcXzqVnKcw9XPfDGC6XxsfoWsxiYDz01qzxZUtdGTgxfm-pc4uIG5P8CNNiOeCUqy4=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_i",
+    src: "https://lh3.googleusercontent.com/GBz2mHwbY3r9s7J0lMtQFJABb_wC2GQpjzcvW17SVA12PGWcUnr6etxZ38DSXUpXwKN4m8DT5M8q52iy=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_i",
+    src: "https://lh3.googleusercontent.com/otKFZtFtUJj8aTyrwP_0ffNCdR56f3bYJPb2pfdg9EvujQbykqZKxuGv4sZnlgV_DEFQ0X0fJ2LCyEn_=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_i",
+    src: "https://lh3.googleusercontent.com/fRAMjeclMb18DA_9SHur55P8X_ZsuJRbRxiAEQxZ2nsQIaaeNh258TlbeUuDXRjMf8YmfBQKkxftaLBHnQ=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_i",
+    src: "https://lh3.googleusercontent.com/w5k1Q-_qRwxewaNFVl0lhHOHogk7hudbNwrKcjuLHZXihAKdhZAC60z3x2OmwixvC3qznUgPjxFt9_HwWAM=s1200",
+  },
+  {
+    url: "https://www.raumstaerke.de/efh_i",
+    src: "https://lh3.googleusercontent.com/dY6EDasL-_ZVpVWg0V8CT1L52nG8P315NTgHlYzleHvHr9EQmwbnEpIel63cP2PeEDVZcIWlwVnJ6zboXHE=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/sw_efhdh",
+    src: "https://lh3.googleusercontent.com/iUksDRwFNHrj0WcvzHqzthNEdciWrL1hPLoi2fCCV3jofyt6Zcrpwfqr0ax_a169u89hUIpqo4eP1K9b16qkocgFzDtjGxRf=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/sw_efhdh",
+    src: "https://lh3.googleusercontent.com/XQKgfOU4jGj1xPrRKInCvmmjjlXBQK6_tnqCvfNarK_dVqPIG7a2DBxHCdDBzJuTMjcgfy3JEqd9wCbRQgwfsnsyWwA155E=s1600",
+  },
+  {
+    url: "https://www.raumstaerke.de/sw_efhdh",
+    src: "https://lh3.googleusercontent.com/U4oK2fdSXRjw2egL8D1F9YTrxypV1WyopcIslraXjhTeQrvT28Lz2jd6sr-ZGl8-elkmnAvwcxrT1wqLWaryEyeTpdjZgfQ=s1600",
+  },
+  {
     src: "https://images.adsttc.com/media/images/65c6/5b24/f2f1/3e43/3bad/753f/slideshow/mp-ii-house-kruk-architekci_1.jpg?1707498289",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b24f2f13e433bad753f-mp-ii-house-kruk-architekci-photo?next_project=no",
   },
