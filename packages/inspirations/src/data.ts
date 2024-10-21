@@ -10,6 +10,1074 @@
 
 export const inspirations = [
   {
+    src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis4.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis2.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis1.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis3.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_be7c3a37e46cd1b8642db0dda8e8b5ed_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_7c791d3e10b22ad70b89278296bb97ea_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_877c3fca923d10875686e5ccd151cf17_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_6e098e7b25d69e05603902e39dde80be_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_8a3b7e254f063097b080f3b57b53ce9a_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_7dae9482410ba5f6d3cf0146981eb436_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_ce9a3e8dcad0bb371e5b9356cb371e80_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_28149038d8b4e07d47ad3b82a8634ddf_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_b63b369d9f03c555e9b79605f754050a_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_4bd8d475b16671273cb34a47862a7b67_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_2e381905ac7e0de56a08f08caa511486_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_f41002a5fa085d271053404220be37a9_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://a-88.pl/uploads/galerie/galerie_f41002a5fa085d271053404220be37a9_galerie.jpg",
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_14.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/dsc_8226-2.jpeg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_14.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505366_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505258_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505291_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505350_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505270_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505375_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505322_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505390_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505162_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505174_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505183_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505209_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505244_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505468_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505497_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/002____Tom_Kurek_TS403071_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/002____Tom_Kurek_TS403071_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/014____Tom_Kurek_TS309033_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/015____Tom_Kurek_TS403176_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/060____Tom_Kurek_TS309053_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/001____Tom_Kurek_TS309030_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/028____Tom_Kurek_TS309002_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/039____Tom_Kurek_TS403014_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/038____Tom_Kurek_TS309010_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/025____Tom_Kurek_TS403235_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/056____Tom_Kurek_TS403284_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/051____Tom_Kurek_TS403260_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/037____Tom_Kurek_TS402994_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/016____Tom_Kurek_TS403181_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/055____Tom_Kurek_TS309050_321_2048.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404741_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404685_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404929_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404860_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404770_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404821_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS309219_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404833_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404559_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404620_321.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/deer_design.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_14.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_new_otw.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/aranacja_cian.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/kennedy_nolan_architects_oak_house_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/JoannaSedzicka_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/JS_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/bosko_DP_kroniki_16_3000.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/migdal_razoo_s_04.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/migdal_razoo_s_15.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/MGajda_Skawinska_ONI_Studio_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/AHolgar_AvianApartment_15.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-18.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-15.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-14.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-01.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-02.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-04.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-05.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-09.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-08.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-06.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-07.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_16.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_15.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_18.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_19.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_17.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Torga.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/15_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/1_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/5_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/6_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/12_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/31_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/32_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/29_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/24_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/20_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/28_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Joanna_Sedzicka_FollowTheFlow.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/JoannaSedzicka_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/JoannaSedzicka_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/JoannaSedzicka_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/JoannaSedzicka_FollowTheFlow_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/JoannaSedzicka_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/JS_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_14.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_15.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_9.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_1.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_13.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_17.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_16.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_15.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_15.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_12.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_5.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_11.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_14.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_10.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_8.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_7.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_3.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_2.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_6.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_4.jpg",
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/8c3fc81eab8caef8ebaf04dade2280e5/50fbd/post_mor_6_ps_poprawiona_kadr.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/a8ffd81d98ff3b12a33a131acb241d20/dc2c7/post_mor_5_ps_poprawiona.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/9474ec2f375d04bb7b12f73db6d00dce/0daa0/post_mor_2_ps_poprawiona-elewacja_3.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/55bca8d85d2b3b0f2c1d73e211ed1af1/b0442/post_view02a.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/ecd5fe08b3036423b6286f3da4de1d73/5c820/pzt_kwadrat.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/a730829bece6587ee549ca26df055541/b0442/post_view03a.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/73cb2386141a23f2cfdda20532c67a11/5c820/lez_parter.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/1a93a57bf2f62e2d50112c4f1fad8b84/5c820/lez_pietro.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/f11f03b43ae4e67d2c20b3060a0ecd7e/8dfe7/2_final.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/996b36e582f0e5f091630fd1124f20c5/cfd04/1_final.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/ff244c94bcb6fb17a7c14af1cbbcdacd/5c820/lez_przekroja-a.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/369bc6a7828bcf81db7925a51845db66/5c820/lez_przekrojb-b.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/0faf143358b294261d851552a8cf040b/8dfe7/3_final.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/d30b916e89880a54b5ada3d2f2a38ef7/b0442/post_view01a.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/641ccc372390bf593206094e94c5338d/128f9/post_suchy-las_1_ps_01.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/6b6cc64fdf22d787bc3b8f7f45a2cd11/64d42/post_suchy-las_4_ps.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/13b7f38a92f1a266ca66df657a2ae81c/128f9/post_suchy-las_3_ps_desat.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/10a314577ea610ac501576e119e12695/128f9/post_suchy-las_2_ps_01.avif",
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
+  },
+  {
+    src: "https://rmkarchitektura.pl/static/b3933f0b797110bc85c80a3f0536395e/idea-05-01-01-01_rgb.jpg",
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
+  },
+  {
     src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_4936-5-1280x1920.jpg",
     url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
   },
