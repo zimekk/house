@@ -10,6 +10,1450 @@
 
 export const inspirations = [
   {
+    src: "https://images.adsttc.com/media/images/6711/75d6/3dfd/b46d/4a50/05d6/slideshow/hotel-house-splinter-society_1.jpg?1729197557",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d63dfdb46d4a5005d6-hotel-house-splinter-society-photo",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d3/3dfd/b46d/4a50/05d5/slideshow/hotel-house-splinter-society_11.jpg?1729197538",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d33dfdb46d4a5005d5-hotel-house-splinter-society-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/185b/slideshow/hotel-house-splinter-society_2.jpg?1729197605",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad185b-hotel-house-splinter-society-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d7/3dfd/b46d/4a50/05db/slideshow/hotel-house-splinter-society_3.jpg?1729197556",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d73dfdb46d4a5005db-hotel-house-splinter-society-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1855/slideshow/hotel-house-splinter-society_10.jpg?1729197543",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad1855-hotel-house-splinter-society-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1856/slideshow/hotel-house-splinter-society_8.jpg?1729197559",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad1856-hotel-house-splinter-society-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d5/2aec/2b2e/9cad/1854/slideshow/hotel-house-splinter-society_9.jpg?1729197559",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d52aec2b2e9cad1854-hotel-house-splinter-society-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1857/slideshow/hotel-house-splinter-society_16.jpg?1729197590",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad1857-hotel-house-splinter-society-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d8/2aec/2b2e/9cad/185d/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-0-1.jpg?1729197568",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d82aec2b2e9cad185d-hotel-house-splinter-society-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d8/2aec/2b2e/9cad/185c/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-1-2.jpg?1729197567",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d82aec2b2e9cad185c-hotel-house-splinter-society-plan-1st-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6711/75d8/3dfd/b46d/4a50/05dc/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-2-3.jpg?1729197570",
+    url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d83dfdb46d4a5005dc-hotel-house-splinter-society-section-and-elevation?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5697/99d0/3a2e/cd7a/60c7/slideshow/habitacao-aurea-stere_19.jpg?1728992945",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569799d03a2ecd7a60c7-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a3a/211e/68c8/slideshow/habitacao-aurea-stere_12.jpg?1728992988",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a3a211e68c8-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3ae9/slideshow/habitacao-aurea-stere_8.jpg?1728992962",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff7341e91e3ae9-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7341/e91e/3ae7/slideshow/habitacao-aurea-stere_9.jpg?1728992973",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569cc4ff7341e91e3ae7-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3aea/slideshow/habitacao-aurea-stere_14.jpg?1728992974",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff7341e91e3aea-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7337/e7c6/716f/slideshow/habitacao-aurea-stere_22.jpg?1728992977",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569dc4ff7337e7c6716f-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569a/99d0/3a2e/cd7a/60cb/slideshow/habitacao-aurea-stere_11.jpg?1728992943",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569a99d03a2ecd7a60cb-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5696/99d0/3a2e/cd7a/60c5/slideshow/habitacao-aurea-stere_25.jpg?1728992931",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569699d03a2ecd7a60c5-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60ce/slideshow/habitacao-aurea-stere_16.jpg?1728992972",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a2ecd7a60ce-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5699/c4ff/7341/e91e/3ae6/slideshow/habitacao-aurea-stere_7.jpg?1728992944",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e5699c4ff7341e91e3ae6-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7341/e91e/3ae8/slideshow/habitacao-aurea-stere_15.jpg?1728992969",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569dc4ff7341e91e3ae8-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a3a/6c1e/68c6/slideshow/habitacao-aurea-stere_1.jpg?1728992968",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569c99d03a3a6c1e68c6-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a3a/211e/68c6/slideshow/habitacao-aurea-stere_5.jpg?1728992962",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569c99d03a3a211e68c6-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60cf/slideshow/habitacao-aurea-stere_6.jpg?1728992988",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a2ecd7a60cf-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60cd/slideshow/habitacao-aurea-stere_10.jpg?1728992958",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a2ecd7a60cd-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5696/99d0/3a2e/cd7a/60c6/slideshow/habitacao-aurea-stere_3.jpg?1728992935",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569699d03a2ecd7a60c6-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a2e/cd7a/60cc/slideshow/habitacao-aurea-stere_13.jpg?1728992959",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569c99d03a2ecd7a60cc-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7337/e7c6/716e/slideshow/habitacao-aurea-stere_18.jpg?1728992958",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569cc4ff7337e7c6716e-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5698/99d0/3a2e/cd7a/60c9/slideshow/habitacao-aurea-stere_2.jpg?1728992940",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569899d03a2ecd7a60c9-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5699/c4ff/7341/e91e/3ae5/slideshow/habitacao-aurea-stere_20.jpg?1728992955",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e5699c4ff7341e91e3ae5-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7337/e7c6/716d/slideshow/habitacao-aurea-stere_21.jpg?1728992955",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569cc4ff7337e7c6716d-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7337/e7c6/7170/slideshow/habitacao-aurea-stere_24.jpg?1728992943",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569dc4ff7337e7c67170-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a3a/211e/68c7/slideshow/habitacao-aurea-stere_17.jpg?1728992973",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a3a211e68c7-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5697/99d0/3a2e/cd7a/60c8/slideshow/habitacao-aurea-stere_23.jpg?1728992945",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569799d03a2ecd7a60c8-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/5699/99d0/3a2e/cd7a/60ca/slideshow/habitacao-aurea-stere_4.jpg?1728992941",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569999d03a2ecd7a60ca-aurea-housing-stere-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d3/slideshow/planta-1-6.jpg?1728992944",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d3-aurea-housing-stere-plan-basement?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d1/slideshow/planta-terreo-7.jpg?1728992979",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d1-aurea-housing-stere-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3aeb/slideshow/planta-de-cobertura-1.jpg?1728992936",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff7341e91e3aeb-aurea-housing-stere-plan-roof?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d0/slideshow/cortes-3.jpg?1728992949",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d0-aurea-housing-stere-sections?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/733b/b6f8/dbb8/slideshow/cortes-2-2.jpg?1728992986",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff733bb6f8dbb8-aurea-housing-stere-sections?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a3a/211e/68c9/slideshow/alcados-2-4.jpg?1728993002",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a3a211e68c9-aurea-housing-stere-elevations?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d2/slideshow/alcados-5.jpg?1728992977",
+    url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d2-aurea-housing-stere-elevations?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d414/slideshow/downland-barns-1.jpg?1728394583",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd414-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d413/slideshow/Downland_Barns_Resized_13.jpg?1728394602",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd413-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40d/slideshow/Downland_Barns_Resized_9.2.jpg?1728394564",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40d-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d416/slideshow/downland-barns-5.jpg?1728394612",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd416-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40a/slideshow/Downland_Barns_Resized_7.1.jpg?1728394589",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40a-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d412/slideshow/Downland_Barns_Resized_12.jpg?1728394678",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd412-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3523/033a/3600/015d/d404/slideshow/Downland_Barns_Resized_2.jpg?1728394563",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053523033a3600015dd404-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3522/033a/3600/015d/d402/slideshow/Downland_Barns_Resized_4.1.jpg?1728394564",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053522033a3600015dd402-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d415/slideshow/downland-barns-3.jpg?1728394640",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd415-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3524/033a/3600/015d/d406/slideshow/Downland_Barns_Resized_4.3.jpg?1728394569",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053524033a3600015dd406-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40b/slideshow/Downland_Barns_Resized_7.2.jpg?1728394620",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40b-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3524/033a/3600/015d/d407/slideshow/Downland_Barns_Resized_6.1.jpg?1728394594",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053524033a3600015dd407-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40c/slideshow/Downland_Barns_Resized_9.1.jpg?1728394620",
+    url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40c-downland-barns-mclean-quinlan-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/73ee/96de/ff2e/1b82/b14b/slideshow/skagen-klitgard-pax-architects_2.jpg?1696363523",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73ee96deff2e1b82b14b-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/73f0/96de/ff2e/1b82/b14c/slideshow/skagen-klitgard-pax-architects_1.jpg?1696363519",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73f096deff2e1b82b14c-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/73fe/96de/ff2e/1b82/b150/slideshow/skagen-klitgard-pax-architects_3.jpg?1696363545",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73fe96deff2e1b82b150-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7419/96de/ff2e/1b82/b156/slideshow/skagen-klitgard-pax-architects_9.jpg?1696363564",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c741996deff2e1b82b156-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/740a/96de/ff2e/1b82/b154/slideshow/skagen-klitgard-pax-architects_15.jpg?1696363555",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c740a96deff2e1b82b154-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/73ff/6fa7/bc01/7c8b/9883/slideshow/skagen-klitgard-pax-architects_8.jpg?1696363538",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73ff6fa7bc017c8b9883-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/742b/96de/ff2e/1b82/b15b/slideshow/skagen-klitgard-pax-architects_24.jpg?1696363579",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c742b96deff2e1b82b15b-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff34/e9b2/c13f/slideshow/skagen-klitgard-pax-architects_27.jpg?1696363603",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c743796deff34e9b2c13f-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7433/6fa7/bc01/7c8b/9888/slideshow/skagen-klitgard-pax-architects_29.jpg?1696363596",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74336fa7bc017c8b9888-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7405/6fa7/bc01/7c8b/9884/slideshow/skagen-klitgard-pax-architects_5.jpg?1696363556",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74056fa7bc017c8b9884-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7407/96de/ff2e/1b82/b153/slideshow/skagen-klitgard-pax-architects_6.jpg?1696363560",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c740796deff2e1b82b153-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/73fa/96de/ff34/e9b2/c13e/slideshow/skagen-klitgard-pax-architects_4.jpg?1696363545",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73fa96deff34e9b2c13e-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7440/96de/ff2e/1b82/b163/slideshow/skagen-klitgard-pax-architects_28.jpg?1696363603",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c744096deff2e1b82b163-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7405/6fa7/bc01/7c8b/9885/slideshow/skagen-klitgard-pax-architects_11.jpg?1696363555",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74056fa7bc017c8b9885-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7412/96de/ff2e/1b82/b155/slideshow/skagen-klitgard-pax-architects_18.jpg?1696363562",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c741296deff2e1b82b155-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7428/6fa7/bc01/7c8b/9887/slideshow/skagen-klitgard-pax-architects_16.jpg?1696363580",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74286fa7bc017c8b9887-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7400/96de/ff2e/1b82/b151/slideshow/skagen-klitgard-pax-architects_20.jpg?1696363536",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c740096deff2e1b82b151-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/742e/96de/ff2e/1b82/b15c/slideshow/skagen-klitgard-pax-architects_17.jpg?1696363588",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c742e96deff2e1b82b15c-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/73ed/6fa7/bc01/7c8b/9882/slideshow/skagen-klitgard-pax-architects_13.jpg?1696363519",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73ed6fa7bc017c8b9882-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7428/96de/ff2e/1b82/b15a/slideshow/skagen-klitgard-pax-architects_14.jpg?1696363590",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c742896deff2e1b82b15a-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7420/6fa7/bc01/7c8b/9886/slideshow/skagen-klitgard-pax-architects_21.jpg?1696363575",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74206fa7bc017c8b9886-skagen-klitgard-house-pax-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff2e/1b82/b162/slideshow/plan-00-klitgaard-skagen-pax-architects-1.jpg?1696363606",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c743796deff2e1b82b162-skagen-klitgard-house-pax-architects-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff2e/1b82/b160/slideshow/plan-01-klitgaard-skagen-pax-architects-2.jpg?1696363603",
+    url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c743796deff2e1b82b160-skagen-klitgard-house-pax-architects-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f638/2684/7b75/3468/84dd/slideshow/westbrook-residence-alterstudio-architecture_14.jpg?1727460936",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63826847b75346884dd-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f637/4003/1857/e593/580d/slideshow/westbrook-residence-alterstudio-architecture_2.jpg?1727460958",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63740031857e593580d-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f631/4003/183d/fdb3/74da/slideshow/westbrook-residence-alterstudio-architecture_5.jpg?1727460922",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6314003183dfdb374da-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f639/2684/7b75/3468/84de/slideshow/westbrook-residence-alterstudio-architecture_13.jpg?1727460930",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63926847b75346884de-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f63a/2684/7b75/3468/84df/slideshow/westbrook-residence-alterstudio-architecture_12.jpg?1727460930",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63a26847b75346884df-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f632/2684/7b75/3468/84da/slideshow/westbrook-residence-alterstudio-architecture_1.jpg?1727460923",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63226847b75346884da-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f636/4003/183d/fdb3/74dd/slideshow/westbrook-residence-alterstudio-architecture_9.jpg?1727460940",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6364003183dfdb374dd-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f637/4003/183d/fdb3/74de/slideshow/westbrook-residence-alterstudio-architecture_10.jpg?1727460927",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6374003183dfdb374de-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f637/2684/7b75/3468/84dc/slideshow/westbrook-residence-alterstudio-architecture_7.jpg?1727460941",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63726847b75346884dc-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f636/2684/7b75/3468/84db/slideshow/westbrook-residence-alterstudio-architecture_11.jpg?1727460925",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63626847b75346884db-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f633/4003/183d/fdb3/74db/slideshow/westbrook-residence-alterstudio-architecture_6.jpg?1727460922",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6334003183dfdb374db-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f631/4003/183d/fdb3/74d9/slideshow/westbrook-residence-alterstudio-architecture_3.jpg?1727460920",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6314003183dfdb374d9-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f630/4003/183d/fdb3/74d8/slideshow/westbrook-residence-alterstudio-architecture_4.jpg?1727460919",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6304003183dfdb374d8-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f634/4003/183d/fdb3/74dc/slideshow/westbrook-residence-alterstudio-architecture_8.jpg?1727460923",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6344003183dfdb374dc-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f63b/2684/7b75/3468/84e0/slideshow/02-westbrook-axondiagram-2.jpg?1727460958",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63b26847b75346884e0-westbrook-residence-alterstudio-architecture-axonometric-diagram?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f641/4003/183d/fdb3/74df/slideshow/01-westbrook-siteplan-1.jpg?1727460981",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6414003183dfdb374df-westbrook-residence-alterstudio-architecture-site-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f63c/2684/7b75/3468/84e1/slideshow/03-westbrook-floorplans-3.jpg?1727460972",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63c26847b75346884e1-westbrook-residence-alterstudio-architecture-floor-plans?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f6/f643/4003/183d/fdb3/74e0/slideshow/04-westbrook-sections-4.jpg?1727460987",
+    url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6434003183dfdb374e0-westbrook-residence-alterstudio-architecture-sections?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef1d/3b5b/d500/010b/fea7/slideshow/B3_-_The_Warren_01.jpg?1727196971",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1d3b5bd500010bfea7-the-warren-house-plotnonplot-architecture-inc-photo",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb2/slideshow/B3_-_The_Warren_11.jpg?1727197022",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb2-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb7/slideshow/F2_-_The_Warren_04.jpg?1727197008",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb7-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef1e/3b5b/d500/010b/feac/slideshow/B3_-_The_Warren_06.jpg?1727196976",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1e3b5bd500010bfeac-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb3/slideshow/B3_-_The_Warren_12.jpg?1727197017",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb3-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb6/slideshow/F2_-_The_Warren_02.jpg?1727197035",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb6-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef1d/3b5b/d500/010b/fea9/slideshow/B3_-_The_Warren_02.jpg?1727196979",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1d3b5bd500010bfea9-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/febb/slideshow/F2_-_The_Warren_08.jpg?1727197048",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfebb-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef1e/3b5b/d500/010b/feae/slideshow/B3_-_The_Warren_08.jpg?1727196981",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1e3b5bd500010bfeae-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb5/slideshow/E8b_-_The_Warren_07.jpg?1727197040",
+    url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb5-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a265/2684/7b79/fc33/80cc/slideshow/west-seattle-chalet-shed-architecture-and-design_1.jpg?1726849726",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26526847b79fc3380cc-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a291/2684/7b79/fc33/80d9/slideshow/west-seattle-chalet-shed-architecture-and-design_13.jpg?1726849765",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda29126847b79fc3380d9-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a27b/2684/7b79/fc33/80d4/slideshow/west-seattle-chalet-shed-architecture-and-design_8.jpg?1726849746",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda27b26847b79fc3380d4-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a2a5/2684/7b79/fc33/80dd/slideshow/west-seattle-chalet-shed-architecture-and-design_15.jpg?1726849803",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a526847b79fc3380dd-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a2aa/2684/7b79/fc33/80e1/slideshow/west-seattle-chalet-shed-architecture-and-design_21.jpg?1726849788",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2aa26847b79fc3380e1-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a2a6/2684/7b79/fc33/80de/slideshow/west-seattle-chalet-shed-architecture-and-design_22.jpg?1726849793",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a626847b79fc3380de-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a278/2684/7b79/fc33/80d3/slideshow/west-seattle-chalet-shed-architecture-and-design_7.jpg?1726849746",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda27826847b79fc3380d3-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a28f/2684/7b79/fc33/80d8/slideshow/west-seattle-chalet-shed-architecture-and-design_10.jpg?1726849773",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda28f26847b79fc3380d8-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a2a7/2684/7b79/fc33/80df/slideshow/west-seattle-chalet-shed-architecture-and-design_17.jpg?1726849788",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a726847b79fc3380df-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a2a1/2684/7b79/fc33/80dc/slideshow/west-seattle-chalet-shed-architecture-and-design_19.jpg?1726849776",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a126847b79fc3380dc-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a265/09c8/2c74/d7ca/beb8/slideshow/west-seattle-chalet-shed-architecture-and-design_2.jpg?1726849764",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26509c82c74d7cabeb8-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a2a9/2684/7b79/fc33/80e0/slideshow/west-seattle-chalet-shed-architecture-and-design_20.jpg?1726849780",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a926847b79fc3380e0-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a265/2684/7b79/fc33/80cb/slideshow/west-seattle-chalet-shed-architecture-and-design_3.jpg?1726849703",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26526847b79fc3380cb-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a267/2684/7b79/fc33/80cd/slideshow/west-seattle-chalet-shed-architecture-and-design_5.jpg?1726849737",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26726847b79fc3380cd-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a24e/2684/7b79/fc33/80c1/slideshow/di-tommaso-marketing-site-plan-2.jpg?1726849694",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda24e26847b79fc3380c1-west-seattle-chalet-shed-architecture-and-design-plan-site?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a24c/2684/7b79/fc33/80c0/slideshow/di-tommaso-marketing-plans-1.jpg?1726849698",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda24c26847b79fc3380c0-west-seattle-chalet-shed-architecture-and-design-plans?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ed/a24f/2684/7b79/fc33/80c2/slideshow/perspective-ditomasso-3.jpg?1726849663",
+    url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda24f26847b79fc3380c2-west-seattle-chalet-shed-architecture-and-design-perspective-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65e/3b5b/d500/010b/fd35/slideshow/01-Ben-Hudson-Architects-Lake-House-pared-back-contemporary.jpg?1727116962",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65e3b5bd500010bfd35-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd42/slideshow/031-Ben-Hudson-Architects-Lake-House-lakeside-terrace.jpg?1727117261",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd42-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3a/slideshow/010-Ben-Hudson-Architects-Lake-House-kitchen-dining.jpg?1727116964",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3a-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd39/slideshow/07-Ben-Hudson-Architects-Lake-House-indoor-fire.jpg?1727116957",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd39-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65e/3b5b/d500/010b/fd34/slideshow/03-Ben-Hudson-Architects-Lake-House-lakeside-living.jpg?1727116955",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65e3b5bd500010bfd34-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd44/slideshow/046-Ben-Hudson-Architects-Lake-House-modern-mountain-living.jpg?1727117139",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd44-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd43/slideshow/035-Ben-Hudson-Architects-Lake-House-morning-sun-terrace.jpg?1727117074",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd43-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd38/slideshow/09-Ben-Hudson-Architects-Lake-House-lakeside-dining.jpg?1727116964",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd38-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3e/slideshow/020-Ben-Hudson-Architects-Lake-House-modern-kitchen.jpg?1727116956",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3e-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3d/slideshow/019-Ben-Hudson-Architects-Lake-House-indoor-outdoor-kitchen.jpg?1727116962",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3d-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3f/slideshow/030-Ben-Hudson-Architects-Lake-House-kids-bedroom-1.jpg?1727117024",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3f-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd49/slideshow/Ben-Hudson-Architects-Lake-House-site.jpg?1727116969",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd49-lake-hayes-house-ben-hudson-architects-plan-site?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd4a/slideshow/Ben-Hudson-Architects-Lake-House-sketch-concept-floor-plan.jpg?1727116903",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd4a-lake-hayes-house-ben-hudson-architects-plan-upper-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd48/slideshow/Ben-Hudson-Architects-Lake-House-floor-plan.jpg?1727116909",
+    url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd48-lake-hayes-house-ben-hudson-architects-plans-furniture?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcc7/77c5/e143/2c9c/5ac5/slideshow/casa-itanhanga-bo_1.jpg?1726610676",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc777c5e1432c9c5ac5-itanhanga-house-bo-photo",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccb/3840/893d/a311/a914/slideshow/casa-itanhanga-bo_26.jpg?1726610700",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccb3840893da311a914-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccc/3840/8901/7c95/78b0/slideshow/casa-itanhanga-bo_20.jpg?1726610657",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccc384089017c9578b0-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcc7/3840/8901/7c95/78ab/slideshow/casa-itanhanga-bo_3.jpg?1726610650",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc7384089017c9578ab-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcd0/77c5/e143/2c9c/5ad0/slideshow/casa-itanhanga-bo_29.jpg?1726610763",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcd077c5e1432c9c5ad0-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e148/a250/2967/slideshow/casa-itanhanga-bo_4.jpg?1726610650",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e148a2502967-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcc9/77c5/e143/2c9c/5ac8/slideshow/casa-itanhanga-bo_27.jpg?1726610650",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc977c5e1432c9c5ac8-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78ad/slideshow/casa-itanhanga-bo_24.jpg?1726610666",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca384089017c9578ad-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccd/77c5/e148/db50/2967/slideshow/casa-itanhanga-bo_31.jpg?1726610672",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccd77c5e148db502967-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e143/2c9c/5aca/slideshow/casa-itanhanga-bo_28.jpg?1726610669",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e1432c9c5aca-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcc8/77c5/e148/a250/2966/slideshow/casa-itanhanga-bo_2.jpg?1726610649",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc877c5e148a2502966-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e148/a250/2968/slideshow/casa-itanhanga-bo_15.jpg?1726610672",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce77c5e148a2502968-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccc/77c5/e143/2c9c/5acb/slideshow/casa-itanhanga-bo_25.jpg?1726610729",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccc77c5e1432c9c5acb-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b2/slideshow/casa-itanhanga-bo_32.jpg?1726610702",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce384089017c9578b2-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcc9/77c5/e143/2c9c/5ac7/slideshow/casa-itanhanga-bo_6.jpg?1726610679",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc977c5e1432c9c5ac7-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccc/3840/893d/a311/a915/slideshow/casa-itanhanga-bo_14.jpg?1726610758",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccc3840893da311a915-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78ae/slideshow/casa-itanhanga-bo_5.jpg?1726610650",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca384089017c9578ae-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e143/2c9c/5ac9/slideshow/casa-itanhanga-bo_19.jpg?1726610681",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e1432c9c5ac9-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e148/db50/2966/slideshow/casa-itanhanga-bo_21.jpg?1726610650",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e148db502966-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b1/slideshow/casa-itanhanga-bo_22.jpg?1726610787",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce384089017c9578b1-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e148/a250/296a/slideshow/casa-itanhanga-bo_17.jpg?1726610701",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce77c5e148a250296a-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78af/slideshow/casa-itanhanga-bo_16.jpg?1726610671",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca384089017c9578af-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcc9/3840/893d/a311/a913/slideshow/casa-itanhanga-bo_11.jpg?1726610664",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc93840893da311a913-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcc8/3840/8901/7c95/78ac/slideshow/casa-itanhanga-bo_12.jpg?1726610664",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc8384089017c9578ac-itanhanga-house-bo-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccf/3840/8901/7c95/78b5/slideshow/plantalocalizacao-9.jpg?1726610832",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf384089017c9578b5-itanhanga-house-bo-plan-site?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e143/2c9c/5acf/slideshow/plantasetorizada-10.jpg?1726610849",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf77c5e1432c9c5acf-itanhanga-house-bo-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e143/2c9c/5acc/slideshow/cortea-1.jpg?1726610658",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce77c5e1432c9c5acc-itanhanga-house-bo-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b3/slideshow/cortebcd-2.jpg?1726610718",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce384089017c9578b3-itanhanga-house-bo-sections?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e143/2c9c/5ace/slideshow/isometrica01-6.jpg?1726610716",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf77c5e1432c9c5ace-itanhanga-house-bo-axo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e148/a250/296c/slideshow/isometrica02-7.jpg?1726610731",
+    url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf77c5e148a250296c-itanhanga-house-bo-axo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d402/3840/8901/7c95/7727/slideshow/sjoparken-norm-architects_15.jpg?1726600211",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d402384089017c957727-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3ed/3840/8901/7c95/771a/slideshow/sjoparken-norm-architects_11.jpg?1726600211",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3ed384089017c95771a-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d412/77c5/e104/e5a5/aa11/slideshow/sjoparken-norm-architects_35.jpg?1726600238",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d41277c5e104e5a5aa11-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d400/77c5/e104/e5a5/aa04/slideshow/sjoparken-norm-architects_32.jpg?1726600221",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40077c5e104e5a5aa04-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3f9/77c5/e104/e5a5/a9fe/slideshow/sjoparken-norm-architects_22.jpg?1726600215",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f977c5e104e5a5a9fe-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d411/3840/8901/7c95/7734/slideshow/sjoparken-norm-architects_77.jpg?1726600239",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d411384089017c957734-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d417/3840/8901/7c95/773c/slideshow/sjoparken-norm-architects_75.jpg?1726600231",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d417384089017c95773c-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d405/3840/8901/7c95/772b/slideshow/sjoparken-norm-architects_27.jpg?1726600212",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d405384089017c95772b-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3ed/3840/8901/7c95/771b/slideshow/sjoparken-norm-architects_31.jpg?1726600227",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3ed384089017c95771b-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3fa/77c5/e119/5917/6c9b/slideshow/sjoparken-norm-architects_28.jpg?1726600217",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3fa77c5e11959176c9b-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d404/77c5/e104/e5a5/aa08/slideshow/sjoparken-norm-architects_33.jpg?1726600221",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40477c5e104e5a5aa08-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d40a/3840/8901/7c95/772f/slideshow/sjoparken-norm-architects_36.jpg?1726600229",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40a384089017c95772f-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d40e/77c5/e104/e5a5/aa0d/slideshow/sjoparken-norm-architects_44.jpg?1726600222",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40e77c5e104e5a5aa0d-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d409/77c5/e104/e5a5/aa0a/slideshow/sjoparken-norm-architects_49.jpg?1726600230",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40977c5e104e5a5aa0a-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d40b/3840/8901/7c95/7732/slideshow/sjoparken-norm-architects_30.jpg?1726600228",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40b384089017c957732-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d409/3840/8901/7c95/772e/slideshow/sjoparken-norm-architects_55.jpg?1726600219",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d409384089017c95772e-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3f5/77c5/e104/e5a5/a9fc/slideshow/sjoparken-norm-architects_56.jpg?1726600199",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f577c5e104e5a5a9fc-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d411/77c5/e104/e5a5/aa0f/slideshow/sjoparken-norm-architects_34.jpg?1726600234",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d41177c5e104e5a5aa0f-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d405/77c5/e104/e5a5/aa09/slideshow/sjoparken-norm-architects_69.jpg?1726600228",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40577c5e104e5a5aa09-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d404/77c5/e119/5917/6c9e/slideshow/sjoparken-norm-architects_70.jpg?1726600222",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40477c5e11959176c9e-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3f8/3840/8901/7c95/7721/slideshow/sjoparken-norm-architects_71.jpg?1726600212",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f8384089017c957721-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3f6/3840/8901/7c95/771f/slideshow/sjoparken-norm-architects_79.jpg?1726600227",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f6384089017c95771f-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3fe/3840/8901/7c95/7725/slideshow/sjoparken-norm-architects_68.jpg?1726600243",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3fe384089017c957725-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3fe/3840/8901/7c95/7724/slideshow/sjoparken-norm-architects_66.jpg?1726600216",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3fe384089017c957724-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d417/3840/8910/f1f0/e63f/slideshow/sjoparken-norm-architects_65.jpg?1726600243",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d41738408910f1f0e63f-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d400/3840/8901/7c95/7726/slideshow/sjoparken-norm-architects_67.jpg?1726600223",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d400384089017c957726-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d408/3840/8901/7c95/772c/slideshow/sjoparken-norm-architects_6.jpg?1726600223",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d408384089017c95772c-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e9/d3ef/77c5/e104/e5a5/a9f5/slideshow/sjoparken-norm-architects_17.jpg?1726600213",
+    url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3ef77c5e104e5a5a9f5-sjoparken-retreat-norm-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c137/b4f4/1e41/7166/f2c5/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_2.jpg?1726071111",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c137b4f41e417166f2c5-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c138/488a/8678/e0de/9d41/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_14.jpg?1726071126",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138488a8678e0de9d41-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c14a/488a/8678/e0de/9d44/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_31.jpg?1726071130",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14a488a8678e0de9d44-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c147/b4f4/1e71/048d/65ab/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_6.jpg?1726071128",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c147b4f41e71048d65ab-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c13c/b4f4/1e41/7166/f2c8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_8.jpg?1726071113",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13cb4f41e417166f2c8-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c145/b4f4/1e41/7166/f2cf/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_1.jpg?1726071126",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c145b4f41e417166f2cf-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c13c/488a/8601/7ab7/1cf3/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_16.jpg?1726071115",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13c488a86017ab71cf3-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c154/488a/8601/7ab7/1cfa/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_10.jpg?1726071140",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c154488a86017ab71cfa-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c13d/b4f4/1e41/7166/f2ca/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_15.jpg?1726071118",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13db4f41e417166f2ca-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8678/e0de/9d45/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_27.jpg?1726071144",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15a488a8678e0de9d45-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c14c/488a/8601/7ab7/1cf8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_44.jpg?1726071130",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14c488a86017ab71cf8-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15b/488a/8601/7ab7/1d01/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_30.jpg?1726071146",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15b488a86017ab71d01-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8601/7ab7/1cfe/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_21.jpg?1726071146",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15a488a86017ab71cfe-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c13c/b4f4/1e41/7166/f2c9/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_18.jpg?1726071129",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13cb4f41e417166f2c9-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c142/b4f4/1e41/7166/f2cc/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_38.jpg?1726071121",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c142b4f41e417166f2cc-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c150/b4f4/1e41/7166/f2d4/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_43.jpg?1726071135",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c150b4f41e417166f2d4-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15c/b4f4/1e41/7166/f2d8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_35.jpg?1726071148",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15cb4f41e417166f2d8-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15f/488a/8601/7ab7/1d07/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_32.jpg?1726071165",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15f488a86017ab71d07-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c146/b4f4/1e41/7166/f2d0/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_42.jpg?1726071141",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c146b4f41e417166f2d0-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c155/488a/8601/7ab7/1cfc/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_45.jpg?1726071154",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c155488a86017ab71cfc-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c14d/b4f4/1e41/7166/f2d3/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_34.jpg?1726071132",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14db4f41e417166f2d3-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c138/b4f4/1e41/7166/f2c6/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_7.jpg?1726071122",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138b4f41e417166f2c6-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c138/b4f4/1e41/7166/f2c7/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_5.jpg?1726071123",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138b4f41e417166f2c7-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15e/488a/8601/7ab7/1d06/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_29.jpg?1726071164",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15e488a86017ab71d06-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8601/7ab7/1cff/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_20.jpg?1726071158",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15a488a86017ab71cff-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15e/488a/8601/7ab7/1d05/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_37.jpg?1726071165",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15e488a86017ab71d05-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15d/488a/8601/7ab7/1d04/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_40.jpg?1726071163",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15d488a86017ab71d04-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c138/488a/8601/7ab7/1cf2/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_11.jpg?1726071108",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138488a86017ab71cf2-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c160/488a/8601/7ab7/1d08/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_36.jpg?1726071165",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c160488a86017ab71d08-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15c/488a/8601/7ab7/1d03/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_41.jpg?1726071161",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15c488a86017ab71d03-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c14d/488a/8601/7ab7/1cf9/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_22.jpg?1726071133",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14d488a86017ab71cf9-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c149/488a/8678/e0de/9d42/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_26.jpg?1726071144",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c149488a8678e0de9d42-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15b/488a/8601/7ab7/1d00/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_24.jpg?1726071162",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15b488a86017ab71d00-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c15c/488a/8601/7ab7/1d02/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_13.jpg?1726071162",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15c488a86017ab71d02-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c154/488a/8601/7ab7/1cfb/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_3.jpg?1726071155",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c154488a86017ab71cfb-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c14b/b4f4/1e41/7166/f2d2/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_9.jpg?1726071130",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14bb4f41e417166f2d2-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c154/b4f4/1e41/7166/f2d5/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_12.jpg?1726071139",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c154b4f41e417166f2d5-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c12e/b4f4/1e41/7166/f2c1/slideshow/mailen-design-weald-house-drawing-8-8.jpg?1726071137",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c12eb4f41e417166f2c1-weald-house-mailendesign-plus-peter-bradford-architects-site-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c133/b4f4/1e41/7166/f2c3/slideshow/mailen-design-weald-house-drawing-1-2.jpg?1726071144",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c133b4f41e417166f2c3-weald-house-mailendesign-plus-peter-bradford-architects-ground-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c133/488a/8601/7ab7/1cf0/slideshow/mailen-design-weald-house-drawing-2-1.jpg?1726071141",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c133488a86017ab71cf0-weald-house-mailendesign-plus-peter-bradford-architects-upper-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c12e/b4f4/1e41/7166/f2c0/slideshow/mailen-design-weald-house-drawing-3-3.jpg?1726071138",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c12eb4f41e417166f2c0-weald-house-mailendesign-plus-peter-bradford-architects-roof-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c136/b4f4/1e41/7166/f2c4/slideshow/mailen-design-weald-house-drawing-4-4.jpg?1726071135",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c136b4f41e417166f2c4-weald-house-mailendesign-plus-peter-bradford-architects-elevations-2?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c136/488a/8601/7ab7/1cf1/slideshow/mailen-design-weald-house-drawing-5-5.jpg?1726071138",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c136488a86017ab71cf1-weald-house-mailendesign-plus-peter-bradford-architects-elevations-1?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66e1/c137/b4f4/1e71/048d/65aa/slideshow/mailen-design-weald-house-drawing-6-6.jpg?1726071138",
+    url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c137b4f41e71048d65aa-weald-house-mailendesign-plus-peter-bradford-architects-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fd9/5030/bc74/2176/c35e/slideshow/holmwood-farm-rx-architects_25.jpg?1725644776",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fd95030bc742176c35e-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fdd/5030/bc74/2176/c35f/slideshow/holmwood-farm-rx-architects_2.jpg?1725644780",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fdd5030bc742176c35f-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f8e/3b3d/046f/5660/a83a/slideshow/holmwood-farm-rx-architects_4.jpg?1725644704",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f8e3b3d046f5660a83a-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fa3/3b3d/046f/5660/a83d/slideshow/holmwood-farm-rx-architects_19.jpg?1725644723",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fa33b3d046f5660a83d-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fd9/5030/bc74/2176/c35d/slideshow/holmwood-farm-rx-architects_1.jpg?1725644775",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fd95030bc742176c35d-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f64/5030/bc74/2176/c35a/slideshow/holmwood-farm-rx-architects_1.jpg?1725644658",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f645030bc742176c35a-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3ef3/3b3d/046f/5660/a829/slideshow/holmwood-farm-rx-architects_1.jpg?1725644547",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3ef33b3d046f5660a829-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f46/3b3d/046f/5660/a830/slideshow/holmwood-farm-rx-architects_2.jpg?1725644632",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f463b3d046f5660a830-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fb5/3b3d/046f/5660/a841/slideshow/holmwood-farm-rx-architects_26.jpg?1725644739",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb53b3d046f5660a841-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f67/5030/bc74/2176/c35b/slideshow/holmwood-farm-rx-architects_9.jpg?1725644664",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f675030bc742176c35b-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f60/5030/bc74/2176/c358/slideshow/holmwood-farm-rx-architects_11.jpg?1725644653",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f605030bc742176c358-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f49/5030/bc74/2176/c356/slideshow/holmwood-farm-rx-architects_10.jpg?1725644630",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f495030bc742176c356-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fb8/3b3d/046f/5660/a843/slideshow/holmwood-farm-rx-architects_20.jpg?1725644744",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb83b3d046f5660a843-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f38/3b3d/046f/5660/a82f/slideshow/holmwood-farm-rx-architects_7.jpg?1725644619",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f383b3d046f5660a82f-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fb8/5030/bc3a/5eb4/06d7/slideshow/holmwood-farm-rx-architects_17.jpg?1725644743",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb85030bc3a5eb406d7-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fb4/3b3d/046f/5660/a840/slideshow/holmwood-farm-rx-architects_23.jpg?1725644738",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb43b3d046f5660a840-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f25/3b3d/046f/5660/a82e/slideshow/holmwood-farm-rx-architects_4.jpg?1725644600",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f253b3d046f5660a82e-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f8c/3b3d/046f/5660/a839/slideshow/holmwood-farm-rx-architects_13.jpg?1725644703",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f8c3b3d046f5660a839-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3ef7/3b3d/046f/5660/a82b/slideshow/holmwood-farm-rx-architects_8.jpg?1725644554",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3ef73b3d046f5660a82b-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3ef3/3b3d/046f/5660/a82a/slideshow/holmwood-farm-rx-architects_5.jpg?1725644552",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3ef33b3d046f5660a82a-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fb2/3b3d/046f/5660/a83f/slideshow/holmwood-farm-rx-architects_18.jpg?1725644738",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb23b3d046f5660a83f-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f60/3b3d/046f/5660/a835/slideshow/holmwood-farm-rx-architects_7.jpg?1725644654",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f603b3d046f5660a835-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fa5/3b3d/046f/5660/a83e/slideshow/holmwood-farm-rx-architects_22.jpg?1725644727",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fa53b3d046f5660a83e-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f60/5030/bc74/2176/c359/slideshow/holmwood-farm-rx-architects_2.jpg?1725644664",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f605030bc742176c359-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3f4e/5030/bc74/2176/c357/slideshow/holmwood-farm-rx-architects_3.jpg?1725644636",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f4e5030bc742176c357-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66db/3fd9/3b3d/046f/5660/a845/slideshow/holmwood-farm-rx-architects_3.jpg?1725644776",
+    url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fd93b3d046f5660a845-holmwood-farm-rx-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d21/slideshow/Tiefes_Haus_-_4.jpg?1725050563",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d21-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2f/slideshow/Tiefes_Haus_-_20.jpg?1725050569",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2f-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d1d/slideshow/Tiefes_Haus_-_1.jpg?1725050560",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d1d-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d29/slideshow/Tiefes_Haus_-_12.jpg?1725050564",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d29-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb3/485d/8c00/01ac/5d25/slideshow/Tiefes_Haus_-_8.jpg?1725050562",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb3485d8c0001ac5d25-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb2/485d/8c00/01ac/5d23/slideshow/Tiefes_Haus_-_6.jpg?1725050562",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb2485d8c0001ac5d23-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d28/slideshow/Tiefes_Haus_-_11.jpg?1725050563",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d28-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb3/485d/8c00/01ac/5d26/slideshow/Tiefes_Haus_-_9.jpg?1725050563",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb3485d8c0001ac5d26-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb2/485d/8c00/01ac/5d22/slideshow/Tiefes_Haus_-_5.jpg?1725050562",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb2485d8c0001ac5d22-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2a/slideshow/Tiefes_Haus_-_13.jpg?1725050577",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2a-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2b/slideshow/Tiefes_Haus_-_15.jpg?1725050565",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2b-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d20/slideshow/Tiefes_Haus_-_3.jpg?1725050563",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d20-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d27/slideshow/Tiefes_Haus_-_10.jpg?1725050562",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d27-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d1f/slideshow/Tiefes_Haus_-_2.jpg?1725050563",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d1f-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2c/slideshow/Tiefes_Haus_-_16.jpg?1725050568",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2c-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2e/slideshow/Tiefes_Haus_-_18.jpg?1725050577",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2e-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d31/slideshow/Tiefes_Haus_-_23.jpg?1725050597",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d31-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d33/slideshow/Tiefes_Haus_-_ground_floor.jpg?1725050569",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d33-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d37/slideshow/Tiefes_Haus_-_upper_floor.jpg?1725050629",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d37-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-plan-1st-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d32/slideshow/Tiefes_Haus_-_section_1.jpg?1725050614",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d32-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d34/slideshow/Tiefes_Haus_-_section_2.jpg?1725050591",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d34-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d35/slideshow/Tiefes_Haus_-_section_3.jpg?1725050604",
+    url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d35-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/05de/ee97/4727/7961/1668/slideshow/casa-botafogo-o2-arquitectos_3.jpg?1724384815",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805deee97472779611668-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/05db/ee97/4727/7961/1667/slideshow/casa-botafogo-o2-arquitectos_5.jpg?1724384810",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805dbee97472779611667-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/05ea/55d7/993c/36f7/e296/slideshow/casa-botafogo-o2-arquitectos_8.jpg?1724384826",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805ea55d7993c36f7e296-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/0604/55d7/993c/36f7/e29d/slideshow/casa-botafogo-o2-arquitectos_10.jpg?1724384854",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060455d7993c36f7e29d-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/0607/55d7/993c/36f7/e29e/slideshow/casa-botafogo-o2-arquitectos_11.jpg?1724384857",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060755d7993c36f7e29e-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/05f6/55d7/993c/36f7/e299/slideshow/casa-botafogo-o2-arquitectos_9.jpg?1724384843",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805f655d7993c36f7e299-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/05f1/55d7/993c/36f7/e298/slideshow/casa-botafogo-o2-arquitectos_6.jpg?1724384834",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805f155d7993c36f7e298-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/05e3/55d7/993c/36f7/e295/slideshow/casa-botafogo-o2-arquitectos_4.jpg?1724384818",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805e355d7993c36f7e295-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/060b/ee97/4727/7961/1669/slideshow/casa-botafogo-o2-arquitectos_14.jpg?1724384861",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060bee97472779611669-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/05ef/55d7/993c/36f7/e297/slideshow/casa-botafogo-o2-arquitectos_15.jpg?1724384830",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805ef55d7993c36f7e297-botafogo-house-o2-arquitectos-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/0602/55d7/993c/36f7/e29c/slideshow/plantas-botafogo-2.jpg?1724384788",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060255d7993c36f7e29c-botafogo-house-o2-arquitectos-plans?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/0600/55d7/993c/36f7/e29b/slideshow/elevaciones-botafogo-1.jpg?1724384786",
+    url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060055d7993c36f7e29b-botafogo-house-o2-arquitectos-elevations?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad4e/485d/8c00/01ac/57e5/slideshow/RDO_01.jpg?1724689760",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad4e485d8c0001ac57e5-rdo-house-cechvala-architects-photo",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad4f/485d/8c00/01ac/57e7/slideshow/RDO_03.jpg?1724689760",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad4f485d8c0001ac57e7-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad50/485d/8c00/01ac/57e8/slideshow/RDO_04.jpg?1724689764",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad50485d8c0001ac57e8-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad50/485d/8c00/01ac/57e9/slideshow/RDO_05.jpg?1724689776",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad50485d8c0001ac57e9-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ef/slideshow/RDO_09.jpg?1724689786",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ef-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cd8/f999/c65e/9b2d/62f2/slideshow/rdo-house-cechvala-architects_17.jpg?1724751084",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd8f999c65e9b2d62f2-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cda/f999/c65e/9b2d/62f4/slideshow/rdo-house-cechvala-architects_15.jpg?1724751094",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cdaf999c65e9b2d62f4-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad4f/485d/8c00/01ac/57e6/slideshow/RDO_02.jpg?1724689766",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad4f485d8c0001ac57e6-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c65e/9b2d/62f0/slideshow/rdo-house-cechvala-architects_11.jpg?1724751115",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7f999c65e9b2d62f0-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/d393/f12e/9744/6f1a/slideshow/rdo-house-cechvala-architects_10.jpg?1724751090",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7d393f12e97446f1a-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ea/slideshow/RDO_06.jpg?1724689773",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ea-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c65e/9b2d/62f1/slideshow/rdo-house-cechvala-architects_12.jpg?1724751097",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7f999c65e9b2d62f1-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cda/d393/f12e/9744/6f1b/slideshow/rdo-house-cechvala-architects_13.jpg?1724751103",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cdad393f12e97446f1b-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cd8/f999/c65e/9b2d/62f3/slideshow/rdo-house-cechvala-architects_14.jpg?1724751092",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd8f999c65e9b2d62f3-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c67d/5793/4fad/slideshow/rdo-house-cechvala-architects_16.jpg?1724751086",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7f999c67d57934fad-rdo-house-cechvala-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ed/slideshow/RDO_P_01.jpg?1724689768",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ed-rdo-house-cechvala-architects-ground-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ee/slideshow/RDO_P_02.jpg?1724689803",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ee-rdo-house-cechvala-architects-1st-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57f0/slideshow/RDO_P_03.jpg?1724689822",
+    url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57f0-rdo-house-cechvala-architects-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5684/slideshow/Inblum-T38-_Norbert_Tukaj-5907.jpg?1724431542",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5684-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5679/slideshow/Inblum-T38-_Norbert_Tukaj-5310.jpg?1724431575",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac5679-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5686/slideshow/Inblum-T38-_Norbert_Tukaj-5950.jpg?1724431577",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5686-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5685/slideshow/Inblum-T38-_Norbert_Tukaj-5836.jpg?1724431578",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5685-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5677/slideshow/Inblum-T38-_Norbert_Tukaj-5024.jpg?1724431556",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac5677-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/567d/slideshow/Inblum-T38-_Norbert_Tukaj-5531.jpg?1724431560",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac567d-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca1/485d/8c00/01ac/5688/slideshow/Inblum-T38-_Norbert_Tukaj-6077.jpg?1724431612",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca1485d8c0001ac5688-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5687/slideshow/Inblum-T38-_Norbert_Tukaj-5989.jpg?1724431651",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5687-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bc9f/485d/8c00/01ac/567b/slideshow/Inblum-T38-_Norbert_Tukaj-5445.jpg?1724431542",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9f485d8c0001ac567b-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bc9f/485d/8c00/01ac/567c/slideshow/Inblum-T38-_Norbert_Tukaj-5486.jpg?1724431579",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9f485d8c0001ac567c-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5678/slideshow/Inblum-T38-_Norbert_Tukaj-5290.jpg?1724431560",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac5678-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/567a/slideshow/Inblum-T38-_Norbert_Tukaj-5402.jpg?1724431559",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac567a-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5683/slideshow/Inblum-T38-_Norbert_Tukaj-5802.jpg?1724431594",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5683-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66c8/bca1/485d/8c00/01ac/5689/slideshow/Inblum-T38-_Norbert_Tukaj-6047.jpg?1724431614",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca1485d8c0001ac5689-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ce/d936/f999/c65e/e27a/b589/slideshow/house-in-zverynas-site-plan-inblum-23.jpg?1724832117",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced936f999c65ee27ab589-a-house-in-zverynas-inblum-architects-site-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ce/d933/d393/f10c/cb38/8c09/slideshow/house-in-zverynas-1st-floor-plan-inblum-20.jpg?1724832097",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced933d393f10ccb388c09-a-house-in-zverynas-inblum-architects-ground-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ce/d932/d393/f10c/cb38/8c08/slideshow/house-in-zverynas-2nd-floor-plan-inblum-21.jpg?1724832097",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced932d393f10ccb388c08-a-house-in-zverynas-inblum-architects-1st-floor-plan?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66ce/d936/d393/f10c/cb38/8c0a/slideshow/house-in-zverynas-section-inblum-22.jpg?1724832094",
+    url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced936d393f10ccb388c0a-a-house-in-zverynas-inblum-architects-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7d/slideshow/the-orford-house-thellend-fortin-architectes_1.jpg?1723758230",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed7d-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e462/a82a/0217/slideshow/the-orford-house-thellend-fortin-architectes_3.jpg?1723758232",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76832e7de462a82a0217-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e462/a82a/021a/slideshow/the-orford-house-thellend-fortin-architectes_12.jpg?1723758334",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de462a82a021a-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e45d/df8d/990a/slideshow/the-orford-house-thellend-fortin-architectes_11.jpg?1723758305",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de45ddf8d990a-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed81/slideshow/the-orford-house-thellend-fortin-architectes_18.jpg?1723758396",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed81-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e45d/df8d/990b/slideshow/the-orford-house-thellend-fortin-architectes_4.jpg?1723758248",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de45ddf8d990b-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed80/slideshow/the-orford-house-thellend-fortin-architectes_9.jpg?1723758365",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed80-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7f/slideshow/the-orford-house-thellend-fortin-architectes_10.jpg?1723758263",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed7f-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e457/7259/ed7a/slideshow/the-orford-house-thellend-fortin-architectes_13.jpg?1723758226",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de4577259ed7a-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e45d/df8d/9908/slideshow/the-orford-house-thellend-fortin-architectes_14.jpg?1723758226",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de45ddf8d9908-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e462/a82a/0216/slideshow/the-orford-house-thellend-fortin-architectes_15.jpg?1723758259",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76832e7de462a82a0216-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e45d/df8d/9909/slideshow/the-orford-house-thellend-fortin-architectes_5.jpg?1723758247",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76832e7de45ddf8d9909-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e462/a82a/0215/slideshow/the-orford-house-thellend-fortin-architectes_6.jpg?1723758229",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de462a82a0215-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e457/7259/ed7b/slideshow/the-orford-house-thellend-fortin-architectes_7.jpg?1723758231",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de4577259ed7b-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e462/a82a/0218/slideshow/the-orford-house-thellend-fortin-architectes_8.jpg?1723758290",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de462a82a0218-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7c/slideshow/the-orford-house-thellend-fortin-architectes_17.jpg?1723758232",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed7c-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e457/7259/ed83/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-0-1.jpg?1723758268",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76862e7de4577259ed83-the-orford-house-thellend-fortin-architectes-plan-site?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e457/7259/ed84/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-1-2.jpg?1723758260",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de4577259ed84-the-orford-house-thellend-fortin-architectes-plan-ground-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e45d/df8d/990e/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-2-3.jpg?1723758254",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de45ddf8d990e-the-orford-house-thellend-fortin-architectes-plan-1st-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e457/7259/ed82/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-3-4.jpg?1723758277",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76862e7de4577259ed82-the-orford-house-thellend-fortin-architectes-plan-2nd-floor?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e45d/df8d/990c/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-4-5.jpg?1723758236",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76862e7de45ddf8d990c-the-orford-house-thellend-fortin-architectes-section?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e45d/df8d/990d/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-5-6.jpg?1723758245",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de45ddf8d990d-the-orford-house-thellend-fortin-architectes-elevation-01?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e462/a82a/021b/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-6-7.jpg?1723758231",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de462a82a021b-the-orford-house-thellend-fortin-architectes-elevation-02?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e462/a82a/021c/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-7-8.jpg?1723758241",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de462a82a021c-the-orford-house-thellend-fortin-architectes-elevation-03?next_project=no",
+  },
+  {
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e457/7259/ed85/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-8-9.jpg?1723758229",
+    url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de4577259ed85-the-orford-house-thellend-fortin-architectes-elevation-04?next_project=no",
+  },
+  {
     src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis4.jpg",
     url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
