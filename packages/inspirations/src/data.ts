@@ -10,3000 +10,3828 @@
 
 export const inspirations = [
   {
-    src: "https://images.adsttc.com/media/images/6711/75d6/3dfd/b46d/4a50/05d6/slideshow/hotel-house-splinter-society_1.jpg?1729197557",
+    url: "https://simmengroup.ch/en/objects/huracan-1",
+    src: "https://simmengroup.ch/media/cache/slider_desktop/upload/images/87abcfd04affb77a7a274f7c57709c5234389b40.jpg",
+  },
+  {
+    url: "https://simmengroup.ch/en/objects/huracan-1",
+    src: "https://simmengroup.ch/media/cache/slider_desktop/upload/images/48856f96ca8b84a7124daba828ae6d4ba7758e8c.jpg",
+  },
+  {
+    url: "https://simmengroup.ch/en/objects/huracan-1",
+    src: "https://simmengroup.ch/media/cache/slider_desktop/upload/images/1b6a3295eb4f2c05cbfdeb37ca86dd8675140836.jpg",
+  },
+  {
+    url: "https://simmengroup.ch/en/objects/huracan-1",
+    src: "https://simmengroup.ch/media/cache/slider_desktop/upload/images/9c33547d43b5d53aed50a9aa87af6a6b8b8dd87c.jpg",
+  },
+  {
+    url: "https://simmengroup.ch/en/objects/huracan-1",
+    src: "https://simmengroup.ch/media/cache/slider_desktop/upload/images/07d0322df3c00c940f61753d4a92eb2746877aa8.jpg",
+  },
+  {
+    url: "https://simmengroup.ch/en/objects/huracan-1",
+    src: "https://simmengroup.ch/media/cache/slider_desktop/upload/images/be295d259e1320489ca8524de633317356bee2fd.jpg",
+  },
+  {
+    url: "https://simmengroup.ch/en/objects/huracan-1",
+    src: "https://simmengroup.ch/media/cache/slider_desktop/upload/images/14788f476cf10e50e8b9aaa2af3e7f2c25bac10c.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/_crop1774/projects/la-trapa/Gunni_Trentino_La_Trapa_18.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/la-trapa/Gunni_Trentino_La_Trapa_08.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/la-trapa/Gunni_Trentino_La_Trapa_10.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/la-trapa/Gunni_Trentino_La_Trapa_11.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/la-trapa/Gunni_Trentino_La_Trapa_13.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/la-trapa/Gunni_Trentino_La_Trapa_12.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/_crop36/projects/Benissa-residence/DJI_0057.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/Benissa-residence/IMG-20170727-WA0029.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/Benissa-residence/IMG-20170727-WA0028.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/Benissa-residence/IMG-20170727-WA0024-landscape.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/_crop24/projects/Jackalope/JackalopeLaunch-002.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/Jackalope/JackalopeLaunch-116.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/Jackalope/JackalopeLaunch-002.jpg",
+  },
+  {
+    url: "https://www.tribu.com/en/inspiration/projects/",
+    src: "https://df63sjezztpwg.cloudfront.net/_img/landscape/projects/Jackalope/JackalopeLaunch-055.jpg",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/luminus-house-j26754",
+    src: "https://sabaitalia.com/cache-buster-1720610654/Saba/Progetti/Residential/Luminus%20house/image-thumb__7824__projectDetailSlider/1@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/luminus-house-j26754",
+    src: "https://sabaitalia.com/cache-buster-1720610659/Saba/Progetti/Residential/Luminus%20house/image-thumb__7829__projectDetailSlider/2@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/luminus-house-j26754",
+    src: "https://sabaitalia.com/cache-buster-1720610656/Saba/Progetti/Residential/Luminus%20house/image-thumb__7826__projectDetailSlider/3@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/luminus-house-j26754",
+    src: "https://sabaitalia.com/cache-buster-1720610655/Saba/Progetti/Residential/Luminus%20house/image-thumb__7825__projectDetailSlider/4@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/luminus-house-j26754",
+    src: "https://sabaitalia.com/cache-buster-1720610658/Saba/Progetti/Residential/Luminus%20house/image-thumb__7828__projectDetailSlider/5@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casa-211--j17711",
+    src: "https://sabaitalia.com/cache-buster-1693903999/Saba/Progetti/Residential/Casa%20211%20MIDE/image-thumb__6815__projectDetailSlider/1@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casa-211--j17711",
+    src: "https://sabaitalia.com/cache-buster-1693904000/Saba/Progetti/Residential/Casa%20211%20MIDE/image-thumb__6818__projectDetailSlider/2@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casa-211--j17711",
+    src: "https://sabaitalia.com/cache-buster-1693904000/Saba/Progetti/Residential/Casa%20211%20MIDE/image-thumb__6816__projectDetailSlider/3@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casa-211--j17711",
+    src: "https://sabaitalia.com/cache-buster-1693904000/Saba/Progetti/Residential/Casa%20211%20MIDE/image-thumb__6814__projectDetailSlider/4@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casa-211--j17711",
+    src: "https://sabaitalia.com/cache-buster-1693904000/Saba/Progetti/Residential/Casa%20211%20MIDE/image-thumb__6813__projectDetailSlider/5@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casa-211--j17711",
+    src: "https://sabaitalia.com/cache-buster-1693904000/Saba/Progetti/Residential/Casa%20211%20MIDE/image-thumb__6817__projectDetailSlider/6@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casablanca-chic-j2360",
+    src: "https://sabaitalia.com/cache-buster-1648199575/Saba/Progetti/Residential/Casablanca2/image-thumb__3452__projectDetailSlider/Casablanca3@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casablanca-chic-j2360",
+    src: "https://sabaitalia.com/cache-buster-1648199575/Saba/Progetti/Residential/Casablanca2/image-thumb__3449__projectDetailSlider/Casablanca4@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casablanca-chic-j2360",
+    src: "https://sabaitalia.com/cache-buster-1648199575/Saba/Progetti/Residential/Casablanca2/image-thumb__3450__projectDetailSlider/Casablanca5@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/the-cape-house-j2358",
+    src: "https://sabaitalia.com/cache-buster-1648199652/Saba/Progetti/Residential/Cape%20House/image-thumb__3468__projectDetailSlider/CapeHouse3@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/the-cape-house-j2358",
+    src: "https://sabaitalia.com/cache-buster-1648199652/Saba/Progetti/Residential/Cape%20House/image-thumb__3471__projectDetailSlider/CapeHouse4@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/the-cape-house-j2358",
+    src: "https://sabaitalia.com/cache-buster-1648199652/Saba/Progetti/Residential/Cape%20House/image-thumb__3470__projectDetailSlider/CapeHouse5@2x.webp",
+  },
+  {
+    url: "https://sabaitalia.com/en/projects/casablanca-house-j2126",
+    src: "https://sabaitalia.com/cache-buster-1638184813/Saba/Progetti/Residential/Casablanca%20Home/image-thumb__1377__projectDetailSlider/Casablanca_02@2x.webp",
+  },
+  {
+    url: "https://www.bebitalia.com/en-it/en-husk-poltrone.html",
+    src: "https://www.bebitalia.com/media/catalog/product/G/a/Gallery_3_341_bebitalia_armchair_Husk_A-03.jpg",
+  },
+  {
+    url: "https://www.bebitalia.com/en-it/en-husk-poltrone.html",
+    src: "https://www.bebitalia.com/media/catalog/product/G/a/Gallery_6_341_bebitalia_sofa_Bend-Sofa_A-02.jpg",
+  },
+  {
+    url: "https://www.bebitalia.com/en-it/en-husk-poltrone.html",
+    src: "https://www.bebitalia.com/media/catalog/product/G/a/Gallery_7_341_bebitalia_H08_armchair_Husk_03.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/serie/c/sinks-and-bowls-1/s/linero/",
+    src: "https://www.suter.ch/fileadmin/user_upload/_processed_/2/0/csm_Linero_Edelstahl_1500x800px_441449daae.png",
+  },
+  {
+    url: "https://www.suter.ch/en/products/serie/c/sinks-and-bowls-1/s/linero/",
+    src: "https://www.suter.ch/fileadmin/user_upload/_processed_/7/4/csm_Linero-Cristadur-Becken_Unterbau_01_783b109798.png",
+  },
+  {
+    url: "https://www.suter.ch/en/products/serie/c/sinks-and-bowls-1/s/linero/",
+    src: "https://www.suter.ch/fileadmin/user_upload/_processed_/0/4/csm_News_Linero-Becken-Edelstahl_1106x681px_3d642feaef.png",
+  },
+  {
+    url: "https://www.suter.ch/en/products/serie/c/sinks-and-bowls-1/s/linero/",
+    src: "https://www.suter.ch/fileadmin/user_upload/_processed_/4/2/csm_News_Linero-Cristadur-Becken_1106x681px_b10f3dc796.png",
+  },
+  {
+    url: "https://www.suter.ch/en/products/serie/c/sinks-and-bowls-1/s/daneo/",
+    src: "https://www.suter.ch/fileadmin/user_upload/_processed_/3/e/csm_Daneo_DAN_50U_schraeg_unterliegendes_Sieb_a636adfa28.png",
+  },
+  {
+    url: "https://www.suter.ch/en/products/serie/c/sinks-and-bowls-1/s/daneo/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/3/c/csm_DANEO_50IF_SCHRAEG_Pereroncini_110_matt_RS_small_f84d72743c.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/serie/c/sinks-and-bowls-1/s/vantis/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/c/1/csm_W_Vantis_55U_schraeg_Zwetschgen_2218733746.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/laufen/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/c/0/csm_40.001.655_SimilorEpoc_Chrom_TF_df37ad556a.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/laufen/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/f/5/csm_1_SK_Triathlon2_e8f1f9794b.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/laufen/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/d/4/csm_40.001.729_SimilorEpoc_Edels_TF_60bf32a29b.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/hansgrohe/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/0/5/csm_1_hansgrohe_citterio_a6f99f7f44.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/grohe/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/e/6/csm_40.001.986_Grohe_Essence_AZ_TF_eb7852e827.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/grohe/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/b/d/csm_Grohe_Essence_web_b4eab3d6b2.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/dornbracht/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/9/8/csm_40.002.473_Armatur_Koya_ZA_EdFinSideL_LIfestyle_378b06777e.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/kwc/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/6/9/csm_40.001.042_KWC_Livello__60f886eca0.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/kwc/",
+    src: "https://www.suter.ch/fileadmin/Produkte/_processed_/6/9/csm_40.001.040_kwc_Livello_SA_105252i_178181b3cb.jpg",
+  },
+  {
+    url: "https://www.suter.ch/en/products/manufacturer/c/faucets/m/kwc/",
+    src: "https://www.suter.ch/fileadmin/user_upload/_processed_/f/6/csm_Neuheuten_2023_KWC_Bevo_1cdddc9d05.jpg",
+  },
+  {
+    url: "https://meridiani.it/en/rooms/live/live-06-r29180",
+    src: "https://meridiani.it/Meridiani/Immagini/Ambienti/Live/image-thumb__22350__detailSlider/ambiente-live-06-1200x1800@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/rooms/live/live-06-r29181",
+    src: "https://meridiani.it/Meridiani/Immagini/Ambienti/Live/image-thumb__22351__detailSlider/ambiente-live-06-1800x1200@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/rooms/live/live-01-r4512",
+    src: "https://meridiani.it/Meridiani/Immagini/Ambienti/Live/image-thumb__22348__detailSlider/ambiente-live-01-1800x1200@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/rooms/live/live-03-r4516",
+    src: "https://meridiani.it/Meridiani/Immagini/Ambienti/Live/image-thumb__22342__detailSlider/ambiente-live-01-1200x1800@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/eden-spagna-pj34892",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Eden%20Spagna/image-thumb__26886__detailSlider/terraza_balear_eden_bedroom02-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/eden-spagna-pj34892",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Eden%20Spagna/image-thumb__26890__detailSlider/terraza_balear_eden_living02-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/eden-spagna-pj34892",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Eden%20Spagna/image-thumb__26892__detailSlider/terraza_balear_eden_living03-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/appartamento-privato-copenaghen-pj31126",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Interior%20project_Rue%20Verte/image-thumb__24179__detailSlider/RV-EDIT_23-11-2023_LILLE-STRANDSTR%C3%86DE_FINAL-1-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/appartamento-privato-copenaghen-pj31126",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Interior%20project_Rue%20Verte/image-thumb__24180__detailSlider/RV-EDIT_23-11-2023_LILLE-STRANDSTR%C3%86DE_FINAL-2-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/appartamento-privato-copenaghen-pj31126",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Interior%20project_Rue%20Verte/image-thumb__24188__detailSlider/RV-EDIT_23-11-2023_LILLE-STRANDSTR%C3%86DE_FINAL-9-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/appartamento-privato-copenaghen-pj31126",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Interior%20project_Rue%20Verte/image-thumb__24187__detailSlider/RV-EDIT_23-11-2023_LILLE-STRANDSTR%C3%86DE_FINAL-18-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/appartamento-privato-copenaghen-pj31126",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Interior%20project_Rue%20Verte/image-thumb__24185__detailSlider/RV-EDIT_23-11-2023_LILLE-STRANDSTR%C3%86DE_FINAL-4-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/appartamento-privato-copenaghen-pj31126",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Interior%20project_Rue%20Verte/image-thumb__24183__detailSlider/RV-EDIT_23-11-2023_LILLE-STRANDSTR%C3%86DE_FINAL-16-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22422__detailSlider/DJI_0866%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22414__detailSlider/L1550980%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22417__detailSlider/L1560008%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22412__detailSlider/L1560123%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22413__detailSlider/L1560111%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22415__detailSlider/L1560084%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22419__detailSlider/L1550816%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22409__detailSlider/L1560149%20WebRes-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22410__detailSlider/L1560147%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/o-ahu-hawaii-lama-place-pj29300",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/O%27ahu_Hawaii_Lama_Place/image-thumb__22411__detailSlider/L1560148%20WebRes-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-apartment-taipei-project-ii-pj22774",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20Apartment%20Taipei%20-%20Project%20II/image-thumb__20565__detailSlider/Taipei%20Apartment_T%20Residence4-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-apartment-taipei-project-ii-pj22774",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20Apartment%20Taipei%20-%20Project%20II/image-thumb__20564__detailSlider/Taipei%20Apartment_T%20Residence7-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-apartment-taipei-project-ii-pj22774",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20Apartment%20Taipei%20-%20Project%20II/image-thumb__20563__detailSlider/Taipei%20Apartment_T%20Residence8-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/villas-aura-aur-a-pj17405",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Villas%20Aura%20e%20Aurea_Francia%20Costa%20Azzurra/image-thumb__19794__detailSlider/D85_9921_915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/villas-aura-aur-a-pj17405",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Villas%20Aura%20e%20Aurea_Francia%20Costa%20Azzurra/image-thumb__19791__detailSlider/D85_9790_915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/villas-aura-aur-a-pj17405",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Villas%20Aura%20e%20Aurea_Francia%20Costa%20Azzurra/image-thumb__19795__detailSlider/D85_9903_915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/financial-city-chengdu-pj8560",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/FinancialCity%20Chengdu/image-thumb__14645__detailSlider/126A1276-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/financial-city-chengdu-pj8560",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/FinancialCity%20Chengdu/image-thumb__14653__detailSlider/126A1379-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/financial-city-chengdu-pj8560",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/FinancialCity%20Chengdu/image-thumb__14652__detailSlider/126A1373-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/financial-city-chengdu-pj8560",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/FinancialCity%20Chengdu/image-thumb__14647__detailSlider/126A1202-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/financial-city-chengdu-pj8560",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/FinancialCity%20Chengdu/image-thumb__14644__detailSlider/03-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11700__detailSlider/1-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11704__detailSlider/2-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11698__detailSlider/8-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11701__detailSlider/3-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11703__detailSlider/6-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11705__detailSlider/9-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11709__detailSlider/15-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/luxury-house-in-shanghai-pj6392",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Luxury%20House%20Shanghai/image-thumb__11710__detailSlider/18-915x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/quinta-do-lago-pj4658",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Quinta%20do%20Lago/image-thumb__8793__detailSlider/Quinta%20do%20Lago%2009-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/casa-de-agosto-pj4509",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Casa-De-Agosto/image-thumb__8371__detailSlider/Casa-de-Agosto-03-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/casa-de-agosto-pj4509",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Casa-De-Agosto/image-thumb__8372__detailSlider/Casa-de-Agosto-04-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/casa-de-agosto-pj4509",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Casa-De-Agosto/image-thumb__8367__detailSlider/Casa-de-Agosto-06-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/casa-de-agosto-pj4509",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Casa-De-Agosto/image-thumb__8373__detailSlider/Casa-de-Agosto-07-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/casa-de-agosto-pj4509",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Casa-De-Agosto/image-thumb__8370__detailSlider/Casa-de-Agosto-09-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/casa-de-agosto-pj4509",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Casa-De-Agosto/image-thumb__8365__detailSlider/Casa-de-Agosto-14-1830x1245@2x.webp",
+  },
+  {
+    url: "https://meridiani.it/en/projects/casa-de-agosto-pj4509",
+    src: "https://meridiani.it/Meridiani/Immagini/Contract/Residences/Casa-De-Agosto/image-thumb__8364__detailSlider/Casa-de-Agosto-15-1830x1245@2x.webp",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/aballs-t-me",
+    src: "https://www.parachilna.eu/cdn/shop/products/ABALLSTME_1024x1024@2x.jpg?v=1709118010",
+  },
+  {
+    url: "https://www.parachilna.eu/products/aballs-t-gr?pr_prod_strat=e5_desc&pr_rec_id=b115f91bb&pr_rec_pid=4898746400813&pr_ref_pid=5033551233069&pr_seq=uniform",
+    src: "https://www.parachilna.eu/cdn/shop/products/IMG_0775_1024x1024@2x.jpg?v=1709117979",
+  },
+  {
+    url: "https://www.parachilna.eu/products/aballs-t-gr?pr_prod_strat=e5_desc&pr_rec_id=b115f91bb&pr_rec_pid=4898746400813&pr_ref_pid=5033551233069&pr_seq=uniform",
+    src: "https://www.parachilna.eu/cdn/shop/products/volkov-architectsnv9photojulie-petrova-10_1024x1024@2x.jpg?v=1709117979",
+  },
+  {
+    url: "https://www.parachilna.eu/products/aballs-t-gr?pr_prod_strat=e5_desc&pr_rec_id=b115f91bb&pr_rec_pid=4898746400813&pr_ref_pid=5033551233069&pr_seq=uniform",
+    src: "https://www.parachilna.eu/cdn/shop/products/01_ABALLS_INDIVIDUAL01_1024x1024@2x.jpg?v=1657034227",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/aballs-chandelier-4",
+    src: "https://www.parachilna.eu/cdn/shop/products/02_2_GENERAL_1024x1024@2x.jpg?v=1620245506",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/aballs-t-pe",
+    src: "https://www.parachilna.eu/cdn/shop/products/4J6A8258_1024x1024@2x.jpg?v=1709117992",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/aballs-t-pe",
+    src: "https://www.parachilna.eu/cdn/shop/products/ABALLSTPE_1024x1024@2x.jpg?v=1709117992",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/bai-t-ma-ma",
+    src: "https://www.parachilna.eu/cdn/shop/products/BAIAMAMAOUT-Amber_1024x1024@2x.jpg?v=1709120064",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/denglong-t-gr",
+    src: "https://www.parachilna.eu/cdn/shop/products/DENGLONGTFamily_1024x1024@2x.jpg?v=1590763881",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/denglong-t-pe",
+    src: "https://www.parachilna.eu/cdn/shop/products/DENGLONGTFamily_ed9ce395-73fc-41fa-80f3-b4cb6d33785a_1024x1024@2x.jpg?v=1590763928",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/lighto-c-gr",
+    src: "https://www.parachilna.eu/cdn/shop/products/PARACHILNA_CATALOGO_LIGHTO_04_web_1024x1024@2x.jpg?v=1626181831",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/lighto-t-gr",
+    src: "https://www.parachilna.eu/cdn/shop/products/PARACHILNA_CATALOGO_LIGHTO_01_web_1024x1024@2x.jpg?v=1626182264",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/lighto-t-pe",
+    src: "https://www.parachilna.eu/cdn/shop/products/PARACHILNA_CATALOGO_LIGHTO_01_web_35a59651-7a83-4efb-affa-5e4813d701b9_1024x1024@2x.jpg?v=1626182352",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/manila-t-gr",
+    src: "https://www.parachilna.eu/cdn/shop/products/MANILA_GR_3K_1024x1024@2x.png?v=1657034455",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/manila-t-gr",
+    src: "https://www.parachilna.eu/cdn/shop/products/PARACHILNA_CATALOGO_MANILA_PERSONA_web_1024x1024@2x.jpg?v=1657034455",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/manila-t-gr",
+    src: "https://www.parachilna.eu/cdn/shop/products/MANILATFamily_Black_1024x1024@2x.jpg?v=1657034455",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/manila-t-pe",
+    src: "https://www.parachilna.eu/cdn/shop/products/PARACHILNA_CATALOGO_MANILA_PERSONA_web_bafb85b1-1d1a-4cdc-9362-4d086e53b876_1024x1024@2x.jpg?v=1626178805",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/oiphorique-p-pe-still",
+    src: "https://www.parachilna.eu/cdn/shop/files/OI-STILL-2_1024x1024@2x.jpg?v=1726236216",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/oiphorique-p-pe-still",
+    src: "https://www.parachilna.eu/cdn/shop/files/OI-STILL-3_1024x1024@2x.jpg?v=1726236216",
+  },
+  {
+    url: "https://www.parachilna.eu/collections/all-products/products/petra-m-me",
+    src: "https://www.parachilna.eu/cdn/shop/products/PETRAFAMILY_67cc3f1c-152e-475f-8f92-b7ba76bcbf9a_1024x1024@2x.jpg?v=1625831103",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/f52afde3-8e21-4cb0-a3c8-faef22a5f3ab?",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/2ba1664d-0fdc-4e23-a572-dd230361ed57?",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/d9d13862-b600-487a-b975-e10f60040b25?",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/74ead90f-248b-46a8-a59e-93a39860a96c?",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/f67d7703-1283-4a70-abeb-471fbf96d397?",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/9c2e6762-34a0-4628-982e-495682484c45?",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/255e4bea-d1de-457e-959c-f960658f5c3f?",
+  },
+  {
+    url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    src: "https://projectprijs.reynaers.nl/media/e393276b-c08d-472e-a591-260d1021aab2?",
+  },
+  {
+    url: "https://sztuka-architektury.pl/article/10974/tamizo-architects-z-nagroda-w-estonii",
+    src: "https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx7w7sqEUHbTGH5wWo7mO4PMHYusq6c2ai4Jp3ZrY_tamizo-estonia08jpg-image(1000x_).jpg",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/08_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/46_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/17_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/14_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/21_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/22_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/13_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/32_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/25_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/30_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/191023_Bruchem-21.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/37_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/20_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/41_Villa_Bruchem_Ossip.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/jadearchitecten-Bruchem-schuurwoning-6.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/jadearchitecten-Bruchem-schuurwoning-5.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/jadearchitecten-Bruchem-schuurwoning-7.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://jadearchitecten.nl/portfolio/schuurwoning-bruchem/",
+    src: "https://i0.wp.com/jadearchitecten.nl/wp-content/uploads/2017/05/jadearchitecten-Bruchem-schuurwoning-8.jpg?fit=3000%2C2000&ssl=1",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-008-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-012-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-013-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-014-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-015-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-018-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-021-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-022-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-023-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-024-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-029-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-030-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-031-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-032-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-033-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-034-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-036-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-037-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-039-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-040-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-041-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-042-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-043-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-044-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-046-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-047-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-049-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-052-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-054-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-057-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-058-scaled.jpg",
+  },
+  {
+    url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-076-scaled.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/design_hotelgarden_golfresort",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/Zwembad-hotel.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/design_hotelgarden_golfresort",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/Tennisbaan-hotel-architect.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/design_officegarden_brabant",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/SPB_NL_Office_Brabant_2019_TB_090-1-scaled-1118x745.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/design-wellness-garden-belgium",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/tuinarchitect_belgie_tuinontwerp.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/design-wellness-garden-belgium",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/poppel_interieurstyling.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/wellness-garden-rotterdam",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2023/11/Vlonder-zwembad-1520x1015.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/wellness-garden-rotterdam",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2023/11/Tuinontwerp-vlonder-zwembad-1520x1015.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/wellness-garden-rotterdam",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2023/11/tuinarchitect-zwembad-1520x1015.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/wellness-garden-rotterdam",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2023/11/zwembad-rotterdam-siergrassen-1520x1015.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/ontwerp-dakterras-knokke",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/05_bron-1118x745.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/ontwerp-dakterras-knokke",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/01_bron-1-1118x745.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/tuinontwerp-modern-landelijke-wellnesstuin-haren",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/StudioREDD_tuinarchitect_wellness.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/tuinontwerp-modern-landelijke-wellnesstuin-haren",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/REDD-Haren-2-0081-1118x745.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/ontwerp-tuin-met-zwembad-kaatsheuvel",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/buitendouche-in-de-tuin.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/ontwerp-tuin-met-zwembad-kaatsheuvel",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/DSC5646-1118x746.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/ontwerp-tuin-met-zwembad-kaatsheuvel",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/wellnesstuin_ontwerp_kaatsheuvel.jpg",
+  },
+  {
+    url: "https://www.studioredd.nl/en/project/villatuin-het-gooi",
+    src: "https://www.studioredd.nl/en/wp-content/uploads/sites/2/2021/11/Verbinding-binnen-en-buiten-tuin.jpg",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/stuv6/stuv-6-h",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-6-h-poele-bois-petit-abordable-5670.webp",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/wood-burning-stove-inset-fire-stuv-16",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-poele-insert-bois-gamme-epuree-827.webp",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/wood-burning-stove-inset-fire-stuv-16",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-poele-insert-bois-gamme-chauffage-innovant-874.webp",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/wood-burning-stove/stuv-16-cube",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-cube-poele-bois-innovant-spectacle-flammes-835.webp",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/wood-burning-stove/stuv-16-up",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-up-poele-bois-suspendu-excellent-rendement-848.webp",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/wood-burning-stove/stuv-16-h",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-h-poele-bois-rangement-authenticite-854.webp",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/newdesignproduct/stuv-16-d4#",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/francois_chevalier_stuv_16_verranda_1800_0.jpg",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/newdesignproduct/stuv-16-d4#",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/240611_stuv_d4_03.jpg",
+  },
+  {
+    url: "https://www.stuv.com/en-gb/newdesignproduct/stuv-16-d4#",
+    src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/240611_stuv_d4_04.jpg",
+  },
+  {
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d63dfdb46d4a5005d6-hotel-house-splinter-society-photo",
+    src: "https://images.adsttc.com/media/images/6711/75d6/3dfd/b46d/4a50/05d6/slideshow/hotel-house-splinter-society_1.jpg?1729197557",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d3/3dfd/b46d/4a50/05d5/slideshow/hotel-house-splinter-society_11.jpg?1729197538",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d33dfdb46d4a5005d5-hotel-house-splinter-society-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d3/3dfd/b46d/4a50/05d5/slideshow/hotel-house-splinter-society_11.jpg?1729197538",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/185b/slideshow/hotel-house-splinter-society_2.jpg?1729197605",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad185b-hotel-house-splinter-society-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/185b/slideshow/hotel-house-splinter-society_2.jpg?1729197605",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d7/3dfd/b46d/4a50/05db/slideshow/hotel-house-splinter-society_3.jpg?1729197556",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d73dfdb46d4a5005db-hotel-house-splinter-society-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d7/3dfd/b46d/4a50/05db/slideshow/hotel-house-splinter-society_3.jpg?1729197556",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1855/slideshow/hotel-house-splinter-society_10.jpg?1729197543",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad1855-hotel-house-splinter-society-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1855/slideshow/hotel-house-splinter-society_10.jpg?1729197543",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1856/slideshow/hotel-house-splinter-society_8.jpg?1729197559",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad1856-hotel-house-splinter-society-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1856/slideshow/hotel-house-splinter-society_8.jpg?1729197559",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d5/2aec/2b2e/9cad/1854/slideshow/hotel-house-splinter-society_9.jpg?1729197559",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d52aec2b2e9cad1854-hotel-house-splinter-society-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d5/2aec/2b2e/9cad/1854/slideshow/hotel-house-splinter-society_9.jpg?1729197559",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1857/slideshow/hotel-house-splinter-society_16.jpg?1729197590",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d62aec2b2e9cad1857-hotel-house-splinter-society-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d6/2aec/2b2e/9cad/1857/slideshow/hotel-house-splinter-society_16.jpg?1729197590",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d8/2aec/2b2e/9cad/185d/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-0-1.jpg?1729197568",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d82aec2b2e9cad185d-hotel-house-splinter-society-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d8/2aec/2b2e/9cad/185d/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-0-1.jpg?1729197568",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d8/2aec/2b2e/9cad/185c/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-1-2.jpg?1729197567",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d82aec2b2e9cad185c-hotel-house-splinter-society-plan-1st-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d8/2aec/2b2e/9cad/185c/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-1-2.jpg?1729197567",
   },
   {
-    src: "https://images.adsttc.com/media/images/6711/75d8/3dfd/b46d/4a50/05dc/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-2-3.jpg?1729197570",
     url: "https://www.archdaily.com/1022506/hotel-house-splinter-society/671175d83dfdb46d4a5005dc-hotel-house-splinter-society-section-and-elevation?next_project=no",
+    src: "https://images.adsttc.com/media/images/6711/75d8/3dfd/b46d/4a50/05dc/slideshow/eca41eb4-2037-4b7d-89e0-47436171a246-2-3.jpg?1729197570",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5697/99d0/3a2e/cd7a/60c7/slideshow/habitacao-aurea-stere_19.jpg?1728992945",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569799d03a2ecd7a60c7-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5697/99d0/3a2e/cd7a/60c7/slideshow/habitacao-aurea-stere_19.jpg?1728992945",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a3a/211e/68c8/slideshow/habitacao-aurea-stere_12.jpg?1728992988",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a3a211e68c8-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a3a/211e/68c8/slideshow/habitacao-aurea-stere_12.jpg?1728992988",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3ae9/slideshow/habitacao-aurea-stere_8.jpg?1728992962",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff7341e91e3ae9-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3ae9/slideshow/habitacao-aurea-stere_8.jpg?1728992962",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7341/e91e/3ae7/slideshow/habitacao-aurea-stere_9.jpg?1728992973",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569cc4ff7341e91e3ae7-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7341/e91e/3ae7/slideshow/habitacao-aurea-stere_9.jpg?1728992973",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3aea/slideshow/habitacao-aurea-stere_14.jpg?1728992974",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff7341e91e3aea-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3aea/slideshow/habitacao-aurea-stere_14.jpg?1728992974",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7337/e7c6/716f/slideshow/habitacao-aurea-stere_22.jpg?1728992977",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569dc4ff7337e7c6716f-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7337/e7c6/716f/slideshow/habitacao-aurea-stere_22.jpg?1728992977",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569a/99d0/3a2e/cd7a/60cb/slideshow/habitacao-aurea-stere_11.jpg?1728992943",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569a99d03a2ecd7a60cb-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569a/99d0/3a2e/cd7a/60cb/slideshow/habitacao-aurea-stere_11.jpg?1728992943",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5696/99d0/3a2e/cd7a/60c5/slideshow/habitacao-aurea-stere_25.jpg?1728992931",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569699d03a2ecd7a60c5-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5696/99d0/3a2e/cd7a/60c5/slideshow/habitacao-aurea-stere_25.jpg?1728992931",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60ce/slideshow/habitacao-aurea-stere_16.jpg?1728992972",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a2ecd7a60ce-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60ce/slideshow/habitacao-aurea-stere_16.jpg?1728992972",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5699/c4ff/7341/e91e/3ae6/slideshow/habitacao-aurea-stere_7.jpg?1728992944",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e5699c4ff7341e91e3ae6-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5699/c4ff/7341/e91e/3ae6/slideshow/habitacao-aurea-stere_7.jpg?1728992944",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7341/e91e/3ae8/slideshow/habitacao-aurea-stere_15.jpg?1728992969",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569dc4ff7341e91e3ae8-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7341/e91e/3ae8/slideshow/habitacao-aurea-stere_15.jpg?1728992969",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a3a/6c1e/68c6/slideshow/habitacao-aurea-stere_1.jpg?1728992968",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569c99d03a3a6c1e68c6-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a3a/6c1e/68c6/slideshow/habitacao-aurea-stere_1.jpg?1728992968",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a3a/211e/68c6/slideshow/habitacao-aurea-stere_5.jpg?1728992962",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569c99d03a3a211e68c6-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a3a/211e/68c6/slideshow/habitacao-aurea-stere_5.jpg?1728992962",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60cf/slideshow/habitacao-aurea-stere_6.jpg?1728992988",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a2ecd7a60cf-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60cf/slideshow/habitacao-aurea-stere_6.jpg?1728992988",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60cd/slideshow/habitacao-aurea-stere_10.jpg?1728992958",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a2ecd7a60cd-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a2e/cd7a/60cd/slideshow/habitacao-aurea-stere_10.jpg?1728992958",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5696/99d0/3a2e/cd7a/60c6/slideshow/habitacao-aurea-stere_3.jpg?1728992935",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569699d03a2ecd7a60c6-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5696/99d0/3a2e/cd7a/60c6/slideshow/habitacao-aurea-stere_3.jpg?1728992935",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a2e/cd7a/60cc/slideshow/habitacao-aurea-stere_13.jpg?1728992959",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569c99d03a2ecd7a60cc-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569c/99d0/3a2e/cd7a/60cc/slideshow/habitacao-aurea-stere_13.jpg?1728992959",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7337/e7c6/716e/slideshow/habitacao-aurea-stere_18.jpg?1728992958",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569cc4ff7337e7c6716e-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7337/e7c6/716e/slideshow/habitacao-aurea-stere_18.jpg?1728992958",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5698/99d0/3a2e/cd7a/60c9/slideshow/habitacao-aurea-stere_2.jpg?1728992940",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569899d03a2ecd7a60c9-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5698/99d0/3a2e/cd7a/60c9/slideshow/habitacao-aurea-stere_2.jpg?1728992940",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5699/c4ff/7341/e91e/3ae5/slideshow/habitacao-aurea-stere_20.jpg?1728992955",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e5699c4ff7341e91e3ae5-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5699/c4ff/7341/e91e/3ae5/slideshow/habitacao-aurea-stere_20.jpg?1728992955",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7337/e7c6/716d/slideshow/habitacao-aurea-stere_21.jpg?1728992955",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569cc4ff7337e7c6716d-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569c/c4ff/7337/e7c6/716d/slideshow/habitacao-aurea-stere_21.jpg?1728992955",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7337/e7c6/7170/slideshow/habitacao-aurea-stere_24.jpg?1728992943",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569dc4ff7337e7c67170-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569d/c4ff/7337/e7c6/7170/slideshow/habitacao-aurea-stere_24.jpg?1728992943",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a3a/211e/68c7/slideshow/habitacao-aurea-stere_17.jpg?1728992973",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569d99d03a3a211e68c7-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569d/99d0/3a3a/211e/68c7/slideshow/habitacao-aurea-stere_17.jpg?1728992973",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5697/99d0/3a2e/cd7a/60c8/slideshow/habitacao-aurea-stere_23.jpg?1728992945",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569799d03a2ecd7a60c8-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5697/99d0/3a2e/cd7a/60c8/slideshow/habitacao-aurea-stere_23.jpg?1728992945",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/5699/99d0/3a2e/cd7a/60ca/slideshow/habitacao-aurea-stere_4.jpg?1728992941",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569999d03a2ecd7a60ca-aurea-housing-stere-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/5699/99d0/3a2e/cd7a/60ca/slideshow/habitacao-aurea-stere_4.jpg?1728992941",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d3/slideshow/planta-1-6.jpg?1728992944",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d3-aurea-housing-stere-plan-basement?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d3/slideshow/planta-1-6.jpg?1728992944",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d1/slideshow/planta-terreo-7.jpg?1728992979",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d1-aurea-housing-stere-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d1/slideshow/planta-terreo-7.jpg?1728992979",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3aeb/slideshow/planta-de-cobertura-1.jpg?1728992936",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff7341e91e3aeb-aurea-housing-stere-plan-roof?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/7341/e91e/3aeb/slideshow/planta-de-cobertura-1.jpg?1728992936",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d0/slideshow/cortes-3.jpg?1728992949",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d0-aurea-housing-stere-sections?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d0/slideshow/cortes-3.jpg?1728992949",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/733b/b6f8/dbb8/slideshow/cortes-2-2.jpg?1728992986",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569ec4ff733bb6f8dbb8-aurea-housing-stere-sections?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/c4ff/733b/b6f8/dbb8/slideshow/cortes-2-2.jpg?1728992986",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a3a/211e/68c9/slideshow/alcados-2-4.jpg?1728993002",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a3a211e68c9-aurea-housing-stere-elevations?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a3a/211e/68c9/slideshow/alcados-2-4.jpg?1728993002",
   },
   {
-    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d2/slideshow/alcados-5.jpg?1728992977",
     url: "https://www.archdaily.com/1022373/aurea-housing-stere/670e569e99d03a2ecd7a60d2-aurea-housing-stere-elevations?next_project=no",
+    src: "https://images.adsttc.com/media/images/670e/569e/99d0/3a2e/cd7a/60d2/slideshow/alcados-5.jpg?1728992977",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d414/slideshow/downland-barns-1.jpg?1728394583",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd414-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d414/slideshow/downland-barns-1.jpg?1728394583",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d413/slideshow/Downland_Barns_Resized_13.jpg?1728394602",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd413-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d413/slideshow/Downland_Barns_Resized_13.jpg?1728394602",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40d/slideshow/Downland_Barns_Resized_9.2.jpg?1728394564",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40d-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40d/slideshow/Downland_Barns_Resized_9.2.jpg?1728394564",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d416/slideshow/downland-barns-5.jpg?1728394612",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd416-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d416/slideshow/downland-barns-5.jpg?1728394612",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40a/slideshow/Downland_Barns_Resized_7.1.jpg?1728394589",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40a-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40a/slideshow/Downland_Barns_Resized_7.1.jpg?1728394589",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d412/slideshow/Downland_Barns_Resized_12.jpg?1728394678",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd412-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d412/slideshow/Downland_Barns_Resized_12.jpg?1728394678",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3523/033a/3600/015d/d404/slideshow/Downland_Barns_Resized_2.jpg?1728394563",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053523033a3600015dd404-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3523/033a/3600/015d/d404/slideshow/Downland_Barns_Resized_2.jpg?1728394563",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3522/033a/3600/015d/d402/slideshow/Downland_Barns_Resized_4.1.jpg?1728394564",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053522033a3600015dd402-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3522/033a/3600/015d/d402/slideshow/Downland_Barns_Resized_4.1.jpg?1728394564",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d415/slideshow/downland-barns-3.jpg?1728394640",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd415-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d415/slideshow/downland-barns-3.jpg?1728394640",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3524/033a/3600/015d/d406/slideshow/Downland_Barns_Resized_4.3.jpg?1728394569",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053524033a3600015dd406-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3524/033a/3600/015d/d406/slideshow/Downland_Barns_Resized_4.3.jpg?1728394569",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40b/slideshow/Downland_Barns_Resized_7.2.jpg?1728394620",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40b-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40b/slideshow/Downland_Barns_Resized_7.2.jpg?1728394620",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3524/033a/3600/015d/d407/slideshow/Downland_Barns_Resized_6.1.jpg?1728394594",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053524033a3600015dd407-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3524/033a/3600/015d/d407/slideshow/Downland_Barns_Resized_6.1.jpg?1728394594",
   },
   {
-    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40c/slideshow/Downland_Barns_Resized_9.1.jpg?1728394620",
     url: "https://www.archdaily.com/1022086/downland-barns-mclean-quinlan/67053525033a3600015dd40c-downland-barns-mclean-quinlan-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/6705/3525/033a/3600/015d/d40c/slideshow/Downland_Barns_Resized_9.1.jpg?1728394620",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/73ee/96de/ff2e/1b82/b14b/slideshow/skagen-klitgard-pax-architects_2.jpg?1696363523",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73ee96deff2e1b82b14b-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/73ee/96de/ff2e/1b82/b14b/slideshow/skagen-klitgard-pax-architects_2.jpg?1696363523",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/73f0/96de/ff2e/1b82/b14c/slideshow/skagen-klitgard-pax-architects_1.jpg?1696363519",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73f096deff2e1b82b14c-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/73f0/96de/ff2e/1b82/b14c/slideshow/skagen-klitgard-pax-architects_1.jpg?1696363519",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/73fe/96de/ff2e/1b82/b150/slideshow/skagen-klitgard-pax-architects_3.jpg?1696363545",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73fe96deff2e1b82b150-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/73fe/96de/ff2e/1b82/b150/slideshow/skagen-klitgard-pax-architects_3.jpg?1696363545",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7419/96de/ff2e/1b82/b156/slideshow/skagen-klitgard-pax-architects_9.jpg?1696363564",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c741996deff2e1b82b156-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7419/96de/ff2e/1b82/b156/slideshow/skagen-klitgard-pax-architects_9.jpg?1696363564",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/740a/96de/ff2e/1b82/b154/slideshow/skagen-klitgard-pax-architects_15.jpg?1696363555",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c740a96deff2e1b82b154-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/740a/96de/ff2e/1b82/b154/slideshow/skagen-klitgard-pax-architects_15.jpg?1696363555",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/73ff/6fa7/bc01/7c8b/9883/slideshow/skagen-klitgard-pax-architects_8.jpg?1696363538",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73ff6fa7bc017c8b9883-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/73ff/6fa7/bc01/7c8b/9883/slideshow/skagen-klitgard-pax-architects_8.jpg?1696363538",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/742b/96de/ff2e/1b82/b15b/slideshow/skagen-klitgard-pax-architects_24.jpg?1696363579",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c742b96deff2e1b82b15b-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/742b/96de/ff2e/1b82/b15b/slideshow/skagen-klitgard-pax-architects_24.jpg?1696363579",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff34/e9b2/c13f/slideshow/skagen-klitgard-pax-architects_27.jpg?1696363603",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c743796deff34e9b2c13f-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff34/e9b2/c13f/slideshow/skagen-klitgard-pax-architects_27.jpg?1696363603",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7433/6fa7/bc01/7c8b/9888/slideshow/skagen-klitgard-pax-architects_29.jpg?1696363596",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74336fa7bc017c8b9888-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7433/6fa7/bc01/7c8b/9888/slideshow/skagen-klitgard-pax-architects_29.jpg?1696363596",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7405/6fa7/bc01/7c8b/9884/slideshow/skagen-klitgard-pax-architects_5.jpg?1696363556",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74056fa7bc017c8b9884-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7405/6fa7/bc01/7c8b/9884/slideshow/skagen-klitgard-pax-architects_5.jpg?1696363556",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7407/96de/ff2e/1b82/b153/slideshow/skagen-klitgard-pax-architects_6.jpg?1696363560",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c740796deff2e1b82b153-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7407/96de/ff2e/1b82/b153/slideshow/skagen-klitgard-pax-architects_6.jpg?1696363560",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/73fa/96de/ff34/e9b2/c13e/slideshow/skagen-klitgard-pax-architects_4.jpg?1696363545",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73fa96deff34e9b2c13e-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/73fa/96de/ff34/e9b2/c13e/slideshow/skagen-klitgard-pax-architects_4.jpg?1696363545",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7440/96de/ff2e/1b82/b163/slideshow/skagen-klitgard-pax-architects_28.jpg?1696363603",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c744096deff2e1b82b163-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7440/96de/ff2e/1b82/b163/slideshow/skagen-klitgard-pax-architects_28.jpg?1696363603",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7405/6fa7/bc01/7c8b/9885/slideshow/skagen-klitgard-pax-architects_11.jpg?1696363555",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74056fa7bc017c8b9885-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7405/6fa7/bc01/7c8b/9885/slideshow/skagen-klitgard-pax-architects_11.jpg?1696363555",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7412/96de/ff2e/1b82/b155/slideshow/skagen-klitgard-pax-architects_18.jpg?1696363562",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c741296deff2e1b82b155-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7412/96de/ff2e/1b82/b155/slideshow/skagen-klitgard-pax-architects_18.jpg?1696363562",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7428/6fa7/bc01/7c8b/9887/slideshow/skagen-klitgard-pax-architects_16.jpg?1696363580",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74286fa7bc017c8b9887-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7428/6fa7/bc01/7c8b/9887/slideshow/skagen-klitgard-pax-architects_16.jpg?1696363580",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7400/96de/ff2e/1b82/b151/slideshow/skagen-klitgard-pax-architects_20.jpg?1696363536",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c740096deff2e1b82b151-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7400/96de/ff2e/1b82/b151/slideshow/skagen-klitgard-pax-architects_20.jpg?1696363536",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/742e/96de/ff2e/1b82/b15c/slideshow/skagen-klitgard-pax-architects_17.jpg?1696363588",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c742e96deff2e1b82b15c-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/742e/96de/ff2e/1b82/b15c/slideshow/skagen-klitgard-pax-architects_17.jpg?1696363588",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/73ed/6fa7/bc01/7c8b/9882/slideshow/skagen-klitgard-pax-architects_13.jpg?1696363519",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c73ed6fa7bc017c8b9882-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/73ed/6fa7/bc01/7c8b/9882/slideshow/skagen-klitgard-pax-architects_13.jpg?1696363519",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7428/96de/ff2e/1b82/b15a/slideshow/skagen-klitgard-pax-architects_14.jpg?1696363590",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c742896deff2e1b82b15a-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7428/96de/ff2e/1b82/b15a/slideshow/skagen-klitgard-pax-architects_14.jpg?1696363590",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7420/6fa7/bc01/7c8b/9886/slideshow/skagen-klitgard-pax-architects_21.jpg?1696363575",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c74206fa7bc017c8b9886-skagen-klitgard-house-pax-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7420/6fa7/bc01/7c8b/9886/slideshow/skagen-klitgard-pax-architects_21.jpg?1696363575",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff2e/1b82/b162/slideshow/plan-00-klitgaard-skagen-pax-architects-1.jpg?1696363606",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c743796deff2e1b82b162-skagen-klitgard-house-pax-architects-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff2e/1b82/b162/slideshow/plan-00-klitgaard-skagen-pax-architects-1.jpg?1696363606",
   },
   {
-    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff2e/1b82/b160/slideshow/plan-01-klitgaard-skagen-pax-architects-2.jpg?1696363603",
     url: "https://www.archdaily.com/1007741/skagen-klitgard-house-pax-architects/651c743796deff2e1b82b160-skagen-klitgard-house-pax-architects-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/651c/7437/96de/ff2e/1b82/b160/slideshow/plan-01-klitgaard-skagen-pax-architects-2.jpg?1696363603",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f638/2684/7b75/3468/84dd/slideshow/westbrook-residence-alterstudio-architecture_14.jpg?1727460936",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63826847b75346884dd-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f638/2684/7b75/3468/84dd/slideshow/westbrook-residence-alterstudio-architecture_14.jpg?1727460936",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f637/4003/1857/e593/580d/slideshow/westbrook-residence-alterstudio-architecture_2.jpg?1727460958",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63740031857e593580d-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f637/4003/1857/e593/580d/slideshow/westbrook-residence-alterstudio-architecture_2.jpg?1727460958",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f631/4003/183d/fdb3/74da/slideshow/westbrook-residence-alterstudio-architecture_5.jpg?1727460922",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6314003183dfdb374da-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f631/4003/183d/fdb3/74da/slideshow/westbrook-residence-alterstudio-architecture_5.jpg?1727460922",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f639/2684/7b75/3468/84de/slideshow/westbrook-residence-alterstudio-architecture_13.jpg?1727460930",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63926847b75346884de-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f639/2684/7b75/3468/84de/slideshow/westbrook-residence-alterstudio-architecture_13.jpg?1727460930",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f63a/2684/7b75/3468/84df/slideshow/westbrook-residence-alterstudio-architecture_12.jpg?1727460930",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63a26847b75346884df-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f63a/2684/7b75/3468/84df/slideshow/westbrook-residence-alterstudio-architecture_12.jpg?1727460930",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f632/2684/7b75/3468/84da/slideshow/westbrook-residence-alterstudio-architecture_1.jpg?1727460923",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63226847b75346884da-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f632/2684/7b75/3468/84da/slideshow/westbrook-residence-alterstudio-architecture_1.jpg?1727460923",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f636/4003/183d/fdb3/74dd/slideshow/westbrook-residence-alterstudio-architecture_9.jpg?1727460940",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6364003183dfdb374dd-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f636/4003/183d/fdb3/74dd/slideshow/westbrook-residence-alterstudio-architecture_9.jpg?1727460940",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f637/4003/183d/fdb3/74de/slideshow/westbrook-residence-alterstudio-architecture_10.jpg?1727460927",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6374003183dfdb374de-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f637/4003/183d/fdb3/74de/slideshow/westbrook-residence-alterstudio-architecture_10.jpg?1727460927",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f637/2684/7b75/3468/84dc/slideshow/westbrook-residence-alterstudio-architecture_7.jpg?1727460941",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63726847b75346884dc-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f637/2684/7b75/3468/84dc/slideshow/westbrook-residence-alterstudio-architecture_7.jpg?1727460941",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f636/2684/7b75/3468/84db/slideshow/westbrook-residence-alterstudio-architecture_11.jpg?1727460925",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63626847b75346884db-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f636/2684/7b75/3468/84db/slideshow/westbrook-residence-alterstudio-architecture_11.jpg?1727460925",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f633/4003/183d/fdb3/74db/slideshow/westbrook-residence-alterstudio-architecture_6.jpg?1727460922",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6334003183dfdb374db-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f633/4003/183d/fdb3/74db/slideshow/westbrook-residence-alterstudio-architecture_6.jpg?1727460922",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f631/4003/183d/fdb3/74d9/slideshow/westbrook-residence-alterstudio-architecture_3.jpg?1727460920",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6314003183dfdb374d9-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f631/4003/183d/fdb3/74d9/slideshow/westbrook-residence-alterstudio-architecture_3.jpg?1727460920",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f630/4003/183d/fdb3/74d8/slideshow/westbrook-residence-alterstudio-architecture_4.jpg?1727460919",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6304003183dfdb374d8-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f630/4003/183d/fdb3/74d8/slideshow/westbrook-residence-alterstudio-architecture_4.jpg?1727460919",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f634/4003/183d/fdb3/74dc/slideshow/westbrook-residence-alterstudio-architecture_8.jpg?1727460923",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6344003183dfdb374dc-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f634/4003/183d/fdb3/74dc/slideshow/westbrook-residence-alterstudio-architecture_8.jpg?1727460923",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f63b/2684/7b75/3468/84e0/slideshow/02-westbrook-axondiagram-2.jpg?1727460958",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63b26847b75346884e0-westbrook-residence-alterstudio-architecture-axonometric-diagram?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f63b/2684/7b75/3468/84e0/slideshow/02-westbrook-axondiagram-2.jpg?1727460958",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f641/4003/183d/fdb3/74df/slideshow/01-westbrook-siteplan-1.jpg?1727460981",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6414003183dfdb374df-westbrook-residence-alterstudio-architecture-site-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f641/4003/183d/fdb3/74df/slideshow/01-westbrook-siteplan-1.jpg?1727460981",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f63c/2684/7b75/3468/84e1/slideshow/03-westbrook-floorplans-3.jpg?1727460972",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63c26847b75346884e1-westbrook-residence-alterstudio-architecture-floor-plans?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f63c/2684/7b75/3468/84e1/slideshow/03-westbrook-floorplans-3.jpg?1727460972",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f6/f643/4003/183d/fdb3/74e0/slideshow/04-westbrook-sections-4.jpg?1727460987",
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6434003183dfdb374e0-westbrook-residence-alterstudio-architecture-sections?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f6/f643/4003/183d/fdb3/74e0/slideshow/04-westbrook-sections-4.jpg?1727460987",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef1d/3b5b/d500/010b/fea7/slideshow/B3_-_The_Warren_01.jpg?1727196971",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1d3b5bd500010bfea7-the-warren-house-plotnonplot-architecture-inc-photo",
+    src: "https://images.adsttc.com/media/images/66f2/ef1d/3b5b/d500/010b/fea7/slideshow/B3_-_The_Warren_01.jpg?1727196971",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb2/slideshow/B3_-_The_Warren_11.jpg?1727197022",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb2-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb2/slideshow/B3_-_The_Warren_11.jpg?1727197022",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb7/slideshow/F2_-_The_Warren_04.jpg?1727197008",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb7-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb7/slideshow/F2_-_The_Warren_04.jpg?1727197008",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef1e/3b5b/d500/010b/feac/slideshow/B3_-_The_Warren_06.jpg?1727196976",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1e3b5bd500010bfeac-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef1e/3b5b/d500/010b/feac/slideshow/B3_-_The_Warren_06.jpg?1727196976",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb3/slideshow/B3_-_The_Warren_12.jpg?1727197017",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb3-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb3/slideshow/B3_-_The_Warren_12.jpg?1727197017",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb6/slideshow/F2_-_The_Warren_02.jpg?1727197035",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb6-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb6/slideshow/F2_-_The_Warren_02.jpg?1727197035",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef1d/3b5b/d500/010b/fea9/slideshow/B3_-_The_Warren_02.jpg?1727196979",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1d3b5bd500010bfea9-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef1d/3b5b/d500/010b/fea9/slideshow/B3_-_The_Warren_02.jpg?1727196979",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/febb/slideshow/F2_-_The_Warren_08.jpg?1727197048",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfebb-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/febb/slideshow/F2_-_The_Warren_08.jpg?1727197048",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef1e/3b5b/d500/010b/feae/slideshow/B3_-_The_Warren_08.jpg?1727196981",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef1e3b5bd500010bfeae-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef1e/3b5b/d500/010b/feae/slideshow/B3_-_The_Warren_08.jpg?1727196981",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb5/slideshow/E8b_-_The_Warren_07.jpg?1727197040",
     url: "https://www.archdaily.com/1021580/the-warren-house-plotnonplot-architecture-inc/66f2ef203b5bd500010bfeb5-the-warren-house-plotnonplot-architecture-inc-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f2/ef20/3b5b/d500/010b/feb5/slideshow/E8b_-_The_Warren_07.jpg?1727197040",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a265/2684/7b79/fc33/80cc/slideshow/west-seattle-chalet-shed-architecture-and-design_1.jpg?1726849726",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26526847b79fc3380cc-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a265/2684/7b79/fc33/80cc/slideshow/west-seattle-chalet-shed-architecture-and-design_1.jpg?1726849726",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a291/2684/7b79/fc33/80d9/slideshow/west-seattle-chalet-shed-architecture-and-design_13.jpg?1726849765",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda29126847b79fc3380d9-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a291/2684/7b79/fc33/80d9/slideshow/west-seattle-chalet-shed-architecture-and-design_13.jpg?1726849765",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a27b/2684/7b79/fc33/80d4/slideshow/west-seattle-chalet-shed-architecture-and-design_8.jpg?1726849746",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda27b26847b79fc3380d4-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a27b/2684/7b79/fc33/80d4/slideshow/west-seattle-chalet-shed-architecture-and-design_8.jpg?1726849746",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a2a5/2684/7b79/fc33/80dd/slideshow/west-seattle-chalet-shed-architecture-and-design_15.jpg?1726849803",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a526847b79fc3380dd-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a2a5/2684/7b79/fc33/80dd/slideshow/west-seattle-chalet-shed-architecture-and-design_15.jpg?1726849803",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a2aa/2684/7b79/fc33/80e1/slideshow/west-seattle-chalet-shed-architecture-and-design_21.jpg?1726849788",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2aa26847b79fc3380e1-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a2aa/2684/7b79/fc33/80e1/slideshow/west-seattle-chalet-shed-architecture-and-design_21.jpg?1726849788",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a2a6/2684/7b79/fc33/80de/slideshow/west-seattle-chalet-shed-architecture-and-design_22.jpg?1726849793",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a626847b79fc3380de-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a2a6/2684/7b79/fc33/80de/slideshow/west-seattle-chalet-shed-architecture-and-design_22.jpg?1726849793",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a278/2684/7b79/fc33/80d3/slideshow/west-seattle-chalet-shed-architecture-and-design_7.jpg?1726849746",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda27826847b79fc3380d3-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a278/2684/7b79/fc33/80d3/slideshow/west-seattle-chalet-shed-architecture-and-design_7.jpg?1726849746",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a28f/2684/7b79/fc33/80d8/slideshow/west-seattle-chalet-shed-architecture-and-design_10.jpg?1726849773",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda28f26847b79fc3380d8-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a28f/2684/7b79/fc33/80d8/slideshow/west-seattle-chalet-shed-architecture-and-design_10.jpg?1726849773",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a2a7/2684/7b79/fc33/80df/slideshow/west-seattle-chalet-shed-architecture-and-design_17.jpg?1726849788",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a726847b79fc3380df-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a2a7/2684/7b79/fc33/80df/slideshow/west-seattle-chalet-shed-architecture-and-design_17.jpg?1726849788",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a2a1/2684/7b79/fc33/80dc/slideshow/west-seattle-chalet-shed-architecture-and-design_19.jpg?1726849776",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a126847b79fc3380dc-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a2a1/2684/7b79/fc33/80dc/slideshow/west-seattle-chalet-shed-architecture-and-design_19.jpg?1726849776",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a265/09c8/2c74/d7ca/beb8/slideshow/west-seattle-chalet-shed-architecture-and-design_2.jpg?1726849764",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26509c82c74d7cabeb8-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a265/09c8/2c74/d7ca/beb8/slideshow/west-seattle-chalet-shed-architecture-and-design_2.jpg?1726849764",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a2a9/2684/7b79/fc33/80e0/slideshow/west-seattle-chalet-shed-architecture-and-design_20.jpg?1726849780",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda2a926847b79fc3380e0-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a2a9/2684/7b79/fc33/80e0/slideshow/west-seattle-chalet-shed-architecture-and-design_20.jpg?1726849780",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a265/2684/7b79/fc33/80cb/slideshow/west-seattle-chalet-shed-architecture-and-design_3.jpg?1726849703",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26526847b79fc3380cb-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a265/2684/7b79/fc33/80cb/slideshow/west-seattle-chalet-shed-architecture-and-design_3.jpg?1726849703",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a267/2684/7b79/fc33/80cd/slideshow/west-seattle-chalet-shed-architecture-and-design_5.jpg?1726849737",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda26726847b79fc3380cd-west-seattle-chalet-shed-architecture-and-design-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a267/2684/7b79/fc33/80cd/slideshow/west-seattle-chalet-shed-architecture-and-design_5.jpg?1726849737",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a24e/2684/7b79/fc33/80c1/slideshow/di-tommaso-marketing-site-plan-2.jpg?1726849694",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda24e26847b79fc3380c1-west-seattle-chalet-shed-architecture-and-design-plan-site?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a24e/2684/7b79/fc33/80c1/slideshow/di-tommaso-marketing-site-plan-2.jpg?1726849694",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a24c/2684/7b79/fc33/80c0/slideshow/di-tommaso-marketing-plans-1.jpg?1726849698",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda24c26847b79fc3380c0-west-seattle-chalet-shed-architecture-and-design-plans?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a24c/2684/7b79/fc33/80c0/slideshow/di-tommaso-marketing-plans-1.jpg?1726849698",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ed/a24f/2684/7b79/fc33/80c2/slideshow/perspective-ditomasso-3.jpg?1726849663",
     url: "https://www.archdaily.com/1021450/west-seattle-chalet-shed-architecture-and-design/66eda24f26847b79fc3380c2-west-seattle-chalet-shed-architecture-and-design-perspective-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ed/a24f/2684/7b79/fc33/80c2/slideshow/perspective-ditomasso-3.jpg?1726849663",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65e/3b5b/d500/010b/fd35/slideshow/01-Ben-Hudson-Architects-Lake-House-pared-back-contemporary.jpg?1727116962",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65e3b5bd500010bfd35-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65e/3b5b/d500/010b/fd35/slideshow/01-Ben-Hudson-Architects-Lake-House-pared-back-contemporary.jpg?1727116962",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd42/slideshow/031-Ben-Hudson-Architects-Lake-House-lakeside-terrace.jpg?1727117261",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd42-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd42/slideshow/031-Ben-Hudson-Architects-Lake-House-lakeside-terrace.jpg?1727117261",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3a/slideshow/010-Ben-Hudson-Architects-Lake-House-kitchen-dining.jpg?1727116964",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3a-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3a/slideshow/010-Ben-Hudson-Architects-Lake-House-kitchen-dining.jpg?1727116964",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd39/slideshow/07-Ben-Hudson-Architects-Lake-House-indoor-fire.jpg?1727116957",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd39-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd39/slideshow/07-Ben-Hudson-Architects-Lake-House-indoor-fire.jpg?1727116957",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65e/3b5b/d500/010b/fd34/slideshow/03-Ben-Hudson-Architects-Lake-House-lakeside-living.jpg?1727116955",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65e3b5bd500010bfd34-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65e/3b5b/d500/010b/fd34/slideshow/03-Ben-Hudson-Architects-Lake-House-lakeside-living.jpg?1727116955",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd44/slideshow/046-Ben-Hudson-Architects-Lake-House-modern-mountain-living.jpg?1727117139",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd44-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd44/slideshow/046-Ben-Hudson-Architects-Lake-House-modern-mountain-living.jpg?1727117139",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd43/slideshow/035-Ben-Hudson-Architects-Lake-House-morning-sun-terrace.jpg?1727117074",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd43-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd43/slideshow/035-Ben-Hudson-Architects-Lake-House-morning-sun-terrace.jpg?1727117074",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd38/slideshow/09-Ben-Hudson-Architects-Lake-House-lakeside-dining.jpg?1727116964",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd38-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd38/slideshow/09-Ben-Hudson-Architects-Lake-House-lakeside-dining.jpg?1727116964",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3e/slideshow/020-Ben-Hudson-Architects-Lake-House-modern-kitchen.jpg?1727116956",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3e-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3e/slideshow/020-Ben-Hudson-Architects-Lake-House-modern-kitchen.jpg?1727116956",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3d/slideshow/019-Ben-Hudson-Architects-Lake-House-indoor-outdoor-kitchen.jpg?1727116962",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3d-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3d/slideshow/019-Ben-Hudson-Architects-Lake-House-indoor-outdoor-kitchen.jpg?1727116962",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3f/slideshow/030-Ben-Hudson-Architects-Lake-House-kids-bedroom-1.jpg?1727117024",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd3f-lake-hayes-house-ben-hudson-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd3f/slideshow/030-Ben-Hudson-Architects-Lake-House-kids-bedroom-1.jpg?1727117024",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd49/slideshow/Ben-Hudson-Architects-Lake-House-site.jpg?1727116969",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd49-lake-hayes-house-ben-hudson-architects-plan-site?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd49/slideshow/Ben-Hudson-Architects-Lake-House-site.jpg?1727116969",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd4a/slideshow/Ben-Hudson-Architects-Lake-House-sketch-concept-floor-plan.jpg?1727116903",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd4a-lake-hayes-house-ben-hudson-architects-plan-upper-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd4a/slideshow/Ben-Hudson-Architects-Lake-House-sketch-concept-floor-plan.jpg?1727116903",
   },
   {
-    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd48/slideshow/Ben-Hudson-Architects-Lake-House-floor-plan.jpg?1727116909",
     url: "https://www.archdaily.com/1021538/lake-hayes-house-ben-hudson-architects/66f1b65f3b5bd500010bfd48-lake-hayes-house-ben-hudson-architects-plans-furniture?next_project=no",
+    src: "https://images.adsttc.com/media/images/66f1/b65f/3b5b/d500/010b/fd48/slideshow/Ben-Hudson-Architects-Lake-House-floor-plan.jpg?1727116909",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcc7/77c5/e143/2c9c/5ac5/slideshow/casa-itanhanga-bo_1.jpg?1726610676",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc777c5e1432c9c5ac5-itanhanga-house-bo-photo",
+    src: "https://images.adsttc.com/media/images/66e9/fcc7/77c5/e143/2c9c/5ac5/slideshow/casa-itanhanga-bo_1.jpg?1726610676",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccb/3840/893d/a311/a914/slideshow/casa-itanhanga-bo_26.jpg?1726610700",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccb3840893da311a914-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccb/3840/893d/a311/a914/slideshow/casa-itanhanga-bo_26.jpg?1726610700",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccc/3840/8901/7c95/78b0/slideshow/casa-itanhanga-bo_20.jpg?1726610657",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccc384089017c9578b0-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccc/3840/8901/7c95/78b0/slideshow/casa-itanhanga-bo_20.jpg?1726610657",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcc7/3840/8901/7c95/78ab/slideshow/casa-itanhanga-bo_3.jpg?1726610650",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc7384089017c9578ab-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcc7/3840/8901/7c95/78ab/slideshow/casa-itanhanga-bo_3.jpg?1726610650",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcd0/77c5/e143/2c9c/5ad0/slideshow/casa-itanhanga-bo_29.jpg?1726610763",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcd077c5e1432c9c5ad0-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcd0/77c5/e143/2c9c/5ad0/slideshow/casa-itanhanga-bo_29.jpg?1726610763",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e148/a250/2967/slideshow/casa-itanhanga-bo_4.jpg?1726610650",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e148a2502967-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e148/a250/2967/slideshow/casa-itanhanga-bo_4.jpg?1726610650",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcc9/77c5/e143/2c9c/5ac8/slideshow/casa-itanhanga-bo_27.jpg?1726610650",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc977c5e1432c9c5ac8-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcc9/77c5/e143/2c9c/5ac8/slideshow/casa-itanhanga-bo_27.jpg?1726610650",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78ad/slideshow/casa-itanhanga-bo_24.jpg?1726610666",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca384089017c9578ad-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78ad/slideshow/casa-itanhanga-bo_24.jpg?1726610666",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccd/77c5/e148/db50/2967/slideshow/casa-itanhanga-bo_31.jpg?1726610672",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccd77c5e148db502967-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccd/77c5/e148/db50/2967/slideshow/casa-itanhanga-bo_31.jpg?1726610672",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e143/2c9c/5aca/slideshow/casa-itanhanga-bo_28.jpg?1726610669",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e1432c9c5aca-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e143/2c9c/5aca/slideshow/casa-itanhanga-bo_28.jpg?1726610669",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcc8/77c5/e148/a250/2966/slideshow/casa-itanhanga-bo_2.jpg?1726610649",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc877c5e148a2502966-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcc8/77c5/e148/a250/2966/slideshow/casa-itanhanga-bo_2.jpg?1726610649",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e148/a250/2968/slideshow/casa-itanhanga-bo_15.jpg?1726610672",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce77c5e148a2502968-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e148/a250/2968/slideshow/casa-itanhanga-bo_15.jpg?1726610672",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccc/77c5/e143/2c9c/5acb/slideshow/casa-itanhanga-bo_25.jpg?1726610729",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccc77c5e1432c9c5acb-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccc/77c5/e143/2c9c/5acb/slideshow/casa-itanhanga-bo_25.jpg?1726610729",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b2/slideshow/casa-itanhanga-bo_32.jpg?1726610702",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce384089017c9578b2-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b2/slideshow/casa-itanhanga-bo_32.jpg?1726610702",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcc9/77c5/e143/2c9c/5ac7/slideshow/casa-itanhanga-bo_6.jpg?1726610679",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc977c5e1432c9c5ac7-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcc9/77c5/e143/2c9c/5ac7/slideshow/casa-itanhanga-bo_6.jpg?1726610679",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccc/3840/893d/a311/a915/slideshow/casa-itanhanga-bo_14.jpg?1726610758",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccc3840893da311a915-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccc/3840/893d/a311/a915/slideshow/casa-itanhanga-bo_14.jpg?1726610758",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78ae/slideshow/casa-itanhanga-bo_5.jpg?1726610650",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca384089017c9578ae-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78ae/slideshow/casa-itanhanga-bo_5.jpg?1726610650",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e143/2c9c/5ac9/slideshow/casa-itanhanga-bo_19.jpg?1726610681",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e1432c9c5ac9-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e143/2c9c/5ac9/slideshow/casa-itanhanga-bo_19.jpg?1726610681",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e148/db50/2966/slideshow/casa-itanhanga-bo_21.jpg?1726610650",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca77c5e148db502966-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcca/77c5/e148/db50/2966/slideshow/casa-itanhanga-bo_21.jpg?1726610650",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b1/slideshow/casa-itanhanga-bo_22.jpg?1726610787",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce384089017c9578b1-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b1/slideshow/casa-itanhanga-bo_22.jpg?1726610787",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e148/a250/296a/slideshow/casa-itanhanga-bo_17.jpg?1726610701",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce77c5e148a250296a-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e148/a250/296a/slideshow/casa-itanhanga-bo_17.jpg?1726610701",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78af/slideshow/casa-itanhanga-bo_16.jpg?1726610671",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcca384089017c9578af-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcca/3840/8901/7c95/78af/slideshow/casa-itanhanga-bo_16.jpg?1726610671",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcc9/3840/893d/a311/a913/slideshow/casa-itanhanga-bo_11.jpg?1726610664",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc93840893da311a913-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcc9/3840/893d/a311/a913/slideshow/casa-itanhanga-bo_11.jpg?1726610664",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcc8/3840/8901/7c95/78ac/slideshow/casa-itanhanga-bo_12.jpg?1726610664",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcc8384089017c9578ac-itanhanga-house-bo-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcc8/3840/8901/7c95/78ac/slideshow/casa-itanhanga-bo_12.jpg?1726610664",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccf/3840/8901/7c95/78b5/slideshow/plantalocalizacao-9.jpg?1726610832",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf384089017c9578b5-itanhanga-house-bo-plan-site?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccf/3840/8901/7c95/78b5/slideshow/plantalocalizacao-9.jpg?1726610832",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e143/2c9c/5acf/slideshow/plantasetorizada-10.jpg?1726610849",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf77c5e1432c9c5acf-itanhanga-house-bo-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e143/2c9c/5acf/slideshow/plantasetorizada-10.jpg?1726610849",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e143/2c9c/5acc/slideshow/cortea-1.jpg?1726610658",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce77c5e1432c9c5acc-itanhanga-house-bo-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcce/77c5/e143/2c9c/5acc/slideshow/cortea-1.jpg?1726610658",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b3/slideshow/cortebcd-2.jpg?1726610718",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fcce384089017c9578b3-itanhanga-house-bo-sections?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fcce/3840/8901/7c95/78b3/slideshow/cortebcd-2.jpg?1726610718",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e143/2c9c/5ace/slideshow/isometrica01-6.jpg?1726610716",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf77c5e1432c9c5ace-itanhanga-house-bo-axo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e143/2c9c/5ace/slideshow/isometrica01-6.jpg?1726610716",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e148/a250/296c/slideshow/isometrica02-7.jpg?1726610731",
     url: "https://www.archdaily.com/1021357/itanhanga-house-bo/66e9fccf77c5e148a250296c-itanhanga-house-bo-axo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/fccf/77c5/e148/a250/296c/slideshow/isometrica02-7.jpg?1726610731",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d402/3840/8901/7c95/7727/slideshow/sjoparken-norm-architects_15.jpg?1726600211",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d402384089017c957727-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d402/3840/8901/7c95/7727/slideshow/sjoparken-norm-architects_15.jpg?1726600211",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3ed/3840/8901/7c95/771a/slideshow/sjoparken-norm-architects_11.jpg?1726600211",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3ed384089017c95771a-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3ed/3840/8901/7c95/771a/slideshow/sjoparken-norm-architects_11.jpg?1726600211",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d412/77c5/e104/e5a5/aa11/slideshow/sjoparken-norm-architects_35.jpg?1726600238",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d41277c5e104e5a5aa11-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d412/77c5/e104/e5a5/aa11/slideshow/sjoparken-norm-architects_35.jpg?1726600238",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d400/77c5/e104/e5a5/aa04/slideshow/sjoparken-norm-architects_32.jpg?1726600221",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40077c5e104e5a5aa04-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d400/77c5/e104/e5a5/aa04/slideshow/sjoparken-norm-architects_32.jpg?1726600221",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3f9/77c5/e104/e5a5/a9fe/slideshow/sjoparken-norm-architects_22.jpg?1726600215",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f977c5e104e5a5a9fe-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3f9/77c5/e104/e5a5/a9fe/slideshow/sjoparken-norm-architects_22.jpg?1726600215",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d411/3840/8901/7c95/7734/slideshow/sjoparken-norm-architects_77.jpg?1726600239",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d411384089017c957734-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d411/3840/8901/7c95/7734/slideshow/sjoparken-norm-architects_77.jpg?1726600239",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d417/3840/8901/7c95/773c/slideshow/sjoparken-norm-architects_75.jpg?1726600231",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d417384089017c95773c-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d417/3840/8901/7c95/773c/slideshow/sjoparken-norm-architects_75.jpg?1726600231",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d405/3840/8901/7c95/772b/slideshow/sjoparken-norm-architects_27.jpg?1726600212",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d405384089017c95772b-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d405/3840/8901/7c95/772b/slideshow/sjoparken-norm-architects_27.jpg?1726600212",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3ed/3840/8901/7c95/771b/slideshow/sjoparken-norm-architects_31.jpg?1726600227",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3ed384089017c95771b-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3ed/3840/8901/7c95/771b/slideshow/sjoparken-norm-architects_31.jpg?1726600227",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3fa/77c5/e119/5917/6c9b/slideshow/sjoparken-norm-architects_28.jpg?1726600217",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3fa77c5e11959176c9b-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3fa/77c5/e119/5917/6c9b/slideshow/sjoparken-norm-architects_28.jpg?1726600217",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d404/77c5/e104/e5a5/aa08/slideshow/sjoparken-norm-architects_33.jpg?1726600221",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40477c5e104e5a5aa08-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d404/77c5/e104/e5a5/aa08/slideshow/sjoparken-norm-architects_33.jpg?1726600221",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d40a/3840/8901/7c95/772f/slideshow/sjoparken-norm-architects_36.jpg?1726600229",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40a384089017c95772f-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d40a/3840/8901/7c95/772f/slideshow/sjoparken-norm-architects_36.jpg?1726600229",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d40e/77c5/e104/e5a5/aa0d/slideshow/sjoparken-norm-architects_44.jpg?1726600222",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40e77c5e104e5a5aa0d-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d40e/77c5/e104/e5a5/aa0d/slideshow/sjoparken-norm-architects_44.jpg?1726600222",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d409/77c5/e104/e5a5/aa0a/slideshow/sjoparken-norm-architects_49.jpg?1726600230",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40977c5e104e5a5aa0a-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d409/77c5/e104/e5a5/aa0a/slideshow/sjoparken-norm-architects_49.jpg?1726600230",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d40b/3840/8901/7c95/7732/slideshow/sjoparken-norm-architects_30.jpg?1726600228",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40b384089017c957732-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d40b/3840/8901/7c95/7732/slideshow/sjoparken-norm-architects_30.jpg?1726600228",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d409/3840/8901/7c95/772e/slideshow/sjoparken-norm-architects_55.jpg?1726600219",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d409384089017c95772e-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d409/3840/8901/7c95/772e/slideshow/sjoparken-norm-architects_55.jpg?1726600219",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3f5/77c5/e104/e5a5/a9fc/slideshow/sjoparken-norm-architects_56.jpg?1726600199",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f577c5e104e5a5a9fc-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3f5/77c5/e104/e5a5/a9fc/slideshow/sjoparken-norm-architects_56.jpg?1726600199",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d411/77c5/e104/e5a5/aa0f/slideshow/sjoparken-norm-architects_34.jpg?1726600234",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d41177c5e104e5a5aa0f-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d411/77c5/e104/e5a5/aa0f/slideshow/sjoparken-norm-architects_34.jpg?1726600234",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d405/77c5/e104/e5a5/aa09/slideshow/sjoparken-norm-architects_69.jpg?1726600228",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40577c5e104e5a5aa09-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d405/77c5/e104/e5a5/aa09/slideshow/sjoparken-norm-architects_69.jpg?1726600228",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d404/77c5/e119/5917/6c9e/slideshow/sjoparken-norm-architects_70.jpg?1726600222",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d40477c5e11959176c9e-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d404/77c5/e119/5917/6c9e/slideshow/sjoparken-norm-architects_70.jpg?1726600222",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3f8/3840/8901/7c95/7721/slideshow/sjoparken-norm-architects_71.jpg?1726600212",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f8384089017c957721-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3f8/3840/8901/7c95/7721/slideshow/sjoparken-norm-architects_71.jpg?1726600212",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3f6/3840/8901/7c95/771f/slideshow/sjoparken-norm-architects_79.jpg?1726600227",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3f6384089017c95771f-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3f6/3840/8901/7c95/771f/slideshow/sjoparken-norm-architects_79.jpg?1726600227",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3fe/3840/8901/7c95/7725/slideshow/sjoparken-norm-architects_68.jpg?1726600243",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3fe384089017c957725-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3fe/3840/8901/7c95/7725/slideshow/sjoparken-norm-architects_68.jpg?1726600243",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3fe/3840/8901/7c95/7724/slideshow/sjoparken-norm-architects_66.jpg?1726600216",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3fe384089017c957724-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3fe/3840/8901/7c95/7724/slideshow/sjoparken-norm-architects_66.jpg?1726600216",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d417/3840/8910/f1f0/e63f/slideshow/sjoparken-norm-architects_65.jpg?1726600243",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d41738408910f1f0e63f-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d417/3840/8910/f1f0/e63f/slideshow/sjoparken-norm-architects_65.jpg?1726600243",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d400/3840/8901/7c95/7726/slideshow/sjoparken-norm-architects_67.jpg?1726600223",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d400384089017c957726-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d400/3840/8901/7c95/7726/slideshow/sjoparken-norm-architects_67.jpg?1726600223",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d408/3840/8901/7c95/772c/slideshow/sjoparken-norm-architects_6.jpg?1726600223",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d408384089017c95772c-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d408/3840/8901/7c95/772c/slideshow/sjoparken-norm-architects_6.jpg?1726600223",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e9/d3ef/77c5/e104/e5a5/a9f5/slideshow/sjoparken-norm-architects_17.jpg?1726600213",
     url: "https://www.archdaily.com/1021278/sjoparken-retreat-norm-architects/66e9d3ef77c5e104e5a5a9f5-sjoparken-retreat-norm-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e9/d3ef/77c5/e104/e5a5/a9f5/slideshow/sjoparken-norm-architects_17.jpg?1726600213",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c137/b4f4/1e41/7166/f2c5/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_2.jpg?1726071111",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c137b4f41e417166f2c5-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c137/b4f4/1e41/7166/f2c5/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_2.jpg?1726071111",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c138/488a/8678/e0de/9d41/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_14.jpg?1726071126",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138488a8678e0de9d41-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c138/488a/8678/e0de/9d41/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_14.jpg?1726071126",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c14a/488a/8678/e0de/9d44/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_31.jpg?1726071130",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14a488a8678e0de9d44-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c14a/488a/8678/e0de/9d44/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_31.jpg?1726071130",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c147/b4f4/1e71/048d/65ab/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_6.jpg?1726071128",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c147b4f41e71048d65ab-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c147/b4f4/1e71/048d/65ab/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_6.jpg?1726071128",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c13c/b4f4/1e41/7166/f2c8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_8.jpg?1726071113",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13cb4f41e417166f2c8-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c13c/b4f4/1e41/7166/f2c8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_8.jpg?1726071113",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c145/b4f4/1e41/7166/f2cf/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_1.jpg?1726071126",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c145b4f41e417166f2cf-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c145/b4f4/1e41/7166/f2cf/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_1.jpg?1726071126",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c13c/488a/8601/7ab7/1cf3/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_16.jpg?1726071115",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13c488a86017ab71cf3-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c13c/488a/8601/7ab7/1cf3/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_16.jpg?1726071115",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c154/488a/8601/7ab7/1cfa/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_10.jpg?1726071140",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c154488a86017ab71cfa-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c154/488a/8601/7ab7/1cfa/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_10.jpg?1726071140",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c13d/b4f4/1e41/7166/f2ca/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_15.jpg?1726071118",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13db4f41e417166f2ca-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c13d/b4f4/1e41/7166/f2ca/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_15.jpg?1726071118",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8678/e0de/9d45/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_27.jpg?1726071144",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15a488a8678e0de9d45-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8678/e0de/9d45/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_27.jpg?1726071144",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c14c/488a/8601/7ab7/1cf8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_44.jpg?1726071130",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14c488a86017ab71cf8-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c14c/488a/8601/7ab7/1cf8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_44.jpg?1726071130",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15b/488a/8601/7ab7/1d01/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_30.jpg?1726071146",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15b488a86017ab71d01-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15b/488a/8601/7ab7/1d01/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_30.jpg?1726071146",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8601/7ab7/1cfe/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_21.jpg?1726071146",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15a488a86017ab71cfe-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8601/7ab7/1cfe/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_21.jpg?1726071146",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c13c/b4f4/1e41/7166/f2c9/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_18.jpg?1726071129",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c13cb4f41e417166f2c9-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c13c/b4f4/1e41/7166/f2c9/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_18.jpg?1726071129",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c142/b4f4/1e41/7166/f2cc/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_38.jpg?1726071121",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c142b4f41e417166f2cc-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c142/b4f4/1e41/7166/f2cc/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_38.jpg?1726071121",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c150/b4f4/1e41/7166/f2d4/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_43.jpg?1726071135",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c150b4f41e417166f2d4-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c150/b4f4/1e41/7166/f2d4/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_43.jpg?1726071135",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15c/b4f4/1e41/7166/f2d8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_35.jpg?1726071148",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15cb4f41e417166f2d8-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15c/b4f4/1e41/7166/f2d8/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_35.jpg?1726071148",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15f/488a/8601/7ab7/1d07/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_32.jpg?1726071165",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15f488a86017ab71d07-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15f/488a/8601/7ab7/1d07/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_32.jpg?1726071165",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c146/b4f4/1e41/7166/f2d0/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_42.jpg?1726071141",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c146b4f41e417166f2d0-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c146/b4f4/1e41/7166/f2d0/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_42.jpg?1726071141",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c155/488a/8601/7ab7/1cfc/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_45.jpg?1726071154",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c155488a86017ab71cfc-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c155/488a/8601/7ab7/1cfc/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_45.jpg?1726071154",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c14d/b4f4/1e41/7166/f2d3/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_34.jpg?1726071132",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14db4f41e417166f2d3-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c14d/b4f4/1e41/7166/f2d3/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_34.jpg?1726071132",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c138/b4f4/1e41/7166/f2c6/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_7.jpg?1726071122",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138b4f41e417166f2c6-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c138/b4f4/1e41/7166/f2c6/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_7.jpg?1726071122",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c138/b4f4/1e41/7166/f2c7/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_5.jpg?1726071123",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138b4f41e417166f2c7-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c138/b4f4/1e41/7166/f2c7/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_5.jpg?1726071123",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15e/488a/8601/7ab7/1d06/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_29.jpg?1726071164",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15e488a86017ab71d06-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15e/488a/8601/7ab7/1d06/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_29.jpg?1726071164",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8601/7ab7/1cff/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_20.jpg?1726071158",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15a488a86017ab71cff-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15a/488a/8601/7ab7/1cff/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_20.jpg?1726071158",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15e/488a/8601/7ab7/1d05/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_37.jpg?1726071165",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15e488a86017ab71d05-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15e/488a/8601/7ab7/1d05/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_37.jpg?1726071165",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15d/488a/8601/7ab7/1d04/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_40.jpg?1726071163",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15d488a86017ab71d04-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15d/488a/8601/7ab7/1d04/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_40.jpg?1726071163",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c138/488a/8601/7ab7/1cf2/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_11.jpg?1726071108",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c138488a86017ab71cf2-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c138/488a/8601/7ab7/1cf2/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_11.jpg?1726071108",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c160/488a/8601/7ab7/1d08/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_36.jpg?1726071165",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c160488a86017ab71d08-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c160/488a/8601/7ab7/1d08/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_36.jpg?1726071165",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15c/488a/8601/7ab7/1d03/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_41.jpg?1726071161",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15c488a86017ab71d03-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15c/488a/8601/7ab7/1d03/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_41.jpg?1726071161",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c14d/488a/8601/7ab7/1cf9/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_22.jpg?1726071133",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14d488a86017ab71cf9-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c14d/488a/8601/7ab7/1cf9/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_22.jpg?1726071133",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c149/488a/8678/e0de/9d42/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_26.jpg?1726071144",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c149488a8678e0de9d42-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c149/488a/8678/e0de/9d42/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_26.jpg?1726071144",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15b/488a/8601/7ab7/1d00/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_24.jpg?1726071162",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15b488a86017ab71d00-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15b/488a/8601/7ab7/1d00/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_24.jpg?1726071162",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c15c/488a/8601/7ab7/1d02/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_13.jpg?1726071162",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c15c488a86017ab71d02-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c15c/488a/8601/7ab7/1d02/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_13.jpg?1726071162",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c154/488a/8601/7ab7/1cfb/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_3.jpg?1726071155",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c154488a86017ab71cfb-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c154/488a/8601/7ab7/1cfb/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_3.jpg?1726071155",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c14b/b4f4/1e41/7166/f2d2/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_9.jpg?1726071130",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c14bb4f41e417166f2d2-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c14b/b4f4/1e41/7166/f2d2/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_9.jpg?1726071130",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c154/b4f4/1e41/7166/f2d5/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_12.jpg?1726071139",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c154b4f41e417166f2d5-weald-house-mailendesign-plus-peter-bradford-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c154/b4f4/1e41/7166/f2d5/slideshow/weald-house-mailendesign-plus-peter-bradford-architects_12.jpg?1726071139",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c12e/b4f4/1e41/7166/f2c1/slideshow/mailen-design-weald-house-drawing-8-8.jpg?1726071137",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c12eb4f41e417166f2c1-weald-house-mailendesign-plus-peter-bradford-architects-site-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c12e/b4f4/1e41/7166/f2c1/slideshow/mailen-design-weald-house-drawing-8-8.jpg?1726071137",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c133/b4f4/1e41/7166/f2c3/slideshow/mailen-design-weald-house-drawing-1-2.jpg?1726071144",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c133b4f41e417166f2c3-weald-house-mailendesign-plus-peter-bradford-architects-ground-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c133/b4f4/1e41/7166/f2c3/slideshow/mailen-design-weald-house-drawing-1-2.jpg?1726071144",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c133/488a/8601/7ab7/1cf0/slideshow/mailen-design-weald-house-drawing-2-1.jpg?1726071141",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c133488a86017ab71cf0-weald-house-mailendesign-plus-peter-bradford-architects-upper-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c133/488a/8601/7ab7/1cf0/slideshow/mailen-design-weald-house-drawing-2-1.jpg?1726071141",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c12e/b4f4/1e41/7166/f2c0/slideshow/mailen-design-weald-house-drawing-3-3.jpg?1726071138",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c12eb4f41e417166f2c0-weald-house-mailendesign-plus-peter-bradford-architects-roof-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c12e/b4f4/1e41/7166/f2c0/slideshow/mailen-design-weald-house-drawing-3-3.jpg?1726071138",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c136/b4f4/1e41/7166/f2c4/slideshow/mailen-design-weald-house-drawing-4-4.jpg?1726071135",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c136b4f41e417166f2c4-weald-house-mailendesign-plus-peter-bradford-architects-elevations-2?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c136/b4f4/1e41/7166/f2c4/slideshow/mailen-design-weald-house-drawing-4-4.jpg?1726071135",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c136/488a/8601/7ab7/1cf1/slideshow/mailen-design-weald-house-drawing-5-5.jpg?1726071138",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c136488a86017ab71cf1-weald-house-mailendesign-plus-peter-bradford-architects-elevations-1?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c136/488a/8601/7ab7/1cf1/slideshow/mailen-design-weald-house-drawing-5-5.jpg?1726071138",
   },
   {
-    src: "https://images.adsttc.com/media/images/66e1/c137/b4f4/1e71/048d/65aa/slideshow/mailen-design-weald-house-drawing-6-6.jpg?1726071138",
     url: "https://www.archdaily.com/1021066/weald-house-mailendesign-plus-peter-bradford-architects/66e1c137b4f41e71048d65aa-weald-house-mailendesign-plus-peter-bradford-architects-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66e1/c137/b4f4/1e71/048d/65aa/slideshow/mailen-design-weald-house-drawing-6-6.jpg?1726071138",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fd9/5030/bc74/2176/c35e/slideshow/holmwood-farm-rx-architects_25.jpg?1725644776",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fd95030bc742176c35e-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fd9/5030/bc74/2176/c35e/slideshow/holmwood-farm-rx-architects_25.jpg?1725644776",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fdd/5030/bc74/2176/c35f/slideshow/holmwood-farm-rx-architects_2.jpg?1725644780",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fdd5030bc742176c35f-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fdd/5030/bc74/2176/c35f/slideshow/holmwood-farm-rx-architects_2.jpg?1725644780",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f8e/3b3d/046f/5660/a83a/slideshow/holmwood-farm-rx-architects_4.jpg?1725644704",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f8e3b3d046f5660a83a-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f8e/3b3d/046f/5660/a83a/slideshow/holmwood-farm-rx-architects_4.jpg?1725644704",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fa3/3b3d/046f/5660/a83d/slideshow/holmwood-farm-rx-architects_19.jpg?1725644723",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fa33b3d046f5660a83d-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fa3/3b3d/046f/5660/a83d/slideshow/holmwood-farm-rx-architects_19.jpg?1725644723",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fd9/5030/bc74/2176/c35d/slideshow/holmwood-farm-rx-architects_1.jpg?1725644775",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fd95030bc742176c35d-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fd9/5030/bc74/2176/c35d/slideshow/holmwood-farm-rx-architects_1.jpg?1725644775",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f64/5030/bc74/2176/c35a/slideshow/holmwood-farm-rx-architects_1.jpg?1725644658",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f645030bc742176c35a-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f64/5030/bc74/2176/c35a/slideshow/holmwood-farm-rx-architects_1.jpg?1725644658",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3ef3/3b3d/046f/5660/a829/slideshow/holmwood-farm-rx-architects_1.jpg?1725644547",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3ef33b3d046f5660a829-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3ef3/3b3d/046f/5660/a829/slideshow/holmwood-farm-rx-architects_1.jpg?1725644547",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f46/3b3d/046f/5660/a830/slideshow/holmwood-farm-rx-architects_2.jpg?1725644632",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f463b3d046f5660a830-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f46/3b3d/046f/5660/a830/slideshow/holmwood-farm-rx-architects_2.jpg?1725644632",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fb5/3b3d/046f/5660/a841/slideshow/holmwood-farm-rx-architects_26.jpg?1725644739",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb53b3d046f5660a841-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fb5/3b3d/046f/5660/a841/slideshow/holmwood-farm-rx-architects_26.jpg?1725644739",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f67/5030/bc74/2176/c35b/slideshow/holmwood-farm-rx-architects_9.jpg?1725644664",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f675030bc742176c35b-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f67/5030/bc74/2176/c35b/slideshow/holmwood-farm-rx-architects_9.jpg?1725644664",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f60/5030/bc74/2176/c358/slideshow/holmwood-farm-rx-architects_11.jpg?1725644653",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f605030bc742176c358-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f60/5030/bc74/2176/c358/slideshow/holmwood-farm-rx-architects_11.jpg?1725644653",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f49/5030/bc74/2176/c356/slideshow/holmwood-farm-rx-architects_10.jpg?1725644630",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f495030bc742176c356-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f49/5030/bc74/2176/c356/slideshow/holmwood-farm-rx-architects_10.jpg?1725644630",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fb8/3b3d/046f/5660/a843/slideshow/holmwood-farm-rx-architects_20.jpg?1725644744",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb83b3d046f5660a843-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fb8/3b3d/046f/5660/a843/slideshow/holmwood-farm-rx-architects_20.jpg?1725644744",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f38/3b3d/046f/5660/a82f/slideshow/holmwood-farm-rx-architects_7.jpg?1725644619",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f383b3d046f5660a82f-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f38/3b3d/046f/5660/a82f/slideshow/holmwood-farm-rx-architects_7.jpg?1725644619",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fb8/5030/bc3a/5eb4/06d7/slideshow/holmwood-farm-rx-architects_17.jpg?1725644743",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb85030bc3a5eb406d7-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fb8/5030/bc3a/5eb4/06d7/slideshow/holmwood-farm-rx-architects_17.jpg?1725644743",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fb4/3b3d/046f/5660/a840/slideshow/holmwood-farm-rx-architects_23.jpg?1725644738",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb43b3d046f5660a840-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fb4/3b3d/046f/5660/a840/slideshow/holmwood-farm-rx-architects_23.jpg?1725644738",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f25/3b3d/046f/5660/a82e/slideshow/holmwood-farm-rx-architects_4.jpg?1725644600",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f253b3d046f5660a82e-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f25/3b3d/046f/5660/a82e/slideshow/holmwood-farm-rx-architects_4.jpg?1725644600",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f8c/3b3d/046f/5660/a839/slideshow/holmwood-farm-rx-architects_13.jpg?1725644703",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f8c3b3d046f5660a839-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f8c/3b3d/046f/5660/a839/slideshow/holmwood-farm-rx-architects_13.jpg?1725644703",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3ef7/3b3d/046f/5660/a82b/slideshow/holmwood-farm-rx-architects_8.jpg?1725644554",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3ef73b3d046f5660a82b-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3ef7/3b3d/046f/5660/a82b/slideshow/holmwood-farm-rx-architects_8.jpg?1725644554",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3ef3/3b3d/046f/5660/a82a/slideshow/holmwood-farm-rx-architects_5.jpg?1725644552",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3ef33b3d046f5660a82a-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3ef3/3b3d/046f/5660/a82a/slideshow/holmwood-farm-rx-architects_5.jpg?1725644552",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fb2/3b3d/046f/5660/a83f/slideshow/holmwood-farm-rx-architects_18.jpg?1725644738",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fb23b3d046f5660a83f-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fb2/3b3d/046f/5660/a83f/slideshow/holmwood-farm-rx-architects_18.jpg?1725644738",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f60/3b3d/046f/5660/a835/slideshow/holmwood-farm-rx-architects_7.jpg?1725644654",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f603b3d046f5660a835-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f60/3b3d/046f/5660/a835/slideshow/holmwood-farm-rx-architects_7.jpg?1725644654",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fa5/3b3d/046f/5660/a83e/slideshow/holmwood-farm-rx-architects_22.jpg?1725644727",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fa53b3d046f5660a83e-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fa5/3b3d/046f/5660/a83e/slideshow/holmwood-farm-rx-architects_22.jpg?1725644727",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f60/5030/bc74/2176/c359/slideshow/holmwood-farm-rx-architects_2.jpg?1725644664",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f605030bc742176c359-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f60/5030/bc74/2176/c359/slideshow/holmwood-farm-rx-architects_2.jpg?1725644664",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3f4e/5030/bc74/2176/c357/slideshow/holmwood-farm-rx-architects_3.jpg?1725644636",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f4e5030bc742176c357-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3f4e/5030/bc74/2176/c357/slideshow/holmwood-farm-rx-architects_3.jpg?1725644636",
   },
   {
-    src: "https://images.adsttc.com/media/images/66db/3fd9/3b3d/046f/5660/a845/slideshow/holmwood-farm-rx-architects_3.jpg?1725644776",
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fd93b3d046f5660a845-holmwood-farm-rx-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66db/3fd9/3b3d/046f/5660/a845/slideshow/holmwood-farm-rx-architects_3.jpg?1725644776",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d21/slideshow/Tiefes_Haus_-_4.jpg?1725050563",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d21-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d21/slideshow/Tiefes_Haus_-_4.jpg?1725050563",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2f/slideshow/Tiefes_Haus_-_20.jpg?1725050569",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2f-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2f/slideshow/Tiefes_Haus_-_20.jpg?1725050569",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d1d/slideshow/Tiefes_Haus_-_1.jpg?1725050560",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d1d-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d1d/slideshow/Tiefes_Haus_-_1.jpg?1725050560",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d29/slideshow/Tiefes_Haus_-_12.jpg?1725050564",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d29-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d29/slideshow/Tiefes_Haus_-_12.jpg?1725050564",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb3/485d/8c00/01ac/5d25/slideshow/Tiefes_Haus_-_8.jpg?1725050562",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb3485d8c0001ac5d25-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb3/485d/8c00/01ac/5d25/slideshow/Tiefes_Haus_-_8.jpg?1725050562",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb2/485d/8c00/01ac/5d23/slideshow/Tiefes_Haus_-_6.jpg?1725050562",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb2485d8c0001ac5d23-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb2/485d/8c00/01ac/5d23/slideshow/Tiefes_Haus_-_6.jpg?1725050562",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d28/slideshow/Tiefes_Haus_-_11.jpg?1725050563",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d28-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d28/slideshow/Tiefes_Haus_-_11.jpg?1725050563",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb3/485d/8c00/01ac/5d26/slideshow/Tiefes_Haus_-_9.jpg?1725050563",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb3485d8c0001ac5d26-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb3/485d/8c00/01ac/5d26/slideshow/Tiefes_Haus_-_9.jpg?1725050563",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb2/485d/8c00/01ac/5d22/slideshow/Tiefes_Haus_-_5.jpg?1725050562",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb2485d8c0001ac5d22-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb2/485d/8c00/01ac/5d22/slideshow/Tiefes_Haus_-_5.jpg?1725050562",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2a/slideshow/Tiefes_Haus_-_13.jpg?1725050577",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2a-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2a/slideshow/Tiefes_Haus_-_13.jpg?1725050577",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2b/slideshow/Tiefes_Haus_-_15.jpg?1725050565",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2b-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2b/slideshow/Tiefes_Haus_-_15.jpg?1725050565",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d20/slideshow/Tiefes_Haus_-_3.jpg?1725050563",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d20-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d20/slideshow/Tiefes_Haus_-_3.jpg?1725050563",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d27/slideshow/Tiefes_Haus_-_10.jpg?1725050562",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d27-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d27/slideshow/Tiefes_Haus_-_10.jpg?1725050562",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d1f/slideshow/Tiefes_Haus_-_2.jpg?1725050563",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb1485d8c0001ac5d1f-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb1/485d/8c00/01ac/5d1f/slideshow/Tiefes_Haus_-_2.jpg?1725050563",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2c/slideshow/Tiefes_Haus_-_16.jpg?1725050568",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2c-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2c/slideshow/Tiefes_Haus_-_16.jpg?1725050568",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2e/slideshow/Tiefes_Haus_-_18.jpg?1725050577",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d2e-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d2e/slideshow/Tiefes_Haus_-_18.jpg?1725050577",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d31/slideshow/Tiefes_Haus_-_23.jpg?1725050597",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d31-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d31/slideshow/Tiefes_Haus_-_23.jpg?1725050597",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d33/slideshow/Tiefes_Haus_-_ground_floor.jpg?1725050569",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d33-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d33/slideshow/Tiefes_Haus_-_ground_floor.jpg?1725050569",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d37/slideshow/Tiefes_Haus_-_upper_floor.jpg?1725050629",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d37-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-plan-1st-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d37/slideshow/Tiefes_Haus_-_upper_floor.jpg?1725050629",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d32/slideshow/Tiefes_Haus_-_section_1.jpg?1725050614",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d32-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d32/slideshow/Tiefes_Haus_-_section_1.jpg?1725050614",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d34/slideshow/Tiefes_Haus_-_section_2.jpg?1725050591",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d34-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d34/slideshow/Tiefes_Haus_-_section_2.jpg?1725050591",
   },
   {
-    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d35/slideshow/Tiefes_Haus_-_section_3.jpg?1725050604",
     url: "https://www.archdaily.com/1020713/tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda/66d22eb4485d8c0001ac5d35-tiefes-haus-hga-henning-grahn-architektur-plus-marc-flick-architekt-bda-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66d2/2eb4/485d/8c00/01ac/5d35/slideshow/Tiefes_Haus_-_section_3.jpg?1725050604",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/05de/ee97/4727/7961/1668/slideshow/casa-botafogo-o2-arquitectos_3.jpg?1724384815",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805deee97472779611668-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/05de/ee97/4727/7961/1668/slideshow/casa-botafogo-o2-arquitectos_3.jpg?1724384815",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/05db/ee97/4727/7961/1667/slideshow/casa-botafogo-o2-arquitectos_5.jpg?1724384810",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805dbee97472779611667-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/05db/ee97/4727/7961/1667/slideshow/casa-botafogo-o2-arquitectos_5.jpg?1724384810",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/05ea/55d7/993c/36f7/e296/slideshow/casa-botafogo-o2-arquitectos_8.jpg?1724384826",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805ea55d7993c36f7e296-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/05ea/55d7/993c/36f7/e296/slideshow/casa-botafogo-o2-arquitectos_8.jpg?1724384826",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/0604/55d7/993c/36f7/e29d/slideshow/casa-botafogo-o2-arquitectos_10.jpg?1724384854",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060455d7993c36f7e29d-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/0604/55d7/993c/36f7/e29d/slideshow/casa-botafogo-o2-arquitectos_10.jpg?1724384854",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/0607/55d7/993c/36f7/e29e/slideshow/casa-botafogo-o2-arquitectos_11.jpg?1724384857",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060755d7993c36f7e29e-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/0607/55d7/993c/36f7/e29e/slideshow/casa-botafogo-o2-arquitectos_11.jpg?1724384857",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/05f6/55d7/993c/36f7/e299/slideshow/casa-botafogo-o2-arquitectos_9.jpg?1724384843",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805f655d7993c36f7e299-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/05f6/55d7/993c/36f7/e299/slideshow/casa-botafogo-o2-arquitectos_9.jpg?1724384843",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/05f1/55d7/993c/36f7/e298/slideshow/casa-botafogo-o2-arquitectos_6.jpg?1724384834",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805f155d7993c36f7e298-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/05f1/55d7/993c/36f7/e298/slideshow/casa-botafogo-o2-arquitectos_6.jpg?1724384834",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/05e3/55d7/993c/36f7/e295/slideshow/casa-botafogo-o2-arquitectos_4.jpg?1724384818",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805e355d7993c36f7e295-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/05e3/55d7/993c/36f7/e295/slideshow/casa-botafogo-o2-arquitectos_4.jpg?1724384818",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/060b/ee97/4727/7961/1669/slideshow/casa-botafogo-o2-arquitectos_14.jpg?1724384861",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060bee97472779611669-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/060b/ee97/4727/7961/1669/slideshow/casa-botafogo-o2-arquitectos_14.jpg?1724384861",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/05ef/55d7/993c/36f7/e297/slideshow/casa-botafogo-o2-arquitectos_15.jpg?1724384830",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805ef55d7993c36f7e297-botafogo-house-o2-arquitectos-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/05ef/55d7/993c/36f7/e297/slideshow/casa-botafogo-o2-arquitectos_15.jpg?1724384830",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/0602/55d7/993c/36f7/e29c/slideshow/plantas-botafogo-2.jpg?1724384788",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060255d7993c36f7e29c-botafogo-house-o2-arquitectos-plans?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/0602/55d7/993c/36f7/e29c/slideshow/plantas-botafogo-2.jpg?1724384788",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/0600/55d7/993c/36f7/e29b/slideshow/elevaciones-botafogo-1.jpg?1724384786",
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c8060055d7993c36f7e29b-botafogo-house-o2-arquitectos-elevations?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/0600/55d7/993c/36f7/e29b/slideshow/elevaciones-botafogo-1.jpg?1724384786",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad4e/485d/8c00/01ac/57e5/slideshow/RDO_01.jpg?1724689760",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad4e485d8c0001ac57e5-rdo-house-cechvala-architects-photo",
+    src: "https://images.adsttc.com/media/images/66cc/ad4e/485d/8c00/01ac/57e5/slideshow/RDO_01.jpg?1724689760",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad4f/485d/8c00/01ac/57e7/slideshow/RDO_03.jpg?1724689760",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad4f485d8c0001ac57e7-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad4f/485d/8c00/01ac/57e7/slideshow/RDO_03.jpg?1724689760",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad50/485d/8c00/01ac/57e8/slideshow/RDO_04.jpg?1724689764",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad50485d8c0001ac57e8-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad50/485d/8c00/01ac/57e8/slideshow/RDO_04.jpg?1724689764",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad50/485d/8c00/01ac/57e9/slideshow/RDO_05.jpg?1724689776",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad50485d8c0001ac57e9-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad50/485d/8c00/01ac/57e9/slideshow/RDO_05.jpg?1724689776",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ef/slideshow/RDO_09.jpg?1724689786",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ef-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ef/slideshow/RDO_09.jpg?1724689786",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cd8/f999/c65e/9b2d/62f2/slideshow/rdo-house-cechvala-architects_17.jpg?1724751084",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd8f999c65e9b2d62f2-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cd8/f999/c65e/9b2d/62f2/slideshow/rdo-house-cechvala-architects_17.jpg?1724751084",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cda/f999/c65e/9b2d/62f4/slideshow/rdo-house-cechvala-architects_15.jpg?1724751094",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cdaf999c65e9b2d62f4-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cda/f999/c65e/9b2d/62f4/slideshow/rdo-house-cechvala-architects_15.jpg?1724751094",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad4f/485d/8c00/01ac/57e6/slideshow/RDO_02.jpg?1724689766",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad4f485d8c0001ac57e6-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad4f/485d/8c00/01ac/57e6/slideshow/RDO_02.jpg?1724689766",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c65e/9b2d/62f0/slideshow/rdo-house-cechvala-architects_11.jpg?1724751115",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7f999c65e9b2d62f0-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c65e/9b2d/62f0/slideshow/rdo-house-cechvala-architects_11.jpg?1724751115",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cd7/d393/f12e/9744/6f1a/slideshow/rdo-house-cechvala-architects_10.jpg?1724751090",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7d393f12e97446f1a-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/d393/f12e/9744/6f1a/slideshow/rdo-house-cechvala-architects_10.jpg?1724751090",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ea/slideshow/RDO_06.jpg?1724689773",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ea-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ea/slideshow/RDO_06.jpg?1724689773",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c65e/9b2d/62f1/slideshow/rdo-house-cechvala-architects_12.jpg?1724751097",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7f999c65e9b2d62f1-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c65e/9b2d/62f1/slideshow/rdo-house-cechvala-architects_12.jpg?1724751097",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cda/d393/f12e/9744/6f1b/slideshow/rdo-house-cechvala-architects_13.jpg?1724751103",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cdad393f12e97446f1b-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cda/d393/f12e/9744/6f1b/slideshow/rdo-house-cechvala-architects_13.jpg?1724751103",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cd8/f999/c65e/9b2d/62f3/slideshow/rdo-house-cechvala-architects_14.jpg?1724751092",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd8f999c65e9b2d62f3-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cd8/f999/c65e/9b2d/62f3/slideshow/rdo-house-cechvala-architects_14.jpg?1724751092",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c67d/5793/4fad/slideshow/rdo-house-cechvala-architects_16.jpg?1724751086",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66cd9cd7f999c67d57934fad-rdo-house-cechvala-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cd/9cd7/f999/c67d/5793/4fad/slideshow/rdo-house-cechvala-architects_16.jpg?1724751086",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ed/slideshow/RDO_P_01.jpg?1724689768",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ed-rdo-house-cechvala-architects-ground-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ed/slideshow/RDO_P_01.jpg?1724689768",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ee/slideshow/RDO_P_02.jpg?1724689803",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57ee-rdo-house-cechvala-architects-1st-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57ee/slideshow/RDO_P_02.jpg?1724689803",
   },
   {
-    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57f0/slideshow/RDO_P_03.jpg?1724689822",
     url: "https://www.archdaily.com/1020504/rdo-house-cechvala-architects/66ccad51485d8c0001ac57f0-rdo-house-cechvala-architects-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66cc/ad51/485d/8c00/01ac/57f0/slideshow/RDO_P_03.jpg?1724689822",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5684/slideshow/Inblum-T38-_Norbert_Tukaj-5907.jpg?1724431542",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5684-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5684/slideshow/Inblum-T38-_Norbert_Tukaj-5907.jpg?1724431542",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5679/slideshow/Inblum-T38-_Norbert_Tukaj-5310.jpg?1724431575",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac5679-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5679/slideshow/Inblum-T38-_Norbert_Tukaj-5310.jpg?1724431575",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5686/slideshow/Inblum-T38-_Norbert_Tukaj-5950.jpg?1724431577",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5686-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5686/slideshow/Inblum-T38-_Norbert_Tukaj-5950.jpg?1724431577",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5685/slideshow/Inblum-T38-_Norbert_Tukaj-5836.jpg?1724431578",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5685-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5685/slideshow/Inblum-T38-_Norbert_Tukaj-5836.jpg?1724431578",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5677/slideshow/Inblum-T38-_Norbert_Tukaj-5024.jpg?1724431556",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac5677-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5677/slideshow/Inblum-T38-_Norbert_Tukaj-5024.jpg?1724431556",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/567d/slideshow/Inblum-T38-_Norbert_Tukaj-5531.jpg?1724431560",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac567d-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/567d/slideshow/Inblum-T38-_Norbert_Tukaj-5531.jpg?1724431560",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca1/485d/8c00/01ac/5688/slideshow/Inblum-T38-_Norbert_Tukaj-6077.jpg?1724431612",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca1485d8c0001ac5688-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca1/485d/8c00/01ac/5688/slideshow/Inblum-T38-_Norbert_Tukaj-6077.jpg?1724431612",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5687/slideshow/Inblum-T38-_Norbert_Tukaj-5989.jpg?1724431651",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5687-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5687/slideshow/Inblum-T38-_Norbert_Tukaj-5989.jpg?1724431651",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bc9f/485d/8c00/01ac/567b/slideshow/Inblum-T38-_Norbert_Tukaj-5445.jpg?1724431542",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9f485d8c0001ac567b-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bc9f/485d/8c00/01ac/567b/slideshow/Inblum-T38-_Norbert_Tukaj-5445.jpg?1724431542",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bc9f/485d/8c00/01ac/567c/slideshow/Inblum-T38-_Norbert_Tukaj-5486.jpg?1724431579",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9f485d8c0001ac567c-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bc9f/485d/8c00/01ac/567c/slideshow/Inblum-T38-_Norbert_Tukaj-5486.jpg?1724431579",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5678/slideshow/Inblum-T38-_Norbert_Tukaj-5290.jpg?1724431560",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac5678-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/5678/slideshow/Inblum-T38-_Norbert_Tukaj-5290.jpg?1724431560",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/567a/slideshow/Inblum-T38-_Norbert_Tukaj-5402.jpg?1724431559",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bc9e485d8c0001ac567a-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bc9e/485d/8c00/01ac/567a/slideshow/Inblum-T38-_Norbert_Tukaj-5402.jpg?1724431559",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5683/slideshow/Inblum-T38-_Norbert_Tukaj-5802.jpg?1724431594",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca0485d8c0001ac5683-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca0/485d/8c00/01ac/5683/slideshow/Inblum-T38-_Norbert_Tukaj-5802.jpg?1724431594",
   },
   {
-    src: "https://images.adsttc.com/media/images/66c8/bca1/485d/8c00/01ac/5689/slideshow/Inblum-T38-_Norbert_Tukaj-6047.jpg?1724431614",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66c8bca1485d8c0001ac5689-a-house-in-zverynas-inblum-architects-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66c8/bca1/485d/8c00/01ac/5689/slideshow/Inblum-T38-_Norbert_Tukaj-6047.jpg?1724431614",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ce/d936/f999/c65e/e27a/b589/slideshow/house-in-zverynas-site-plan-inblum-23.jpg?1724832117",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced936f999c65ee27ab589-a-house-in-zverynas-inblum-architects-site-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ce/d936/f999/c65e/e27a/b589/slideshow/house-in-zverynas-site-plan-inblum-23.jpg?1724832117",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ce/d933/d393/f10c/cb38/8c09/slideshow/house-in-zverynas-1st-floor-plan-inblum-20.jpg?1724832097",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced933d393f10ccb388c09-a-house-in-zverynas-inblum-architects-ground-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ce/d933/d393/f10c/cb38/8c09/slideshow/house-in-zverynas-1st-floor-plan-inblum-20.jpg?1724832097",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ce/d932/d393/f10c/cb38/8c08/slideshow/house-in-zverynas-2nd-floor-plan-inblum-21.jpg?1724832097",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced932d393f10ccb388c08-a-house-in-zverynas-inblum-architects-1st-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ce/d932/d393/f10c/cb38/8c08/slideshow/house-in-zverynas-2nd-floor-plan-inblum-21.jpg?1724832097",
   },
   {
-    src: "https://images.adsttc.com/media/images/66ce/d936/d393/f10c/cb38/8c0a/slideshow/house-in-zverynas-section-inblum-22.jpg?1724832094",
     url: "https://www.archdaily.com/1020442/a-house-in-zverynas-inblum-architects/66ced936d393f10ccb388c0a-a-house-in-zverynas-inblum-architects-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66ce/d936/d393/f10c/cb38/8c0a/slideshow/house-in-zverynas-section-inblum-22.jpg?1724832094",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7d/slideshow/the-orford-house-thellend-fortin-architectes_1.jpg?1723758230",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed7d-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7d/slideshow/the-orford-house-thellend-fortin-architectes_1.jpg?1723758230",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e462/a82a/0217/slideshow/the-orford-house-thellend-fortin-architectes_3.jpg?1723758232",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76832e7de462a82a0217-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e462/a82a/0217/slideshow/the-orford-house-thellend-fortin-architectes_3.jpg?1723758232",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e462/a82a/021a/slideshow/the-orford-house-thellend-fortin-architectes_12.jpg?1723758334",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de462a82a021a-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e462/a82a/021a/slideshow/the-orford-house-thellend-fortin-architectes_12.jpg?1723758334",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e45d/df8d/990a/slideshow/the-orford-house-thellend-fortin-architectes_11.jpg?1723758305",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de45ddf8d990a-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e45d/df8d/990a/slideshow/the-orford-house-thellend-fortin-architectes_11.jpg?1723758305",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed81/slideshow/the-orford-house-thellend-fortin-architectes_18.jpg?1723758396",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed81-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed81/slideshow/the-orford-house-thellend-fortin-architectes_18.jpg?1723758396",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e45d/df8d/990b/slideshow/the-orford-house-thellend-fortin-architectes_4.jpg?1723758248",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de45ddf8d990b-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e45d/df8d/990b/slideshow/the-orford-house-thellend-fortin-architectes_4.jpg?1723758248",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed80/slideshow/the-orford-house-thellend-fortin-architectes_9.jpg?1723758365",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed80-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed80/slideshow/the-orford-house-thellend-fortin-architectes_9.jpg?1723758365",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7f/slideshow/the-orford-house-thellend-fortin-architectes_10.jpg?1723758263",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed7f-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7f/slideshow/the-orford-house-thellend-fortin-architectes_10.jpg?1723758263",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e457/7259/ed7a/slideshow/the-orford-house-thellend-fortin-architectes_13.jpg?1723758226",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de4577259ed7a-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e457/7259/ed7a/slideshow/the-orford-house-thellend-fortin-architectes_13.jpg?1723758226",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e45d/df8d/9908/slideshow/the-orford-house-thellend-fortin-architectes_14.jpg?1723758226",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de45ddf8d9908-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e45d/df8d/9908/slideshow/the-orford-house-thellend-fortin-architectes_14.jpg?1723758226",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e462/a82a/0216/slideshow/the-orford-house-thellend-fortin-architectes_15.jpg?1723758259",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76832e7de462a82a0216-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e462/a82a/0216/slideshow/the-orford-house-thellend-fortin-architectes_15.jpg?1723758259",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e45d/df8d/9909/slideshow/the-orford-house-thellend-fortin-architectes_5.jpg?1723758247",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76832e7de45ddf8d9909-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7683/2e7d/e45d/df8d/9909/slideshow/the-orford-house-thellend-fortin-architectes_5.jpg?1723758247",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e462/a82a/0215/slideshow/the-orford-house-thellend-fortin-architectes_6.jpg?1723758229",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de462a82a0215-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e462/a82a/0215/slideshow/the-orford-house-thellend-fortin-architectes_6.jpg?1723758229",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e457/7259/ed7b/slideshow/the-orford-house-thellend-fortin-architectes_7.jpg?1723758231",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76822e7de4577259ed7b-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7682/2e7d/e457/7259/ed7b/slideshow/the-orford-house-thellend-fortin-architectes_7.jpg?1723758231",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e462/a82a/0218/slideshow/the-orford-house-thellend-fortin-architectes_8.jpg?1723758290",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de462a82a0218-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e462/a82a/0218/slideshow/the-orford-house-thellend-fortin-architectes_8.jpg?1723758290",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7c/slideshow/the-orford-house-thellend-fortin-architectes_17.jpg?1723758232",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76842e7de4577259ed7c-the-orford-house-thellend-fortin-architectes-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7684/2e7d/e457/7259/ed7c/slideshow/the-orford-house-thellend-fortin-architectes_17.jpg?1723758232",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e457/7259/ed83/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-0-1.jpg?1723758268",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76862e7de4577259ed83-the-orford-house-thellend-fortin-architectes-plan-site?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e457/7259/ed83/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-0-1.jpg?1723758268",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e457/7259/ed84/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-1-2.jpg?1723758260",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de4577259ed84-the-orford-house-thellend-fortin-architectes-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e457/7259/ed84/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-1-2.jpg?1723758260",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e45d/df8d/990e/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-2-3.jpg?1723758254",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de45ddf8d990e-the-orford-house-thellend-fortin-architectes-plan-1st-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e45d/df8d/990e/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-2-3.jpg?1723758254",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e457/7259/ed82/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-3-4.jpg?1723758277",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76862e7de4577259ed82-the-orford-house-thellend-fortin-architectes-plan-2nd-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e457/7259/ed82/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-3-4.jpg?1723758277",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e45d/df8d/990c/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-4-5.jpg?1723758236",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76862e7de45ddf8d990c-the-orford-house-thellend-fortin-architectes-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7686/2e7d/e45d/df8d/990c/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-4-5.jpg?1723758236",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e45d/df8d/990d/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-5-6.jpg?1723758245",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de45ddf8d990d-the-orford-house-thellend-fortin-architectes-elevation-01?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e45d/df8d/990d/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-5-6.jpg?1723758245",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e462/a82a/021b/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-6-7.jpg?1723758231",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de462a82a021b-the-orford-house-thellend-fortin-architectes-elevation-02?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e462/a82a/021b/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-6-7.jpg?1723758231",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e462/a82a/021c/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-7-8.jpg?1723758241",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de462a82a021c-the-orford-house-thellend-fortin-architectes-elevation-03?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e462/a82a/021c/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-7-8.jpg?1723758241",
   },
   {
-    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e457/7259/ed85/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-8-9.jpg?1723758229",
     url: "https://www.archdaily.com/1020136/the-orford-house-thellend-fortin-architectes/66be76872e7de4577259ed85-the-orford-house-thellend-fortin-architectes-elevation-04?next_project=no",
+    src: "https://images.adsttc.com/media/images/66be/7687/2e7d/e457/7259/ed85/slideshow/76bb0bd9-f101-465f-9ed5-22e53ce68e71-8-9.jpg?1723758229",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis4.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis2.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis1.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/files/uploads/projekty/31_Kolumna/vis3.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_be7c3a37e46cd1b8642db0dda8e8b5ed_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_7c791d3e10b22ad70b89278296bb97ea_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_877c3fca923d10875686e5ccd151cf17_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_6e098e7b25d69e05603902e39dde80be_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_8a3b7e254f063097b080f3b57b53ce9a_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_7dae9482410ba5f6d3cf0146981eb436_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_ce9a3e8dcad0bb371e5b9356cb371e80_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_28149038d8b4e07d47ad3b82a8634ddf_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_b63b369d9f03c555e9b79605f754050a_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_4bd8d475b16671273cb34a47862a7b67_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_2e381905ac7e0de56a08f08caa511486_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
+    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
     src: "https://a-88.pl/uploads/galerie/galerie_f41002a5fa085d271053404220be37a9_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
   },
   {
-    src: "https://a-88.pl/uploads/galerie/galerie_f41002a5fa085d271053404220be37a9_galerie.jpg",
-    url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
-  },
-  {
-    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_4.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
+    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_4.jpg",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_14.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_4.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
-  },
-  {
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/dsc_8226-2.jpeg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Moogaa_Studio_dom_w_Warszawie_fot_Pietruszka_Fotografia_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-warszawie-minimalizm-spotyka-sie-tu-z-przytulnym-stylem-japandi",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_13.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_14.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/rodzinny-dom-w-izabelinie-wlasciciele-chcieli-by-wnetrze-wypelnil-blekit",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505366_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505258_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505291_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505350_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505270_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505375_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505322_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505390_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505162_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505174_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505183_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505209_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505244_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505468_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
     src: "https://label-magazine.com/images/article/2024/09-wrzesien/Tom_Kurek_TS505497_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/spokoj-odnaleziony-w-szarosciach-elegancki-apartament-tuz-przy-lazienkach-krolewskich",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/08-sierpien/002____Tom_Kurek_TS403071_321_2048.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
-  },
-  {
     src: "https://label-magazine.com/images/article/2024/08-sierpien/002____Tom_Kurek_TS403071_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/014____Tom_Kurek_TS309033_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/015____Tom_Kurek_TS403176_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/060____Tom_Kurek_TS309053_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/001____Tom_Kurek_TS309030_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/028____Tom_Kurek_TS309002_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/039____Tom_Kurek_TS403014_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/038____Tom_Kurek_TS309010_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/025____Tom_Kurek_TS403235_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/056____Tom_Kurek_TS403284_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/051____Tom_Kurek_TS403260_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/037____Tom_Kurek_TS402994_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/016____Tom_Kurek_TS403181_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/055____Tom_Kurek_TS309050_321_2048.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/black-amber-na-mokotowie-luksusowy-apartament-dla-wymagajacych",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404741_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404685_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404929_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404860_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404770_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404821_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS309219_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404833_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404559_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
     src: "https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404620_321.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nowoczesny-dom-na-kaszubach-jego-wnetrze-urzeka-harmonia",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_13.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/deer_design.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_14.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/Deer_Design_apartament_kobiecy_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/elegancja-i-sila-kobiecosci-apartament-pelen-kontrastow-projektu-deer-design",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
     src: "https://label-magazine.com/images/article/2024/07-lipiec/ATO_moodauthors_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/ato-w-krakowie-kreatywna-przestrzen-ktora-pokochaja-fani-japonskiego-minimalizmu",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_new_otw.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
     src: "https://label-magazine.com/images/article/2024/06-czerwiec/Luumo_Studio_warszawa_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/domowa-przystan-pelna-ciepla-mieszkanie-w-warszawie-dla-pasjonatow-zeglarstwa-i-podrozy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_13.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
     src: "https://label-magazine.com/images/article/2024/05-maj/Kohlrabi_So_Wrocaw_fot_Stanisaw_Zajczkowski_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/retro-klimat-w-nowym-budownictwie-neutralne-kolory-przelamuje-tu-gra-faktur",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/aranacja_cian.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/kennedy_nolan_architects_oak_house_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/JoannaSedzicka_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/JS_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/bosko_DP_kroniki_16_3000.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/migdal_razoo_s_04.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/migdal_razoo_s_15.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/MGajda_Skawinska_ONI_Studio_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
     src: "https://label-magazine.com/images/article/2024/05-maj/AHolgar_AvianApartment_15.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/nie-tylko-farba-i-cegla-7-modnych-pomyslow-na-aranzacje-sciany",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-11.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
+    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-11.jpg",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-18.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-15.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-13.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-14.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-01.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-02.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-04.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-05.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-11.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
-  },
-  {
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-09.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-08.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-06.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
     src: "https://label-magazine.com/images/article/2024/05-maj/projectica-denisa-strmiskova-studio-cottage-two-sisters-kubicek-studio-07.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/uroczy-domek-w-gorach-izerskich-jego-wnetrze-to-miks-tradycji-i-skandynawskiej-prostoty",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_16.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_15.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_18.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_19.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
     src: "https://label-magazine.com/images/article/2024/05-maj/Dzen_House_shovk_studio_17.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/dom-stworzony-do-medytacji-jego-wnetrze-inspirowane-bylo-sztuka-zen-i-japonskim-minimalizmem",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/Torga.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/15_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/1_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/5_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/6_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/12_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/31_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/32_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/29_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/24_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/20_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/28_Dariusz-Jarzbek_Beige-Apartment_2048px.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/minimalistyczne-mieszkanie-w-stylu-japandi-to-kopalnia-inspiracji-dla-fanow-naturalnych-wnetrz",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_9.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
+    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_9.jpg",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_9.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
-  },
-  {
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
     src: "https://label-magazine.com/images/article/2024/04-kwiecien/Pracownia_Gusta_fot_Pietruszka_Fotografia_13.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-lodzi-dla-rodziny-z-dwojka-dzieci-przytulna-przestrzen-z-nuta-boho",
   },
   {
-    src: "https://label-magazine.com/images/PIM_Concept_Krakw_13.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
+    src: "https://label-magazine.com/images/PIM_Concept_Krakw_13.jpg",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
     src: "https://label-magazine.com/images/PIM_Concept_Krakw_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
     src: "https://label-magazine.com/images/PIM_Concept_Krakw_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
   },
   {
-    src: "https://label-magazine.com/images/PIM_Concept_Krakw_13.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
-  },
-  {
     src: "https://label-magazine.com/images/PIM_Concept_Krakw_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
     src: "https://label-magazine.com/images/PIM_Concept_Krakw_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
     src: "https://label-magazine.com/images/PIM_Concept_Krakw_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
     src: "https://label-magazine.com/images/PIM_Concept_Krakw_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
     src: "https://label-magazine.com/images/PIM_Concept_Krakw_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mieszkanie-w-sercu-krakowa-spokoju-dodaja-mu-barwy-ziemi-i-naturalne-materialy",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Joanna_Sedzicka_FollowTheFlow.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/JoannaSedzicka_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/JoannaSedzicka_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/JoannaSedzicka_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/JoannaSedzicka_FollowTheFlow_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/JoannaSedzicka_13.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
     src: "https://label-magazine.com/images/article/2024/03-marzec/JS_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/warszawski-apartament-w-ktorym-odpoczywaja-zmysly",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_14.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_15.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_9.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_1.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_13.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_17.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Agata_Melerska_Dom_na_Mazurach_fot_Maria_Miklaszewska_16.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/mazurski-dom-architektki-agaty-melerskiej-spokoj-odnaleziony-w-stuletnim-siedlisku",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_15.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
+    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_15.jpg",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
-    src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_15.jpg",
     url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
-  },
-  {
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_12.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_5.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_11.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
     src: "https://label-magazine.com/images/article/2024/03-marzec/Framuga_Studio_14.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/subtelne-mieszkanie-na-pradze-polnoc-to-dzielo-framuga-studio",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_10.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_8.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_7.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_3.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_2.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_6.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
     src: "https://label-magazine.com/images/article/2024/02-luty/Wzorcownia_4.jpg",
-    url: "https://label-magazine.com/wnetrza/artykuly/funkcjonalne-mieszkanie-o-powierzchni-50-m2-mieszka-w-nim-para-z-dwojka-dzieci",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
     src: "https://rmkarchitektura.pl/static/8c3fc81eab8caef8ebaf04dade2280e5/50fbd/post_mor_6_ps_poprawiona_kadr.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
     src: "https://rmkarchitektura.pl/static/a8ffd81d98ff3b12a33a131acb241d20/dc2c7/post_mor_5_ps_poprawiona.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
     src: "https://rmkarchitektura.pl/static/9474ec2f375d04bb7b12f73db6d00dce/0daa0/post_mor_2_ps_poprawiona-elewacja_3.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-z-patio/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/55bca8d85d2b3b0f2c1d73e211ed1af1/b0442/post_view02a.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/ecd5fe08b3036423b6286f3da4de1d73/5c820/pzt_kwadrat.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/a730829bece6587ee549ca26df055541/b0442/post_view03a.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/73cb2386141a23f2cfdda20532c67a11/5c820/lez_parter.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/1a93a57bf2f62e2d50112c4f1fad8b84/5c820/lez_pietro.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/f11f03b43ae4e67d2c20b3060a0ecd7e/8dfe7/2_final.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/996b36e582f0e5f091630fd1124f20c5/cfd04/1_final.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/ff244c94bcb6fb17a7c14af1cbbcdacd/5c820/lez_przekroja-a.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/369bc6a7828bcf81db7925a51845db66/5c820/lez_przekrojb-b.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/0faf143358b294261d851552a8cf040b/8dfe7/3_final.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
     src: "https://rmkarchitektura.pl/static/d30b916e89880a54b5ada3d2f2a38ef7/b0442/post_view01a.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-przy-pastwisku/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
     src: "https://rmkarchitektura.pl/static/641ccc372390bf593206094e94c5338d/128f9/post_suchy-las_1_ps_01.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
     src: "https://rmkarchitektura.pl/static/6b6cc64fdf22d787bc3b8f7f45a2cd11/64d42/post_suchy-las_4_ps.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
     src: "https://rmkarchitektura.pl/static/13b7f38a92f1a266ca66df657a2ae81c/128f9/post_suchy-las_3_ps_desat.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
     src: "https://rmkarchitektura.pl/static/10a314577ea610ac501576e119e12695/128f9/post_suchy-las_2_ps_01.avif",
-    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
   },
   {
+    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
     src: "https://rmkarchitektura.pl/static/b3933f0b797110bc85c80a3f0536395e/idea-05-01-01-01_rgb.jpg",
-    url: "https://rmkarchitektura.pl/projekty/dom-w-suchym-lesie/",
   },
   {
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
     src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_4936-5-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
   },
   {
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
     src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5037-13-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
   },
   {
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
     src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5123-19-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
   },
   {
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
     src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5128-20-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
   },
   {
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
     src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_4912-2-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
   },
   {
+    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
     src: "https://studiodemateria.com/wp-content/uploads/2024/07/De_Materia_%C2%A9_ONI_Studio_5113-17-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/kawalerka-w-poznaniu/",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9645-69-66-1920x1536.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/karpacz-_ONI9519-24-32-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9215-5-1-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9655-1-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9112-1-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9722-36-42-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9648-1-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9961-54-52-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9158-2-16-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9840-43-45-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9191-3-17-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9635-30-6-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9484-68-65-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9630-29-36-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9654-33-40-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9742-37-7-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9450-20-29-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9710-34-39-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9640-31-37-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9721-35-41-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9922-51-49-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9728-70-68-1536x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0027-4-56-53-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0004-12-12-23-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0059-55-51-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0043-67-64-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0014-8-58-55-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0004-17-60-57-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI-0043-2-57-54-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9903-49-13-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9892-47-12-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9880-46-47-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9874-44-46-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9473-21-30-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9502-23-31-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9744-38-8-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9328-14-25-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9365-16-26-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9783-40-44-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/ONI9426-18-27-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/karpacz-rzut2-1920x1920.png",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/karpacz-rzut1-1920x1396.png",
-    url: "https://studiodemateria.com/projekty/wilcza-for-rest-2020/galeria/#img-755",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl25-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl21-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl19-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl24-1920x1080.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl05-1920x1080.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl23-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl02-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl01-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl06-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl22-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl04-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl03-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl12-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl14-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl15-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl11-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl13-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-898",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl07-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl08-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl09-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl17-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl18-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/kl16-1280x1920.jpg",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
   },
   {
+    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
     src: "https://studiodemateria.com/wp-content/uploads/2022/08/przebudowa_rzut_parter-1920x1357.png",
-    url: "https://studiodemateria.com/projekty/przebudowa-domu-jednorodzinnego-kl-2021/galeria/#img-872",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv227-1920x1281.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv228-1920x1281.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv218-1920x1287.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv201-1284x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv206-1281x1920.jpeg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv226-1920x1284.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv223-1277x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv221-1920x1282.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv222-1920x1280.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv219-1920x1289.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv220-1920x1282.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv224-1920x1281.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv202-1280x1920.jpeg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv217-1282x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv216-1920x1281.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv215-1282x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv214-1282x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv213-1920x1281.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv211-1920x1284.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv207-1920x1281.jpeg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv212-1282x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv209-1920x1279.jpg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv205-1281x1920.jpeg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv204-1281x1920.jpeg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv203-1281x1920.jpeg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv208-1281x1920.jpeg",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jasnarola_rzut_piwnica-1-1492x1920.png",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jasnarola_rzut_parter-1-1492x1920.png",
-    url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-13-26-05_1_wejscie-1920x1080.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-48-29_1_wejscie_kwadrat-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-51-10_5_patio-kwadrat-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-13-30-32_3b_kwadrat-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-53-18_4_patio_kwadrat_p-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-13-44-38_11_int-kwadrat_p-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-41-54_3_patio-1920x1080.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-17-49_7_back-1920x1080.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-16-51_9_kwadrat-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-24-00_10_kwadrat_d-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-44-17_10_kwadrat_p-1920x1920.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
     src: "https://studiodemateria.com/wp-content/uploads/2023/03/Enscape_2023-03-06-14-34-26_6_bok-1920x1080.jpg",
-    url: "https://studiodemateria.com/projekty/dom-na-lace-2023/galeria/#img-1098",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_4.jpg",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_3.jpg",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_2.jpg",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_8.jpg",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_7.jpg",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_6.jpg",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_5.jpg",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
+    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_rzut_parter-1920x1358.png",
-    url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
   },
   {
-    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_rzut_pietro-1920x1358.png",
     url: "https://studiodemateria.com/projekty/dom-wawer-2022/galeria/#img-246",
+    src: "https://studiodemateria.com/wp-content/uploads/2022/07/wawer_rzut_pietro-1920x1358.png",
   },
   {
     url: "https://www.wydmy.studio/",
@@ -3130,820 +3958,808 @@ export const inspirations = [
     src: "https://lh3.googleusercontent.com/U4oK2fdSXRjw2egL8D1F9YTrxypV1WyopcIslraXjhTeQrvT28Lz2jd6sr-ZGl8-elkmnAvwcxrT1wqLWaryEyeTpdjZgfQ=s1600",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b24/f2f1/3e43/3bad/753f/slideshow/mp-ii-house-kruk-architekci_1.jpg?1707498289",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b24f2f13e433bad753f-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b24/f2f1/3e43/3bad/753f/slideshow/mp-ii-house-kruk-architekci_1.jpg?1707498289",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b2c/f2f1/3e43/3bad/7541/slideshow/mp-ii-house-kruk-architekci_4.jpg?1707498303",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b2cf2f13e433bad7541-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b2c/f2f1/3e43/3bad/7541/slideshow/mp-ii-house-kruk-architekci_4.jpg?1707498303",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b05/f2f1/3e43/3bad/7537/slideshow/mp-ii-house-kruk-architekci_2.jpg?1707498264",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b05f2f13e433bad7537-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b05/f2f1/3e43/3bad/7537/slideshow/mp-ii-house-kruk-architekci_2.jpg?1707498264",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b11/b451/ce7a/fd95/64a8/slideshow/mp-ii-house-kruk-architekci_6.jpg?1707498276",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b11b451ce7afd9564a8-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b11/b451/ce7a/fd95/64a8/slideshow/mp-ii-house-kruk-architekci_6.jpg?1707498276",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b0c/f2f1/3e43/3bad/7538/slideshow/mp-ii-house-kruk-architekci_16.jpg?1707498270",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b0cf2f13e433bad7538-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b0c/f2f1/3e43/3bad/7538/slideshow/mp-ii-house-kruk-architekci_16.jpg?1707498270",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b20/b451/ce7a/fd95/64ab/slideshow/mp-ii-house-kruk-architekci_7.jpg?1707498288",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b20b451ce7afd9564ab-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b20/b451/ce7a/fd95/64ab/slideshow/mp-ii-house-kruk-architekci_7.jpg?1707498288",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b19/f2f1/3e43/3bad/753c/slideshow/mp-ii-house-kruk-architekci_5.jpg?1707498285",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b19f2f13e433bad753c-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b19/f2f1/3e43/3bad/753c/slideshow/mp-ii-house-kruk-architekci_5.jpg?1707498285",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b1f/b451/ce7a/fd95/64aa/slideshow/mp-ii-house-kruk-architekci_9.jpg?1707498288",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b1fb451ce7afd9564aa-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b1f/b451/ce7a/fd95/64aa/slideshow/mp-ii-house-kruk-architekci_9.jpg?1707498288",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b18/f2f1/3e43/3bad/753b/slideshow/mp-ii-house-kruk-architekci_3.jpg?1707498281",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b18f2f13e433bad753b-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b18/f2f1/3e43/3bad/753b/slideshow/mp-ii-house-kruk-architekci_3.jpg?1707498281",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b1b/f2f1/3e43/3bad/753d/slideshow/mp-ii-house-kruk-architekci_8.jpg?1707498284",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b1bf2f13e433bad753d-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b1b/f2f1/3e43/3bad/753d/slideshow/mp-ii-house-kruk-architekci_8.jpg?1707498284",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b1f/f2f1/3e43/3bad/753e/slideshow/mp-ii-house-kruk-architekci_10.jpg?1707498288",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b1ff2f13e433bad753e-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b1f/f2f1/3e43/3bad/753e/slideshow/mp-ii-house-kruk-architekci_10.jpg?1707498288",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b0d/f2f1/3e43/3bad/7539/slideshow/mp-ii-house-kruk-architekci_11.jpg?1707498271",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b0df2f13e433bad7539-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b0d/f2f1/3e43/3bad/7539/slideshow/mp-ii-house-kruk-architekci_11.jpg?1707498271",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b0c/b451/ce7a/fd95/64a7/slideshow/mp-ii-house-kruk-architekci_12.jpg?1707498271",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b0cb451ce7afd9564a7-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b0c/b451/ce7a/fd95/64a7/slideshow/mp-ii-house-kruk-architekci_12.jpg?1707498271",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b18/b451/ce60/5f52/f718/slideshow/mp-ii-house-kruk-architekci_13.jpg?1707498283",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b18b451ce605f52f718-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b18/b451/ce60/5f52/f718/slideshow/mp-ii-house-kruk-architekci_13.jpg?1707498283",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b11/f2f1/3e43/3bad/753a/slideshow/mp-ii-house-kruk-architekci_14.jpg?1707498275",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b11f2f13e433bad753a-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b11/f2f1/3e43/3bad/753a/slideshow/mp-ii-house-kruk-architekci_14.jpg?1707498275",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b14/b451/ce7a/fd95/64a9/slideshow/mp-ii-house-kruk-architekci_15.jpg?1707498280",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b14b451ce7afd9564a9-mp-ii-house-kruk-architekci-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b14/b451/ce7a/fd95/64a9/slideshow/mp-ii-house-kruk-architekci_15.jpg?1707498280",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b26/f2f1/3e43/3bad/7540/slideshow/0-1.jpg?1707498320",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b26f2f13e433bad7540-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b26/f2f1/3e43/3bad/7540/slideshow/0-1.jpg?1707498320",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b38/b451/ce7a/fd95/64ae/slideshow/el-2-2.jpg?1707498346",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b38b451ce7afd9564ae-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b38/b451/ce7a/fd95/64ae/slideshow/el-2-2.jpg?1707498346",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b2c/b451/ce7a/fd95/64ac/slideshow/el-3-3.jpg?1707498335",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b2cb451ce7afd9564ac-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b2c/b451/ce7a/fd95/64ac/slideshow/el-3-3.jpg?1707498335",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b38/f2f1/3e43/3bad/7545/slideshow/el-4-4.jpg?1707498345",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b38f2f13e433bad7545-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b38/f2f1/3e43/3bad/7545/slideshow/el-4-4.jpg?1707498345",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b30/f2f1/3e43/3bad/7542/slideshow/el1-5.jpg?1707498339",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b30f2f13e433bad7542-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b30/f2f1/3e43/3bad/7542/slideshow/el1-5.jpg?1707498339",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b3a/b451/ce7a/fd95/64af/slideshow/r-6.jpg?1707498346",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b3ab451ce7afd9564af-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b3a/b451/ce7a/fd95/64af/slideshow/r-6.jpg?1707498346",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b40/b451/ce7a/fd95/64b0/slideshow/s-1-7.jpg?1707498360",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b40b451ce7afd9564b0-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b40/b451/ce7a/fd95/64b0/slideshow/s-1-7.jpg?1707498360",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b33/f2f1/3e43/3bad/7543/slideshow/s-2-8.jpg?1707498345",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b33f2f13e433bad7543-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b33/f2f1/3e43/3bad/7543/slideshow/s-2-8.jpg?1707498345",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b37/f2f1/3e43/3bad/7544/slideshow/sch-1-9.jpg?1707498336",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b37f2f13e433bad7544-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b37/f2f1/3e43/3bad/7544/slideshow/sch-1-9.jpg?1707498336",
   },
   {
-    src: "https://images.adsttc.com/media/images/65c6/5b38/b451/ce7a/fd95/64ad/slideshow/sch-2-10.jpg?1707498336",
     url: "https://www.archdaily.com/1013226/mp-ii-house-kruk-architekci/65c65b38b451ce7afd9564ad-mp-ii-house-kruk-architekci-?next_project=no",
+    src: "https://images.adsttc.com/media/images/65c6/5b38/b451/ce7a/fd95/64ad/slideshow/sch-2-10.jpg?1707498336",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a05c/8c33/f448/8681/abee/slideshow/multi-gable-house-bkm-group_11.jpg?1671733457",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a05c8c33f4488681abee-multi-gable-house-bkm-group-photo",
+    src: "https://images.adsttc.com/media/images/63a4/a05c/8c33/f448/8681/abee/slideshow/multi-gable-house-bkm-group_11.jpg?1671733457",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a043/8c33/f419/6a96/4924/slideshow/multi-gable-house-bkm-group_8.jpg?1671733374",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0438c33f4196a964924-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a043/8c33/f419/6a96/4924/slideshow/multi-gable-house-bkm-group_8.jpg?1671733374",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a067/8c33/f419/6a96/492b/slideshow/multi-gable-house-bkm-group_13.jpg?1671733420",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0678c33f4196a96492b-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a067/8c33/f419/6a96/492b/slideshow/multi-gable-house-bkm-group_13.jpg?1671733420",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a068/8c33/f419/6a96/492c/slideshow/multi-gable-house-bkm-group_21.jpg?1671733405",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0688c33f4196a96492c-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a068/8c33/f419/6a96/492c/slideshow/multi-gable-house-bkm-group_21.jpg?1671733405",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a047/8c33/f419/6a96/4925/slideshow/multi-gable-house-bkm-group_18.jpg?1671733372",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0478c33f4196a964925-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a047/8c33/f419/6a96/4925/slideshow/multi-gable-house-bkm-group_18.jpg?1671733372",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a026/6c62/5701/701f/b50d/slideshow/multi-gable-house-bkm-group_1.jpg?1671733340",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0266c625701701fb50d-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a026/6c62/5701/701f/b50d/slideshow/multi-gable-house-bkm-group_1.jpg?1671733340",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a03e/6c62/5701/701f/b510/slideshow/multi-gable-house-bkm-group_10.jpg?1671733371",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a03e6c625701701fb510-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a03e/6c62/5701/701f/b510/slideshow/multi-gable-house-bkm-group_10.jpg?1671733371",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a049/6c62/5701/701f/b511/slideshow/multi-gable-house-bkm-group_12.jpg?1671733396",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0496c625701701fb511-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a049/6c62/5701/701f/b511/slideshow/multi-gable-house-bkm-group_12.jpg?1671733396",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a053/8c33/f419/6a96/4927/slideshow/multi-gable-house-bkm-group_14.jpg?1671733381",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0538c33f4196a964927-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a053/8c33/f419/6a96/4927/slideshow/multi-gable-house-bkm-group_14.jpg?1671733381",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a067/8c33/f448/8681/abef/slideshow/multi-gable-house-bkm-group_15.jpg?1671733400",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0678c33f4488681abef-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a067/8c33/f448/8681/abef/slideshow/multi-gable-house-bkm-group_15.jpg?1671733400",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a069/6c62/5701/701f/b51a/slideshow/multi-gable-house-bkm-group_17.jpg?1671733416",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0696c625701701fb51a-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a069/6c62/5701/701f/b51a/slideshow/multi-gable-house-bkm-group_17.jpg?1671733416",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a04f/6c62/5701/701f/b512/slideshow/multi-gable-house-bkm-group_16.jpg?1671733385",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a04f6c625701701fb512-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a04f/6c62/5701/701f/b512/slideshow/multi-gable-house-bkm-group_16.jpg?1671733385",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a068/6c62/5701/701f/b519/slideshow/multi-gable-house-bkm-group_19.jpg?1671733408",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0686c625701701fb519-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a068/6c62/5701/701f/b519/slideshow/multi-gable-house-bkm-group_19.jpg?1671733408",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a03f/8c33/f419/6a96/4923/slideshow/multi-gable-house-bkm-group_2.jpg?1671733366",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a03f8c33f4196a964923-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a03f/8c33/f419/6a96/4923/slideshow/multi-gable-house-bkm-group_2.jpg?1671733366",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a061/8c33/f419/6a96/492a/slideshow/multi-gable-house-bkm-group_20.jpg?1671733402",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0618c33f4196a96492a-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a061/8c33/f419/6a96/492a/slideshow/multi-gable-house-bkm-group_20.jpg?1671733402",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a057/6c62/5701/701f/b514/slideshow/multi-gable-house-bkm-group_22.jpg?1671733390",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0576c625701701fb514-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a057/6c62/5701/701f/b514/slideshow/multi-gable-house-bkm-group_22.jpg?1671733390",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a067/6c62/5701/701f/b518/slideshow/multi-gable-house-bkm-group_23.jpg?1671733402",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0676c625701701fb518-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a067/6c62/5701/701f/b518/slideshow/multi-gable-house-bkm-group_23.jpg?1671733402",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a060/6c62/5701/701f/b516/slideshow/multi-gable-house-bkm-group_24.jpg?1671733398",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0606c625701701fb516-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a060/6c62/5701/701f/b516/slideshow/multi-gable-house-bkm-group_24.jpg?1671733398",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a06a/6c62/5701/701f/b51b/slideshow/multi-gable-house-bkm-group_25.jpg?1671733409",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a06a6c625701701fb51b-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a06a/6c62/5701/701f/b51b/slideshow/multi-gable-house-bkm-group_25.jpg?1671733409",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a05c/6c62/5701/701f/b515/slideshow/multi-gable-house-bkm-group_26.jpg?1671733394",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a05c6c625701701fb515-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a05c/6c62/5701/701f/b515/slideshow/multi-gable-house-bkm-group_26.jpg?1671733394",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a050/6c62/5701/701f/b513/slideshow/multi-gable-house-bkm-group_5.jpg?1671733394",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0506c625701701fb513-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a050/6c62/5701/701f/b513/slideshow/multi-gable-house-bkm-group_5.jpg?1671733394",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a03c/6c62/5701/701f/b50f/slideshow/multi-gable-house-bkm-group_3.jpg?1671733372",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a03c6c625701701fb50f-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a03c/6c62/5701/701f/b50f/slideshow/multi-gable-house-bkm-group_3.jpg?1671733372",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a026/8c33/f448/8681/abed/slideshow/multi-gable-house-bkm-group_4.jpg?1671733346",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0268c33f4488681abed-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a026/8c33/f448/8681/abed/slideshow/multi-gable-house-bkm-group_4.jpg?1671733346",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a02b/6c62/5701/701f/b50e/slideshow/multi-gable-house-bkm-group_6.jpg?1671733346",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a02b6c625701701fb50e-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a02b/6c62/5701/701f/b50e/slideshow/multi-gable-house-bkm-group_6.jpg?1671733346",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a04f/8c33/f419/6a96/4926/slideshow/multi-gable-house-bkm-group_7.jpg?1671733397",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a04f8c33f4196a964926-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a04f/8c33/f419/6a96/4926/slideshow/multi-gable-house-bkm-group_7.jpg?1671733397",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/a064/6c62/5701/701f/b517/slideshow/multi-gable-house-bkm-group_9.jpg?1671733404",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a4a0646c625701701fb517-multi-gable-house-bkm-group-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/a064/6c62/5701/701f/b517/slideshow/multi-gable-house-bkm-group_9.jpg?1671733404",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/9f90/6c62/5701/701f/b505/slideshow/001-site-plan-bkm-group-1.jpg?1671733171",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f906c625701701fb505-multi-gable-house-bkm-group-plan-site?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/9f90/6c62/5701/701f/b505/slideshow/001-site-plan-bkm-group-1.jpg?1671733171",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/9f8d/8c33/f419/6a96/4922/slideshow/002-ground-floor-plan-bkm-group-2.jpg?1671733170",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8d8c33f4196a964922-multi-gable-house-bkm-group-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/9f8d/8c33/f419/6a96/4922/slideshow/002-ground-floor-plan-bkm-group-2.jpg?1671733170",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/9f8c/8c33/f419/6a96/4921/slideshow/003-first-floor-plan-bkm-group-3.jpg?1671733158",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8c8c33f4196a964921-multi-gable-house-bkm-group-plan-1st-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/9f8c/8c33/f419/6a96/4921/slideshow/003-first-floor-plan-bkm-group-3.jpg?1671733158",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/9f8c/6c62/5701/701f/b504/slideshow/003-section-ii-bkm-group-4.jpg?1671733186",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8c6c625701701fb504-multi-gable-house-bkm-group-section-i-i?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/9f8c/6c62/5701/701f/b504/slideshow/003-section-ii-bkm-group-4.jpg?1671733186",
   },
   {
-    src: "https://images.adsttc.com/media/images/63a4/9f8c/6c62/5701/701f/b503/slideshow/004-section-aa-bkm-group-5.jpg?1671733153",
     url: "https://www.archdaily.com/994165/multi-gable-house-bkm-group/63a49f8c6c625701701fb503-multi-gable-house-bkm-group-section-a-a?next_project=no",
+    src: "https://images.adsttc.com/media/images/63a4/9f8c/6c62/5701/701f/b503/slideshow/004-section-aa-bkm-group-5.jpg?1671733153",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/043b/63c0/177b/1600/01e0/slideshow/_ONI9615-28-35.jpg?1603142695",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e043b63c0177b160001e0-apartments-in-wolf-clearing-studio-dateria-photo",
+    src: "https://images.adsttc.com/media/images/5f8e/043b/63c0/177b/1600/01e0/slideshow/_ONI9615-28-35.jpg?1603142695",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0109/63c0/177b/1600/01ce/slideshow/_ONI9112-1.jpg?1603141878",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e010963c0177b160001ce-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0109/63c0/177b/1600/01ce/slideshow/_ONI9112-1.jpg?1603141878",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/083d/63c0/177b/1600/01f9/slideshow/ONI-0004-17-60-57.jpg?1603143722",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e083d63c0177b160001f9-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/083d/63c0/177b/1600/01f9/slideshow/ONI-0004-17-60-57.jpg?1603143722",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0826/63c0/1713/1a00/01b0/slideshow/_ONI9840-43-45.jpg?1603143702",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e082663c017131a0001b0-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0826/63c0/1713/1a00/01b0/slideshow/_ONI9840-43-45.jpg?1603143702",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/054d/63c0/177b/1600/01e7/slideshow/_ONI9640-31-37.jpg?1603142970",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e054d63c0177b160001e7-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/054d/63c0/177b/1600/01e7/slideshow/_ONI9640-31-37.jpg?1603142970",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0682/63c0/177b/1600/01ed/slideshow/_ONI9728-70-68.jpg?1603143280",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e068263c0177b160001ed-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0682/63c0/177b/1600/01ed/slideshow/_ONI9728-70-68.jpg?1603143280",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0452/63c0/1713/1a00/0195/slideshow/_ONI9623-1.jpg?1603142719",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e045263c017131a000195-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0452/63c0/1713/1a00/0195/slideshow/_ONI9623-1.jpg?1603142719",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/051a/63c0/177b/1600/01e5/slideshow/_ONI9630-29-36.jpg?1603142919",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e051a63c0177b160001e5-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/051a/63c0/177b/1600/01e5/slideshow/_ONI9630-29-36.jpg?1603142919",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0751/63c0/1713/1a00/01a8/slideshow/_ONI9744-38-8.jpg?1603143491",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e075163c017131a0001a8-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0751/63c0/1713/1a00/01a8/slideshow/_ONI9744-38-8.jpg?1603143491",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/01a8/63c0/177b/1600/01d6/slideshow/_ONI9215-5-1.jpg?1603142040",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e01a863c0177b160001d6-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/01a8/63c0/177b/1600/01d6/slideshow/_ONI9215-5-1.jpg?1603142040",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/02f1/63c0/177b/1600/01dc/slideshow/_ONI9484-68-65.jpg?1603142362",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e02f163c0177b160001dc-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/02f1/63c0/177b/1600/01dc/slideshow/_ONI9484-68-65.jpg?1603142362",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0655/63c0/177b/1600/01eb/slideshow/_ONI9645-69-66.jpg?1603143236",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e065563c0177b160001eb-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0655/63c0/177b/1600/01eb/slideshow/_ONI9645-69-66.jpg?1603143236",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/030d/63c0/177b/1600/01de/slideshow/_ONI9519-24-32.jpg?1603142387",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e030d63c0177b160001de-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/030d/63c0/177b/1600/01de/slideshow/_ONI9519-24-32.jpg?1603142387",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/011b/63c0/1713/1a00/017f/slideshow/_ONI9158-2-16.jpg?1603141898",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e011b63c017131a00017f-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/011b/63c0/1713/1a00/017f/slideshow/_ONI9158-2-16.jpg?1603141898",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/026a/63c0/1713/1a00/0187/slideshow/_ONI9345-15-3.jpg?1603142234",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e026a63c017131a000187-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/026a/63c0/1713/1a00/0187/slideshow/_ONI9345-15-3.jpg?1603142234",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/09e8/63c0/177b/1600/020f/slideshow/ONI-0059-55-51.jpg?1603144148",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e09e863c0177b1600020f-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/09e8/63c0/177b/1600/020f/slideshow/ONI-0059-55-51.jpg?1603144148",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0906/63c0/177b/1600/0203/slideshow/ONI-0043-2-57-54.jpg?1603143926",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e090663c0177b16000203-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0906/63c0/177b/1600/0203/slideshow/ONI-0043-2-57-54.jpg?1603143926",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/099a/63c0/177b/1600/020b/slideshow/ONI-0043-67-64.jpg?1603144072",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e099a63c0177b1600020b-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/099a/63c0/177b/1600/020b/slideshow/ONI-0043-67-64.jpg?1603144072",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0763/63c0/177b/1600/01f3/slideshow/_ONI9759-39.jpg?1603143508",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e076363c0177b160001f3-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0763/63c0/177b/1600/01f3/slideshow/_ONI9759-39.jpg?1603143508",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/08ba/63c0/177b/1600/01ff/slideshow/ONI-0017-5-11-22.jpg?1603143851",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e08ba63c0177b160001ff-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/08ba/63c0/177b/1600/01ff/slideshow/ONI-0017-5-11-22.jpg?1603143851",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/01f1/63c0/177b/1600/01d8/slideshow/_ONI9285-63-60.jpg?1603142114",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e01f163c0177b160001d8-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/01f1/63c0/177b/1600/01d8/slideshow/_ONI9285-63-60.jpg?1603142114",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8e/0256/63c0/177b/1600/01da/slideshow/_ONI9296-65-62.jpg?1603142213",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8e025663c0177b160001da-apartments-in-wolf-clearing-studio-dateria-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8e/0256/63c0/177b/1600/01da/slideshow/_ONI9296-65-62.jpg?1603142213",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/f9a8/63c0/1713/1a00/0159/slideshow/1.KARPACZ-SITE_PLAN.jpg?1603139980",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8df9a863c017131a000159-apartments-in-wolf-clearing-studio-dateria-site-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/f9a8/63c0/1713/1a00/0159/slideshow/1.KARPACZ-SITE_PLAN.jpg?1603139980",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fa41/63c0/177b/1600/01ae/slideshow/3.KARPACZ-P1.-1_-_basement_plan.jpg?1603140133",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa4163c0177b160001ae-apartments-in-wolf-clearing-studio-dateria-p1-plan-basement?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fa41/63c0/177b/1600/01ae/slideshow/3.KARPACZ-P1.-1_-_basement_plan.jpg?1603140133",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fc0f/63c0/177b/1600/01b6/slideshow/9.KARPACZ-P2.-1_-_basement_plan.jpg?1603140591",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfc0f63c0177b160001b6-apartments-in-wolf-clearing-studio-dateria-p2-plan-basement?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fc0f/63c0/177b/1600/01b6/slideshow/9.KARPACZ-P2.-1_-_basement_plan.jpg?1603140591",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fa63/63c0/1713/1a00/015b/slideshow/4.KARPACZ-P1.00_-_ground_floor_plan.jpg?1603140176",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa6363c017131a00015b-apartments-in-wolf-clearing-studio-dateria-p1-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fa63/63c0/1713/1a00/015b/slideshow/4.KARPACZ-P1.00_-_ground_floor_plan.jpg?1603140176",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fcf4/63c0/1713/1a00/0169/slideshow/10.KARPACZ-P2.00_-_ground_floor_plan.jpg?1603140833",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfcf463c017131a000169-apartments-in-wolf-clearing-studio-dateria-p2-plan-ground-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fcf4/63c0/1713/1a00/0169/slideshow/10.KARPACZ-P2.00_-_ground_floor_plan.jpg?1603140833",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fa78/63c0/177b/1600/01af/slideshow/5.KARPACZ-P1.01_-_first_floor_plan.jpg?1603140199",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa7863c0177b160001af-apartments-in-wolf-clearing-studio-dateria-p1-plan-first-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fa78/63c0/177b/1600/01af/slideshow/5.KARPACZ-P1.01_-_first_floor_plan.jpg?1603140199",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fd5b/63c0/177b/1600/01bb/slideshow/11.KARPACZ-P2.01_-_first_floor_plan.jpg?1603140941",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfd5b63c0177b160001bb-apartments-in-wolf-clearing-studio-dateria-p2-plan-first-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fd5b/63c0/177b/1600/01bb/slideshow/11.KARPACZ-P2.01_-_first_floor_plan.jpg?1603140941",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fa8c/63c0/1713/1a00/015c/slideshow/6.KARPACZ-P1.02_-_second_floor_plan.jpg?1603140221",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfa8c63c017131a00015c-apartments-in-wolf-clearing-studio-dateria-p1-plan-second-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fa8c/63c0/1713/1a00/015c/slideshow/6.KARPACZ-P1.02_-_second_floor_plan.jpg?1603140221",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fe2e/63c0/177b/1600/01bc/slideshow/12.KARPACZ-P2.02_-_second_floor_plan.jpg?1603141146",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfe2e63c0177b160001bc-apartments-in-wolf-clearing-studio-dateria-p2-plan-second-floor?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fe2e/63c0/177b/1600/01bc/slideshow/12.KARPACZ-P2.02_-_second_floor_plan.jpg?1603141146",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/faf3/63c0/177b/1600/01b0/slideshow/7.KARPACZ-P1.03_-_roof_floor_plan.jpg?1603140323",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfaf363c0177b160001b0-apartments-in-wolf-clearing-studio-dateria-p1-plan-roof?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/faf3/63c0/177b/1600/01b0/slideshow/7.KARPACZ-P1.03_-_roof_floor_plan.jpg?1603140323",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/feba/63c0/177b/1600/01c2/slideshow/13.KARPACZ-P2.03_-_roof_floor_plan.jpg?1603141290",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfeba63c0177b160001c2-apartments-in-wolf-clearing-studio-dateria-p2-plan-roof?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/feba/63c0/177b/1600/01c2/slideshow/13.KARPACZ-P2.03_-_roof_floor_plan.jpg?1603141290",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/f9eb/63c0/177b/1600/01ad/slideshow/2.Karpacz.sections.jpg?1603140011",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8df9eb63c0177b160001ad-apartments-in-wolf-clearing-studio-dateria-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/f9eb/63c0/177b/1600/01ad/slideshow/2.Karpacz.sections.jpg?1603140011",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/fb32/63c0/1713/1a00/0161/slideshow/8.KARPACZ-P1._-_section.jpg?1603140379",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dfb3263c017131a000161-apartments-in-wolf-clearing-studio-dateria-section-p1?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/fb32/63c0/1713/1a00/0161/slideshow/8.KARPACZ-P1._-_section.jpg?1603140379",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f8d/ff37/63c0/177b/1600/01c3/slideshow/14.KARPACZ-P2._-_section.jpg?1603141415",
     url: "https://www.archdaily.com/949890/apartments-in-wolf-clearing-studio-dateria/5f8dff3763c0177b160001c3-apartments-in-wolf-clearing-studio-dateria-section-p2?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f8d/ff37/63c0/177b/1600/01c3/slideshow/14.KARPACZ-P2._-_section.jpg?1603141415",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f718/63c0/17fc/5100/02ae/slideshow/IMG_3694a.jpg?1607399181",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef71863c017fc510002ae-single-houses-in-bory-tucholskie-maktudio-photo",
+    src: "https://images.adsttc.com/media/images/5fce/f718/63c0/17fc/5100/02ae/slideshow/IMG_3694a.jpg?1607399181",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f731/63c0/17d8/7500/0202/slideshow/IMG_3696a.jpg?1607399197",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef73163c017d875000202-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f731/63c0/17d8/7500/0202/slideshow/IMG_3696a.jpg?1607399197",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f6b7/63c0/17fc/5100/02a4/slideshow/IMG_3627a.jpg?1607399081",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6b763c017fc510002a4-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f6b7/63c0/17fc/5100/02a4/slideshow/IMG_3627a.jpg?1607399081",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f6c6/63c0/17fc/5100/02a6/slideshow/IMG_3638a.jpg?1607399101",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6c663c017fc510002a6-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f6c6/63c0/17fc/5100/02a6/slideshow/IMG_3638a.jpg?1607399101",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f69a/63c0/17fc/5100/02a2/slideshow/IMG_3509a.jpg?1607399056",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef69a63c017fc510002a2-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f69a/63c0/17fc/5100/02a2/slideshow/IMG_3509a.jpg?1607399056",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f754/63c0/17fc/5100/02b0/slideshow/IMG_3702a.jpg?1607399239",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef75463c017fc510002b0-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f754/63c0/17fc/5100/02b0/slideshow/IMG_3702a.jpg?1607399239",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f778/63c0/17fc/5100/02b4/slideshow/IMG_3719a.jpg?1607399277",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef77863c017fc510002b4-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f778/63c0/17fc/5100/02b4/slideshow/IMG_3719a.jpg?1607399277",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f768/63c0/17fc/5100/02b2/slideshow/IMG_3711a.jpg?1607399258",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef76863c017fc510002b2-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f768/63c0/17fc/5100/02b2/slideshow/IMG_3711a.jpg?1607399258",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f741/63c0/17d8/7500/0204/slideshow/IMG_3697a.jpg?1607399223",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef74163c017d875000204-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f741/63c0/17d8/7500/0204/slideshow/IMG_3697a.jpg?1607399223",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f60a/63c0/17fc/5100/0296/slideshow/IMG_3115a.jpg?1607398913",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef60a63c017fc51000296-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f60a/63c0/17fc/5100/0296/slideshow/IMG_3115a.jpg?1607398913",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f61e/63c0/17fc/5100/0298/slideshow/IMG_3141a.jpg?1607398928",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef61e63c017fc51000298-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f61e/63c0/17fc/5100/0298/slideshow/IMG_3141a.jpg?1607398928",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f632/63c0/17fc/5100/029a/slideshow/IMG_3230a.jpg?1607398948",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef63263c017fc5100029a-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f632/63c0/17fc/5100/029a/slideshow/IMG_3230a.jpg?1607398948",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f63c/63c0/17d8/7500/01f8/slideshow/IMG_3250a.jpg?1607398964",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef63c63c017d8750001f8-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f63c/63c0/17d8/7500/01f8/slideshow/IMG_3250a.jpg?1607398964",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f64f/63c0/17fc/5100/029c/slideshow/IMG_3260a.jpg?1607398977",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef64f63c017fc5100029c-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f64f/63c0/17fc/5100/029c/slideshow/IMG_3260a.jpg?1607398977",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f66d/63c0/17fc/5100/029e/slideshow/IMG_3309a.jpg?1607399011",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef66d63c017fc5100029e-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f66d/63c0/17fc/5100/029e/slideshow/IMG_3309a.jpg?1607399011",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f67b/63c0/17fc/5100/02a0/slideshow/IMG_3434a.jpg?1607399027",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef67b63c017fc510002a0-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f67b/63c0/17fc/5100/02a0/slideshow/IMG_3434a.jpg?1607399027",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f68c/63c0/17d8/7500/01fc/slideshow/IMG_3486a.jpg?1607399038",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef68c63c017d8750001fc-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f68c/63c0/17d8/7500/01fc/slideshow/IMG_3486a.jpg?1607399038",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f6a5/63c0/17d8/7500/01fe/slideshow/IMG_3620a.jpg?1607399068",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6a563c017d8750001fe-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f6a5/63c0/17d8/7500/01fe/slideshow/IMG_3620a.jpg?1607399068",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f6d6/63c0/17d8/7500/0200/slideshow/IMG_3641a.jpg?1607399112",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6d663c017d875000200-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f6d6/63c0/17d8/7500/0200/slideshow/IMG_3641a.jpg?1607399112",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f6e3/63c0/17fc/5100/02a8/slideshow/IMG_3660a.jpg?1607399131",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6e363c017fc510002a8-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f6e3/63c0/17fc/5100/02a8/slideshow/IMG_3660a.jpg?1607399131",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f6f8/63c0/17fc/5100/02aa/slideshow/IMG_3674a.jpg?1607399146",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef6f863c017fc510002aa-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f6f8/63c0/17fc/5100/02aa/slideshow/IMG_3674a.jpg?1607399146",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f707/63c0/17fc/5100/02ac/slideshow/IMG_3677a.jpg?1607399166",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef70763c017fc510002ac-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f707/63c0/17fc/5100/02ac/slideshow/IMG_3677a.jpg?1607399166",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f65f/63c0/17d8/7500/01fa/slideshow/IMG_3267a.jpg?1607398993",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef65f63c017d8750001fa-single-houses-in-bory-tucholskie-maktudio-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f65f/63c0/17d8/7500/01fa/slideshow/IMG_3267a.jpg?1607398993",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f5c8/63c0/17d8/7500/01f6/slideshow/floorplans2.jpg?1607398850",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5c863c017d8750001f6-single-houses-in-bory-tucholskie-maktudio-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f5c8/63c0/17d8/7500/01f6/slideshow/floorplans2.jpg?1607398850",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f5d4/63c0/17d8/7500/01f7/slideshow/scheme.jpg?1607398862",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5d463c017d8750001f7-single-houses-in-bory-tucholskie-maktudio-scheme?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f5d4/63c0/17d8/7500/01f7/slideshow/scheme.jpg?1607398862",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f5b7/63c0/17d8/7500/01f5/slideshow/elevations.jpg?1607398834",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5b763c017d8750001f5-single-houses-in-bory-tucholskie-maktudio-elevations?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f5b7/63c0/17d8/7500/01f5/slideshow/elevations.jpg?1607398834",
   },
   {
-    src: "https://images.adsttc.com/media/images/5fce/f5bf/63c0/17fc/5100/0295/slideshow/floorplans1.jpg?1607398841",
     url: "https://www.archdaily.com/952875/single-houses-in-bory-tucholskie-maktudio/5fcef5bf63c017fc51000295-single-houses-in-bory-tucholskie-maktudio-floor-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/5fce/f5bf/63c0/17fc/5100/0295/slideshow/floorplans1.jpg?1607398841",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/02b7/b357/65ef/3100/005c/slideshow/101.jpg?1595277996",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602b7b35765ef3100005c-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/02b7/b357/65ef/3100/005c/slideshow/101.jpg?1595277996",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0422/b357/65ef/3100/0067/slideshow/115.jpg?1595278359",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160422b35765ef31000067-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0422/b357/65ef/3100/0067/slideshow/115.jpg?1595278359",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/045b/b357/65ef/3100/0068/slideshow/202.jpg?1595278416",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f16045bb35765ef31000068-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/045b/b357/65ef/3100/0068/slideshow/202.jpg?1595278416",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/044b/b357/658b/5b00/0096/slideshow/201.jpg?1595278400",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f16044bb357658b5b000096-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/044b/b357/658b/5b00/0096/slideshow/201.jpg?1595278400",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/03da/b357/658b/5b00/0093/slideshow/112.jpg?1595278285",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603dab357658b5b000093-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/03da/b357/658b/5b00/0093/slideshow/112.jpg?1595278285",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/03fa/b357/658b/5b00/0094/slideshow/114.jpg?1595278319",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603fab357658b5b000094-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/03fa/b357/658b/5b00/0094/slideshow/114.jpg?1595278319",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0324/b357/658b/5b00/0087/slideshow/105.jpg?1595278104",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160324b357658b5b000087-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0324/b357/658b/5b00/0087/slideshow/105.jpg?1595278104",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/02a8/b357/658b/5b00/0083/slideshow/102.jpg?1595277981",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602a8b357658b5b000083-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/02a8/b357/658b/5b00/0083/slideshow/102.jpg?1595277981",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/02e9/b357/658b/5b00/0085/slideshow/103.jpg?1595278046",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602e9b357658b5b000085-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/02e9/b357/658b/5b00/0085/slideshow/103.jpg?1595278046",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/02f8/b357/65ef/3100/005e/slideshow/104.jpg?1595278061",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602f8b35765ef3100005e-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/02f8/b357/65ef/3100/005e/slideshow/104.jpg?1595278061",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0334/b357/65ef/3100/0060/slideshow/106.jpg?1595278121",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160334b35765ef31000060-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0334/b357/65ef/3100/0060/slideshow/106.jpg?1595278121",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0376/b357/658b/5b00/0089/slideshow/108.jpg?1595278187",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160376b357658b5b000089-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0376/b357/658b/5b00/0089/slideshow/108.jpg?1595278187",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0366/b357/65ef/3100/0062/slideshow/107.jpg?1595278172",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160366b35765ef31000062-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0366/b357/65ef/3100/0062/slideshow/107.jpg?1595278172",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/03a6/b357/658b/5b00/0091/slideshow/109.jpg?1595278235",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603a6b357658b5b000091-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/03a6/b357/658b/5b00/0091/slideshow/109.jpg?1595278235",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/03c8/b357/65ef/3100/0064/slideshow/111.jpg?1595278268",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603c8b35765ef31000064-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/03c8/b357/65ef/3100/0064/slideshow/111.jpg?1595278268",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/03b7/b357/658b/5b00/0092/slideshow/110.jpg?1595278252",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603b7b357658b5b000092-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/03b7/b357/658b/5b00/0092/slideshow/110.jpg?1595278252",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/04a1/b357/65ef/3100/006b/slideshow/207.jpg?1595278487",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1604a1b35765ef3100006b-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/04a1/b357/65ef/3100/006b/slideshow/207.jpg?1595278487",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/03e9/b357/65ef/3100/0065/slideshow/113.jpg?1595278301",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1603e9b35765ef31000065-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/03e9/b357/65ef/3100/0065/slideshow/113.jpg?1595278301",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0476/b357/65ef/3100/0069/slideshow/204.jpg?1595278443",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160476b35765ef31000069-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0476/b357/65ef/3100/0069/slideshow/204.jpg?1595278443",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0491/b357/65ef/3100/006a/slideshow/206.jpg?1595278470",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160491b35765ef3100006a-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0491/b357/65ef/3100/006a/slideshow/206.jpg?1595278470",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0483/b357/658b/5b00/0098/slideshow/205.jpg?1595278457",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160483b357658b5b000098-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0483/b357/658b/5b00/0098/slideshow/205.jpg?1595278457",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0468/b357/658b/5b00/0097/slideshow/203.jpg?1595278430",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160468b357658b5b000097-herba-house-pracownia-projectowa-jakub-sucharski-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0468/b357/658b/5b00/0097/slideshow/203.jpg?1595278430",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0314/b357/65ef/3100/005f/slideshow/20200710_HH_T_4.jpg?1595278089",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160314b35765ef3100005f-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0314/b357/65ef/3100/005f/slideshow/20200710_HH_T_4.jpg?1595278089",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/02c9/b357/658b/5b00/0084/slideshow/20200710_HH_T_1.jpg?1595278013",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602c9b357658b5b000084-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/02c9/b357/658b/5b00/0084/slideshow/20200710_HH_T_1.jpg?1595278013",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/02d8/b357/65ef/3100/005d/slideshow/20200710_HH_T_2.jpg?1595278029",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f1602d8b35765ef3100005d-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/02d8/b357/65ef/3100/005d/slideshow/20200710_HH_T_2.jpg?1595278029",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0307/b357/658b/5b00/0086/slideshow/20200710_HH_T_3.jpg?1595278074",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160307b357658b5b000086-herba-house-pracownia-projectowa-jakub-sucharski-plan?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0307/b357/658b/5b00/0086/slideshow/20200710_HH_T_3.jpg?1595278074",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0355/b357/65ef/3100/0061/slideshow/20200710_HH_T_6.jpg?1595278154",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160355b35765ef31000061-herba-house-pracownia-projectowa-jakub-sucharski-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0355/b357/65ef/3100/0061/slideshow/20200710_HH_T_6.jpg?1595278154",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0345/b357/658b/5b00/0088/slideshow/20200710_HH_T_5.jpg?1595278137",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160345b357658b5b000088-herba-house-pracownia-projectowa-jakub-sucharski-elevation?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0345/b357/658b/5b00/0088/slideshow/20200710_HH_T_5.jpg?1595278137",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0386/b357/658b/5b00/008a/slideshow/20200710_HH_T_7.jpg?1595278202",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160386b357658b5b00008a-herba-house-pracownia-projectowa-jakub-sucharski-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0386/b357/658b/5b00/008a/slideshow/20200710_HH_T_7.jpg?1595278202",
   },
   {
-    src: "https://images.adsttc.com/media/images/5f16/0398/b357/65ef/3100/0063/slideshow/20200710_HH_T_8.jpg?1595278219",
     url: "https://www.archdaily.com/944151/herba-house-pracownia-projectowa-jakub-sucharski/5f160398b35765ef31000063-herba-house-pracownia-projectowa-jakub-sucharski-section?next_project=no",
+    src: "https://images.adsttc.com/media/images/5f16/0398/b357/65ef/3100/0063/slideshow/20200710_HH_T_8.jpg?1595278219",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b78c/e58e/ce5a/8200/00e3/slideshow/arches_3.jpg?1475721094",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b78ce58ece5a820000e3-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b78c/e58e/ce5a/8200/00e3/slideshow/arches_3.jpg?1475721094",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7d4/e58e/ce5a/8200/00e5/slideshow/arches_9.jpg?1475721165",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7d4e58ece5a820000e5-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7d4/e58e/ce5a/8200/00e5/slideshow/arches_9.jpg?1475721165",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b846/e58e/cec3/9400/0064/slideshow/arches_19.jpg?1475721279",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b846e58ecec394000064-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b846/e58e/cec3/9400/0064/slideshow/arches_19.jpg?1475721279",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b75f/e58e/ce5a/8200/00e1/slideshow/arches_1_THE_MAIN.jpg?1475721049",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b75fe58ece5a820000e1-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b75f/e58e/ce5a/8200/00e1/slideshow/arches_1_THE_MAIN.jpg?1475721049",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7df/e58e/cec3/9400/005f/slideshow/arches_10.jpg?1475721177",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7dfe58ecec39400005f-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7df/e58e/cec3/9400/005f/slideshow/arches_10.jpg?1475721177",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b80c/e58e/cec3/9400/0061/slideshow/arches_14.jpg?1475721222",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b80ce58ecec394000061-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b80c/e58e/cec3/9400/0061/slideshow/arches_14.jpg?1475721222",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b85d/e58e/cec3/9400/0065/slideshow/arches_21.jpg?1475721302",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b85de58ecec394000065-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b85d/e58e/cec3/9400/0065/slideshow/arches_21.jpg?1475721302",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b801/e58e/ce5a/8200/00e7/slideshow/arches_13.jpg?1475721211",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b801e58ece5a820000e7-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b801/e58e/ce5a/8200/00e7/slideshow/arches_13.jpg?1475721211",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b83a/e58e/cec3/9400/0063/slideshow/arches_18.jpg?1475721267",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b83ae58ecec394000063-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b83a/e58e/cec3/9400/0063/slideshow/arches_18.jpg?1475721267",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b8ef/e58e/ce5a/8200/00f1/slideshow/arches_36.jpg?1475721449",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8efe58ece5a820000f1-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b8ef/e58e/ce5a/8200/00f1/slideshow/arches_36.jpg?1475721449",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b82f/e58e/ce5a/8200/00e9/slideshow/arches_17.jpg?1475721256",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b82fe58ece5a820000e9-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b82f/e58e/ce5a/8200/00e9/slideshow/arches_17.jpg?1475721256",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7ae/e58e/cec3/9400/005c/slideshow/arches_6.jpg?1475721127",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7aee58ecec39400005c-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7ae/e58e/cec3/9400/005c/slideshow/arches_6.jpg?1475721127",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b850/e58e/ce5a/8200/00ea/slideshow/arches_20.jpg?1475721290",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b850e58ece5a820000ea-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b850/e58e/ce5a/8200/00ea/slideshow/arches_20.jpg?1475721290",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b87d/e58e/ce5a/8200/00ec/slideshow/arches_24.jpg?1475721335",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b87de58ece5a820000ec-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b87d/e58e/ce5a/8200/00ec/slideshow/arches_24.jpg?1475721335",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b894/e58e/ce5a/8200/00ed/slideshow/arches_26.jpg?1475721357",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b894e58ece5a820000ed-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b894/e58e/ce5a/8200/00ed/slideshow/arches_26.jpg?1475721357",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b8e5/e58e/cec3/9400/006b/slideshow/arches_33.jpg?1475721439",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8e5e58ecec39400006b-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b8e5/e58e/cec3/9400/006b/slideshow/arches_33.jpg?1475721439",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b889/e58e/cec3/9400/0067/slideshow/arches_25.jpg?1475721346",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b889e58ecec394000067-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b889/e58e/cec3/9400/0067/slideshow/arches_25.jpg?1475721346",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b8c2/e58e/cec3/9400/0069/slideshow/arches_30.jpg?1475721403",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8c2e58ecec394000069-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b8c2/e58e/cec3/9400/0069/slideshow/arches_30.jpg?1475721403",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b8b7/e58e/ce5a/8200/00ef/slideshow/arches_29.jpg?1475721393",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8b7e58ece5a820000ef-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b8b7/e58e/ce5a/8200/00ef/slideshow/arches_29.jpg?1475721393",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7c8/e58e/cec3/9400/005e/slideshow/arches_8.jpg?1475721153",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7c8e58ecec39400005e-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7c8/e58e/cec3/9400/005e/slideshow/arches_8.jpg?1475721153",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7ea/e58e/ce5a/8200/00e6/slideshow/arches_11.jpg?1475721187",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7eae58ece5a820000e6-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7ea/e58e/ce5a/8200/00e6/slideshow/arches_11.jpg?1475721187",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b873/e58e/cec3/9400/0066/slideshow/arches_23.jpg?1475721324",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b873e58ecec394000066-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b873/e58e/cec3/9400/0066/slideshow/arches_23.jpg?1475721324",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b8ab/e58e/ce5a/8200/00ee/slideshow/arches_28.jpg?1475721380",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8abe58ece5a820000ee-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b8ab/e58e/ce5a/8200/00ee/slideshow/arches_28.jpg?1475721380",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7a3/e58e/ce5a/8200/00e4/slideshow/arches_5.jpg?1475721117",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7a3e58ece5a820000e4-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7a3/e58e/ce5a/8200/00e4/slideshow/arches_5.jpg?1475721117",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b823/e58e/cec3/9400/0062/slideshow/arches_16.jpg?1475721244",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b823e58ecec394000062-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b823/e58e/cec3/9400/0062/slideshow/arches_16.jpg?1475721244",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b76a/e58e/cec3/9400/0059/slideshow/arches_2.jpg?1475721059",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b76ae58ecec394000059-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b76a/e58e/cec3/9400/0059/slideshow/arches_2.jpg?1475721059",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b8d9/e58e/cec3/9400/006a/slideshow/arches_32.jpg?1475721426",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8d9e58ecec39400006a-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b8d9/e58e/cec3/9400/006a/slideshow/arches_32.jpg?1475721426",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b867/e58e/ce5a/8200/00eb/slideshow/arches_22.jpg?1475721312",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b867e58ece5a820000eb-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b867/e58e/ce5a/8200/00eb/slideshow/arches_22.jpg?1475721312",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b818/e58e/ce5a/8200/00e8/slideshow/arches_15.jpg?1475721233",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b818e58ece5a820000e8-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b818/e58e/ce5a/8200/00e8/slideshow/arches_15.jpg?1475721233",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7ba/e58e/cec3/9400/005d/slideshow/arches_7.jpg?1475721140",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7bae58ecec39400005d-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7ba/e58e/cec3/9400/005d/slideshow/arches_7.jpg?1475721140",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b8a1/e58e/cec3/9400/0068/slideshow/arches_27.jpg?1475721369",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b8a1e58ecec394000068-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b8a1/e58e/cec3/9400/0068/slideshow/arches_27.jpg?1475721369",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b797/e58e/cec3/9400/005b/slideshow/arches_4.jpg?1475721104",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b797e58ecec39400005b-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b797/e58e/cec3/9400/005b/slideshow/arches_4.jpg?1475721104",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/b7f6/e58e/cec3/9400/0060/slideshow/arches_12.jpg?1475721199",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5b7f6e58ecec394000060-valley-villa-arches-photo?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/b7f6/e58e/cec3/9400/0060/slideshow/arches_12.jpg?1475721199",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/ba72/e58e/ce5a/8200/00f3/slideshow/SCHEME.jpg?1475721835",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba72e58ece5a820000f3-valley-villa-arches-diagram?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/ba72/e58e/ce5a/8200/00f3/slideshow/SCHEME.jpg?1475721835",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/ba45/e58e/cec3/9400/006c/slideshow/P1.jpg?1475721791",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba45e58ecec39400006c-valley-villa-arches-plan-1?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/ba45/e58e/cec3/9400/006c/slideshow/P1.jpg?1475721791",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/ba5b/e58e/cec3/9400/006d/slideshow/P2.jpg?1475721814",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba5be58ecec39400006d-valley-villa-arches-plan-2?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/ba5b/e58e/cec3/9400/006d/slideshow/P2.jpg?1475721814",
   },
   {
-    src: "https://images.adsttc.com/media/images/57f5/ba52/e58e/ce5a/8200/00f2/slideshow/E1.jpg?1475721803",
     url: "https://www.archdaily.com/796792/valley-villa-arches/57f5ba52e58ece5a820000f2-valley-villa-arches-elevation?next_project=no",
+    src: "https://images.adsttc.com/media/images/57f5/ba52/e58e/ce5a/8200/00f2/slideshow/E1.jpg?1475721803",
   },
   {
-    src: "https://procural-group.com/uploads/images/unnamed-3.jpg",
     url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=3",
+    src: "https://procural-group.com/uploads/images/unnamed-3.jpg",
   },
   {
-    src: "https://procural-group.com/uploads/images/unnamed.jpg",
     url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=5",
+    src: "https://procural-group.com/uploads/images/unnamed.jpg",
   },
   {
-    src: "https://procural-group.com/uploads/images/unnamed-2.jpg",
     url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=2",
+    src: "https://procural-group.com/uploads/images/unnamed-2.jpg",
   },
   {
-    src: "https://procural-group.com/uploads/images/unnamed-4.jpg",
     url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=4",
+    src: "https://procural-group.com/uploads/images/unnamed-4.jpg",
   },
   {
-    src: "https://procural-group.com/uploads/images/unnamed-1.jpg",
     url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/#&gid=my-gallery&pid=1",
+    src: "https://procural-group.com/uploads/images/unnamed-1.jpg",
   },
   {
-    src: "https://procural-group.com/media/cache/realisation_main_retina/uploads/thumbnail/dom-prywatny-1.jpg",
     url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/dom-prywatny/",
+    src: "https://procural-group.com/media/cache/realisation_main_retina/uploads/thumbnail/dom-prywatny-1.jpg",
   },
   {
-    src: "https://procural-group.com/media/cache/realisation_main_retina/uploads/realisation/thumbnail/3121/Dom%20prywatny%20-%20Slowacja%201g.jpg",
     url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/",
+    src: "https://procural-group.com/media/cache/realisation_main_retina/uploads/realisation/thumbnail/3121/Dom%20prywatny%20-%20Slowacja%201g.jpg",
   },
   {
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
     src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%201g.jpg",
-    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=1",
   },
   {
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
     src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%202g.jpg",
-    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=1",
   },
   {
+    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
     src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%2011g.jpg",
-    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
   },
   {
-    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%201g.jpg",
-    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
-  },
-  {
-    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%202g.jpg",
-    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
-  },
-  {
-    src: "https://procural-group.com/uploads/realisation/images/3121/Dom%20prywatny%20-%20Slowacja%2011g.jpg",
-    url: "https://procural-group.com/pl/realizacje/dom-prywatny-slowacja/#&gid=my-gallery&pid=3",
-  },
-  {
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
     src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow2g-1.jpg",
-    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
   },
   {
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
     src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow6g-1.jpg",
-    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
   },
   {
+    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
     src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow24g.jpg",
-    url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
   },
   {
-    src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow37g.jpg",
     url: "https://procural-group.com/pl/realizacje/obiekty-mieszkalne/apartamenty-w-jozefowie/#&gid=my-gallery&pid=1",
+    src: "https://procural-group.com/uploads/images/apartamentowiec-jozefow37g.jpg",
   },
   {
     url: "https://www.reynaers.pl/natchnienie/odniesienia-do-projektow-aluminiowych/drzwi-przesuwne-aluminiowe-sciany-oslonowe-aluminiowe-okna-aluminiowe-m-house-voluntari",
