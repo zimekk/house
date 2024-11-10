@@ -10,300 +10,659 @@
 
 const selected = `
 https://simmengroup.ch/media/cache/slider_desktop/upload/images/07d0322df3c00c940f61753d4a92eb2746877aa8.jpg
-
 https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-076-scaled.jpg
-
 https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-h-poele-bois-rangement-authenticite-854.webp
-
 https://images.adsttc.com/media/images/66f6/f632/2684/7b75/3468/84da/slideshow/westbrook-residence-alterstudio-architecture_1.jpg?1727460923
-
 https://images.adsttc.com/media/images/66e9/fcc7/77c5/e143/2c9c/5ac5/slideshow/casa-itanhanga-bo_1.jpg?1726610676
-
 https://images.adsttc.com/media/images/66db/3f60/5030/bc74/2176/c359/slideshow/holmwood-farm-rx-architects_2.jpg?1725644664
-
 https://images.adsttc.com/media/images/66cc/ad4e/485d/8c00/01ac/57e5/slideshow/RDO_01.jpg?1724689760
-
 https://images.adsttc.com/media/images/66cc/ad4f/485d/8c00/01ac/57e7/slideshow/RDO_03.jpg?1724689760
-
 https://a-88.pl/files/uploads/projekty/31_Kolumna/vis4.jpg
-
 https://a-88.pl/uploads/galerie/galerie_2e381905ac7e0de56a08f08caa511486_galerie.jpg
-
 https://label-magazine.com/images/article/2024/09-wrzesien/FRAMUGA_Studio_Dom_w_Izabelinie_12.jpg
-
 https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404685_321.jpg
-
 https://label-magazine.com/images/article/2024/08-sierpien/Tom_Kurek_TS404770_321.jpg
-
 https://studiodemateria.com/wp-content/uploads/2022/07/jrv219-1920x1289.jpg
-
 https://studiodemateria.com/wp-content/uploads/2022/07/jrv220-1920x1282.jpg
-
 https://studiodemateria.com/wp-content/uploads/2022/07/jrv207-1920x1281.jpeg
-
 https://lh3.googleusercontent.com/ebv5yfywstkQQH590_P8VfA01f9CS3Rlnr_Ao-gHpWOpI0RZAxbg3hP0AIS0iNFUy6YRHU9bajFr2MmOIFBAtoQ2KBnHv1k=s1600
-
 https://lh3.googleusercontent.com/bfiluY0q_vtwbezE5xtQtJLayrrOXcilCMEpStXXAtto1A3DymrEKKmmaQN2jh2zlAggvx0gqI9bOuvbYPDxC6fnHJEDng=s1600
-
 https://images.adsttc.com/media/images/65c6/5b1b/f2f1/3e43/3bad/753d/slideshow/mp-ii-house-kruk-architekci_8.jpg?1707498284
-
 https://images.adsttc.com/media/images/65c6/5b11/f2f1/3e43/3bad/753a/slideshow/mp-ii-house-kruk-architekci_14.jpg?1707498275
-
 https://images.adsttc.com/media/images/65c6/5b14/b451/ce7a/fd95/64a9/slideshow/mp-ii-house-kruk-architekci_15.jpg?1707498280
-
 https://images.adsttc.com/media/images/63a4/a043/8c33/f419/6a96/4924/slideshow/multi-gable-house-bkm-group_8.jpg?1671733374
-
 https://images.adsttc.com/media/images/5fce/f718/63c0/17fc/5100/02ae/slideshow/IMG_3694a.jpg?1607399181
-
 https://images.adsttc.com/media/images/5fce/f731/63c0/17d8/7500/0202/slideshow/IMG_3696a.jpg?1607399197
-
 https://images.adsttc.com/media/images/5fce/f6b7/63c0/17fc/5100/02a4/slideshow/IMG_3627a.jpg?1607399081
-
 https://images.adsttc.com/media/images/57f5/b797/e58e/cec3/9400/005b/slideshow/arches_4.jpg?1475721104
-
-
 https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/inriver/images/63584_Valley%20Villa_05.jpg?itok=Q5al2Xij
-
 https://www.reynaers.pl/sites/default/files/public/styles/carousel/public/2023-11/Private%20House%20Holsbeek19.jpg?itok=OjFYL_lt
-
 https://sl-ab.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJ/Gc2wtYWIuY29tJTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDI0JTJGMDElMkZTTEFCLXN0dWRpby1hcmNoaXRla3Rvbmljem5lLWFyY2hpdGVrdHVyYS1wcm9qZWt0LWRvbS1sLWJpYWxhLW5vd29jemVzbmEtc3RvZG9sYS0xMy5qcGcmY2FjaGVNYXJrZXI9MTcwNjYzNDExNC01NzAzMiZ0b2tlbj02NDBmZjFiYTI3YzE5ZGZi.q.jpg
-
 https://sl-ab.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGc2/wtYWIuY29tJTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDI0JTJGMDElMkZTTEFCLXN0dWRpby1hcmNoaXRla3Rvbmljem5lLWFyY2hpdGVrdHVyYS13bmV0cnotcHJvamVrdC1wYXRpby1ob3VzZS1qYXNuZS13bmV0cnplLTE2LmpwZyZjYWNoZU1hcmtlcj0xNzA1OTYwMzE1LTgzNTg4JnRva2VuPTA2MDQxMDliNTk2Y2NiNzA.q.jpg
-
 https://sl-ab.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJTJGJTJGc2/wtYWIuY29tJTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDI0JTJGMDElMkZTTEFCLXN0dWRpby1hcmNoaXRla3Rvbmljem5lLWFyY2hpdGVrdHVyYS13bmV0cnotcHJvamVrdC1wYXRpby1ob3VzZS1qYXNuZS13bmV0cnplLTEwLmpwZyZjYWNoZU1hcmtlcj0xNzA1OTYwMzAzLTkzNzQ3JnRva2VuPWY5NDM2MDIxMDQ3MDMxYmY.q.jpg
-
 https://sl-ab.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJ/TJGJTJGc2wtYWIuY29tJTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDI0JTJGMDElMkZTTEFCLXN0dWRpby1hcmNoaXRla3Rvbmljem5lLWFyY2hpdGVrdHVyYS13bmV0cnotcHJvamVrdC1kb20tbmEtdHJ6eS1qYXBhbmRpLTkuanBnJmNhY2hlTWFya2VyPTE3MDU5NTk4ODctNTc3MTkmdG9rZW49YjU4YjIzNGNhOGRlZWUxNQ.q.jpg
-
 https://sl-ab.com/wp-content/plugins/phastpress/phast.php/c2VydmljZT1pbWFnZXMmc3JjPWh0dHBzJTNBJ/TJGJTJGc2wtYWIuY29tJTJGd3AtY29udGVudCUyRnVwbG9hZHMlMkYyMDI0JTJGMDElMkZTTEFCLXN0dWRpby1hcmNoaXRla3Rvbmljem5lLWFyY2hpdGVrdHVyYS13bmV0cnotcHJvamVrdC1kb20tbmEtdHJ6eS1qYXBhbmRpLTEuanBnJmNhY2hlTWFya2VyPTE3MDU5NTk4NzMtNjIxOTImdG9rZW49MTU4N2YwNzMwOGFlYzViOA.q.jpg
-
 https://freight.cargo.site/t/original/i/fc50f814b482f6ca48092353fac72f7171081e6b377f80101cff4dbf4c1009ae/IMG_20180720_183314_maka.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/5031/images/1920x0/dom-we-wsi-jeziorowskie-105739.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36924/images/1920x0/przeszklenie-i-taras-105856.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/36903/images/1920x0/jedna-z-sypialni-105835.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/31918/images/1920x0/dom-w-lomiankach-przeszklony-parter-96015.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/30578/images/1920x0/dom-k-glowne-wejscie-93865.jpg
-
 https://cms.nowoczesnastodola.pl/assets/7e7d3cac-c37f-42f8-ade5-5e9119aec453?width=2560&height=1624&format=webp&quality=100
-
 https://cms.nowoczesnastodola.pl/assets/ed79e704-20a7-4089-9bfe-1b578aa25f7b?width=2560&height=1708&format=webp&quality=100
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/10507/images/1920x0/dom-jednorodzinny-krz-nawiazuje-do-stylu-nowoczesnej-stodoly-181711.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/65893/images/1920x0/lazienka-168509.jpg
-
 https://www.trzy.be/wp-content/uploads/2022/04/V2_ost__Scena-16-ogrod-na-schody.jpg
-
 https://www.trzy.be/wp-content/uploads/2021/05/v2_rano_sc27.jpg
-
 https://www.trzy.be/wp-content/uploads/2021/05/v2_rano_sc28.jpg
-
 https://cms.nowoczesnastodola.pl/assets/d4016371-65a3-4215-a7bc-029e2758a099?width=2560&height=1702&format=webp&quality=100
-
 https://cms.nowoczesnastodola.pl/assets/2f376db8-a7ca-4a05-b33f-070043113d19?width=2560&height=1704&format=webp&quality=100
-
 https://cms.nowoczesnastodola.pl/assets/f2f4e3be-13b0-4e3d-84a5-181eb5aa8073?width=2560&height=1704&format=webp&quality=100
-
 https://cms.nowoczesnastodola.pl/assets/c0546cd4-6450-47ac-9230-a940f2ac117f?width=2560&height=1440&format=webp&quality=100
-
 https://meeko.pl/wp-content/uploads/2023/03/MEEKO-Architects-House-near-mielec-foto-03b.jpg
-
 https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-axo-01-copy.jpg
-
 https://meeko.pl/wp-content/uploads/2021/07/MLC-IWA-dom-wiz-02-scaled.jpg
-
 https://meeko.pl/wp-content/uploads/2023/01/TAR-ZAW-dom-wiz-05-copy.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/cms_aktualnosci/12067/images/1920x0/dom-stanal-w-borowcu-pod-poznaniem-206979.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83363/images/1920x0/dom-charakteryzuje-sie-oszczednoscia-w-zastosowanych-materialach-206970.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/83377/images/1920x0/taras-od-strony-ogrodu-206985.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204062/images/1920x0/dom-na-skraju-w-jablonnej-423224.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204069/images/1920x0/dom-na-skraju-w-jablonnej-423231.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204088/images/1920x0/dom-na-skraju-w-jablonnej-423250.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204090/images/1920x0/dom-na-skraju-w-jablonnej-423252.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/204055/images/1920x0/dom-na-skraju-w-jablonnej-423217.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/194176/images/1920x0/ogrod-powstal-dzieki-wspolpracy-marzeny-bakowskiej-barwy-ogrodow-i-jerzego-kecela-agrobud-396799.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/192052/images/1920x0/architekci-chcieli-by-forma-budynku-oraz-materialy-elewacyjne-maksymalnie-wpisywaly-sie-w-lesne-otoczenie-391603.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181391/images/1920x0/projekt-musial-zostac-wkomponowany-w-trudna-nieduza-dzialke-362682.jpg
-
 https://cdn.architekturaibiznes.pl/fullquality/upload/galerie/181388/images/1920x0/dom-zaprojektowano-uwzgledniajac-moduly-362679.jpg
-
 https://cdn.architekturaibiznes.pl/nowebp/upload/galerie/179537/images/fit/1100x0/3d2db9d5f0733e30aca4c35227f8a8af.jpg
-
 https://maxberg.pl/wp-content/uploads/2021/03/Ostoja01-front.jpg
-
 https://maxberg.pl/wp-content/uploads/2017/07/Salon2-web.jpg
-
 https://ultra-architects.pl/wp-content/uploads/2023/08/PRZ_2033-2.jpg
-
 https://ultra-architects.pl/wp-content/uploads/2021/11/DSC_6004.jpg
-
 https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-03.jpg
-
 https://081.com.pl/wp-content/uploads/2024/06/081-architekci-realizacja-dom-jednorodzinny-cho_20-lublin-06.jpg
-
 https://081.com.pl/wp-content/uploads/2014/02/081-architekci-realizacja-dom-w-lesie-pulawy-10.jpg
-
 https://081.com.pl/wp-content/uploads/2016/11/081-architekci-projekt-dom-lublin_11.jpg
-
 https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/af04b101-9dae-49a9-b770-397cf05df6d5/Dom+Bukova+Forest+2024_81WAWPL+Bukowa+3_low+res_+%2816%29+kopia+3+.jpg?format=2500w
-
 https://images.squarespace-cdn.com/content/v1/5e2bdcc7ba201d7c8ad7079b/4add5434-fa96-4446-b985-70e913b82f34/dom+nad+brzegiem_81WAWPL_01.jpg?format=2500w
-
 https://www.whitemad.pl/wp-content/uploads/2023/03/design__C090449-7_ps.jpg
-
 https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_5664uciete-scaled.jpg
-
 https://ev-architects.pl/wp-content/uploads/2021/08/PRZ_6949-scaled.jpg
-
 https://ev-architects.pl/wp-content/uploads/2018/06/PRZ_3871.jpg
-
 https://ev-architects.pl/wp-content/uploads/2018/10/01.jpg
-
 https://ev-architects.pl/wp-content/uploads/2018/06/03.jpg
-
 https://ev-architects.pl/wp-content/uploads/2018/06/04.jpg
-
 https://www.johnpawson.com/assets/Works/2022-Giessen-House/06_John-Pawson_Giessen-House_High-Res-5.jpg
-
 https://www.johnpawson.com/assets/Works/2024-Philippines-House/04-JP_Sta.Elena-High-Res-019.jpg
-
 https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-pietro-2-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg
-
 https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-29-scaled.jpg
-
 https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-13-scaled.jpg
-
 https://www.z3zarchitekci.pl/wp-content/uploads/2023/11/Dom-w-Konstancinie-30-scaled.jpg
-
 https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/W2_2A-copy.jpg
-
 https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/W2_2B-copy.jpg
-
 https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/Z3Z-ARCHITEKCI-Dom-w-Magdalence-4.jpg
-
 https://static.wixstatic.com/media/d1fd4b_f73d4a91cca244879cf0648d913cf3e5~mv2.jpg/v1/fit/w_335,h_540,q_90/d1fd4b_f73d4a91cca244879cf0648d913cf3e5~mv2.jpg
-
 https://static.wixstatic.com/media/d1fd4b_ea71c37377a44b8491d2da25912c5bdb~mv2.jpg/v1/fit/w_557,h_540,q_90/d1fd4b_ea71c37377a44b8491d2da25912c5bdb~mv2.jpg
-
 https://static.wixstatic.com/media/e7fa30_b447ec7b18824eb5a728073eea0c2667~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_b447ec7b18824eb5a728073eea0c2667~mv2.jpg
-
 https://static.wixstatic.com/media/e7fa30_81e5d44c9873412ea85a03b4b1748080~mv2.jpg/v1/fit/w_557,h_540,q_90/e7fa30_81e5d44c9873412ea85a03b4b1748080~mv2.jpg
-
 https://wadolowski.eu/img/portfolio/37kowalski/d2.jpg
-
 https://wadolowski.eu/img/portfolio/37kowalski/d1.jpg
-
 https://modernhouse-projekty.pl/wp-content/uploads/2024/07/01_Projekt_domu_w_stylu_stodola_do_125_m2_z_garazem_na_dwa_auta_Modern_House_NewHouse_755_G2-1920x960.webp
-
 https://modernhouse-projekty.pl/wp-content/uploads/2024/07/06_Gotowy_projekt_domu_z_dachem_dwuspadowym_garazem_na_dwa_auta_4_pokojami_Modern_House_NewHouse_755_G2-1920x960.webp
-
 https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-1-widok-na-front.jpg
-
 https://homekoncept.com.pl/api/file/design/61203/estimate/projekt-domu-z-garazem-homekoncept-117-g2-z-11-widok-na-elewacje-boczna.jpg
-
 https://homekoncept.com.pl/api/file/design/61229/estimate/nowoczesna-stodola-homekoncept-119-g2-lustro-zdjecie-5.jpg
-
 https://homekoncept.com.pl/api/file/design/61229/estimate/projekt-wnetrza-homekoncept-119-g2-lustro-wnetrze-12.jpg
-
 https://homekoncept.com.pl/api/file/design/61225/estimate/projekt-willi-homekoncept-112-g2-w-02-zdjecie-8.jpg
-
 https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-2.jpg
-
 https://homekoncept.com.pl/api/file/design/61190/estimate/homekoncept-103-l-zdjecie-3.jpg
-
 https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-1.jpg
-
 https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-6.jpg
-
 https://homekoncept.com.pl/api/file/design/61186/estimate/homekoncept-99-zdjecie-9.jpg
-
 https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/2-4.jpg
-
 https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/PRZ_2612-2-2.jpg
-
 https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/bb-1.jpg
-
 https://kturaarchitekci.pl/wordpress/wp-content/uploads/0696/10/rzuty-1.jpg
-
 https://kturaarchitekci.pl/wordpress/wp-content/uploads/2024/01/1.jpg
-
 https://kturaarchitekci.pl/wordpress/wp-content/uploads/0697/10/PRZ_6872-2-1.jpg
-
 https://images.ctfassets.net/w2xcep4i3dcd/4YPZtXQyAmege6vQ3xS3bq/832ce31e33d749d853be4bc202c3c24f/33223_03.anw.jpg?fit=fill&fm=jpg&w=420&f=center&q=80
-
 https://images.ctfassets.net/w2xcep4i3dcd/6vC0hG1UjX5cI62wKsQCda/aea6eca6bbac82eef61a2faee013926a/24501_07.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80
-
 https://images.ctfassets.net/w2xcep4i3dcd/5kOkDrsp8Zlu1jspA8Iw4T/47e1b8bd9253a6ac64551310ad56c4b8/66828_06.anw.jpg?fit=fill&fm=jpg&h=900&f=center&q=80
-
 https://www.daikin.pl/adobe/dynamicmedia/deliver/dm-aid--632cb259-ba1b-42d1-b04d-64591b1464c5/fdxm-f-1-1-2a.jpg
-
 https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/House-013-2048x1298.jpg.webp
-
 https://www.stoprocentarchitekci.pl/wp-content/uploads/2022/06/House-015-2048x1193.jpg.webp
-
 https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_1.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_6.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/07/IF_Littlewood_10.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_H_Portrait_.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/07/InForm_Stucco_F_3_2.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/06/V2_UF10_2.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_3.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/05/V2_CH3_10.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH13_3.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH11_11B.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_4.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH19_5.jpg
-
 https://informdesign.com.au/wp-content/uploads/2024/06/V2_CH20_4.jpg
-
 https://img.shmbk.pl/rimgsph/1267011_f31c8be6-87d8-4ed3-8d8b-aa675984b226_max_900_1200_taras-drewniany-taras-styl-minimalistyczny.jpg
-
 https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Cove-rv-lounge-intra-lighting.jpg
-
 https://www.intra-lighting.com/DesktopModules/KiviCOM.Web.UI.Intra.Constructor/Script/assets/img/web/solutions_M/Private-residence-9-conic-intra-lighting.jpg
-
 https://static.wixstatic.com/media/d67420_aa926f5e76a74cb59e08ce12aa62e509~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_aa926f5e76a74cb59e08ce12aa62e509~mv2.jpg
-
 https://static.wixstatic.com/media/d67420_e1a3a70d81434d399cdce647448be76a~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_e1a3a70d81434d399cdce647448be76a~mv2.jpg
-
 https://static.wixstatic.com/media/d67420_ef9e9b3c5d014e12ae3cd029018884b0~mv2.jpg/v1/fit/w_1100,h_294,q_90/d67420_ef9e9b3c5d014e12ae3cd029018884b0~mv2.jpg
-
 https://static.wixstatic.com/media/d67420_66fc85e26c5a497195a67859d586357a~mv2.png/v1/fit/w_1100,h_294,q_90/d67420_66fc85e26c5a497195a67859d586357a~mv2.png
-
 https://static.wixstatic.com/media/d67420_e55f128bf01f4380982f9840580a9b3d~mv2.png/v1/fit/w_1100,h_294,q_90/d67420_e55f128bf01f4380982f9840580a9b3d~mv2.png
-
 https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx7w7sqEUHbTGH5wWo7mO4PMHYusq6c2ai4Jp3ZrY_tamizo-estonia08jpg-image(1000x_).jpg
 `
   .split("\n")
   .filter(Boolean);
 
 export const inspirations = [
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011633/ambiences/A000002473_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-helvine-4-drzwi-i-2-szuflady-fornir-debowy-i-szklo-hartowane-200-x-54cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011635/ambiences/A000002473_4.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-helvine-4-drzwi-i-2-szuflady-fornir-debowy-i-szklo-hartowane-200-x-54cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220475/ambiences/A000002073_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-alguema-4-drzwiowy-z-forniru-debowego-z-naturalnym-wykonczeniem-200-x-74-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220475/ambiences/A000002073_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-alguema-4-drzwiowy-z-forniru-debowego-z-naturalnym-wykonczeniem-200-x-74-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011627/ambiences/A000002474_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-pod-telewizor-helvine-4-szuflady-fornir-debowy-200-x-40-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011630/ambiences/A000002474_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-pod-telewizor-helvine-4-szuflady-fornir-debowy-200-x-40-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011628/ambiences/A000002469_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-pod-telewizor-helvine-4-szuflady-fornir-debowy-200-x-40-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1714640063/ambiences/A000002304_11.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-salaya-z-100-sklejki-jesionowej-fsc-mix-credit-200-x-79-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855079/ambiences/A000002459_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-pod-telewizor-onix-fornir-orzechowy-z-ciemnym-wykonczeniem-200-x-45cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855074/ambiences/A000002459_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-pod-telewizor-onix-fornir-orzechowy-z-ciemnym-wykonczeniem-200-x-45cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011634/ambiences/A000002475_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/witryna-helvine-4-drzwi-i-2-szuflady-fornir-debowy-i-szklo-hartowane-100-x-174cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709214858/ambiences/A000001494_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-lenon-3-drzwi-i-3-szuflady-drewno-i-fornir-debowy-200-x-86-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220473/ambiences/A000002073_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-alguema-3-szuflady-z-forniru-debowego-z-naturalnym-wykonczeniem-200-x-51-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220475/ambiences/A000002073_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-alguema-3-szuflady-z-forniru-debowego-z-naturalnym-wykonczeniem-200-x-51-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855088/ambiences/A000002461_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-onix-z-forniru-orzechowego-z-ciemnym-wykonczeniem-200-x-80-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855119/ambiences/A000002461_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-onix-z-forniru-orzechowego-z-ciemnym-wykonczeniem-200-x-80-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221428/ambiences/A000001992_7.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-licia-4-drzwiowa-z-litego-drewna-mango-i-czarnego-metalu-200-x-55-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222783/ambiences/A000001992_8.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-licia-4-drzwiowa-z-litego-drewna-mango-i-czarnego-metalu-200-x-55-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1714640395/ambiences/A000002295_8.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-tv-sashi-z-litego-drewna-tekowego-200-x-40-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1714640394/ambiences/A000002295_9.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-tv-sashi-z-litego-drewna-tekowego-200-x-40-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1718780011/products/LH0353M40_1V01.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-beyla-4-drzwiowy-lite-drewno-i-fornir-debowy-180-x-715-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709217513/ambiences/A000001876_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-beyla-4-drzwiowy-lite-drewno-i-fornir-debowy-180-x-715-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709217522/ambiences/A000001876_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-beyla-4-drzwiowy-lite-drewno-i-fornir-debowy-180-x-715-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709211682/ambiences/A000001493_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-lenon-2-drzwi-lite-drewno-i-fornir-debowy-200-x-57-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709217983/ambiences/A000001493_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-lenon-2-drzwi-lite-drewno-i-fornir-debowy-200-x-57-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1714640063/ambiences/A000002304_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/wysoki-kredens-salaya-ze-sklejki-jesionowej-fsc-mix-credit-100-x-134-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220838/ambiences/A000002128_6.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-vedrana-3-drzwiowa-fornir-orzechowy-i-czarne-stalowe-nogi-195-x-55-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011631/ambiences/A000002475_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-helvine-4-drzwi-i-4-szuflady-fornir-debowy-i-szklo-hartowane-200-x-75cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011631/ambiences/A000002475_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-helvine-4-drzwi-i-4-szuflady-fornir-debowy-i-szklo-hartowane-200-x-75cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011641/ambiences/A000002476_9.jpg",
+    url: "https://kavehome.com/pl/pl/p/komoda-helvine-3-szuflady-fornir-debowy-i-szklo-hartowane-86-x-79-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011642/ambiences/A000002476_10.jpg",
+    url: "https://kavehome.com/pl/pl/p/komoda-helvine-3-szuflady-fornir-debowy-i-szklo-hartowane-86-x-79-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725362626/ambiences/A000002463_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/witryna-onix-lite-drewno-orzechowe-i-fornir-orzechowy-ciemny-101-x-170cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725362627/ambiences/A000002463_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/witryna-onix-lite-drewno-orzechowe-i-fornir-orzechowy-ciemny-101-x-170cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855116/ambiences/A000002461_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/komoda-onix-3-szuflady-fornir-orzechowy-z-ciemnym-wykonczeniem-100x78-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855085/ambiences/A000002461_4.jpg",
+    url: "https://kavehome.com/pl/pl/p/komoda-onix-3-szuflady-fornir-orzechowy-z-ciemnym-wykonczeniem-100x78-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223241/ambiences/A3D23014_4.jpg",
+    url: "https://kavehome.com/pl/pl/p/polka-octavia-wykonana-ze-sklejki-jesionowej-fsc-mix-credit-120-x-20-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221831/ambiences/A3D23014_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/polka-octavia-wykonana-ze-sklejki-jesionowej-fsc-mix-credit-90-x-20-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219813/ambiences/A000001432_7.jpg",
+    url: "https://kavehome.com/pl/pl/p/podnozek-safara-z-litego-drewna-tekowego-pochodzacego-z-recyklingu-50-x-32-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709218842/ambiences/A000001459_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/podnozek-safara-z-litego-drewna-tekowego-pochodzacego-z-recyklingu-50-x-32-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220955/ambiences/A000000491_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/wieszak-chelsey-z-litego-drewna-kauczukowego-170-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219506/ambiences/A000001292_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/lawka-safara-z-litego-drewna-tekowego-z-odzysku-100-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709216606/ambiences/A000001043_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/lawka-safara-z-litego-drewna-tekowego-z-odzysku-100-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709217391/ambiences/A000001878_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-beyla-2-drzwi-lite-drewno-i-fornir-debowy-180x495-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709217400/ambiences/A000001878_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-beyla-2-drzwi-lite-drewno-i-fornir-debowy-180x495-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221396/ambiences/A000001978_6.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-abilen-2-drzwi-i-2-szuflady-z-forniru-debowego-200-x-44-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222603/ambiences/A000001978_20.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-abilen-2-drzwi-i-2-szuflady-z-forniru-debowego-200-x-44-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709218368/ambiences/A000000939_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/wieszak-natane-z-drewna-brzozowego-163-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222612/ambiences/A000001978_7.jpg",
+    url: "https://kavehome.com/pl/pl/p/polka-abilen-z-forniru-debowego-80-x-15-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709218808/ambiences/A000001449_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/lawka-safara-z-litego-drewna-tekowego-z-odzysku-150-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709218808/ambiences/A000001449_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/lawka-safara-z-litego-drewna-tekowego-z-odzysku-150-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709218021/ambiences/A000001516_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-abilen-2-drzwi-i-2-szuflady-fornir-debowy-bialy-lakier-200-x-44-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219012/ambiences/A000001514_14.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-abilen-2-drzwi-i-2-szuflady-fornir-debowy-bialy-lakier-200-x-44-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709212856/ambiences/A000001842_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-licia-2-drzwi-lite-drewno-mango-i-metal-wykonczenie-czarne-160-x-56-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709212850/ambiences/A000001842_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-licia-2-drzwi-lite-drewno-mango-i-metal-wykonczenie-czarne-160-x-56-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222788/ambiences/A000002229_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/wieszak-nadue-z-litego-drewna-bukowego-z-czarnym-wykonczeniem-170-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222404/ambiences/A000002179_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/kredens-lenon-1-drzwi-i-3-szuflady-z-drewna-i-forniru-debowego-105-x-85-cm-fsc-mix-kredyt",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222032/ambiences/A000002228_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-na-telewizor-mailen-2-drzwi-z-okleina-jesionowa-z-naturalnym-wykonczeniem-120-x-50-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219020/ambiences/A000001515_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-abilen-1-drzwi-i-2-szuflady-fornir-debowy-bialy-lakier-150-x-44-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709214875/ambiences/A000001515_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/szafka-rtv-abilen-1-drzwi-i-2-szuflady-fornir-debowy-bialy-lakier-150-x-44-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222612/ambiences/A000001978_7.jpg",
+    url: "https://kavehome.com/pl/pl/p/polka-abilen-z-forniru-debowego-120-x-15-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221396/ambiences/A000001978_6.jpg",
+    url: "https://kavehome.com/pl/pl/p/polka-abilen-z-forniru-debowego-120-x-15-cm-fsc-100",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220610/ambiences/A000002089_13.jpg",
+    url: "https://kavehome.com/pl/pl/p/modul-regalu-litto-duzy-z-forniru-orzechowego-101-x-38-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222375/ambiences/A000001960_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-deyanira-w-okleinie-debowej-i-na-nogach-z-litego-debu-200-x-100-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222355/ambiences/A000001957_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-deyanira-w-okleinie-debowej-i-na-nogach-z-litego-debu-200-x-100-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1714640466/ambiences/A000002293_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-sashi-z-litego-drewna-tekowego-220-x-100-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1714640464/ambiences/A000002293_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-sashi-z-litego-drewna-tekowego-220-x-100-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223618/ambiences/A3D23015_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-jeanette-okragly-z-litego-drewna-tekowego-o-90-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1727859669/ambiences/A000002485_42.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-argo-ze-szkla-i-nog-ze-stali-w-czarnym-wykonczeniu-160-x-190-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1721718859/ambiences/A000002392_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-rozkladany-elan-fornir-i-lite-drewno-orzechowe-200-260-x-100-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1721718859/ambiences/A000002392_9.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-rozkladany-elan-fornir-i-lite-drewno-orzechowe-200-260-x-100-cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221209/ambiences/A000002160_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-mailen-owalny-fornir-jesionowy-z-ciemnym-wykonczeniem-o-220-cm-x-105-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223070/ambiences/A000002264_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/rozkladany-stol-arlen-fornir-i-lite-drewno-debowe-z-naturalnym-wykonczeniem-200250x95cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222085/ambiences/A000002264_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/rozkladany-stol-arlen-fornir-i-lite-drewno-debowe-z-naturalnym-wykonczeniem-200250x95cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1715067968/ambiences/A000002357_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-rozkladany-lenon-z-forniru-i-litego-czarnego-drewna-debowego-200280x90cm-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220465/ambiences/A000002071_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-deyanira-w-okleinie-debowej-i-na-nogach-z-litego-debu-220-x-110-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220468/ambiences/A000002071_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-deyanira-w-okleinie-debowej-i-na-nogach-z-litego-debu-220-x-110-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222737/ambiences/A000002226_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-mailen-okragly-fornir-jesionowy-z-naturalnym-wykonczeniem-o-120-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222745/ambiences/A000002226_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-mailen-okragly-fornir-jesionowy-z-naturalnym-wykonczeniem-o-120-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221801/ambiences/A000002121_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/rozkladany-stol-yain-z-forniru-i-litego-drewna-debowego-160-220-x-80-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221803/ambiences/A000002121_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/rozkladany-stol-yain-z-forniru-i-litego-drewna-debowego-160-220-x-80-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1714640609/ambiences/A000001939_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-nahla-okragly-z-litego-drewna-akacjowego-z-naturalnym-wykonczeniem-o-120-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709217830/ambiences/A000001939_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/stol-nahla-okragly-z-litego-drewna-akacjowego-z-naturalnym-wykonczeniem-o-120-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223088/ambiences/A000002266_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/krzeslo-obrotowe-marvin-brazowe-szenilowe-z-nogami-z-litego-drewna-bukowego-wykonczenie-orzechowe",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223480/ambiences/A3D23004_6.jpg",
+    url: "https://kavehome.com/pl/pl/p/krzeslo-yunia-w-kolorze-brazowym-ze-stalowymi-nogami-z-czarnym-wykonczeniem",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223474/ambiences/A3D23004_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/krzeslo-yunia-w-kolorze-brazowym-ze-stalowymi-nogami-z-czarnym-wykonczeniem",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709213408/ambiences/A000001624_23.jpg",
+    url: "https://kavehome.com/pl/pl/p/krzeslo-konna-w-ciemnozielonym-grubym-sztruksie-z-nogami-z-czarnej-stali-lakierowanej",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221402/ambiences/A000001981_4.jpg",
+    url: "https://kavehome.com/pl/pl/p/krzeslo-ciselia-ciemnoszara-szenila-i-czarna-stal-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222631/ambiences/A000001980_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/krzeslo-ciselia-ciemnoszara-szenila-i-czarna-stal-fsc-mix-credit",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1722351285/ambiences/A000002443_14.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-welniany-zantra-bialy-200x300-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725019812/ambiences/A000002393_01.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-domm-z-bialej-welny-160x230-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1728281508/ambiences/A000002466_9.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-hadin-z-welny-zakardowej-z-grafika-czarno-bialy-160x230-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855094/ambiences/A000002458_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-hadin-z-welny-zakardowej-z-grafika-czarno-bialy-160x230-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1728301667/ambiences/A000002491_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-nak-z-welny-zakardowej-ecru-200-x-300-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1728301658/ambiences/A000002491_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-nak-z-welny-zakardowej-ecru-200-x-300-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221184/ambiences/A000002156_6.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-marely-z-bialej-welny-160-x-230-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709218462/ambiences/A000001378_8.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-neida-welna-braz-160-x-230-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219662/ambiences/A000001378_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-neida-welna-braz-160-x-230-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709215260/ambiences/A000001650_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/dywan-brunilda-czarny-i-brazowy-200-x-300-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219413/ambiences/A000001228_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/taca-kaili-metalowa-bezowa",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1721199300/ambiences/A000002394_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/obraz-klis-na-plotnie-lnianym-z-bialymi-geometrycznymi-ksztaltami-80-x-100-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855077/ambiences/A000002462_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/abstrakcyjne-plotno-fida-zielone-180-x-140-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1728304647/ambiences/A000002495_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/czarny-wazon-arisa-z-papieru-mache-31-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855096/ambiences/A000002459_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/czarny-wazon-arisa-z-papieru-mache-31-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725534986/ambiences/A000002486_33.jpg",
+    url: "https://kavehome.com/pl/pl/p/bieznik-ersen-100-bawelna-czarny-50-x-160-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725534995/ambiences/A000002486_34.jpg",
+    url: "https://kavehome.com/pl/pl/p/bieznik-ersen-100-bawelna-czarny-50-x-160-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222479/ambiences/A000002188_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/fotel-belina-z-jasnobrazowego-szenilu-i-stali-z-czarnym-wykonczeniem",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219153/ambiences/A000001565_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-2-osobowa-tanya-tapicerowana-w-kolorze-jasnobrazowym-183-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709219155/ambiences/A000001565_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-2-osobowa-tanya-tapicerowana-w-kolorze-jasnobrazowym-183-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221786/ambiences/A000002113_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-modulowa-2-osobowa-neom-czesc-koncowa-z-bezowej-tkaniny-244-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709220767/ambiences/A000002113_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/modul-2-osobowy-neom-z-bezowej-tkaniny-150-cm?material_fabric=kavehome:MTK0236",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221608/ambiences/A000002053_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-modulowa-2-osobowa-neom-czesc-koncowa-z-niebieskiej-tkaniny-244-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222168/ambiences/A3D23008_11.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-3-osobowa-blok-z-szezlongiem-z-lewej-strony-w-kolorze-bezowym-300-cm?material_fabric=kavehome:MTK0151",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725011626/ambiences/A000002470_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/3-osobowa-sofa-aurum-w-kolorze-ecru-z-odchylanym-zaglowkiem-i-szara-matowa-metalowa-podstawa-234-cm?material_fabric=kavehome:MTKA000NR39",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724746906/ambiences/A000002422_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-blok-3-osobowa-ze-skory-w-kolorze-brazowym-240-cm?material_fabric=kavehome:MTKA000RM10",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724746901/ambiences/A000002422_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-blok-3-osobowa-ze-skory-w-kolorze-brazowym-240-cm?material_fabric=kavehome:MTKA000RM10",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855084/ambiences/A000002458_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-modulowa-3-osobowa-martina-szenil-w-kolorze-ecru-z-lewym-szezlongiem-287-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724855094/ambiences/A000002458_1.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-modulowa-3-osobowa-martina-szenil-w-kolorze-ecru-z-lewym-szezlongiem-287-cm?material_fabric=kavehome:MTKA000NR39",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725277930/ambiences/A000002464_7.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-modulowa-3-osobowa-martina-szenil-w-kolorze-ecru-z-prawym-szezlongiem-287-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709222085/ambiences/A000002263_3.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-carlota-2-osobowa-bezowa-184-cm?material_fabric=kavehome:MTK0236",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725520410/ambiences/A000002485_4.jpg",
+    url: "https://kavehome.com/pl/pl/p/fotel-meghan-z-zielonego-szenilu-i-litego-drewna-jesionowego-z-naturalnym-wykonczeniem",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1725520412/ambiences/A000002485_5.jpg",
+    url: "https://kavehome.com/pl/pl/p/fotel-meghan-z-zielonego-szenilu-i-litego-drewna-jesionowego-z-naturalnym-wykonczeniem?material_fabric=kavehome:MTKA000TB06",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223587/ambiences/A3D23008_43.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-2-osobowa-blok-zielony-gruby-sztruks-210-cm",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1724746901/ambiences/A000002422_2.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-blok-2-osobowa-ze-skory-w-kolorze-brazowym-210-cm?material_fabric=kavehome:MTKA000RM10",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709221635/ambiences/A000002062_7.jpg",
+    url: "https://kavehome.com/pl/pl/p/zestaw-portitxol-2-foteli-modulowych-z-litego-drewna-tekowego",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223745/ambiences/A000002062_9.jpg",
+    url: "https://kavehome.com/pl/pl/p/zestaw-portitxol-2-foteli-modulowych-z-litego-drewna-tekowego",
+  },
+  {
+    src: "https://d.media.kavehome.com/image/upload/w_1900,f_auto/v1709223650/ambiences/A000002052_0.jpg",
+    url: "https://kavehome.com/pl/pl/p/sofa-modulowa-1-osobowa-neom-czesc-koncowa-z-niebieskiej-tkaniny-169-cm",
+  },
   {
     src: "https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx7w7sqEUHbTGH5wWo7mO4PMHYusq6c2ai4Jp3ZrY_tamizo-estonia08jpg-image(660x_).jpg",
     url: "https://sztuka-architektury.pl/article/10974/tamizo-architects-z-nagroda-w-estonii",
