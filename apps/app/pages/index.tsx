@@ -100,7 +100,12 @@ export const Nav = ({ title, links, path, deployButton }: NavProps) => {
                   {link}
                 </Link>
               ))}
-              <a href="tmp/catch-ext.zip">ext</a>
+              <a href="tmp/catch-ext.zip" style={{ marginRight: ".5em" }}>
+                ext
+              </a>
+              <a href="api/inspirations" style={{ marginRight: ".5em" }}>
+                zip
+              </a>
             </li>
           </ul>
         </div>
