@@ -16,6 +16,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
     <Layout
       title="Monorepo"
       links={[
+        "audio",
         "box",
         "budget",
         "design",
