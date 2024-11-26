@@ -101,7 +101,7 @@ importers:
         version: 9.15.0(jiti@1.21.6)
       eslint-config-next:
         specifier: canary
-        version: 15.0.4-canary.26(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
+        version: 15.0.4-canary.28(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
       postcss:
         specifier: ^8.4.18
         version: 8.4.43
@@ -230,8 +230,8 @@ importers:
         specifier: ^1.0.14
         version: 1.0.14(vite@5.4.11(@types/node@22.9.1)(sass@1.79.6)(terser@5.36.0))
       '@types/chrome':
-        specifier: ^0.0.284
-        version: 0.0.284
+        specifier: ^0.0.287
+        version: 0.0.287
       '@types/react':
         specifier: ^18.3.8
         version: 18.3.12
@@ -1015,8 +1015,8 @@ packages:
   '@next/env@15.0.0':
     resolution: {integrity: sha512-Mcv8ZVmEgTO3bePiH/eJ7zHqQEs2gCqZ0UId2RxHmDDc7Pw6ngfSrOFlxG8XDpaex+n2G+TKPsQAf28MO+88Gw==}
 
-  '@next/eslint-plugin-next@15.0.4-canary.26':
-    resolution: {integrity: sha512-zPMb8V4p2mDFiYjpXi1oAokhMeoOXetALrM5f/XO2mLyJcHc82Gq7P5194owbv4YxleBYddP+/G3RmD9LSwGRA==}
+  '@next/eslint-plugin-next@15.0.4-canary.28':
+    resolution: {integrity: sha512-of2AJp31KJm4p8rzAfSZ/+vpdg+hWX673s2W/cgr+znRKji/FloPSKvfAtPZuPL/HbrSJiYbWPonaKi6MA5H7Q==}
 
   '@next/swc-darwin-arm64@15.0.0':
     resolution: {integrity: sha512-Gjgs3N7cFa40a9QT9AEHnuGKq69/bvIOn0SLGDV+ordq07QOP4k1GDOVedMHEjVeqy1HBLkL8rXnNTuMZIv79A==}
@@ -1359,8 +1359,8 @@ packages:
   '@types/babel__traverse@7.20.6':
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
 
-  '@types/chrome@0.0.284':
-    resolution: {integrity: sha512-nQwZQVfepZcUvKKGByOh/p4ZKaaNP1BaLaVjcAXO4jr81z3JBehyXBc/RqS30+D6W7RrMYKNKBCFsQLuhX0OSA==}
+  '@types/chrome@0.0.287':
+    resolution: {integrity: sha512-wWhBNPNXZHwycHKNYnexUcpSbrihVZu++0rdp6GEk5ZgAglenLx+RwdEouh6FrHS0XQiOxSd62yaujM1OoQlZQ==}
 
   '@types/conventional-commits-parser@5.0.0':
     resolution: {integrity: sha512-loB369iXNmAZglwWATL+WRe+CRMmmBPtpolYzIebFaX4YA3x+BEfLqhUAV9WanycKI3TG1IMr5bMJDajDKLlUQ==}
@@ -2223,8 +2223,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.0.4-canary.26:
-    resolution: {integrity: sha512-UM5S3Wsh+TANmIL8eXKm2V7PsFYUYca4GP2j3+3Ii+xEA7ZsqqW+p3KhGKkvnZe76MCeD9xv3ZQW5jsWKc1EZA==}
+  eslint-config-next@15.0.4-canary.28:
+    resolution: {integrity: sha512-9a3PpUWc8gGAmQSZ9OKLYJhDtGy6FcLlG7snz8G36I3jnJazUuHw51oL8jTjT1rmyi0TqkjzhTxpMx146C6LZA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -4622,7 +4622,7 @@ snapshots:
 
   '@next/env@15.0.0': {}
 
-  '@next/eslint-plugin-next@15.0.4-canary.26':
+  '@next/eslint-plugin-next@15.0.4-canary.28':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4918,7 +4918,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.25.8
 
-  '@types/chrome@0.0.284':
+  '@types/chrome@0.0.287':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.15
@@ -5989,9 +5989,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.0.4-canary.26(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2):
+  eslint-config-next@15.0.4-canary.28(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.0.4-canary.26
+      '@next/eslint-plugin-next': 15.0.4-canary.28
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 7.17.0(@typescript-eslint/parser@7.2.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2))(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
       '@typescript-eslint/parser': 7.2.0(eslint@9.15.0(jiti@1.21.6))(typescript@5.7.2)
