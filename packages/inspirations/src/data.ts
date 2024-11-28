@@ -160,6 +160,330 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.datocms-assets.com/49896/1725017822-new-works_website_images_brolly-4.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/brolly-pendant-lamp-oe90",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1635410879-20210915newworksshowroom106817.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/tense-pendant-lamp-o120",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1635409402-20210915newworksshowroom106675-edited.png?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/tense-pendant-lamp-o120",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1635411001-new-worksautumn-21tense-pendant-lamp-o90.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/tense-pendant-lamp-o90",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636393920-newworksautumn21tensependant0florencediningtablerectangularmissingchairwide.jpg?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/tense-pendant-lamp-o90",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1635338361-new-worksfall-2021covent-loungemass-coffee-tabletense-pendants.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/tense-pendant-lamp-o70",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1635338353-new-worksfall-2021tense-pendant-lampo70.jpg?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/tense-pendant-lamp-o70",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1701870101-nw_31-okt0543_1.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/tense-chandelier",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1637231103-newworksautumn21marginpendant0florencetablerectangularcoventchair-edited-edited-edited.png?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/margin-pendant-lamp-o70",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1637246106-newworksautumn21marginpendant0marginfloorlampcoventsofadeep3-seatercoventloungechairflorencecoffeeandsidetable.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/margin-pendant-lamp-o70",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1635257570-20210915newworksshowroom106878.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/margin-pendant-lamp-o70",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636383678-20210929newworksvignettesmmdsf1716-edited.png?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/karl-johan-pendant-lamp-large-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636383468-new-workskarl-johan-pendant-largesmoked-glassflorence-dining-table-o145gris-du-maraiscovent-chair.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/karl-johan-pendant-lamp-large-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1633951371-new-worksnews-spring2020karl-johan-pendantlargesmoked-glass.png?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/karl-johan-pendant-lamp-large-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636386267-new-worksappartment2016florence-side-tablekarl-johan-table-lamp-edited.png?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/karl-johan-table-lamp-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636386344-20210929newworksvignettesmmdsf1646.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/karl-johan-table-lamp-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1635171222-new-worksautumn-21karl-johan-table-lampsmoked-oak-w-opal-glass.jpg?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/karl-johan-table-lamp",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636385405-newworksautumn21karl-johantablelampsmokedoakopalglass.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/karl-johan-table-lamp",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636384194-newworksautumn21karljohanpendantsmallopalglasscoventbarstool.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/karl-johan-pendant-lamp-small",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1633949691-new-worksnews-spring2020karl-johan-pendantsmallopal-glass.png?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/karl-johan-pendant-lamp-small",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636120356-new-worksapril-21material-pendantopal-glass1.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/material-pendant-3",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1636121766-new-worksnews-spring2020material-pendantwhite-opal-glass-edited-edited.png?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/material-pendant-3",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1633523202-new-worksour-copenhagen-home2019lantern-pendantlarge.png?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/lantern-pendant-lamp-_-large",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1633341379-new-worksapril-21lantern-pendantsmallmediumlargeflorence-dining-tablegris-du-marais.png?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/lantern-pendant-lamp-_-large",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1694679624-newworks_lifestyle_42711_fumed_oak_atlas_dining_table_covent_cloub_chair_lantern_table_lamp.jpeg?w=800",
+    url: "https://newworks.dk/en/product/atlas-dining-table-200x95-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1690969273-new_works_a_poetic_disclosure_276_06.jpg?w=800",
+    url: "https://newworks.dk/en/product/atlas-dining-table-250x95",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1690979585-new_works_a_poetic_disclosure_775_46.jpg?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/atlas-dining-table-250x95-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1686574458-new_works_a_poetic_disclosure_282_09.jpg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/atlas-dining-table-250x95-1",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1695369405-newworks_lifestyle_43511_shore_lounge_chair_extended_base_3.jpeg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/shore-lounge-chair-extended-base",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1694437220-newworks_lifestyle_43511_shore_lounge_chair.jpeg?auto=compress&fm=webp&q=60&w=1200",
+    url: "https://newworks.dk/en/product/shore-lounge-chair-extended-base",
+  },
+  {
+    src: "https://www.datocms-assets.com/49896/1690967609-new_works_a_poetic_disclosure_4x5_01-web22.jpg?auto=compress&fm=webp&q=75&w=2000",
+    url: "https://newworks.dk/en/product/atlas-coffee-table-82x82-1",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwf783282a/images/lifeshot/F54000/lifestyle_parentesi_black_01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/parentesi/M-parentesi.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwab7c7dca/images/lifeshot/F54000/lifestyle_parentesi_black_03.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/parentesi/M-parentesi.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw62ba4e65/images/lifeshot/F54000/lifestyle_parentesi_black_04.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/parentesi/M-parentesi.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw157b6c5a/images/lifeshot/F00900/Desktop/Black/lifestyle_aim_black_02heads_03.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/aim/M-aim.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw7e4eefd8/images/lifeshot/F00900/Desktop/Black/lifestyle_aim_black_03heads_07.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/aim/M-aim.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw4940d3a6/images/lifeshot/F64050/Desktop/skygarden-small-rustybrown-suspension-wanders-flos-01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/skygarden/M-skygarden.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwdda8c5ae/images/lifeshot/F64050/Desktop/skygarden-small-rustybrown-suspension-wanders-flos-02.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/skygarden/M-skygarden.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw672c546c/images/lifeshot/Bellhop%20Glass/Suspension/lie_bellhop_glass_uspension_blak.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/bellhop-glass-s/M-bellhop-glass-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw6dd85a10/images/lifeshot/IC%2024k/_IC%20Gold/_Suspension/ic_g_suspension_01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/ic-s2-10-anniversary-24k-gold-halogen/F3176044.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw128553a3/images/lifeshot/IC%2024k/_IC%20Gold/_Suspension/ic_g_suspension_03.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/ic-s2-10-anniversary-24k-gold-halogen/F3176044.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw6b71471e/images/lifeshot/F30100/Desktop/lifestyle_globall_S_02.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/glo-ball-suspension/M-glo-ball-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw91e6579d/images/lifeshot/F30100/Desktop/lifestyle_globall_S_01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/glo-ball-suspension/M-glo-ball-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwceb35404/images/lifeshot/F95600/Desktop/wan-s-white-suspension-grawunder-flos-01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/wan-suspension/M-wan-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw07959966/images/lifeshot/F13710/Desktop/smithfield-s-black-suspension-morrison-flos-01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/smithfield-suspension/M-smithfield-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw553879b6/images/lifeshot/F13710/Desktop/smithfield-s-black-suspension-morrison-flos-02.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/smithfield-suspension/M-smithfield-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw2788f922/images/lifeshot/F31750/lifestyle_icsuspension_brass_01mod.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/ic-lights-suspension/M-ic-lights-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw243554e0/images/lifeshot/F31750/lifestyle_icsuspension_brass_02.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/ic-lights-suspension/M-ic-lights-suspension.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwe5b28fe4/images/lifeshot/F64810/Desktop/string-light-cone-head-blue-suspension-anastassiades-flos-02.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/string-light-cone/M-string-cone.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw84df47f0/images/lifeshot/F64810/Desktop/string-light-cone-head-black-suspension-anastassiades-flos-05.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/string-light-cone/M-string-cone.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw10bafa84/images/lifeshot/My%20Line%20&%20My%20Disc/mysphere_01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/my-sphere-white-led-retrofit/F1920009.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwdcf6d955/images/lifeshot/F21210/Desktop/diabolo-beaver-brown-suspension-castiglioni-flos-01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/diabolo/M-diabolo.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw5a72e1b8/images/lifeshot/F02730/lifestyle_noctambule_suspensionbowl_04.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/noctambule-suspension-bowl/M-noctambule-suspension-bowl.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwbcfc83f0/images/lifeshot/F02760/lifestyle_noctambule_suspensioncone_01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/noctambule-suspension-cone/M-noctambule-suspension-cone.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwb577bff3/images/lifeshot/F044/Almendra%20Linear/Almendra_s3_01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/almendra-linear/M-almendra-linear.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dwdaf35300/images/lifeshot/F46400/Desktop/ok-yellow-white-blakc-suspension-grcic-flos-02.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/ok/M-ok.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://flos.com/dw/image/v2/BFXX_PRD/on/demandware.static/-/Sites-FLOS-master/default/dw9e016c6b/images/lifeshot/IC%2024k/_IC%20BIG/pdp_s3_01.jpg?sw=3000&q=60&bgcolor=FFFFFF",
+    url: "https://flos.com/en/pl/ic-lights-s3/M-ic-lights-anniversary-s3.html?itemListName=Pendant&itemListID=pendant&spareparts=false",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/aeron_chair/202106/ig_prd_ovw_aeron_chair_01.jpg",
+    url: "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/aeron_chair/202106/ig_prd_ovw_aeron_chair_02.jpg",
+    url: "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/aeron_chair/202106/ig_prd_ovw_aeron_chair_03.jpg",
+    url: "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/aeron_chair/202106/ig_prd_ovw_aeron_chair_04.jpg",
+    url: "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/aeron_chair/202106/ig_prd_ovw_aeron_chair_05.jpg",
+    url: "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/aeron_chair/202106/ig_prd_ovw_aeron_chair_01.jpg",
+    url: "https://www.hermanmiller.com/products/seating/office-chairs/aeron-chair/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/canvas_private_office/ig_prd_ovw_canvas_private_office_01.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/workstations/canvas-private-office/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/canvas_private_office/ig_prd_ovw_canvas_private_office_03.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/workstations/canvas-private-office/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/eames_desks_and_storage_units/ig_prd_ovw_eames_desks_and_storage_units_01.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/eames-desks-and-storage-units/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/eames_desks_and_storage_units/ig_prd_ovw_eames_desks_and_storage_units_04.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/eames-desks-and-storage-units/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/nelson_swag_leg_desk_and_tables/ig_prd_ovw_nelson_swag_leg_desk_and_tables_01.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/nelson-swag-leg-desk-and-tables/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/nelson_swag_leg_desk_and_tables/ig_prd_ovw_nelson_swag_leg_desk_and_tables_02.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/nelson-swag-leg-desk-and-tables/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/mode_desk/ig_prd_ovw_mode_desk_01.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/mode-desk/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/oe1_rectangular_table/feb_2020/ig_prd_ovw_oe1_rectangular_table_01.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/oe1-rectangular-table/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/oe1_rectangular_table/feb_2020/ig_prd_ovw_oe1_rectangular_table_02.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/oe1-rectangular-table/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/eames_2500_series_executive_desk/ig_prd_ovw_eames_2500_series_executive_desk_01.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/eames-2500-series-executive-desk/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/leatherwrap_sit_to_stand_desk/ig_prd_ovw_leatherwrap_sit_to_stand_desk_01.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/leatherwrap-sit-to-stand-desk/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/leatherwrap_sit_to_stand_desk/ig_prd_ovw_leatherwrap_sit_to_stand_desk_02.jpg",
+    url: "https://www.hermanmiller.com/products/workspaces/desks/leatherwrap-sit-to-stand-desk/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/hay/copenhague_dining_table/ig_prd_ovw_copenhague_dining_table_01.jpg",
+    url: "https://www.hermanmiller.com/products/tables/dining-tables/copenhague-dining-table/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/hay/copenhague_dining_table/ig_prd_ovw_copenhague_dining_table_02.jpg",
+    url: "https://www.hermanmiller.com/products/tables/dining-tables/copenhague-dining-table/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/hay/copenhague_dining_table/ig_prd_ovw_copenhague_dining_table_03.jpg",
+    url: "https://www.hermanmiller.com/products/tables/dining-tables/copenhague-dining-table/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/hay/copenhague_dining_table/ig_prd_ovw_copenhague_dining_table_04.jpg",
+    url: "https://www.hermanmiller.com/products/tables/dining-tables/copenhague-dining-table/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/doubleframe_table/ig_prd_ovw_doubleframe_table_05.jpg",
+    url: "https://www.hermanmiller.com/products/tables/dining-tables/doubleframe-table/",
+  },
+  {
+    src: "https://www.hermanmiller.com/content/dam/hmicom/page_assets/products/hay/palissade_bistro_table/ig_prd_ovw_palissade_bistro_table_02.jpg",
+    url: "https://www.hermanmiller.com/products/tables/outdoor-tables/palissade-bistro-table/",
+  },
+  {
     src: "https://ambiencehomedesign.com/wp-content/uploads/2023/08/villa-in-los-flamingos-16.jpg",
     url: "https://ambiencehomedesign.com/project/new-villa-in-los-flamingos/",
   },
