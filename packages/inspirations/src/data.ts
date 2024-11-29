@@ -160,6 +160,422 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-whorl-amb1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/whorl-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-whorl-amb2-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/whorl-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-dirtyice-amb1-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/dirty-ice-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-dirtyice-amb2-1000x1048.jpg",
+    url: "https://www.cotlin.com/en/product/dirty-ice-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-dirtyice-amb3-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/dirty-ice-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-dirtyice-amb4-1000x1048.jpg",
+    url: "https://www.cotlin.com/en/product/dirty-ice-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-dirtyice-amb5-1000x1048.jpg",
+    url: "https://www.cotlin.com/en/product/dirty-ice-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-dirtyice-amb6-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/dirty-ice-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-ravine-amb5-1000x1048.jpg",
+    url: "https://www.cotlin.com/en/product/ravine-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/In%20lines/cotlin-ferreira-INLINES-amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/in-lines-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Dash%20Cement/cotlin-ferreira-dashcement-amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/dash-cement-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_noble-2.jpg",
+    url: "https://www.cotlin.com/en/product/noble/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_pleat-2.jpg",
+    url: "https://www.cotlin.com/en/product/pleat/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_pleat-4.jpg",
+    url: "https://www.cotlin.com/en/product/pleat/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_pleat-5.jpg",
+    url: "https://www.cotlin.com/en/product/pleat/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_summit-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/summit-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_summit-2.jpg",
+    url: "https://www.cotlin.com/en/product/summit-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_firma-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/firma-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_firma-2.jpg",
+    url: "https://www.cotlin.com/en/product/firma-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_diagonal-2.jpg",
+    url: "https://www.cotlin.com/en/product/diagonal-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_sense-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/sense-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_sense-2.jpg",
+    url: "https://www.cotlin.com/en/product/sense-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2024/09/cotlinraw_martinicalinesM-4.jpg",
+    url: "https://www.cotlin.com/en/product/martinica-lines-medium-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Martinica%20Outdoor/cotlin_martinicaroutdoor_campingmar-1000x1526-1.jpg",
+    url: "https://www.cotlin.com/en/product/martinica-plain-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Martinica%20Outdoor/cotlin_martinica_campingmar-1000x1526-1.jpg",
+    url: "https://www.cotlin.com/en/product/martinica-plain-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Ink/cotlinraw_INK_amb2-1-scaled-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/ink-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Maxima/cotlinraw_MAXIMA_amb1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/maxima-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Maxima/cotlinraw_MAXIMA_amb3-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/maxima-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Aspen/cotlinraw_ASPEN_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/aspen-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Aspen/cotlinraw_ASPEN_amb2-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/aspen-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2023/12/cotlinraw_martinica_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/martinica-outdoor-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Soho%20by%20Manhattan/cotlinraw_SOHO_MANHATTAN_amb1-e1702287382252-550x840.jpg",
+    url: "https://www.cotlin.com/en/product/soho-by-manhattan-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Soho%20by%20Manhattan/cotlinraw_SOHO_MANHATTAN_amb2-e1707301189905-1000x1406.jpg",
+    url: "https://www.cotlin.com/en/product/soho-by-manhattan-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Manhattan/cotlinraw_MANHATTAN_amb1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/manhattan-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Wabi/cotlinraw_WABI_amb1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/wabi-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Wabi/cotlinraw_WABI_amb2-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/wabi-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Tribe%20by%20Maryland/cotlinraw_TRIBE_MARYLAND_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/tribe-by-maryland-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Braid/cotlinraw_braid_amb1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/braid-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Braid/cotlinraw_braid_amb3-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/braid-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Rice/cotlinraw_RICE_amb3-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/rice-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Rice/cotlinraw_RICE_amb4-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/rice-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2023/12/cotlinraw_BROOKLYN_amb4-550x840.jpg",
+    url: "https://www.cotlin.com/en/product/brooklyn-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Cuerda/cotlinraw_CUERDA_amb2-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/cuerda-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Cuerda/cotlinraw_CUERDA_amb-1-scaled-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/cuerda-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Vibe/cotlinraw_VIBE_amb1-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/vibe-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Crossover/cotlinraw_CROSSOVER_amb2-550x840.jpg",
+    url: "https://www.cotlin.com/en/product/crossover-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Kilim%20Plain/cotlinraw_KILIMPLAIN_amb2-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/kilim-plain-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/2023/12/cotlinraw_SERENASQUARE_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/serena-square-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Limits/cotlinraw_LIMITS_amb2-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/limits-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Ma%C3%B3%20by%20Vegas/cotlinraw_MAOVEGAS_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/mao-by-vegas-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Surco/cotlinraw_SURCO_amb3-550x840.jpg",
+    url: "https://www.cotlin.com/en/product/surco-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Surco/IMG_6773-copia-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/surco-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Surco/cotlinraw_SURCO_amb7-1.jpg",
+    url: "https://www.cotlin.com/en/product/surco-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Surco/cotlinraw_SURCO_amb5-1-scaled-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/surco-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Missouri/cotlinraw_MISSOURI_amb.jpg",
+    url: "https://www.cotlin.com/en/product/missouri-collection/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Anna/carpet_anna_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/anna-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Pine/carpet-pine-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/pine-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Gstaad/carpet-gstaad.jpg",
+    url: "https://www.cotlin.com/en/product/gstaad-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Crunchy%20wool/carpet_crunchy_amb-1000x1526.png",
+    url: "https://www.cotlin.com/en/product/crunchy-wool-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Pals/carpet-pals-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/pals-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Verbier/carpet-verbier-1000x1417.jpg",
+    url: "https://www.cotlin.com/en/product/verbier-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Estel/carpet-estel-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/estel-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Estel/ESTEL-PLUS-TODAS.jpg",
+    url: "https://www.cotlin.com/en/product/estel-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Gibo/carpet-gibo-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/gibo-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Calella/carpet-buda-amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/buda-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Domino/carpet-domino-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/domino-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Chame/carpet_chame_amb3-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/chame-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Diplo/carpet-diplo-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/diplo-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Sea/carpet-sea-1000x1350.jpg",
+    url: "https://www.cotlin.com/en/product/sea-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Sea/carpet_sea_amb2-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/sea-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Llafranc/carpet-llafranc.jpg",
+    url: "https://www.cotlin.com/en/product/llafranc-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Llafranc/carpet_llafranc_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/llafranc-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Costello/carpet_costello_amb-1000x1349.jpg",
+    url: "https://www.cotlin.com/en/product/costello-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Costello/carpet_costello_amb-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/costello-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Pretty/carpet-pretty-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/pretty-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Bay/carpet_bay_amb-1-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/bay-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Donnie/carpet-donnie.jpg",
+    url: "https://www.cotlin.com/en/product/donnie-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Brasco/carpet_brasco_amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/brasco-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Chamonix/cotlin-carpet-chamonix.jpg",
+    url: "https://www.cotlin.com/en/product/chamonix-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Chamonix/carpet_chamonix_amb-1000x1417.jpg",
+    url: "https://www.cotlin.com/en/product/chamonix-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Dharma/carpet-dea-1000x1002.jpg",
+    url: "https://www.cotlin.com/en/product/dea-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Rene/carpet-rene-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/rene-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Diplo/carpet-dharma-1000x956.jpg",
+    url: "https://www.cotlin.com/en/product/dharma-2/",
+  },
+  {
+    src: "https://www.cotlin.com/wp-content/uploads/Coco/carpet_coco_Amb-1000x1526.jpg",
+    url: "https://www.cotlin.com/en/product/coco-2/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/CROSSING-LINES.png",
+    url: "https://ferreiradesa.com/product/crossing-lines-eco/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/Meco-White-01.jpg",
+    url: "https://ferreiradesa.com/product/meco-white/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/BURGO.png",
+    url: "https://ferreiradesa.com/product/burgo-black/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/ROMEU.png",
+    url: "https://ferreiradesa.com/product/romeu-burgundy/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/XISTO.png",
+    url: "https://ferreiradesa.com/product/xisto-asher/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/CASTELO.png",
+    url: "https://ferreiradesa.com/product/castelo-brownish/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/MYKONOS_02.png",
+    url: "https://ferreiradesa.com/product/mykonos/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/10/BS_300-FS_01-TS_SISAL_C02-B_04-812x1024.jpg",
+    url: "https://ferreiradesa.com/product/sisalana-mirrored/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/FS_Textured-Edition_Sentosa-Kusu_Sand-DETALHE-Low-812x1024.jpg",
+    url: "https://ferreiradesa.com/product/sentosa-kusu-sand/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/BS_01-CL_01-PR_SENTOSA_ESCENA-13_C01_06-Low-1024x646.jpg",
+    url: "https://ferreiradesa.com/product/sentosa-kusu-sand/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/FS_Textured-Edition_Sentosa-Kusu_Caviar-DETALHE-Low-819x1024.jpg",
+    url: "https://ferreiradesa.com/product/sentosa-kusu-caviar/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/BS_300-FS_02-NC_SENTOSA_ESCENA-14_C01_06-Low-1024x646.jpg",
+    url: "https://ferreiradesa.com/product/sentosa-kusu-caviar/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/BS_300-FS_02-NC_RAVINE_ESCENA-12_C02_06-Low-1024x646.jpg",
+    url: "https://ferreiradesa.com/product/ravine-almond/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/FS_Textured-Edition_Dirty-Ice_Polar-DETALHE-Low-819x1024.jpg",
+    url: "https://ferreiradesa.com/product/dirty-ice-polar-2/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/BS_300-FS_02-NC_DIRTY-ICE_ESCENA-01_C01_04-Low-1024x646.jpg",
+    url: "https://ferreiradesa.com/product/dirty-ice-polar-2/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/FS_Textured-Edition_Dirty-Ice_Foggy-DETALHE-Low-812x1024.jpg",
+    url: "https://ferreiradesa.com/product/dirty-ice-foggy-2/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/BS_300-FS_02-NC_DIRTY-ICE_ESCENA-03_C01_05-Low-1024x646.jpg",
+    url: "https://ferreiradesa.com/product/dirty-ice-foggy-2/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2024/08/BS_300-FS_02-NC_BLISSFUL_ESCENA-04_C01_06-Low-819x1024.jpg",
+    url: "https://ferreiradesa.com/product/blissful-cream/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/BS_300-FS_01-TS_TOPIARY_C01_06-1024x644.jpg",
+    url: "https://ferreiradesa.com/product/topiary-cream/",
+  },
+  {
+    src: "https://ferreiradesa.com/wp-content/uploads/2022/09/BS_300-FS_01-TS_TOPIARY_C02_04-812x1024.jpg",
+    url: "https://ferreiradesa.com/product/topiary-cream/",
+  },
+  {
     src: "https://www.datocms-assets.com/49896/1725017822-new-works_website_images_brolly-4.jpg?auto=compress&fm=webp&q=60&w=1200",
     url: "https://newworks.dk/en/product/brolly-pendant-lamp-oe90",
   },
