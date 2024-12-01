@@ -160,6 +160,562 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://curver.pl/userdata/public/gfx/9877/17202245_Kosz_narzedziowy_ROC_Pro_Gear_10_002.webp",
+    url: "https://curver.pl/warsztat/kosz-narzedziowy-roc-pro-gear-1.0#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9809/17211900_Maly_organizer_ROC_Pro_Gear_20_004.webp",
+    url: "https://curver.pl/warsztat/maly-organizer-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9807/17211900_Maly_organizer_ROC_Pro_Gear_20_006.webp",
+    url: "https://curver.pl/warsztat/maly-organizer-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9808/17211900_Maly_organizer_ROC_Pro_Gear_20_005.webp",
+    url: "https://curver.pl/warsztat/maly-organizer-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=6",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9812/17211900_Maly_organizer_ROC_Pro_Gear_20_001.webp",
+    url: "https://curver.pl/warsztat/maly-organizer-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=9",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9378/7290004837259_Organizer-22-Cantilever_001.webp",
+    url: "https://curver.pl/warsztat/organizer-22-cantilever#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9380/7290004837259_Organizer-22-Cantilever_003.webp",
+    url: "https://curver.pl/warsztat/organizer-22-cantilever#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9379/7290004837259_Organizer-22-Cantilever_002.webp",
+    url: "https://curver.pl/warsztat/organizer-22-cantilever#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9374/7290106934108_Organizer-Cantilever-Connect_004.webp",
+    url: "https://curver.pl/warsztat/organizer-cantilever-connect#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9372/7290106934108_Organizer-Cantilever-Connect_002.webp",
+    url: "https://curver.pl/warsztat/organizer-cantilever-connect#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9371/7290106934108_Organizer-Cantilever-Connect_001.webp",
+    url: "https://curver.pl/warsztat/organizer-cantilever-connect#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9373/7290106934108_Organizer-Cantilever-Connect_003.webp",
+    url: "https://curver.pl/warsztat/organizer-cantilever-connect#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9368/7290112635082-Regal-2-szuflady-Connect-004.webp",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-connect#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9366/7290112635082-Regal-2-szuflady-Connect-002.webp",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-connect#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9365/7290112635082-Regal-2-szuflady-Connect-001.webp",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-connect#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9367/7290112635082-Regal-2-szuflady-Connect-003.webp",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-connect#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9366/7290112635082-Regal-2-szuflady-Connect-002.webp",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-connect#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9360/7290106926158-Regal-2-szuflady-Tool-Chest-002.webp",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-tool-chest#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9363/7290106926158-Regal-2-szuflady-Tool-Chest-005.webp",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-tool-chest#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9683/8026-%E2%80%94-kopia.jpg",
+    url: "https://curver.pl/warsztat/regal-2-szuflady-tool-chest#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9356/7290106926134-Regal-3-szuflady-Tool-Chest-002.webp",
+    url: "https://curver.pl/warsztat/regal-3-szuflady-tool-chest#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9340/7290106928770-Regal-6-szufland-Tool-Chest-005.webp",
+    url: "https://curver.pl/warsztat/regal-6-szufland-tool-chest#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9339/7290106928770-Regal-6-szufland-Tool-Chest-004.webp",
+    url: "https://curver.pl/warsztat/regal-6-szufland-tool-chest#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9336/7290106928770-Regal-6-szufland-Tool-Chest-001.webp",
+    url: "https://curver.pl/warsztat/regal-6-szufland-tool-chest#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9341/7290106928770-Regal-6-szufland-Tool-Chest-006.webp",
+    url: "https://curver.pl/warsztat/regal-6-szufland-tool-chest#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9323/7290106934238-Skrzynka-na-kolkach-Job-Box-001.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-job-box#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9332/7290106934238-Skrzynka-na-kolkach-Job-Box-010.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-job-box#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9333/7290106934238-Skrzynka-na-kolkach-Job-Box-011.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-job-box#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9324/7290106934238-Skrzynka-na-kolkach-Job-Box-002.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-job-box#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9322/7290103656539-Skrzynka-na-kolkach-Masterloader-011.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-masterloader#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9312/7290103656539-Skrzynka-na-kolkach-Masterloader-001.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-masterloader#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9314/7290103656539-Skrzynka-na-kolkach-Masterloader-003.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-masterloader#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9316/7290103656539-Skrzynka-na-kolkach-Masterloader-005.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-masterloader#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9315/7290103656539-Skrzynka-na-kolkach-Masterloader-004.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-masterloader#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9839/17211897_Skrzynka_na_kolkach_ROC_Pro_Gear_20_008.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9844/17211897_Skrzynka_na_kolkach_ROC_Pro_Gear_20_003.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9834/17211897_Skrzynka_na_kolkach_ROC_Pro_Gear_20_013.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9845/17211897_Skrzynka_na_kolkach_ROC_Pro_Gear_20_002.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9297/7290112635372-Skrzynka-na-kolkach-StackNRoll-001.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-stacknroll#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9303/7290112635372-Skrzynka-na-kolkach-StackNRoll-007.webp",
+    url: "https://curver.pl/warsztat/skrzynka-na-kolkach-stacknroll#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9296/7290103656669-Skrzynka-narzedziowa-16-Power-2.webp",
+    url: "https://curver.pl/warsztat/skrzynka-narzedziowa-16-power#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9295/7290103656669-Skrzynka-narzedziowa-16-Power-1.webp",
+    url: "https://curver.pl/warsztat/skrzynka-narzedziowa-16-power#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9799/17211901_Skrzynka_narzedziowa_XL_ROC_Pro_Gear_20_005.webp",
+    url: "https://curver.pl/warsztat/skrzynka-narzedziowa-xl-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9796/17211901_Skrzynka_narzedziowa_XL_ROC_Pro_Gear_20_008.webp",
+    url: "https://curver.pl/warsztat/skrzynka-narzedziowa-xl-roc-pro-gear-2.0#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9214/7290106934245_Lumber-Jack_Stojak_Czarny_srebrny_001.webp",
+    url: "https://curver.pl/warsztat/stojak-lumber-jack#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9224/7290106934245_Lumber-Jack_Stojak_Czarny_srebrny_011.webp",
+    url: "https://curver.pl/warsztat/stojak-lumber-jack#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9187/7290106931503_Jobmade_Stol-warsztatowy-skladany_Czarny_srebrny_001.webp",
+    url: "https://curver.pl/warsztat/stol-warsztatowy-skladany-jobmade#galleryName=productGallery,imageNumber=1",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9189/7290106931503_Jobmade_Stol-warsztatowy-skladany_Czarny_srebrny_003.webp",
+    url: "https://curver.pl/warsztat/stol-warsztatowy-skladany-jobmade#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9188/7290106931503_Jobmade_Stol-warsztatowy-skladany_Czarny_srebrny_002.webp",
+    url: "https://curver.pl/warsztat/stol-warsztatowy-skladany-jobmade#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8982/3253924841441_Jute_Koszyk-L_Pudrowy-roz_20L_001.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/koszyk-l-jute-20l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8977/3253921907003_Jute_Koszyk-L_Kremowy_20L_001.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/koszyk-l-jute-20l#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8983/3253924841441_Jute_Koszyk-L_Pudrowy-roz_20L_002.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/koszyk-l-jute-20l#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8986/3253921905054_Jute_Koszyk-M_Kremowy_12L_001.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/koszyk-m-jute-12l#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8960/3253921903029_Jute_Koszyk-okragly-z-przykrywka_Ciemny-szary_2L_005.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/koszyk-okragly-z-przykrywka-jute-2l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8958/3253921903005_Jute_Koszyk-okragly-z-przykrywka_Kremowy_2L_007.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/koszyk-okragly-z-przykrywka-jute-2l#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/9010/3253924839783_Filo-Recycled_Koszyk-L_Granatowy_18L_002.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/koszyk-xl-filo-recycled-30l#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7708/3253922101004_Ready-To-Collect_Kosz-do-segregacji-smieci_Ciemny-szary_jasny-szary_10L_003.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-do-segregacji-smieci-ready-to-collect-10l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7711/3253922101004_Ready-To-Collect_Kosz-do-segregacji-smieci_Ciemny-szary_jasny-szary_10L_011.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-do-segregacji-smieci-ready-to-collect-10l#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7692/3253922103008_Ready-To-Collect_Kosz-do-segregacji-smieci_Szaroblekitny_jasny-szary_30L_003.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-do-segregacji-smieci-ready-to-collect-30l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7693/3253922103008_Ready-To-Collect_Kosz-do-segregacji-smieci_Szaroblekitny_jasny-szary_30L_008.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-do-segregacji-smieci-ready-to-collect-30l#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7696/3253922103022_Ready-To-Collect_Kosz-do-segregacji-smieci_Ciemny-szary_jasny-szary_30L_002.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-do-segregacji-smieci-ready-to-collect-30l#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7698/3253922103039_Ready-To-Collect_Kosz-do-segregacji-smieci_Bialy_jasny-szary_30L_007.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-do-segregacji-smieci-ready-to-collect-30l#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7762/3253922164009_Deco-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_30L_002.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-30l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7763/3253922164009_Deco-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_30L_008.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-30l#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7793/3253922162029_Deco-Bin_Kosz-na-smieci-z-pedalem_Iml-czarny_50L_001.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-50l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7798/3253922162036_Deco-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_50L_006.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-50l#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7799/3253922162036_Deco-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_50L_016.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-50l#galleryName=productGallery,imageNumber=6",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7777/3253921128026_Deco-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_65L_001.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-65l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7768/3253922165051_Deco-Bin-Duo_Kosz-na-smieci-z-pedalem_Iml-metalizowany_10L-18L_003.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-duo-10l18l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7780/3253928680008_Deco-Bin-Duo_Kosz-na-smieci-z-pedalem_Iml-metalizowany_23L-23L_009.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-duo-23l23l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7781/3253928680008_Deco-Bin-Duo_Kosz-na-smieci-z-pedalem_Iml-metalizowany_23L-23L_015.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-deco-bin-duo-23l23l#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7756/3253922339001_Slim-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_25L_007.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-slim-bin-25l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7757/3253922340007_Slim-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_40L_012.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-slim-bin-40l#galleryName=productGallery,imageNumber=2",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7758/3253922340007_Slim-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_40L_013.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-slim-bin-40l#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/7760/3253922340007_Slim-Bin_Kosz-na-smieci-z-pedalem_Iml-metalizowany_40L_015.webp",
+    url: "https://curver.pl/kosze-na-smieci/kosz-na-smieci-z-pedalem-slim-bin-40l#galleryName=productGallery,imageNumber=4",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8471/8013183039172_Sistemo_Organizer-do-szuflady-1_Transparentny_szary_013.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/organizer-do-szuflady-2-sistemo#galleryName=productGallery,imageNumber=8",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8466/8013183039172_Sistemo_Organizer-do-szuflady-1_Transparentny_szary_004.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/organizer-do-szuflady-2-sistemo#galleryName=productGallery,imageNumber=3",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8468/8013183039172_Sistemo_Organizer-do-szuflady-1_Transparentny_szary_007.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/organizer-do-szuflady-2-sistemo#galleryName=productGallery,imageNumber=5",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8469/8013183039172_Sistemo_Organizer-do-szuflady-1_Transparentny_szary_008.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/organizer-do-szuflady-2-sistemo#galleryName=productGallery,imageNumber=6",
+  },
+  {
+    src: "https://curver.pl/userdata/public/gfx/8471/8013183039172_Sistemo_Organizer-do-szuflady-1_Transparentny_szary_013.webp",
+    url: "https://curver.pl/przechowywanie-i-organizacja/organizer-do-szuflady-2-sistemo#galleryName=productGallery,imageNumber=8",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_04_02_12_47_55_78496.jpg",
+    url: "https://norlys.com/pl/products,25,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_04_02_12_46_25_21007.jpg",
+    url: "https://norlys.com/pl/products,25,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_10_18_12_50_06_52168.png",
+    url: "https://norlys.com/pl/products,35,Asker_Big",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_09_10_18_38_61284.jpg",
+    url: "https://norlys.com/pl/products,147,Geneva",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_09_10_18_56_55113.jpg",
+    url: "https://norlys.com/pl/products,147,Geneva",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_12_30_33_64471.jpg",
+    url: "https://norlys.com/pl/products,117,Lillehammer",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_11_48_44_36768.png",
+    url: "https://norlys.com/pl/products,117,Lillehammer",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_12_30_31_15214.jpg",
+    url: "https://norlys.com/pl/products,117,Lillehammer",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_12_30_33_64471.jpg",
+    url: "https://norlys.com/pl/products,117,Lillehammer",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_12_30_34_20942.jpg",
+    url: "https://norlys.com/pl/products,117,Lillehammer",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_12_30_35_65273.jpg",
+    url: "https://norlys.com/pl/products,117,Lillehammer",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_09_10_44_16_53515.jpg",
+    url: "https://norlys.com/pl/products,131,Mandal",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_09_10_44_05_14213.jpg",
+    url: "https://norlys.com/pl/products,131,Mandal",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_09_10_44_16_53515.jpg",
+    url: "https://norlys.com/pl/products,131,Mandal",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_02_14_25_04_13469.png",
+    url: "https://norlys.com/pl/products,172,Namsos",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_09_11_03_32_69978.png",
+    url: "https://norlys.com/pl/products,83,Ski",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_26_10_42_54_16527.jpg",
+    url: "https://norlys.com/pl/products,153,Voss",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_26_10_42_56_44376.jpg",
+    url: "https://norlys.com/pl/products,153,Voss",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2024_10_16_16_53_49_30001.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_10_17_12_15_19_31320.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_10_17_12_15_32_76326.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_10_17_12_15_39_94169.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2024_10_16_16_53_49_30001.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_03_08_30_18_42521.JPG",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_08_13_40_54_25155.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2024_10_16_16_53_45_62438.jpg",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2024_10_16_16_53_49_30001.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_26_11_56_29_62692.jpg",
+    url: "https://norlys.com/pl/products,32,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_14_19_53_29_18104.png",
+    url: "https://norlys.com/pl/products,32,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_17_16_14026.png",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_16_04_76016.jpg",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_16_28_55312.jpg",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_16_51_51330.jpg",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_17_16_14026.png",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_17_16_14026.png",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_10_01_20_98434.jpg",
+    url: "https://norlys.com/pl/products,71,Namsos",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_02_14_51_19_18413.png",
+    url: "https://norlys.com/pl/products,71,Namsos",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_10_01_20_98434.jpg",
+    url: "https://norlys.com/pl/products,71,Namsos",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_22_10_01_22_30647.jpg",
+    url: "https://norlys.com/pl/products,71,Namsos",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_26_11_42_24_94199.jpg",
+    url: "https://norlys.com/pl/products,71,Namsos",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_02_14_51_19_18413.png",
+    url: "https://norlys.com/pl/products,71,Namsos",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_09_11_23_11_69604.jpg",
+    url: "https://norlys.com/pl/products,186,Nidaros",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_17_14_38_46_45831.png",
+    url: "https://norlys.com/pl/products,186,Nidaros",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/Field_House/Hol2_hi.jpg?bwg=1689240469",
+    url: "https://www.dashdesign.pl/warsaw-apartament/#bwg9/62",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/Field_House/Hol_hi.jpg?bwg=1689240469",
+    url: "https://www.dashdesign.pl/warsaw-apartament/#bwg9/63",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/Field_House/Jadalnia_hi.jpg?bwg=1689240469",
+    url: "https://www.dashdesign.pl/warsaw-apartament/#bwg9/64",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/Field_House/Laz_duza_1_hi.jpg?bwg=1689240469",
+    url: "https://www.dashdesign.pl/warsaw-apartament/#bwg9/65",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/La_Madalena_House/L2_4.jpg?bwg=1689240273",
+    url: "https://www.dashdesign.pl/torun-apartament-2/#bwg6/38",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/La_Madalena_House/Salon_v3_1b.jpg?bwg=1689240273",
+    url: "https://www.dashdesign.pl/torun-apartament-2/#bwg6/39",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/La_Madalena_House/Sypialnia_2hi-kopia.jpg?bwg=1689240273",
+    url: "https://www.dashdesign.pl/torun-apartament-2/#bwg6/45",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/Lewicka_Apartment/Jadalnia_hi-v2.jpg?bwg=1689240202",
+    url: "https://www.dashdesign.pl/lewicka-apartment-warsaw/#bwg5/33",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/Lewicka_Apartment/Salon_hi-v2.jpg?bwg=1689240202",
+    url: "https://www.dashdesign.pl/lewicka-apartment-warsaw/#bwg5/35",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/River_Apartment/Fotele_hi.jpg?bwg=1689240153",
+    url: "https://www.dashdesign.pl/river-apartment-gdansk/#bwg4/24",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/River_Apartment/Kanapa_fotele_hi.jpg?bwg=1689240153",
+    url: "https://www.dashdesign.pl/river-apartment-gdansk/#bwg4/25",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/River_Apartment/Kanapa_hi.jpg?bwg=1689240153",
+    url: "https://www.dashdesign.pl/river-apartment-gdansk/#bwg4/26",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/River_Apartment/Sypialnia_lozko_hi.jpg?bwg=1689240153",
+    url: "https://www.dashdesign.pl/river-apartment-gdansk/#bwg4/29",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/2023/08/sypialnia_hi.jpg",
+    url: "https://www.dashdesign.pl/piekna-apartament-warsaw/",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/imported_from_media_libray/40m09-min-kncalm3e.jpg?bwg=1692919171",
+    url: "https://www.dashdesign.pl/wesola-warsaw/#bwg17/131",
+  },
+  {
+    src: "https://www.dashdesign.pl/wp-content/uploads/photo-gallery/imported_from_media_libray/40m11-min-kncalqol.jpg?bwg=1692919171",
+    url: "https://www.dashdesign.pl/wesola-warsaw/#bwg17/133",
+  },
+  {
     src: "https://www.cotlin.com/wp-content/uploads/2024/03/cotlin-ferreira-whorl-amb1-1000x1526.jpg",
     url: "https://www.cotlin.com/en/product/whorl-2/",
   },
