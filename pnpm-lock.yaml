@@ -101,7 +101,7 @@ importers:
         version: 9.17.0(jiti@2.4.1)
       eslint-config-next:
         specifier: canary
-        version: 15.1.1-canary.7(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
+        version: 15.1.1-canary.13(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
       postcss:
         specifier: ^8.4.18
         version: 8.4.43
@@ -228,7 +228,7 @@ importers:
     devDependencies:
       '@crxjs/vite-plugin':
         specifier: ^1.0.14
-        version: 1.0.14(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))
+        version: 1.0.14(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))
       '@types/chrome':
         specifier: ^0.0.287
         version: 0.0.287
@@ -240,10 +240,10 @@ importers:
         version: 18.3.3(@types/react@18.3.15)
       '@vitejs/plugin-react':
         specifier: ^4.2.0
-        version: 4.3.4(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))
+        version: 4.3.4(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))
       vite:
         specifier: ~6.0.0
-        version: 6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1)
+        version: 6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1)
 
   packages/floors:
     dependencies:
@@ -1013,8 +1013,8 @@ packages:
   '@next/env@15.0.0':
     resolution: {integrity: sha512-Mcv8ZVmEgTO3bePiH/eJ7zHqQEs2gCqZ0UId2RxHmDDc7Pw6ngfSrOFlxG8XDpaex+n2G+TKPsQAf28MO+88Gw==}
 
-  '@next/eslint-plugin-next@15.1.1-canary.7':
-    resolution: {integrity: sha512-R9+2C9A7XkpY+OrvWO2PVwDZE1mdU7T8wOE/u2ynHbdcCNjSRJ4+7svVxZtdUJJ0pqiTQfZdWy+aXL+++OsuzQ==}
+  '@next/eslint-plugin-next@15.1.1-canary.13':
+    resolution: {integrity: sha512-H4ErrmxDDJxZgBnYtP7Zw1O3/xsRZjmlpFgSrXYUiaoBFCdnP+dMPLsg8sG8I7V/RPEAHfhFdj/HCMYCkbHC3A==}
 
   '@next/swc-darwin-arm64@15.0.0':
     resolution: {integrity: sha512-Gjgs3N7cFa40a9QT9AEHnuGKq69/bvIOn0SLGDV+ordq07QOP4k1GDOVedMHEjVeqy1HBLkL8rXnNTuMZIv79A==}
@@ -1823,8 +1823,8 @@ packages:
   caniuse-lite@1.0.30001684:
     resolution: {integrity: sha512-G1LRwLIQjBQoyq0ZJGqGIJUXzJ8irpbjHLpVRXDvBEScFJ9b17sgK6vlx0GAJFE21okD7zXl08rRRUfq6HdoEQ==}
 
-  caniuse-lite@1.0.30001689:
-    resolution: {integrity: sha512-CmeR2VBycfa+5/jOfnp/NpWPGd06nf1XYiefUvhXFfZE4GkRc9jv+eGPS4nT558WS/8lYCzV8SlANCIPvbWP1g==}
+  caniuse-lite@1.0.30001690:
+    resolution: {integrity: sha512-5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2216,8 +2216,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.1.1-canary.7:
-    resolution: {integrity: sha512-CRKtejiKV7f6hPrR8vvfZW0TKaY+ICBdPRLFHg9RUrcMxDO1X/OqdolY3EcZRUsMSUuoJyAGgrtkGf2woW2+pA==}
+  eslint-config-next@15.1.1-canary.13:
+    resolution: {integrity: sha512-9chw7H2lx4caB/AmG/vzw8GD1eYmeMx95rd7DthuVNLWaqxgyY2e71F6QdCLgT0o+zFTVFHL/yjOfFn52mD5Ow==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -3943,8 +3943,8 @@ packages:
     resolution: {integrity: sha512-b+1eJOlsR9K8HJpow9Ok3fiWOWSIcIzXodvv0rQjVoOVNpWMpxf1wZNpt4y9h10odCNrqnYp1OBzRktckBe3sA==}
     hasBin: true
 
-  vite@6.0.3:
-    resolution: {integrity: sha512-Cmuo5P0ENTN6HxLSo6IHsjCLn/81Vgrp81oaiFFMRa8gGDj5xEjIcEpf2ZymZtZR8oU0P2JX5WuUp/rlXcHkAw==}
+  vite@6.0.4:
+    resolution: {integrity: sha512-zwlH6ar+6o6b4Wp+ydhtIKLrGM/LoqZzcdVmkGAFun0KHTzIzjh+h0kungEx7KJg/PYnC80I4TII9WkjciSR6Q==}
     engines: {node: ^18.0.0 || ^20.0.0 || >=22.0.0}
     hasBin: true
     peerDependencies:
@@ -4372,7 +4372,7 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.3.0
 
-  '@crxjs/vite-plugin@1.0.14(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))':
+  '@crxjs/vite-plugin@1.0.14(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))':
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
@@ -4388,9 +4388,9 @@ snapshots:
       picocolors: 1.1.0
       react-refresh: 0.13.0
       rollup: 2.79.1
-      vite: 6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1)
+      vite: 6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1)
     optionalDependencies:
-      '@vitejs/plugin-react': 4.3.4(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))
+      '@vitejs/plugin-react': 4.3.4(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -4654,7 +4654,7 @@ snapshots:
 
   '@next/env@15.0.0': {}
 
-  '@next/eslint-plugin-next@15.1.1-canary.7':
+  '@next/eslint-plugin-next@15.1.1-canary.13':
     dependencies:
       fast-glob: 3.3.1
 
@@ -5163,14 +5163,14 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       sugar-high: 0.4.7
 
-  '@vitejs/plugin-react@4.3.4(vite@6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))':
+  '@vitejs/plugin-react@4.3.4(vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1))':
     dependencies:
       '@babel/core': 7.26.0
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.0)
       '@babel/plugin-transform-react-jsx-source': 7.25.9(@babel/core@7.26.0)
       '@types/babel__core': 7.20.5
       react-refresh: 0.14.2
-      vite: 6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1)
+      vite: 6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -5463,7 +5463,7 @@ snapshots:
 
   browserslist@4.24.3:
     dependencies:
-      caniuse-lite: 1.0.30001689
+      caniuse-lite: 1.0.30001690
       electron-to-chromium: 1.5.74
       node-releases: 2.0.19
       update-browserslist-db: 1.1.1(browserslist@4.24.3)
@@ -5503,7 +5503,7 @@ snapshots:
 
   caniuse-lite@1.0.30001684: {}
 
-  caniuse-lite@1.0.30001689: {}
+  caniuse-lite@1.0.30001690: {}
 
   chalk@4.1.2:
     dependencies:
@@ -6001,9 +6001,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.1.1-canary.7(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2):
+  eslint-config-next@15.1.1-canary.13(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.1.1-canary.7
+      '@next/eslint-plugin-next': 15.1.1-canary.13
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 7.17.0(@typescript-eslint/parser@7.2.0(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
       '@typescript-eslint/parser': 7.2.0(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
@@ -7850,7 +7850,7 @@ snapshots:
 
   uuid@9.0.1: {}
 
-  vite@6.0.3(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1):
+  vite@6.0.4(@types/node@22.10.2)(jiti@2.4.1)(sass@1.79.6)(terser@5.37.0)(yaml@2.6.1):
     dependencies:
       esbuild: 0.24.0
       postcss: 8.4.49
