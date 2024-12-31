@@ -101,7 +101,7 @@ importers:
         version: 9.17.0(jiti@2.4.1)
       eslint-config-next:
         specifier: canary
-        version: 15.1.1-canary.22(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
+        version: 15.1.1-canary.23(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
       postcss:
         specifier: ^8.4.18
         version: 8.4.43
@@ -175,7 +175,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.120.4(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0))(@types/react@18.3.15)(@types/three@0.171.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)(use-sync-external-store@1.2.2(react@18.3.1))
+        version: 9.120.5(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0))(@types/react@18.3.15)(@types/three@0.171.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)(use-sync-external-store@1.2.2(react@18.3.1))
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)
@@ -450,7 +450,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.120.4(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0))(@types/react@18.3.15)(@types/three@0.171.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)(use-sync-external-store@1.2.2(react@18.3.1))
+        version: 9.120.5(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0))(@types/react@18.3.15)(@types/three@0.171.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)(use-sync-external-store@1.2.2(react@18.3.1))
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)
@@ -1019,8 +1019,8 @@ packages:
   '@next/env@15.0.0':
     resolution: {integrity: sha512-Mcv8ZVmEgTO3bePiH/eJ7zHqQEs2gCqZ0UId2RxHmDDc7Pw6ngfSrOFlxG8XDpaex+n2G+TKPsQAf28MO+88Gw==}
 
-  '@next/eslint-plugin-next@15.1.1-canary.22':
-    resolution: {integrity: sha512-/4R2xeqAKZ5hqUNUZ8Er57eft/s6z45Q/wtxhDmowSzxUWQgp6HP3Gd6PpI/pGuwPq0FOLNJ8PH8Bh+SmAxL+w==}
+  '@next/eslint-plugin-next@15.1.1-canary.23':
+    resolution: {integrity: sha512-miwDxFDEC9ZblFb2OJSn4beETg1IrSJ+zKCbQKcwA5D25Koj8ByoCsJDe1mJGy0xJ0pUBLvvJPausVAT3FxeWQ==}
 
   '@next/swc-darwin-arm64@15.0.0':
     resolution: {integrity: sha512-Gjgs3N7cFa40a9QT9AEHnuGKq69/bvIOn0SLGDV+ordq07QOP4k1GDOVedMHEjVeqy1HBLkL8rXnNTuMZIv79A==}
@@ -1193,8 +1193,8 @@ packages:
   '@react-spring/types@9.7.5':
     resolution: {integrity: sha512-HVj7LrZ4ReHWBimBvu2SKND3cDVUPWKLqRTmWe/fNY6o1owGOX0cAHbdPDTMelgBlVbrTKrre6lFkhqGZErK/g==}
 
-  '@react-three/drei@9.120.4':
-    resolution: {integrity: sha512-keO7gHudafooXZxqukzPYIvhkBLL+PsnteuUPcHE3WZ5Hq1tC78AlY0kvm4NkC0w6tfsxpWl1yAYbUcnSPSmGg==}
+  '@react-three/drei@9.120.5':
+    resolution: {integrity: sha512-hSu3q+gq546Op4aihIkbdIsFfjrmOqcJyMPNGv/IqM0nycJtvv5IzL+MISLplFTNFI6xMBJ9ZwC+7dpq35/FOA==}
     peerDependencies:
       '@react-three/fiber': ^8 || ^9.0.0-0
       react: ^18
@@ -2077,8 +2077,8 @@ packages:
     resolution: {integrity: sha512-8QmQKqEASLd5nx0U1B1okLElbUuuttJ/AnYmRXbbbGDWh6uS208EjD4Xqq/I9wK7u0v6O08XhTWnt5XtEbR6Dg==}
     engines: {node: '>= 0.4'}
 
-  detect-gpu@5.0.61:
-    resolution: {integrity: sha512-7fe6+weEj1JAQl4ys/pcuCtR0m70FCpsgAb4oox6udPUzBD44U+kMBfudCZWv3ytJZnbKT9hxaQto3jbIeJttQ==}
+  detect-gpu@5.0.63:
+    resolution: {integrity: sha512-S4ZOf2tI5nwFyhzGvsaRA86IvctD6JQtq4+NPSseO6E1AWW66qTDFHdAMBPlFiD7Dfe9TETy0Q7pa/kHcIYYMQ==}
 
   detect-libc@1.0.3:
     resolution: {integrity: sha512-pGjwhsmsp4kL2RTz08wcOlGN83otlqHeD/Z5T8GXZB+/YcpQ/dgo+lbU8ZsGxV0HIvqqxo9l7mqYwyYMD9bKDg==}
@@ -2226,8 +2226,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.1.1-canary.22:
-    resolution: {integrity: sha512-vZFlxhV6lCrW1liTyTcMKHOgQ6rwR8JAsjLYtqwEK9m9ubk6RpgCHx21Vlh8q0Aqz4aRnGtVVyP0USf1TfXGiA==}
+  eslint-config-next@15.1.1-canary.23:
+    resolution: {integrity: sha512-6bfcXSGqCe8h7GX2NK74Ysc16kyNbj+GxH5Ek2N6ljvuPz6A4Q3REWPxGuPlPaTSTdsq1iYdaOE/L4U4Mj9JqQ==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -2573,8 +2573,8 @@ packages:
     resolution: {integrity: sha512-0hJU9SCPvmMzIBdZFqNPXWa6dqh7WdH0cII9y+CyS8rG3nL48Bclra9HmKhVVUHyPWNH5Y7xDwAB7bfgSjkUMQ==}
     engines: {node: '>= 0.4'}
 
-  hls.js@1.5.17:
-    resolution: {integrity: sha512-wA66nnYFvQa1o4DO/BFgLNRKnBTVXpNeldGRBJ2Y0SvFtdwvFKCbqa9zhHoZLoxHhZ+jYsj3aIBkWQQCPNOhMw==}
+  hls.js@1.5.18:
+    resolution: {integrity: sha512-znxR+2jecWluu/0KOBqUcvVyAB5tLff10vjMGrpAlz1eFY+ZhF1bY3r82V+Bk7WJdk03iTjtja9KFFz5BrqjSA==}
 
   hoist-non-react-statics@3.3.2:
     resolution: {integrity: sha512-/gGivxi8JPKWNm/W0jSmzcMPpfpPLc3dY/6GxhX2hQ9iGj3aDfklV4ET7NjKpSinLpJ5vafa9iiGIEZg10SfBw==}
@@ -3797,8 +3797,8 @@ packages:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==}
     engines: {node: '>=8.0'}
 
-  troika-three-text@0.52.2:
-    resolution: {integrity: sha512-UGYwjKnR8RgmyOIpo0/KiSW0wySQ155BQXNLoSWA1liKzXG+RyHM+dvTIDawHGVQcqjqyunFlVY32xm/HDqjpw==}
+  troika-three-text@0.52.3:
+    resolution: {integrity: sha512-jLhiwgV8kEkwWjvK12f2fHVpbOC75p7SgPQ0cgcz+IMtN5Bdyg4EuFdwuTOVu9ga8UeYdKBpzd1AxviyixtYTQ==}
     peerDependencies:
       three: '>=0.125.0'
 
@@ -4667,7 +4667,7 @@ snapshots:
 
   '@next/env@15.0.0': {}
 
-  '@next/eslint-plugin-next@15.1.1-canary.22':
+  '@next/eslint-plugin-next@15.1.1-canary.23':
     dependencies:
       fast-glob: 3.3.1
 
@@ -4801,7 +4801,7 @@ snapshots:
 
   '@react-spring/types@9.7.5': {}
 
-  '@react-three/drei@9.120.4(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0))(@types/react@18.3.15)(@types/three@0.171.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)(use-sync-external-store@1.2.2(react@18.3.1))':
+  '@react-three/drei@9.120.5(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0))(@types/react@18.3.15)(@types/three@0.171.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.171.0)(use-sync-external-store@1.2.2(react@18.3.1))':
     dependencies:
       '@babel/runtime': 7.26.0
       '@mediapipe/tasks-vision': 0.10.17
@@ -4811,9 +4811,9 @@ snapshots:
       '@use-gesture/react': 10.3.1(react@18.3.1)
       camera-controls: 2.9.0(three@0.171.0)
       cross-env: 7.0.3
-      detect-gpu: 5.0.61
+      detect-gpu: 5.0.63
       glsl-noise: 0.0.0
-      hls.js: 1.5.17
+      hls.js: 1.5.18
       maath: 0.10.8(@types/three@0.171.0)(three@0.171.0)
       meshline: 3.3.1(three@0.171.0)
       react: 18.3.1
@@ -4824,7 +4824,7 @@ snapshots:
       three: 0.171.0
       three-mesh-bvh: 0.7.8(three@0.171.0)
       three-stdlib: 2.35.2(three@0.171.0)
-      troika-three-text: 0.52.2(three@0.171.0)
+      troika-three-text: 0.52.3(three@0.171.0)
       tunnel-rat: 0.1.2(@types/react@18.3.15)(react@18.3.1)
       utility-types: 3.11.0
       uuid: 9.0.1
@@ -5794,7 +5794,7 @@ snapshots:
       has-property-descriptors: 1.0.2
       object-keys: 1.1.1
 
-  detect-gpu@5.0.61:
+  detect-gpu@5.0.63:
     dependencies:
       webgl-constants: 1.1.1
 
@@ -6020,9 +6020,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.1.1-canary.22(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2):
+  eslint-config-next@15.1.1-canary.23(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.1.1-canary.22
+      '@next/eslint-plugin-next': 15.1.1-canary.23
       '@rushstack/eslint-patch': 1.10.4
       '@typescript-eslint/eslint-plugin': 7.17.0(@typescript-eslint/parser@7.2.0(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2))(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
       '@typescript-eslint/parser': 7.2.0(eslint@9.17.0(jiti@2.4.1))(typescript@5.7.2)
@@ -6466,7 +6466,7 @@ snapshots:
     dependencies:
       function-bind: 1.1.2
 
-  hls.js@1.5.17: {}
+  hls.js@1.5.18: {}
 
   hoist-non-react-statics@3.3.2:
     dependencies:
@@ -7707,7 +7707,7 @@ snapshots:
     dependencies:
       is-number: 7.0.0
 
-  troika-three-text@0.52.2(three@0.171.0):
+  troika-three-text@0.52.3(three@0.171.0):
     dependencies:
       bidi-js: 1.0.3
       three: 0.171.0
