@@ -27,12 +27,12 @@
     "@dev/web": "workspace:*",
     "@vercel/examples-ui": "^1.0.4",
     "next": "canary",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
   },
   "devDependencies": {
     "@types/node": "^22.0.0",
-    "@types/react": "^18.2.24",
+    "@types/react": "^19.0.0",
     "autoprefixer": "^10.4.12",
     "copy-webpack-plugin": "^12.0.2",
     "eslint": "^9.0.0",
