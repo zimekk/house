@@ -175,7 +175,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.120.5(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0))(@types/react@18.3.15)(@types/three@0.172.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)(use-sync-external-store@1.2.2(react@18.3.1))
+        version: 9.120.6(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0))(@types/react@18.3.15)(@types/three@0.172.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)(use-sync-external-store@1.4.0(react@18.3.1))
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)
@@ -450,7 +450,7 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^9.56.8
-        version: 9.120.5(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0))(@types/react@18.3.15)(@types/three@0.172.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)(use-sync-external-store@1.2.2(react@18.3.1))
+        version: 9.120.6(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0))(@types/react@18.3.15)(@types/three@0.172.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)(use-sync-external-store@1.4.0(react@18.3.1))
       '@react-three/fiber':
         specifier: ^8.10.1
         version: 8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)
@@ -1193,8 +1193,8 @@ packages:
   '@react-spring/types@9.7.5':
     resolution: {integrity: sha512-HVj7LrZ4ReHWBimBvu2SKND3cDVUPWKLqRTmWe/fNY6o1owGOX0cAHbdPDTMelgBlVbrTKrre6lFkhqGZErK/g==}
 
-  '@react-three/drei@9.120.5':
-    resolution: {integrity: sha512-hSu3q+gq546Op4aihIkbdIsFfjrmOqcJyMPNGv/IqM0nycJtvv5IzL+MISLplFTNFI6xMBJ9ZwC+7dpq35/FOA==}
+  '@react-three/drei@9.120.6':
+    resolution: {integrity: sha512-ppq2efhLe3d0WY5/g7eH2ap0r8hbqop+NP5PL3VJ3zk3MZgNoqdYrf06r+TXur1RevCabX/UA0Nzb7C4hWt+Ow==}
     peerDependencies:
       '@react-three/fiber': ^8 || ^9.0.0-0
       react: ^18
@@ -1788,8 +1788,8 @@ packages:
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
-  browserslist@4.24.3:
-    resolution: {integrity: sha512-1CPmv8iobE2fyRMV97dAcMVegvvWKxmq94hkLiAkUGwKVTyDLw33K+ZxiFrREKmmps4rIw6grcCFCnTMSZ/YiA==}
+  browserslist@4.24.4:
+    resolution: {integrity: sha512-KDi1Ny1gSePi1vm0q4oxSF8b4DR44GF4BbmS2YdhPLOEqd8pDviZOGH/GsmRwoWJ2+5Lr085X7naowMwKHDG1A==}
     engines: {node: ^6 || ^7 || ^8 || ^9 || ^10 || ^11 || ^12 || >=13.7}
     hasBin: true
 
@@ -1832,8 +1832,8 @@ packages:
   caniuse-lite@1.0.30001684:
     resolution: {integrity: sha512-G1LRwLIQjBQoyq0ZJGqGIJUXzJ8irpbjHLpVRXDvBEScFJ9b17sgK6vlx0GAJFE21okD7zXl08rRRUfq6HdoEQ==}
 
-  caniuse-lite@1.0.30001690:
-    resolution: {integrity: sha512-5ExiE3qQN6oF8Clf8ifIDcMRCRE/dMGcETG/XGMD8/XiXm6HXQgQTh1yZYLXXpSOsEUlJm1Xr7kGULZTuGtP/w==}
+  caniuse-lite@1.0.30001692:
+    resolution: {integrity: sha512-A95VKan0kdtrsnMubMKxEKUKImOPSuCpYgxSQBo036P5YYgVIcOYJEgt/txJWqObiRQeISNCfef9nvlQ0vbV7A==}
 
   chalk@4.1.2:
     resolution: {integrity: sha512-oKnbhFyRIXpUuez8iBMmyEa4nbj4IOQyuhc/wy9kY7/WVPcwIO9VA668Pu8RkO7+0G76SLROeyw9CpQ061i4mA==}
@@ -2138,8 +2138,8 @@ packages:
   electron-to-chromium@1.5.65:
     resolution: {integrity: sha512-PWVzBjghx7/wop6n22vS2MLU8tKGd4Q91aCEGhG/TYmW6PP5OcSXcdnxTe1NNt0T66N8D6jxh4kC8UsdzOGaIw==}
 
-  electron-to-chromium@1.5.76:
-    resolution: {integrity: sha512-CjVQyG7n7Sr+eBXE86HIulnL5N8xZY1sgmOPGuq/F0Rr0FJq63lg0kEtOIDfZBk44FnDLf6FUJ+dsJcuiUDdDQ==}
+  electron-to-chromium@1.5.79:
+    resolution: {integrity: sha512-nYOxJNxQ9Om4EC88BE4pPoNI8xwSFf8pU/BAeOl4Hh/b/i6V4biTAzwV7pXi3ARKeoYO5JZKMIXTryXSVer5RA==}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -3782,8 +3782,8 @@ packages:
     peerDependencies:
       three: '>= 0.151.0'
 
-  three-stdlib@2.35.2:
-    resolution: {integrity: sha512-Ns9ZdiFEAsiv8JvHS28Qgxg4YRTq13Ixa4EDUQZhUovZ3j/GLTou4zE887SLSqsuRZwuy3gklttn2ha5JaJpTQ==}
+  three-stdlib@2.35.6:
+    resolution: {integrity: sha512-8kkXc/7Fvsm3o/J7UqUgWZZ+qDYS0RTN8cwwGD0A4n0lP6wXf5FDdhJyTS8y/o+UMIexiv0ld78RPQoK6PFlVA==}
     peerDependencies:
       three: '>=0.128.0'
 
@@ -3932,6 +3932,12 @@ packages:
     peerDependencies:
       browserslist: '>= 4.21.0'
 
+  update-browserslist-db@1.1.2:
+    resolution: {integrity: sha512-PPypAm5qvlD7XMZC3BujecnaOxwhrtoFR+Dqkk5Aa/6DssiH0ibKoketaj9w8LP7Bont1rYeoV5plxD7RTEPRg==}
+    hasBin: true
+    peerDependencies:
+      browserslist: '>= 4.21.0'
+
   uri-js@4.4.1:
     resolution: {integrity: sha512-7rKUyy33Q1yc98pQ1DAmLtwX109F7TIfWlW1Ydo8Wl1ii1SeHieeh0HHfPeL2fMXK6z0s8ecKs9frCuLJvndBg==}
 
@@ -3940,10 +3946,10 @@ packages:
     peerDependencies:
       react: '>=17.0'
 
-  use-sync-external-store@1.2.2:
-    resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
+  use-sync-external-store@1.4.0:
+    resolution: {integrity: sha512-9WXSPC5fMv61vaupRkCKCxsPxBocVnwakBEkMIHHpkTTg6icbJtg6jzgtLDm4bl3cSHAca52rYWih0k4K3PfHw==}
     peerDependencies:
-      react: ^16.8.0 || ^17.0.0 || ^18.0.0
+      react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
@@ -4115,8 +4121,8 @@ packages:
       react:
         optional: true
 
-  zustand@4.5.5:
-    resolution: {integrity: sha512-+0PALYNJNgK6hldkgDq2vLrw5f6g/jCInz52n9RTpropGgeAf/ioFUCdtsjCqu4gNhW9D01rUQBROoRjdzyn2Q==}
+  zustand@4.5.6:
+    resolution: {integrity: sha512-ibr/n1hBzLLj5Y+yUcU7dYw8p6WnIVzdJbnX+1YpaScvZVF2ziugqHs+LAmHw4lWO9c/zRj+K1ncgWDQuthEdQ==}
     engines: {node: '>=12.7.0'}
     peerDependencies:
       '@types/react': '>=16.8'
@@ -4130,8 +4136,8 @@ packages:
       react:
         optional: true
 
-  zustand@5.0.2:
-    resolution: {integrity: sha512-8qNdnJVJlHlrKXi50LDqqUNmUbuBjoKLrYQBnoChIbVph7vni+sY+YpvdjXG9YLd/Bxr6scMcR+rm5H3aSqPaw==}
+  zustand@5.0.3:
+    resolution: {integrity: sha512-14fwWQtU3pH4dE0dOpdMiWjddcH+QzKIgk1cl8epwSE7yag43k/AD/m4L6+K7DytAOr9gGBe3/EXj9g7cdostg==}
     engines: {node: '>=12.20.0'}
     peerDependencies:
       '@types/react': '>=18.0.0'
@@ -4804,7 +4810,7 @@ snapshots:
 
   '@react-spring/types@9.7.5': {}
 
-  '@react-three/drei@9.120.5(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0))(@types/react@18.3.15)(@types/three@0.172.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)(use-sync-external-store@1.2.2(react@18.3.1))':
+  '@react-three/drei@9.120.6(@react-three/fiber@8.17.10(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0))(@types/react@18.3.15)(@types/three@0.172.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.172.0)(use-sync-external-store@1.4.0(react@18.3.1))':
     dependencies:
       '@babel/runtime': 7.26.0
       '@mediapipe/tasks-vision': 0.10.17
@@ -4826,12 +4832,12 @@ snapshots:
       suspend-react: 0.1.3(react@18.3.1)
       three: 0.172.0
       three-mesh-bvh: 0.7.8(three@0.172.0)
-      three-stdlib: 2.35.2(three@0.172.0)
+      three-stdlib: 2.35.6(three@0.172.0)
       troika-three-text: 0.52.3(three@0.172.0)
       tunnel-rat: 0.1.2(@types/react@18.3.15)(react@18.3.1)
       utility-types: 3.11.0
       uuid: 9.0.1
-      zustand: 5.0.2(@types/react@18.3.15)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1))
+      zustand: 5.0.3(@types/react@18.3.15)(react@18.3.1)(use-sync-external-store@1.4.0(react@18.3.1))
     optionalDependencies:
       react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
@@ -4931,7 +4937,7 @@ snapshots:
 
   '@swc/helpers@0.4.14':
     dependencies:
-      tslib: 2.8.1
+      tslib: 2.7.0
 
   '@swc/helpers@0.4.36':
     dependencies:
@@ -5481,12 +5487,12 @@ snapshots:
       node-releases: 2.0.18
       update-browserslist-db: 1.1.1(browserslist@4.24.2)
 
-  browserslist@4.24.3:
+  browserslist@4.24.4:
     dependencies:
-      caniuse-lite: 1.0.30001690
-      electron-to-chromium: 1.5.76
+      caniuse-lite: 1.0.30001692
+      electron-to-chromium: 1.5.79
       node-releases: 2.0.19
-      update-browserslist-db: 1.1.1(browserslist@4.24.3)
+      update-browserslist-db: 1.1.2(browserslist@4.24.4)
 
   buffer-from@1.1.2: {}
 
@@ -5523,7 +5529,7 @@ snapshots:
 
   caniuse-lite@1.0.30001684: {}
 
-  caniuse-lite@1.0.30001690: {}
+  caniuse-lite@1.0.30001692: {}
 
   chalk@4.1.2:
     dependencies:
@@ -5854,7 +5860,7 @@ snapshots:
 
   electron-to-chromium@1.5.65: {}
 
-  electron-to-chromium@1.5.76: {}
+  electron-to-chromium@1.5.79: {}
 
   emoji-regex@10.4.0: {}
 
@@ -7694,7 +7700,7 @@ snapshots:
     dependencies:
       three: 0.172.0
 
-  three-stdlib@2.35.2(three@0.172.0):
+  three-stdlib@2.35.6(three@0.172.0):
     dependencies:
       '@types/draco3d': 1.4.10
       '@types/offscreencanvas': 2019.7.3
@@ -7749,7 +7755,7 @@ snapshots:
 
   tunnel-rat@0.1.2(@types/react@18.3.15)(react@18.3.1):
     dependencies:
-      zustand: 4.5.5(@types/react@18.3.15)(react@18.3.1)
+      zustand: 4.5.6(@types/react@18.3.15)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -7851,9 +7857,9 @@ snapshots:
       escalade: 3.2.0
       picocolors: 1.1.1
 
-  update-browserslist-db@1.1.1(browserslist@4.24.3):
+  update-browserslist-db@1.1.2(browserslist@4.24.4):
     dependencies:
-      browserslist: 4.24.3
+      browserslist: 4.24.4
       escalade: 3.2.0
       picocolors: 1.1.1
 
@@ -7866,7 +7872,7 @@ snapshots:
       fast-deep-equal: 3.1.3
       react: 18.3.1
 
-  use-sync-external-store@1.2.2(react@18.3.1):
+  use-sync-external-store@1.4.0(react@18.3.1):
     dependencies:
       react: 18.3.1
 
@@ -7910,7 +7916,7 @@ snapshots:
       '@webassemblyjs/wasm-parser': 1.14.1
       acorn: 8.14.0
       acorn-import-attributes: 1.9.5(acorn@8.14.0)
-      browserslist: 4.24.3
+      browserslist: 4.24.4
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.18.0
       es-module-lexer: 1.6.0
@@ -8032,15 +8038,15 @@ snapshots:
     optionalDependencies:
       react: 18.3.1
 
-  zustand@4.5.5(@types/react@18.3.15)(react@18.3.1):
+  zustand@4.5.6(@types/react@18.3.15)(react@18.3.1):
     dependencies:
-      use-sync-external-store: 1.2.2(react@18.3.1)
+      use-sync-external-store: 1.4.0(react@18.3.1)
     optionalDependencies:
       '@types/react': 18.3.15
       react: 18.3.1
 
-  zustand@5.0.2(@types/react@18.3.15)(react@18.3.1)(use-sync-external-store@1.2.2(react@18.3.1)):
+  zustand@5.0.3(@types/react@18.3.15)(react@18.3.1)(use-sync-external-store@1.4.0(react@18.3.1)):
     optionalDependencies:
       '@types/react': 18.3.15
       react: 18.3.1
-      use-sync-external-store: 1.2.2(react@18.3.1)
+      use-sync-external-store: 1.4.0(react@18.3.1)
