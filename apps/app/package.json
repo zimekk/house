@@ -23,6 +23,7 @@
     "@dev/inspirations": "workspace:*",
     "@dev/map": "workspace:*",
     "@dev/rooms": "workspace:*",
+    "@dev/sketch": "workspace:*",
     "@dev/tools": "workspace:*",
     "@dev/web": "workspace:*",
     "@vercel/examples-ui": "^1.0.4",

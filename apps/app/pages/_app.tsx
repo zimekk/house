@@ -24,6 +24,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "inspirations",
         "map",
         "rooms",
+        "sketch",
         "tools",
       ]}
       path="solutions/monorepo"
