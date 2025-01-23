@@ -1,0 +1,82 @@
+.Player {
+  position: relative;
+  width: 640px;
+  height: 360px;
+  display: inline-flex;
+  .Overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0%;
+    right: 0;
+    .Label {
+      position: absolute;
+    }
+  }
+}
+.Label {
+  left: 2.8%;
+  bottom: 4.7%;
+  height: 12%;
+  width: 16.4%;
+  color: white;
+  background: black;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 10px;
+  display: flex;
+  align-items: center;
+}
+.Progress {
+  position: absolute;
+  bottom: 0;
+  width: calc(640px - 2 * 12px);
+  height: 3px;
+  margin: 0 12px;
+  background: darkslategray;
+  i {
+    position: absolute;
+    width: 0;
+    height: 100%;
+    background: red;
+  }
+}
+.Mask {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+.Play {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.75);
+  font-size: 50%;
+  text-align: center;
+  transform: translate(-50%, -50%);
+  width: 10%;
+  height: 12%;
+  border-radius: 20%;
+  border: 0;
+  padding: 0;
+
+  &:hover {
+    background-color: red;
+  }
+
+  i {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 0;
+    height: 0;
+    border-color: transparent transparent transparent currentColor;
+    border-style: solid;
+    border-width: 1em 0 1em 2em;
+    transform: translate(-50%, -50%);
+  }
+}
