@@ -39,7 +39,7 @@
     "nanoid": "^5.0.3",
     "ol": "^10.0.0",
     "styled-components": "^6.1.14",
-    "three": "^0.172.0"
+    "three": "^0.173.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",
