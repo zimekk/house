@@ -43,7 +43,7 @@
     "husky": "^9.0.0",
     "lint-staged": "^15.4.0",
     "prettier": "^3.0.0",
-    "turbo": "^2.0.0"
+    "turbo": "^2.4.0"
   },
   "resolutions": {
     "next": "~15.1.0"
