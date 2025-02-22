@@ -1,5 +1,6 @@
 import { type ChangeEventHandler, useCallback, useMemo, useState } from "react";
 import Plan from "./Plan";
+import Roof from "./Roof";
 import styles from "./styles.module.scss";
 
 interface ItemType {
@@ -118,6 +119,7 @@ export default function App() {
   return (
     <div>
       <h1>rooms</h1>
+      <Roof />
       <Plan />
       <div className={styles.Columns}>
         <div>
