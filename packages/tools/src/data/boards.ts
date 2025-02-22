@@ -260,6 +260,61 @@ export const boards = [
       price: 99.0,
       url: "https://botland.com.pl/kostki-elektryczne/21544-kostka-elektryczna-samozaciskowa-wago-3pin-4mm-32a450v-50szt-4050821808442.html",
     },
+    {
+      name: "Cytron Maker Reflect - Analogowy czujnik odbiciowy podczerwieni IR",
+      price: 9.5,
+      url: "https://botland.com.pl/czujniki-odbiciowe/16056-cytron-maker-reflect-analogowy-czujnik-odbiciowy-podczerwieni-ir-5904422365981.html",
+    },
+    {
+      name: "Moduł odbiornika podczerwieni 1838 - 38kHz - Iduino ST1089",
+      price: 4.9,
+      url: "https://botland.com.pl/odbiorniki-podczerwieni/12508-modul-odbiornika-podczerwieni-1838-38khz-iduino-st1089-5903351241137.html",
+    },
+    {
+      name: "- Odbiornik podczerwieni TSOP2236 - 36kHz",
+      price: 3.7,
+      url: "https://botland.com.pl/odbiorniki-podczerwieni/181-odbiornik-podczerwieni-tsop2236-36khz-5904422302740.html",
+    },
+    {
+      name: "- Odbiornik podczerwieni TSOP4838 - 38kHz",
+      price: 3.9,
+      url: "https://botland.com.pl/odbiorniki-podczerwieni/1047-odbiornik-podczerwieni-tsop4838-38khz-5904422355913.html",
+    },
+    {
+      name: "Nadajnik podczerwieni 940nm - Iduino ST1087",
+      price: 4.5,
+      url: "https://botland.com.pl/diody-ir-podczerwone/12509-nadajnik-podczerwieni-940nm-iduino-st1087-5903351241120.html",
+    },
+    {
+      name: "Tranzystor bipolarny NPN 2N3904 40V/0,2A - 5szt.",
+      price: 1.9,
+      url: "https://botland.com.pl/tranzystory-npn/1775-tranzystor-bipolarny-npn-2n3904-40v-02a-5szt-5904422356149.html",
+    },
+    {
+      name: "Pasek LED SMD2835 IP20 4,8W, 60 diod/m, 8mm, barwa ciepła - 50m",
+      price: 152.92,
+      url: "https://botland.com.pl/paski-led-standardowe/15652-pasek-led-smd2835-ip20-48w-60-diodm-8mm-barwa-ciepla-50m-5903175315090.html",
+    },
+    {
+      name: "+ Konektor do taśm i pasków LED JST-SM (3-pin) - SparkFun CAB-14575",
+      price: 9.9,
+      url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/11125-konektor-do-tasm-i-paskow-led-jst-sm-3-pin-sparkfun-cab-14575-5904422317249.html",
+    },
+    {
+      name: "Konektor do taśm i pasków LED RGB - wtyk",
+      price: 2.8,
+      url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/6483-konektor-do-tasm-i-paskow-led-rgb-wtyk-5904422368159.html",
+    },
+    {
+      name: "Konektor do taśm i pasków LED RGB - gniazdo",
+      price: 3.5,
+      url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/6482-konektor-do-tasm-i-paskow-led-rgb-gniazdo-5904422368142.html",
+    },
+    {
+      name: "Konektor do taśm i pasków LED JST-SM (2-pin) - SparkFun CAB-14574",
+      price: 7.5,
+      url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/11124-konektor-do-tasm-i-paskow-led-jst-sm-2-pin-sparkfun-cab-14574-5904422317232.html",
+    },
   ],
   [
     {
