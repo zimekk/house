@@ -66,13 +66,14 @@ export function Filters({
 
 function List({ queries }: any) {
   const [list] = useState(() =>
-    videos.map((url) => ({
+    videos.map(({ url, markers = [] }) => ({
       url,
       id: url.split("=")[1],
+      markers,
     })),
   );
   const [selected, setSelected] = useState(() =>
-    list.filter(() => false).map((_, key) => key),
+    list.filter(() => false).map(({ url }) => url),
   );
 
   const filtered = useMemo(
@@ -80,7 +81,10 @@ function List({ queries }: any) {
       list.filter(
         (item) =>
           queries.search === "" ||
-          item.url.toLowerCase().includes(queries.search),
+          item.url.toLowerCase().includes(queries.search) ||
+          item.markers.find(({ text }) =>
+            text.toLowerCase().includes(queries.search),
+          ),
       ),
     [queries, list],
   );
@@ -90,7 +94,7 @@ function List({ queries }: any) {
       ((key) =>
         setSelected((selected) =>
           selected.filter((id) => id !== key).concat(target.checked ? key : []),
-        ))(Number(target.value)),
+        ))(target.value),
     [],
   );
 
@@ -109,14 +113,14 @@ function List({ queries }: any) {
           </tr>
         </thead>
         <tbody>
-          {filtered.map((item, key) => (
-            <tr key={key}>
+          {filtered.map((item) => (
+            <tr key={item.url}>
               <td>
                 <label>
                   <input
                     type="checkbox"
-                    value={key}
-                    checked={selected.includes(key)}
+                    value={item.url}
+                    checked={selected.includes(item.url)}
                     onChange={handleSelect}
                   />
                 </label>
@@ -139,7 +143,7 @@ function List({ queries }: any) {
                   </a>
                 </div>
                 <div>
-                  <LazyPlayer videoId={item.id} />
+                  <LazyPlayer videoId={item.id} markers={item.markers} />
                 </div>
               </td>
             </tr>
