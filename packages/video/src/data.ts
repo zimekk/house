@@ -1,3 +1,5 @@
+import parse from "./utils/parse";
+
 export const videos = [
   {
     url: "https://www.youtube.com/watch?v=cNGArAUt8Ow",
@@ -147,7 +149,7 @@ export const videos = [
       { text: "kuchnia", time: 3 * 60 + 0 },
       { text: "garderoba", time: 6 * 60 + 31 },
       { text: "łazienka", time: 7 * 60 + 32 },
-      { text: "biuro", time: 11 * 60 + 42 },
+      { text: "gabinet", time: 11 * 60 + 42 },
       { text: "smart", time: 12 * 60 + 54 },
       { text: "oświetlenie", time: 13 * 60 + 16 },
       { text: "sypialnia", time: 13 * 60 + 53 },
@@ -302,7 +304,7 @@ export const videos = [
       { text: "garderoba", time: 10 * 60 + 55 },
       { text: "wanna", time: 11 * 60 + 41 },
       { text: "łazienka", time: 12 * 60 + 4 },
-      { text: "biuro", time: 13 * 60 + 0 },
+      { text: "gabinet", time: 13 * 60 + 0 },
       { text: "łazienka", time: 14 * 60 + 6 },
       { text: "balkon", time: 14 * 60 + 18 },
     ],
@@ -348,6 +350,58 @@ export const videos = [
     ],
   },
   {
+    url: "https://www.youtube.com/watch?v=YsKt0DOzXWo",
+    markers: [
+      { text: "elewacja", time: 0 * 60 + 15 },
+      { text: "wejście", time: 0 * 60 + 26 },
+      { text: "jadalnia", time: 0 * 60 + 45 },
+      { text: "oświetlenie", time: 0 * 60 + 54 },
+      { text: "salon", time: 1 * 60 + 12 },
+      { text: "rtv", time: 1 * 60 + 20 },
+      { text: "kominek", time: 1 * 60 + 21 },
+      { text: "kuchnia", time: 1 * 60 + 45 },
+      { text: "bar", time: 1 * 60 + 59 },
+      { text: "ekspres", time: 2 * 60 + 15 },
+      { text: "kuchnia ogrodowa", time: 2 * 60 + 37 },
+      { text: "szafa", time: 3 * 60 + 10 },
+      { text: "toaleta", time: 3 * 60 + 19 },
+      { text: "sypialnia / zasłony / wentylacja", time: 3 * 60 + 31 },
+      { text: "garderoba", time: 3 * 60 + 51 },
+      { text: "łazienka", time: 4 * 60 + 5 },
+      { text: "drzwi", time: 4 * 60 + 25 },
+      { text: "siłownia", time: 4 * 60 + 30 },
+      { text: "świetlik", time: 4 * 60 + 40 },
+      { text: "kino +", time: 4 * 60 + 47 },
+      { text: "gabinet", time: 4 * 60 + 57 },
+      { text: "pralnia +", time: 5 * 60 + 32 },
+      { text: "szatnia", time: 5 * 60 + 48 },
+      { text: "elewacja / ogrodzenie", time: 6 * 60 + 5 },
+      { text: "schody +", time: 6 * 60 + 9 },
+      { text: "gabinet +", time: 6 * 60 + 24 },
+      { text: "pralnia / wentylacja +", time: 6 * 60 + 39 },
+      { text: "sypialnia", time: 6 * 60 + 45 },
+      { text: "toaleta", time: 6 * 60 + 48 },
+      { text: "salon", time: 6 * 60 + 53 },
+      { text: "toaleta", time: 7 * 60 + 17 },
+      { text: "drzwi", time: 7 * 60 + 25 },
+    ],
+  },
+  {
+    url: "https://www.youtube.com/watch?v=Zlddt7frCg0",
+    markers: [
+      { text: "bar", time: 11 * 60 + 5 },
+      { text: "kuchnia ogrodowa", time: 13 * 60 + 58 },
+      { text: "boisko", time: 17 * 60 + 26 },
+      { text: "szopa", time: 17 * 60 + 34 },
+      { text: "siłownia", time: 17 * 60 + 54 },
+      { text: "świetlik", time: 17 * 60 + 57 },
+      { text: "boisko", time: 17 * 60 + 38 },
+      { text: "ekspres", time: 22 * 60 + 49 },
+      { text: "balkon", time: 27 * 60 + 33 },
+      { text: "bar", time: 28 * 60 + 21 },
+    ],
+  },
+  {
     url: "https://www.youtube.com/watch?v=I5ZouUctFTI",
     markers: [
       { text: "wejście", time: 1 * 60 + 21 },
@@ -363,6 +417,259 @@ export const videos = [
     ],
   },
   {
+    url: "https://www.youtube.com/watch?v=IRffovBXIUE",
+    markers: [
+      { text: "wejście", time: 0 * 60 + 4 },
+      { text: "oświetlenie / wentylacja", time: 2 * 60 + 33 },
+      { text: "bar", time: 2 * 60 + 39 },
+      { text: "kuchnia", time: 3 * 60 + 5 },
+      { text: "spiżarnia / pralnia", time: 4 * 60 + 32 },
+      { text: "salon", time: 5 * 60 + 7 },
+      { text: "rtv / kominek", time: 5 * 60 + 13 },
+      { text: "basen", time: 6 * 60 + 50 },
+      { text: "sypialnia", time: 8 * 60 + 32 },
+      { text: "toaletka", time: 8 * 60 + 36 },
+      { text: "łazienka", time: 8 * 60 + 47 },
+      { text: "toaletka", time: 9 * 60 + 15 },
+      { text: "kino", time: 10 * 60 + 1 },
+      { text: "garaż", time: 11 * 60 + 17 },
+      { text: "bawialnia", time: 12 * 60 + 8 },
+      { text: "sypialnia", time: 13 * 60 + 20 },
+      { text: "sypialnia", time: 13 * 60 + 55 },
+      { text: "łazienka", time: 14 * 60 + 23 },
+      { text: "sypialnia", time: 14 * 60 + 32 },
+      { text: "łazienka", time: 15 * 60 + 36 },
+      { text: "garderoba", time: 16 * 60 + 51 },
+      { text: "sypialnia", time: 18 * 60 + 19 },
+      { text: "balkon", time: 19 * 60 + 29 },
+    ],
+  },
+  {
+    url: "https://www.youtube.com/watch?v=e1KOwce3RTM",
+    markers: [
+      { text: "kuchnia", time: 1 * 60 + 14 },
+      { text: "kuchnia", time: 4 * 60 + 41 },
+      { text: "gabinet", time: 6 * 60 + 2 },
+      { text: "bar", time: 11 * 60 + 2 },
+      { text: "spiżarnia", time: 12 * 60 + 20 },
+      { text: "pralnia", time: 12 * 60 + 55 },
+      { text: "bar", time: 13 * 60 + 31 },
+    ],
+  },
+  {
+    url: "https://www.youtube.com/watch?v=lBbwU1QyUD4",
+    markers: [
+      { text: "wejście", time: 0 * 60 + 1 },
+      { text: "kuchnia", time: 0 * 60 + 18 },
+      { text: "ekspres", time: 1 * 60 + 30 },
+      { text: "jadalnia", time: 1 * 60 + 56 },
+      { text: "salon +", time: 2 * 60 + 33 },
+      { text: "kominek", time: 2 * 60 + 42 },
+      { text: "schody", time: 3 * 60 + 58 },
+      { text: "szatnia +", time: 4 * 60 + 50 },
+      { text: "bawialnia +", time: 5 * 60 + 43 },
+      { text: "łazienka", time: 6 * 60 + 1 },
+      { text: "sypialnia", time: 6 * 60 + 40 },
+      { text: "gabinet", time: 6 * 60 + 43 },
+      { text: "szafa", time: 7 * 60 + 15 },
+      { text: "toaleta", time: 7 * 60 + 19 },
+      { text: "elewacja", time: 7 * 60 + 34 },
+    ],
+  },
+  {
+    // Inside Miami-Based Interior Designer Juan Poggi’s Home
+    url: "https://www.youtube.com/watch?v=Bh1JyYKNmGs",
+    markers: [
+      { text: "elewacja", time: 0 * 60 + 13 },
+      { text: "wejście", time: 0 * 60 + 18 },
+      { text: "rolety", time: 2 * 60 + 11 },
+      { text: "kuchnia", time: 2 * 60 + 20 },
+      { text: "wentylacja", time: 4 * 60 + 3 },
+      { text: "jadalnia", time: 5 * 60 + 34 },
+      { text: "basen", time: 6 * 60 + 54 },
+      { text: "bar", time: 8 * 60 + 2 },
+      { text: "sypialnia", time: 8 * 60 + 48 },
+      { text: "szafa / wentylacja", time: 9 * 60 + 0 },
+      { text: "toaleta", time: 9 * 60 + 16 },
+      { text: "toaleta", time: 9 * 60 + 57 },
+      { text: "balkon", time: 0 * 60 + 40 },
+      { text: "rtv", time: 1 * 60 + 26 },
+      { text: "oświetlenie / wentylacja", time: 1 * 60 + 28 },
+      { text: "balkon", time: 5 * 60 + 23 },
+      { text: "łazienka", time: 5 * 60 + 38 },
+      { text: "elewacja", time: 7 * 60 + 34 },
+    ],
+  },
+  {
+    // Inside a £5,950,000 Waterfront Apartment in Chelsea Harbour, London
+    url: "https://www.youtube.com/watch?v=Plw9zsGn4yI",
+    markers: parse(`
+0:30 kuchnia
+0:39 oświetlenie
+1:54 jadalnia
+2:23 zasłony
+2:32 konsola
+2:52 salon
+3:19 rtv
+3:36 kominek
+4:29 konsola
+4:32 szafa / wentylacja
+4:42 toaletka
+5:03 sypialnia
+5:27 garderoba
+5:58 łazienka
+7:25 balkon
+7:57 sypialnia
+8:00 szafa
+8:18 toaletka
+8:28 sypialnia
+9:10 konsola / wentylacja
+9:26 łazienka
+10:14 toaleta
+10:41 toaleta
+      `),
+  },
+  {
+    // Inside a £4,750,000 Modern Apartment with Stunning Coastal Views
+    url: "https://www.youtube.com/watch?v=i1oTgYo3_ow",
+    markers: parse(`
+1:24 wejście
+1:37 konsola / oświetlenie
+1:57 konsola
+2:22 drzwi
+2:30 konsola
+2:40 kuchnia / wentylacja
+3:43 oświetlenie +
+4:06 kącik +
+4:15 jadalnia +
+4:35 salon
+4:55 szafa
+5:05 kącik
+5:19 balkon
+5:52 pralnia
+5:58 toaleta
+6:03 wentylacja
+6:12 sypialnia
+6:33 konsola / wentylacja
+6:44 garderoba +
+6:54 łazienka
+7:05 oświetlenie
+7:50 sypialnia
+7:59 toaletka
+8:18 toaleta
+      `),
+  },
+  {
+    // Inside a $8,998,000 Miami Mansion in an Exclusive Neighbourhood
+    url: "https://www.youtube.com/watch?v=jF7ncqj3PtU",
+    markers: parse(`
+0:37 brama
+0:57 elewacja
+1:14 wejście
+1:45 schody
+2:06 kącik +
+2:15 konsola
+2:51 basen
+2:54 kuchnia
+3:26 jadalnia
+4:14 kuchnia / wentylacja
+5:33 rtv
+6:21 kuchnia ogrodowa
+6:56 toaleta
+7:00  basen
+9:56 garderoba
+9:59 toaleta
+10:12 garaż
+10:56 toaleta
+11:23 gabinet
+11:39 sypialnia +
+11:56 garderoba
+11:59 toaleta
+12:02 konsola
+12:33 kącik / wentylacja
+12:38 sypialnia
+12:47 konsola / wentylacja
+13:27 łazienka
+14:03 toaleta
+      `),
+  },
+  {
+    // Inside a £6,950,000 Beachfront Home with Bohemian Interiors ✨
+    url: "https://www.youtube.com/watch?v=TQplPcsWIWQ",
+    markers: parse(`
+0:22 wejście
+1:16 konsola
+5:01 konsola
+8:16 kotłownia / szafa jack
+9:32 sypialnia / skosy
+10:38 szafa / skosy
+10:53 łazienka / skosy
+12:04 szafa / skosy
+12:11 łazienka / skosy
+13:24 sypialnia / skosy
+13:34 toaleta / skosy
+13:57 korytarz / skosy
+14:07 sypialnia / skosy
+14:42 toaleta / skosy
+15:09 prysznic ogrodowy
+      `),
+  },
+  {
+    url: "https://www.youtube.com/watch?v=lIiMDDdKXZ8",
+    markers: [
+      { text: "elewacja", time: 0 * 60 + 2 },
+      { text: "wejście", time: 0 * 60 + 33 },
+      { text: "wentylacja", time: 0 * 60 + 43 },
+      { text: "konsola", time: 0 * 60 + 47 },
+      { text: "salon", time: 1 * 60 + 15 },
+      { text: "jadalnia", time: 3 * 60 + 29 },
+      { text: "bar", time: 3 * 60 + 39 },
+      { text: "kuchnia", time: 4 * 60 + 12 },
+      { text: "oświetlenie", time: 5 * 60 + 35 },
+      { text: "jadalnia", time: 5 * 60 + 56 },
+      { text: "salon", time: 6 * 60 + 20 },
+      { text: "oświetlenie / wentylacja", time: 7 * 60 + 11 },
+      { text: "basen", time: 7 * 60 + 34 },
+      { text: "toaletka", time: 8 * 60 + 14 },
+      { text: "toaleta", time: 8 * 60 + 43 },
+      { text: "pokój", time: 9 * 60 + 6 },
+      { text: "sypialnia", time: 9 * 60 + 38 },
+      { text: "szafa", time: 9 * 60 + 40 },
+      { text: "drzwi", time: 9 * 60 + 44 },
+      { text: "toaleta", time: 9 * 60 + 55 },
+      { text: "elewacja", time: 10 * 60 + 0 },
+      { text: "garaż", time: 10 * 60 + 12 },
+      { text: "schody", time: 10 * 60 + 20 },
+      { text: "bawialnia", time: 10 * 60 + 56 },
+      { text: "drzwi / wentylacja", time: 11 * 60 + 5 },
+      { text: "sypialnia", time: 11 * 60 + 15 },
+      { text: "szafa", time: 11 * 60 + 24 },
+      { text: "toaleta", time: 11 * 60 + 28 },
+      { text: "pralnia", time: 11 * 60 + 39 },
+      { text: "sypialnia / wentylacja", time: 11 * 60 + 46 },
+      { text: "sypialnia", time: 11 * 60 + 56 },
+      { text: "garderoba", time: 13 * 60 + 0 },
+      { text: "łazienka", time: 13 * 60 + 24 },
+      { text: "sauna", time: 13 * 60 + 32 },
+      { text: "łazienka", time: 13 * 60 + 47 },
+      { text: "sauna", time: 13 * 60 + 57 },
+      { text: "schody", time: 14 * 60 + 14 },
+      { text: "salon", time: 14 * 60 + 25 },
+      { text: "siłownia / spa +", time: 15 * 60 + 12 },
+      { text: "basen", time: 15 * 60 + 37 },
+      { text: "łazienka", time: 16 * 60 + 4 },
+      { text: "sauna +", time: 16 * 60 + 8 },
+      { text: "kino", time: 16 * 60 + 21 },
+      { text: "toaleta", time: 16 * 60 + 53 },
+      { text: "sypialnia", time: 17 * 60 + 13 },
+      { text: "kuchnia ogrodowa", time: 18 * 60 + 3 },
+      { text: "kuchnia", time: 18 * 60 + 44 },
+      { text: "wentylacja", time: 18 * 60 + 56 },
+      { text: "sypialnia", time: 19 * 60 + 5 },
+    ],
+  },
+  {
+    // Touring a $10,000,000 Miami Beachfront Condo With Incredible Ocean Views
     url: "https://www.youtube.com/watch?v=Skc4eh7efA4",
     markers: [
       { text: "balkon", time: 0 * 60 + 40 },
@@ -401,15 +708,6 @@ export const videos = [
     ],
   },
   {
-    url: "https://www.youtube.com/watch?v=6U-fIY4ykFc",
-    markers: [
-      { text: "wejście", time: 2 * 60 + 47 },
-      { text: "smart", time: 2 * 60 + 58 },
-      { text: "kominek", time: 13 * 60 + 11 },
-      { text: "łazienka", time: 15 * 60 + 19 },
-    ],
-  },
-  {
     url: "https://www.youtube.com/watch?v=L8OmA1P7bB8",
     markers: [
       { text: "elewacja", time: 0 * 60 + 5 },
@@ -438,7 +736,7 @@ export const videos = [
       { text: "salon", time: 2 * 60 + 45 },
       { text: "warsztat", time: 3 * 60 + 40 },
       { text: "toaleta", time: 4 * 60 + 20 },
-      { text: "biuro", time: 4 * 60 + 32 },
+      { text: "gabinet", time: 4 * 60 + 32 },
       { text: "sypialnia", time: 5 * 60 + 35 },
       { text: "łazienka", time: 5 * 60 + 51 },
       { text: "konsola", time: 6 * 60 + 21 },
@@ -488,7 +786,7 @@ export const videos = [
       { text: "szafa", time: 2 * 60 + 35 },
       { text: "garderoba", time: 2 * 60 + 45 },
       { text: "toaleta", time: 2 * 60 + 49 },
-      { text: "biuro", time: 2 * 60 + 52 },
+      { text: "gabinet", time: 2 * 60 + 52 },
       { text: "konsola", time: 3 * 60 + 10 },
       { text: "kuchnia", time: 3 * 60 + 37 },
       { text: "ekspres", time: 4 * 60 + 7 },
@@ -516,7 +814,7 @@ export const videos = [
       { text: "wejście", time: 0 * 60 + 5 },
       { text: "elewacja", time: 0 * 60 + 12 },
       { text: "konsola", time: 0 * 60 + 40 },
-      { text: "biuro", time: 0 * 60 + 44 },
+      { text: "gabinet", time: 0 * 60 + 44 },
       { text: "kino", time: 1 * 60 + 29 },
       { text: "toaleta", time: 2 * 60 + 38 },
       { text: "kuchnia", time: 3 * 60 + 10 },
@@ -544,7 +842,7 @@ export const videos = [
       { text: "kominek", time: 7 * 60 + 42 },
       { text: "rtv", time: 7 * 60 + 54 },
       { text: "spa", time: 9 * 60 + 23 },
-      { text: "biuro", time: 11 * 60 + 16 },
+      { text: "gabinet", time: 11 * 60 + 16 },
       { text: "toaleta", time: 11 * 60 + 24 },
       { text: "sypialnia", time: 11 * 60 + 50 },
       { text: "toaleta", time: 12 * 60 + 13 },
@@ -580,7 +878,7 @@ export const videos = [
       { text: "jadalnia", time: 3 * 60 + 50 },
       { text: "rtv", time: 3 * 60 + 54 },
       { text: "kuchnia", time: 4 * 60 + 13 },
-      { text: "biuro", time: 4 * 60 + 55 },
+      { text: "gabinet", time: 4 * 60 + 55 },
       { text: "schody", time: 5 * 60 + 35 },
       { text: "sypialnia", time: 6 * 60 + 24 },
       { text: "garderoba", time: 7 * 60 + 0 },
@@ -601,7 +899,7 @@ export const videos = [
     markers: [
       { text: "kuchnia", time: 3 * 60 + 0 },
       { text: "jadalnia", time: 4 * 60 + 7 },
-      { text: "biuro", time: 4 * 60 + 40 },
+      { text: "gabinet", time: 4 * 60 + 40 },
       { text: "toaleta", time: 4 * 60 + 58 },
       { text: "sypialnia", time: 5 * 60 + 9 },
       { text: "łazienka", time: 5 * 60 + 18 },
@@ -676,7 +974,7 @@ export const videos = [
       { text: "konsola", time: 8 * 60 + 19 },
       { text: "sypialnia", time: 8 * 60 + 22 },
       { text: "toaleta", time: 8 * 60 + 44 },
-      { text: "biuro", time: 9 * 60 + 22 },
+      { text: "gabinet", time: 9 * 60 + 22 },
       { text: "sypialnia", time: 9 * 60 + 30 },
       { text: "konsola", time: 9 * 60 + 34 },
       { text: "garderoba", time: 9 * 60 + 39 },
@@ -701,7 +999,7 @@ export const videos = [
       { text: "toaleta", time: 8 * 60 + 22 },
       { text: "kino", time: 9 * 60 + 3 },
       { text: "sypialnia", time: 10 * 60 + 8 },
-      { text: "biuro", time: 10 * 60 + 13 },
+      { text: "gabinet", time: 10 * 60 + 13 },
       { text: "drzwi", time: 11 * 60 + 23 },
       { text: "garderoba", time: 11 * 60 + 43 },
       { text: "wanna", time: 11 * 60 + 47 },
@@ -798,7 +1096,7 @@ export const videos = [
       { text: "schody", time: 7 * 60 + 3 },
       { text: "toaleta", time: 8 * 60 + 8 },
       { text: "pralnia", time: 10 * 60 + 29 },
-      { text: "biuro", time: 11 * 60 + 55 },
+      { text: "gabinet", time: 11 * 60 + 55 },
       { text: "sypialnia", time: 14 * 60 + 10 },
       { text: "toaleta", time: 14 * 60 + 41 },
       { text: "sypialnia", time: 15 * 60 + 17 },
@@ -827,6 +1125,42 @@ export const videos = [
       { text: "garderoba", time: 19 * 60 + 3 },
       { text: "łazienka", time: 19 * 60 + 34 },
       { text: "okno", time: 20 * 60 + 13 },
+    ],
+  },
+  {
+    url: "https://www.youtube.com/watch?v=E3mxJ11JUmg",
+    markers: [
+      { text: "elewacja", time: 40 },
+      { text: "wejście", time: 3 * 60 + 43 },
+      { text: "kuchnia", time: 4 * 60 + 1 },
+      { text: "jadalnia", time: 6 * 60 + 14 },
+      { text: "gabinet", time: 7 * 60 + 12 },
+      { text: "siłownia", time: 7 * 60 + 31 },
+      { text: "toaleta", time: 7 * 60 + 51 },
+      { text: "balkon", time: 8 * 60 + 38 },
+      { text: "elewacja", time: 9 * 60 + 17 },
+      { text: "basen", time: 12 * 60 + 32 },
+      { text: "schody", time: 12 * 60 + 46 },
+      { text: "sypialnia", time: 12 * 60 + 53 },
+      { text: "wentylacja", time: 13 * 60 + 30 },
+      { text: "garderoba", time: 13 * 60 + 38 },
+      { text: "wentylacja", time: 14 * 60 + 6 },
+      { text: "toaleta", time: 14 * 60 + 14 },
+      { text: "sypialnia", time: 15 * 60 + 10 },
+      { text: "szafa", time: 15 * 60 + 22 },
+      { text: "toaleta", time: 15 * 60 + 27 },
+      { text: "sypialnia", time: 17 * 60 + 0 },
+      { text: "szafa", time: 17 * 60 + 9 },
+      { text: "wentylacja", time: 17 * 60 + 15 },
+      { text: "toaleta", time: 17 * 60 + 30 },
+      { text: "pralnia", time: 17 * 60 + 52 },
+      { text: "łazienka", time: 17 * 60 + 55 },
+      { text: "sauna", time: 18 * 60 + 2 },
+      { text: "sypialnia", time: 19 * 60 + 17 },
+      { text: "toaleta", time: 20 * 60 + 0 },
+      { text: "sypialnia", time: 20 * 60 + 5 },
+      { text: "toaletka", time: 20 * 60 + 10 },
+      { text: "szafa", time: 20 * 60 + 15 },
     ],
   },
   {

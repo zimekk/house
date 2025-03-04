@@ -18,7 +18,8 @@ export function Player({
   videoId: string;
   markers: { text: string; time: number }[];
 }) {
-  const playerRef = useRef(null);
+  const ref = useRef<HTMLDivElement>(null);
+  const playerRef = useRef<HTMLDivElement>(null);
   const playerObj = useRef<any>(null);
 
   useEffect(() => {
@@ -52,7 +53,30 @@ export function Player({
 
   return (
     <>
-      <div className={styles.Player}>
+      <div>
+        [
+        <a
+          href="#"
+          onClick={useCallback<MouseEventHandler<HTMLAnchorElement>>(
+            (e) => {
+              e.preventDefault();
+              if (ref.current) {
+                const frame = ref.current.querySelector("iframe");
+                if (frame) {
+                  const video = frame.querySelector("video");
+                  console.log({ ref, frame, video });
+                }
+              }
+              // playerObj.current.seekTo(time)
+            },
+            [ref],
+          )}
+        >
+          skip
+        </a>
+        ]
+      </div>
+      <div ref={ref} className={styles.Player}>
         <div ref={playerRef}></div>
       </div>
       <div className={styles.Markers}>
