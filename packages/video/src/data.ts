@@ -615,6 +615,283 @@ export const videos = [
       `),
   },
   {
+    // Inside A Sustainable Luxury £3,750,000 Cheshire Home
+    url: "https://www.youtube.com/watch?v=ysKW4N9zNXA",
+    markers: parse(`
+0:16 elewacja
+1:25 wejście / brama
+1:32 konsola / drzwi
+2:33 kuchnia
+2:55 oświetlenie
+4:34 spiżarnia
+5:44 jadalnia
+6:27 szatnia / prysznic
+6:38 salon
+6:42 kominek
+7:30 schody
+7:35 toaleta
+9:27 toaleta
+9:49 gabinet
+9:56 kino
+10:01 pralnia
+11:24 sypialnia
+11:55 łazienka
+12:39 balkon
+13:19 pralnia
+13:35 toaleta
+13:48 sypialnia / szafa
+14:08 sypialnia
+14:25 toaleta
+14:45 świetlik
+15:29 sypialnia / skosy
+15:36 toaleta
+15:55 szafa / skosy
+16:19 toaleta
+16:34 gabinet / skosy
+17:08 kącik / skosy
+      `),
+  },
+  {
+    // Inside a $26,000,000 New York Townhouse in The West Village
+    url: "https://www.youtube.com/watch?v=t_cW76UNt_c",
+    markers: parse(`
+0:59 wejście
+1:02 kącik
+1:05 konsola
+1:08 szafa / wentylacja
+1:09 toaleta
+1:34 kuchnia
+2:18 jadalnia
+3:15 taras
+4:00 salon
+4:03 kominek
+4:51 toaleta
+4:57 jadalnia
+5:05 bar
+5:37 sypialnia / wentylacja
+5:47 balkon
+6:10 garderoba
+6:17 łazienka / wentylacja +
+6:29 wanna +
+6:50 sypialnia / wentylacja
+6:56 toaletka
+7:06 toaleta
+7:18 sypialnia
+7:33 toaleta
+7:59 kącik
+8:00 gabinet / wentylacja
+9:05 pralnia
+9:28 świetlik
+      `),
+  },
+  {
+    // Inside a $20,000,000 New York Townhouse In The West Village
+    url: "https://www.youtube.com/watch?v=tjaeQ2wUIUc",
+    markers: parse(`
+3:16 barek
+4:05 salon
+4:25 kącik / jadalnia
+4:31 kuchnia
+4:41 oświetlenie / wentylacja
+5:26 gabinet
+5:52 szatnia
+6:05 smart
+6:50 kotłownia
+6:57 pralnia
+7:29 świetlik
+9:17 kuchnia ogrodowa
+10:28 sypialnia
+11:00 garderoba
+12:13 sypialnia / skosy
+12:18 świetlik / wentylacja 
+13:06 sypialnia
+13:15 szafa / wentylacja 
+13:42 kuchnia ogrodowa
+      `),
+  },
+  {
+    // Inside a £5,950,000 Central London Apartment with Amazing Thames Views
+    url: "https://www.youtube.com/watch?v=cAKFnpgyYwQ",
+    markers: parse(`
+1:22 rewizja
+4:42 jadalnia / kredens +
+5:12 sypialnia
+7:40 kącik / biurko
+8:38 jadalnia
+8:43 konsola / lustro
+8:46 wejście / szafa
+8:48 pralnia
+      `),
+  },
+  {
+    // Inside a Restored £3,485,000 Mews House In Notting Hill
+    url: "https://www.youtube.com/watch?v=o_NFKowx8CA",
+    markers: parse(`
+2:20 wejście
+2:40 toaleta
+3:15 kuchnia / okap
+9:35 pralnia
+14:32 łazienka / wanna +
+15:53 toaleta
+16:30 gabinet / skosy
+      `),
+  },
+  {
+    // Inside a $9,000,000 Luxury 8 Bedroom Miami Mansion with Swimming Pool
+    url: "https://www.youtube.com/watch?v=R_9-JElwV2A",
+    markers: parse(`
+1:03 podjazd / brama
+1:13 garaż / brama
+1:58 wejście
+2:32 salon
+2:40 kominek
+3:13 smart / oświetlenie +
+3:18 jadalnia +
+3:22 kredens
+3:30 elewacja
+3:44 kuchnia / wentylacja
+5:06 salon / rtv
+5:44 toaleta
+7:27 konsola
+7:36 sypialnia
+8:35 konsola
+9:07 łazienka
+10:14 kącik / gabinet
+13:20 kuchnia ogrodowa
+13:45 toaleta
+      `),
+  },
+  {
+    // Inside Footballer Zlatan Ibrahimovic’ former Manchester Mansion
+    url: "https://www.youtube.com/watch?v=2aVDki0LfkQ",
+    markers: parse(`
+20:37 pralnia
+22:36 sypialnia / skosy
+22:50 toaleta / skosy
+      `),
+  },
+  {
+    // Inside a $85,000,000 New York Townhouse with Indoor Swimming Pool
+    url: "https://www.youtube.com/watch?v=7v4RulDkr-o",
+    markers: parse(`
+2:25 konsola / lustro
+2:48 salon / kominek
+3:48 jadalnia +
+3:55 konsola / lustro
+4:19 kącik
+4:35 kuchnia
+5:18 kącik / kominek
+7:00 salon / wentylacja
+7:37 gabinet / wentylacja
+8:26 kącik / wentylacja
+9:25 sypialnia / wentylacja
+9:56 roleta
+10:41 łazienka
+11:33 łazienka / wentylacja
+12:05 kącik
+12:37 sypialnia / wentylacja
+12:57 łazienka
+13:05 sypialnia / biurko
+13:25 łazienka
+13:55 sypialnia / biurko
+14:12 łazienka
+14:18 sypialnia
+14:38 kącik
+15:03 toaleta
+16:06 basen / spa
+      `),
+  },
+  {
+    // Inside a £3,800,000 Central London Penthouse | Kings Cross
+    url: "https://www.youtube.com/watch?v=6ipQrXy-Ry8",
+    markers: parse(`
+1:02 kuchnia / wentylacja
+1:31 konsola
+1:33 sypialnia
+1:37 plan
+4:00 jadalnia
+4:53 toaleta
+4:57 drzwi
+5:43 kącik / oświetlenie
+8:37 sypialnia / wentylacja
+10:00 łazienka
+10:46 szafa
+11:10 drzwi
+11:14 toaleta
+11:42 toaleta
+11:45 pralnia
+11:57 konsola +
+12:07 drzwi
+12:30 sypialnia +
+13:14 toaleta / oświetlenie
+13:45 szafa / rolety
+      `),
+  },
+  {
+    // Inside Erika Fox's Upper East Side, New York Apartment
+    url: "https://www.youtube.com/watch?v=-4JvfrZCDdI",
+    markers: parse(`
+0:42 konsola
+1:43 konsola / lustro
+1:52 szatnia
+2:13 salon
+3:48 kącik
+5:05 rtv
+9:13 jadalnia / kredens
+12:10 kuchnia
+13:28 sypialnia / toaletka
+15:05 szafa
+      `),
+  },
+  {
+    // Inside a £5,000,000 Fully Renovated Victorian London Townhouse
+    url: "https://www.youtube.com/watch?v=MKklxO0PgU0",
+    markers: parse(`
+1:05 wejście
+1:09 konsola / lustro
+1:50 drzwi
+1:55 toaleta
+2:05 kuchnia
+3:06 jadalnia
+3:38 kącik / wentylacja
+3:50 schody +
+5:02 plan
+6:10 schody +
+6:23 salon
+6:26 rtv / kominek
+7:25 gabinet
+7:53 szatnia
+7:55 pralnia
+8:23 salon / kominek
+9:47 sypialnia / szafa
+11:40 łazienka / skosy
+      `),
+  },
+  {
+    // Inside a $10,500,000 Tropical Dream Home In Miami, Florida
+    url: "https://www.youtube.com/watch?v=zMqIWPo58AE",
+    markers: parse(`
+1:02 furtka
+2:18 wejście
+2:40 konsola
+2:45 kącik / wentylacja
+3:41 jadalnia
+4:11 sypialnia / toaleta
+4:20 gabinet
+5:14 salon / rtv
+5:27 drzwi / wentylacja
+7:43 kuchnia
+8:14 spiżarnia
+8:19 pralnia
+8:54 smart
+9:19 kuchnia ogrodowa
+10:12 garaż
+12:01 kącik
+12:47 gabinet
+15:25 kino / rtv
+      `),
+  },
+  {
     url: "https://www.youtube.com/watch?v=lIiMDDdKXZ8",
     markers: [
       { text: "elewacja", time: 0 * 60 + 2 },
