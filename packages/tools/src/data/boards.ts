@@ -315,6 +315,22 @@ export const boards = [
       price: 7.5,
       url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/11124-konektor-do-tasm-i-paskow-led-jst-sm-2-pin-sparkfun-cab-14574-5904422317232.html",
     },
+
+    {
+      name: "Raspberry Pi Zero 2 WH 512MB RAM - WiFi + BT 4.2 - ze złączami",
+      price: 89.9,
+      url: "https://botland.com.pl/moduly-i-zestawy-raspberry-pi-zero/25407-raspberry-pi-zero-2-wh-512mb-ram-wifi-bt-42-ze-zlaczami-5056561800011.html",
+    },
+    {
+      name: "ESP32-C3-Zero - mini płytka rozwojowa WiFi/Bluetooth - ESP32-C3FN4 - Waveshare 25452",
+      price: 19.9,
+      url: "https://botland.com.pl/moduly-wifi-i-bt-esp32/23869-esp32-c3-zero-mini-plytka-rozwojowa-wifibluetooth-esp32-c3fn4-waveshare-25452.html",
+    },
+    {
+      name: "RP2040-Zero - płytka z mikrokontrolerem RP2040 - wersja mini - Waveshare 20187",
+      price: 18.9,
+      url: "https://botland.com.pl/plytki-z-mikrokontrolerem-rp2040/20536-rp2040-zero-plytka-z-mikrokontrolerem-rp2040-wersja-mini-waveshare-20187-5904422381561.html",
+    },
   ],
   [
     {
@@ -581,6 +597,61 @@ export const boards = [
       name: "Adafruit 5953 Adafruit Pixel Trinkey",
       price: 54.92,
       url: "https://kamami.pl/sterowniki-led/1192409-adafruit-5953-adafruit-pixel-trinkey--5906623490165.html",
+    },
+    {
+      name: "GY-PCM5102 - moduł audio z konwerterem DAC PCM5102A",
+      price: 29.4,
+      url: "https://kamami.pl/moduly-odtwarzania-mp3wav/582993-gy-pcm5102-modul-audio-z-konwerterem-dac-pcm5102a-dla-raspberry-pi-5906623474585.html",
+    },
+    {
+      name: "MiniWare TS101 - przenośna cyfrowa lutownica 65W z wyświetlaczem, grot B2",
+      price: 280.03,
+      url: "https://kamami.pl/lutownice-przenosne-miniware/1183544-miniware-ts101-przenosna-cyfrowa-lutownica-65w-z-wyswietlaczem-grot-b2-6970634010987.html",
+    },
+    {
+      name: "DFRobot Gravity - Moduł z tranzystorem MOSFET 5-36 V",
+      price: 20.6,
+      url: "https://kamami.pl/moduly-z-wyjsciami-mocy/563660-dfrobot-gravity-modul-z-tranzystorem-mosfet-536-v-dfr0457.html",
+    },
+    {
+      name: "Moduł z tranzystorem MOSFET IFR520",
+      price: 3.52,
+      url: "https://kamami.pl/moduly-z-wyjsciami-mocy/579363-modul-z-tranzystorem-mosfet-ifr520-modmosfetirf520-5906623457823.html",
+    },
+    {
+      name: "Moduł przekaźnika SSR 240V/2A z bezpiecznikiem",
+      price: 8.03,
+      url: "https://kamami.pl/moduly-z-wyjsciami-mocy/575386-modul-przekaznika-ssr-240v2a-z-bezpiecznikiem-5906623457045.html",
+    },
+    {
+      name: "2-kanałowy moduł przekaźników SSR 240V/2A z bezpiecznikiem",
+      price: 34.5,
+      url: "https://kamami.pl/moduly-z-wyjsciami-mocy/575387-2-kanalowy-modul-przekaznikow-ssr-240v2a-z-bezpiecznikiem-5906623457052.html",
+    },
+    {
+      name: "4-kanałowy moduł przekaźników SSR 240V/2A z bezpiecznikiem",
+      price: 26.65,
+      url: "https://kamami.pl/moduly-z-wyjsciami-mocy/574849-4-kanalowy-modul-przekaznikow-ssr-240v2a-z-bezpiecznikiem-5906623456819.html",
+    },
+    {
+      name: "8-kanałowy moduł przekaźników SSR 240V/2A wyzwalany stanem wysokim",
+      price: 53.65,
+      url: "https://kamami.pl/moduly-z-wyjsciami-mocy/1184412-modssr-8ch-h-modul-osmioma--5906623447411.html",
+    },
+    {
+      name: "Automation HAT Mini - moduł rozszerzeń do automatyki domowej dla Raspberry Pi",
+      price: 179.05,
+      url: "https://kamami.pl/moduly-z-przekaznikami/585211-automation-hat-mini-modul-rozszerzen-do-automatyki-domowej-dla-raspberry-pi-pim487-606034880733.html",
+    },
+    {
+      name: "Modbus POE ETH Relay - moduł z 8 przekaźnikami i komunikacją Ethernet",
+      price: 207.41,
+      url: "https://kamami.pl/moduly-z-wyjsciami-mocy/1186274-8-ch-ethernet-relay-module-modbus-rtu-modbus-tcp-protocol-poe-port-communication-with-various-iso-5906623465927.html",
+    },
+    {
+      name: "BMP280 Breakout - moduł z czujnikiem ciśnienia i temperatury",
+      price: 49.9,
+      url: "https://kamami.pl/czujniki-cisnienia/585234-bmp280-breakout-modul-z-czujnikiem-cisnienia-i-temperatury-pim411.html",
     },
   ],
 ];
