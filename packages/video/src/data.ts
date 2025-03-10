@@ -752,8 +752,11 @@ export const videos = [
 3:44 kuchnia / wentylacja
 5:06 salon / rtv
 5:44 toaleta
+5:50 pralnia
+5:53 garaż
 7:27 konsola
 7:36 sypialnia
+7:50 wentylacja / oświetlenie ++
 8:35 konsola
 9:07 łazienka
 10:14 kącik / gabinet
@@ -1534,5 +1537,148 @@ export const videos = [
       { text: "przejście przez dom", time: 49 },
       { text: "wizja projektu", time: 104 },
     ],
+  },
+  {
+    // Grand Designs: House of The Year | Season 5 Episodes 1 - 4 | Full Season | Who Will Win?
+    url: "https://www.youtube.com/watch?v=nrCWBxyokIA",
+    markers: parse(`
+0:29 elewacja
+0:43 elewacja / lukarna +
+0:52 elewacja
+1:00 elewacja +
+1:18 elewacja
+22:14 schody
+23:16 elewacja
+27:47 elewacja
+31:44 toaleta / drzwi
+36:53 elewacja
+1:05:02 elewacja / lukarna +
+1:12:40 elewacja
+1:20:27 elewacja
+1:23:58 schody
+      `),
+  },
+  {
+    // Ridge House Design: Contemporary Style with a Touch of Tradition
+    url: "https://www.youtube.com/watch?v=RMiMVbHmPc8",
+    markers: parse(`
+0:01 elewacja
+1:55 schody
+      `),
+  },
+  {
+    // Simple but Smart: Inside This Control4 Home Setup
+    url: "https://www.youtube.com/watch?v=DgzdfakzqQA",
+    markers: parse(`
+4:23 smart
+5:06 kuchnia ogrodowa
+7:07 szafa rack
+10:21 smart
+      `),
+  },
+  {
+    // Smart Home Tour | Automation and Control4 In Action
+    url: "https://www.youtube.com/watch?v=ccTeO326mCU",
+    markers: parse(`
+2:15 smart
+8:57 szafa rack
+      `),
+  },
+  {
+    // This is how much a smart home costs in 2025 | Home Automation
+    url: "https://www.youtube.com/watch?v=Q_LiZoknXq8",
+    markers: parse(`
+3:03 schody
+6:05 smart
+8:05 smart
+10:44 szafa rack
+18:59 kuchnia ogrodowa
+      `),
+  },
+  {
+    // Idealne połączenie tradycji z nowoczesnością. Piękny dom w górach - Pomysł na Dom #115
+    url: "https://www.youtube.com/watch?v=rCBspLFFVcg",
+    markers: parse(`
+0:32 elewacja
+      `),
+  },
+  {
+    // Dom bez kluczy, otwieranych okien i tylko z 3 włącznikami światła - Pomysł na Dom #73
+    url: "https://www.youtube.com/watch?v=PCAKIF6djis",
+    markers: parse(`
+0:52 elewacja
+1:31 elewacja +
+4:03 spiżarnia
+8:15 smart
+      `),
+  },
+  {
+    // Za 420 tys. PLN zbudował ENERGOOSZCZĘDNY DOM dla 5 osobowej rodziny - Pomysł na Dom #57
+    url: "https://www.youtube.com/watch?v=JDFAQkHD9JQ",
+    markers: parse(`
+0:23 elewacja
+      `),
+  },
+  {
+    // Nowoczesna stodoła dla dużej rodziny. 4 sypialnie, kominek i huśtawka - Pomysł na Dom #29
+    url: "https://www.youtube.com/watch?v=Tu-7ZrzOoPY",
+    markers: parse(`
+0:01 elewacja
+3:06 kuchnia
+6:43 sypialnia
+7:23 sypialnia
+      `),
+  },
+  {
+    // Spektakularny dom w górach. Imponująca nowoczesna stodoła! - Pomysł na Dom #3
+    url: "https://www.youtube.com/watch?v=a-t0Q_YQpAQ",
+    markers: parse(`
+0:38 elewacja
+1:56 kuchnia
+1:56 kuchnia
+2:30 spiżarnia
+3:50 sypialnia
+4:08 łazienka
+5:42 sypialnia
+6:00 sypialnia
+      `),
+  },
+  {
+    // On ne trouve pas le temps, on le prend - s[21]
+    url: "https://www.youtube.com/watch?v=UdoKwimjUsQ",
+    markers: parse(`
+0:01 elewacja
+0:13 kuchnia
+      `),
+  },
+  {
+    // Stûv - The essential fire
+    url: "https://www.youtube.com/watch?v=VljkrsVHi14",
+    markers: parse(`
+0:20 kominek ++
+      `),
+  },
+  {
+    // Stûv Interiors created by Decosud (Belgium)
+    url: "https://www.youtube.com/watch?v=FfyzlH6bpZA",
+    markers: parse(`
+1:01 kominek ++
+1:36 kominek ++
+2:07 kominek ++
+      `),
+  },
+  {
+    // Cala Glass - Auroom design sauna
+    url: "https://www.youtube.com/watch?v=WVu-lH0rmPA",
+    markers: parse(`
+0:08 sauna +
+      `),
+  },
+  {
+    // Harvia - Saker att tänka på när du väljer aggregat för din hemmabastu
+    url: "https://www.youtube.com/watch?v=SlJstiYyfmw",
+    markers: parse(`
+0:01 sauna
+      `),
   },
 ];
