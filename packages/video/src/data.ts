@@ -895,6 +895,48 @@ export const videos = [
       `),
   },
   {
+    // Inside a £30,000,000 Mayfair Townhouse with Underground Pool, Spa & Cinema
+    url: "https://www.youtube.com/watch?v=X0P-TrDrA6Y",
+    markers: parse(`
+3:54 sypialnia
+4:09 toaleta
+4:33 szafa
+4:54 toaleta
+5:00 sypialnia
+5:06 oświetlenie +
+5:14 szafa
+5:19 sypialnia
+5:36 toaleta +
+6:08 sypialnia
+6:50 łazienka
+7:39 toaleta
+7:57 toaletka
+8:00 garderoba
+8:14 smart
+8:48 salon
+9:00 gabinet
+9:06 oświetlenie / wentylacja +
+9:23 toaleta +
+14:57 toaleta
+15:00 spa
+15:23 bar
+15:35 sauna
+15:59 kino
+17:48 toaleta
+18:30 sauna
+21:56 łazienka
+23:01 sypialnia
+23:04 wentylacja / oświetlenie +
+23:07 szafa
+24:39 toaleta
+25:01 toaleta
+25:39 kuchnia +
+26:09 świetlik
+26:33 jadalnia +
+26:40 salon +
+      `),
+  },
+  {
     url: "https://www.youtube.com/watch?v=lIiMDDdKXZ8",
     markers: [
       { text: "elewacja", time: 0 * 60 + 2 },
@@ -1532,11 +1574,370 @@ export const videos = [
     ],
   },
   {
+    // Dom inspirowany stylem połowy wieku, którego projekt na nowo definiuje pojęcie spokojnego luksusu
+    url: "https://www.youtube.com/watch?v=q1RIm2lS_P4",
+    markers: parse(`
+0:09 elewacja
+1:35 elewacja
+2:03 toaleta
+2:43 kuchnia
+2:47 pokój
+3:05 garaż
+3:20 wejście
+3:27 schody
+4:05 kącik / rtv
+4:50 kuchnia ogrodowa ++
+5:06 salon
+      `),
+  },
+  {
+    // Wnętrze domu nad wodą zaprojektowanego tak, aby było ukryte (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=4Rr42pKtlhw",
+    markers: parse(`
+1:14 balkon
+1:29 schody
+1:51 kuchnia ogrodowa
+1:55 schody
+2:24 toaleta +
+2:30 kuchnia
+4:39 kącik / rtv
+      `),
+  },
+  {
+    // Dlaczego świetny projekt wymaga czasu i inwestycji – z Jamie Bushem (Design Masterclass)
+    url: "https://www.youtube.com/watch?v=jmvfhjlFLFQ",
+    markers: parse(`
+1:33 elewacja ++
+4:12 salon / rtv
+4:18 łazienka +
+5:40 schody
+5:57 salon / kominek
+6:52 schody
+      `),
+  },
+  {
+    // W środku wyjątkowego domu z zabawnym wystrojem wnętrz (zwiedzanie domu)
+    url: "https://www.youtube.com/watch?v=smbbWe2JvqA",
+    markers: parse(`
+0:11 kuchnia
+0:54 elewacja
+2:11 kuchnia
+2:26 bar
+3:02 schody
+3:22 toaleta
+3:39 szatnia
+3:46 sypialnia
+5:09 elewacja
+5:38 ogród
+      `),
+  },
+  {
+    // W domu z tropikalnym ogrodem, który łączy Cię z naturą (zwiedzanie domu)
+    url: "https://www.youtube.com/watch?v=8TJ4lFWrJks",
+    markers: parse(`
+0:52 elewacja +
+1:36 kącik / rtv
+1:53 łazienka +
+2:10 sypialnia
+2:37 jadalnia
+2:45 kuchnia
+2:51 kącik / kominek
+3:08 gabinet
+3:20 ogród
+3:30 sypialnia
+3:53 sypialnia
+4:02 toaleta
+4:23 balkon
+4:29 kuchnia
+4:33 schody
+4:41 elewacja
+5:16 kominek
+5:46 elewacja
+      `),
+  },
+  {
+    // Ta Chatka W Lesie Pozostawi Cię Bez Mowy (Wycieczka Po Domu)
+    url: "https://www.youtube.com/watch?v=5_r5IWWeYk0",
+    markers: parse(`
+0:12 elewacja +
+1:18 salon / kominek
+1:23 elewacja +
+2:57 palenisko
+3:18 sypialnia
+3:33 sypialnia
+4:14 łazienka
+5:13 salon / kominek
+5:58 kuchnia
+6:12 sypialnia
+      `),
+  },
+  {
+    // Dom marzeń zbudowany na własnej prywatnej plaży w Nowej Zelandii (zwiedzanie domu)
+    url: "https://www.youtube.com/watch?v=Qe4l5anx3rU",
+    markers: parse(`
+1:14 elewacja +
+1:36 kuchnia
+1:39 ogrodzenie ++
+1:50 łazienka
+1:52 sypialnia
+2:11 elewacja
+2:56 salon / kominek
+3:06 kuchnia
+3:12 kuchnia ogrodowa
+3:45 basen
+3:48 ogrodzenie ++
+5:09 patio
+      `),
+  },
+  {
+    // Ten dom to list miłosny do natury (zwiedzanie domu)
+    url: "https://www.youtube.com/watch?v=incmD0ZiRWE",
+    markers: parse(`
+1:38 kuchnia
+1:41 sypialnia
+2:14 elewacja
+3:11 kuchnia ogrodowa
+3:18 salon / kominek
+3:21 jadalnia
+3:34 sypialnia
+3:38 łazienka
+      `),
+  },
+  {
+    // Wnętrze nowoczesnego domu zaprojektowanego z myślą o naturze (zwiedzanie domu)
+    url: "https://www.youtube.com/watch?v=-_CW3KnLczg",
+    markers: parse(`
+1:27 elewacja
+1:42 schody
+2:14 basen
+2:26 salon / rtv
+2:30 wentylacja +
+3:01 kuchnia
+3:29 łazienka
+3:36 sypialnia
+5:09 kącik / salon
+      `),
+  },
+  {
+    // Idealnie zaprojektowany nowoczesny dom, zbudowany tak, aby przetrwać próbę czasu (zwiedzanie domu)
+    url: "https://www.youtube.com/watch?v=v7IsTZKw6G4",
+    markers: parse(`
+0:53 elewacja
+1:37 jadalnia
+1:57 brama garażowa
+2:01 elewacja +
+2:09 kuchnia
+2:13 kuchnia ogrodowa
+2:25 kącik
+2:29 drzwi
+2:36 łazienka
+3:31 elewacja
+5:22 łazienka
+      `),
+  },
+  {
+    // Jak zaprojektować dom rodzinny z płynnymi połączeniami zewnętrznymi (wycieczka po domu)
     url: "https://www.youtube.com/watch?v=v1TXZkNYUIY",
-    markers: [
-      { text: "przejście przez dom", time: 49 },
-      { text: "wizja projektu", time: 104 },
-    ],
+    markers: parse(`
+0:07 schody ++
+0:10 elewacja
+0:17 szopa
+0:24 jadalnia
+0:43 kuchnia
+0:47 kącik / pokój
+0:50 wejście
+1:11 jadalnia
+1:19 rtv
+1:22 schody ++
+1:27 sypialnia
+1:31 sypialnia
+1:35 toaleta
+2:06 łazienka
+2:14 salon / rtv
+2:40 sypialnia
+2:57 toaleta
+3:23 basen
+3:49 świetlik
+3:59 gabinet
+4:50 łazienka
+      `),
+  },
+  {
+    // Oszałamiający dom na wsi zaprojektowany z myślą o zapewnieniu maksymalnego spokoju i relaksu
+    url: "https://www.youtube.com/watch?v=l9VDdD0d_1w",
+    markers: parse(`
+0:13 elewacja
+0:46 jadalnia
+1:09 elewacja
+1:18 wejście
+1:29 szatnia
+1:47 elewacja
+2:11 salon / kominek
+2:23 elewacja
+3:09 kuchnia ogrodowa
+3:13 toaleta +
+3:40 elewacja +
+      `),
+  },
+  {
+    // Wnętrze najbardziej zapierającego dech w piersiach domu wakacyjnego w Australii (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=UGjN8VXMyHg",
+    markers: parse(`
+0:16 elewacja +
+1:31 brama garażowa +
+1:38 wejście
+1:59 toaleta
+2:04 brama garażowa +
+2:16 sypialnia
+2:18 sypialnia
+2:23 toaleta
+2:26 kącik
+2:42 łazienka
+2:46 kuchnia
+2:49 jadalnia
+3:08 elewacja +
+      `),
+  },
+  {
+    // Wnętrze wymarzonego domu na nabrzeżu zaprojektowanego jako zrównoważone sanktuarium
+    url: "https://www.youtube.com/watch?v=SvAOtgMmAkg",
+    markers: parse(`
+0:08 elewacja +
+0:15 schody +
+0:20 elewacja +
+1:07 elewacja +
+1:44 kuchnia
+1:57 brama garażowa +
+2:09 wejście
+2:12 kotłownia
+2:20 elewacja / balustrada +
+2:23 panele
+2:30 drzwi ++
+2:31 toaleta
+2:37 pokój / rtv
+3:08 schody
+3:22 łazienka
+3:29 sypialnia
+3:34 balkon
+3:47 elewacja
+4:06 kotłownia
+      `),
+  },
+  {
+    // Własny dom architekta i wyjątkowa przestrzeń mieszkalna w studiu (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=FzDunpHJLo8",
+    markers: parse(`
+1:22 schody +
+1:28 gabinet / pracownia
+1:34 kuchnia
+1:51 salon / rtv
+2:03 wejście
+2:41 gabinet / pracownia
+2:49 balkon
+3:37 drzwi +
+3:44 toaleta +
+3:46 sypialnia +
+4:12 kącik / pokój
+      `),
+  },
+  {
+    // Inside a Magical Holiday Home Like No Other (House Tour)
+    url: "https://www.youtube.com/watch?v=lqh_HK8MsYA",
+    markers: parse(`
+2:52 elewacja +
+3:25 kuchnia
+3:36 toaleta
+3:42 sypialnia
+3:48 toaleta
+3:50 basen
+3:54 sypialnia
+4:45 kuchnia
+4:56 kominek
+      `),
+  },
+  {
+    // Architect Designs a Breathtaking Home Connected to Nature (House Tour)
+    url: "https://www.youtube.com/watch?v=z5-lIA7BuwQ",
+    markers: parse(`
+0:23 elewacja +
+1:34 szopa ++
+      `),
+  },
+  {
+    // Dom rodzinny architektów z nowoczesnym i teksturowanym wystrojem wnętrz (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=PtShECOgRrw",
+    markers: parse(`
+1:04 lukarna
+1:15 ogrodzenie +
+      `),
+  },
+  {
+    // Poznaj chatę w lesie, która odzwierciedla otaczający krajobraz (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=MIJ8BxBIufA",
+    markers: parse(`
+3:00 lukarna ++
+3:35 elewacja
+      `),
+  },
+  {
+    // Wewnątrz pamiątkowego domu, w którym natura i sztuka stają się jednym (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=JV4PP2Cq8uo",
+    markers: parse(`
+0:39 elewacja
+      `),
+  },
+  {
+    // Inside the Ultimate Country Home Where Minimalism Meets Elegance (House Tour)
+    url: "https://www.youtube.com/watch?v=yJb80E-yma0",
+    markers: parse(`
+0:40 elewacja +
+1:07 pergola
+1:30 elewacja +
+3:29 pralnia
+4:47 elewacja +
+      `),
+  },
+  {
+    // An Interior Designer's Own Hidden Home! This is Modern Australian Luxury at its Finest. House Tour
+    url: "https://www.youtube.com/watch?v=3-SsmCHYduY",
+    markers: parse(`
+      `),
+  },
+  {
+    // An Artist's Home by a Stream is a Tranquil Escape - Tauhai Villa by Ponce Veridiano
+    url: "https://www.youtube.com/watch?v=mY13Slnc4uQ",
+    markers: parse(`
+      `),
+  },
+  {
+    // Ancient stone housebarn becomes couple's tranquil home-office
+    url: "https://www.youtube.com/watch?v=i6c0Pvei3F4",
+    markers: parse(`
+      `),
+  },
+  {
+    // The Dos Vistas Home Tour | Step Inside This Luxurious Cabo Estate With Incredible Ocean Views
+    url: "https://www.youtube.com/watch?v=uD1ti4o2ch4",
+    markers: parse(`
+      `),
+  },
+  {
+    // Inside the Gerald Luss House: A Mid-Century Modern Masterpiece in New York | House Tour
+    url: "https://www.youtube.com/watch?v=L1ZRlRXEtxs",
+    markers: parse(`
+      `),
+  },
+  {
+    // Inside an Elegant London Project With Hamish Brown of 1508 London | House Tour | The Intérieur
+    url: "https://www.youtube.com/watch?v=nxPBfkEMmt0",
+    markers: parse(`
+      `),
+  },
+  {
+    // Villa Tugendhat: Tour of UNESCO Masterpiece by Mies Van Der Rohe
+    url: "https://www.youtube.com/watch?v=dLYdNB3jNi4",
+    markers: parse(`
+      `),
   },
   {
     // Grand Designs: House of The Year | Season 5 Episodes 1 - 4 | Full Season | Who Will Win?
@@ -1679,6 +2080,175 @@ export const videos = [
     url: "https://www.youtube.com/watch?v=SlJstiYyfmw",
     markers: parse(`
 0:01 sauna
+      `),
+  },
+  {
+    // The MOST Expensive Home in Arizona! Secret Bunker, Man Cave, & Spa
+    url: "https://www.youtube.com/watch?v=E-2Ym1Dyk08",
+    markers: parse(`
+2:36 elewacja
+3:26 wejście
+4:47 toaleta
+10:42 toaleta
+12:56 patio / elewacja
+13:36 gabinet
+14:22 kino
+14:50 sypialnia
+15:47 smart
+15:52 toaleta
+16:35 wanna
+17:34 garderoba
+17:58 pralnia
+19:35 toaleta
+30:45 kuchnia ogrodowa
+34:05 toaleta
+34:21 kącik
+36:57 szatnia
+38:40 sypialnia
+40:07 garderoba
+40:44 pralnia
+41:40 sypialnia
+42:05 łazienka
+42:37 basen
+      `),
+  },
+  {
+    // Onnen Outdoor Sauna - Heartwood Saunas
+    url: "https://www.youtube.com/watch?v=yyKAOARkSZE",
+    markers: parse(`
+0:05 sauna ogrodowa
+15:00 sauna
+      `),
+  },
+  {
+    // Aire X Outdoor Sauna - Heartwood Saunas
+    url: "https://www.youtube.com/watch?v=Z3HTFT7iL0E",
+    markers: parse(`
+0:27 sauna ogrodowa
+0:43 sauna
+      `),
+  },
+  {
+    // Arden Outdoor Sauna - Heartwood Saunas
+    url: "https://www.youtube.com/watch?v=8fxRzu_Qvt0",
+    markers: parse(`
+0:09 sauna ogrodowa
+0:56 sauna
+      `),
+  },
+  {
+    // Arbor X Outdoor Sauna - Heartwood Saunas
+    url: "https://www.youtube.com/watch?v=yAME1ZK7tDY",
+    markers: parse(`
+0:15 sauna ogrodowa
+1:02 sauna
+      `),
+  },
+  {
+    // Ora Outdoor Sauna - Heartwood Saunas
+    url: "https://www.youtube.com/watch?v=ONwXbWfhvZg",
+    markers: parse(`
+0:07 sauna ogrodowa
+0:19 sauna
+      `),
+  },
+  {
+    // Arbor V Outdoor Sauna - Heartwood Saunas
+    url: "https://www.youtube.com/watch?v=p7nNJ0kPyAc",
+    markers: parse(`
+0:14 sauna ogrodowa
+0:32 sauna
+      `),
+  },
+  {
+    // Heartwood Saunas Bespoke Outdoor Sauna
+    url: "https://www.youtube.com/watch?v=Shv1936yvW0",
+    markers: parse(`
+0:09 sauna ogrodowa
+0:11 sauna
+      `),
+  },
+  {
+    // Clearlight® Saunas Outdoor 5-Person Full Spectrum Sauna
+    url: "https://www.youtube.com/watch?v=pmRFn_Ptk_Y",
+    markers: parse(`
+0:01 sauna ogrodowa
+      `),
+  },
+  {
+    // Kabinka Spa | a minimalist cabin designed and built by Hello Wood
+    url: "https://www.youtube.com/watch?v=V6yZuAUuslU",
+    markers: parse(`
+0:04 szopa
+      `),
+  },
+  {
+    // New Fishing Paradise for Nature Lovers Near Budapest
+    url: "https://www.youtube.com/watch?v=8MYIL0R4mh0",
+    markers: parse(`
+0:14 szopa
+      `),
+  },
+  {
+    // A Professional Home Gym AND Sauna in a Garden Room?!
+    url: "https://www.youtube.com/watch?v=GE3aywLPRUg",
+    markers: parse(`
+0:40 szopa / sauna
+      `),
+  },
+  {
+    // REF 5710 The ultimate garden spa, with hot tub and sauna in Hertfordshire
+    url: "https://www.youtube.com/watch?v=927BvkIZglw",
+    markers: parse(`
+0:15 szopa
+1:21 sauna
+      `),
+  },
+  {
+    // WE BUILT OUR DREAM HOME! | Full House Tour & Renovation
+    url: "https://www.youtube.com/watch?v=qMyWh25_CsM",
+    markers: parse(`
+0:22 wejście
+0:40 schody
+1:37 kino
+2:18 szatnia
+2:35 gabinet
+3:29 toaleta
+3:40 kącik / pokój
+6:37 kącik / salon
+8:12 jadalnia
+9:06 kuchnia
+11:16 spiżarnia +
+11:53 ekspres
+13:35 kotłownia
+15:02 sypialnia
+16:05 sypialnia
+16:17 toaleta +
+16:24 łazienka
+16:53 toaleta +
+17:00 pralnia
+17:41 szafa +
+19:29 toaletka
+      `),
+  },
+  {
+    // OUR DREAM GARDEN TRANSFORMATION | Indoor Swimming Pool & Garden Tour
+    url: "https://www.youtube.com/watch?v=0MqDbN0S8Ms",
+    markers: parse(`
+0:34 elewacja
+3:08 elewacja
+6:47 szopa
+      `),
+  },
+  {
+    // We Built Our DREAM Swimming Pool | Full Tour & First Swim
+    url: "https://www.youtube.com/watch?v=h2_sXdU8SQA",
+    markers: parse(`
+3:24 szopa
+3:37 kuchnia ogrodowa
+5:43 basen
+7:47 sauna
+8:28 toaleta
       `),
   },
 ];
