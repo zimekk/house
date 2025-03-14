@@ -160,6 +160,442 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://weneve.com/96733-large_default/ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6699-ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/104989-large_default/ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6699-ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96734-large_default/ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6699-ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96735-large_default/ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6699-ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/101829-large_default/ld-origami-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.jpg",
+    url: "https://weneve.com/pl/panele-frezowane-z-mdf/6987-ld-origami-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.html",
+  },
+  {
+    src: "https://weneve.com/101834-large_default/ld-origami-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.jpg",
+    url: "https://weneve.com/pl/panele-frezowane-z-mdf/6987-ld-origami-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.html",
+  },
+  {
+    src: "https://weneve.com/101905-large_default/ld-origami-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.jpg",
+    url: "https://weneve.com/pl/panele-frezowane-z-mdf/6987-ld-origami-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.html",
+  },
+  {
+    src: "https://weneve.com/35718-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/103261-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/103262-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/100745-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/100735-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/35690-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/100734-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/35691-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/100891-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/101097-large_default/ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6934-ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/104988-large_default/ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6934-ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/101102-large_default/ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6934-ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/101098-large_default/ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6934-ld-lamele-fala-bez-piaskowy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/101876-large_default/ld-skandi-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.jpg",
+    url: "https://weneve.com/pl/panele-frezowane-z-mdf/6990-ld-skandi-1-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.html",
+  },
+  {
+    src: "https://weneve.com/96522-large_default/ld-lamele-fala-grafit-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6686-ld-lamele-fala-grafit-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/104991-large_default/ld-lamele-fala-grafit-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6686-ld-lamele-fala-grafit-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96523-large_default/ld-lamele-fala-grafit-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6686-ld-lamele-fala-grafit-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/102277-large_default/vt-pb60-b0-bialy-zlamany-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7017-vt-pb60-b0-bialy-zlamany-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102279-large_default/vt-pb60-b0-bialy-zlamany-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7017-vt-pb60-b0-bialy-zlamany-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102278-large_default/vt-pb60-b0-bialy-zlamany-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7017-vt-pb60-b0-bialy-zlamany-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/101888-large_default/ld-skandi-2-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.jpg",
+    url: "https://weneve.com/pl/panele-frezowane-z-mdf/6991-ld-skandi-2-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.html",
+  },
+  {
+    src: "https://weneve.com/101901-large_default/ld-skandi-3-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.jpg",
+    url: "https://weneve.com/pl/panele-frezowane-z-mdf/6992-ld-skandi-3-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.html",
+  },
+  {
+    src: "https://weneve.com/96488-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96495-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/104993-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96489-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/102401-large_default/vt-pb57-s50-jasny-szary-mysi-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7033-vt-pb57-s50-jasny-szary-mysi-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102399-large_default/vt-pb57-s50-jasny-szary-mysi-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7033-vt-pb57-s50-jasny-szary-mysi-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102402-large_default/vt-pb57-s50-jasny-szary-mysi-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7033-vt-pb57-s50-jasny-szary-mysi-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/35718-large_default/vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1446-vt---pb42-bs-sniezno-bialy-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102660-large_default/vt-pb61-b1-siwo-bialy-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7070-vt-pb61-b1-siwo-bialy-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102655-large_default/vt-pb61-b1-siwo-bialy-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7070-vt-pb61-b1-siwo-bialy-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102661-large_default/vt-pb61-b1-siwo-bialy-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7070-vt-pb61-b1-siwo-bialy-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/101864-large_default/ld-origami-3-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.jpg",
+    url: "https://weneve.com/pl/panele-frezowane-z-mdf/6989-ld-origami-3-panel-frezowany-mdf-fornir-debowy-ozdobna-dekoracja-scienna-3d.html",
+  },
+  {
+    src: "https://weneve.com/96465-large_default/ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6682-ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/104994-large_default/ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6682-ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96473-large_default/ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6682-ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96467-large_default/ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6682-ld-lamele-fala-dab-natura-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/102342-large_default/vt-pb56-s96-ciemny-szary-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7025-vt-pb56-s96-ciemny-szary-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102341-large_default/vt-pb56-s96-ciemny-szary-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7025-vt-pb56-s96-ciemny-szary-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/102344-large_default/vt-pb56-s96-ciemny-szary-lamel-obly-panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/7025-vt-pb56-s96-ciemny-szary-lamel-obly-panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/96750-large_default/lt-lamel-ryflowany-bialy---panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6701-lt-lamel-ryflowany-bialy---panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96755-large_default/lt-lamel-ryflowany-bialy---panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6701-lt-lamel-ryflowany-bialy---panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96753-large_default/lt-lamel-ryflowany-bialy---panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6701-lt-lamel-ryflowany-bialy---panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96488-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96495-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/104993-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/96489-large_default/ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/6684-ld-lamele-fala-bialy-panel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/35701-large_default/vt---pb42-ks-kosc-sloniowa-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1554-vt---pb42-ks-kosc-sloniowa-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/100713-large_default/minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/3122-minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/100712-large_default/minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/3122-minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/100721-large_default/minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/3122-minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/100724-large_default/minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/3122-minileiste-czarny-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/100872-large_default/minileiste-tytanowy-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-02.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/3126-minileiste-tytanowy-minimalistyczna-listwa-przypodlogowa-cokolowa-sl16x5-02.html",
+  },
+  {
+    src: "https://weneve.com/100497-large_default/sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.jpg",
+    url: "https://weneve.com/pl/cegla-dekoracyjna/6894-sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.html",
+  },
+  {
+    src: "https://weneve.com/100533-large_default/sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.jpg",
+    url: "https://weneve.com/pl/cegla-dekoracyjna/6894-sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.html",
+  },
+  {
+    src: "https://weneve.com/100504-large_default/sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.jpg",
+    url: "https://weneve.com/pl/cegla-dekoracyjna/6894-sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.html",
+  },
+  {
+    src: "https://weneve.com/100506-large_default/sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.jpg",
+    url: "https://weneve.com/pl/cegla-dekoracyjna/6894-sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.html",
+  },
+  {
+    src: "https://weneve.com/100499-large_default/sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.jpg",
+    url: "https://weneve.com/pl/cegla-dekoracyjna/6894-sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.html",
+  },
+  {
+    src: "https://weneve.com/100500-large_default/sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.jpg",
+    url: "https://weneve.com/pl/cegla-dekoracyjna/6894-sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.html",
+  },
+  {
+    src: "https://weneve.com/100501-large_default/sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.jpg",
+    url: "https://weneve.com/pl/cegla-dekoracyjna/6894-sc-torunski-mur-plytki-z-zabytkowej-xix-wiecznej-cegly-rozbiorkowej.html",
+  },
+  {
+    src: "https://weneve.com/3926-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3917-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3916-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3919-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3920-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3923-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3922-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3921-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3918-large_default/vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/367-vt---pb09-s96-szary-ciemny-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/86466-large_default/minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/5995-minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/86465-large_default/minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/5995-minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/86464-large_default/minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/5995-minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/89494-large_default/minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/5995-minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/86463-large_default/minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.jpg",
+    url: "https://weneve.com/pl/listwy-przypodlogowe/5995-minileiste---czarny---minimalistyczna-listwa-przypodlogowa-cokolowa-led-ready-sled16x5-03.html",
+  },
+  {
+    src: "https://weneve.com/79715-large_default/ld-lamele-czarny-mat---lamel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/5067-ld-lamele-czarny-mat---lamel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/79747-large_default/ld-lamele-czarny-mat---lamel-scienny-i-sufitowy-3d.jpg",
+    url: "https://weneve.com/pl/lamele-drewniane/5067-ld-lamele-czarny-mat---lamel-scienny-i-sufitowy-3d.html",
+  },
+  {
+    src: "https://weneve.com/35712-large_default/vt---pb42-b8-antracyt-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1482-vt---pb42-b8-antracyt-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/105015-large_default/vt---pb42-b8-antracyt-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1482-vt---pb42-b8-antracyt-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/35775-large_default/vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1501-vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/35736-large_default/vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1501-vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/54446-large_default/vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1501-vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/35749-large_default/vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/1501-vt---pb41-s96-ciemny-szary-lamel---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/79154-large_default/vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3927-vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.html",
+  },
+  {
+    src: "https://weneve.com/105024-large_default/vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3927-vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.html",
+  },
+  {
+    src: "https://weneve.com/69277-large_default/vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3927-vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.html",
+  },
+  {
+    src: "https://weneve.com/69278-large_default/vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3927-vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.html",
+  },
+  {
+    src: "https://weneve.com/69274-large_default/vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3927-vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.html",
+  },
+  {
+    src: "https://weneve.com/69275-large_default/vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3927-vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.html",
+  },
+  {
+    src: "https://weneve.com/69279-large_default/vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3927-vt---pb10-b8-antracyt-mozaika---panel-dekor-3d-beton-architektoniczny-b.html",
+  },
+  {
+    src: "https://weneve.com/3962-large_default/vt---pb09-bs-sniezno-bialy-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/370-vt---pb09-bs-sniezno-bialy-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/103312-large_default/vt---pb09-bs-sniezno-bialy-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/370-vt---pb09-bs-sniezno-bialy-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/3958-large_default/vt---pb09-bs-sniezno-bialy-mozaika---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/370-vt---pb09-bs-sniezno-bialy-mozaika---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/106120-large_default/vt---pb13-bs-sniezno-bialy-kod---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/465-vt---pb13-bs-sniezno-bialy-kod---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/106122-large_default/vt---pb13-bs-sniezno-bialy-kod---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/465-vt---pb13-bs-sniezno-bialy-kod---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/106126-large_default/vt---pb13-bs-sniezno-bialy-kod---panel-dekor-3d-beton-architektoniczny.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/465-vt---pb13-bs-sniezno-bialy-kod---panel-dekor-3d-beton-architektoniczny.html",
+  },
+  {
+    src: "https://weneve.com/69446-large_default/vt---pb35-s50-jasno-szary---mysi-jodelka---panel-dekor-beton-architektoniczny-prawy.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3951-vt---pb35-s50-jasno-szary---mysi-jodelka---panel-dekor-beton-architektoniczny-prawy.html",
+  },
+  {
+    src: "https://weneve.com/69452-large_default/vt---pb35-s50-jasno-szary---mysi-jodelka---panel-dekor-beton-architektoniczny-prawy.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3951-vt---pb35-s50-jasno-szary---mysi-jodelka---panel-dekor-beton-architektoniczny-prawy.html",
+  },
+  {
+    src: "https://weneve.com/69449-large_default/vt---pb35-s50-jasno-szary---mysi-jodelka---panel-dekor-beton-architektoniczny-prawy.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3951-vt---pb35-s50-jasno-szary---mysi-jodelka---panel-dekor-beton-architektoniczny-prawy.html",
+  },
+  {
+    src: "https://weneve.com/79160-large_default/vt---pb10-b15-czarny-mozaika---panel-dekor-3d-beton-architektoniczny-a.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3926-vt---pb10-b15-czarny-mozaika---panel-dekor-3d-beton-architektoniczny-a.html",
+  },
+  {
+    src: "https://weneve.com/105228-large_default/vt---pb10-b15-czarny-mozaika---panel-dekor-3d-beton-architektoniczny-a.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3926-vt---pb10-b15-czarny-mozaika---panel-dekor-3d-beton-architektoniczny-a.html",
+  },
+  {
+    src: "https://weneve.com/69270-large_default/vt---pb10-b15-czarny-mozaika---panel-dekor-3d-beton-architektoniczny-a.jpg",
+    url: "https://weneve.com/pl/panele-betonowe-3d/3926-vt---pb10-b15-czarny-mozaika---panel-dekor-3d-beton-architektoniczny-a.html",
+  },
+  {
     src: "https://auroomwellness.com/wp-content/uploads/2023/11/auroom-cala-glass-home-web-1920.jpg",
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=3",
   },
