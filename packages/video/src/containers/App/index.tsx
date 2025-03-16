@@ -2,6 +2,7 @@ import {
   type ChangeEventHandler,
   type ComponentProps,
   type Dispatch,
+  type FocusEventHandler,
   type ReactNode,
   type SetStateAction,
   useCallback,
@@ -64,14 +65,70 @@ export function Filters({
   );
 }
 
-function List({ queries }: any) {
-  const [list] = useState(() =>
-    videos.map(({ url, markers = [] }) => ({
-      url,
-      id: url.split("=")[1],
-      markers,
-    })),
+const getVideoId = (url: string) => url.split("=")[1];
+
+interface VideoItem {
+  url: string;
+  id: string;
+  markers: {
+    text: string;
+    time: number;
+  }[];
+}
+
+function Item({ onAdd }: { onAdd: (videoId: string) => void }) {
+  const [url, setUrl] = useState(() => "");
+  const [error, setError] = useState(() => "");
+
+  const handleClickAdd = useCallback(() => {
+    console.log({ url });
+    const u = url.trim();
+    if (u.match(/https:\/\/www.youtube.com\/watch\?v=(.+)/)) {
+      setError(``);
+      setUrl("");
+      onAdd(u);
+    } else if (u === "") {
+      setError(`Empty Url`);
+    } else {
+      setError(`Invalid Url: ${u}`);
+    }
+  }, [url]);
+
+  return (
+    <fieldset>
+      <div>
+        <Input
+          type="text"
+          label="New Url"
+          value={url}
+          onChange={useCallback<ChangeEventHandler<HTMLInputElement>>(
+            ({ target }) => setUrl(target.value),
+            [],
+          )}
+          onFocus={useCallback<FocusEventHandler<HTMLInputElement>>(
+            ({ target }) => target.select(),
+            [],
+          )}
+        />
+        <button onClick={handleClickAdd}>Add</button>
+        {error && (
+          <span
+            style={{
+              backgroundColor: "lemonchiffon",
+              color: "red",
+              marginLeft: "1em",
+              padding: ".25em .5em",
+            }}
+          >
+            {error}
+          </span>
+        )}
+      </div>
+    </fieldset>
   );
+}
+
+function List({ list, queries }: { list: VideoItem[]; queries: FiltersState }) {
   const [selected, setSelected] = useState(() =>
     list.filter(() => false).map(({ url }) => url),
   );
@@ -156,9 +213,30 @@ function List({ queries }: any) {
 
 export default function App() {
   const [filters, setFilters] = useState<FiltersState>(() => INITIAL_FILTERS);
+  const [list, setList] = useState(() =>
+    videos.map(({ url, markers = [] }) => ({
+      url,
+      id: getVideoId(url),
+      markers,
+    })),
+  );
 
   const [queries, setQueries] = useState(() => filters);
   const search$ = useMemo(() => new Subject<any>(), []);
+
+  const handleAdd = useCallback(
+    (url: string) =>
+      setList((list) =>
+        [
+          {
+            url,
+            id: getVideoId(url),
+            markers: [],
+          } as VideoItem,
+        ].concat(list),
+      ),
+    [list],
+  );
 
   useEffect(() => {
     const subscription = search$
@@ -187,7 +265,8 @@ export default function App() {
     <div>
       <h1>video</h1>
       <Filters filters={filters} setFilters={setFilters} />
-      <List queries={queries} />
+      <Item onAdd={handleAdd} />
+      <List list={list} queries={queries} />
     </div>
   );
 }
