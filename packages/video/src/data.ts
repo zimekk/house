@@ -2,6 +2,73 @@ import parse from "./utils/parse";
 
 export const videos = [
   {
+    // DOM MARZEŃ 95 m2 - MAŁY, ale praktyczny! "W środku wygląda na dużo większy!" Jak to możliwe?
+    url: "https://www.youtube.com/watch?v=ZCTXLZh542w",
+    markers: parse(`
+1:00 elewacja
+1:14 panele
+      `),
+  },
+  {
+    // Parterowy DOM MARZEŃ Agaty i Rafała! "Płacimy 350 zł za OGRZEWANIE na rok!" CO SIĘ SPRAWDZIŁO? 🏠
+    url: "https://www.youtube.com/watch?v=TWNHhESVuUg",
+    markers: parse(`
+0:05 elewacja
+0:09 panele
+      `),
+  },
+  {
+    // OGRÓD MARZEŃ od razu! Ma ALTANĘ, PALENISKO, małe drzewa i byliny 🌿 TOP Pomysły do ogrodu!
+    url: "https://www.youtube.com/watch?v=_0Mx8UBDMdM",
+    markers: parse(`
+0:39 szopa
+1:13 palenisko
+1:53 ogród
+3:35 kucnia ogrodowa
+      `),
+  },
+  {
+    // Sonia i Ben SAMI zbudowali DOM JAK Z KLOCKÓW! DOM MARZEŃ przyszłości - Szybka budowa! STODOŁA
+    url: "https://www.youtube.com/watch?v=XKUuRPiQiDs",
+    markers: parse(`
+0:33 ogrodzenie
+0:44 elewacja
+0:58 wejście
+1:08 schody
+9:57 sypialnia / skosy
+10:24 sypialnia / skosy
+      `),
+  },
+  {
+    // Zbudowali EKO DOM przyszłości! W ich salonie ROŚNIE DRZEWO 🌳 Pasywny DOM MARZEŃ NOWOCZESNA STODOŁA
+    url: "https://www.youtube.com/watch?v=uYq5uaHx59I",
+    markers: parse(`
+0:04 elewacja / panele
+0:14 wejście
+10:40 schody
+      `),
+  },
+  {
+    // DOM jak ze SNÓW! Cudny kominek i huśtawka w salonie! Przytulny dom marzeń dla rodziny!
+    url: "https://www.youtube.com/watch?v=GYaXrzcFkNg",
+    markers: parse(`
+0:11 elewacja
+2:40 wejście
+2:46 szatnia
+3:22 toaleta
+3:30 salon
+3:44 elewacja
+3:57 elewacja
+4:48 jadalnia
+4:54 kuchnia
+6:28 schody ++
+6:48 łazienka
+7:28 sypialnia / skosy
+8:10 kącik
+8:37 sypialnia / skosy
+      `),
+  },
+  {
     url: "https://www.youtube.com/watch?v=cNGArAUt8Ow",
     markers: [
       { text: "oświetlenie", time: 29 },
@@ -1895,6 +1962,23 @@ export const videos = [
 1:30 elewacja +
 3:29 pralnia
 4:47 elewacja +
+      `),
+  },
+  {
+    // Dom marzeń zaprojektowany z cegły, kamienia i drewna (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=jQdXn-GSb5A",
+    markers: parse(`
+0:16 schody ++
+0:20 kominek / rtv
+0:33 elewacja
+0:22 schody
+1:35 kącik / skosy
+1:45 kuchnia
+2:13 salon
+2:55 kuchnia
+3:09 elewacja
+3:56 toaleta
+5:33 kuchnia ogrodowa
       `),
   },
   {
