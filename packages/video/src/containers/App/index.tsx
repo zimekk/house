@@ -11,7 +11,7 @@ import {
   useState,
 } from "react";
 import { Subject, debounceTime, distinctUntilChanged, map } from "rxjs";
-import { LazyPlayer } from "../../components/player";
+import { Player } from "../../components/player";
 import { videos } from "../../data";
 import styles from "./styles.module.scss";
 
@@ -200,7 +200,7 @@ function List({ list, queries }: { list: VideoItem[]; queries: FiltersState }) {
                   </a>
                 </div>
                 <div>
-                  <LazyPlayer videoId={item.id} markers={item.markers} />
+                  <Player videoId={item.id} markers={item.markers} />
                 </div>
               </td>
             </tr>

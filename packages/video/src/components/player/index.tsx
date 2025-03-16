@@ -1,6 +1,7 @@
 import React, {
   type ComponentPropsWithoutRef,
   type MouseEventHandler,
+  type RefObject,
   useCallback,
   useEffect,
   useRef,
@@ -9,18 +10,47 @@ import React, {
 import YouTubePlayer from "youtube-player";
 import styles from "./styles.module.scss";
 
+function useInView(ref: RefObject<HTMLDivElement>) {
+  const [inView, setInView] = useState(false);
+
+  useEffect(() => {
+    const handleObserve: IntersectionObserverCallback = ([
+      { isIntersecting },
+    ]) => {
+      if (isIntersecting) {
+        setInView(true);
+      }
+    };
+    if (ref.current instanceof HTMLElement) {
+      const observer = new IntersectionObserver(handleObserve, {
+        root: null,
+        rootMargin: "0px",
+        threshold: 1.0,
+      });
+      observer.observe(ref.current);
+      return () => {
+        if (ref.current) {
+          observer.unobserve(ref.current);
+        }
+      };
+    }
+  }, [ref]);
+
+  return { inView };
+}
+
 export function Player({
-  inView = true,
   videoId,
   markers,
 }: {
-  inView: boolean;
   videoId: string;
   markers: { text: string; time: number }[];
 }) {
   const ref = useRef<HTMLDivElement>(null);
   const playerRef = useRef<HTMLDivElement>(null);
   const playerObj = useRef<any>(null);
+
+  const { inView } = useInView(ref);
 
   useEffect(() => {
     if (playerRef.current && inView) {
@@ -95,41 +125,5 @@ export function Player({
         ))}
       </div>
     </>
-  );
-}
-
-export function LazyPlayer(
-  props: Omit<ComponentPropsWithoutRef<typeof Player>, "inView">,
-) {
-  const [inView, setInView] = useState(false);
-  const ref = useRef<HTMLDivElement>(null);
-
-  useEffect(() => {
-    const handleObserve: IntersectionObserverCallback = ([
-      { isIntersecting },
-    ]) => {
-      if (isIntersecting) {
-        setInView(true);
-      }
-    };
-    if (ref.current instanceof HTMLElement) {
-      const observer = new IntersectionObserver(handleObserve, {
-        root: null,
-        rootMargin: "0px",
-        threshold: 1.0,
-      });
-      observer.observe(ref.current);
-      return () => {
-        if (ref.current) {
-          observer.unobserve(ref.current);
-        }
-      };
-    }
-  }, [ref]);
-
-  return (
-    <div ref={ref} className={styles.LazyPlayer}>
-      <Player inView={inView} {...props} />
-    </div>
   );
 }
