@@ -2,6 +2,7 @@ import { type ChangeEventHandler, useCallback, useMemo, useState } from "react";
 import { Link } from "../../components/link";
 import { boards } from "../../data/boards";
 import { garden } from "../../data/garden";
+import { orders } from "../../data/orders";
 import styles from "./styles.module.scss";
 
 interface ItemType {
@@ -13,6 +14,7 @@ interface ItemType {
 const OPTIONS = {
   boards,
   garden,
+  orders,
 } as const;
 
 const formatAmount = (amount: number) =>
