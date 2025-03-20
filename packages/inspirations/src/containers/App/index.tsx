@@ -11,15 +11,17 @@ import {
 } from "react";
 import { Subject, debounceTime, distinctUntilChanged, map } from "rxjs";
 import { LazyImage } from "../../components/image";
-import { inspirations } from "../../data";
+import { favorite, inspirations } from "../../data";
 import styles from "./styles.module.scss";
 
 export interface FiltersState {
   search: string;
+  favorite: boolean;
 }
 
 export const INITIAL_FILTERS: FiltersState = {
   search: "",
+  favorite: true,
 };
 
 export function Input({
@@ -59,17 +61,34 @@ export function Filters({
             [],
           )}
         />
+        <label>
+          <input
+            type="checkbox"
+            checked={filters.favorite}
+            onChange={useCallback<ChangeEventHandler<HTMLInputElement>>(
+              ({ target }) =>
+                setFilters((filters) => ({
+                  ...filters,
+                  favorite: target.checked,
+                })),
+              [],
+            )}
+          />
+          <span> Favorite</span>
+        </label>
       </div>
     </fieldset>
   );
 }
 
-function Table({ queries }: any) {
+function Table({ queries }: { queries: FiltersState }) {
   const [list] = useState(() =>
-    inspirations.map(({ src, url }) => ({
-      src: src.replace(/^https:\/\/[^\/]+\.(cdninstagram)\.com/, "/$1"),
-      url,
-    })),
+    inspirations
+      // .filter(({ src }) => favorite.includes(src))
+      .map(({ src, url }) => ({
+        src: src.replace(/^https:\/\/[^\/]+\.(cdninstagram)\.com/, "/$1"),
+        url,
+      })),
   );
   const [selected, setSelected] = useState(() => list.map((_, key) => key));
 
@@ -77,9 +96,10 @@ function Table({ queries }: any) {
     () =>
       list.filter(
         (item) =>
-          queries.search === "" ||
-          item.url.toLowerCase().includes(queries.search) ||
-          item.src.toLowerCase().includes(queries.search),
+          (queries.search === "" ||
+            item.url.toLowerCase().includes(queries.search) ||
+            item.src.toLowerCase().includes(queries.search)) &&
+          (!queries.favorite || favorite.includes(item.src)),
       ),
     [queries, list],
   );

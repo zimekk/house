@@ -8,7 +8,7 @@
 //   ).map(([src, url]) => ({ url, src })),
 // );
 
-const selected = `
+export const favorite = `
 https://simmengroup.ch/media/cache/slider_desktop/upload/images/07d0322df3c00c940f61753d4a92eb2746877aa8.jpg
 https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-076-scaled.jpg
 https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-h-poele-bois-rangement-authenticite-854.webp
@@ -159,6 +159,134 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
   .filter(Boolean);
 
 export const inspirations = [
+  {
+    src: "https://partnersinternational.pl/wp-content/uploads/2020/07/dom-wolnostojacy-na-sprzedaz-fort-pilsudskiego-mokotow-warszawa.jpg",
+    url: "https://partnersinternational.pl/nieruchomosc/dom/fort-pilsudskiego-mokotow-warszawa-9",
+  },
+  {
+    src: "https://partnersinternational.pl/wp-content/uploads/2020/07/dom-wolnostojacy-na-sprzedaz-fort-pilsudskiego-mokotow-warszawa-1.jpg",
+    url: "https://partnersinternational.pl/nieruchomosc/dom/fort-pilsudskiego-mokotow-warszawa-9",
+  },
+  {
+    src: "https://partnersinternational.pl/wp-content/uploads/2020/07/dom-wolnostojacy-na-sprzedaz-fort-pilsudskiego-mokotow-warszawa-2.jpg",
+    url: "https://partnersinternational.pl/nieruchomosc/dom/fort-pilsudskiego-mokotow-warszawa-9",
+  },
+  {
+    src: "https://partnersinternational.pl/wp-content/uploads/2020/07/dom-wolnostojacy-na-sprzedaz-fort-pilsudskiego-mokotow-warszawa-3.jpg",
+    url: "https://partnersinternational.pl/nieruchomosc/dom/fort-pilsudskiego-mokotow-warszawa-9",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Z2.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Z1.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/W2.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/W1.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Rzut-pietra-scaled.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Rzut-parteru-scaled.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Axo_4-scaled.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Axo_3-scaled.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Axo_2-scaled.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://www.whitemad.pl/wp-content/uploads/2021/05/Axo_1-scaled.jpg",
+    url: "https://www.whitemad.pl/89-stopni-architekci/",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d5edcdfb-4beb-4240-85f8-2d45bbadc750/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%205.jpg?width=2560&height=1000&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=f171ffd4-ea9e-41fe-81f1-447f9c54d66e",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/8a768c53-b650-4078-b76a-92b5768a1434/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%206.jpg?width=2560&height=1280&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=0feb92be-d494-4032-b925-d938cd526318",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/d07b78e8-6638-426e-a0c3-14ca599d3b21/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%207.jpg?width=2560&height=1000&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=7cc87d1d-0bf2-4fac-a153-41a8b3d617f5",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/cebd3c53-4cb1-4b10-976d-eb8d4bb56281/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%202.jpg?width=2560&height=1280&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=79681946-22d3-4a33-b32f-af5a3b2c2aae",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/fd3f2689-1c5c-43d6-8766-73fe463da591/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%208.jpg?width=2560&height=1466&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=a2dacdb0-ec71-42e0-baf6-cdbba4a28b18",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/2f354e91-0b7c-45a4-84c5-623d9d810a48/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%204.jpg?width=2560&height=1440&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=4799ce79-53db-45dd-a49f-04b14ace7c05",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/377b704b-02ea-477b-a00e-fdc9801c55ab/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2016.jpg?width=2560&height=1280&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=2daf3099-05a3-4316-b4d5-10fb28d6f8bc",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/5be71e8b-863f-4eac-a461-964a5c766077/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%201.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=1c4c8d23-3db6-4155-a4dd-eaa06d6bc614",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/b918e9d6-cd9f-435b-8563-2fab7976c2bc/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2015.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=8f083c60-23ae-444c-b9d4-c44487bc0106",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/8afa2973-d42e-4687-a1da-0e66e3f22df7/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2010.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=62c13eb7-b421-4c20-9bf4-514d4d7a72c0",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/dd63961b-cdf1-4341-b2e6-249530400eea/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2011.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=b1d0215f-3103-4576-b81c-7b78f60eb8db",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/3c7a303b-d0ec-4068-bc0c-bfb2d99a19c5/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%203.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=e90acc62-4d2b-4ed9-9b1a-e6eceb71835d",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/73bc9724-88d6-4942-9270-ead5bf722378/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2013.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=f97f9d7e-98b6-4328-9f46-a45231d28493",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/ec614ff4-2304-4c7d-a5b4-ed44adc0a858/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2012.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=5fb79c90-8472-4276-a95e-f20ec43b7477",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/7c52778a-601d-4b74-8943-d68c13b5914c/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%209.jpg?width=2560&height=1992&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=0e56bdf6-5df3-4393-bbee-67ed662652d7",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/1aed3fda-037e-4697-9c60-9d899c0684df/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2014.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=8b78cbc5-cfdf-4cfa-aea8-4fd76537adc3",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/735feba1-8e68-4f73-999e-6e1e7dc9f010/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2018.jpg?width=2560&height=2560&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=5b6062f1-8a68-477e-a08c-608aef977cf5",
+  },
+  {
+    src: "https://cms.nowoczesnastodola.pl/assets/eeae20ac-c7f6-4a17-9ae5-d6ca08a52fd1/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2017.jpg?width=2560&height=1624&format=webp&quality=100",
+    url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=05ce3930-a3a8-42e2-a4fb-4e89848e47fb",
+  },
   {
     src: "https://weneve.com/96733-large_default/ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.jpg",
     url: "https://weneve.com/pl/lamele-drewniane/6699-ld-lamele-fala-czarny-mat-panel-scienny-i-sufitowy-3d.html",
@@ -29127,4 +29255,4 @@ export const inspirations = [
     url: "https://mokaa.pl/realizacja/cieszyn-house/",
     src: "https://mokaa.pl/wp-content/uploads/2024/01/Projekt-wnetrz-prywatnych-200m2-dom-Cieszyn-MOKAA-zdjecie-glowne.jpg",
   },
-].filter(({ src }) => selected.includes(src));
+];
