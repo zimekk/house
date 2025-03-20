@@ -2,6 +2,453 @@ import parse from "./utils/parse";
 
 export const videos = [
   {
+    // Casa A12: la super casa moderna in cemento con viste mozzafiato in Sicilia - Puleo Architettura
+    url: "https://www.youtube.com/watch?v=6Y3PnuYD4HE",
+    markers: parse(`
+1:13 elewacja
+2:02 panele +
+2:12 schody +
+2:22 kącik
+2:26 sypialnia
+2:30 toaleta
+2:36 schody +
+2:40 jadalnia
+2:48 salon
+3:13 kuchnia
+3:24 drzwi +
+3:36 sypialnia
+4:24 basen
+      `),
+  },
+  {
+    // The Shell House: la residenza Passivhaus che cambia con il sole - Piraccini + Potente Architettura
+    url: "https://www.youtube.com/watch?v=5Kmkmmg9tWE",
+    markers: parse(`
+0:18 elewacja +
+0:52 elewacja / okiennice +
+1:03 wejście ++
+1:17 kuchnia
+1:20 salon / rtv
+1:22 jadalnia
+1:28 drzwi +
+1:31 sypialnia
+1:44 toaleta
+1:57 kuchnia
+2:41 elewacja +
+4:44 panele
+      `),
+  },
+  {
+    // La casa di un architetto immersa in un'oasi di bamboo - Studio Scaramucci
+    url: "https://www.youtube.com/watch?v=D0ozxrCPgdo",
+    markers: parse(`
+1:27 furtka +
+2:14 kuchnia +
+3:06 toaleta
+4:19 okno +
+      `),
+  },
+  {
+    // All'interno di una casa moderna con vista sul Golfo Siciliano di Brucoli - Puleo Architettura
+    url: "https://www.youtube.com/watch?v=EVBYr7KmP4o",
+    markers: parse(`
+0:29 kącik
+2:29 drzwi +
+2:41 toaleta
+3:18 kuchnia
+4:57 sypialnia / wentylacja +
+5:12 toaleta +
+5:32 toaleta
+      `),
+  },
+  {
+    // Villa GC: una casa moderna che riflette design ed eleganza - Alessandro Fontana Studio
+    url: "https://www.youtube.com/watch?v=yPYi-3YLzfo",
+    markers: parse(`
+1:08 kuchnia +
+1:26 wentylacja +
+1:42 kącik
+1:56 toaleta
+2:29 salon / rtv +
+2:46 drzwi +
+2:57 drzwi +
+3:01 sypialnia
+3:19 toaleta +
+3:44 oświetlenie +
+4:12 okiennice
+      `),
+  },
+  {
+    // One House: la perfezione architettonica di una casa tra cielo e mare Siciliano - Iraci Architetti
+    url: "https://www.youtube.com/watch?v=YorK6DTL4Mw",
+    markers: parse(`
+1:35 ogrodzenie
+1:40 wejście
+2:19 schody
+2:44 salon / rtv
+2:46 kuchnia
+2:51 jadalnia
+2:57 drzwi +
+3:13 elewacja +
+3:16 sypialnia
+3:23 łazienka
+3:35 elewacja +
+3:54 schody
+4:08 sauna
+4:19 sauna +
+4:29 schody
+4:53 elewacja
+6:14 basen
+      `),
+  },
+  {
+    // All'interno di una villa straordinaria a Mondello - Luigi Smecca Architetti (House Tour)
+    url: "https://www.youtube.com/watch?v=yq0QL5vcje8",
+    markers: parse(`
+1:15 kuchnia +
+1:21 schody / kącik +
+1:30 salon / rtv
+1:33 bar
+1:43 jadalnia / kredens +
+1:55 kącik / podłoga +
+2:16 drzwi / podłoga +
+2:21 toaleta
+2:27 kuchnia +
+2:30 bar
+2:35 schody +
+2:59 kino
+3:36 kuchnia ogrodowa
+3:49 ogród
+      `),
+  },
+  {
+    // La casa di un architetto: un progetto tra contemporaneo e storia locale - MOG Architetti (Home Tour)
+    url: "https://www.youtube.com/watch?v=9LDcQf_Q6mU",
+    markers: parse(`
+0:37 elewacja +
+1:10 schody
+1:16 wejście
+1:38 kuchnia
+1:48 drzwi
+1:55 schody +
+2:55 ogrodzenie +
+2:58 schody +
+3:29 ogrodzenie +
+3:39 elewacja / wejście +
+4:19 okno +
+      `),
+  },
+  {
+    // Villa Selvadolce: una casa moderna sulle colline Liguri con vista sul Golfo di Montecarlo - GHA
+    url: "https://www.youtube.com/watch?v=qGZbFz5b2CE",
+    markers: parse(`
+0:41 sypialnia
+0:45 kuchnia
+1:23 wiatrak
+1:32 rolety
+1:51 jacuzzi
+1:56 basen
+2:04 wejście
+2:12 kuchnia
+2:36 jadalnia
+2:39 szafa / drzwi
+2:48 rtv +
+3:32 kuchnia / wentylacja
+3:55 sypialnia
+4:02 łazienka
+4:26 garderoba
+4:30 świetlik
+5:08 toaleta
+5:14 drzwi
+5:19 świetlik
+6:14 panele
+      `),
+  },
+  {
+    // La casa moderna progettata per offrire una vista panoramica estesa sulla città - Damilano Studio
+    url: "https://www.youtube.com/watch?v=fNZXQN7JHV0",
+    markers: parse(`
+1:00 szafa
+1:18 salon / rtv
+1:34 jadalnia / oświetlenie
+1:36 kuchnia
+1:43 toaleta
+1:49 toaleta
+1:57 sauna
+3:33 kuchnia / oświetlenie
+3:47 schody +
+4:18 rolety
+      `),
+  },
+  {
+    // La ristrutturazione di una casa fronte lago con uno stile moderno - Nicola Salami Architetto
+    url: "https://www.youtube.com/watch?v=d5cl79f6OQI",
+    markers: parse(`
+0:44 kominek
+0:47 wejście
+0:56 salon / oświetlenie
+1:01 kuchnia / oświetlenie
+1:03 drzwi
+1:15 podłoga
+1:20 salon
+1:32 oświetlenie
+1:50 kuchnia
+2:21 salon
+3:24 toaleta
+3:30 sypialnia
+3:47 toaleta
+3:59 kącik / rtv
+4:14 basen
+      `),
+  },
+  {
+    // Architectural Luxury Modern Home! Modern Home Tour. Royal Melbourne Hospital House Tour.
+    url: "https://www.youtube.com/watch?v=MIsQ8LfG5Zk",
+    markers: parse(`
+0:44 wejście +
+1:58 łazienka +
+3:10 schody +
+3:48 kuchnia
+4:51 salon / kominek +
+5:13 kominek / wentylacja +
+6:30 pralnia
+6:40 drzwi +
+7:03 schody +
+7:15 kącik
+7:30 rtv / wentylacja +
+7:32 sypialnia / szafa
+7:45 toaleta
+8:15 sypialnia / toaletka
+8:29 toaleta
+8:39 schody +
+9:19 basen
+9:24 elewacja +
+      `),
+  },
+  {
+    // A Luxury Modern House (you can WIN!) RMH Home Lottery House Tour Australia
+    url: "https://www.youtube.com/watch?v=vAZZNu-u4K8",
+    markers: parse(`
+0:13 elewacja ++
+0:27 wejście +
+0:42 sypialnia
+0:48 zasłony
+1:12 garderoba
+1:19 łazienka +
+2:48 toaleta
+3:05 schody +
+3:06 szatnia
+3:09 jadalnia
+3:27 jadalnia
+3:46 kuchnia +
+5:10 świetlik / wentylacja +
+6:22 salon / kominek ++
+7:53 basen +
+8:28 drzwi +
+8:35 pralnia / świetlik
+8:53 schody +
+9:17 kącik +
+9:20 sypialnia
+9:28 szafa +
+9:37 toaleta +
+10:02 kącik / rtv
+10:28 sypialnia
+10:33 szafa +
+10:56 sypialnia
+10:59 toaleta
+12:03 kuchnia / wentylacja +
+12:11 bar
+13:28 schody +
+13:34 sypialnia
+13:56 elewacja +
+      `),
+  },
+  {
+    // Casa in bio architettura con vista sul lago di Mergozzo - Elena Bertinotti Architetto (House Tour)
+    url: "https://www.youtube.com/watch?v=5vdNKhc2GFE",
+    markers: parse(`
+0:06 elewacja
+0:29 elewacja
+0:36 elewacja / lukarna +
+0:48 elewacja +
+0:51 balkon / balustrada +
+      `),
+  },
+  {
+    // Project Newfoundland Home Tour - Interior Design, Home Decor, Furnishing, and Lighting
+    url: "https://www.youtube.com/watch?v=H-4pEnCbKfA",
+    markers: parse(`
+1:11 wiatrołap
+1:22 schody
+1:30 szatnia
+1:37 konsola
+2:36 salon / kominek
+4:08 jadalnia
+4:40 oświetlenie / wentylacja
+4:48 kredens / bufet
+6:00 gabinet
+7:28 kuchnia
+9:31 kącik / rtv
+11:19 sypialnia
+      `),
+  },
+  {
+    // Project New House Old Charm Tour – Custom Home Build
+    url: "https://www.youtube.com/watch?v=UCfdaFulfus",
+    markers: parse(`
+1:37 elewacja
+2:05 wejście
+2:14 konsola / lustro
+2:19 salon / rtv
+2:31 schody
+2:37 konsola / lustro
+2:46 kuchnia
+2:54 salon / kominek
+2:57 jadalnia
+3:00 sypialnia
+3:03 łazienka
+7:50 spiżarnia
+10:20 szatnia
+10:54 toaleta
+11:59 sypialnia / zasłony
+12:20 ekspres ++
+12:39 sypialnia / zasłony
+12:50 garderoba
+13:36 łazienka
+15:38 pralnia
+16:47 łazienka
+      `),
+  },
+  {
+    // HOME TOUR ekskluzywny dom z BASENEM Grzegorz Wysok prezentuje wyjątkowe nieruchomości
+    url: "https://www.youtube.com/watch?v=LR_uuo5JWuA",
+    markers: parse(`
+0:45 wejście
+1:08 pergola
+1:11 sypialnia
+1:16 salon
+1:20 elewacja
+1:24 wejście
+2:27 salon
+4:18 jadalnia
+4:52 kuchnia
+5:27 pralnia
+11:46 toaleta
+12:18 sypialnia
+13:35 sypialnia
+14:44 łazienka
+      `),
+  },
+  {
+    // Zwykły bliźniak URZĄDZONY NIEZWYKLE! INSPIRUJĄCY pomysł na dom MEGA kuchnia KRĘCIMY nieruchomości
+    url: "https://www.youtube.com/watch?v=wYzWe6wcRI0",
+    markers: parse(`
+0:55 wejście
+1:58 kuchnia
+4:24 panele
+5:30 schody
+8:57 panele
+      `),
+  },
+  {
+    // Home tour - Nowoczesna STODOŁA w lesie. Na sprzedaż!
+    url: "https://www.youtube.com/watch?v=lVqY-5qN5Fk",
+    markers: parse(`
+0:28 elewacja
+      `),
+  },
+  {
+    // HOME TOUR Spektakularny DOM z basenem nad brzegiem Narwi. Na sprzedaż!
+    url: "https://www.youtube.com/watch?v=HyH3wc5wjdk",
+    markers: parse(`
+1:05 schody
+      `),
+  },
+  {
+    // Wart 6.500.000 zł APARTAMENT w secesyjnej KAMIENICY sztuka w KUCHNI zamiast szafek Home Tour
+    url: "https://www.youtube.com/watch?v=wMR5Ayn2Bwk",
+    markers: parse(`
+3:45 kuchnia +
+      `),
+  },
+  {
+    // Home tour - Nowoczesna STODOŁA w lesie. Na sprzedaż!
+    url: "https://www.youtube.com/watch?v=lVqY-5qN5Fk",
+    markers: parse(`
+6:20 schody
+7:00 sypialnia / skosy
+      `),
+  },
+  {
+    // REZYDENCJA W ŚRODKU SOSNOWEGO LASU HOME TOUR + POMYSŁY NA URZĄDZENIE DZIAŁKI
+    url: "https://www.youtube.com/watch?v=X7aA29Mcx1s",
+    markers: parse(`
+      `),
+  },
+  {
+    // DOM MARZEŃ - NUTA MODERNIZMU POD WARSZAWĄ HOME TOUR W WYJĄTKOWEJ NIERUCHOMOŚCI
+    url: "https://www.youtube.com/watch?v=wRoeDf8S7_4",
+    markers: parse(`
+4:45 schody +
+5:59 schody
+      `),
+  },
+  {
+    // HOME TOUR: APARTAMENT NA PRYWATNEJ WYSPIE I KRĘCIMY NIERUCHOMOŚCI W FORT CZE
+    url: "https://www.youtube.com/watch?v=ZPaaI5aB-LA",
+    markers: parse(`
+0:34 elewacja
+1:07 wejście
+1:10 salon
+1:54 kuchnia
+5:09 elewacja
+      `),
+  },
+  {
+    // Najpiękniejszy DOM MARZEŃ w Polsce! Ma DUŻE okna i leśny OGRÓD! EKO DOM pasywny NOWOCZESNA STODOŁA
+    url: "https://www.youtube.com/watch?v=8_RxHV7XAjc",
+    markers: parse(`
+0:27 elewacja ++
+1:18 schody
+1:21 łazienka +
+1:58 elewacja +
+2:13 wejście +
+2:27 kuchnia +
+2:37 salon
+2:49 kącik / zasłony
+2:55 zasłony +
+3:03 elewacja +
+3:54 panele
+4:44 jadalnia / wentylacja ++
+7:15 drzwi / toaletka
+7:24 sypialnia / wentylacja ++
+      `),
+  },
+  {
+    // Biała KUCHNIA MARZEŃ otwarta na ogród 🌿 Jak urządzić modną kuchnię z WYSPĄ w salonie? Inspiracje
+    url: "https://www.youtube.com/watch?v=WBFJ5qVPwxA",
+    markers: parse(`
+0:09 elewacja +
+0:12 kuchnia +
+2:37 salon
+2:49 kącik / zasłony
+2:55 zasłony +
+3:03 elewacja +
+3:54 panele
+4:44 jadalnia / wentylacja ++
+7:15 drzwi / toaletka
+7:24 sypialnia / wentylacja ++
+      `),
+  },
+  {
+    // Układ lepszy niż nowoczesna stodoła? Zalety domu na planie krzyża? - Pomysł na Dom #116
+    url: "https://www.youtube.com/watch?v=v1RT6r6SL90",
+    markers: parse(`
+1:49 schody
+11:18 panele
+      `),
+  },
+  {
     // DOM MARZEŃ 95 m2 - MAŁY, ale praktyczny! "W środku wygląda na dużo większy!" Jak to możliwe?
     url: "https://www.youtube.com/watch?v=ZCTXLZh542w",
     markers: parse(`
