@@ -160,6 +160,768 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/05/Webster-Rosanna-014.jpg",
+    url: "https://www.websterarchitecture.com.au/montagna/",
+    tag: "wejście",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/05/Webster-Rosanna-013.jpg",
+    url: "https://www.websterarchitecture.com.au/montagna/",
+    tag: "wejście, elewacja",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/05/Webster-Rosanna-007.jpg",
+    url: "https://www.websterarchitecture.com.au/montagna/",
+    tag: "kuchnia",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/NBLA-Blairgowrie-003-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/allan/",
+    tag: "wejście",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/NBLA-Blairgowrie-043-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/allan/",
+    tag: "łazienka",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/01/Bateman-Street-037_medium-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/bateman/",
+    tag: "wejście, elewacja",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/01/Bateman-Street-010_medium-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/bateman/",
+    tag: "wejście, elewacja",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/06/Kaye_2673_LR.jpg",
+    url: "https://www.websterarchitecture.com.au/ebon-house/",
+    tag: "bar, kuchnia",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/06/Kaye_2640_LR.jpg",
+    url: "https://www.websterarchitecture.com.au/ebon-house/",
+    tag: "jadalnia",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/06/Kaye_2763_LR.jpg",
+    url: "https://www.websterarchitecture.com.au/ebon-house/",
+    tag: "kuchnia",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/06/Kaye_2706_LR.jpg",
+    url: "https://www.websterarchitecture.com.au/ebon-house/",
+    tag: "kominek",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/06/Kaye_2757_LR.jpg",
+    url: "https://www.websterarchitecture.com.au/ebon-house/",
+    tag: "łazienka",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/06/Kaye_2664_LR.jpg",
+    url: "https://www.websterarchitecture.com.au/ebon-house/",
+    tag: "kuchnia",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/06/Kaye_2646_LR.jpg",
+    url: "https://www.websterarchitecture.com.au/ebon-house/",
+    tag: "schody",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Belmore2153-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/belmore-2/",
+    tag: "jadalnia, kuchnia",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Belmore0N3A3425-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/belmore-2/",
+    tag: "gabinet",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Belmore0N3A3309-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/belmore-2/",
+    tag: "łazienka",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Belmore2126-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/belmore-2/",
+    tag: "kuchnia",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/08/Untitled-1-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/netherlee/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/08/Untitled-3-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/netherlee/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/08/Mazzei-Webster_GlenIris13176-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/netherlee/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/08/Mazzei-Webster_GlenIris13122-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/netherlee/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/08/Mazzei-Webster_GlenIris13239-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/netherlee/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/08/Mazzei-Webster_GlenIris13183-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/netherlee/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/AGUSHI-KILRUSH-003.jpg",
+    url: "https://www.websterarchitecture.com.au/kilrush/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/AGUSHI-KILRUSH-026.jpg",
+    url: "https://www.websterarchitecture.com.au/kilrush/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/AGUSHI-KILRUSH-006.jpg",
+    url: "https://www.websterarchitecture.com.au/kilrush/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/AGUSHI-KILRUSH-009.jpg",
+    url: "https://www.websterarchitecture.com.au/kilrush/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/AGUSHI-KILRUSH-023.jpg",
+    url: "https://www.websterarchitecture.com.au/kilrush/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Untitled-1-copy-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/01/111-Linacre-002.jpg",
+    url: "https://www.websterarchitecture.com.au/linacre/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/01/111-Linacre-062.jpg",
+    url: "https://www.websterarchitecture.com.au/linacre/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/01/111-Linacre-042.jpg",
+    url: "https://www.websterarchitecture.com.au/linacre/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/07/PRAMANA_FRONT-01-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/chapman/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2023/07/PRAMANA_INTERNAL-02-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/chapman/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/03/StudioPiper_EditionRowville_External02-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/hudson/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/03/StudioPiper_EditionRowville_Bathroom-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/hudson/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/03/StudioPiper_EditionRowville_Bedroom_WIR-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/hudson/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/03/StudioPiper_EditionRowville_Living-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/hudson/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2021/07/Untitled-1-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/barkly/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2021/07/RHL_Barkly-Living021358-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/barkly/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2021/07/RHL_Barkly-MasterBath1144-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/barkly/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2021/07/RHL_Barkly-Kitchen021364-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/barkly/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Essendon0N3A3154-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/williams/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Essendon2013-1-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/williams/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Essendon2070-scaled.jpg",
+    url: "https://www.websterarchitecture.com.au/williams/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Dendy_3.jpg",
+    url: "https://www.websterarchitecture.com.au/dendy/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Dendy_5.jpg",
+    url: "https://www.websterarchitecture.com.au/dendy/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Dendy_6.jpg",
+    url: "https://www.websterarchitecture.com.au/dendy/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Dendy_7.jpg",
+    url: "https://www.websterarchitecture.com.au/dendy/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Dendy_8.jpg",
+    url: "https://www.websterarchitecture.com.au/dendy/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Dendy_9.jpg",
+    url: "https://www.websterarchitecture.com.au/dendy/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_1.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_4.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_5.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_7.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_8.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_9.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_10.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Danks_11.jpg",
+    url: "https://www.websterarchitecture.com.au/danks/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Clifton_1.jpg",
+    url: "https://www.websterarchitecture.com.au/caroline/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Caroline_1.jpg",
+    url: "https://www.websterarchitecture.com.au/caroline-2/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Caroline_2.jpg",
+    url: "https://www.websterarchitecture.com.au/caroline-2/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Caroline_3.jpg",
+    url: "https://www.websterarchitecture.com.au/caroline-2/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Caroline_4.jpg",
+    url: "https://www.websterarchitecture.com.au/caroline-2/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Caroline_5.jpg",
+    url: "https://www.websterarchitecture.com.au/caroline-2/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Helena_1.jpg",
+    url: "https://www.websterarchitecture.com.au/helena-st/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Helena_4.jpg",
+    url: "https://www.websterarchitecture.com.au/helena-st/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_1.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_2.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_3.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_4.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_5.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_6.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_7.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_9.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_10.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Ferndale_13.jpg",
+    url: "https://www.websterarchitecture.com.au/ferndale/",
+  },
+  {
+    src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Belmore_1.jpg",
+    url: "https://www.websterarchitecture.com.au/belmore/",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/679962db488b2532809dec96_EWP_Sargood%200N3A6911%20(1)%20RESIZE.jpg",
+    url: "https://www.mazzei.com.au/projects/49-sargood-st-hampton",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/67996464e992e8f102388f43_EWP_Sargood%200N3A6663%20(2)%20RESIZE.jpg",
+    url: "https://www.mazzei.com.au/projects/49-sargood-st-hampton",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a008551ae5417c15bf07b1_Capture.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a008bb2237a7d4529f8606_Capture%203r3f.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a008bb2bee3cc334f90308_kitchen.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a00babbb811747f5d5e982_3.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a00babd0b622c4d781b849_5.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a00bab183075e7414f012e_9.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a00bab634ccc81eaae6e56_11.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/66a00babaddfa149dac9772b_12.webp",
+    url: "https://www.mazzei.com.au/projects/camberwell-v",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/665403273ef6d48914420721_11.webp",
+    url: "https://www.mazzei.com.au/projects/peninsula-ii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/6687724a0f4c8b436924dc32_0N3A2831.webp",
+    url: "https://www.mazzei.com.au/projects/brunswick-i",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/6687724a3105ca15e4067f5f_0N3A2877.webp",
+    url: "https://www.mazzei.com.au/projects/brunswick-i",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b5bfd796d428b6501f2fc_Enscape_2024-03-25-17-19-59.webp",
+    url: "https://www.mazzei.com.au/projects/mount-waverley-i",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b5bfcd19e4ea2e88b4ad9_Enscape_2024-03-25-17-21-24.webp",
+    url: "https://www.mazzei.com.au/projects/mount-waverley-i",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b27eb294df5b2c07b280f_Low%20Res%202.webp",
+    url: "https://www.mazzei.com.au/projects/balywniv",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b27e1b0a61c39dd3a1976_Low%20Res%203.webp",
+    url: "https://www.mazzei.com.au/projects/balywniv",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b26281e38271b1f0e960a_Kingston%2001.jpeg",
+    url: "https://www.mazzei.com.au/projects/hamptoniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b25e0cbe2dc5f23ab6ea5_Enscape_2023-09-22-08-51-45.jpg",
+    url: "https://www.mazzei.com.au/projects/camberwelliv",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65b73860bba32c097e2c695a_Bateman-Street-053.jpg",
+    url: "https://www.mazzei.com.au/projects/hamptonii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65b737d7dff99a67fa25e6b3_Bateman-Street-043.jpg",
+    url: "https://www.mazzei.com.au/projects/hamptonii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65ca94c7190eb57b88d32a03_bulleen%20front.webp",
+    url: "https://www.mazzei.com.au/projects/balwyniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6214_HUA_FRONT%2003.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelliii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6211_HUA_FRONT%252002-p-2600.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelliii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6202_KERR%20OKADA_FRONT%2001.webp",
+    url: "https://www.mazzei.com.au/projects/montalberti",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6205_KERR%20OKADA_FRONT%2002.webp",
+    url: "https://www.mazzei.com.au/projects/montalberti",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6206_KERR%20OKADA_REAR%2003.webp",
+    url: "https://www.mazzei.com.au/projects/montalberti",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc617d_111-Linacre-002.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc617e_111-Linacre-016.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc617f_111-Linacre-012.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6183_111-Linacre-019.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6184_111-Linacre-032.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6181_111-Linacre-060.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6182_111-Linacre-066.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6185_111-Linacre-071.webp",
+    url: "https://www.mazzei.com.au/projects/hamptoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6166_Arnold-Road-House-015-1.webp",
+    url: "https://www.mazzei.com.au/projects/brightonii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6161_Arnold-Road-House-037-1.webp",
+    url: "https://www.mazzei.com.au/projects/brightonii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6164_Arnold-Road-House-057-2.webp",
+    url: "https://www.mazzei.com.au/projects/brightonii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6165_Arnold-Road-House-031-1.webp",
+    url: "https://www.mazzei.com.au/projects/brightonii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6166_Arnold-Road-House-015-1.webp",
+    url: "https://www.mazzei.com.au/projects/brightonii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6188_Mazzei_ScottSt127.webp",
+    url: "https://www.mazzei.com.au/projects/canterburyi",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6189_Mazzei_ScottSt101.webp",
+    url: "https://www.mazzei.com.au/projects/canterburyi",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61c1_Mazzei_Essendon0N3A3154-min-p-2600.webp",
+    url: "https://www.mazzei.com.au/projects/essendoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61c2_Mazzei_Essendon2063-min.webp",
+    url: "https://www.mazzei.com.au/projects/essendoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61c3_Mazzei_Essendon2007-min.webp",
+    url: "https://www.mazzei.com.au/projects/essendoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61c4_Mazzei_Essendon1964-1-min.jpg",
+    url: "https://www.mazzei.com.au/projects/essendoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61c7_Mazzei_Essendon1909-min.jpg",
+    url: "https://www.mazzei.com.au/projects/essendoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6193_112-Willsmere-014.webp",
+    url: "https://www.mazzei.com.au/projects/kewi",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6195_112-Willsmere-018.webp",
+    url: "https://www.mazzei.com.au/projects/kewi",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6196_112-Willsmere-020.webp",
+    url: "https://www.mazzei.com.au/projects/kewi",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6197_112-Willsmere-064.webp",
+    url: "https://www.mazzei.com.au/projects/kewi",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6168_RHL_Barkly%20Kitchen021387.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6155_RHL_Barkly%20Facade4543.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6169_RHL_Barkly%20Pool021341.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6215_650d385cbfac667373b374a4_RHL_Barkly%20Study1068-p-1600.jpg",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc616a_RHL_Barkly%20Living021358.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc616b_RHL_Barkly%20Kitchen021364.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc616c_RHL_Barkly%20MasterBath3A1409.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc616d_RHL_Barkly%20MasterBath1134.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc616e_RHL_Barkly%20Pool1090.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc616f_RHL_Barkly%20Study021427.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6170_RHL_Barkly%2520Kitchen021393-p-1600.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6171_RHL_Barkly%2520MasterBath1144-p-1600.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6172_RHL_Barkly%2520Powder021436-p-1600.webp",
+    url: "https://www.mazzei.com.au/projects/camberwelli",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61b0_Downloaded-original48736963-min-p-2600.jpg",
+    url: "https://www.mazzei.com.au/projects/balwyni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61ae_Mazzei_Belmore0N3A3488-1-min.jpg",
+    url: "https://www.mazzei.com.au/projects/balwyni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61af_Mazzei_Belmore2126-2-min.jpg",
+    url: "https://www.mazzei.com.au/projects/balwyni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61b0_Downloaded-original48736963-min.jpg",
+    url: "https://www.mazzei.com.au/projects/balwyni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61b4_Mazzei_Belmore0N3A3449-min.jpg",
+    url: "https://www.mazzei.com.au/projects/balwyni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61b6_Mazzei_Belmore0N3A3308-min-p-1600.webp",
+    url: "https://www.mazzei.com.au/projects/balwyni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61b3_Mazzei_Belmore0N3A3316-min-p-1600.jpg",
+    url: "https://www.mazzei.com.au/projects/balwyni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65ca91862186ddd3e54efdf4_dfgrdy.webp",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a5_RHL_CollisSt-FacadeDetail%200N3A9383-min.webp",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a6_RHL_CollisSt-Dining%202572-min.webp",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a7_RHL_CollisSt-Alfresco%201995-min.jpg",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a8_RHL_CollisSt-Void%202626.webp",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a9_RHL_CollisSt-Alfresco%201941%201-min.jpg",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61aa_RHL_CollisSt-Living%200055-min.jpg",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61ab_RHL_CollisSt-Sitting%202791-min.jpg",
+    url: "https://www.mazzei.com.au/projects/brightoni",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61c0_Mazzei-Webster_GlenIris13145-min-p-1600.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisi",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6173_Mazzei_Dendy0N3A2717.webp",
+    url: "https://www.mazzei.com.au/projects/brightoniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6177_Mazzei_DendyStreet21196.webp",
+    url: "https://www.mazzei.com.au/projects/brightoniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6178_Mazzei_DendyStreet21380.webp",
+    url: "https://www.mazzei.com.au/projects/brightoniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc617a_Mazzei_DendyStreet21275.webp",
+    url: "https://www.mazzei.com.au/projects/brightoniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc617b_Mazzei_DendyStreet20794.webp",
+    url: "https://www.mazzei.com.au/projects/brightoniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc617c_Mazzei_DendyStreet21051.webp",
+    url: "https://www.mazzei.com.au/projects/brightoniii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc615f_25-Denman-045.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6158_25-Denman-021.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6159_25-Denman-017.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc615a_25-Denman-014.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc615b_25-Denman-012.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6157_25-Denman-020.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc615c_25-Denman-032.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc615d_25-Denman-038.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc615f_25-Denman-045.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisiii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6198_EWP_Ferndale-Exterior%200N3A6004-min.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6199_EWP_Ferndale-Exterior%200N3A6294-min.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc619a_EWP_Ferndale-FrontRoom%203760-min-min.jpg",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc619b_EWP_Ferndale-Entrance%203903-min.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc619c_EWP_Ferndale-Master%204014.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc619d_EWP_Ferndale-Lounge%204157-min.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc619e_EWP_Ferndale-KitchenDining%204437-min.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc619f_EWP_Ferndale-Lounge%204147-min.jpg",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a0_EWP_Ferndale-Lounge%204225.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a1_EWP_Ferndale-Master%203960-min.webp",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61a2_EWP_Ferndale-Landscape%204426-min%20(1)-min.jpg",
+    url: "https://www.mazzei.com.au/projects/glenirisii",
+  },
+  {
+    src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61e3_HawthornEastFront.webp",
+    url: "https://www.mazzei.com.au/projects/hawthorneasti",
+  },
+  {
     src: "https://partnersinternational.pl/wp-content/uploads/2020/07/dom-wolnostojacy-na-sprzedaz-fort-pilsudskiego-mokotow-warszawa.jpg",
     url: "https://partnersinternational.pl/nieruchomosc/dom/fort-pilsudskiego-mokotow-warszawa-9",
   },

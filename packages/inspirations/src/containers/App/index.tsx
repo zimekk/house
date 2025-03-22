@@ -85,9 +85,10 @@ function Table({ queries }: { queries: FiltersState }) {
   const [list] = useState(() =>
     inspirations
       // .filter(({ src }) => favorite.includes(src))
-      .map(({ src, url }) => ({
+      .map(({ src, url, tag = "" }) => ({
         src: src.replace(/^https:\/\/[^\/]+\.(cdninstagram)\.com/, "/$1"),
         url,
+        tag: tag.split(",").map((t) => t.trim()),
       })),
   );
   const [selected, setSelected] = useState(() => list.map((_, key) => key));
@@ -97,6 +98,7 @@ function Table({ queries }: { queries: FiltersState }) {
       list.filter(
         (item) =>
           (queries.search === "" ||
+            item.tag.includes(queries.search) ||
             item.url.toLowerCase().includes(queries.search) ||
             item.src.toLowerCase().includes(queries.search)) &&
           (!queries.favorite || favorite.includes(item.src)),
