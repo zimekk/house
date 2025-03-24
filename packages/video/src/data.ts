@@ -118,6 +118,7 @@ export const videos = [
 2:35 schody +
 2:59 kino
 3:36 kuchnia ogrodowa
+3:44 sauna +
 3:49 ogród
       `),
   },
@@ -202,27 +203,35 @@ export const videos = [
       `),
   },
   {
-    // Architectural Luxury Modern Home! Modern Home Tour. Royal Melbourne Hospital House Tour.
-    url: "https://www.youtube.com/watch?v=MIsQ8LfG5Zk",
+    // Win this Luxury Modern Coastal Home! Full House Tour in Hampton
+    url: "https://www.youtube.com/watch?v=caqjJZNNhzM",
     markers: parse(`
-0:44 wejście +
-1:58 łazienka +
-3:10 schody +
-3:48 kuchnia
-4:51 salon / kominek +
-5:13 kominek / wentylacja +
-6:30 pralnia
-6:40 drzwi +
-7:03 schody +
-7:15 kącik
-7:30 rtv / wentylacja +
-7:32 sypialnia / szafa
-7:45 toaleta
-8:15 sypialnia / toaletka
-8:29 toaleta
-8:39 schody +
-9:19 basen
-9:24 elewacja +
+0:25 elewacja +
+0:40 wejście +
+0:55 schody
+1:11 kuchnia +
+1:52 spiżarnia
+2:08 drzwi +
+2:10 pralnia
+2:25 jadalnia +
+2:50 salon
+3:30 basen
+4:12 kuchnia +
+4:23 toaleta
+4:38 kącik
+5:08 szatnia
+5:23 schody
+5:40 kącik
+5:43 sypialnia
+6:04 łazienka +
+6:48 garderoba +
+7:20 sypialnia
+7:25 toaleta
+7:42 sypialnia
+7:44 toaleta
+8:00 sypialnia
+8:14 toaleta
+9:27 elewacja +
       `),
   },
   {
@@ -261,6 +270,113 @@ export const videos = [
 13:28 schody +
 13:34 sypialnia
 13:56 elewacja +
+      `),
+  },
+  {
+    // Modern Luxury Home Full Walk Through! Contemporary Interiors. Royal Melbourne Hospital House Tour.
+    url: "https://www.youtube.com/watch?v=vZlP5JCp2Ek",
+    markers: parse(`
+0:29 elewacja +
+0:42 wejście
+1:08 sypialnia
+1:30 garderoba
+1:35 łazienka
+2:24 drzwi +
+2:40 kącik
+2:45 bar
+3:15 kuchnia +
+3:45 spiżarnia +
+3:55 jadalnia
+4:15 salon / kominek +
+4:40 wentylacja ++
+5:15 toaleta
+5:22 pralnia
+5:30 schody
+5:50 kącik
+6:00 sypialnia
+6:15 toaleta
+6:45 kącik
+7:05 sypialnia
+7:10 toaleta
+7:24 sypialnia
+7:27 toaleta
+8:06 elewacja +
+      `),
+  },
+  {
+    // Architectural Luxury Modern Home! Modern Home Tour. Royal Melbourne Hospital House Tour.
+    url: "https://www.youtube.com/watch?v=MIsQ8LfG5Zk",
+    markers: parse(`
+0:44 wejście +
+1:58 łazienka +
+3:10 schody +
+3:48 kuchnia
+4:51 salon / kominek +
+5:13 kominek / wentylacja +
+6:30 pralnia
+6:40 drzwi +
+7:03 schody +
+7:15 kącik
+7:30 rtv / wentylacja +
+7:32 sypialnia / szafa
+7:45 toaleta
+8:15 sypialnia / toaletka
+8:29 toaleta
+8:39 schody +
+9:19 basen
+9:24 elewacja +
+      `),
+  },
+  {
+    // Architectural Family Home Tour! This Luxury $4.7M House! Royal Melbourne Hospital House Tour.
+    url: "https://www.youtube.com/watch?v=SwhaRzVgPe8",
+    markers: parse(`
+0:40 elewacja +
+0:52 wejście +
+1:23 gabinet +
+2:26 bar
+3:25 pralnia
+4:35 salon
+5:30 kuchnia
+6:55 spiżarnia
+7:35 toaleta
+8:15 sypialnia
+8:55 łazienka ++
+10:10 garderoba +
+10:40 kuchnia ogrodowa
+10:50 schody +
+11:15 kącik +
+11:45 sypialnia / szafa
+11:55 toaleta
+12:20 sypialnia
+12:40 toaleta
+14:30 elewacja +
+      `),
+  },
+  {
+    // Win this Luxury Home! 🤞 Multi Million Dollar Home in Hampton. Royal Melbourne Hospital Home Tour.
+    url: "https://www.youtube.com/watch?v=Co-UmzEXfsA",
+    markers: parse(`
+0:35 elewacja +
+0:54 wejście +
+1:25 kącik +
+2:25 sypialnia
+2:40 toaleta
+3:28 toaleta
+3:40 szatnia
+3:50 pralnia
+4:05 spiżarnia
+4:15 kuchnia
+5:50 salon
+6:30 prysznic ogrodowy
+7:20 kuchnia ogrodowa
+7:45 schody ++
+8:25 sypialnia
+8:35 toaleta
+10:10 garderoba
+10:25 łazienka
+11:15 kącik
+12:52 elewacja +
       `),
   },
   {
