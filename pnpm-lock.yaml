@@ -181,10 +181,10 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^10.0.0
-        version: 10.0.5(@react-three/fiber@8.18.0(@types/react@18.3.20)(three@0.174.0))(@types/react@18.3.20)(@types/three@0.174.0)(three@0.174.0)
+        version: 10.0.5(@react-three/fiber@8.18.0(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0))(@types/react@18.3.20)(@types/three@0.174.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0)
       '@react-three/fiber':
         specifier: ^8.17.12
-        version: 8.18.0(@types/react@18.3.20)(three@0.174.0)
+        version: 8.18.0(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0)
       nanoid:
         specifier: ^5.0.3
         version: 5.1.5
@@ -236,8 +236,8 @@ importers:
         specifier: ^1.0.14
         version: 1.0.14(vite@6.2.3(@types/node@22.13.14)(jiti@2.4.2)(sass@1.86.0)(terser@5.39.0)(yaml@2.7.0))
       '@types/chrome':
-        specifier: ^0.0.312
-        version: 0.0.312
+        specifier: ^0.0.313
+        version: 0.0.313
       '@types/react':
         specifier: ^18.3.18
         version: 18.3.20
@@ -530,10 +530,10 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^10.0.0
-        version: 10.0.5(@react-three/fiber@8.18.0(@types/react@18.3.20)(three@0.174.0))(@types/react@18.3.20)(@types/three@0.174.0)(three@0.174.0)
+        version: 10.0.5(@react-three/fiber@8.18.0(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0))(@types/react@18.3.20)(@types/three@0.174.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0)
       '@react-three/fiber':
         specifier: ^8.17.12
-        version: 8.18.0(@types/react@18.3.20)(three@0.174.0)
+        version: 8.18.0(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0)
       next:
         specifier: ~15.2.0
         version: 15.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.86.0)
@@ -1436,8 +1436,8 @@ packages:
   '@types/babel__traverse@7.20.6':
     resolution: {integrity: sha512-r1bzfrm0tomOI8g1SzvCaQHo6Lcv6zu0EA+W2kHrt8dyrHQxGzBBL4kdkzIS+jBMV+EYcMAEAqXqYaLJq5rOZg==}
 
-  '@types/chrome@0.0.312':
-    resolution: {integrity: sha512-m204djOoU/YqF1dRw3YLk2L3tcDTYREUERDQDUAmROK3Rv94nLbMJ4uvjzr/Yj/A7SyEpTrpoCuXBKTuerEdqg==}
+  '@types/chrome@0.0.313':
+    resolution: {integrity: sha512-9R5T7gTaYZhkxlu+Ho4wk9FL+y/werWQY2yjGWSqCuiTsqS7nL/BE5UMTP6rU7J+oIG2FRKqrEycHhJATeltVA==}
 
   '@types/conventional-commits-parser@5.0.1':
     resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
@@ -4816,13 +4816,13 @@ snapshots:
   '@pkgjs/parseargs@0.11.0':
     optional: true
 
-  '@react-three/drei@10.0.5(@react-three/fiber@8.18.0(@types/react@18.3.20)(three@0.174.0))(@types/react@18.3.20)(@types/three@0.174.0)(three@0.174.0)':
+  '@react-three/drei@10.0.5(@react-three/fiber@8.18.0(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0))(@types/react@18.3.20)(@types/three@0.174.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0)':
     dependencies:
       '@babel/runtime': 7.27.0
       '@mediapipe/tasks-vision': 0.10.17
       '@monogrid/gainmap-js': 3.1.0(three@0.174.0)
-      '@react-three/fiber': 8.18.0(@types/react@18.3.20)(three@0.174.0)
-      '@use-gesture/react': 10.3.1
+      '@react-three/fiber': 8.18.0(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0)
+      '@use-gesture/react': 10.3.1(react@18.3.1)
       camera-controls: 2.10.0(three@0.174.0)
       cross-env: 7.0.3
       detect-gpu: 5.0.70
@@ -4830,36 +4830,42 @@ snapshots:
       hls.js: 1.5.20
       maath: 0.10.8(@types/three@0.174.0)(three@0.174.0)
       meshline: 3.3.1(three@0.174.0)
+      react: 18.3.1
       stats-gl: 2.4.2(@types/three@0.174.0)(three@0.174.0)
       stats.js: 0.17.0
-      suspend-react: 0.1.3
+      suspend-react: 0.1.3(react@18.3.1)
       three: 0.174.0
       three-mesh-bvh: 0.8.3(three@0.174.0)
       three-stdlib: 2.35.14(three@0.174.0)
       troika-three-text: 0.52.3(three@0.174.0)
-      tunnel-rat: 0.1.2(@types/react@18.3.20)
-      use-sync-external-store: 1.4.0
+      tunnel-rat: 0.1.2(@types/react@18.3.20)(react@18.3.1)
+      use-sync-external-store: 1.4.0(react@18.3.1)
       utility-types: 3.11.0
-      zustand: 5.0.3(@types/react@18.3.20)(use-sync-external-store@1.4.0)
+      zustand: 5.0.3(@types/react@18.3.20)(react@18.3.1)(use-sync-external-store@1.4.0(react@18.3.1))
+    optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/three'
       - immer
 
-  '@react-three/fiber@8.18.0(@types/react@18.3.20)(three@0.174.0)':
+  '@react-three/fiber@8.18.0(@types/react@18.3.20)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.174.0)':
     dependencies:
       '@babel/runtime': 7.27.0
       '@types/react-reconciler': 0.26.7
       '@types/webxr': 0.5.21
       base64-js: 1.5.1
       buffer: 6.0.3
-      its-fine: 1.2.5(@types/react@18.3.20)
-      react-reconciler: 0.27.0
-      react-use-measure: 2.1.7
+      its-fine: 1.2.5(@types/react@18.3.20)(react@18.3.1)
+      react: 18.3.1
+      react-reconciler: 0.27.0(react@18.3.1)
+      react-use-measure: 2.1.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       scheduler: 0.21.0
-      suspend-react: 0.1.3
+      suspend-react: 0.1.3(react@18.3.1)
       three: 0.174.0
-      zustand: 3.7.2
+      zustand: 3.7.2(react@18.3.1)
+    optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -4975,7 +4981,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.27.0
 
-  '@types/chrome@0.0.312':
+  '@types/chrome@0.0.313':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
@@ -5183,9 +5189,10 @@ snapshots:
 
   '@use-gesture/core@10.3.1': {}
 
-  '@use-gesture/react@10.3.1':
+  '@use-gesture/react@10.3.1(react@18.3.1)':
     dependencies:
       '@use-gesture/core': 10.3.1
+      react: 18.3.1
 
   '@vercel/examples-ui@1.0.5(next@15.2.4(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.86.0))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -6612,9 +6619,10 @@ snapshots:
       has-symbols: 1.1.0
       set-function-name: 2.0.2
 
-  its-fine@1.2.5(@types/react@18.3.20):
+  its-fine@1.2.5(@types/react@18.3.20)(react@18.3.1):
     dependencies:
       '@types/react-reconciler': 0.28.9(@types/react@18.3.20)
+      react: 18.3.1
     transitivePeerDependencies:
       - '@types/react'
 
@@ -7151,16 +7159,21 @@ snapshots:
 
   react-is@16.13.1: {}
 
-  react-reconciler@0.27.0:
+  react-reconciler@0.27.0(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
+      react: 18.3.1
       scheduler: 0.21.0
 
   react-refresh@0.13.0: {}
 
   react-refresh@0.14.2: {}
 
-  react-use-measure@2.1.7: {}
+  react-use-measure@2.1.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+    optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
 
   react@18.3.1:
     dependencies:
@@ -7623,7 +7636,9 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  suspend-react@0.1.3: {}
+  suspend-react@0.1.3(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   tailwindcss@3.4.17:
     dependencies:
@@ -7740,9 +7755,9 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tunnel-rat@0.1.2(@types/react@18.3.20):
+  tunnel-rat@0.1.2(@types/react@18.3.20)(react@18.3.1):
     dependencies:
-      zustand: 4.5.6(@types/react@18.3.20)
+      zustand: 4.5.6(@types/react@18.3.20)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -7846,7 +7861,9 @@ snapshots:
       fast-deep-equal: 3.1.3
       react: 18.3.1
 
-  use-sync-external-store@1.4.0: {}
+  use-sync-external-store@1.4.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   util-deprecate@1.0.2: {}
 
@@ -8013,15 +8030,19 @@ snapshots:
 
   zstddec@0.1.0: {}
 
-  zustand@3.7.2: {}
+  zustand@3.7.2(react@18.3.1):
+    optionalDependencies:
+      react: 18.3.1
 
-  zustand@4.5.6(@types/react@18.3.20):
+  zustand@4.5.6(@types/react@18.3.20)(react@18.3.1):
     dependencies:
-      use-sync-external-store: 1.4.0
+      use-sync-external-store: 1.4.0(react@18.3.1)
     optionalDependencies:
       '@types/react': 18.3.20
+      react: 18.3.1
 
-  zustand@5.0.3(@types/react@18.3.20)(use-sync-external-store@1.4.0):
+  zustand@5.0.3(@types/react@18.3.20)(react@18.3.1)(use-sync-external-store@1.4.0(react@18.3.1)):
     optionalDependencies:
       '@types/react': 18.3.20
-      use-sync-external-store: 1.4.0
+      react: 18.3.1
+      use-sync-external-store: 1.4.0(react@18.3.1)
