@@ -1,313 +1,36 @@
 import {
-  type ChangeEventHandler,
   MouseEvent,
-  useCallback,
   useEffect,
   useLayoutEffect,
-  useMemo,
   useRef,
   useState,
 } from "react";
 import rough from "roughjs";
+import { useHistory } from "../../hooks/useHistory";
+import { usePressedKeys } from "../../hooks/usePressedKeys";
+import {
+  ToolsType,
+  SelectedElementType,
+  ExtendedElementType,
+  ElementType,
+  Tools,
+  ActionsType,
+} from "../../types";
+import { ActionBar, ControlPanel, Info } from "../../components";
+import {
+  adjustElementCoordinates,
+  adjustmentRequired,
+  createElement,
+  cursorForPosition,
+  drawElement,
+  getElementAtPosition,
+  resizedCoordinates,
+} from "../../utilities";
 
-// https://github.com/mirayatech/NinjaSketch/blob/main/src/types.ts
-export type SelectedElementType = ElementType & {
-  xOffsets?: number[];
-  yOffsets?: number[];
-  offsetX?: number;
-  offsetY?: number;
-};
+export default function App() {
+  const initialTool: ToolsType = Tools.selection;
 
-export interface ExtendedElementType extends ElementType {
-  xOffsets?: number[];
-  yOffsets?: number[];
-}
-
-export type ElementType = {
-  id: number;
-  x1: number;
-  y1: number;
-  x2: number;
-  y2: number;
-  type: ToolsType;
-  // TODO: add type
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  roughElement?: any;
-  offsetX?: number;
-  offsetY?: number;
-  position?: string | null;
-  points?: { x: number; y: number }[];
-  text?: string;
-};
-
-export type ActionsType =
-  | "writing"
-  | "drawing"
-  | "moving"
-  | "panning"
-  | "resizing"
-  | "none";
-
-const Tools = {
-  pan: "pan",
-  selection: "selection",
-  rectangle: "rectangle",
-  line: "line",
-  pencil: "pencil",
-  text: "text",
-};
-
-export type ToolsType = (typeof Tools)[keyof typeof Tools];
-
-export type PointType = { x: number; y: number };
-
-export const adjustElementCoordinates = (element: ElementType) => {
-  const { type, x1, y1, x2, y2 } = element;
-
-  if (type === Tools.rectangle) {
-    const minX = Math.min(x1, x2);
-    const maxX = Math.max(x1, x2);
-    const minY = Math.min(y1, y2);
-    const maxY = Math.max(y1, y2);
-    return { x1: minX, y1: minY, x2: maxX, y2: maxY };
-  } else {
-    if (x1 < x2 || (x1 === x2 && y1 < y2)) {
-      return { x1, y1, x2, y2 };
-    } else {
-      return { x1: x2, y1: y2, x2: x1, y2: y1 };
-    }
-  }
-};
-
-export const adjustmentRequired = (type: ToolsType) =>
-  ["line", "rectangle"].includes(type);
-
-export const createElement = (
-  id: number,
-  x1: number,
-  y1: number,
-  x2: number,
-  y2: number,
-  type: ToolsType,
-): ElementType => {
-  const generator = rough.generator();
-
-  switch (type) {
-    case Tools.line:
-    case Tools.rectangle: {
-      const roughElement =
-        type === Tools.line
-          ? generator.line(x1, y1, x2, y2)
-          : generator.rectangle(x1, y1, x2 - x1, y2 - y1);
-      return { id, x1, y1, x2, y2, type, roughElement };
-    }
-    case Tools.pencil: {
-      const defaultRoughElement = null;
-      return {
-        id,
-        x1: 0,
-        y1: 0,
-        x2: 0,
-        y2: 0,
-        type,
-        points: [{ x: x1, y: y1 }],
-        roughElement: defaultRoughElement,
-      };
-    }
-    case Tools.text:
-      return { id, type, x1, y1, x2, y2, text: "" };
-    default:
-      throw new Error(`Type not recognised: ${type}`);
-  }
-};
-
-export const cursorForPosition = (position: string) => {
-  switch (position) {
-    case "topLeft":
-    case "bottomRight":
-      return "nwse-resize";
-    case "topRight":
-    case "bottomLeft":
-      return "nesw-resize";
-    case "start":
-    case "end":
-      return "move";
-    case "inside":
-      return "move";
-    default:
-      return "default";
-  }
-};
-
-export const drawElement = (
-  // TODO: add type
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  roughCanvas: any,
-  context: CanvasRenderingContext2D,
-  element: ElementType,
-) => {
-  console.log(["drawElement"], element);
-  switch (element.type) {
-    case "line":
-    case "rectangle":
-      roughCanvas.draw(element.roughElement);
-      break;
-    // case "pencil": {
-    //   if (!element.points) {
-    //     throw new Error("Pencil element points are undefined");
-    //   }
-    //   const strokePoints = getStroke(element.points);
-    //   const formattedPoints: [number, number][] = strokePoints.map((point) => {
-    //     if (point.length !== 2) {
-    //       throw new Error(
-    //         `Expected point to have exactly 2 elements, got ${point.length}`
-    //       );
-    //     }
-    //     return [point[0], point[1]];
-    //   });
-    //   const stroke = getSvgPathFromStroke(formattedPoints);
-    //   context.fill(new Path2D(stroke));
-    //   break;
-    // }
-    // case "text": {
-    //   context.textBaseline = "top";
-    //   context.font = "24px sans-serif";
-    //   const text = element.text || "";
-    //   context.fillText(text, element.x1, element.y1);
-    //   break;
-    // }
-    default:
-      throw new Error(`Type not recognised: ${element.type}`);
-  }
-};
-
-export const getElementAtPosition = (
-  x: number,
-  y: number,
-  elements: ElementType[],
-) => {
-  return elements
-    .map((element) => ({
-      ...element,
-      position: positionWithinElement(x, y, element),
-    }))
-    .find((element) => element.position !== null);
-};
-
-const positionWithinElement = (x: number, y: number, element: ElementType) => {
-  const { type, x1, x2, y1, y2 } = element;
-  switch (type) {
-    case Tools.line: {
-      const on = onLine(x1, y1, x2, y2, x, y);
-      const start = nearPoint(x, y, x1, y1, "start");
-      const end = nearPoint(x, y, x2, y2, "end");
-      return start || end || on;
-    }
-    case Tools.rectangle: {
-      const topLeft = nearPoint(x, y, x1, y1, "topLeft");
-      const topRight = nearPoint(x, y, x2, y1, "topRight");
-      const bottomLeft = nearPoint(x, y, x1, y2, "bottomLeft");
-      const bottomRight = nearPoint(x, y, x2, y2, "bottomRight");
-      const inside = x >= x1 && x <= x2 && y >= y1 && y <= y2 ? "inside" : null;
-      return topLeft || topRight || bottomLeft || bottomRight || inside;
-    }
-    case Tools.pencil: {
-      const betweenAnyPoint = element.points!.some((point, index) => {
-        const nextPoint = element.points![index + 1];
-        if (!nextPoint) return false;
-        return (
-          onLine(point.x, point.y, nextPoint.x, nextPoint.y, x, y, 5) != null
-        );
-      });
-      return betweenAnyPoint ? "inside" : null;
-    }
-    case Tools.text:
-      return x >= x1 && x <= x2 && y >= y1 && y <= y2 ? "inside" : null;
-    default:
-      throw new Error(`Type not recognised: ${type}`);
-  }
-};
-
-export const resizedCoordinates = (
-  clientX: number,
-  clientY: number,
-  position: string,
-  coordinates: { x1: number; y1: number; x2: number; y2: number },
-) => {
-  const { x1, y1, x2, y2 } = coordinates;
-
-  switch (position) {
-    case "start":
-    case "topLeft":
-      return {
-        x1: clientX,
-        y1: clientY,
-        x2,
-        y2,
-      };
-    case "topRight":
-      return {
-        x1,
-        y1: clientY,
-        x2: clientX,
-        y2,
-      };
-    case "bottomLeft":
-      return {
-        x1: clientX,
-        y1,
-        x2,
-        y2: clientY,
-      };
-    case "end":
-    case "bottomRight":
-      return {
-        x1,
-        y1,
-        x2: clientX,
-        y2: clientY,
-      };
-    default:
-      return coordinates;
-  }
-};
-
-const onLine = (
-  x1: number,
-  y1: number,
-  x2: number,
-  y2: number,
-  x: number,
-  y: number,
-  maxDistance: number = 1,
-): string | null => {
-  const a: PointType = { x: x1, y: y1 };
-  const b: PointType = { x: x2, y: y2 };
-  const c: PointType = { x, y };
-  const offset = distance(a, b) - (distance(a, c) + distance(b, c));
-  return Math.abs(offset) < maxDistance ? "inside" : null;
-};
-
-const distance = (a: PointType, b: PointType) =>
-  Math.sqrt(Math.pow(a.x - b.x, 2) + Math.pow(a.y - b.y, 2));
-
-export const nearPoint = (
-  x: number,
-  y: number,
-  x1: number,
-  y1: number,
-  name: string,
-) => {
-  return Math.abs(x - x1) < 5 && Math.abs(y - y1) < 5 ? name : null;
-};
-
-function Canvas() {
-  // const initialTool: ToolsType = Tools.selection;
-  // const initialTool: ToolsType = Tools.line;
-  const initialTool: ToolsType = Tools.rectangle;
-
-  // const { elements, setElements, undo, redo } = useHistory([]);
-  const [elements, setElements] = useState<ElementType[]>([]);
+  const { elements, setElements, undo, redo } = useHistory([]);
   const [panOffset, setPanOffset] = useState({ x: 0, y: 0 });
   const [startPanMousePosition, setStartPanMousePosition] = useState({
     x: 0,
@@ -318,15 +41,11 @@ function Canvas() {
   const [selectedElement, setSelectedElement] = useState<ElementType | null>();
   const [scale, setScale] = useState(1);
   const [scaleOffset, setScaleOffset] = useState({ x: 0, y: 0 });
-
-  const canvasRef = useRef(null);
+  const textAreaRef = useRef<HTMLTextAreaElement>(null);
+  const pressedKeys = usePressedKeys();
 
   useLayoutEffect(() => {
-    // const canvas = document.getElementById("canvas") as HTMLCanvasElement;
-    const canvas = canvasRef.current as HTMLCanvasElement | null;
-    if (!canvas) {
-      return;
-    }
+    const canvas = document.getElementById("canvas") as HTMLCanvasElement;
     const context = canvas.getContext("2d") as CanvasRenderingContext2D;
     const roughCanvas = rough.canvas(canvas);
 
@@ -356,6 +75,55 @@ function Canvas() {
     });
     context.restore();
   }, [elements, action, selectedElement, panOffset, scale]);
+
+  useEffect(() => {
+    const undoRedoFunction = (event: KeyboardEvent) => {
+      if (event.ctrlKey || event.metaKey) {
+        if (event.key === "z") {
+          if (event.shiftKey) {
+            redo();
+          } else {
+            undo();
+          }
+        } else if (event.key === "y") {
+          redo();
+        }
+      }
+    };
+
+    document.addEventListener("keydown", undoRedoFunction);
+    return () => {
+      document.removeEventListener("keydown", undoRedoFunction);
+    };
+  }, [undo, redo]);
+
+  useEffect(() => {
+    const panOrZoomFunction = (event: WheelEvent) => {
+      if (pressedKeys.has("Meta") || pressedKeys.has("Control")) {
+        onZoom(event.deltaY * -0.01);
+      } else {
+        setPanOffset((prevState) => ({
+          x: prevState.x - event.deltaX,
+          y: prevState.y - event.deltaY,
+        }));
+      }
+    };
+
+    document.addEventListener("wheel", panOrZoomFunction);
+    return () => {
+      document.removeEventListener("wheel", panOrZoomFunction);
+    };
+  }, [pressedKeys]);
+
+  useEffect(() => {
+    const textArea = textAreaRef.current;
+    if (action === "writing" && textArea && selectedElement) {
+      setTimeout(() => {
+        textArea.focus();
+        textArea.value = selectedElement.text || "";
+      }, 0);
+    }
+  }, [action, selectedElement]);
 
   const updateElement = (
     id: number,
@@ -401,8 +169,7 @@ function Canvas() {
       default:
         throw new Error(`Type not recognised: ${type}`);
     }
-    // setElements(elementsCopy, true);
-    setElements(elementsCopy);
+    setElements(elementsCopy, true);
   };
 
   const getMouseCoordinates = (event: MouseEvent) => {
@@ -418,20 +185,19 @@ function Canvas() {
 
     const { clientX, clientY } = getMouseCoordinates(event);
 
-    // if (tool === Tools.pan || event.button === 1 || pressedKeys.has(" ")) {
-    //   setAction("panning");
-    //   setStartPanMousePosition({ x: clientX, y: clientY });
-    //   document.body.style.cursor = "grabbing";
-    //   return;
-    // }
+    if (tool === Tools.pan || event.button === 1 || pressedKeys.has(" ")) {
+      setAction("panning");
+      setStartPanMousePosition({ x: clientX, y: clientY });
+      document.body.style.cursor = "grabbing";
+      return;
+    }
 
-    // if (event.button === 1 || pressedKeys.has(" ")) {
-    //   setAction("panning");
-    //   setStartPanMousePosition({ x: clientX, y: clientY });
-    //   document.body.style.cursor = "grabbing";
-    //   return;
-    // }
-    console.log(["handleMouseDown"], action, tool);
+    if (event.button === 1 || pressedKeys.has(" ")) {
+      setAction("panning");
+      setStartPanMousePosition({ x: clientX, y: clientY });
+      document.body.style.cursor = "grabbing";
+      return;
+    }
 
     if (tool === Tools.selection) {
       const element = getElementAtPosition(clientX, clientY, elements);
@@ -486,7 +252,7 @@ function Canvas() {
       });
       return;
     }
-    console.log(["handleMouseMove"], action, tool);
+
     if (tool === Tools.selection) {
       const element = getElementAtPosition(clientX, clientY, elements);
 
@@ -520,8 +286,7 @@ function Canvas() {
           ...elementsCopy[extendedElement.id],
           points: newPoints,
         };
-        // setElements(elementsCopy, true);
-        setElements(elementsCopy);
+        setElements(elementsCopy, true);
       } else {
         const { id, x1, x2, y1, y2, type, offsetX, offsetY } =
           selectedElement as ExtendedElementType;
@@ -617,33 +382,43 @@ function Canvas() {
   };
 
   return (
-    <canvas
-      ref={canvasRef}
-      // width={window.innerWidth}
-      // height={window.innerHeight}
-      onMouseDown={handleMouseDown}
-      onMouseMove={handleMouseMove}
-      onMouseUp={handleMouseUp}
-      // style={{ position: "absolute", zIndex: 1 }}
-      style={{ border: "1px solid red", width: "100%" }}
-    />
-  );
-}
-
-export default function App() {
-  const [show, setShow] = useState(false);
-
-  // https://reactjs.org/link/uselayouteffect-ssr
-  useEffect(() => {
-    setShow(true);
-  }, []);
-
-  return (
-    <>
-      {/* <h1>sketch</h1> */}
-      {/* <div className={styles.Columns}> */}
-      {show && <Canvas />}
-      {/* </div> */}
-    </>
+    <div>
+      <Info />
+      <ActionBar tool={tool} setTool={setTool} />
+      <ControlPanel
+        undo={undo}
+        redo={redo}
+        onZoom={onZoom}
+        scale={scale}
+        setScale={setScale}
+      />
+      {action === "writing" ? (
+        <textarea
+          ref={textAreaRef}
+          onBlur={handleBlur}
+          className="textArea"
+          style={{
+            top: selectedElement
+              ? (selectedElement.y1 - 2) * scale +
+                panOffset.y * scale -
+                scaleOffset.y
+              : 0,
+            left: selectedElement
+              ? selectedElement.x1 * scale + panOffset.x * scale - scaleOffset.x
+              : 0,
+            font: `${24 * scale}px sans-serif`,
+          }}
+        />
+      ) : null}
+      <canvas
+        id="canvas"
+        width={window.innerWidth}
+        height={window.innerHeight}
+        onMouseDown={handleMouseDown}
+        onMouseMove={handleMouseMove}
+        onMouseUp={handleMouseUp}
+        style={{ position: "absolute", zIndex: 1 }}
+      />
+    </div>
   );
 }
