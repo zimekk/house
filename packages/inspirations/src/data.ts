@@ -290,6 +290,47 @@ export const inspirations = [
     url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
   },
   {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0418-c-copy2-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+    tag: "elewacja",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0441-copy2-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0379-copy-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0424c-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0060j-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0046-copy1-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0380-copy2-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0451f-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0458-copy-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2021/02/FOT_0392-ok-scaled.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/ceglany-dom-w-lesie/",
+  },
+  {
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/05/Webster-Rosanna-014.jpg",
     url: "https://www.websterarchitecture.com.au/montagna/",
     tag: "wejście",
