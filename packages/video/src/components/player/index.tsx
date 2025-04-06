@@ -61,7 +61,6 @@ export function Player({
         playerVars: {
           controls: 1,
           fs: 1,
-          modestbranding: 1,
           rel: 0,
           origin: "http://localhost:8080",
           start: 0,
