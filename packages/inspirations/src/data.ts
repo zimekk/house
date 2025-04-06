@@ -160,6 +160,136 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/10.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+    tag: "elewacja",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/1.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/2-copy.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/9.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/8_1.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Z-lotu-ptaka-3.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/6.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/5.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2025/02/1-2.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/s-house/",
+    tag: "elewacja",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2025/02/4-2.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/s-house/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2025/02/6-1.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/s-house/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2025/02/3-2.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/s-house/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-1_1-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-1_2-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-4-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-2-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-2-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-1-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Dom-o-Zmiennej-Formie-Podjazd-5-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-parter-1-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-parter-5-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-pietro-2-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Taras-pietro-10-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Salon-17-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Salon-2-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Salon-5-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/SPA-1-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/SPA-3-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/SPA-6-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Lazienka-1-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Garderoba-3-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
+    src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/Master-Garderoba-5-Dom-o-Zmiennej-Formie-Z3Z-ARCHITEKCI-1.jpg",
+    url: "https://www.z3zarchitekci.pl/portfolio-items/dom-o-zmiennej-formie/",
+  },
+  {
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/05/Webster-Rosanna-014.jpg",
     url: "https://www.websterarchitecture.com.au/montagna/",
     tag: "wejście",
