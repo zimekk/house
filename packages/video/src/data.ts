@@ -203,6 +203,39 @@ export const videos = [
       `),
   },
   {
+    // A Designer’s Own Home. Luxury Byron Bay Beach House! Full House Tour
+    url: "https://www.youtube.com/watch?v=AzyqNnuXB6U",
+    markers: parse(`
+4:13 pralnia
+4:37 salon
+5:46 kącik / biuro
+6:14 schody
+7:00 sypialnia
+8:00 toaleta
+9:15 łazienka
+      `),
+  },
+  {
+    // A Luxury Home Tour in Tasmania! 🍎 1850s Georgian Cottage Architectural Restoration & Extension 🏠
+    url: "https://www.youtube.com/watch?v=D1d-Ho9FcyY",
+    markers: parse(`
+1:17 biuro
+1:44 sypialnia
+2:20 toaleta
+3:08 sypialnia
+3:24 kącik
+4:10 łącznik
+5:12 kuchnia +
+7:50 pralnia
+8:30 łazienka +
+10:10 sypialnia
+11:10 patio
+11:25 salon
+12:45 wejście
+13:25 kuchnia +
+      `),
+  },
+  {
     // Win this Luxury Modern Coastal Home! Full House Tour in Hampton
     url: "https://www.youtube.com/watch?v=caqjJZNNhzM",
     markers: parse(`
