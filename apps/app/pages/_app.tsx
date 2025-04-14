@@ -23,6 +23,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "floors",
         "inspirations",
         "map",
+        "paint",
         "rooms",
         "sketch",
         "tools",
