@@ -160,6 +160,58 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://baumit.pl/files/pl/references/2019/Kawodrza/image-web/0bm.jpg",
+    url: "https://baumit.pl/referencje/5-cubes-kawodrza",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/2019/Kawodrza/image-web/0c.jpg",
+    url: "https://baumit.pl/referencje/5-cubes-kawodrza",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/2019/Kawodrza/image-web/0.jpg",
+    url: "https://baumit.pl/referencje/5-cubes-kawodrza",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/2019/Kawodrza/image-web/wyroznienie_domCzestochowa_b.jpg",
+    url: "https://baumit.pl/referencje/5-cubes-kawodrza",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/2019/Kawodrza/image-web/001_2.jpg",
+    url: "https://baumit.pl/referencje/5-cubes-kawodrza",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2021/2-multi-family-residential/2.%20budynek%20wielorodzinny/Osiedle-Vitalite_Warszawa/nowe/image-web/mWarszawa_Osiedle_Vitalite_DSC_2460.jpg",
+    url: "https://baumit.pl/referencje/osiedle-vitalite",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2021/2-multi-family-residential/2.%20budynek%20wielorodzinny/Osiedle-Vitalite_Warszawa/nowe/image-web/mWarszawa_Osiedle_Vitalite_DSCF2523.jpg",
+    url: "https://baumit.pl/referencje/osiedle-vitalite",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2021/2-multi-family-residential/2.%20budynek%20wielorodzinny/Osiedle-Vitalite_Warszawa/nowe/image-web/mWarszawa_Osiedle_Vitalite_DSCF2526.jpg",
+    url: "https://baumit.pl/referencje/osiedle-vitalite",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2022/1-single-family-house/4391-kovalovo-ii/image-web/957_Kovalovo_I_01_cropped.jpg",
+    url: "https://baumit.pl/referencje/kovalovo-ii",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2022/1-single-family-house/4391-kovalovo-ii/image-web/958_Kovalovo_II_06_cropped.jpg",
+    url: "https://baumit.pl/referencje/kovalovo-ii",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2022/1-single-family-house/4391-kovalovo-ii/image-web/958_Kovalovo_II_07_cropped.jpg",
+    url: "https://baumit.pl/referencje/kovalovo-ii",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2022/1-single-family-house/4391-kovalovo-ii/image-web/957_Kovalovo_I_08_cropped.jpg",
+    url: "https://baumit.pl/referencje/kovalovo-ii",
+  },
+  {
+    src: "https://baumit.pl/files/pl/references/foty-2022/1-single-family-house/4391-kovalovo-ii/image-web/957_Kovalovo_I_06_cropped.jpg",
+    url: "https://baumit.pl/referencje/kovalovo-ii",
+  },
+  {
     src: "https://www.z3zarchitekci.pl/wp-content/uploads/2024/08/10.jpg",
     url: "https://www.z3zarchitekci.pl/portfolio-items/nowy-wawer/?portfolioCats=33",
     tag: "elewacja",
