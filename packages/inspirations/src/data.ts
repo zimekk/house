@@ -160,6 +160,330 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-06-1140x740.jpg",
+    url: "https://milke.se/portfolio/3_barns-sala-studio/",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-05.jpg",
+    url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-05.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-02.jpg",
+    url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-02.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-01.jpg",
+    url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-01.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-04.jpg",
+    url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-04.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-06.jpg",
+    url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-06.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-07.jpg",
+    url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-07.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-08.jpg",
+    url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-08.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2024/05/03-2.png",
+    url: "https://milke.se/wp-content/uploads/2024/05/03-2.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-7-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-7-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-2-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-2-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-1-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-6-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-6-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-8-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-8-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-5-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-5-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-3-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-3-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-10a.png",
+    url: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-10a.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-7a.png",
+    url: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-7a.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-K2-ul.-Biedronki-W-wa_MILKE-11-1536x1024.jpg",
+    url: "https://milke.se/portfolio/dom-biedronki-warszawa-wilanow/",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-K2-ul.-Biedronki-W-wa_MILKE-3-1536x1024.jpg",
+    url: "https://milke.se/portfolio/dom-biedronki-warszawa-wilanow/",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_2-scaled-1.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_2-scaled-1.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_5-scaled-1.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_5-scaled-1.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_6-scaled-1.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_6-scaled-1.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_8-scaled-1.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/02/willa-pod-lasem-orzesze_8-scaled-1.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/02/Osiedle-w-Jozefowie-Tecta-Studio-8-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/02/Osiedle-w-Jozefowie-Tecta-Studio-8-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola1-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola2-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola2-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola5-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola5-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola10-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola10-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola8-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola8-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola7-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola7-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola3-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Plytka-LONG-Arkano-Gdansk-Stodola3-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-1-1365x2048.jpg",
+    url: "https://milke.se/portfolio/long-magdalenka/",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-1-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-2-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-2-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-3-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-3-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-4-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-4-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-7-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-7-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-8-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-8-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-12-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-12-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-13-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-13-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-12.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-12.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-11-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-11-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-2-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-2-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/03/ART-CITY-Krakow-MILKE-InwestycjePankreator-1-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-22-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-22-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-1-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-2-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-2-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-4-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-4-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-5-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-5-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-19-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-19-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-17-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-17-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-23-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2020/05/Long-MILKE-Chotomow-23-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2019/09/Plyty-betonowe-MILKE-INWESTYCJE-OVO-Grabczewscy-Architekci-4.jpg",
+    url: "https://milke.se/wp-content/uploads/2019/09/Plyty-betonowe-MILKE-INWESTYCJE-OVO-Grabczewscy-Architekci-4.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2019/09/Plyty-betonowe-MILKE-INWESTYCJE-OVO-Grabczewscy-Architekci-8.jpg",
+    url: "https://milke.se/wp-content/uploads/2019/09/Plyty-betonowe-MILKE-INWESTYCJE-OVO-Grabczewscy-Architekci-8.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2019/08/Nobu-Hotel_-3-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2019/08/Nobu-Hotel_-3-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2019/08/Plyty-betonowe-MILKE-INWESTYCJE-Hotel-Nobu-Medusa-Group-2.jpg",
+    url: "https://milke.se/wp-content/uploads/2019/08/Plyty-betonowe-MILKE-INWESTYCJE-Hotel-Nobu-Medusa-Group-2.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-3.jpg",
+    url: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-3.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-4.jpg",
+    url: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-4.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-9.jpg",
+    url: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-9.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-15-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-15-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/01/WDF5216_Korbutowej_8_2.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/01/WDF5216_Korbutowej_8_2.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/09/Nowa-Cegla-MILKE-kolor-biel-skalna-Wola-Golkowksa-1.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/09/Nowa-Cegla-MILKE-kolor-biel-skalna-Wola-Golkowksa-1.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/01/WDF5224_Korbutowej_8_2.jpg",
+    url: "https://milke.se/wp-content/uploads/2023/01/WDF5224_Korbutowej_8_2.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/01/5a_dom_wieloczlonowy_plarchitekci.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/01/5a_dom_wieloczlonowy_plarchitekci.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-3.jpg",
+    url: "https://milke.se/wp-content/uploads/2017/02/Plytki-Stara-Cegla-MILKE-%E2%80%93-Stadnina-Equesta-Dressage-3.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/Nowa-Cegla-MILKE-kolor-szary-226.png",
+    url: "https://milke.se/wp-content/uploads/2021/02/Nowa-Cegla-MILKE-kolor-szary-226.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/01/3a_dom_wieloczlonowy_plarchitekci.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/01/3a_dom_wieloczlonowy_plarchitekci.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-3a.png",
+    url: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-3a.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-6a.png",
+    url: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-6a.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-7a.png",
+    url: "https://milke.se/wp-content/uploads/2023/04/LONG-RAW-kolor-mocca-ul.-Piechoty-Lanowej-W-wa_MILKE-7a.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-12-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-12-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-1-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-13-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-13-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-12-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-12-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-1-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-11-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-11-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-8-scaled.jpeg",
+    url: "https://milke.se/wp-content/uploads/2021/02/MILKE-Nowa-Cegla-Pltka-LONG-Arkano-Gdansk-8-scaled.jpeg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2020/01/Nowa-Cegla-MILKE-kolor-naturalny-119.png",
+    url: "https://milke.se/wp-content/uploads/2020/01/Nowa-Cegla-MILKE-kolor-naturalny-119.png",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2019/08/Nobu-Hotel_-2-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2019/08/Nobu-Hotel_-2-scaled.jpg",
+  },
+  {
+    src: "https://milke.se/wp-content/uploads/2019/08/Nobu-Hotel_-1-scaled.jpg",
+    url: "https://milke.se/wp-content/uploads/2019/08/Nobu-Hotel_-1-scaled.jpg",
+  },
+  {
     src: "https://baumit.pl/files/pl/references/2019/Kawodrza/image-web/0bm.jpg",
     url: "https://baumit.pl/referencje/5-cubes-kawodrza",
   },
