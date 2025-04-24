@@ -160,6 +160,110 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.ekinex.com/media/cat/T&C-EKINEX-003(3)(1).jpg",
+    url: "https://www.ekinex.com/en/proxima/touchsee/",
+  },
+  {
+    src: "https://www.ekinex.com/media/cat/T&CONTROL_EKINEX_01(3)(1).jpg",
+    url: "https://www.ekinex.com/en/proxima/touchsee/",
+  },
+  {
+    src: "https://www.ekinex.com/media/cat/T&CONTROL_EKINEX_04(3)(1).jpg",
+    url: "https://www.ekinex.com/en/proxima/touchsee/",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Gestione-multipla-controllo-accessi-1920x1200-2024(1).jpg",
+    url: "https://www.ekinex.com/en/video-intercom-ip-dico/",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Gestione-multi-appartamento-e-multi-tenant.jpg",
+    url: "https://www.ekinex.com/en/video-intercom-ip-dico/",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/DICO-NUOVA-CORNICE.jpg",
+    url: "https://www.ekinex.com/en/video-intercom-ip-dico/",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/ekinex-dico-02.jpg",
+    url: "https://www.ekinex.com/en/video-intercom-ip-dico/",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/SENTIO-1920X900-EKINEX-04-B.jpg",
+    url: "https://www.ekinex.com/en/sentio/",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/residenziale-salotto-ekinex.jpg",
+    url: "https://www.ekinex.com/en/application-areas/residential.html",
+  },
+  {
+    src: "https://www.ekinex.com/media/appl/residenziale-ekinex-03-a.jpg",
+    url: "https://www.ekinex.com/en/application-areas/residential.html",
+  },
+  {
+    src: "https://www.ekinex.com/media/appl/residenziale-ekinex-04-A(1).jpg",
+    url: "https://www.ekinex.com/en/application-areas/residential.html",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/PG_08864-HDR-Edit-1920x800.jpg",
+    url: "https://www.ekinex.com/en/case-histories/casa-sedici-tre.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Intelidom-1.jpg",
+    url: "https://www.ekinex.com/en/case-histories/modern-residence-in-the-centre-of-warsaw.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Intelidom-5.jpg",
+    url: "https://www.ekinex.com/en/case-histories/modern-residence-in-the-centre-of-warsaw.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Intelidom-6.jpg",
+    url: "https://www.ekinex.com/en/case-histories/modern-residence-in-the-centre-of-warsaw.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Intelidom-7.jpg",
+    url: "https://www.ekinex.com/en/case-histories/modern-residence-in-the-centre-of-warsaw.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Intelidom-11.jpg",
+    url: "https://www.ekinex.com/en/case-histories/modern-residence-in-the-centre-of-warsaw.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/Zoliborz-02_1000x625.png",
+    url: "https://www.ekinex.com/en/case-histories/private-villa-in-zoliborz-warsaw.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/_O4B7414-1-copy.jpg",
+    url: "https://www.ekinex.com/en/case-histories/evl-apartment-turin.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/pag/Grand-Apartment-02-800x500.jpg",
+    url: "https://www.ekinex.com/en/case-histories/architectural-excellence-in-the-interior-design-of-grand-apartment.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/fantolino_1920x800.jpg",
+    url: "https://www.ekinex.com/en/case-histories/turin-house-of-the-architect-fabio-fantolino.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/flat-moscow-smarthome.jpg",
+    url: "https://www.ekinex.com/en/case-histories/a-classic-and-elegant-apartment-inspired-by-french-style.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/casa-donella-800x500-3.jpg",
+    url: "https://www.ekinex.com/en/case-histories/a-private-house-on-the-site-of-an-ancient-farmhouse-casa-donella.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/IMG_4538-new.jpg",
+    url: "https://www.ekinex.com/en/case-histories/two-twin-villas-in-the-exclusive-faqra-club-in-lebanon.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/IMG_9388.jpg_0016_Livello%200.jpg",
+    url: "https://www.ekinex.com/en/case-histories/5-star-knx-lighting-control-casafantini.htm",
+  },
+  {
+    src: "https://www.ekinex.com/media/blog/IMG_9388.jpg_0004_IMG_9631.jpg",
+    url: "https://www.ekinex.com/en/case-histories/5-star-knx-lighting-control-casafantini.htm",
+  },
+  {
     url: "https://static.designboom.com/wp-content/uploads/2025/04/yama-architects-house-wa-two-elongated-volumes-stone-plinth-belgium-designboom-1800-1.jpg",
     src: "https://static.designboom.com/wp-content/uploads/2025/04/yama-architects-house-wa-two-elongated-volumes-stone-plinth-belgium-designboom-1800-1.jpg",
   },
