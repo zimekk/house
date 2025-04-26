@@ -1,5 +1,6 @@
 import { type ChangeEventHandler, useCallback, useMemo, useState } from "react";
-import { Link } from "../../components/link";
+import { Link } from "@acme/ui";
+import Inspirations from "../Inspirations";
 import styles from "./styles.module.scss";
 
 interface ItemType {
@@ -512,6 +513,7 @@ export default function App() {
           />
         </div>
       </div>
+      <Inspirations />
     </div>
   );
 }

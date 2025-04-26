@@ -34,12 +34,12 @@
     "react-dom": "^17.0.0 || ^18.0.0-0"
   },
   "dependencies": {
+    "@acme/ui": "workspace:*",
     "clsx": "^2.0.0",
     "jszip": "^3.10.1",
     "rxjs": "^7.8.1",
     "slug": "^10.0.0",
-    "styled-components": "^6.1.14",
-    "use-asset": "^1.0.4"
+    "styled-components": "^6.1.14"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",

@@ -37,7 +37,6 @@
     "clsx": "^2.0.0",
     "rxjs": "^7.8.1",
     "styled-components": "^6.1.14",
-    "use-asset": "^1.0.4",
     "youtube-player": "^5.6.0"
   },
   "devDependencies": {

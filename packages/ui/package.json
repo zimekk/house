@@ -39,7 +39,8 @@
   },
   "dependencies": {
     "@swc/helpers": "^0.5.0",
-    "clsx": "^2.0.0"
+    "clsx": "^2.0.0",
+    "use-asset": "^1.0.4"
   },
   "devDependencies": {
     "@types/react": "^18.3.18",

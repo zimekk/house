@@ -21,7 +21,7 @@ export interface FiltersState {
 
 export const INITIAL_FILTERS: FiltersState = {
   search: "",
-  favorite: true,
+  favorite: false,
 };
 
 export function Input({
@@ -171,7 +171,7 @@ function Table({ queries }: { queries: FiltersState }) {
   );
 }
 
-export default function App() {
+export default function Inspirations() {
   const [filters, setFilters] = useState<FiltersState>(() => INITIAL_FILTERS);
 
   const [queries, setQueries] = useState(() => filters);
