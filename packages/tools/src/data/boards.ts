@@ -11,7 +11,7 @@ export const boards = [
       url: "https://botland.com.pl/moduly-i-zestawy-raspberry-pi-5/23904-raspberry-pi-5-4gb-5056561803319.html",
     },
     {
-      name: "- Raspberry Pi 27W USB-C Power Supply - oficjalny zasilacz USB C 5,1V / 5A do Raspberry Pi 5 - czarny",
+      name: "+ Raspberry Pi 27W USB-C Power Supply - oficjalny zasilacz USB C 5,1V / 5A do Raspberry Pi 5 - czarny",
       price: 59.9,
       url: "https://botland.com.pl/zasilacze-do-raspberry-pi-5/23907-raspberry-pi-27w-usb-c-power-supply-oficjalny-zasilacz-usb-c-51v-5a-do-raspberry-pi-5-czarny-5056561803418.html",
     },
@@ -31,7 +31,7 @@ export const boards = [
       url: "https://botland.com.pl/karty-pamieci-i-dyski-do-raspberry-pi-5/25483-raspberry-pi-dysk-ssd-nvme-256gb-5056561805009.html",
     },
     {
-      name: "- Raspberry Pi SSD Kit 256GB - zestaw z dyskiem SSD do Raspberry Pi 5",
+      name: "Raspberry Pi SSD Kit 256GB - zestaw z dyskiem SSD do Raspberry Pi 5",
       price: 209,
       url: "https://botland.com.pl/raspberry-pi-hat-nakladki-pci-express/25485-raspberry-pi-ssd-kit-256gb-zestaw-z-dyskiem-ssd-do-raspberry-pi-5-5056561805016.html",
     },
@@ -41,7 +41,7 @@ export const boards = [
       url: "https://botland.com.pl/karty-pamieci-i-dyski-do-raspberry-pi-5/25482-raspberry-pi-dysk-ssd-nvme-512gb-5056561805030.html",
     },
     {
-      name: "Raspberry Pi SSD Kit 512GB - zestaw z dyskiem SSD do Raspberry Pi 5",
+      name: "+ Raspberry Pi SSD Kit 512GB - zestaw z dyskiem SSD do Raspberry Pi 5",
       price: 279,
       url: "https://botland.com.pl/raspberry-pi-hat-nakladki-pci-express/25484-raspberry-pi-ssd-kit-512gb-zestaw-z-dyskiem-ssd-do-raspberry-pi-5-5056561805023.html",
     },
@@ -56,12 +56,12 @@ export const boards = [
       url: "https://botland.com.pl/kamery-do-raspberry-pi/22478-raspberry-pi-camera-hd-v3-12mpx-oryginalna-kamera-do-raspberry-pi-5056561803241.html",
     },
     {
-      name: "- Karta pamięci Raspberry Pi microSD 32GB 100MB/s Klasa A2",
+      name: "+ Karta pamięci Raspberry Pi microSD 32GB 100MB/s Klasa A2",
       price: 25.9,
       url: "https://botland.com.pl/karty-pamieci-raspberry-pi/25873-karta-pamieci-raspberry-pi-microsd-32gb-100mbs-klasa-a2-5056561804200.html",
     },
     {
-      name: "- Taśma Raspberry Pi - wyświetlacz 22 żyły raster 0,5mm - 15 żył raster 1mm - 20cm",
+      name: "+ Taśma Raspberry Pi - wyświetlacz 22 żyły raster 0,5mm - 15 żył raster 1mm - 20cm",
       price: 5.9,
       url: "https://botland.com.pl/tasmy-ffc-i-obudowy-do-kamer-do-raspberry-pi/23930-tasma-raspberry-pi-wyswietlacz-22-zyly-raster-05mm-15-zyl-raster-1mm-20cm-5056561803524.html",
     },
@@ -131,7 +131,7 @@ export const boards = [
       url: "https://botland.com.pl/czujniki-ruchu/22530-human-static-presence-module-lite-czujnik-mmwave-24-ghz-mr24hpc1-seeedstudio-101991030.html",
     },
     {
-      name: "- Grove - czujnik ruchu mini PIR",
+      name: "+ Grove - czujnik ruchu mini PIR",
       price: 22.9,
       url: "https://botland.com.pl/grove-czujniki-odleglosci-i-ruchu/13336-grove-czujnik-ruchu-mini-pir-5904422320522.html",
     },
@@ -146,7 +146,7 @@ export const boards = [
       url: "https://botland.com.pl/grove-czujniki-odleglosci-i-ruchu/11312-grove-czujnik-gestow-paj7620u2-5v-i2c-5903351246538.html",
     },
     {
-      name: "- Czujnik odległości, odbiciowy 3,3V/5V - 30mm - Waveshare 9523",
+      name: "+ Czujnik odległości, odbiciowy 3,3V/5V - 30mm - Waveshare 9523",
       price: 14.9,
       url: "https://botland.com.pl/czujniki-odleglosci/4459-czujnik-odleglosci-odbiciowy-33v-5v-30mm-waveshare-9523-5904422373986.html",
     },
@@ -161,12 +161,12 @@ export const boards = [
       url: "https://botland.com.pl/mikrofony-i-detektory-dzwieku/9715-sph0645lm4h-mikrofon-mems-i2s-adafruit-3421-5904422307103.html",
     },
     {
-      name: "Grove - uniwersalny konektor 4-pin",
+      name: "+ Grove - uniwersalny konektor 4-pin",
       price: 3.5,
       url: "https://botland.com.pl/grove-przewody-polaczeniowe/13343-grove-uniwersalny-konektor-4-pin-5904422341664.html",
     },
     {
-      name: "Grove - zestaw 5 przewodów żeńsko-żeńskich 4-pin - 2mm/5cm z zatrzaskiem",
+      name: "+ Grove - zestaw 5 przewodów żeńsko-żeńskich 4-pin - 2mm/5cm z zatrzaskiem",
       price: 6.5,
       url: "https://botland.com.pl/grove-przewody-polaczeniowe/4397-grove-zestaw-5-przewodow-zensko-zenskich-4-pin-2mm5cm-z-zatrzaskiem-5904422368951.html",
     },
@@ -176,29 +176,29 @@ export const boards = [
       url: "https://botland.com.pl/grove-przewody-polaczeniowe/4400-grove-zestaw-5-przewodow-zensko-zenskich-4-pin-2mm20cm-z-zatrzaskiem-5904422368937.html",
     },
     {
-      name: "Grove - zestaw 5 przewodów 4-pin 2mm - przewody męskie 2,54mm/20cm",
+      name: "+ Grove - zestaw 5 przewodów 4-pin 2mm - przewody męskie 2,54mm/20cm",
       price: 9.9,
       url: "https://botland.com.pl/grove-przewody-polaczeniowe/4402-grove-zestaw-5-przewodow-4-pin-2mm-przewody-meskie-254mm20cm-5904422352035.html",
     },
     {
-      name: "Grove - zestaw 5 przewodów 4-pin 2mm - przewody męskie 2,54mm/20cm",
-      price: 9.9,
-      url: "https://botland.com.pl/grove-przewody-polaczeniowe/4402-grove-zestaw-5-przewodow-4-pin-2mm-przewody-meskie-254mm20cm-5904422352035.html",
-    },
-    {
-      name: "Grove - zestaw 5 przewodów żeńsko-żeńskich 4-pin - 2mm/20cm bez zatrzasku",
+      name: "+ Grove - zestaw 5 przewodów żeńsko-żeńskich 4-pin - 2mm/20cm bez zatrzasku",
       price: 10.9,
       url: "https://botland.com.pl/grove-przewody-polaczeniowe/4395-grove-zestaw-5-przewodow-zensko-zenskich-4-pin-2mm20cm-bez-zatrzasku-5904422368913.html",
     },
     {
-      name: "- Grove - odbiornik podczerwieni IR 38kHz 940nm",
+      name: "+ Grove - odbiornik podczerwieni IR 38kHz 940nm",
       price: 15.9,
       url: "https://botland.com.pl/grove-czujniki-odleglosci-i-ruchu/4419-grove-odbiornik-podczerwieni-ir-38khz-940nm-5904422373931.html",
     },
     {
-      name: "- Grove - nadajnik podczerwieni IR 940nm",
+      name: "+ Grove - nadajnik podczerwieni IR 940nm",
       price: 16.9,
       url: "https://botland.com.pl/grove-czujniki-odleglosci-i-ruchu/4418-grove-nadajnik-podczerwieni-ir-940nm-5904422373924.html",
+    },
+    {
+      name: "+ Grove - LM358 czujnik natężenia światła otoczenia v1.2",
+      price: 14.9,
+      url: "https://botland.com.pl/grove-czujniki-swiatla-i-koloru/11330-grove-lm358-czujnik-natezenia-swiatla-otoczenia-v12-5903351246804.html",
     },
     {
       name: "- Zestaw rurek termokurczliwych 100szt. - różne kolory",
@@ -266,7 +266,12 @@ export const boards = [
       url: "https://botland.com.pl/czujniki-odbiciowe/16056-cytron-maker-reflect-analogowy-czujnik-odbiciowy-podczerwieni-ir-5904422365981.html",
     },
     {
-      name: "Moduł odbiornika podczerwieni 1838 - 38kHz - Iduino ST1089",
+      name: "+ Nadajnik podczerwieni 940nm - Iduino ST1087",
+      price: 4.5,
+      url: "https://botland.com.pl/diody-ir-podczerwone/12509-nadajnik-podczerwieni-940nm-iduino-st1087-5903351241120.html",
+    },
+    {
+      name: "+ Moduł odbiornika podczerwieni 1838 - 38kHz - Iduino ST1089",
       price: 4.9,
       url: "https://botland.com.pl/odbiorniki-podczerwieni/12508-modul-odbiornika-podczerwieni-1838-38khz-iduino-st1089-5903351241137.html",
     },
@@ -279,11 +284,6 @@ export const boards = [
       name: "- Odbiornik podczerwieni TSOP4838 - 38kHz",
       price: 3.9,
       url: "https://botland.com.pl/odbiorniki-podczerwieni/1047-odbiornik-podczerwieni-tsop4838-38khz-5904422355913.html",
-    },
-    {
-      name: "Nadajnik podczerwieni 940nm - Iduino ST1087",
-      price: 4.5,
-      url: "https://botland.com.pl/diody-ir-podczerwone/12509-nadajnik-podczerwieni-940nm-iduino-st1087-5903351241120.html",
     },
     {
       name: "Tranzystor bipolarny NPN 2N3904 40V/0,2A - 5szt.",
@@ -301,12 +301,12 @@ export const boards = [
       url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/11125-konektor-do-tasm-i-paskow-led-jst-sm-3-pin-sparkfun-cab-14575-5904422317249.html",
     },
     {
-      name: "Konektor do taśm i pasków LED RGB - wtyk",
+      name: "+ Konektor do taśm i pasków LED RGB - wtyk",
       price: 2.8,
       url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/6483-konektor-do-tasm-i-paskow-led-rgb-wtyk-5904422368159.html",
     },
     {
-      name: "Konektor do taśm i pasków LED RGB - gniazdo",
+      name: "+ Konektor do taśm i pasków LED RGB - gniazdo",
       price: 3.5,
       url: "https://botland.com.pl/akcesoria-do-paskow-i-tasm-led/6482-konektor-do-tasm-i-paskow-led-rgb-gniazdo-5904422368142.html",
     },
@@ -317,7 +317,7 @@ export const boards = [
     },
 
     {
-      name: "Raspberry Pi Zero 2 WH 512MB RAM - WiFi + BT 4.2 - ze złączami",
+      name: "- Raspberry Pi Zero 2 WH 512MB RAM - WiFi + BT 4.2 - ze złączami",
       price: 89.9,
       url: "https://botland.com.pl/moduly-i-zestawy-raspberry-pi-zero/25407-raspberry-pi-zero-2-wh-512mb-ram-wifi-bt-42-ze-zlaczami-5056561800011.html",
     },
@@ -330,6 +330,16 @@ export const boards = [
       name: "RP2040-Zero - płytka z mikrokontrolerem RP2040 - wersja mini - Waveshare 20187",
       price: 18.9,
       url: "https://botland.com.pl/plytki-z-mikrokontrolerem-rp2040/20536-rp2040-zero-plytka-z-mikrokontrolerem-rp2040-wersja-mini-waveshare-20187-5904422381561.html",
+    },
+    {
+      name: "- Ściągacz izolacji automatyczny Super 4 Plus - Jokari 20050",
+      price: 77.7,
+      url: "https://botland.com.pl/sciagacze-do-izolacji/22809-sciagacz-izolacji-automatyczny-super-4-plus-jokari-20050-4011391200500.html",
+    },
+    {
+      name: "- Ściągacz izolacji Allrounder - Jokari 30900",
+      price: 73.9,
+      url: "https://botland.com.pl/sciagacze-do-izolacji/22810-sciagacz-izolacji-allrounder-jokari-30900-4011391309005.html",
     },
   ],
   [
