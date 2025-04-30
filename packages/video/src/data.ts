@@ -2,6 +2,31 @@ import parse from "./utils/parse";
 
 export const videos = [
   {
+    // Touring a Modern Mediterranean Villa in Mallorca
+    url: "https://www.youtube.com/watch?v=Tii5Ptf2iVQ",
+    markers: parse(`
+0:53 elewacja
+1:24 panele
+1:40 wejście
+2:20 jadalnia
+2:24 salon
+2:40 oświetlenie +
+2:46 rtv, wentylacja +
+3:44 kuchnia
+4:15 schody +
+4:47 kącik +
+4:57 kącik
+5:10 sypialnia
+5:20 taras
+5:36 kącik
+5:40 łazienka
+6:12 sypialnia
+6:18 sypialnia
+6:36 kuchnia ogrodowa
+7:32 basen
+      `),
+  },
+  {
     // Casa A12: la super casa moderna in cemento con viste mozzafiato in Sicilia - Puleo Architettura
     url: "https://www.youtube.com/watch?v=6Y3PnuYD4HE",
     markers: parse(`
@@ -771,7 +796,6 @@ export const videos = [
       { text: "sypialnia", time: 8 * 60 + 22 },
     ],
   },
-
   {
     url: "https://www.youtube.com/watch?v=sDHvXDVJfUQ",
     markers: [
@@ -972,7 +996,6 @@ export const videos = [
       { text: "balkon", time: 14 * 60 + 18 },
     ],
   },
-
   {
     url: "https://www.youtube.com/watch?v=KBIcPrWK4kM",
     markers: [
