@@ -8,10 +8,11 @@ import Map from "ol/Map";
 import View from "ol/View";
 import { GeoJSON } from "ol/format";
 // import { Polygon } from "ol/geom";
+import { Point } from "ol/geom";
 import { Draw, Modify, Snap } from "ol/interaction";
 // import { Graticule as GraticuleLayer } from "ol/layer";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
-import { fromLonLat, transform } from "ol/proj";
+import { fromLonLat, getPointResolution, transform } from "ol/proj";
 // import OSM from "ol/source/OSM";
 // import TileWMS from "ol/source/TileWMS";
 // import VectorSource from "ol/source/Vector";
@@ -50,6 +51,28 @@ class RotateNorthControl extends Control {
   }
 }
 
+function mapFeatureCoordinates([x, y, h, v]: number[]) {
+  return [
+    [x, -y],
+    [x + h, -y],
+    [x + h, -y - v],
+    [x, -y - v],
+  ].map(([x, y]) => {
+    // https://stackoverflow.com/questions/65296242/move-given-point-by-x-y-meters-openlayers
+    const point = new Point(fromLonLat([20.75907447322544, 52.13477143461034]));
+    const resolution = getPointResolution(
+      "EPSG:3857",
+      1,
+      point.getCoordinates(),
+    );
+    point.translate(
+      (x * Math.cos(ROTATION) - y * Math.sin(ROTATION)) / resolution,
+      (x * Math.sin(ROTATION) + y * Math.cos(ROTATION)) / resolution,
+    );
+    return point.getCoordinates();
+  });
+}
+
 export default function App() {
   const [features] = useState(() => ({
     type: "FeatureCollection",
@@ -70,6 +93,33 @@ export default function App() {
       },
     ],
   }));
+  const [features2] = useState(() => {
+    const g = 0.48,
+      s = 0.28,
+      c = 0.16;
+
+    return {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              [9, 3, g + 6.6 + s + 1.8 + g, g + 6.75 + g],
+              [
+                9 + 1.2,
+                3 + 3.43,
+                g + 5.68 + 2.1 + 2.42 + 8.88 + g,
+                g + 3.6 + 1.6 + 1.5 + g,
+              ],
+              [9 + 1.2, 3 + 3.43 + g + 3.6 + 1.6, g + 3.6 + g, c + 2.9 + g],
+            ].map(mapFeatureCoordinates),
+          },
+        },
+      ],
+    };
+  });
   const [selectedCoord, setSelectedCoord] = useState<Coordinate>();
 
   // pull refs
@@ -104,6 +154,22 @@ export default function App() {
           fill: new Fill({
             color: "#ffcc33",
           }),
+        }),
+      }),
+    });
+
+    const source2 = new VectorSource({
+      features: new GeoJSON({
+        // dataProjection: 'EPSG:4326',
+        // featureProjection: "EPSG:3857",
+      }).readFeatures(features2),
+    }) as any; // https://github.com/infra-geo-ouverte/igo2-lib/issues/1516
+    const vector2 = new VectorLayer({
+      source: source2,
+      style: new Style({
+        stroke: new Stroke({
+          color: "blue",
+          width: 1,
         }),
       }),
     });
@@ -148,6 +214,7 @@ export default function App() {
         //   }),
         // }),
         vector,
+        vector2,
         debugLayer,
         // new GraticuleLayer({
         //   // the style to use for the lines, optional.
