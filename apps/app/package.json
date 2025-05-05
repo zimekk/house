@@ -25,6 +25,7 @@
     "@dev/paint": "workspace:*",
     "@dev/rooms": "workspace:*",
     "@dev/sketch": "workspace:*",
+    "@dev/three": "workspace:*",
     "@dev/tools": "workspace:*",
     "@dev/video": "workspace:*",
     "@dev/web": "workspace:*",
