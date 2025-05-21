@@ -1,4 +1,10 @@
-import { useEffect, useRef, useState } from "react";
+import {
+  type ChangeEventHandler,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
 // openlayers
 import { Control, ScaleLine, defaults as defaultControls } from "ol/control";
 import { type Coordinate } from "ol/coordinate";
@@ -73,6 +79,12 @@ function mapFeatureCoordinates([x, y, h, v]: number[]) {
   });
 }
 
+// https://media.audi.com/is/content/audi/global/assets/dimensions/q7/Q7PA2-TFSIe-Abmessungen_5-Sitzer.pdf
+// const w = 2.150;
+// const w = 3.750;
+const a6 = [1.886, 2.11, 4.939, 1.467]; // a6
+const q7 = [1.97, 2.212, 5.072, 1.735]; // q7
+
 export default function App() {
   const [features] = useState(() => ({
     type: "FeatureCollection",
@@ -94,6 +106,8 @@ export default function App() {
     ],
   }));
   const [features2] = useState(() => {
+    const [x, y] = [9, 3];
+    const [gw, gl, bw, bh] = [6.75, 6.6, 5.5, 2.25];
     const g = 0.48,
       s = 0.28,
       c = 0.16;
@@ -106,6 +120,8 @@ export default function App() {
           geometry: {
             type: "Polygon",
             coordinates: [
+              [x + g, y + g, gl, gw],
+              [x, y + g + (gw - bw) / 2, bh + g, bw],
               [9, 3, g + 6.6 + s + 1.8 + g, g + 6.75 + g],
               [
                 9 + 1.2,
@@ -120,7 +136,104 @@ export default function App() {
       ],
     };
   });
+  const [features3] = useState(() => {
+    const g = 0.48;
+    const [x, y] = [9, 3];
+    const [gw, gl, bw, bh] = [6.75, 6.6, 5.5, 2.25];
+    const [m, s] = [0.8, 0.15];
+
+    return {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              [x + g, y + g, gl, gw],
+              ...((w, d) => [[x + g + gl - d, y + g + (gw - w) / 2, d, w]])(
+                gw - 2 * 1,
+                0.6,
+              ),
+              [x, y + g + (gw - bw) / 2, bh + g, bw],
+              ...(([w, wl, l], s) => [
+                [x + 2 * g, y + g + gw / 2 + s, l, wl],
+                [x + 2 * g, y + g + (gw + wl - w) / 2 + s, l, w],
+                [
+                  x + 3 * g,
+                  y + g + (gw + wl - w) / 2 + s - m,
+                  l - 2 * g,
+                  w + 2 * m,
+                ],
+              ])(a6, s - bw / 2),
+              ...(([w, wl, l], s) => [
+                [x + 2 * g, y + g + gw / 2 - wl + s, l, wl],
+                [x + 2 * g, y + g + (gw + wl - w) / 2 - wl + s, l, w],
+                [
+                  x + 3 * g,
+                  y + g + (gw + wl - w) / 2 - wl + s - m,
+                  l - 2 * g,
+                  w + 2 * m,
+                ],
+              ])(q7, bw / 2 - s),
+            ].map(mapFeatureCoordinates),
+          },
+        },
+      ],
+    };
+  });
+  const [features4] = useState(() => {
+    const g = 0.48;
+    const [x, y] = [9, 3];
+    const [gw, gl, bw, bh] = [6.75, 6.6, 5.5, 2.25];
+    const [, s] = [0.8, 0.15];
+
+    return {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              ...(([w, wl, l], s) => [
+                // [x+2*g, y+g+(gw)/2+s, l, wl],
+                [x + 2 * g, y + g + (gw + wl - w) / 2 + s, l, w],
+                // [x+3*g, y+g+(gw+wl-w)/2+s-m, l-2*g, w+2*m],
+              ])(a6, s - bw / 2),
+            ].map(mapFeatureCoordinates),
+          },
+        },
+      ],
+    };
+  });
+  const [features5] = useState(() => {
+    const g = 0.48;
+    const [x, y] = [9, 3];
+    const [gw, gl, bw, bh] = [6.75, 6.6, 5.5, 2.25];
+    const [, s] = [0.8, 0.15];
+
+    return {
+      type: "FeatureCollection",
+      features: [
+        {
+          type: "Feature",
+          geometry: {
+            type: "Polygon",
+            coordinates: [
+              ...(([w, wl, l], s) => [
+                // [x+2*g, y+g+(gw)/2-wl+s, l, wl],
+                [x + 2 * g, y + g + (gw + wl - w) / 2 - wl + s, l, w],
+                // [x+3*g, y+g+(gw+wl-w)/2-wl+s-m, l-2*g, w+2*m],
+              ])(q7, bw / 2 - s),
+            ].map(mapFeatureCoordinates),
+          },
+        },
+      ],
+    };
+  });
   const [selectedCoord, setSelectedCoord] = useState<Coordinate>();
+  const [debug, setDebug] = useState(() => false);
 
   // pull refs
   const mapElement = useRef(null);
@@ -158,18 +271,53 @@ export default function App() {
       }),
     });
 
-    const source2 = new VectorSource({
-      features: new GeoJSON({
-        // dataProjection: 'EPSG:4326',
-        // featureProjection: "EPSG:3857",
-      }).readFeatures(features2),
-    }) as any; // https://github.com/infra-geo-ouverte/igo2-lib/issues/1516
     const vector2 = new VectorLayer({
-      source: source2,
+      source: new VectorSource({
+        features: new GeoJSON({
+          // dataProjection: 'EPSG:4326',
+          // featureProjection: "EPSG:3857",
+        }).readFeatures(features2),
+      }),
       style: new Style({
         stroke: new Stroke({
           color: "blue",
-          width: 1,
+          width: 1.5,
+        }),
+      }),
+    });
+
+    const vector3 = new VectorLayer({
+      source: new VectorSource({
+        features: new GeoJSON({}).readFeatures(features3),
+      }),
+      style: new Style({
+        stroke: new Stroke({
+          color: "green",
+          width: 0.5,
+        }),
+      }),
+    });
+
+    const vector4 = new VectorLayer({
+      source: new VectorSource({
+        features: new GeoJSON({}).readFeatures(features4),
+      }),
+      style: new Style({
+        stroke: new Stroke({
+          color: "orange",
+          width: 1.5,
+        }),
+      }),
+    });
+
+    const vector5 = new VectorLayer({
+      source: new VectorSource({
+        features: new GeoJSON({}).readFeatures(features5),
+      }),
+      style: new Style({
+        stroke: new Stroke({
+          color: "red",
+          width: 1.5,
         }),
       }),
     });
@@ -215,7 +363,10 @@ export default function App() {
         // }),
         vector,
         vector2,
-        debugLayer,
+        vector3,
+        vector4,
+        vector5,
+        ...(debug ? [debugLayer] : []),
         // new GraticuleLayer({
         //   // the style to use for the lines, optional.
         //   strokeStyle: new Stroke({
@@ -291,6 +442,17 @@ export default function App() {
   return (
     <div className={styles.App}>
       <h1>floors</h1>
+      <label>
+        <input
+          type="checkbox"
+          checked={debug}
+          onChange={useCallback<ChangeEventHandler<HTMLInputElement>>(
+            ({ target }) => setDebug(() => target.checked),
+            [],
+          )}
+        />
+        <span> debugLayer</span>
+      </label>
       <div ref={mapElement} className={styles.Map}></div>
       <div>{JSON.stringify(selectedCoord, null, 2)}</div>
     </div>
