@@ -1,6 +1,7 @@
 import { type MouseEventHandler, useCallback, useRef, useState } from "react";
 import { nanoid } from "nanoid";
 import Plan from "./Plan";
+import Print from "./Print";
 import styles from "./styles.module.scss";
 
 // https://codesandbox.io/s/2w0oy6qnvn
@@ -455,6 +456,8 @@ export default function App() {
       }}
     >
       <h1>design</h1>
+      <Print />
+      <a href="/api/design">download</a>
       <div
         style={{
           position: "relative",

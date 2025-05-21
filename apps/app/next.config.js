@@ -5,6 +5,7 @@ const CopyWebpackPlugin = require("copy-webpack-plugin");
 const nextConfig = {
   basePath: process.env.NODE_ENV === "production" ? "/house" : "",
   output: "export",
+  serverExternalPackages: ["@react-pdf/renderer"],
   transpilePackages: ["@acme/ui"],
   webpack: (config, options) => {
     config.plugins.push(
