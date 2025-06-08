@@ -1,6 +1,130 @@
 export const orders = [
   [
     {
+      name: "Raspberry Pi SSD Kit 512GB - zestaw z dyskiem SSD do Raspberry Pi 5",
+      url: "#RPI-25484",
+      price: 279.0,
+    },
+    {
+      name: "Raspberry Pi 27W USB-C Power Supply - oficjalny zasilacz USB C 5,1V / 5A do Raspberry Pi 5 - czarny",
+      url: "#RPI-23907",
+      price: 59.9,
+    },
+    {
+      name: "Karta pamięci Raspberry Pi microSD 32GB 100MB/s Klasa A2",
+      url: "#RPI-25873",
+      price: 25.9,
+    },
+    {
+      name: "Taśma Raspberry Pi - wyświetlacz 22 żyły raster 0,5mm - 15 żył raster 1mm - 20cm",
+      url: "#RPI-23930",
+      price: 5.9,
+    },
+    {
+      name: "Grove - czujnik ruchu mini PIR",
+      url: "#SEE-13336",
+      price: 22.9,
+    },
+    {
+      name: "Czujnik odległości, odbiciowy 3,3V/5V - 30mm - Waveshare 9523",
+      url: "#WSR-04459",
+      price: 14.9,
+    },
+    {
+      name: "Grove - nadajnik podczerwieni IR 940nm",
+      url: "#SEE-04418",
+      price: 16.9,
+    },
+    {
+      name: "Grove - odbiornik podczerwieni IR 38kHz 940nm",
+      url: "#SEE-04419",
+      price: 15.9,
+    },
+    {
+      name: "Nadajnik podczerwieni 940nm - Iduino ST1087",
+      url: "#GRL-12509",
+      price: 4.5,
+    },
+    {
+      name: "Moduł odbiornika podczerwieni 1838 - 38kHz - Iduino ST1089",
+      url: "#GRL-12508",
+      price: 4.9,
+    },
+    {
+      name: "Grove - uniwersalny konektor 4-pin",
+      url: "#SEE-13343",
+      price: 3.5,
+    },
+    {
+      name: "Grove - zestaw 5 przewodów żeńsko-żeńskich 4-pin - 2mm/5cm z zatrzaskiem",
+      url: "#SEE-04397",
+      price: 6.9,
+    },
+    {
+      name: "Grove - zestaw 5 przewodów 4-pin 2mm - przewody męskie 2,54mm/20cm",
+      url: "#SEE-04402",
+      price: 9.9,
+    },
+    {
+      name: "Grove - zestaw 5 przewodów żeńsko-żeńskich 4-pin - 2mm/20cm bez zatrzasku",
+      url: "#SEE-04395",
+      price: 10.9,
+    },
+    {
+      name: "Konektor do taśm i pasków LED RGB - wtyk",
+      url: "#LED-06483",
+      price: 2.8,
+    },
+    {
+      name: "Konektor do taśm i pasków LED RGB - gniazdo",
+      url: "#LED-06482",
+      price: 3.5,
+    },
+    {
+      name: "Grove - LM358 czujnik natężenia światła otoczenia v1.2",
+      url: "#SEE-11330",
+      price: 14.9,
+    },
+  ],
+  [
+    {
+      url: "#1187962",
+      name: "Raspberry Pi 5 8GB RAM, 2,4GHz, WiFi DualBand, Bluetooth, PCIe 2.0, 2x CSI/DSI, 2x USB 3.0, 2x 4Kp60 microHDMI",
+      price: 398.0,
+    },
+    {
+      url: "#1193705",
+      name: "Raspberry Pi Touch Display 2 - dotykowy wyświetlacz do komputerów Rapsberry Pi",
+      price: 293.9,
+    },
+    {
+      url: "#1183085",
+      name: "Raspberry Pi Camera Module 3",
+      price: 125.0,
+    },
+    {
+      url: "#1187963",
+      name: "Raspberry Pi Active Cooler - aktywny zestaw chłodzący",
+      price: 27.27,
+    },
+    {
+      url: "#574826",
+      name: "DFRobot Taśma LED RGB (120 diod WS2812), czarna",
+      price: 59.7,
+    },
+    {
+      url: "#1182974",
+      name: "Plasma Stick - sterownik pasków LED z Raspberry Pi Pico W",
+      price: 87.8,
+    },
+    {
+      url: "#587506",
+      name: "Płytka sterownika LED WS2812 dla ESP8266",
+      price: 9.36,
+    },
+  ],
+  [
+    {
       url: "https://abc-rc.pl/p/256/8655/obudowa-do-elektroniki-z76n-110x60x28mm-niebieska-uniwersalna.html",
       name: "Obudowa do elektroniki Z76N - 110x60x28mm - Niebieska - Uniwersalna",
       price: 5.6,
