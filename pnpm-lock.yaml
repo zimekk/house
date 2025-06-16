@@ -261,10 +261,10 @@ importers:
         version: 18.3.7(@types/react@18.3.23)
       '@vitejs/plugin-react':
         specifier: ^4.2.0
-        version: 4.5.1(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0))
+        version: 4.5.1(vite@6.3.5(@types/node@22.15.32)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0))
       vite:
         specifier: ~6.3.0
-        version: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0)
+        version: 6.3.5(@types/node@22.15.32)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0)
 
   packages/floors:
     dependencies:
@@ -1828,6 +1828,9 @@ packages:
 
   '@types/node@22.15.31':
     resolution: {integrity: sha512-jnVe5ULKl6tijxUhvQeNbQG/84fHfg+yMak02cT8QVhBx/F05rAVxCGBYYTh2EKz22D6JF5ktXuNwdx7b9iEGw==}
+
+  '@types/node@22.15.32':
+    resolution: {integrity: sha512-3jigKqgSjsH6gYZv2nEsqdXfZqIFGAV36XYYjf9KGZ3PSG+IhLecqPnI310RvjutyMwifE2hhhNEklOUrvx/wA==}
 
   '@types/offscreencanvas@2019.7.3':
     resolution: {integrity: sha512-ieXiYmgSRXUDeOntE1InxjWyvEelZGP63M+cGuquuRLuIKKT1osnkXjxev9B7d1nXSug5vpunx+gNlbVxMlC9A==}
@@ -5800,6 +5803,10 @@ snapshots:
     dependencies:
       undici-types: 6.21.0
 
+  '@types/node@22.15.32':
+    dependencies:
+      undici-types: 6.21.0
+
   '@types/offscreencanvas@2019.7.3': {}
 
   '@types/parse-json@4.0.2': {}
@@ -5982,7 +5989,7 @@ snapshots:
       react-dom: 18.3.1(react@18.3.1)
       sugar-high: 0.4.7
 
-  '@vitejs/plugin-react@4.5.1(vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0))':
+  '@vitejs/plugin-react@4.5.1(vite@6.3.5(@types/node@22.15.32)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0))':
     dependencies:
       '@babel/core': 7.26.10
       '@babel/plugin-transform-react-jsx-self': 7.25.9(@babel/core@7.26.10)
@@ -5990,7 +5997,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.9
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 6.3.5(@types/node@22.15.31)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0)
+      vite: 6.3.5(@types/node@22.15.32)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0)
     transitivePeerDependencies:
       - supports-color
 
@@ -7458,7 +7465,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.15.31
+      '@types/node': 22.15.32
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -8769,7 +8776,7 @@ snapshots:
       string_decoder: 1.1.1
       util-deprecate: 1.0.2
 
-  vite@6.3.5(@types/node@22.15.31)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0):
+  vite@6.3.5(@types/node@22.15.32)(jiti@2.4.2)(sass@1.89.1)(terser@5.42.0)(yaml@2.8.0):
     dependencies:
       esbuild: 0.25.1
       fdir: 6.4.4(picomatch@4.0.2)
@@ -8778,7 +8785,7 @@ snapshots:
       rollup: 4.37.0
       tinyglobby: 0.2.13
     optionalDependencies:
-      '@types/node': 22.15.31
+      '@types/node': 22.15.32
       fsevents: 2.3.3
       jiti: 2.4.2
       sass: 1.89.1
