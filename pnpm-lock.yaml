@@ -208,7 +208,7 @@ importers:
         version: 15.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.89.2)
       ol:
         specifier: ^10.0.0
-        version: 10.5.0
+        version: 10.6.1
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -273,7 +273,7 @@ importers:
         version: 15.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.89.2)
       ol:
         specifier: ^10.0.0
-        version: 10.5.0
+        version: 10.6.1
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -350,7 +350,7 @@ importers:
         version: 15.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.89.2)
       ol:
         specifier: ^10.0.0
-        version: 10.5.0
+        version: 10.6.1
       react:
         specifier: ^17.0.0 || ^18.0.0-0
         version: 18.3.1
@@ -3728,8 +3728,8 @@ packages:
     resolution: {integrity: sha512-gXah6aZrcUxjWg2zR2MwouP2eHlCBzdV4pygudehaKXSGW4v2AsRQUK+lwwXhii6KFZcunEnmSUoYp5CXibxtA==}
     engines: {node: '>= 0.4'}
 
-  ol@10.5.0:
-    resolution: {integrity: sha512-nHFx8gkGmvYImsa7iKkwUnZidd5gn1XbMZd9GNOorvm9orjW9gQvT3Naw/MjIasVJ3cB9EJUdCGR2EFAulMHsQ==}
+  ol@10.6.1:
+    resolution: {integrity: sha512-xp174YOwPeLj7c7/8TCIEHQ4d41tgTDDhdv6SqNdySsql5/MaFJEJkjlsYcvOPt7xA6vrum/QG4UdJ0iCGT1cg==}
 
   onetime@7.0.0:
     resolution: {integrity: sha512-VXJjc87FScF88uafS3JllDgvAm+c/Slfz06lorj2uAY34rlUu0Nt+v8wreiImcrgAjjIHp1rXpTDlLOGw29WwQ==}
@@ -4725,8 +4725,8 @@ packages:
     resolution: {integrity: sha512-G8ura3S+3Z2G+mkgNRq8dqaFZAuxfsxpBB8OCTGRTCtp+l/v9nbFNmCUP1BZMts3G1142MsZfn6eeUKrr4PD1Q==}
     engines: {node: '>=18'}
 
-  xml-utils@1.10.1:
-    resolution: {integrity: sha512-Dn6vJ1Z9v1tepSjvnCpwk5QqwIPcEFKdgnjqfYOABv1ngSofuAhtlugcUC3ehS1OHdgDWSG6C5mvj+Qm15udTQ==}
+  xml-utils@1.10.2:
+    resolution: {integrity: sha512-RqM+2o1RYs6T8+3DzDSoTRAUfrvaejbVHcp3+thnAtDKo8LskR+HomLajEy5UjTz24rpka7AxVBRR3g2wTUkJA==}
 
   y18n@5.0.8:
     resolution: {integrity: sha512-0pfFzegeDWJHJIAmTLRP2DwHjdF5s7jo9tuztdQxAhINCdvS+3nGINqPd00AphqJR/0LhANUS6/+7SCb98YOfA==}
@@ -7385,7 +7385,7 @@ snapshots:
       parse-headers: 2.0.6
       quick-lru: 6.1.2
       web-worker: 1.5.0
-      xml-utils: 1.10.1
+      xml-utils: 1.10.2
       zstddec: 0.1.0
 
   get-caller-file@2.0.5: {}
@@ -8047,7 +8047,7 @@ snapshots:
       define-properties: 1.2.1
       es-object-atoms: 1.1.1
 
-  ol@10.5.0:
+  ol@10.6.1:
     dependencies:
       '@types/rbush': 4.0.0
       earcut: 3.0.1
@@ -9195,7 +9195,7 @@ snapshots:
       string-width: 7.2.0
       strip-ansi: 7.1.0
 
-  xml-utils@1.10.1: {}
+  xml-utils@1.10.2: {}
 
   y18n@5.0.8: {}
 
