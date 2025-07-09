@@ -113,7 +113,7 @@ importers:
         version: 9.30.1(jiti@2.4.2)
       eslint-config-next:
         specifier: canary
-        version: 15.4.0-canary.116(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
+        version: 15.4.0-canary.119(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       postcss:
         specifier: ^8.5.1
         version: 8.5.6
@@ -193,13 +193,13 @@ importers:
     dependencies:
       '@react-pdf/renderer':
         specifier: ^4.3.0
-        version: 4.3.0
+        version: 4.3.0(react@18.3.1)
       '@react-three/drei':
         specifier: ^10.0.0
-        version: 10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(three@0.178.0)
+        version: 10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)
       '@react-three/fiber':
         specifier: ^8.17.12
-        version: 8.18.0(@types/react@18.3.23)(three@0.178.0)
+        version: 8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)
       nanoid:
         specifier: ^5.0.3
         version: 5.1.5
@@ -251,8 +251,8 @@ importers:
         specifier: ^2.0.0
         version: 2.0.2
       '@types/chrome':
-        specifier: ^0.0.330
-        version: 0.0.330
+        specifier: ^0.0.332
+        version: 0.0.332
       '@types/react':
         specifier: ^18.3.18
         version: 18.3.23
@@ -510,10 +510,10 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^10.0.0
-        version: 10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(three@0.178.0)
+        version: 10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)
       '@react-three/fiber':
         specifier: ^8.17.12
-        version: 8.18.0(@types/react@18.3.23)(three@0.178.0)
+        version: 8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)
       next:
         specifier: ~15.3.0
         version: 15.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.89.2)
@@ -658,10 +658,10 @@ importers:
     dependencies:
       '@react-three/drei':
         specifier: ^10.0.0
-        version: 10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(three@0.178.0)
+        version: 10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)
       '@react-three/fiber':
         specifier: ^8.17.12
-        version: 8.18.0(@types/react@18.3.23)(three@0.178.0)
+        version: 8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)
       next:
         specifier: ~15.3.0
         version: 15.3.3(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.89.2)
@@ -1487,8 +1487,8 @@ packages:
   '@next/env@15.3.5':
     resolution: {integrity: sha512-7g06v8BUVtN2njAX/r8gheoVffhiKFVt4nx74Tt6G4Hqw9HCLYQVx/GkH2qHvPtAHZaUNZ0VXAa0pQP6v1wk7g==}
 
-  '@next/eslint-plugin-next@15.4.0-canary.116':
-    resolution: {integrity: sha512-2L7G4Tb0f5E7PgYUcnFq0hUYP7W/zdygP/C5Gc4ZxMRfQinFY4W2FZptQXvgCtg7ofs9eibVpHT8dycspYzWNw==}
+  '@next/eslint-plugin-next@15.4.0-canary.119':
+    resolution: {integrity: sha512-s9YsG2rTGATdC6rzRiofWKAEHdEwGdFYCE3oZEWcfZGoxfmlTT27OO2j+3RFTNR2kOwoW7JCt86+TuyI0BSasA==}
 
   '@next/swc-darwin-arm64@15.3.3':
     resolution: {integrity: sha512-WRJERLuH+O3oYB4yZNVahSVFmtxRNjNF1I1c34tYMoJb0Pve+7/RaLAJJizyYiFhjYNGHRAE1Ri2Fd23zgDqhg==}
@@ -1925,8 +1925,8 @@ packages:
   '@types/babel__traverse@7.20.7':
     resolution: {integrity: sha512-dkO5fhS7+/oos4ciWxyEyjWe48zmG6wbCheo/G2ZnHx4fs3EU6YC6UM8rk56gAjNJ9P3MTH2jo5jb92/K6wbng==}
 
-  '@types/chrome@0.0.330':
-    resolution: {integrity: sha512-gOEL5l1hAJkKZV30kg/41mYKWyczurhXPkZCZI9vayaBjLx0yZMcJFKktTWCZD/cWVEc1FFTCev0B4Ou9pqwVg==}
+  '@types/chrome@0.0.332':
+    resolution: {integrity: sha512-Fl4luF9q/iroXMKbL1LQyr/nCKhKwkwkZQ9qeeePFECW/8SP/Lrx2kJ26wnpTpr0iAznkENoO8g924CP4mfNxw==}
 
   '@types/conventional-commits-parser@5.0.1':
     resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
@@ -2823,8 +2823,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.4.0-canary.116:
-    resolution: {integrity: sha512-PUObrhhWN/TJqD1Pp/AlxSXag0rx2KeDAoSuYc537bixY0sODe5F+4YkCFfB9z5IBCnXh8ve9ygVHIosvNG/4g==}
+  eslint-config-next@15.4.0-canary.119:
+    resolution: {integrity: sha512-nay/mSD3BFCLUFM1abCKFni6Pr0QGN7zVZGpKU0dMJK6kKX4kJfcJMRd7B0ZzXiB36dxnDvGc7Y5xbkVju4Svg==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -5605,7 +5605,7 @@ snapshots:
 
   '@next/env@15.3.5': {}
 
-  '@next/eslint-plugin-next@15.4.0-canary.116':
+  '@next/eslint-plugin-next@15.4.0-canary.119':
     dependencies:
       fast-glob: 3.3.1
 
@@ -5782,9 +5782,10 @@ snapshots:
 
   '@react-pdf/primitives@4.1.1': {}
 
-  '@react-pdf/reconciler@1.1.4':
+  '@react-pdf/reconciler@1.1.4(react@18.3.1)':
     dependencies:
       object-assign: 4.1.1
+      react: 18.3.1
       scheduler: 0.25.0-rc-603e6108-20241029
 
   '@react-pdf/render@4.3.0':
@@ -5800,7 +5801,7 @@ snapshots:
       parse-svg-path: 0.1.2
       svg-arc-to-cubic-bezier: 3.2.0
 
-  '@react-pdf/renderer@4.3.0':
+  '@react-pdf/renderer@4.3.0(react@18.3.1)':
     dependencies:
       '@babel/runtime': 7.27.1
       '@react-pdf/fns': 3.1.2
@@ -5808,13 +5809,14 @@ snapshots:
       '@react-pdf/layout': 4.4.0
       '@react-pdf/pdfkit': 4.0.3
       '@react-pdf/primitives': 4.1.1
-      '@react-pdf/reconciler': 1.1.4
+      '@react-pdf/reconciler': 1.1.4(react@18.3.1)
       '@react-pdf/render': 4.3.0
       '@react-pdf/types': 2.9.0
       events: 3.3.0
       object-assign: 4.1.1
       prop-types: 15.8.1
       queue: 6.0.2
+      react: 18.3.1
 
   '@react-pdf/stylesheet@6.1.0':
     dependencies:
@@ -5838,13 +5840,13 @@ snapshots:
       '@react-pdf/primitives': 4.1.1
       '@react-pdf/stylesheet': 6.1.0
 
-  '@react-three/drei@10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(three@0.178.0)':
+  '@react-three/drei@10.4.4(@react-three/fiber@8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0))(@types/react@18.3.23)(@types/three@0.178.0)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)':
     dependencies:
       '@babel/runtime': 7.27.6
       '@mediapipe/tasks-vision': 0.10.17
       '@monogrid/gainmap-js': 3.1.0(three@0.178.0)
-      '@react-three/fiber': 8.18.0(@types/react@18.3.23)(three@0.178.0)
-      '@use-gesture/react': 10.3.1
+      '@react-three/fiber': 8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)
+      '@use-gesture/react': 10.3.1(react@18.3.1)
       camera-controls: 2.10.1(three@0.178.0)
       cross-env: 7.0.3
       detect-gpu: 5.0.70
@@ -5852,36 +5854,42 @@ snapshots:
       hls.js: 1.6.6
       maath: 0.10.8(@types/three@0.178.0)(three@0.178.0)
       meshline: 3.3.1(three@0.178.0)
+      react: 18.3.1
       stats-gl: 2.4.2(@types/three@0.178.0)(three@0.178.0)
       stats.js: 0.17.0
-      suspend-react: 0.1.3
+      suspend-react: 0.1.3(react@18.3.1)
       three: 0.178.0
       three-mesh-bvh: 0.8.3(three@0.178.0)
       three-stdlib: 2.36.0(three@0.178.0)
       troika-three-text: 0.52.4(three@0.178.0)
-      tunnel-rat: 0.1.2(@types/react@18.3.23)
-      use-sync-external-store: 1.5.0
+      tunnel-rat: 0.1.2(@types/react@18.3.23)(react@18.3.1)
+      use-sync-external-store: 1.5.0(react@18.3.1)
       utility-types: 3.11.0
-      zustand: 5.0.6(@types/react@18.3.23)(use-sync-external-store@1.5.0)
+      zustand: 5.0.6(@types/react@18.3.23)(react@18.3.1)(use-sync-external-store@1.5.0(react@18.3.1))
+    optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - '@types/three'
       - immer
 
-  '@react-three/fiber@8.18.0(@types/react@18.3.23)(three@0.178.0)':
+  '@react-three/fiber@8.18.0(@types/react@18.3.23)(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(three@0.178.0)':
     dependencies:
       '@babel/runtime': 7.27.0
       '@types/react-reconciler': 0.26.7
       '@types/webxr': 0.5.21
       base64-js: 1.5.1
       buffer: 6.0.3
-      its-fine: 1.2.5(@types/react@18.3.23)
-      react-reconciler: 0.27.0
-      react-use-measure: 2.1.7
+      its-fine: 1.2.5(@types/react@18.3.23)(react@18.3.1)
+      react: 18.3.1
+      react-reconciler: 0.27.0(react@18.3.1)
+      react-use-measure: 2.1.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1)
       scheduler: 0.21.0
-      suspend-react: 0.1.3
+      suspend-react: 0.1.3(react@18.3.1)
       three: 0.178.0
-      zustand: 3.7.2
+      zustand: 3.7.2(react@18.3.1)
+    optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
 
@@ -6009,7 +6017,7 @@ snapshots:
     dependencies:
       '@babel/types': 7.28.0
 
-  '@types/chrome@0.0.330':
+  '@types/chrome@0.0.332':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
@@ -6230,9 +6238,10 @@ snapshots:
 
   '@use-gesture/core@10.3.1': {}
 
-  '@use-gesture/react@10.3.1':
+  '@use-gesture/react@10.3.1(react@18.3.1)':
     dependencies:
       '@use-gesture/core': 10.3.1
+      react: 18.3.1
 
   '@vercel/examples-ui@1.0.5(next@15.3.5(react-dom@18.3.1(react@18.3.1))(react@18.3.1)(sass@1.89.2))(react-dom@18.3.1(react@18.3.1))(react@18.3.1)':
     dependencies:
@@ -7062,9 +7071,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.4.0-canary.116(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3):
+  eslint-config-next@15.4.0-canary.119(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3):
     dependencies:
-      '@next/eslint-plugin-next': 15.4.0-canary.116
+      '@next/eslint-plugin-next': 15.4.0-canary.119
       '@rushstack/eslint-patch': 1.11.0
       '@typescript-eslint/eslint-plugin': 8.28.0(@typescript-eslint/parser@8.28.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3))(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
       '@typescript-eslint/parser': 8.28.0(eslint@9.30.1(jiti@2.4.2))(typescript@5.8.3)
@@ -7702,9 +7711,10 @@ snapshots:
       has-symbols: 1.1.0
       set-function-name: 2.0.2
 
-  its-fine@1.2.5(@types/react@18.3.23):
+  its-fine@1.2.5(@types/react@18.3.23)(react@18.3.1):
     dependencies:
       '@types/react-reconciler': 0.28.9(@types/react@18.3.23)
+      react: 18.3.1
     transitivePeerDependencies:
       - '@types/react'
 
@@ -8286,9 +8296,10 @@ snapshots:
 
   react-is@19.1.0: {}
 
-  react-reconciler@0.27.0:
+  react-reconciler@0.27.0(react@18.3.1):
     dependencies:
       loose-envify: 1.4.0
+      react: 18.3.1
       scheduler: 0.21.0
 
   react-refresh@0.13.0: {}
@@ -8304,7 +8315,11 @@ snapshots:
       react: 18.3.1
       react-dom: 18.3.1(react@18.3.1)
 
-  react-use-measure@2.1.7: {}
+  react-use-measure@2.1.7(react-dom@18.3.1(react@18.3.1))(react@18.3.1):
+    dependencies:
+      react: 18.3.1
+    optionalDependencies:
+      react-dom: 18.3.1(react@18.3.1)
 
   react@18.3.1:
     dependencies:
@@ -8811,7 +8826,9 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  suspend-react@0.1.3: {}
+  suspend-react@0.1.3(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   svg-arc-to-cubic-bezier@3.2.0: {}
 
@@ -8941,9 +8958,9 @@ snapshots:
 
   tslib@2.8.1: {}
 
-  tunnel-rat@0.1.2(@types/react@18.3.23):
+  tunnel-rat@0.1.2(@types/react@18.3.23)(react@18.3.1):
     dependencies:
-      zustand: 4.5.7(@types/react@18.3.23)
+      zustand: 4.5.7(@types/react@18.3.23)(react@18.3.1)
     transitivePeerDependencies:
       - '@types/react'
       - immer
@@ -9063,7 +9080,9 @@ snapshots:
       fast-deep-equal: 3.1.3
       react: 18.3.1
 
-  use-sync-external-store@1.5.0: {}
+  use-sync-external-store@1.5.0(react@18.3.1):
+    dependencies:
+      react: 18.3.1
 
   util-deprecate@1.0.2: {}
 
@@ -9243,15 +9262,19 @@ snapshots:
 
   zstddec@0.1.0: {}
 
-  zustand@3.7.2: {}
+  zustand@3.7.2(react@18.3.1):
+    optionalDependencies:
+      react: 18.3.1
 
-  zustand@4.5.7(@types/react@18.3.23):
+  zustand@4.5.7(@types/react@18.3.23)(react@18.3.1):
     dependencies:
-      use-sync-external-store: 1.5.0
+      use-sync-external-store: 1.5.0(react@18.3.1)
     optionalDependencies:
       '@types/react': 18.3.23
+      react: 18.3.1
 
-  zustand@5.0.6(@types/react@18.3.23)(use-sync-external-store@1.5.0):
+  zustand@5.0.6(@types/react@18.3.23)(react@18.3.1)(use-sync-external-store@1.5.0(react@18.3.1)):
     optionalDependencies:
       '@types/react': 18.3.23
-      use-sync-external-store: 1.5.0
+      react: 18.3.1
+      use-sync-external-store: 1.5.0(react@18.3.1)
