@@ -19,6 +19,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "audio",
         "box",
         "budget",
+        "colors",
         "design",
         "floors",
         "inspirations",

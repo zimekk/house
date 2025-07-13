@@ -17,6 +17,7 @@
     "@acme/utils": "workspace:*",
     "@dev/audio": "workspace:*",
     "@dev/budget": "workspace:*",
+    "@dev/colors": "workspace:*",
     "@dev/design": "workspace:*",
     "@dev/ext": "workspace:*",
     "@dev/floors": "workspace:*",
