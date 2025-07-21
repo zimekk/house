@@ -2,6 +2,79 @@ import parse from "./utils/parse";
 
 export const videos = [
   {
+    // Architecture and interior of a modern villa
+    url: "https://www.youtube.com/watch?v=I0vhvZxNeKg",
+    markers: parse(`
+0:11 ogród
+0:39 wejście
+1:22 kuchnia
+1:32 salon
+2:29 sypialnia
+2:50 łazienka
+2:58 sypialnia
+3:05 schody
+3:24 sypialnia
+3:37 gabinet
+3:50 sypialnia
+4:04 pokój
+4:35 taras
+      `),
+  },
+  {
+    // Forest villa. //Architecture and interior of a modern villa
+    url: "https://www.youtube.com/watch?v=p5JQj-mMFUM",
+    markers: parse(`
+0:12 elewacja +
+0:25 podjazd
+      `),
+  },
+  {
+    // Villa Safari
+    url: "https://www.youtube.com/watch?v=NpYLfeM-4a8",
+    markers: parse(`
+0:05 podjazd
+0:27 wejście
+0:46 jadalnia
+0:56 kuchnia
+1:21 salon
+1:38 schody
+1:54 kącik
+2:06 sypialnia
+2:11 łazienka
+2:25 sypialnia
+2:50 ogród
+2:59 elewacja
+3:19 gabinet
+4:38 oświetlenie
+      `),
+  },
+  {
+    // Villa Belki exterior
+    url: "https://www.youtube.com/watch?v=YSaChDhIz94",
+    markers: parse(`
+0:22 elewacja
+0:52 brama garażowa
+1:05 brama wjazdowa, ogrodzenie +
+      `),
+  },
+  {
+    // Villa Belki interior
+    url: "https://www.youtube.com/watch?v=Uhr9Zb-gJHc",
+    markers: parse(`
+0:02 wejście
+0:06 schody
+0:31 jadalnia
+0:36 kuchnia
+0:44 salon
+0:58 sypialnia
+1:06 konsola
+1:14 łazienka
+1:27 gabinet
+1:38 sypialnia
+1:51 basen
+      `),
+  },
+  {
     // Touring a Modern Mediterranean Villa in Mallorca
     url: "https://www.youtube.com/watch?v=Tii5Ptf2iVQ",
     markers: parse(`
@@ -525,13 +598,6 @@ export const videos = [
       `),
   },
   {
-    // Home tour - Nowoczesna STODOŁA w lesie. Na sprzedaż!
-    url: "https://www.youtube.com/watch?v=lVqY-5qN5Fk",
-    markers: parse(`
-0:28 elewacja
-      `),
-  },
-  {
     // HOME TOUR Spektakularny DOM z basenem nad brzegiem Narwi. Na sprzedaż!
     url: "https://www.youtube.com/watch?v=HyH3wc5wjdk",
     markers: parse(`
@@ -549,6 +615,7 @@ export const videos = [
     // Home tour - Nowoczesna STODOŁA w lesie. Na sprzedaż!
     url: "https://www.youtube.com/watch?v=lVqY-5qN5Fk",
     markers: parse(`
+0:28 elewacja
 6:20 schody
 7:00 sypialnia / skosy
       `),
