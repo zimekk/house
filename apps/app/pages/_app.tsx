@@ -24,6 +24,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "floors",
         "inspirations",
         "map",
+        "model",
         "paint",
         "rooms",
         "sketch",

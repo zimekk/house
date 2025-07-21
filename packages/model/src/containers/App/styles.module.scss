@@ -1,0 +1,17 @@
+.Container {
+  display: flex;
+  flex-direction: column;
+  flex: 1 1 auto;
+
+  .Wrapper {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+  }
+
+  svg {
+    border: 1px solid red;
+    flex: 1 1 auto;
+  }
+}

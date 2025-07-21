@@ -23,6 +23,7 @@
     "@dev/floors": "workspace:*",
     "@dev/inspirations": "workspace:*",
     "@dev/map": "workspace:*",
+    "@dev/model": "workspace:*",
     "@dev/paint": "workspace:*",
     "@dev/rooms": "workspace:*",
     "@dev/sketch": "workspace:*",
