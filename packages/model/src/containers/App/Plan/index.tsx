@@ -6,6 +6,11 @@ const styles = {
     stroke: "black",
     strokeWidth: 0.1,
   },
+  line: {
+    fill: "transparent",
+    stroke: "black",
+    strokeWidth: 0.01,
+  },
   blue: {
     filter: `url(#texture-blue)`,
     fill: "white",
@@ -65,6 +70,15 @@ function cross(a: Point, b: Point): Point {
   return [ax, by];
 }
 
+function length(a: Point, b: Point): number {
+  const [ax, ay] = a;
+  const [bx, by] = b;
+  const adx = Math.abs(ax - bx);
+  const ady = Math.abs(ay - by);
+
+  return Math.max(adx, ady);
+}
+
 function flipy(a: Point): Point {
   const [ax, ay] = a;
 
@@ -105,6 +119,12 @@ function rot270<T extends Record<string, Point>>(points: T) {
   );
 }
 
+const alpha = (35 * Math.PI) / 180;
+
+export const ria = (a: number) => [a, a / Math.tan(alpha), a / Math.sin(alpha)];
+export const rib = (b: number) => [b * Math.tan(alpha), b, b / Math.cos(alpha)];
+export const ric = (c: number) => [c * Math.sin(alpha), c * Math.cos(alpha), c];
+
 class Model {
   pointsA() {
     return { ...this.points(), ...this.pointsH() };
@@ -120,13 +140,15 @@ class Model {
   }
   pointsH() {
     const z: Point = [0, 0];
+    const h = 2.8;
+    const k = 2.5;
     const h_0 = cross(z, [0, -0.3]),
       h00 = z,
-      h01 = cross(z, [0, 2.8]),
-      h10 = cross(z, [0, 2.8 + 0.65]),
-      h11 = cross(z, [0, 2.8 + 0.65 + 2.8]),
-      d00 = cross(z, [0, 2.8 + 0.65 + 2]),
-      d01 = cross(z, [0, 2.8 + 0.65 + 2.8 + 1]),
+      h01 = cross(z, [0, h]),
+      h10 = cross(z, [0, h + 0.65]),
+      h11 = cross(z, [0, h + 0.65 + h]),
+      d00 = cross(z, [0, h + 0.65 + k]),
+      d01 = (([a]) => cross(z, [0, h + 0.65 + k + a]))(rib(4)),
       _ = z;
 
     return {
@@ -204,12 +226,94 @@ const model = new Model();
 const line = (p: Point) => `L${p.join(" ")}`;
 const move = (p: Point) => `M${p.join(" ")}`;
 
+export function meter(
+  a: Point,
+  b: Point,
+  c: Point,
+): [Point, Point, Point, Point, Point, number, number] {
+  const [ax, ay] = a;
+  const [bx, by] = b;
+  const [cx, cy] = c;
+  const mx = (bx + ax) / 2;
+  const my = (by + ay) / 2;
+  const acmdx = Math.abs(cx - mx);
+  const acmdy = Math.abs(cy - my);
+
+  if (acmdx > acmdy) {
+    const a1: Point = [cx, ay];
+    const b1: Point = [cx, by];
+    const c1 = c;
+
+    return [a, a1, b1, b, c1, Math.abs(ay - by), ay < by ? 90 : -90];
+  } else {
+    const a1: Point = [ax, cy];
+    const b1: Point = [bx, cy];
+    const c1 = c;
+
+    return [a, a1, b1, b, c1, Math.abs(ax - bx), ax < bx ? 0 : 180];
+  }
+}
+
+function Meter({ points, anchor }: { points: [Point, Point]; anchor: Point }) {
+  const fontSize = 0.4;
+  const [a, b] = points;
+  const c = anchor;
+  const [a0, a1, b1, b0, c1, t, r] = meter(a, b, c);
+
+  return (
+    <g>
+      <path
+        d={[a0, a1].map((p, i) => (i > 0 ? line(p) : move(p))).join(" ")}
+        style={styles.line}
+      />
+      <path
+        d={[a1, b1].map((p, i) => (i > 0 ? line(p) : move(p))).join(" ")}
+        style={styles.none}
+      />
+      <path
+        d={[b1, b0].map((p, i) => (i > 0 ? line(p) : move(p))).join(" ")}
+        style={styles.line}
+      />
+      <g transform={`translate(${c1.join(" ")})`}>
+        <g transform={`rotate(${r})`}>
+          <text style={{ fontSize }} textAnchor="middle" y={-0.2}>
+            {`${Math.round(1000 * t) / 1000}`}
+          </text>
+        </g>
+      </g>
+    </g>
+  );
+}
+
 export default function Plan() {
   const fontSize = 0.4;
 
   return (
     <g transform={`scale(${25}) translate(${[14, 4].join(",")})`}>
-      {(({ a, b, c, d, e, f, g, h, i, j, k, l, m, n, o, p, q, r, s, t }) => (
+      {(({
+        a,
+        b,
+        c,
+        d,
+        e,
+        f,
+        g,
+        h,
+        i,
+        j,
+        k,
+        l,
+        m,
+        n,
+        o,
+        p,
+        q,
+        r,
+        s,
+        t,
+        d00,
+        h11,
+      }) => (
         <g>
           <path
             d={[a, b, c, d, e, f, g, h, i, j, k, l, m, n]
@@ -239,6 +343,76 @@ export default function Plan() {
               .join(" ")}
             style={styles.none}
           />
+
+          <path
+            d={[
+              cross(h, a),
+              cross(d, b),
+              shift(cross(d, b), [0, 4]),
+              shift(cross(h, a), [0, 4]),
+            ]
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .concat(
+                [
+                  shift(cross(h, f), [0, -4]),
+                  shift(e, [0, -4]),
+                  e,
+                  cross(h, f),
+                ].map((p, i) => (i > 0 ? line(p) : move(p))),
+              )
+              .concat("z")
+              .join(" ")}
+            opacity={0.5}
+            style={styles.roof}
+          />
+
+          <path
+            d={((p, [_, b]) =>
+              rect(shift(p, [-0.48, -b]), shift(p, [2.1 + 0.48, 0])))(
+              shift(f, [1.72, 0]),
+              ria(length(d00, h11) + 0.65),
+            )
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.slab}
+          />
+
+          <path
+            d={((p, [_, b]) =>
+              rect(
+                shift(p, [0.48, b]),
+                shift(p, [
+                  -2.7 - 0.16 - 1.3 - 0.16 - 1.6 - 0.16 - 2.2 - 0.48,
+                  0,
+                ]),
+              ))(
+              shift(cross(d, b), [-0.48 - 2.7 - 0.16, 0]),
+              ria(length(d00, h11) + 0.65),
+            )
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.slab}
+          />
+
+          <Meter
+            points={[j, l]}
+            anchor={shift(middle(cross(l, j), l), [10.5 - 11.2, 0])}
+          />
+          <Meter
+            points={[h, i]}
+            anchor={shift(middle(cross(i, h), i), [10.5 - 11.2 - 2, 0])}
+          />
+          <Meter
+            points={[h, m]}
+            anchor={shift(middle(cross(m, h), m), [10.5 - 11.2 - 1.6, 0])}
+          />
+          <Meter points={[f, h]} anchor={shift(middle(f, g), [0.4, 0])} />
+          <Meter points={[m, n]} anchor={shift(middle(m, n), [0, -0.4])} />
+          <Meter points={[r, p]} anchor={shift(middle(o, p), [0, -0.4])} />
+          <Meter points={[t, s]} anchor={shift(middle(t, s), [0, 0.4])} />
           {Object.entries({
             a,
             b,
@@ -291,7 +465,7 @@ export default function Plan() {
         d00,
         d01,
       }) => (
-        <g transform={`translate(${[0, 18].join(",")})`}>
+        <g transform={`translate(${[0, 20].join(",")})`}>
           {[
             [l, g],
             [f, e],
@@ -327,7 +501,7 @@ export default function Plan() {
               .map((p, i) => (i > 0 ? line(p) : move(p)))
               .concat("z")
               .join(" ")}
-            style={styles.wood}
+            style={styles.wall}
           />
           {[/*[l,g], [f,e], */ [o, p]].map(([a, b], i) => (
             <path
@@ -356,10 +530,29 @@ export default function Plan() {
               .join(" ")}
             style={styles.wall}
           />
-
+          {/* <path
+            d={rect(cross(shift(g, [-.48, 0]), h00), cross(h, h01))
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wood}
+          /> */}
+          <path
+            d={[cross(h, d01), cross(e, d01), cross(e, d00), cross(h, d00)]
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.roof}
+          />
           <path
             d={[
               cross(h, d00),
+              cross(shift(f, [1.72 - 0.48, 0]), d00),
+              cross(shift(f, [1.72 - 0.48, 0]), shift(h11, [0, 0.65])),
+              cross(shift(f, [1.72 + 2.1 + 0.48, 0]), shift(h11, [0, 0.65])),
+              cross(shift(f, [1.72 + 2.1 + 0.48, 0]), d00),
               cross(e, d00),
               cross(e, h00),
               cross(f, h00),
@@ -373,6 +566,36 @@ export default function Plan() {
             style={styles.wall}
           />
           <path
+            d={rect(
+              cross(shift(e, [0, 0]), h01),
+              cross(shift(e, [-0.48, 0]), h00),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.slab}
+          />
+          {[2, 2]
+            .reduce((list, a, index) => list.concat(a + list[index]), [0.48])
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(e, [-list[index - 1], 0]), h01),
+                      cross(shift(e, [-w, 0]), h00),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+          {/* <path
             d={rect(
               cross(shift(e, [-0.48 - 2, 0]), h01),
               cross(shift(e, [-0.48, 0]), h00),
@@ -393,8 +616,41 @@ export default function Plan() {
               .concat("z")
               .join(" ")}
             style={styles.blue}
-          />
+          /> */}
           <path
+            d={rect(
+              cross(shift(e, [-0.48 - 4, 0]), h01),
+              cross(shift(e, [-0.48 - 4 - 0.48, 0]), h00),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.slab}
+          />
+          {[2, 2]
+            .reduce(
+              (list, a, index) => list.concat(a + list[index]),
+              [0.48 + 4 + 0.48],
+            )
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(e, [-list[index - 1], 0]), h01),
+                      cross(shift(e, [-w, 0]), h00),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+          {/* <path
             d={rect(
               cross(shift(e, [-0.48 - 2 - 2 - 0.48 - 2, 0]), h01),
               cross(shift(e, [-0.48 - 2 - 2 - 0.48, 0]), h00),
@@ -415,7 +671,7 @@ export default function Plan() {
               .concat("z")
               .join(" ")}
             style={styles.blue}
-          />
+          /> */}
           <path
             d={rect(
               cross(shift(f, [1.72, 0]), h01),
@@ -427,13 +683,50 @@ export default function Plan() {
               .join(" ")}
             style={styles.blue}
           />
-          <path
-            d={[cross(h, d01), cross(e, d01), cross(e, d00), cross(h, d00)]
+          {/* <path
+            d={rect(
+              cross(shift(f, [1.72, 0]), h01),
+              cross(shift(f, [1.72 + 2.1, 0]), h10),
+            )
               .map(flipy)
               .map((p, i) => (i > 0 ? line(p) : move(p)))
               .concat("z")
               .join(" ")}
-            style={styles.roof}
+            style={styles.slab}
+          /> */}
+          <path
+            d={rect(
+              cross(shift(f, [1.72, 0]), h11),
+              cross(shift(f, [1.72 + 2.1, 0]), h10),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.blue}
+          />
+          <path
+            d={rect(
+              cross(shift(f, [1.72, 0]), shift(h11, [0, 0.65])),
+              cross(shift(f, [1.72 + 2.1, 0]), h11),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.slab}
+          />
+          <Meter
+            points={[flipy(h00), flipy(h01)]}
+            anchor={shift(middle(flipy(h00), flipy(h10)), [-11.2, 0])}
+          />
+          <Meter
+            points={[flipy(h00), flipy(h10)]}
+            anchor={shift(middle(flipy(h00), flipy(h10)), [-11.2 - 0.8, 0])}
+          />
+          <Meter
+            points={[flipy(h00), flipy(d01)]}
+            anchor={shift(middle(flipy(h00), flipy(d01)), [-11.2 - 1.6, 0])}
           />
           {/* {[[h,e]].map(([a,b]) => (
         <path
@@ -472,7 +765,7 @@ export default function Plan() {
         d00,
         d01,
       }) => (
-        <g transform={`translate(${[13, 27].join(",")})`}>
+        <g transform={`translate(${[13, 30].join(",")})`}>
           {[
             [g, n],
             [t, p],
@@ -511,6 +804,47 @@ export default function Plan() {
           ))}
           <path
             d={rect(
+              cross(shift(e, [0, 0]), h01),
+              cross(shift(e, [0.48, 0]), h00),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.slab}
+          />
+          {[2, 2]
+            .reduce((list, a, index) => list.concat(a + list[index]), [0.48])
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(e, [list[index - 1], 0]), h01),
+                      cross(shift(e, [w, 0]), h00),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+          <path
+            d={rect(
+              cross(shift(d, [0, 0]), h01),
+              cross(shift(e, [0.48 + 4, 0]), h00),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wood}
+          />
+          {/* <path
+            d={rect(
               cross(shift(e, [0.48, 0]), h01),
               cross(shift(e, [0.48 + 2, 0]), h00),
             )
@@ -541,7 +875,7 @@ export default function Plan() {
               .concat("z")
               .join(" ")}
             style={styles.blue}
-          />
+          /> */}
           <path
             d={rect(
               cross(shift(c, [0, 0]), h01),
@@ -596,6 +930,14 @@ export default function Plan() {
         />
             ))} */}
           <path
+            d={rect(cross(e, shift(h11, [0, 0.65])), cross(b, h10))
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wall}
+          />
+          <path
             d={[
               cross(e, d00),
               cross(middle(e, b), d01),
@@ -609,6 +951,61 @@ export default function Plan() {
               .join(" ")}
             style={styles.wall}
           />
+          {[0.8]
+            .reduce(
+              (list, a, index) => list.concat(a + list[index]),
+              [4 + 0.68],
+            )
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(e, [list[index - 1], 0]), h11),
+                      cross(shift(e, [w, 0]), h10),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+          <path
+            d={rect(
+              cross(shift(e, [4 + 0.68, 0]), h10),
+              cross(shift(b, [-4 - 0.28, 0]), h11),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wood}
+          />
+          {[0.6, 1.1]
+            .reduce(
+              (list, a, index) => list.concat(a + list[index]),
+              [4 + 0.28],
+            )
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(b, [-list[index - 1], 0]), h11),
+                      cross(shift(b, [-w, 0]), h10),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
           {Object.entries({ h_0, h00, h01, h10, h11, d00, d01 }).map(([l, p]) =>
             (([x, y]) => (
               <text key={l} style={{ fontSize }} x={x} y={y}>
@@ -639,7 +1036,7 @@ export default function Plan() {
         d00,
         d01,
       }) => (
-        <g transform={`translate(${[4, 36].join(",")})`}>
+        <g transform={`translate(${[4, 40].join(",")})`}>
           {[
             [t, b],
             [b, a],
@@ -686,6 +1083,7 @@ export default function Plan() {
               .join(" ")}
             style={styles.wall}
           />
+
           {/* {[[p,b], [b,a], [n,m]].map(([a,b]) => (
         <path
           d={rect(cross(a,h01), cross(b,h10)).map(flipy).map((p, i) => i > 0 ? line(p) : move(p)).concat('z').join(' ')}
@@ -707,8 +1105,35 @@ export default function Plan() {
       />
     ))} */}
           <path
+            d={[cross(d, d01), cross(h, d01), cross(h, d00), cross(d, d00)]
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.roof}
+          />
+
+          <path
             d={[
               cross(d, d00),
+
+              cross(shift(d, [2.7 + 0.16, 0]), d00),
+              cross(shift(d, [2.7 + 0.16, 0]), shift(h11, [0, 0.65])),
+              cross(
+                shift(d, [
+                  4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16 + 2.2 + 0.48 + 0.48,
+                  0,
+                ]),
+                shift(h11, [0, 0.65]),
+              ),
+              cross(
+                shift(d, [
+                  4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16 + 2.2 + 0.48 + 0.48,
+                  0,
+                ]),
+                d00,
+              ),
+
               cross(h, d00),
               cross(h, h10),
               cross(n, h10),
@@ -723,10 +1148,56 @@ export default function Plan() {
               .join(" ")}
             style={styles.wall}
           />
+
           <path
             d={rect(
-              cross(shift(b, [0.48, 0]), shift(h00, [0, 0.9 + 0.6])),
-              cross(shift(b, [0.48 + 3.6, 0]), shift(h00, [0, 0.9])),
+              cross(shift(d, [0.48 + 2.7 + 0.16, 0]), h11),
+              cross(shift(d, [0.48 + 2.7 + 0.16 + 1.3, 0]), h10),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.blue}
+          />
+          {/* <path
+            d={rect(
+              cross(shift(d, [.48+4.16+.16, 0]), h11),
+              cross(shift(d, [.48+4.16+.16 + 2.7, 0]), h10),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.blue}
+          /> */}
+
+          {[0.6, 2.1]
+            .reduce(
+              (list, a, index) => list.concat(a + list[index]),
+              [0.48 + 4.16 + 0.16],
+            )
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(d, [list[index - 1], 0]), h11),
+                      cross(shift(d, [w, 0]), h10),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+          <path
+            d={rect(
+              cross(shift(d, [0.48 + 4.16 + 0.16 + 2.7 + 0.16, 0]), h11),
+              cross(shift(d, [0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6, 0]), h10),
             )
               .map(flipy)
               .map((p, i) => (i > 0 ? line(p) : move(p)))
@@ -735,13 +1206,55 @@ export default function Plan() {
             style={styles.blue}
           />
           <path
-            d={[cross(d, d01), cross(h, d01), cross(h, d00), cross(d, d00)]
+            d={rect(
+              cross(
+                shift(d, [0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16, 0]),
+                h11,
+              ),
+              cross(
+                shift(d, [
+                  0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16 + 2.2,
+                  0,
+                ]),
+                h10,
+              ),
+            )
               .map(flipy)
               .map((p, i) => (i > 0 ? line(p) : move(p)))
               .concat("z")
               .join(" ")}
-            style={styles.roof}
+            style={styles.blue}
           />
+          <path
+            d={rect(
+              cross(shift(d, [0.48 + 2.7 + 0.16, 0]), shift(h11, [0, 0.65])),
+              cross(
+                shift(d, [
+                  0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16 + 2.2,
+                  0,
+                ]),
+                h11,
+              ),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.slab}
+          />
+
+          <path
+            d={rect(
+              cross(shift(b, [0.48 + 0.6, 0]), shift(h00, [0, 0.9 + 0.6])),
+              cross(shift(b, [0.48 + 0.6 + 3.6, 0]), shift(h00, [0, 0.9])),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.blue}
+          />
+
           {Object.entries({ h_0, h00, h01, h10, h11, d00, d01 }).map(([l, p]) =>
             (([x, y]) => (
               <text key={l} style={{ fontSize }} x={x} y={y}>
@@ -754,7 +1267,7 @@ export default function Plan() {
 
       {/* DY */}
       {(({ a, f, h, i, j, k, l, m, h_0, h00, h01, h10, h11, d00, d01 }) => (
-        <g transform={`translate(${[-8, 27].join(",")})`}>
+        <g transform={`translate(${[-8, 30].join(",")})`}>
           {[[m, h]].map(([a, b], i) => (
             <path
               key={i}
@@ -767,7 +1280,7 @@ export default function Plan() {
             />
           ))}
           {[
-            /*[m,l], */ [k, j],
+            /*[m,l], [k, j], */
             [i, shift(h, [-0.48, 0])],
           ].map(([a, b], i) => (
             <path
@@ -780,14 +1293,16 @@ export default function Plan() {
               style={styles.wood}
             />
           ))}
-          {/* {[[m,h]].map(([a,b]) => (
-        <path
-          d={rect(cross(a,h01), cross(b,h10)).map(flipy).map((p, i) => i > 0 ? line(p) : move(p)).concat('z').join(' ')}
-          fill="transparent"
-          stroke="orange"
-          strokeWidth={.1}
-        />
-            ))} */}
+          {[[k, j]].map(([a, b]) => (
+            <path
+              d={rect(cross(a, h01), cross(b, h00))
+                .map(flipy)
+                .map((p, i) => (i > 0 ? line(p) : move(p)))
+                .concat("z")
+                .join(" ")}
+              style={styles.wall}
+            />
+          ))}
           <path
             d={rect(cross(shift(h, [-0.48, 0]), h10), cross(h, h00))
               .map(flipy)
@@ -798,8 +1313,8 @@ export default function Plan() {
           />
           <path
             d={rect(
-              cross(shift(k, [0.5, 2.35]), shift(h00, [0, 2.35])),
-              cross(shift(j, [-0.5, 0]), h00),
+              cross(shift(k, [0.69, 2.375]), shift(h00, [0, 2.375])),
+              cross(shift(k, [0.69 + 5.5, 0]), h00),
             )
               .map(flipy)
               .map((p, i) => (i > 0 ? line(p) : move(p)))
@@ -807,7 +1322,7 @@ export default function Plan() {
               .join(" ")}
             style={styles.gray}
           />
-          <path
+          {/* <path
             d={rect(
               cross(shift(h, [-0.48 - 0.7, 0]), h01),
               cross(shift(h, [-0.48, 0]), h00),
@@ -828,8 +1343,68 @@ export default function Plan() {
               .concat("z")
               .join(" ")}
             style={styles.blue}
+          /> */}
+          {[0.6 /*, 1*/]
+            .reduce((list, a, index) => list.concat(a + list[index]), [0])
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(i, [list[index - 1], 0]), h01),
+                      cross(shift(i, [w, 0]), h00),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={index === 2 ? styles.gray : styles.blue}
+                  />
+                ),
+            )}
+          <path
+            d={rect(
+              cross(shift(i, [0.6, 0]), shift(h00, [0, 2.375])),
+              cross(shift(i, [0.6 + 1, 0]), h00),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.gray}
           />
           <path
+            d={rect(
+              cross(shift(i, [0.6, 0]), shift(h00, [0, 2.375])),
+              cross(shift(i, [0.6 + 1, 0]), h01),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.gray}
+          />
+          {[0.6, 1.2]
+            .reduce((list, a, index) => list.concat(a + list[index]), [0.48])
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(h, [-list[index - 1], 0]), h01),
+                      cross(shift(h, [-w, 0]), h00),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+          {/* <path
             d={rect(
               cross(shift(i, [0, 0]), h01),
               cross(shift(i, [0.4, 0]), h00),
@@ -850,7 +1425,7 @@ export default function Plan() {
               .concat("z")
               .join(" ")}
             style={styles.blue}
-          />
+          /> */}
           <path
             d={[
               cross(m, h10),
@@ -875,6 +1450,14 @@ export default function Plan() {
         />
             ))} */}
           <path
+            d={rect(cross(a, shift(h11, [0, 0.65])), cross(f, h10))
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wall}
+          />
+          <path
             d={[
               cross(a, d00),
               cross(middle(a, f), d01),
@@ -888,6 +1471,63 @@ export default function Plan() {
               .join(" ")}
             style={styles.wall}
           />
+
+          {[0.6, 1.1]
+            .reduce(
+              (list, a, index) => list.concat(a + list[index]),
+              [4 + 0.28],
+            )
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(a, [list[index - 1], 0]), h11),
+                      cross(shift(a, [w, 0]), h10),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+          <path
+            d={rect(
+              cross(shift(a, [4 + 0.28, 0]), h10),
+              cross(shift(f, [-4 - 0.28, 0]), h11),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wood}
+          />
+          {[0.6, 1.1]
+            .reduce(
+              (list, a, index) => list.concat(a + list[index]),
+              [4 + 0.28],
+            )
+            .map(
+              (w, index, list) =>
+                index > 0 && (
+                  <path
+                    key={index}
+                    d={rect(
+                      cross(shift(f, [-list[index - 1], 0]), h11),
+                      cross(shift(f, [-w, 0]), h10),
+                    )
+                      .map(flipy)
+                      .map((p, i) => (i > 0 ? line(p) : move(p)))
+                      .concat("z")
+                      .join(" ")}
+                    style={styles.blue}
+                  />
+                ),
+            )}
+
           {Object.entries({ h_0, h00, h01, h10, h11, d00, d01 }).map(([l, p]) =>
             (([x, y]) => (
               <text key={l} style={{ fontSize }} x={x} y={y}>
@@ -895,6 +1535,22 @@ export default function Plan() {
               </text>
             ))(flipy(p)),
           )}
+          <Meter
+            points={[flipy(h00), flipy(h10)]}
+            anchor={shift(middle(flipy(h00), flipy(h10)), [-2.6 - 0.8, 0])}
+          />
+          <Meter
+            points={[flipy(h10), flipy(d00)]}
+            anchor={shift(middle(flipy(h10), flipy(d00)), [-2.6 - 0.8, 0])}
+          />
+          <Meter
+            points={[flipy(h00), flipy(d00)]}
+            anchor={shift(middle(flipy(h00), flipy(d00)), [-2.6 - 1.6, 0])}
+          />
+          <Meter
+            points={[flipy(h00), flipy(d01)]}
+            anchor={shift(middle(flipy(h00), flipy(d00)), [-2.6 - 2.4, 0])}
+          />
         </g>
       ))(model.pointsD())}
     </g>
