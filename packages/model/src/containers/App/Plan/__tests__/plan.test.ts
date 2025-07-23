@@ -1,5 +1,11 @@
 import { expect, test } from "vitest";
-import { shift, middle, cross, flipy, meter } from "..";
+import { point, shift, middle, cross, flipy, meter } from "..";
+
+test("point", () => {
+  const p = point([0, 1]);
+  expect(p.current()).toEqual([0, 1]);
+  expect(p.shift([1, 1])).toEqual([1, 2]);
+});
 
 test("shift", () => {
   expect(shift([1, 1], [1, -1])).toEqual([2, 0]);

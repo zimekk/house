@@ -11,6 +11,18 @@ const styles = {
     stroke: "black",
     strokeWidth: 0.01,
   },
+  area: {
+    fill: "violet",
+    stroke: "black",
+    strokeWidth: 0.01,
+    opacity: 0.5,
+  },
+  room: {
+    fill: "white",
+    stroke: "black",
+    strokeWidth: 0.01,
+    opacity: 0.5,
+  },
   blue: {
     filter: `url(#texture-blue)`,
     fill: "white",
@@ -85,8 +97,21 @@ export function flipy(a: Point): Point {
   return [ax, -ay];
 }
 
+export function point(a: Point) {
+  let point = a;
+  return {
+    current() {
+      return point;
+    },
+    shift(m: Point) {
+      point = shift(point, m);
+      return point;
+    },
+  };
+}
+
 function rect(a: Point, b: Point): Point[] {
-  return [a, cross(a, b), b, cross(b, a)];
+  return [a, cross(b, a), b, cross(a, b)];
 }
 
 function rot90<T extends Record<string, Point>>(points: T) {
@@ -396,6 +421,235 @@ export default function Plan() {
               .join(" ")}
             style={styles.slab}
           />
+
+          {(([a1, b1, c1, d1]) => (
+            <g>
+              {/* <path
+            d={[a1,b1,c1,d1]
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.area}
+          /> */}
+              {/* 
+{(([a1,c1]) => (
+(([b1,d1]) => (
+          <path
+            d={[a1,b1,c1,d1]
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.room}
+          />
+))([cross(a1,c1), cross(c1,a1)])
+))([a1, shift(a1, [3,4])])} */}
+
+              {((tl, tr, br, bl) => (
+                <g>
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    bl.current(),
+                    shift(bl.shift([3.9, 0]), [0, -3.44]),
+                    bl.shift([0.16, 0]),
+                  ])}
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    bl.current(),
+                    shift(bl.shift([1.38, 0]), [0, -2.04]),
+                    bl.shift([0.16, 0]),
+                  ])}
+                  {(([a2, c2]) => (
+                    <g>
+                      <path
+                        d={rect(a2, c2)
+                          .map((p, i) => (i > 0 ? line(p) : move(p)))
+                          .concat("z")
+                          .join(" ")}
+                        style={styles.room}
+                      />
+                      <path
+                        d={rect(
+                          shift(cross(a2, c2), [
+                            -1.38 - 0.16,
+                            (2.64 - 0.16) / 2,
+                          ]),
+                          shift(cross(a2, c2), [0, -(2.64 + 0.16) / 2]),
+                        )
+                          .map((p, i) => (i > 0 ? line(p) : move(p)))
+                          .concat("z")
+                          .join(" ")}
+                        style={styles.room}
+                      />
+                    </g>
+                  ))([bl.current(), shift(bl.shift([2.1, -3.44]), [0, 0])])}
+
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    br.current(),
+                    shift(br.shift([-4.16, 0]), [0, -3.44]),
+                    br.shift([-0.16, 0]),
+                  ])}
+
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    tl.current(),
+                    shift(tl.shift([3.9, 0]), [0, 3.44]),
+                    tl.shift([0.16, 0]),
+                  ])}
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    tl.current(),
+                    shift(tl.shift([1.38, 0]), [0, 2.04]),
+                    tl.shift([0.16, 0]),
+                  ])}
+
+                  {(([a2, c2]) => (
+                    <g>
+                      <path
+                        d={rect(a2, shift(c2, [-0.7, -1.94]))
+                          .map((p, i) => (i > 0 ? line(p) : move(p)))
+                          .concat("z")
+                          .join(" ")}
+                        style={styles.room}
+                      />
+                      <path
+                        d={rect(shift(a2, [0, 1.5]), c2)
+                          .map((p, i) => (i > 0 ? line(p) : move(p)))
+                          .concat("z")
+                          .join(" ")}
+                        style={styles.room}
+                      />
+                    </g>
+                  ))([
+                    tr.current(),
+                    shift(tr.shift([-2, 0]), [0, 3.44]),
+                    tr.shift([-0.16, 0]),
+                  ])}
+                  {(([a2, c2]) => (
+                    <g>
+                      <path
+                        d={rect(shift(a2, [-0.7, 0]), shift(c2, [0, -1.78]))
+                          .map((p, i) => (i > 0 ? line(p) : move(p)))
+                          .concat("z")
+                          .join(" ")}
+                        style={styles.room}
+                      />
+                      <path
+                        d={rect(shift(a2, [0, 1.66]), c2)
+                          .map((p, i) => (i > 0 ? line(p) : move(p)))
+                          .concat("z")
+                          .join(" ")}
+                        style={styles.room}
+                      />
+                    </g>
+                  ))([
+                    tr.current(),
+                    shift(tr.shift([-2, 0]), [0, 1.66 + 1.78]),
+                    tr.shift([-0.16, 0]),
+                  ])}
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    tr.current(),
+                    shift(tr.shift([-2.7, 0]), [0, 3.44]),
+                    tr.shift([-0.16, 0]),
+                  ])}
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    tr.current(),
+                    shift(tr.shift([-1.6, 0]), [0, 3.44]),
+                    tr.shift([-0.16, 0]),
+                  ])}
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([
+                    tr.current(),
+                    shift(tr.shift([-2.2, 0]), [0, 3.44]),
+                    tr.shift([-0.16, 0]),
+                  ])}
+
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([tl.current(), shift(tr.current(), [0, 3.6])])}
+
+                  {(([a2, c2]) => (
+                    <path
+                      d={rect(a2, c2)
+                        .map((p, i) => (i > 0 ? line(p) : move(p)))
+                        .concat("z")
+                        .join(" ")}
+                      style={styles.room}
+                    />
+                  ))([bl.current(), shift(br.current(), [0, 0])])}
+                </g>
+              ))(
+                point(shift(a1, [0.48, 0.48])),
+                point(shift(b1, [-0.48, 0.48])),
+                point(shift(c1, [-0.48, -0.48])),
+                point(shift(d1, [0.48, -0.48])),
+              )}
+            </g>
+          ))(rect(cross(h, a), e))}
 
           <Meter
             points={[j, l]}
