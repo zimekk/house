@@ -1,4 +1,4 @@
-type Point = [number, number];
+export type Point = [number, number];
 
 const styles = {
   none: {
@@ -49,28 +49,28 @@ const styles = {
   },
 };
 
-function shift(a: Point, b: Point): Point {
+export function shift(a: Point, b: Point): Point {
   const [ax, ay] = a;
   const [bx, by] = b;
 
   return [ax + bx, ay + by];
 }
 
-function middle(a: Point, b: Point): Point {
+export function middle(a: Point, b: Point): Point {
   const [ax, ay] = a;
   const [bx, by] = b;
 
   return [(ax + bx) / 2, (ay + by) / 2];
 }
 
-function cross(a: Point, b: Point): Point {
+export function cross(a: Point, b: Point): Point {
   const [ax] = a;
   const [, by] = b;
 
   return [ax, by];
 }
 
-function length(a: Point, b: Point): number {
+export function length(a: Point, b: Point): number {
   const [ax, ay] = a;
   const [bx, by] = b;
   const adx = Math.abs(ax - bx);
@@ -79,7 +79,7 @@ function length(a: Point, b: Point): number {
   return Math.max(adx, ady);
 }
 
-function flipy(a: Point): Point {
+export function flipy(a: Point): Point {
   const [ax, ay] = a;
 
   return [ax, -ay];
@@ -1149,7 +1149,7 @@ export default function Plan() {
             style={styles.wall}
           />
 
-          <path
+          {/* <path
             d={rect(
               cross(shift(d, [0.48 + 2.7 + 0.16, 0]), h11),
               cross(shift(d, [0.48 + 2.7 + 0.16 + 1.3, 0]), h10),
@@ -1159,6 +1159,17 @@ export default function Plan() {
               .concat("z")
               .join(" ")}
             style={styles.blue}
+          /> */}
+          <path
+            d={rect(
+              cross(shift(d, [0.48 + 2.7 + 0.16, 0]), h11),
+              cross(shift(d, [0.48 + 2.7 + 0.16 + 1.3 + 0.16, 0]), h10),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wood}
           />
           {/* <path
             d={rect(
@@ -1194,10 +1205,44 @@ export default function Plan() {
                   />
                 ),
             )}
-          <path
+          {/* <path
             d={rect(
               cross(shift(d, [0.48 + 4.16 + 0.16 + 2.7 + 0.16, 0]), h11),
               cross(shift(d, [0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6, 0]), h10),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.blue}
+          /> */}
+          <path
+            d={rect(
+              cross(shift(d, [0.48 + 4.16 + 0.16 + 2.7, 0]), h11),
+              cross(
+                shift(d, [0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16, 0]),
+                h10,
+              ),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wood}
+          />
+          <path
+            d={rect(
+              cross(
+                shift(d, [0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16, 0]),
+                h11,
+              ),
+              cross(
+                shift(d, [
+                  0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16 + 2.2,
+                  0,
+                ]),
+                h10,
+              ),
             )
               .map(flipy)
               .map((p, i) => (i > 0 ? line(p) : move(p)))
@@ -1224,6 +1269,29 @@ export default function Plan() {
               .concat("z")
               .join(" ")}
             style={styles.blue}
+          />
+          <path
+            d={rect(
+              cross(
+                shift(d, [
+                  0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16 + 0.7,
+                  0,
+                ]),
+                h11,
+              ),
+              cross(
+                shift(d, [
+                  0.48 + 4.16 + 0.16 + 2.7 + 0.16 + 1.6 + 0.16 + 2.2,
+                  0,
+                ]),
+                h10,
+              ),
+            )
+              .map(flipy)
+              .map((p, i) => (i > 0 ? line(p) : move(p)))
+              .concat("z")
+              .join(" ")}
+            style={styles.wood}
           />
           <path
             d={rect(

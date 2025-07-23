@@ -31,6 +31,7 @@
     "lint": "turbo run lint",
     "clean": "turbo run clean",
     "reset": "pnpm store prune && rm -rf node_modules apps/*/node_modules packages/*/node_modules",
+    "test": "turbo run test",
     "update:browserlist": "pnpm update caniuse-lite -r",
     "update:dedupe": "pnpm dedupe",
     "update:latest": "pnpm --recursive update --interactive --latest",

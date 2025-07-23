@@ -20,6 +20,8 @@ jobs:
           run_install: false
       - name: Install dependencies
         run: pnpm install
+      - name: Run tests
+        run: pnpm test
       - name: Build application
         run: pnpm build
       # https://github.com/marketplace/actions/deploy-to-github-pages#using-an-ssh-deploy-key-

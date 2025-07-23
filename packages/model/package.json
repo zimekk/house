@@ -5,6 +5,7 @@
   "private": true,
   "scripts": {
     "lint": "TIMING=1 eslint \"**/*.{ts,tsx,js,jsx}\" --fix",
+    "test": "vitest",
     "clean": "rm -rf .turbo"
   },
   "sideEffects": false,
@@ -28,6 +29,9 @@
       ]
     }
   },
+  "jest": {
+    "preset": "@dev"
+  },
   "peerDependencies": {
     "next": "~15.1.0 || ~15.2.0 || ~15.3.0 || ~15.4.0",
     "react": "^17.0.0 || ^18.0.0-0",
@@ -47,6 +51,7 @@
     "@types/styled-components": "^5.1.26",
     "@types/three": "^0.178.0",
     "eslint": "^9.18.0",
-    "typescript": "^5.7.3"
+    "typescript": "^5.7.3",
+    "vitest": "^3.2.4"
   }
 }
