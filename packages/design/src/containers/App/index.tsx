@@ -446,7 +446,6 @@ export default function App() {
   const [points, setPoints] = useState<Record<string, PointType>>(() => ({}));
   const ref = useRef<SVGSVGElement>(null);
 
-  console.log({ points });
   return (
     <div
       style={{
