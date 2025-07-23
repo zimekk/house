@@ -240,7 +240,7 @@ export default function App() {
 
   // create state ref that can be accessed in OpenLayers onclick callback function
   //  https://stackoverflow.com/a/60643670
-  const mapRef = useRef<Map>();
+  const mapRef = useRef<Map>(null);
   // const featuresLayerRef = useRef<VectorLayer<VectorSource>>();
 
   // initialize map on first render - logic formerly put into componentDidMount

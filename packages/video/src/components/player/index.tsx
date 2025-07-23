@@ -10,7 +10,7 @@ import React, {
 import YouTubePlayer from "youtube-player";
 import styles from "./styles.module.scss";
 
-function useInView(ref: RefObject<HTMLDivElement>) {
+function useInView(ref: RefObject<HTMLDivElement | null>) {
   const [inView, setInView] = useState(false);
 
   useEffect(() => {

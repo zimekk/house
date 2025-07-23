@@ -9,7 +9,7 @@ import House from "../House";
 // https://codesandbox.io/s/rrppl0y8l4
 function Box(props: any) {
   // This reference gives us direct access to the THREE.Mesh object
-  const ref = useRef<Mesh>();
+  const ref = useRef<Mesh>(null);
   // Hold state for hovered and clicked events
   const [hovered, hover] = useState(false);
   const [clicked, click] = useState(false);
