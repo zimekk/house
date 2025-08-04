@@ -1615,8 +1615,9 @@ export default function Plan() {
               style={styles.wood}
             />
           ))}
-          {[[k, j]].map(([a, b]) => (
+          {[[k, j]].map(([a, b], i) => (
             <path
+              key={i}
               d={rect(cross(a, h01), cross(b, h00))
                 .map(flipy)
                 .map((p, i) => (i > 0 ? line(p) : move(p)))
