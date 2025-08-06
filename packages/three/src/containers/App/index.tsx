@@ -2,7 +2,8 @@ import React from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls } from "@react-three/drei";
 import { Environment } from "./Environment";
-import { House } from "./House";
+import { House } from "./Floor";
+// import { House } from "./House";
 
 export default function App() {
   return (

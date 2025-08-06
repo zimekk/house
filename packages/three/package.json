@@ -34,6 +34,7 @@
     "react-dom": "^17.0.0 || ^18.0.0-0 || ^19.0.0"
   },
   "dependencies": {
+    "@dev/model": "workspace:*",
     "@react-three/csg": "^4.0.0",
     "@react-three/drei": "^10.0.0",
     "@react-three/fiber": "^9.2.0",

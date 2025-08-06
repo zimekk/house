@@ -597,6 +597,9 @@ importers:
 
   packages/three:
     dependencies:
+      '@dev/model':
+        specifier: workspace:*
+        version: link:../model
       '@react-three/csg':
         specifier: ^4.0.0
         version: 4.0.0(three@0.179.1)

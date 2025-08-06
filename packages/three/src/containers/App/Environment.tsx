@@ -5,6 +5,7 @@ import {
   Environment as EnvironmentImpl,
   GizmoHelper,
   GizmoViewport,
+  Outlines,
 } from "@react-three/drei";
 
 export const Environment = memo(
@@ -15,9 +16,9 @@ export const Environment = memo(
         position={direction}
         intensity={0.5}
         shadow-mapSize={1024}
-        castShadow
+        // castShadow
       />
-      <directionalLight
+      {/* <directionalLight
         position={[-5, 5, 5]}
         intensity={0.1}
         shadow-mapSize={128}
@@ -34,13 +35,13 @@ export const Environment = memo(
         intensity={0.1}
         shadow-mapSize={128}
         castShadow
-      />
+      /> */}
       <gridHelper
         args={[30, 30, "#4D089A", "#4D089A"]}
-        position={[0, -1.5, 0]}
+        position={[0, 0, 0]}
         rotation={[0, 0, 0]}
       />
-      <AccumulativeShadows
+      {/* <AccumulativeShadows
         frames={100}
         alphaTest={0.85}
         opacity={0.75}
@@ -55,7 +56,7 @@ export const Environment = memo(
           position={direction}
           bias={0.001}
         />
-      </AccumulativeShadows>
+      </AccumulativeShadows> */}
       <EnvironmentImpl preset="city" />
       <GizmoHelper>
         <GizmoViewport
