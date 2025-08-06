@@ -337,14 +337,17 @@ export const inspirations = [
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2022.jpg_2857_2857.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2022.jpg_2857_2857.jpg",
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%205.jpg_2840_2840.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%205.jpg_2840_2840.jpg",
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2021.jpg_2856_2856.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2021.jpg_2856_2856.jpg",
   },
   {
@@ -353,6 +356,7 @@ export const inspirations = [
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2012.jpg_2847_2847.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2012.jpg_2847_2847.jpg",
   },
   {
@@ -365,10 +369,12 @@ export const inspirations = [
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2019.jpg_2854_2854.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2019.jpg_2854_2854.jpg",
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2018.jpg_2853_2853.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2018.jpg_2853_2853.jpg",
   },
   {
@@ -381,6 +387,7 @@ export const inspirations = [
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2015.jpg_2850_2850.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20Architecten_CLT_Houtbouw_Speehuis_image%2015.jpg_2850_2850.jpg",
   },
   {
@@ -417,14 +424,17 @@ export const inspirations = [
   },
   {
     url: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20architecten_Perspectief%2001_web.jpg_2133_2133.jpg",
+    tag: "lukarna",
     src: "https://www.speearchitecten.nl/images/plus_afbeelding/715x497/Spee%20architecten_Perspectief%2001_web.jpg_2133_2133.jpg",
   },
   {
     url: "https://static.designboom.com/wp-content/uploads/2023/06/speehuis-spee-architecten-netherlands-bamboo-slats-designboom-1800.jpg",
+    tag: "lukarna",
     src: "https://static.designboom.com/wp-content/uploads/2023/06/speehuis-spee-architecten-netherlands-bamboo-slats-designboom-1800.jpg",
   },
   {
     url: "https://static.designboom.com/wp-content/uploads/2023/06/speehuis-spee-architecten-netherlands-bamboo-slats-designboom-31800.jpg",
+    tag: "lukarna",
     src: "https://static.designboom.com/wp-content/uploads/2023/06/speehuis-spee-architecten-netherlands-bamboo-slats-designboom-31800.jpg",
   },
   {
@@ -813,38 +823,47 @@ export const inspirations = [
   },
   {
     url: "https://milke.se/portfolio/3_barns-sala-studio/",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-06-1140x740.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-05.jpg",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-05.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-02.jpg",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-02.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-01.jpg",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-01.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-04.jpg",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-04.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-06.jpg",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-06.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-07.jpg",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-07.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-08.jpg",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/3_BARNS-08.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2024/05/03-2.png",
+    tag: "elewacja",
     src: "https://milke.se/wp-content/uploads/2024/05/03-2.png",
   },
   {
@@ -869,10 +888,12 @@ export const inspirations = [
   },
   {
     url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-5-scaled.jpg",
+    tag: "lukarna",
     src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-5-scaled.jpg",
   },
   {
     url: "https://milke.se/wp-content/uploads/2023/06/Moogaa-3-scaled.jpg",
+    tag: "lukarna",
     src: "https://milke.se/wp-content/uploads/2023/06/Moogaa-3-scaled.jpg",
   },
   {
@@ -949,6 +970,7 @@ export const inspirations = [
   },
   {
     url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-2-scaled.jpg",
+    tag: "lukarna",
     src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-2-scaled.jpg",
   },
   {
@@ -973,6 +995,7 @@ export const inspirations = [
   },
   {
     url: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-13-scaled.jpg",
+    tag: "lukarna",
     src: "https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-13-scaled.jpg",
   },
   {
@@ -1061,6 +1084,7 @@ export const inspirations = [
   },
   {
     url: "https://milke.se/wp-content/uploads/2021/09/Nowa-Cegla-MILKE-kolor-biel-skalna-Wola-Golkowksa-1.jpg",
+    tag: "elewacja-",
     src: "https://milke.se/wp-content/uploads/2021/09/Nowa-Cegla-MILKE-kolor-biel-skalna-Wola-Golkowksa-1.jpg",
   },
   {
@@ -1073,6 +1097,7 @@ export const inspirations = [
   },
   {
     url: "https://milke.se/wp-content/uploads/2021/02/Nowa-Cegla-MILKE-kolor-szary-226.png",
+    tag: "elewacja-",
     src: "https://milke.se/wp-content/uploads/2021/02/Nowa-Cegla-MILKE-kolor-szary-226.png",
   },
   {
@@ -1137,14 +1162,17 @@ export const inspirations = [
   },
   {
     url: "https://baumit.pl/referencje/osiedle-vitalite",
+    tag: "lukarna",
     src: "https://baumit.pl/files/pl/references/foty-2021/2-multi-family-residential/2.%20budynek%20wielorodzinny/Osiedle-Vitalite_Warszawa/nowe/image-web/mWarszawa_Osiedle_Vitalite_DSC_2460.jpg",
   },
   {
     url: "https://baumit.pl/referencje/osiedle-vitalite",
+    tag: "lukarna",
     src: "https://baumit.pl/files/pl/references/foty-2021/2-multi-family-residential/2.%20budynek%20wielorodzinny/Osiedle-Vitalite_Warszawa/nowe/image-web/mWarszawa_Osiedle_Vitalite_DSCF2523.jpg",
   },
   {
     url: "https://baumit.pl/referencje/osiedle-vitalite",
+    tag: "lukarna",
     src: "https://baumit.pl/files/pl/references/foty-2021/2-multi-family-residential/2.%20budynek%20wielorodzinny/Osiedle-Vitalite_Warszawa/nowe/image-web/mWarszawa_Osiedle_Vitalite_DSCF2526.jpg",
   },
   {
@@ -1339,7 +1367,7 @@ export const inspirations = [
   },
   {
     url: "https://www.websterarchitecture.com.au/montagna/",
-    tag: "wejście",
+    tag: "wejście, lukarna",
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2024/05/Webster-Rosanna-014.jpg",
   },
   {
@@ -1453,6 +1481,7 @@ export const inspirations = [
   },
   {
     url: "https://www.websterarchitecture.com.au/kilrush/",
+    tag: "wejscie",
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/AGUSHI-KILRUSH-003.jpg",
   },
   {
@@ -1473,6 +1502,7 @@ export const inspirations = [
   },
   {
     url: "https://www.websterarchitecture.com.au/",
+    tag: "lukarna",
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Untitled-1-copy-scaled.jpg",
   },
   {
@@ -1497,6 +1527,7 @@ export const inspirations = [
   },
   {
     url: "https://www.websterarchitecture.com.au/hudson/",
+    tag: "lukarna",
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/03/StudioPiper_EditionRowville_External02-scaled.jpg",
   },
   {
@@ -1529,6 +1560,7 @@ export const inspirations = [
   },
   {
     url: "https://www.websterarchitecture.com.au/williams/",
+    tag: "ogrodzenie",
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Mazzei_Essendon0N3A3154-scaled.jpg",
   },
   {
@@ -1597,6 +1629,7 @@ export const inspirations = [
   },
   {
     url: "https://www.websterarchitecture.com.au/caroline/",
+    tag: "lukarna",
     src: "https://www.websterarchitecture.com.au/wp-content/uploads/2020/03/Webster_Clifton_1.jpg",
   },
   {
@@ -1725,10 +1758,12 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/mount-waverley-i",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b5bfd796d428b6501f2fc_Enscape_2024-03-25-17-19-59.webp",
   },
   {
     url: "https://www.mazzei.com.au/projects/mount-waverley-i",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/663b5bfcd19e4ea2e88b4ad9_Enscape_2024-03-25-17-21-24.webp",
   },
   {
@@ -1761,10 +1796,12 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/camberwelliii",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6214_HUA_FRONT%2003.webp",
   },
   {
     url: "https://www.mazzei.com.au/projects/camberwelliii",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6211_HUA_FRONT%252002-p-2600.webp",
   },
   {
@@ -1793,6 +1830,7 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/hamptoni",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6183_111-Linacre-019.webp",
   },
   {
@@ -1837,6 +1875,7 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/essendoni",
+    tag: "kuchnia",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61c1_Mazzei_Essendon0N3A3154-min-p-2600.webp",
   },
   {
@@ -1877,6 +1916,7 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/camberwelli",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6155_RHL_Barkly%20Facade4543.webp",
   },
   {
@@ -1921,6 +1961,7 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/camberwelli",
+    tag: "swietlik",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6172_RHL_Barkly%2520Powder021436-p-1600.webp",
   },
   {
@@ -1929,6 +1970,7 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/balwyni",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61ae_Mazzei_Belmore0N3A3488-1-min.jpg",
   },
   {
@@ -2089,6 +2131,7 @@ export const inspirations = [
   },
   {
     url: "https://www.mazzei.com.au/projects/hawthorneasti",
+    tag: "lukarna",
     src: "https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61e3_HawthornEastFront.webp",
   },
   {
@@ -2173,6 +2216,7 @@ export const inspirations = [
   },
   {
     url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=2daf3099-05a3-4316-b4d5-10fb28d6f8bc",
+    tag: "szklarnia",
     src: "https://cms.nowoczesnastodola.pl/assets/377b704b-02ea-477b-a00e-fdc9801c55ab/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2016.jpg?width=2560&height=1280&format=webp&quality=100",
   },
   {
@@ -2217,6 +2261,7 @@ export const inspirations = [
   },
   {
     url: "https://nowoczesnastodola.pl/inspiracje/czarne-stodoly-w-ksiaznicach-meeko-architekci?image=05ce3930-a3a8-42e2-a4fb-4e89848e47fb",
+    tag: "szklarnia",
     src: "https://cms.nowoczesnastodola.pl/assets/eeae20ac-c7f6-4a17-9ae5-d6ca08a52fd1/nowoczesna-stodo%C5%82a-czarne-stodo%C5%82y-w-ksia%CC%A8z%CC%87nicach-meeko-architekci%2017.jpg?width=2560&height=1624&format=webp&quality=100",
   },
   {
@@ -2637,30 +2682,37 @@ export const inspirations = [
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=3",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2023/11/auroom-cala-glass-home-web-1920.jpg",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=4",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-with-huum-heater-cliff-1-web.png",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=5",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-with-huum-heater-cliff-2-web.png",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=6",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-with-huum-heater-cliff-3-web.jpg",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=7",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-with-huum-heater-steel-1-web.png",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=8",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-with-huum-heater-steel-2-web.png",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=9",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-with-huum-heater-steel-3-web.jpg",
   },
   {
@@ -2669,18 +2721,22 @@ export const inspirations = [
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=4",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-mini-with-huum-heater-cliff-1-web.png",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=5",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-mini-with-huum-heater-cliff-2-web.png",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=6",
+    tag: "sauna",
     src: "https://auroomwellness.com/wp-content/uploads/2024/08/auroom-cala-glass-mini-with-huum-heater-cliff-3-web.jpg",
   },
   {
     url: "https://auroomwellness.com/product/cala/#lg=1&slide=7",
+    tag: "sauna+",
     src: "https://auroomwellness.com/wp-content/uploads/2023/11/cala-mini-web-1920.jpg",
   },
   {
@@ -4821,6 +4877,7 @@ export const inspirations = [
   },
   {
     url: "https://ambiencehomedesign.com/project/the-view-302/",
+    tag: "kuchnia",
     src: "https://ambiencehomedesign.com/wp-content/uploads/2024/09/11-la-zagaleta-interior-design-ambience-marbella.jpg",
   },
   {
@@ -4981,6 +5038,7 @@ export const inspirations = [
   },
   {
     url: "https://ambiencehomedesign.com/project/los-monteros-playa/",
+    tag: "swietlik",
     src: "https://ambiencehomedesign.com/wp-content/uploads/2020/12/los-monteros-playa-ambience-home-design-3.jpg",
   },
   {
@@ -5197,6 +5255,7 @@ export const inspirations = [
   },
   {
     url: "https://ambiencehomedesign.com/project/casa-del-mar/",
+    tag: "kuchnia",
     src: "https://ambiencehomedesign.com/wp-content/uploads/2019/08/17.jpg",
   },
   {
@@ -5469,6 +5528,7 @@ export const inspirations = [
   },
   {
     url: "https://thelocalproject.com.au/articles/glen-iris-house-by-nala-design-and-archtistic-designs-group-project-feature-the-local-project/attachment/glen-iris-house-by-nala-design-and-archtistic-designs-group-project-feature-the-local-project-image-31-2/?parent=190509",
+    tag: "wejscie",
     src: "https://d31dpzy4bseog7.cloudfront.net/media/2022/05/01003025/Glen-Iris-House-by-Nala-Design-and-Archtistic-Designs-Group-Project-Feature-The-Local-Project-Image-31-1.jpg",
   },
   {
@@ -5513,6 +5573,7 @@ export const inspirations = [
   },
   {
     url: "https://enjoyconcrete.be/nl/architectonisch-beton/residence-v-0",
+    tag: "lukarna",
     src: "https://enjoyconcrete.be/sites/default/files/projectfotos/residence%20V-1.jpg",
   },
   {
@@ -5533,6 +5594,7 @@ export const inspirations = [
   },
   {
     url: "https://enjoyconcrete.be/nl/architectonisch-beton/residence-vb",
+    tag: "lukarna",
     src: "https://enjoyconcrete.be/sites/default/files/projectfotos/DVB034_0.jpg",
   },
   {
@@ -5545,6 +5607,7 @@ export const inspirations = [
   },
   {
     url: "https://enjoyconcrete.be/nl/architectonisch-beton/residence-vb",
+    tag: "lukarna",
     src: "https://enjoyconcrete.be/sites/default/files/projectfotos/DVB1705_0.jpg",
   },
   {
@@ -5553,6 +5616,7 @@ export const inspirations = [
   },
   {
     url: "https://homeadore.com/2022/02/06/residence-bonh-by-cas-architecten/",
+    tag: "lukarna",
     src: "https://i.homeadore.com/wp-content/uploads/2022/02/001-residence-bonh-cas-architecten-1390x927.avif",
   },
   {
@@ -5629,14 +5693,17 @@ export const inspirations = [
   },
   {
     url: "https://homeadore.com/2022/02/06/residence-bonh-by-cas-architecten/",
+    tag: "lukarna",
     src: "https://i.homeadore.com/wp-content/uploads/2022/02/031-residence-bonh-cas-architecten-1390x2085.avif",
   },
   {
     url: "https://homeadore.com/2022/02/06/residence-bonh-by-cas-architecten/",
+    tag: "lukarna",
     src: "https://i.homeadore.com/wp-content/uploads/2022/02/028-residence-bonh-cas-architecten-1390x2085.avif",
   },
   {
     url: "https://homeadore.com/2022/02/06/residence-bonh-by-cas-architecten/",
+    tag: "lukarna",
     src: "https://i.homeadore.com/wp-content/uploads/2022/02/027-residence-bonh-cas-architecten-1390x927.avif",
   },
   {
@@ -5729,14 +5796,17 @@ export const inspirations = [
   },
   {
     url: "https://deltamillworks.com/project/3rd-street-residence/",
+    tag: "lukarna",
     src: "https://deltamillworks.com/wp-content/uploads/2020/01/south3rd_8.jpg",
   },
   {
     url: "https://deltamillworks.com/project/3rd-street-residence/",
+    tag: "lukarna",
     src: "https://deltamillworks.com/wp-content/uploads/2020/01/south3rd_9.jpg",
   },
   {
     url: "https://deltamillworks.com/project/3rd-street-residence/",
+    tag: "lukarna",
     src: "https://deltamillworks.com/wp-content/uploads/2020/01/south3rd_7.jpg",
   },
   {
@@ -6053,6 +6123,7 @@ export const inspirations = [
   },
   {
     url: "https://www.archdaily.com/873616/delta-tielt-architectuuratelier-de-jaeghere/594095abe58ecec8ba0001e9-delta-tielt-architectuuratelier-de-jaeghere-photo?next_project=no",
+    tag: "lukarna",
     src: "https://images.adsttc.com/media/images/5940/95ab/e58e/cec8/ba00/01e9/slideshow/5.jpg?1497404836",
   },
   {
@@ -7661,6 +7732,7 @@ export const inspirations = [
   },
   {
     url: "https://projectprijs.reynaers.nl/inzendingen/black-barn",
+    tag: "lukarna",
     src: "https://projectprijs.reynaers.nl/media/f52afde3-8e21-4cb0-a3c8-faef22a5f3ab?",
   },
   {
@@ -7805,6 +7877,7 @@ export const inspirations = [
   },
   {
     url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    tag: "lukarna",
     src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-024-scaled.jpg",
   },
   {
@@ -7837,6 +7910,7 @@ export const inspirations = [
   },
   {
     url: "https://www.whitemad.pl/dom-z-drewniana-fasada/",
+    tag: "lukarna",
     src: "https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-037-scaled.jpg",
   },
   {
@@ -7969,6 +8043,7 @@ export const inspirations = [
   },
   {
     url: "https://www.stuv.com/en-gb/wood-burning-stove-inset-fire-stuv-16",
+    tag: "kominek",
     src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-poele-insert-bois-gamme-epuree-827.webp",
   },
   {
@@ -7977,6 +8052,7 @@ export const inspirations = [
   },
   {
     url: "https://www.stuv.com/en-gb/wood-burning-stove/stuv-16-cube",
+    tag: "kominek",
     src: "https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-cube-poele-bois-innovant-spectacle-flammes-835.webp",
   },
   {
@@ -8333,10 +8409,12 @@ export const inspirations = [
   },
   {
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63a26847b75346884df-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    tag: "lukarna",
     src: "https://images.adsttc.com/media/images/66f6/f63a/2684/7b75/3468/84df/slideshow/westbrook-residence-alterstudio-architecture_12.jpg?1727460930",
   },
   {
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f63226847b75346884da-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    tag: "lukarna",
     src: "https://images.adsttc.com/media/images/66f6/f632/2684/7b75/3468/84da/slideshow/westbrook-residence-alterstudio-architecture_1.jpg?1727460923",
   },
   {
@@ -8369,6 +8447,7 @@ export const inspirations = [
   },
   {
     url: "https://www.archdaily.com/1021750/westbrook-residence-alterstudio-architecture/66f6f6344003183dfdb374dc-westbrook-residence-alterstudio-architecture-photo?next_project=no",
+    tag: "lukarna",
     src: "https://images.adsttc.com/media/images/66f6/f634/4003/183d/fdb3/74dc/slideshow/westbrook-residence-alterstudio-architecture_8.jpg?1727460923",
   },
   {
@@ -8961,14 +9040,17 @@ export const inspirations = [
   },
   {
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fd95030bc742176c35e-holmwood-farm-rx-architects-photo?next_project=no",
+    tag: "lukarna+",
     src: "https://images.adsttc.com/media/images/66db/3fd9/5030/bc74/2176/c35e/slideshow/holmwood-farm-rx-architects_25.jpg?1725644776",
   },
   {
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3fdd5030bc742176c35f-holmwood-farm-rx-architects-photo?next_project=no",
+    tag: "lukarna+",
     src: "https://images.adsttc.com/media/images/66db/3fdd/5030/bc74/2176/c35f/slideshow/holmwood-farm-rx-architects_2.jpg?1725644780",
   },
   {
     url: "https://www.archdaily.com/1020925/holmwood-farm-rx-architects/66db3f8e3b3d046f5660a83a-holmwood-farm-rx-architects-photo?next_project=no",
+    tag: "lukarna+",
     src: "https://images.adsttc.com/media/images/66db/3f8e/3b3d/046f/5660/a83a/slideshow/holmwood-farm-rx-architects_4.jpg?1725644704",
   },
   {
@@ -9153,10 +9235,12 @@ export const inspirations = [
   },
   {
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805deee97472779611668-botafogo-house-o2-arquitectos-photo?next_project=no",
+    tag: "lukarna+",
     src: "https://images.adsttc.com/media/images/66c8/05de/ee97/4727/7961/1668/slideshow/casa-botafogo-o2-arquitectos_3.jpg?1724384815",
   },
   {
     url: "https://www.archdaily.com/1020420/botafogo-house-o2-arquitectos/66c805dbee97472779611667-botafogo-house-o2-arquitectos-photo?next_project=no",
+    tag: "lukarna+",
     src: "https://images.adsttc.com/media/images/66c8/05db/ee97/4727/7961/1667/slideshow/casa-botafogo-o2-arquitectos_5.jpg?1724384810",
   },
   {
@@ -9501,6 +9585,7 @@ export const inspirations = [
   },
   {
     url: "https://a-88.pl/dom-jednorodzinny-kolumna#&gid=null&pid=1",
+    tag: "ogrodzenie",
     src: "https://a-88.pl/uploads/galerie/galerie_2e381905ac7e0de56a08f08caa511486_galerie.jpg",
   },
   {
@@ -10845,6 +10930,7 @@ export const inspirations = [
   },
   {
     url: "https://studiodemateria.com/projekty/dom-jrv2-2017/galeria/#img-693",
+    tag: "kominek",
     src: "https://studiodemateria.com/wp-content/uploads/2022/07/jrv211-1920x1284.jpg",
   },
   {
