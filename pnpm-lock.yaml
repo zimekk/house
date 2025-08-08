@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.0.0
-        version: 19.8.1(@types/node@24.2.0)(typescript@5.9.2)
+        version: 19.8.1(@types/node@24.2.1)(typescript@5.9.2)
       '@commitlint/config-conventional':
         specifier: ^19.0.0
         version: 19.8.1
@@ -289,7 +289,7 @@ importers:
         version: 2.1.0
       '@types/chrome':
         specifier: ^0.1.0
-        version: 0.1.1
+        version: 0.1.3
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.9
@@ -1973,8 +1973,8 @@ packages:
   '@types/chai@5.2.2':
     resolution: {integrity: sha512-8kB30R7Hwqf40JPiKhVzodJs2Qc1ZJ5zuT3uzw5Hq/dhNCl3G3l83jfpdI1e20BP348+fV7VIL/+FxaXkqBmWg==}
 
-  '@types/chrome@0.1.1':
-    resolution: {integrity: sha512-MLtFW++/n+OPQIaf5hA6pmURd3Zn+OxuvASyf2mYh8B8pHDpbhHjwlVHMw3H/aJC9Z7Z3itO0AFaZeegrGk0yA==}
+  '@types/chrome@0.1.3':
+    resolution: {integrity: sha512-KVOIHEKjDZXMg8c18Ir3kbLc+bb8JxZjNJv27Wen3F0I/eeTyrYm7tWOjGhoBjI9fFQfjsTSyFcENBo9Wbl5kw==}
 
   '@types/conventional-commits-parser@5.0.1':
     resolution: {integrity: sha512-7uz5EHdzz2TqoMfV7ee61Egf5y6NkcO4FB/1iCCQnbeiI1F3xzv3vK5dBCXUCLQgGYS+mUeigK1iKQzvED+QnQ==}
@@ -5251,11 +5251,11 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@commitlint/cli@19.8.1(@types/node@24.2.0)(typescript@5.9.2)':
+  '@commitlint/cli@19.8.1(@types/node@24.2.1)(typescript@5.9.2)':
     dependencies:
       '@commitlint/format': 19.8.1
       '@commitlint/lint': 19.8.1
-      '@commitlint/load': 19.8.1(@types/node@24.2.0)(typescript@5.9.2)
+      '@commitlint/load': 19.8.1(@types/node@24.2.1)(typescript@5.9.2)
       '@commitlint/read': 19.8.1
       '@commitlint/types': 19.8.1
       tinyexec: 1.0.1
@@ -5302,7 +5302,7 @@ snapshots:
       '@commitlint/rules': 19.8.1
       '@commitlint/types': 19.8.1
 
-  '@commitlint/load@19.8.1(@types/node@24.2.0)(typescript@5.9.2)':
+  '@commitlint/load@19.8.1(@types/node@24.2.1)(typescript@5.9.2)':
     dependencies:
       '@commitlint/config-validator': 19.8.1
       '@commitlint/execute-rule': 19.8.1
@@ -5310,7 +5310,7 @@ snapshots:
       '@commitlint/types': 19.8.1
       chalk: 5.4.1
       cosmiconfig: 9.0.0(typescript@5.9.2)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.2.0)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.2.1)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -6293,7 +6293,7 @@ snapshots:
     dependencies:
       '@types/deep-eql': 4.0.2
 
-  '@types/chrome@0.1.1':
+  '@types/chrome@0.1.3':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
@@ -7099,9 +7099,9 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@24.2.0)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@24.2.1)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2):
     dependencies:
-      '@types/node': 24.2.0
+      '@types/node': 24.2.1
       cosmiconfig: 9.0.0(typescript@5.9.2)
       jiti: 2.4.2
       typescript: 5.9.2
