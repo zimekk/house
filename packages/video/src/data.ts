@@ -2,6 +2,53 @@ import parse from "./utils/parse";
 
 export const videos = [
   {
+    // Inside a £7,950,000 Modern Home Just Outside Of London
+    url: "https://www.youtube.com/watch?v=F5gBWs1KBl0",
+    markers: parse(`
+0:09 lukarna
+0:17 podjazd
+0:57 wejście
+15:04 ogród
+16:10 kuchnia ogrodowa
+16:18 lukarna
+      `),
+  },
+  {
+    // HOME TOUR spektakularna REZYDENCJA - MAGICZNE miejsce LUKSUSOWE nieruchomości w Polsce
+    url: "https://www.youtube.com/watch?v=9zxRK1swlzY",
+    markers: parse(`
+0:45 rzut
+2:54 kort
+3:15 elewacja
+4:29 konsola
+5:52 kominek
+6:13 salon
+7:54 gabinet
+9:15 siłownia
+10:10 toaleta
+10:23 sauna
+11:26 łazienka
+12:43 kuchnia
+15:0 jadalnia
+18:41 toaleta
+19:21 sypialnia
+19:44 łazienka
+20:11 sypialnia
+20:32 sypialnia
+21:20 kącik
+21:34 garderoba
+22:40 łazienka
+2:50 łazienka
+2:58 sypialnia
+3:05 schody
+3:24 sypialnia
+3:37 gabinet
+3:50 sypialnia
+4:04 pokój
+4:35 taras
+      `),
+  },
+  {
     // Architecture and interior of a modern villa
     url: "https://www.youtube.com/watch?v=I0vhvZxNeKg",
     markers: parse(`
@@ -2200,6 +2247,7 @@ export const videos = [
       { text: "garderoba", time: 19 * 60 + 3 },
       { text: "łazienka", time: 19 * 60 + 34 },
       { text: "okno", time: 20 * 60 + 13 },
+      { text: "lukarna", time: 23 * 60 + 11 },
     ],
   },
   {
