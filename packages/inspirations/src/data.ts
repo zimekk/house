@@ -9,6 +9,33 @@
 // );
 
 export const favorite = `
+https://meyerholsen.com.pl/wp-content/uploads/2017/09/dachowka-piano-1.jpg 
+https://meyerholsen.com.pl/wp-content/uploads/2017/09/piano-8.jpg
+https://www.stroeher.com/fileadmin/products/images/02_stiltreu_452_silbergrau_usedlook_riegel.jpg
+https://kingklinker.com/zjed-content/uploads/2024/06/lf19-silver-stone-290x52mm-2500px-2000x966.jpg
+https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527048.5087.jpg
+https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527112.8911.jpg
+https://komplexmarket.pl/upload/inspirations/515900462/jesion-2.jpg
+https://komplexmarket.pl/upload/inspirations/515900462/jesion-1.jpg
+https://komplexmarket.pl/upload/inspirations/1785186085/img-5863.jpg
+https://komplexmarket.pl/upload/inspirations/847489226/obrazek-jpeg-9.jpeg
+https://komplexmarket.pl/upload/inspirations/847489226/obrazek-jpeg-8.jpeg
+https://komplexmarket.pl/upload/inspirations/57139334/moso-1-dom-2.png
+https://komplexmarket.pl/upload/inspirations/57139334/moso-1-dom-3.png
+https://static.designboom.com/wp-content/uploads/2023/06/speehuis-spee-architecten-netherlands-bamboo-slats-designboom-1800.jpg
+https://static.designboom.com/wp-content/uploads/2023/06/speehuis-spee-architecten-netherlands-bamboo-slats-designboom-31800.jpg
+https://milke.se/wp-content/uploads/2022/08/MILKE-plytka-LONG-kolor-indywidualny-Magdalenka-2-scaled.jpg
+https://www.websterarchitecture.com.au/wp-content/uploads/2022/05/Untitled-1-copy-scaled.jpg
+https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6155_RHL_Barkly%20Facade4543.webp
+https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc61ae_Mazzei_Belmore0N3A3488-1-min.jpg
+https://enjoyconcrete.be/sites/default/files/projectfotos/DVB1705_0.jpg
+https://projectprijs.reynaers.nl/media/f52afde3-8e21-4cb0-a3c8-faef22a5f3ab?
+https://cdn.prod.website-files.com/65238539a7ad6a3c95fc609e/65238539a7ad6a3c95fc6172_RHL_Barkly%2520Powder021436-p-1600.webp
+`
+  .split("\n")
+  .filter(Boolean);
+
+export const favorite2 = `
 https://simmengroup.ch/media/cache/slider_desktop/upload/images/07d0322df3c00c940f61753d4a92eb2746877aa8.jpg
 https://www.whitemad.pl/wp-content/uploads/2020/06/20200124-ARQUITECTO-PEDRO-HENRIQUE-CASA-ARRIFANA-076-scaled.jpg
 https://www.stuv.com/sites/default/files/styles/1280w_2x/stuv-16-h-poele-bois-rangement-authenticite-854.webp
@@ -159,6 +186,158 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
   .filter(Boolean);
 
 export const inspirations = [
+  {
+    src: "https://meyerholsen.com.pl/wp-content/uploads/2017/09/dachowka-piano-1.jpg",
+    url: "https://meyerholsen.com.pl/piano/",
+  },
+  {
+    src: "https://meyerholsen.com.pl/wp-content/uploads/2017/09/piano-8.jpg",
+    url: "https://meyerholsen.com.pl/piano/",
+  },
+  {
+    src: "https://meyerholsen.com.pl/wp-content/uploads/2017/09/piano-10.jpg",
+    url: "https://meyerholsen.com.pl/piano/",
+  },
+  {
+    src: "https://meyerholsen.com.pl/wp-content/uploads/2017/09/piano-11.jpg",
+    url: "https://meyerholsen.com.pl/piano/",
+  },
+  {
+    src: "https://meyerholsen.com.pl/wp-content/uploads/2017/09/piano-3.jpg",
+    url: "https://meyerholsen.com.pl/piano/",
+  },
+  {
+    src: "https://www.stroeher.com/fileadmin/products/images/02_stiltreu_452_silbergrau_usedlook_riegel.jpg",
+    url: "https://www.stroeher.com/fassade/serien/riegel-50/",
+  },
+  {
+    src: "https://kingklinker.com/zjed-content/uploads/2024/06/lf19-silver-stone-290x52mm-2500px-2000x966.jpg",
+    url: "https://kingklinker.com/zjed-content/uploads/2024/06/lf19-silver-stone-290x52mm-2500px-2000x966.jpg",
+  },
+  {
+    src: "https://kingklinker.com/zjed-content/uploads/2024/06/lf19-silver-stone-290x52mm-2500px-984x612.jpg",
+    url: "https://kingklinker.com/produkty/silver-stone/",
+  },
+  {
+    src: "https://kingklinker.com/zjed-content/uploads/2024/06/lf20-moon-river-290x52mm-2500px-984x612.jpg",
+    url: "https://kingklinker.com/produkty/moon-river",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2022/12/14/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1671033104.8502.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2022/12/14/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1671033104.366.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2022/12/14/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1671033105.3473.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933193.6403.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527032.5549.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527048.5087.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933356.6817.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527080.4047.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933212.9754.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933328.9036.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527093.8111.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527104.3549.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527112.8911.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527125.4783.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527134.429.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527144.5013.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527170.9916.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527190.2804.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933636.2376.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933252.0559.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933421.336.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527309.5769.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527285.9623.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527300.8791.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933759.4554.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527327.6635.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/03/11/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggio-archello.1678527337.9097.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933770.7346.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
+  {
+    src: "https://archello.s3.eu-central-1.amazonaws.com/images/2023/05/24/elena-bertinotti-architetto-casa-sul-lago-di-mergozzo-alloggi-privati-archello.1684933790.8331.jpg",
+    url: "https://archello.com/project/casa-sul-lago-di-mergozzo",
+  },
   {
     src: "https://www.ekinex.com/media/cat/T&C-EKINEX-003(3)(1).jpg",
     url: "https://www.ekinex.com/en/proxima/touchsee/",
@@ -450,376 +629,72 @@ export const inspirations = [
     src: "https://www.osirishertman.com/wp-content/uploads/2019/05/12-2.jpg",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/kodiak-thermo-spruceuruguay-2---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/366381345/571.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/kodiak-thermo-spruceuruguay-1---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/542708393/2_2.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/kodiak-thermo-spruceuruguay-3---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/1256080502/elewacja-thermo-sosna-taras-jesion-2023-1.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/shingles-thermo-ashtiny-house-in-netherlandsphotos-flare-department-4---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/1256080502/elewacja-thermo-sosna-taras-jesion-2023-4.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/shingles-thermo-ashtiny-house-in-netherlandsphotos-flare-department-1---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/1256080502/elewacja-thermo-sosna-taras-jesion-2023-5.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/shingles-thermo-ashtiny-house-in-netherlandsphotos-flare-department-3---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/515900462/jesion-3.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/571---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/515900462/jesion-2.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/2_2---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/515900462/jesion-1.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/zdjecie-whatsapp-2024-10-11-o-11.14.44798e52c2---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/1785186085/img-5863.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/zdjecie-whatsapp-2024-10-11-o-11.14.4591cc6294---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/847489226/obrazek-jpeg-9.jpeg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermo-sosna---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/847489226/obrazek-jpeg-8.jpeg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermo-sosna2---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/2131342284/oni9112-1.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermo-sosna4---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/2131342284/oni9640-31-37-1680x1120.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermo-sosna3---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/2131342284/oni9645-69-66-1-1680x1344.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/img-20240320-wa0006---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/57139334/moso-1-dom-2.png",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/img-20240320-wa0014---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/57139334/moso-1-dom-3.png",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/img-20240320-wa0019---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-thermo-sosna-taras-jesion-2023-1---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-thermo-sosna-taras-jesion-2023-4---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-thermo-sosna-taras-jesion-2023-5---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermory-vivid-dark-silvered---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/c3-sosna---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/1_1---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/2_1---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/3---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/interiorbythermorywave28x65thermo-aspen1---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/interiorbythermorywave28x65thermo-aspen2---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/3165490035285843792850843381631275444750588n---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/3172606605285843759517515292942352414861889n---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/3174954575285843659517525909370723801044866n---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/45222---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/2021059-lr-28-picture-by-olivrweb---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/moso-xt---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/505-2---w-1200-r-jpeg.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/3174551735285223859579508508495893624798285n---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/222---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/bomarsund-visitor-centreignite-cladding-c10-roofingarchitectdaniel-andersson-2---w-1200.png",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/bomarsund-visitor-centreignite-cladding-c10-roofingarchitectdaniel-andersson-1---w-1200.png",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/jesion-3---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/jesion-2---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/jesion-1---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/img-5863---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/obrazek-jpeg-9---w-1200-r-jpeg.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/obrazek-jpeg-8---w-1200-r-jpeg.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermory-sauna-wall-panels-kyte-s-thermo-aspen-benches-thermo-aspen3d-rendering-5---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermory-sauna-wall-panels-kyte-s-thermo-aspen-benches-thermo-aspen3d-rendering-4---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermory-sauna-wall-panels-kyte-s-thermo-aspen-benches-thermo-aspen3d-rendering-3---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/ignite-usa---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/ignite-usa-2---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/ignite-by-thermory-radisson-hotel-interior-photo-elvo-jakobsonprint-8---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/ignite-by-thermory-radisson-hotel-interior-photo-elvo-jakobsonprint-18---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/ignite-by-thermory-radisson-hotel-interior-photo-elvo-jakobsonprint-13---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/accent-by-thermroysrp-aspen-blackv---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/motion-by-thermory-kyte-thermo-aspen3d-kopia---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/motion-by-thermory-kyte-thermo-aspen3d-2---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/motion-by-thermory-sts4-alder-mix-and-match-bathroom3d---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/motion-by-thermory-sts4-alder-mix-and-match3d---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/motion-by-thermory-sts4-alder-mix-and-match-bathroom23d---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/accent-by-thermory-srp-aspen-white3d---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/dom-jak-las10-smaller-file-size---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/dom-jak-las18-smaller-file-sizealt---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/dom-jak-las9---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/oni9112-1---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/oni9640-31-37-1680x1120---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/oni9645-69-66-1-1680x1344---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/monopolis-35---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/monopolis-9---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/148monopolis-7---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/monopolis-1---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/dom-z-trojkatow81.waw.pl9---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/dom-z-trojkatow81.waw.pl14---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/dom-z-trojkatow81.waw.pl7---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/dom-z-trojkatow81.waw.pl6---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/moso-1-dom-2---w-1200.png",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/moso-1-dom-3---w-1200.png",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-jesion-thermory-c4j-4---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-jesion-thermory-c4j-2---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-jesion-thermory-c4j-6---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/kp206341---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/kp206344---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/kp108742---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/ogrodzenie-sosna-c7---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/415od0a0606---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/rea2---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-sosna-skandynawska-spatynownaa-waterfront---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-sosna-skandynawska-spatynownaa-waterfront4---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/29elewacja-sosna-skandynawska-spatynownaa-waterfront3---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-jesion-thermory-91---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/elewacja-jesion-thermory-1021---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/moso-taras18---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/moso-elewacja4---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/taras-sosna-1301---w-1200.jpg",
-  },
-  {
-    url: "https://www.komplexmarket.pl/inspiracje",
-    src: "https://www.komplexmarket.pl/cache/files/944162863/thermo-sosna-taras---w-1200.jpg",
+    src: "https://komplexmarket.pl/upload/inspirations/903572261/radiata.jpg",
+    url: "https://komplexmarket.pl/pl/inspiracje",
   },
   {
     url: "https://milke.se/portfolio/3_barns-sala-studio/",
