@@ -13,7 +13,7 @@ importers:
     devDependencies:
       '@commitlint/cli':
         specifier: ^19.0.0
-        version: 19.8.1(@types/node@24.3.0)(typescript@5.9.2)
+        version: 19.8.1(@types/node@24.3.1)(typescript@5.9.2)
       '@commitlint/config-conventional':
         specifier: ^19.0.0
         version: 19.8.1
@@ -104,7 +104,7 @@ importers:
     devDependencies:
       '@types/node':
         specifier: ^24.1.0
-        version: 24.3.0
+        version: 24.3.1
       '@types/react':
         specifier: ^19.0.0
         version: 19.1.12
@@ -119,7 +119,7 @@ importers:
         version: 9.34.0(jiti@2.5.1)
       eslint-config-next:
         specifier: canary
-        version: 15.5.1-canary.24(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2)
+        version: 15.5.1-canary.26(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2)
       postcss:
         specifier: ^8.5.1
         version: 8.5.6
@@ -298,10 +298,10 @@ importers:
         version: 19.1.9(@types/react@19.1.12)
       '@vitejs/plugin-react':
         specifier: ^5.0.0
-        version: 5.0.2(vite@7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))
+        version: 5.0.2(vite@7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))
       vite:
         specifier: ~7.1.0
-        version: 7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
+        version: 7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
 
   packages/floors:
     dependencies:
@@ -461,7 +461,7 @@ importers:
         version: 5.9.2
       vitest:
         specifier: ^3.2.4
-        version: 3.2.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
+        version: 3.2.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
 
   packages/paint:
     dependencies:
@@ -1497,8 +1497,8 @@ packages:
   '@next/env@15.5.2':
     resolution: {integrity: sha512-Qe06ew4zt12LeO6N7j8/nULSOe3fMXE4dM6xgpBQNvdzyK1sv5y4oAP3bq4LamrvGCZtmRYnW8URFCeX5nFgGg==}
 
-  '@next/eslint-plugin-next@15.5.1-canary.24':
-    resolution: {integrity: sha512-kqnWrDlWab3uEa+vgQTbjzSl4whh306Ljd5ydLkIFkrNBonObxiolkFraj5xF0Y35n9MKRwRfcWoRLbjIUnEMg==}
+  '@next/eslint-plugin-next@15.5.1-canary.26':
+    resolution: {integrity: sha512-f19KMu2Y2P9vin9e2YTA5UZOir4HhSak0dy+1+Bans7eMZpfKAmfhN7SzBT6+HmuC0FU1QJ5yUkNtUccOr+vMg==}
 
   '@next/swc-darwin-arm64@15.5.0':
     resolution: {integrity: sha512-v7Jj9iqC6enxIRBIScD/o0lH7QKvSxq2LM8UTyqJi+S2w2QzhMYjven4vgu/RzgsdtdbpkyCxBTzHl/gN5rTRg==}
@@ -1984,8 +1984,8 @@ packages:
   '@types/json5@0.0.29':
     resolution: {integrity: sha512-dRLjCWHYg4oaA77cxO64oO+7JwCwnIzkZPdrrC71jQmQtlhM556pwKo5bUzqvZndkVbeFLIIi+9TC40JNF5hNQ==}
 
-  '@types/node@24.3.0':
-    resolution: {integrity: sha512-aPTXCrfwnDLj4VvXrm+UUCQjNEvJgNA8s5F1cvwQU+3KNltTOkBm1j30uNLyqqPNe7gE3KFzImYoZEfLhp4Yow==}
+  '@types/node@24.3.1':
+    resolution: {integrity: sha512-3vXmQDXy+woz+gnrTvuvNrPzekOi+Ds0ReMxw0LzBiK3a+1k0kQn9f2NWk+lgD4rJehFUmYy2gMhJ2ZI+7YP9g==}
 
   '@types/offscreencanvas@2019.7.3':
     resolution: {integrity: sha512-ieXiYmgSRXUDeOntE1InxjWyvEelZGP63M+cGuquuRLuIKKT1osnkXjxev9B7d1nXSug5vpunx+gNlbVxMlC9A==}
@@ -2841,8 +2841,8 @@ packages:
   electron-to-chromium@1.5.207:
     resolution: {integrity: sha512-mryFrrL/GXDTmAtIVMVf+eIXM09BBPlO5IQ7lUyKmK8d+A4VpRGG+M3ofoVef6qyF8s60rJei8ymlJxjUA8Faw==}
 
-  electron-to-chromium@1.5.213:
-    resolution: {integrity: sha512-xr9eRzSLNa4neDO0xVFrkXu3vyIzG4Ay08dApecw42Z1NbmCt+keEpXdvlYGVe0wtvY5dhW0Ay0lY0IOfsCg0Q==}
+  electron-to-chromium@1.5.214:
+    resolution: {integrity: sha512-TpvUNdha+X3ybfU78NoQatKvQEm1oq3lf2QbnmCEdw+Bd9RuIAY+hJTvq1avzHM0f7EJfnH3vbCnbzKzisc/9Q==}
 
   emoji-regex@10.4.0:
     resolution: {integrity: sha512-EC+0oUMY1Rqm4O6LLrgjtYDvcVYTy7chDnM4Q7030tP4Kwj3u/pR6gP9ygnp2CJMK5Gq+9Q2oqmrFJAz01DXjw==}
@@ -2933,8 +2933,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@15.5.1-canary.24:
-    resolution: {integrity: sha512-HbotDDNqnAtOljXFYlg5tHDvBeXUQFXyaA23i8DOUNZ62Xsse2E3W0FRFgheun2j7hndcar0dS0SGxi59yJAcg==}
+  eslint-config-next@15.5.1-canary.26:
+    resolution: {integrity: sha512-uUAr1HKszc0dYWrau5hbsuU0PTtveimWGpOFf2RgO+4KOGV6hb2KYEAFrqr9WYWdlv1XopnfAW2gSq0c27RUzA==}
     peerDependencies:
       eslint: ^7.23.0 || ^8.0.0 || ^9.0.0
       typescript: '>=3.3.1'
@@ -5149,11 +5149,11 @@ snapshots:
       '@babel/helper-string-parser': 7.27.1
       '@babel/helper-validator-identifier': 7.27.1
 
-  '@commitlint/cli@19.8.1(@types/node@24.3.0)(typescript@5.9.2)':
+  '@commitlint/cli@19.8.1(@types/node@24.3.1)(typescript@5.9.2)':
     dependencies:
       '@commitlint/format': 19.8.1
       '@commitlint/lint': 19.8.1
-      '@commitlint/load': 19.8.1(@types/node@24.3.0)(typescript@5.9.2)
+      '@commitlint/load': 19.8.1(@types/node@24.3.1)(typescript@5.9.2)
       '@commitlint/read': 19.8.1
       '@commitlint/types': 19.8.1
       tinyexec: 1.0.1
@@ -5200,7 +5200,7 @@ snapshots:
       '@commitlint/rules': 19.8.1
       '@commitlint/types': 19.8.1
 
-  '@commitlint/load@19.8.1(@types/node@24.3.0)(typescript@5.9.2)':
+  '@commitlint/load@19.8.1(@types/node@24.3.1)(typescript@5.9.2)':
     dependencies:
       '@commitlint/config-validator': 19.8.1
       '@commitlint/execute-rule': 19.8.1
@@ -5208,7 +5208,7 @@ snapshots:
       '@commitlint/types': 19.8.1
       chalk: 5.6.0
       cosmiconfig: 9.0.0(typescript@5.9.2)
-      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.3.0)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2)
+      cosmiconfig-typescript-loader: 6.1.0(@types/node@24.3.1)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2)
       lodash.isplainobject: 4.0.6
       lodash.merge: 4.6.2
       lodash.uniq: 4.5.0
@@ -5743,7 +5743,7 @@ snapshots:
 
   '@next/env@15.5.2': {}
 
-  '@next/eslint-plugin-next@15.5.1-canary.24':
+  '@next/eslint-plugin-next@15.5.1-canary.26':
     dependencies:
       fast-glob: 3.3.1
 
@@ -6176,7 +6176,7 @@ snapshots:
 
   '@types/conventional-commits-parser@5.0.1':
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
 
   '@types/deep-eql@4.0.2': {}
 
@@ -6211,7 +6211,7 @@ snapshots:
 
   '@types/json5@0.0.29': {}
 
-  '@types/node@24.3.0':
+  '@types/node@24.3.1':
     dependencies:
       undici-types: 7.10.0
 
@@ -6437,7 +6437,7 @@ snapshots:
       react-dom: 19.1.1(react@19.1.1)
       sugar-high: 0.4.7
 
-  '@vitejs/plugin-react@5.0.2(vite@7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))':
+  '@vitejs/plugin-react@5.0.2(vite@7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@babel/core': 7.28.3
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.3)
@@ -6445,7 +6445,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.34
       '@types/babel__core': 7.20.5
       react-refresh: 0.17.0
-      vite: 7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -6457,13 +6457,13 @@ snapshots:
       chai: 5.3.1
       tinyrainbow: 2.0.0
 
-  '@vitest/mocker@3.2.4(vite@7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))':
+  '@vitest/mocker@3.2.4(vite@7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 3.2.4
       estree-walker: 3.0.3
       magic-string: 0.30.17
     optionalDependencies:
-      vite: 7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
 
   '@vitest/pretty-format@3.2.4':
     dependencies:
@@ -6790,7 +6790,7 @@ snapshots:
   browserslist@4.25.4:
     dependencies:
       caniuse-lite: 1.0.30001739
-      electron-to-chromium: 1.5.213
+      electron-to-chromium: 1.5.214
       node-releases: 2.0.19
       update-browserslist-db: 1.1.3(browserslist@4.25.4)
 
@@ -6979,9 +6979,9 @@ snapshots:
 
   core-util-is@1.0.3: {}
 
-  cosmiconfig-typescript-loader@6.1.0(@types/node@24.3.0)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2):
+  cosmiconfig-typescript-loader@6.1.0(@types/node@24.3.1)(cosmiconfig@9.0.0(typescript@5.9.2))(typescript@5.9.2):
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       cosmiconfig: 9.0.0(typescript@5.9.2)
       jiti: 2.5.1
       typescript: 5.9.2
@@ -7144,7 +7144,7 @@ snapshots:
 
   electron-to-chromium@1.5.207: {}
 
-  electron-to-chromium@1.5.213: {}
+  electron-to-chromium@1.5.214: {}
 
   emoji-regex@10.4.0: {}
 
@@ -7314,9 +7314,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@15.5.1-canary.24(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2):
+  eslint-config-next@15.5.1-canary.26(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2):
     dependencies:
-      '@next/eslint-plugin-next': 15.5.1-canary.24
+      '@next/eslint-plugin-next': 15.5.1-canary.26
       '@rushstack/eslint-patch': 1.12.0
       '@typescript-eslint/eslint-plugin': 8.40.0(@typescript-eslint/parser@8.40.0(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2))(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2)
       '@typescript-eslint/parser': 8.40.0(eslint@9.34.0(jiti@2.5.1))(typescript@5.9.2)
@@ -7979,7 +7979,7 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
@@ -9352,13 +9352,13 @@ snapshots:
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
 
-  vite-node@3.2.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1):
+  vite-node@3.2.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       cac: 6.7.14
       debug: 4.4.1
       es-module-lexer: 1.7.0
       pathe: 2.0.3
-      vite: 7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
     transitivePeerDependencies:
       - '@types/node'
       - jiti
@@ -9373,7 +9373,7 @@ snapshots:
       - tsx
       - yaml
 
-  vite@7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1):
+  vite@7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.9
       fdir: 6.5.0(picomatch@4.0.3)
@@ -9382,18 +9382,18 @@ snapshots:
       rollup: 4.50.0
       tinyglobby: 0.2.14
     optionalDependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
       fsevents: 2.3.3
       jiti: 2.5.1
       sass: 1.92.0
       terser: 5.44.0
       yaml: 2.8.1
 
-  vitest@3.2.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1):
+  vitest@3.2.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       '@types/chai': 5.2.2
       '@vitest/expect': 3.2.4
-      '@vitest/mocker': 3.2.4(vite@7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))
+      '@vitest/mocker': 3.2.4(vite@7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1))
       '@vitest/pretty-format': 3.2.4
       '@vitest/runner': 3.2.4
       '@vitest/snapshot': 3.2.4
@@ -9411,11 +9411,11 @@ snapshots:
       tinyglobby: 0.2.14
       tinypool: 1.1.1
       tinyrainbow: 2.0.0
-      vite: 7.1.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
-      vite-node: 3.2.4(@types/node@24.3.0)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.1.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
+      vite-node: 3.2.4(@types/node@24.3.1)(jiti@2.5.1)(sass@1.92.0)(terser@5.44.0)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 24.3.0
+      '@types/node': 24.3.1
     transitivePeerDependencies:
       - jiti
       - less
