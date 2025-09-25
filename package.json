@@ -38,8 +38,8 @@
     "prepare": "husky && turbo telemetry disable"
   },
   "devDependencies": {
-    "@commitlint/cli": "^19.0.0",
-    "@commitlint/config-conventional": "^19.0.0",
+    "@commitlint/cli": "^20.0.0",
+    "@commitlint/config-conventional": "^20.0.0",
     "eslint": "^9.35.0",
     "husky": "^9.0.0",
     "lint-staged": "^16.1.6",
