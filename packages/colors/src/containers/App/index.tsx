@@ -1,5 +1,6 @@
 import { useMemo } from "react";
 import hex from "ral-to-hex";
+import ncsColor from "ncs-color";
 import { Color } from "../../components/color";
 import styles from "./styles.module.scss";
 
@@ -14,15 +15,25 @@ const parseList = (text: string) =>
     .split("\n")
     .filter(Boolean)
     .map((line) =>
-      (([name, color]) =>
-        ((m) => {
-          const ral = m ? m[1] : "";
-          return {
-            name,
-            ral,
-            rgb: hex(ral),
-          };
-        })(color.match(/RAL (\d+)/)))(line.split("\t")),
+      (([name, color = name]) =>
+        color.match(/RAL/)
+          ? ((m) => {
+              const ral = m ? m[1] : "";
+              return {
+                name,
+                ral,
+                rgb: hex(ral),
+              };
+            })(color.match(/RAL (\d+)/))
+          : ((m) => {
+              const ncs = m ? `${m[1]}-${m[2]}` : "";
+              console.log(m);
+              return {
+                name,
+                ral: ncs,
+                rgb: ncsColor.hex(ncs),
+              };
+            })(color.match(/(NCS S \d+)\s*-\s*(\S+)/)))(line.split("\t")),
     );
 
 function Table({ list }: { list: ItemType[] }) {
@@ -94,6 +105,114 @@ Czarny\tRAL 9005
 Antracytowy\tRAL 7021
 Grafitowy\tRAL 7024
 Szary\tRAL 7045`)}
+          />
+        </div>
+      </div>
+      <div className={styles.Columns}>
+        <div>
+          {/* https://www.hormann.pl/prywatni-inwestorzy/bramy-garazowe/bramy-segmentowe/ */}
+          <h3>Hörmann - Kolory bram segmentowych ze stali</h3>
+          <Table
+            list={parseList(`
+czarny ***\tRAL 9005
+szary łupkowy ***\tRAL 7015
+antracytowy metallic ***\tCH 703
+bazaltowy ***\tRAL 7012
+szary kwarcowy ***\tRAL 7039
+szare aluminium\tRAL 9007
+białe aluminium\tRAL 9006
+szary ***\tRAL 7040
+szary kamienny ***\tRAL 7030
+jasnoszary ***\tRAL 7035
+antracytowy ***\tRAL 7016
+brązowy ***\tRAL 8028
+ciemnozielony\tRAL 6009
+zielony\tRAL 6005
+jasna kość słoniowa\tRAL 1015
+`)}
+          />
+        </div>
+      </div>
+      <div className={styles.Columns}>
+        <div>
+          {/* https://www.rockpanel.com/pl/zamow-probki/ */}
+          <h3>Rockpanel Colours - Dostępne próbki</h3>
+          <Table
+            list={parseList(`
+RAL 1013
+RAL 1015
+RAL 5011
+RAL 6009
+RAL 7001
+RAL 7004
+RAL 7012
+RAL 7016
+RAL 7021
+RAL 7022
+RAL 7030
+RAL 7031
+RAL 7035
+RAL 7037
+RAL 7039
+RAL 8028
+RAL 9001
+RAL 9002
+RAL 9003
+RAL 9005
+RAL 9010
+RAL 9016
+RAL 1002
+RAL 2010
+RAL 3001
+RAL 3004
+RAL 3009
+RAL 3016
+RAL 5010
+RAL 6034
+RAL 7006
+RAL 7024
+RAL 7036
+RAL 7038
+RAL 8022
+RAL 8023
+RAL 9011
+RAL 1012
+RAL 1032
+RAL 2012
+RAL 3007
+RAL 3015
+RAL 3028
+RAL 4004
+RAL 4007
+RAL 5000
+RAL 5001
+RAL 5003
+RAL 5004
+RAL 5008
+RAL 5021
+RAL 5022
+RAL 6001
+RAL 6013
+RAL 6015
+RAL 6022
+RAL 6028
+RAL 7009
+RAL 7010
+RAL 7033
+RAL 8001
+RAL 8024
+NCS S 0520 - R10B
+NCS S 1040 - B70G
+NCS S 2010 - B70G
+NCS S 2050 - B
+NCS S 2050 - Y
+NCS S 2060 - B90G
+NCS S 2070 - G30Y
+NCS S 3030 - Y10R
+NCS S 3040 - B20G
+NCS S 4030 - R50B
+NCS S 5020 - Y10R
+NCS S 0570 - Y90R`)}
           />
         </div>
       </div>

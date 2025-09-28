@@ -197,6 +197,9 @@ importers:
 
   packages/colors:
     dependencies:
+      ncs-color:
+        specifier: ^1.0.1
+        version: 1.0.1
       next:
         specifier: ~15.5.0
         version: 15.5.3(react-dom@19.1.1(react@19.1.1))(react@19.1.1)(sass@1.93.2)
@@ -3747,6 +3750,9 @@ packages:
 
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+
+  ncs-color@1.0.1:
+    resolution: {integrity: sha512-QyPkjqYGbcW5JKoG25cu0M9T2bhvSyoxrJnX0WAG4b95LHj+0e8GnNXnc2xpunHJ+ILC3Db1CnpolFX76l03Kw==}
 
   neo-async@2.6.2:
     resolution: {integrity: sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==}
@@ -8150,6 +8156,8 @@ snapshots:
   napi-postinstall@0.3.3: {}
 
   natural-compare@1.4.0: {}
+
+  ncs-color@1.0.1: {}
 
   neo-async@2.6.2: {}
 
