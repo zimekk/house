@@ -128,8 +128,72 @@ antracytowy ***\tRAL 7016
 brązowy ***\tRAL 8028
 ciemnozielony\tRAL 6009
 zielony\tRAL 6005
-jasna kość słoniowa\tRAL 1015
-`)}
+jasna kość słoniowa\tRAL 1015`)}
+          />
+        </div>
+      </div>
+      <div className={styles.Columns}>
+        <div>
+          {/* https://selt.com/lakierowanie_konstr-pl */}
+          <h3>Selt - Kolory konstrukcji</h3>
+          <Table
+            list={parseList(`
+MAT\tRAL 9016
+MAT\tRAL 9010
+MAT\tRAL 9001
+MAT\tRAL 1013
+MAT\tRAL 1015
+MAT\tRAL 7035
+MAT\tRAL 7001
+MAT\tRAL 7022
+MAT\tRAL 7037
+MAT\tRAL 7012
+MAT\tRAL 7015
+MAT\tRAL 7024
+MAT\tRAL 7016
+MAT\tRAL 7021
+MAT\tRAL 9005
+MAT\tRAL 9006
+MAT\tRAL 9007
+MAT\tDB 703
+MAT\tFSM 71319
+MAT\tRAL 8014
+MAT\tRAL 8016
+satyna\tVSR 240
+MAT\tVSR 780
+MAT\tRAL 7039
+MAT\tRAL 7043
+MAT\tRAL 8003`)}
+          />
+        </div>
+      </div>
+      <div className={styles.Columns}>
+        <div>
+          {/* https://sunprotect.aluprof.com/oferta/zaluzje-fasadowe/lamele-z90 */}
+          <h3>Lamele Z90 - Dostępne kolory</h3>
+          <Table
+            list={parseList(`
+Kość słoniowa\tRAL 1015
+Szary Antracyt\tRAL 7016
+Jasny Szary\tRAL 7035
+Szary\tRAL 7038
+Mysi Szary\tRAL 7048
+Czarny\tRAL 9005
+Srebrny\tRAL 9006
+Szare aluminium\tRAL 9007
+Ultra Biały\tRAL 9016
+Miedziany brąz\tVSR 780`)}
+          />
+        </div>
+      </div>
+      <div className={styles.Columns}>
+        <div>
+          {/* https://materialy.velux.pl/produkty-montazowe/kolnierze */}
+          <h3>Velux - Nowy kołnierz EDT do dachówki płaskiej</h3>
+          <Table
+            list={parseList(`
+szary\tRAL 7043
+              `)}
           />
         </div>
       </div>
