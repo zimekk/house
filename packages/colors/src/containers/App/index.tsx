@@ -27,7 +27,6 @@ const parseList = (text: string) =>
             })(color.match(/RAL (\d+)/))
           : ((m) => {
               const ncs = m ? `${m[1]}-${m[2]}` : "";
-              console.log(m);
               return {
                 name,
                 ral: ncs,

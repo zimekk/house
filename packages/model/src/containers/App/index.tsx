@@ -1,7 +1,77 @@
-import Plan from "./Plan";
+import { MouseEvent, useCallback } from "react";
+// import Plan from "./Plan";
+import Plan from "./Draw";
+import { getPosition, useModel } from "./hooks";
 import styles from "./styles.module.scss";
 
 export default function App() {
+  const [model, setModel] = useModel();
+
+  const handleClick = useCallback((e: MouseEvent) => {
+    console.log(["handleClick"]);
+  }, []);
+
+  const handleMouseDown = useCallback((e: MouseEvent) => {
+    e.preventDefault();
+    if (e.target instanceof Element) {
+      const { dataset } = e.target as HTMLElement;
+      const { index } = dataset;
+      if (index) {
+        console.log(["handleMouseDown"], { index });
+        setModel((model) => ({
+          ...model,
+          click: { x: e.pageX, y: e.pageY },
+          active: Number(index),
+        }));
+      }
+    }
+  }, []);
+
+  const handleMouseUp = useCallback((e: MouseEvent) => {
+    console.log(["handleMouseUp"]);
+    setModel((model) => ({
+      ...model,
+      click: undefined,
+      active: -1,
+      points: model.points.map((p, index) =>
+        model.active === index ? getPosition(model, p) : p,
+      ),
+    }));
+  }, []);
+
+  const handleMouseMove = useCallback((e: MouseEvent) => {
+    if (e.target instanceof Element) {
+      const root = e.target.closest("svg");
+      setModel((model) => ({
+        ...model,
+        mouse: root ? { x: e.pageX, y: e.pageY } : undefined,
+      }));
+    }
+    return false;
+  }, []);
+
+  const onMouseOver = useCallback((e: MouseEvent) => {
+    if (e.target instanceof Element) {
+      const { dataset } = e.target as HTMLElement;
+      const { index } = dataset;
+      if (index) {
+        console.log(["onMouseOver"], { index });
+        setModel((model) => ({ ...model, hover: Number(index) }));
+      }
+    }
+  }, []);
+
+  const onMouseOut = useCallback((e: MouseEvent) => {
+    if (e.target instanceof Element) {
+      const { dataset } = e.target as HTMLElement;
+      const { index } = dataset;
+      if (index) {
+        console.log(["onMouseOut"], { index });
+        setModel((model) => ({ ...model, hover: -1 }));
+      }
+    }
+  }, []);
+
   return (
     <div className={styles.Container}>
       <h1>model</h1>
@@ -11,6 +81,12 @@ export default function App() {
           style={{
             height: "165vh",
           }}
+          onClick={handleClick}
+          onMouseMove={handleMouseMove}
+          onMouseDown={handleMouseDown}
+          onMouseUp={handleMouseUp}
+          onMouseOver={onMouseOver}
+          onMouseOut={onMouseOut}
         >
           <defs>
             <filter id="texture-roof">
@@ -162,7 +238,7 @@ export default function App() {
               <feBlend in="SourceGraphic" in2="composite" mode="multiply" />
             </filter>
           </defs>
-          <Plan />
+          <Plan model={model} />
         </svg>
       </div>
     </div>
