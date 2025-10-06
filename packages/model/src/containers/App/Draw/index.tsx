@@ -1,4 +1,4 @@
-import { useMemo, useState } from "react";
+import { type Dispatch, type SetStateAction, useMemo } from "react";
 import { type Point, rect } from "../../../utils";
 import { type Model, getPosition } from "../hooks";
 
@@ -17,6 +17,83 @@ const styles = {
 
 const line = (p: Point) => `L${p.join(" ")}`;
 const move = (p: Point) => `M${p.join(" ")}`;
+
+export function Toolbar({
+  model,
+  setModel,
+}: {
+  model: Model;
+  setModel: Dispatch<SetStateAction<Model>>;
+}) {
+  return (
+    <div>
+      {model.points.map((p, index) => (
+        <div key={index}>
+          <input
+            type="number"
+            value={model.editable?.i === index ? model.editable.x : p.x}
+            onBlur={(e) => {
+              setModel((model) => ({
+                ...model,
+                points: model.points.map((p, i) =>
+                  i === index
+                    ? {
+                        x: ((n) => (isNaN(n) ? p.x : n))(
+                          Number(model.editable?.x),
+                        ),
+                        y: p.y,
+                      }
+                    : p,
+                ),
+                editable: undefined,
+              }));
+            }}
+            onChange={(e) => {
+              setModel((model) => ({
+                ...model,
+                editable: {
+                  i: index,
+                  x: e.target.value,
+                  y: String(p.y),
+                },
+              }));
+            }}
+          />
+          <input
+            type="number"
+            value={model.editable?.i === index ? model.editable.y : p.y}
+            onBlur={(e) => {
+              setModel((model) => ({
+                ...model,
+                points: model.points.map((p, i) =>
+                  i === index
+                    ? {
+                        x: p.x,
+                        y: ((n) => (isNaN(n) ? p.y : n))(
+                          Number(model.editable?.y),
+                        ),
+                      }
+                    : p,
+                ),
+                editable: undefined,
+              }));
+            }}
+            onChange={(e) => {
+              setModel((model) => ({
+                ...model,
+                editable: {
+                  i: index,
+                  x: String(p.x),
+                  y: e.target.value,
+                },
+              }));
+            }}
+          />
+        </div>
+      ))}
+    </div>
+  );
+}
 
 // https://codepen.io/anthonydugois/pen/mewdyZ
 export default function Draw({ model }: { model: Model }) {
@@ -38,6 +115,20 @@ export default function Draw({ model }: { model: Model }) {
           .join(" ")}
         style={styles.line}
       />
+      {model.points.length > 0 && (
+        <path
+          d={model.points
+            .map((p, index) =>
+              ((p): Point => [p.x, p.y])(
+                model.active === index ? getPosition(model, p) : p,
+              ),
+            )
+            .map((p, i) => (i > 0 ? line(p) : move(p)))
+            .concat("z")
+            .join(" ")}
+          style={styles.line}
+        />
+      )}
       {model.points.map((p, index) => (
         <path
           key={index}

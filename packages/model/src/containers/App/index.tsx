@@ -1,6 +1,6 @@
-import { MouseEvent, useCallback } from "react";
+import { MouseEvent, useCallback, useEffect } from "react";
 // import Plan from "./Plan";
-import Plan from "./Draw";
+import Plan, { Toolbar } from "./Draw";
 import { getPosition, useModel } from "./hooks";
 import styles from "./styles.module.scss";
 
@@ -11,8 +11,25 @@ export default function App() {
     console.log(["handleClick"]);
   }, []);
 
+  const handleDoubleClick = useCallback((e: MouseEvent) => {
+    if (e.target instanceof Element) {
+      const { dataset } = e.target as HTMLElement;
+      const { index } = dataset;
+      if (index) {
+        console.log(["handleDoubleClick"], { index });
+        setModel((model) => ({
+          ...model,
+          points: model.points.filter((_, i) => Number(index) !== i),
+        }));
+      }
+    }
+  }, []);
+
   const handleMouseDown = useCallback((e: MouseEvent) => {
     e.preventDefault();
+    if (document.activeElement instanceof HTMLElement) {
+      document.activeElement.blur();
+    }
     if (e.target instanceof Element) {
       const { dataset } = e.target as HTMLElement;
       const { index } = dataset;
@@ -50,43 +67,68 @@ export default function App() {
     return false;
   }, []);
 
-  const onMouseOver = useCallback((e: MouseEvent) => {
+  const handleMouseOver = useCallback((e: MouseEvent) => {
     if (e.target instanceof Element) {
       const { dataset } = e.target as HTMLElement;
       const { index } = dataset;
       if (index) {
-        console.log(["onMouseOver"], { index });
+        console.log(["handleMouseOver"], { index });
         setModel((model) => ({ ...model, hover: Number(index) }));
       }
     }
   }, []);
 
-  const onMouseOut = useCallback((e: MouseEvent) => {
+  const handleMouseOut = useCallback((e: MouseEvent) => {
     if (e.target instanceof Element) {
       const { dataset } = e.target as HTMLElement;
       const { index } = dataset;
       if (index) {
-        console.log(["onMouseOut"], { index });
+        console.log(["handleMouseOut"], { index });
         setModel((model) => ({ ...model, hover: -1 }));
       }
     }
+  }, []);
+
+  const handleKeyDown = useCallback((e: KeyboardEvent) => {
+    if (e.key === "Shift") {
+      setModel((model) => ({ ...model, shift: true }));
+    }
+  }, []);
+
+  const handleKeyUp = useCallback((e: KeyboardEvent) => {
+    if (e.key === "Shift") {
+      setModel((model) => ({ ...model, shift: false }));
+    }
+  }, []);
+
+  useEffect(() => {
+    document.addEventListener("keydown", handleKeyDown, false);
+    document.addEventListener("keyup", handleKeyUp, false);
+    return () => {
+      document.removeEventListener("keydown", handleKeyDown);
+      document.removeEventListener("keyup", handleKeyUp);
+    };
   }, []);
 
   return (
     <div className={styles.Container}>
       <h1>model</h1>
       <div className={styles.Wrapper}>
+        <div className={styles.Toolbar}>
+          <Toolbar model={model} setModel={setModel} />
+        </div>
         <svg
           xmlns="http://www.w3.org/2000/svg"
           style={{
             height: "165vh",
           }}
           onClick={handleClick}
+          onDoubleClick={handleDoubleClick}
           onMouseMove={handleMouseMove}
           onMouseDown={handleMouseDown}
           onMouseUp={handleMouseUp}
-          onMouseOver={onMouseOver}
-          onMouseOut={onMouseOut}
+          onMouseOver={handleMouseOver}
+          onMouseOut={handleMouseOut}
         >
           <defs>
             <filter id="texture-roof">

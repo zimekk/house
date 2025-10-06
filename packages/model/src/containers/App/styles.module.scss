@@ -10,6 +10,21 @@
     flex: 1 1 auto;
   }
 
+  .Toolbar {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    top: 0;
+    right: 0;
+    background: gray;
+
+    input {
+      margin: 0.25em;
+      width: 4em;
+    }
+  }
+
   svg {
     border: 1px solid red;
     flex: 1 1 auto;

@@ -14,6 +14,11 @@ export interface Model {
   shift?: boolean;
   active: number;
   position?: Point;
+  editable?: {
+    i: number;
+    x: string;
+    y: string;
+  };
 }
 
 const model: Model = {
@@ -27,7 +32,7 @@ const model: Model = {
   delta: undefined,
   click: undefined,
   mouse: undefined,
-  shift: true,
+  shift: false,
   hover: -1,
   active: -1,
 };
@@ -36,7 +41,7 @@ export function getPosition(model: Model, p: Point): Point {
   if (model.mouse && model.click) {
     let dx = (model.mouse.x - model.click.x) / 25;
     let dy = (model.mouse.y - model.click.y) / 25;
-    if (true) {
+    if (model.shift) {
       if (Math.abs(dx) > Math.abs(dy)) {
         dy = 0;
       } else {
