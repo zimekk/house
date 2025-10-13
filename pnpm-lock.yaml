@@ -365,7 +365,7 @@ importers:
         version: 7.8.2
       slug:
         specifier: ^11.0.0
-        version: 11.0.0
+        version: 11.0.1
       styled-components:
         specifier: ^6.1.14
         version: 6.1.19(react-dom@19.2.0(react@19.2.0))(react@19.2.0)
@@ -4294,8 +4294,8 @@ packages:
     resolution: {integrity: sha512-iOBWFgUX7caIZiuutICxVgX1SdxwAVFFKwt1EvMYYec/NWO5meOJ6K5uQxhrYBdQJne4KxiqZc+KptFOWFSI9w==}
     engines: {node: '>=18'}
 
-  slug@11.0.0:
-    resolution: {integrity: sha512-71pb27F9TII2dIweGr2ybS220IUZo1A9GKZ+e2q8rpUr24mejBb6fTaSStM0SE1ITUUOshilqZze8Yt1BKj+ew==}
+  slug@11.0.1:
+    resolution: {integrity: sha512-VrM060OM/E7rdLQSnp6JHrzFfJFmqQBp0+TMhZStnEB8PfNliaZ9UWYjTHGHLUFVJorZ8TjVd/aKvIxHWU2O7g==}
     hasBin: true
 
   source-map-js@1.2.1:
@@ -8787,7 +8787,7 @@ snapshots:
       ansi-styles: 6.2.3
       is-fullwidth-code-point: 5.1.0
 
-  slug@11.0.0: {}
+  slug@11.0.1: {}
 
   source-map-js@1.2.1: {}
 
