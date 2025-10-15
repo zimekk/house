@@ -2,6 +2,33 @@ import parse from "./utils/parse";
 
 export const videos = [
   {
+    // Budowa domu w stylu toskańskim – rozmowa z inwestorami i inspiracje wnętrzarskie
+    url: "https://www.youtube.com/watch?v=MNYgOPWb8WQ",
+    markers: parse(`
+0:04 podjazd
+0:26 wejście
+1:08 schody
+1:15 jadalnia
+1:25 kominek
+1:50 salon
+10:34 ściany
+10:34 ściany
+11:17 listwy
+12:10 garderoba
+13:02 wanna
+13:44 sypialnia
+15:31 świetlik +
+15:51 kuchnia ++
+16:20 kącik kawowy +
+18:05 brama garażowa +
+20:43 elewacja
+20:59 rzut
+21:41 ogród
+27:45 rzut
+28:48 prysznic
+      `),
+  },
+  {
     // Inside a £7,950,000 Modern Home Just Outside Of London
     url: "https://www.youtube.com/watch?v=F5gBWs1KBl0",
     markers: parse(`
@@ -494,7 +521,7 @@ export const videos = [
 6:30 pralnia
 6:40 drzwi +
 7:03 schody +
-7:15 kącik
+7:15 kącik / skosy +
 7:30 rtv / wentylacja +
 7:32 sypialnia / szafa
 7:45 toaleta
