@@ -119,7 +119,7 @@ importers:
         version: 9.38.0(jiti@1.21.7)
       eslint-config-next:
         specifier: canary
-        version: 16.0.1-canary.0(@typescript-eslint/parser@8.46.2(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3))(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3)
+        version: 16.0.1-canary.1(@typescript-eslint/parser@8.46.2(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3))(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3)
       postcss:
         specifier: ^8.5.1
         version: 8.5.6
@@ -292,7 +292,7 @@ importers:
     devDependencies:
       '@crxjs/vite-plugin':
         specifier: ^2.0.0
-        version: 2.2.0
+        version: 2.2.1
       '@types/chrome':
         specifier: ^0.1.12
         version: 0.1.24
@@ -957,8 +957,8 @@ packages:
     resolution: {integrity: sha512-bVUNBqG6aznYcYjTjnc3+Cat/iBgbgpflxbIBTnsHTX0YVpnmINPEkSRWymT2Q8aSH3Y7aKnEbunilkYe8TybA==}
     engines: {node: '>=v18'}
 
-  '@crxjs/vite-plugin@2.2.0':
-    resolution: {integrity: sha512-HpT1GLbUQy42nlpN4sGzFgulacBraMM778s8Q+oPo4cb26DwO9tTwdndlvAS8fe6vEProFXvbdt37objp/0IQA==}
+  '@crxjs/vite-plugin@2.2.1':
+    resolution: {integrity: sha512-SrQY/npF0BNc34DKzA34lHC+aQNlMqbiwoRyzr8EGWngmApwuOAGLHzmGVWIfE8rJmu+TsFC8mKFG4LqLM2+hA==}
 
   '@dimforge/rapier3d-compat@0.12.0':
     resolution: {integrity: sha512-uekIGetywIgopfD97oDL5PfeezkFpNhwlzlaEYNOA0N6ghdsOvh/HYjSMek5Q2O1PYvRSDFcqFVJl4r4ZBwOow==}
@@ -1499,8 +1499,8 @@ packages:
   '@next/env@15.5.6':
     resolution: {integrity: sha512-3qBGRW+sCGzgbpc5TS1a0p7eNxnOarGVQhZxfvTdnV0gFI61lX7QNtQ4V1TSREctXzYn5NetbUsLvyqwLFJM6Q==}
 
-  '@next/eslint-plugin-next@16.0.1-canary.0':
-    resolution: {integrity: sha512-JqIeJFquaB+z/RP/WhjYNjHAgSImXPsMIZ6tL3ydVdeSv2Ve9t4su4u6CcbJNWLpLOBuHmej9AjhomOkvdIbcA==}
+  '@next/eslint-plugin-next@16.0.1-canary.1':
+    resolution: {integrity: sha512-KGQ9IOV1qBa/JiV8UIFhyhM58FN5eAqENvWVH5pJGAyhxNNf4YwQdmT6WzH9Hy94PutywTKZEntxdGyJ2pejzg==}
 
   '@next/swc-darwin-arm64@15.5.6':
     resolution: {integrity: sha512-ES3nRz7N+L5Umz4KoGfZ4XX6gwHplwPhioVRc25+QNsDa7RtUF/z8wJcbuQ2Tffm5RZwuN2A063eapoJ1u4nPg==}
@@ -2429,6 +2429,10 @@ packages:
     resolution: {integrity: sha512-zoKGUdu6vb2jd3YOq0nnhEDQVbPcHhco3UImJrv5dSkvxTc2pl2WjOPsjZXDwPDSl5eghIMuY3R6J9NDKF3KcQ==}
     hasBin: true
 
+  baseline-browser-mapping@2.8.20:
+    resolution: {integrity: sha512-JMWsdF+O8Orq3EMukbUN1QfbLK9mX2CkUmQBcW2T0s8OmdAUL5LLM/6wFwSrqXzlXB13yhyK9gTKS1rIizOduQ==}
+    hasBin: true
+
   bidi-js@1.0.3:
     resolution: {integrity: sha512-RKshQI1R3YQ+n9YJz2QQ147P66ELpa1FQEg20Dk8oW9t2KgLbpDLLp9aGZ7y8WHSshDknG0bknqGw5/tyCs5tw==}
 
@@ -2782,8 +2786,8 @@ packages:
   electron-to-chromium@1.5.237:
     resolution: {integrity: sha512-icUt1NvfhGLar5lSWH3tHNzablaA5js3HVHacQimfP8ViEBOQv+L7DKEuHdbTZ0SKCO1ogTJTIL1Gwk9S6Qvcg==}
 
-  electron-to-chromium@1.5.239:
-    resolution: {integrity: sha512-1y5w0Zsq39MSPmEjHjbizvhYoTaulVtivpxkp5q5kaPmQtsK6/2nvAzGRxNMS9DoYySp9PkW0MAQDwU1m764mg==}
+  electron-to-chromium@1.5.240:
+    resolution: {integrity: sha512-OBwbZjWgrCOH+g6uJsA2/7Twpas2OlepS9uvByJjR2datRDuKGYeD+nP8lBBks2qnB7bGJNHDUx7c/YLaT3QMQ==}
 
   emoji-regex-xs@1.0.0:
     resolution: {integrity: sha512-LRlerrMYoIDrT6jgpeZ2YYl/L8EulRTt5hQcYjy5AInh7HWXKimpqx68aknBFpGL2+/IcogTcaydJEgaTmOpDg==}
@@ -2874,8 +2878,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.0.1-canary.0:
-    resolution: {integrity: sha512-OS7r/2/EwOUhqxU8VaXFgJdctkmiypTLzVaPFk6aqZhfqNUQPDpsc2lSy4jKntVbOn0hPbyIwmnOQ6U/UeCDVA==}
+  eslint-config-next@16.0.1-canary.1:
+    resolution: {integrity: sha512-GhIhjXAnK1d+lQiyWmQA1p6aVHOc3WejK/bllXMzm1Ou9gOQAEytQK5Ik9uFkr8VxOARg7zGzlBML90xDYihgQ==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -3622,6 +3626,9 @@ packages:
 
   magic-string@0.30.19:
     resolution: {integrity: sha512-2N21sPY9Ws53PZvsEpVtNuSW+ScYbQdp4b9qUaL+9QkHUrGFKo56Lg9Emg5s9V/qrtNBmiR01sYhUOwu3H+VOw==}
+
+  magic-string@0.30.21:
+    resolution: {integrity: sha512-vd2F4YUyEXKGcLHoq+TEyCjxueSeHnFxyyjNp80yg0XV4vUhnDer/lvvlqM/arB5bXQN5K2/3oinyCRyx8T2CQ==}
 
   math-intrinsics@1.1.0:
     resolution: {integrity: sha512-/IXtbwEk5HTPyEwyKX6hGkYXxM9nbj64B+ilVJnC/R6B0pH5G4V3b0pVbL7DBj4tkhBAppbQUlf6F6Xl9LHu1g==}
@@ -5172,7 +5179,7 @@ snapshots:
       '@types/conventional-commits-parser': 5.0.1
       chalk: 5.6.2
 
-  '@crxjs/vite-plugin@2.2.0':
+  '@crxjs/vite-plugin@2.2.1':
     dependencies:
       '@rollup/pluginutils': 4.2.1
       '@webcomponents/custom-elements': 1.6.0
@@ -5184,7 +5191,7 @@ snapshots:
       fast-glob: 3.3.3
       fs-extra: 10.1.0
       jsesc: 3.1.0
-      magic-string: 0.30.19
+      magic-string: 0.30.21
       pathe: 2.0.3
       picocolors: 1.1.1
       react-refresh: 0.13.0
@@ -5667,7 +5674,7 @@ snapshots:
 
   '@next/env@15.5.6': {}
 
-  '@next/eslint-plugin-next@16.0.1-canary.0':
+  '@next/eslint-plugin-next@16.0.1-canary.1':
     dependencies:
       fast-glob: 3.3.1
 
@@ -6654,6 +6661,8 @@ snapshots:
 
   baseline-browser-mapping@2.8.19: {}
 
+  baseline-browser-mapping@2.8.20: {}
+
   bidi-js@1.0.3:
     dependencies:
       require-from-string: 2.0.2
@@ -6693,9 +6702,9 @@ snapshots:
 
   browserslist@4.27.0:
     dependencies:
-      baseline-browser-mapping: 2.8.19
+      baseline-browser-mapping: 2.8.20
       caniuse-lite: 1.0.30001751
-      electron-to-chromium: 1.5.239
+      electron-to-chromium: 1.5.240
       node-releases: 2.0.26
       update-browserslist-db: 1.1.4(browserslist@4.27.0)
 
@@ -7027,7 +7036,7 @@ snapshots:
 
   electron-to-chromium@1.5.237: {}
 
-  electron-to-chromium@1.5.239: {}
+  electron-to-chromium@1.5.240: {}
 
   emoji-regex-xs@1.0.0: {}
 
@@ -7197,9 +7206,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.0.1-canary.0(@typescript-eslint/parser@8.46.2(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3))(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3):
+  eslint-config-next@16.0.1-canary.1(@typescript-eslint/parser@8.46.2(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3))(eslint@9.38.0(jiti@1.21.7))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.0.1-canary.0
+      '@next/eslint-plugin-next': 16.0.1-canary.1
       eslint: 9.38.0(jiti@1.21.7)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.38.0(jiti@1.21.7))
@@ -8075,6 +8084,10 @@ snapshots:
       three: 0.180.0
 
   magic-string@0.30.19:
+    dependencies:
+      '@jridgewell/sourcemap-codec': 1.5.5
+
+  magic-string@0.30.21:
     dependencies:
       '@jridgewell/sourcemap-codec': 1.5.5
 
