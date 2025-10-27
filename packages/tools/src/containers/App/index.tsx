@@ -1,6 +1,7 @@
 import { type ChangeEventHandler, useCallback, useMemo, useState } from "react";
 import { Link } from "../../components/link";
 import { boards } from "../../data/boards";
+import { daliknx } from "../../data/daliknx";
 import { garden } from "../../data/garden";
 import { orders } from "../../data/orders";
 import styles from "./styles.module.scss";
@@ -13,6 +14,7 @@ interface ItemType {
 
 const OPTIONS = {
   boards,
+  daliknx,
   garden,
   orders,
 } as const;
