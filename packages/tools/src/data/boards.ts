@@ -1,6 +1,16 @@
 export const boards = [
   [
     {
+      name: "- Arduino UNO Q 2GB",
+      price: 205,
+      url: "https://botland.com.pl/arduino-seria-podstawowa-oryginalne-plytki/27370-arduino-uno-q-2gb-7630049205673.html",
+    },
+    {
+      name: "- Arduino Nano R4 ze złączami - ABX00143",
+      price: 64.9,
+      url: "https://botland.com.pl/arduino-nano-oryginalne-plytki/27033-arduino-nano-r4-ze-zlaczami-abx00143-7630049205406.html",
+    },
+    {
       name: "Raspberry Pi 5 8GB",
       price: 399.9,
       url: "https://botland.com.pl/moduly-i-zestawy-raspberry-pi-5/23905-raspberry-pi-5-8gb-5056561803326.html",
@@ -9,6 +19,11 @@ export const boards = [
       name: "Raspberry Pi 5 4GB",
       price: 299.9,
       url: "https://botland.com.pl/moduly-i-zestawy-raspberry-pi-5/23904-raspberry-pi-5-4gb-5056561803319.html",
+    },
+    {
+      name: "Power Over Ethernet HAT (F) - nakładka zasilająca PoE i sieciowa 802.3af/at - do Raspberry Pi 5 - Waveshare 26399",
+      price: 89.9,
+      url: "https://botland.com.pl/rozszerzenia-gpio-i-nakladki-hat-do-raspberry-pi-5/24847-power-over-ethernet-hat-f-nakladka-zasilajaca-poe-i-sieciowa-8023afat-do-raspberry-pi-5-waveshare-26399-5904422385811.html",
     },
     {
       name: "+ Raspberry Pi 27W USB-C Power Supply - oficjalny zasilacz USB C 5,1V / 5A do Raspberry Pi 5 - czarny",
@@ -59,6 +74,11 @@ export const boards = [
       name: "+ Karta pamięci Raspberry Pi microSD 32GB 100MB/s Klasa A2",
       price: 25.9,
       url: "https://botland.com.pl/karty-pamieci-raspberry-pi/25873-karta-pamieci-raspberry-pi-microsd-32gb-100mbs-klasa-a2-5056561804200.html",
+    },
+    {
+      name: "- Taśma Raspberry Pi - kamera 22 żyły raster 0,5mm - 15 żył raster 1mm - 20cm",
+      price: 5.9,
+      url: "https://botland.com.pl/tasmy-ffc-i-obudowy-do-kamer-do-raspberry-pi/23927-tasma-raspberry-pi-kamera-22-zyly-raster-05mm-15-zyl-raster-1mm-20cm-5056561803555.html",
     },
     {
       name: "+ Taśma Raspberry Pi - wyświetlacz 22 żyły raster 0,5mm - 15 żył raster 1mm - 20cm",
@@ -343,6 +363,11 @@ export const boards = [
     },
   ],
   [
+    {
+      name: "- Moduł rozszerzający DALI2 Pico-DALI2 dla ESP32-Pico - Waveshare 28643",
+      price: 23.09,
+      url: "https://kamami.pl/sterowniki-led/1197437-dali2-expansion-module-for-esp32-pico-series-boards-supports-dali-communication-for-customized-cont-5902186304857.html",
+    },
     {
       name: "+ Raspberry Pi 5 8GB RAM, 2,4GHz, WiFi DualBand, Bluetooth, PCIe 2.0, 2x CSI/DSI, 2x USB 3.0, 2x 4Kp60 microHDMI",
       price: 398,
