@@ -759,6 +759,279 @@ export const daliknx = [
   ],
   [
     {
+      name: "Gira KNX aktor włączający sześciokrotny 16 A / aktor żaluzjowy potrójny 16 A Standard nr. kat. 502300",
+      price: 1_560.7,
+      url: "https://www.girasklep.pl/gira-moduly-systemowe/gira-knx-aktor-wlaczajacy-szesciokrotny-16-a-aktor-zaluzjowy-potrojny-16-a-standard-nr-kat-502300_p_4279.html",
+    },
+    {
+      name: "Aktuator przełączający KNX 8-krotny 104600",
+      price: 1350.2,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS0828891/ZOOM/gira-104600-schaltaktor-ns0828891_01.jpg",
+      url: "https://www.eibabo.pl/gira/aktuator-przelaczajacy-knx-8-krotny-104600-eb10828891",
+    },
+    {
+      name: "Łącznik magistrali KNX 3 200800",
+      price: 210.42,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6509520/ZOOM/gira-200800-eib-ns6509520_01.jpg",
+      url: "https://www.eibabo.pl/gira/lacznik-magistrali-knx-3-200800-eb16509520",
+    },
+    {
+      name: "Ściemniacz 4-f. REG KNX Bezpieczny - System magistrali aktuatora ściemniającego 225W 202500",
+      price: 1673.47,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522522/ZOOM/gira-202500-dimmaktor-ns6522522_01.jpg",
+      url: "https://www.eibabo.pl/gira/sciemniacz-4-f.-reg-knx-bezpieczny-system-magistrali-aktuatora-sciemniajacego-225w-202500-eb16522522",
+    },
+    {
+      name: "KNX Gira One Server One REG - Komponent KNX Logic do systemu magistrali 203900",
+      price: 2408.67,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6523810/ZOOM/gira-203900-knx-ns6523810_01.jpg",
+      url: "https://www.eibabo.pl/gira/knx-gira-one-server-one-reg-komponent-knx-logic-do-systemu-magistrali-203900-eb16523810?fs=4257141696",
+    },
+    {
+      name: "Serwer wizualizacji KNX X1 209600",
+      price: 4682.89,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6518666/ZOOM/gira-209600-eib-ns6518666_01.jpg",
+      url: "https://www.eibabo.pl/gira/serwer-wizualizacji-knx-x1-209600-eb16518666",
+    },
+    {
+      name: "Bramka DALI Tunable White Plus dla KNX - Interfejs dla systemu magistrali 211100",
+      price: 1588.77,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6524659/ZOOM/gira-211100-dali-ns6524659_01.jpg",
+      url: "https://www.eibabo.pl/gira/bramka-dali-tunable-white-plus-dla-knx-interfejs-dla-systemu-magistrali-211100-eb16524659",
+    },
+    {
+      name: "Zasilacz KNX 320mA dławik REG - Zasilanie dla domowej automatyki KNX 320mA 212200",
+      price: 666.12,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6519198/ZOOM/gira-212200-knx-ns6519198_01.jpg",
+      url: "https://www.eibabo.pl/gira/zasilacz-knx-320ma-dlawik-reg-zasilanie-dla-domowej-automatyki-knx-320ma-212200-eb16519198?fs=722566853",
+    },
+    {
+      name: "Zasilacz KNX 640mA dławik REG - Zasilanie dla automatyki domowej KNX 640mA 213000",
+      price: 840.14,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6519199/ZOOM/gira-213000-knx-ns6519199_01.jpg",
+      url: "https://www.eibabo.pl/gira/zasilacz-knx-640ma-dlawik-reg-zasilanie-dla-automatyki-domowej-knx-640ma-213000-eb16519199",
+    },
+    {
+      name: "Zasilanie dla automatyki domowej KNX 1280mA 213800",
+      price: 1350.2,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6519200/ZOOM/gira-213800-knx-ns6519200_01.jpg",
+      url: "https://www.eibabo.pl/gira/zasilanie-dla-automatyki-domowej-knx-1280ma-213800-eb16519200",
+    },
+    {
+      name: "Sterownik ogrzewania silownik 6f OneKNX REG - Silownik ogrzewania do systemu magistrali 213900",
+      price: 767.13,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6414181/ZOOM/gira-213900-heizungsaktor-ns6414181_01.jpg",
+      url: "https://www.eibabo.pl/gira/sterownik-ogrzewania-silownik-6f-oneknx-reg-silownik-ogrzewania-do-systemu-magistrali-213900-eb16414181",
+    },
+    {
+      name: "Router IP KNX 216700",
+      price: 1306.49,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6509625/ZOOM/gira-216700-eib-ns6509625_01.jpg",
+      url: "https://www.eibabo.pl/gira/router-ip-knx-216700-eb16509625",
+    },
+    {
+      name: "Interfejs KNX IP 216800",
+      price: 790.1,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6509626/ZOOM/gira-216800-ip-ns6509626_01.jpg",
+      url: "https://www.eibabo.pl/gira/interfejs-knx-ip-216800-eb16509626",
+    },
+    {
+      name: "Bramka KNX DALI Plus 218000",
+      price: 1500.21,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6515607/ZOOM/gira-218000-dali-ns6515607_01.jpg",
+      url: "https://www.eibabo.pl/gira/bramka-knx-dali-plus-218000-eb16515607",
+    },
+    {
+      name: "Czujnik obecności KNX Mini Comfort 222500",
+      price: 935.2,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6516834/ZOOM/gira-222500-praesenzmelder-ns6516834_01.jpg",
+      url: "https://www.eibabo.pl/gira/czujnik-obecnosci-knx-mini-comfort-222500-eb16516834",
+    },
+    {
+      name: "Zestaw montażowy do montażu podtynkowego czujnika obecności KNX - Obudowa montażowa KNX 224100",
+      price: 115.14,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6516840/ZOOM/gira-224100-montagekit-ns6516840_01.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-montazowy-do-montazu-podtynkowego-czujnika-obecnosci-knx-obudowa-montazowa-knx-224100-eb16516840",
+    },
+    {
+      name: "Gniazdo EB 1x - Akcesoria do gniazdek / wtyczek 289100",
+      price: 19.1,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS0829546/ZOOM/gira-289100-eb-ns0829546_01.jpg",
+      url: "https://www.eibabo.pl/gira/gniazdo-eb-1x-akcesoria-do-gniazdek-wtyczek-289100-eb10829546",
+    },
+    {
+      name: "Skrzynka EB 2x - Akcesoria do gniazdek / wtyczek 289200",
+      price: 27.34,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS0829547/ZOOM/gira-289200-eb-ns0829547_01.jpg",
+      url: "https://www.eibabo.pl/gira/skrzynka-eb-2x-akcesoria-do-gniazdek-wtyczek-289200-eb10829547",
+    },
+    {
+      name: "Gniazdo urządzenia, 1-krotne - Pusta puszka naścienna 289600",
+      price: 12.01,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS0837227/ZOOM/gira-289600-geraetedose-ns0837227_01.jpg",
+      url: "https://www.eibabo.pl/gira/gniazdo-urzadzenia-1-krotne-pusta-puszka-nascienna-289600-eb10837227",
+    },
+    {
+      name: "Dwukierunkowe gniazdo urządzenia - Pusta puszka naścienna 289700",
+      price: 17.95,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS0837228/ZOOM/gira-289700-geraetedose-ns0837228_01.jpg",
+      url: "https://www.eibabo.pl/gira/dwukierunkowe-gniazdo-urzadzenia-pusta-puszka-nascienna-289700-eb10837228",
+    },
+    {
+      name: "Gniazdo urządzenia trójdrożnego - Pusta puszka naścienna 289800",
+      price: 24.12,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS0837229/ZOOM/gira-289800-geraetedose-ns0837229_01.jpg",
+      url: "https://www.eibabo.pl/gira/gniazdo-urzadzenia-trojdroznego-pusta-puszka-nascienna-289800-eb10837229",
+    },
+    {
+      name: "4-kierunkowe gniazdo urządzenia - Pusta puszka naścienna 289900",
+      price: 30.12,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS0837230/ZOOM/gira-289900-geraetedose-ns0837230_01.jpg",
+      url: "https://www.eibabo.pl/gira/4-kierunkowe-gniazdo-urzadzenia-pusta-puszka-nascienna-289900-eb10837230",
+    },
+    {
+      name: "KNX czujnik przyciskowy 4 komfort 1f TS4 antr. - Czujnik dotykowy do automatyki domowej KNX 5001028",
+      price: 652.15,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522046/ZOOM/gira-5001028-knx-ns6522046_01.jpg",
+      url: "https://www.eibabo.pl/gira/knx-czujnik-przyciskowy-4-komfort-1f-ts4-antr.-czujnik-dotykowy-do-automatyki-domowej-knx-5001028-eb16522046",
+    },
+    {
+      name: "Czujnik przyciskowy KNX 4 komfort 2f TS4 anthr. - Czujnik dotykowy do automatyki domowej KNX 5002028",
+      price: 727.08,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522048/ZOOM/gira-5002028-knx-ns6522048_01.jpg",
+      url: "https://www.eibabo.pl/gira/czujnik-przyciskowy-knx-4-komfort-2f-ts4-anthr.-czujnik-dotykowy-do-automatyki-domowej-knx-5002028-eb16522048",
+    },
+    {
+      name: "Czujnik dotykowy KNX 4 komfort 4f TS4 anth - Czujnik dotykowy do automatyki domowej KNX 5004028",
+      price: 802,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522050/ZOOM/gira-5004028-knx-ns6522050_01.jpg",
+      url: "https://www.eibabo.pl/gira/czujnik-dotykowy-knx-4-komfort-4f-ts4-anth-czujnik-dotykowy-do-automatyki-domowej-knx-5004028-eb16522050",
+    },
+    {
+      name: "Zestaw kołyskowy 1-krotny czujnik dotykowy TS4 alu czarny 5021126",
+      price: 220.35,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522053/ZOOM/gira-5021126-wippenset-ns6522053_01.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-kolyskowy-1-krotny-czujnik-dotykowy-ts4-alu-czarny-5021126-eb16522053",
+    },
+    {
+      name: "Zestaw kołyskowy 2f Tastsens.4 TS4 alum.czarny - Dotykowy klawisz czarny do automatyki domowej KN...",
+      price: 286.43,
+      image:
+        "https://www.eibabo.pl/media/image/59/23/cc/EB16522168cBz36sVKFFunf.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-kolyskowy-2f-tastsens.4-ts4-alum.czarny-dotykowy-klawisz-czarny-do-automatyki-domowej-kn...-eb16522168",
+    },
+    {
+      name: "Zestaw kołyskowy 2-krotny czujnik dotykowy.4 TS4 rws 5022927",
+      price: 374.56,
+      image:
+        "https://www.eibabo.pl/media/image/32/82/5d/EB16522070BDNZRYMJN16xj.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-kolyskowy-2-krotny-czujnik-dotykowy.4-ts4-rws-5022927-eb16522070",
+    },
+    {
+      name: "Zestaw kołyskowy 4-krotny czujnik dotykowy.4 TS4 G ws 502412",
+      price: 396.55,
+      image:
+        "https://www.eibabo.pl/media/image/e5/ec/fa/EB16522072sc8Raipj9fDDw.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-kolyskowy-4-krotny-czujnik-dotykowy.4-ts4-g-ws-502412-eb16522072",
+    },
+    {
+      name: "Zestaw kołyskowy 4-kierunkowy czujnik dotykowy.4 TS4 alu 5024126",
+      price: 396.55,
+      image:
+        "https://www.eibabo.pl/media/image/0b/63/f4/EB16522073mzKF48woYC4wz.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-kolyskowy-4-kierunkowy-czujnik-dotykowy.4-ts4-alu-5024126-eb16522073",
+    },
+    {
+      name: "Zestaw kołyskowy 4-krotny czujnik dotykowy.4 TS4 czarny 5024905",
+      price: 572.86,
+      image:
+        "https://www.eibabo.pl/media/image/46/bb/a3/EB16522078Mt5XzXYPU89TA.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-kolyskowy-4-krotny-czujnik-dotykowy.4-ts4-czarny-5024905-eb16522078",
+    },
+    {
+      name: "Zestaw kołyskowy 4-krotny czujnik dotykowy.4 TS4 rws 5024927",
+      price: 572.86,
+      image:
+        "https://www.eibabo.pl/media/image/b9/be/c1/EB16522080ICNFWv3YnWfZr.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-kolyskowy-4-krotny-czujnik-dotykowy.4-ts4-rws-5024927-eb16522080",
+    },
+    {
+      name: "Przełączanie, aktuator żaluzji 16f/8f 16 A - Urządzenie I / O do automatyki domowej KNX 502800",
+      price: 1470.2,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522202/ZOOM/gira-502800-schalt-ns6522202_01.jpg",
+      url: "https://www.eibabo.pl/gira/przelaczanie-aktuator-zaluzji-16f-8f-16-a-urzadzenie-i-o-do-automatyki-domowej-knx-502800-eb16522202",
+    },
+    {
+      name: "Włącznik, aktuator żaluzji 24f/12f 16 A - Urządzenie I / O do automatyki domowej KNX 503000",
+      price: 1999.52,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522203/ZOOM/gira-503000-schalt-ns6522203_01.jpg",
+      url: "https://www.eibabo.pl/gira/wlacznik-aktuator-zaluzji-24f-12f-16-a-urzadzenie-i-o-do-automatyki-domowej-knx-503000-eb16522203",
+    },
+    {
+      name: "Włącznik, aktuator żaluzji 24f/12f 16 A - Urządzenie I / O do automatyki domowej KNX 504000",
+      price: 2336.42,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6522206/ZOOM/gira-504000-schalt-ns6522206_01.jpg",
+      url: "https://www.eibabo.pl/gira/wlacznik-aktuator-zaluzji-24f-12f-16-a-urzadzenie-i-o-do-automatyki-domowej-knx-504000-eb16522206",
+    },
+    {
+      name: "Czujnik przyciskowy 4 komfort 2-krotny KNX - Czujnik KNX Touch do systemu magistrali 4-krotny 504200",
+      price: 573.14,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6523527/ZOOM/gira-504200-tastsensensor-ns6523527_01.jpg",
+      url: "https://www.eibabo.pl/gira/czujnik-przyciskowy-4-komfort-2-krotny-knx-czujnik-knx-touch-do-systemu-magistrali-4-krotny-504200-eb16523527",
+    },
+    {
+      name: "Czujnik dotykowy 4 komfort 3f System KNX 55 - Czujnik dotykowy do systemu magistrali 6-krotnego 5...",
+      price: 615.87,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6523528/ZOOM/gira-504300-tastsensensor-ns6523528_01.jpg",
+      url: "https://www.eibabo.pl/gira/czujnik-dotykowy-4-komfort-3f-system-knx-55-czujnik-dotykowy-do-systemu-magistrali-6-krotnego-5...-eb16523528",
+    },
+    {
+      name: "Czujnik przyciskowy KNX 3 komfort 3-krotny 513300",
+      price: 608.06,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6509635/ZOOM/gira-513300-eib-ns6509635_01.jpg",
+      url: "https://www.eibabo.pl/gira/czujnik-przyciskowy-knx-3-komfort-3-krotny-513300-eb16509635",
+    },
+    {
+      name: "Zestaw klawiszy KNX, 3-krotny przycisk, czysta biel 575327",
+      price: 70.83,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6523549/ZOOM/gira-575327-knx-ns6523549_01.jpg",
+      url: "https://www.eibabo.pl/gira/zestaw-klawiszy-knx-3-krotny-przycisk-czysta-biel-575327-eb16523549",
+    },
+  ],
+  [
+    {
       name: "Bramka (Gateway) MEAN WELL DLC-02-KN",
       price: 1749,
       url: "https://www.conrad.pl/pl/p/bramka-gateway-mean-well-dlc-02-kn-2900728.html",
