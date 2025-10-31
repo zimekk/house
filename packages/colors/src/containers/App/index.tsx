@@ -1,7 +1,8 @@
 import { useMemo } from "react";
-import hex from "ral-to-hex";
-import ncsColor from "ncs-color";
 import { Color } from "../../components/color";
+import { Rockpanel } from "../Rockpanel";
+import { getColor } from "../../utils";
+import { rockpanel } from "../../rockpanel";
 import styles from "./styles.module.scss";
 
 interface ItemType {
@@ -15,24 +16,9 @@ const parseList = (text: string) =>
     .split("\n")
     .filter(Boolean)
     .map((line) =>
-      (([name, color = name]) =>
-        color.match(/RAL/)
-          ? ((m) => {
-              const ral = m ? m[1] : "";
-              return {
-                name,
-                ral,
-                rgb: hex(ral),
-              };
-            })(color.match(/RAL (\d+)/))
-          : ((m) => {
-              const ncs = m ? `${m[1]}-${m[2]}` : "";
-              return {
-                name,
-                ral: ncs,
-                rgb: ncsColor.hex(ncs),
-              };
-            })(color.match(/(NCS S \d+)\s*-\s*(\S+)/)))(line.split("\t")),
+      (([name, color = name]) => ({ name, ...getColor(color) }))(
+        line.split("\t"),
+      ),
     );
 
 function Table({ list }: { list: ItemType[] }) {
@@ -278,6 +264,9 @@ NCS S 5020 - Y10R
 NCS S 0570 - Y90R`)}
           />
         </div>
+      </div>
+      <div className={styles.Columns}>
+        <Rockpanel list={rockpanel} />
       </div>
     </div>
   );
