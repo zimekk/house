@@ -1,3 +1,5 @@
+// copy({name:document.querySelector('h1[itemprop="name"]').innerText,price:Number(document.querySelector('meta[itemprop="price"]').content),image:document.querySelector('img[itemprop="image"]').src,url:document.location.href})
+
 export const daliknx = [
   [
     {
