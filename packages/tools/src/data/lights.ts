@@ -65,5 +65,19 @@ export const lights = [
       url: "https://pl.aliexpress.com/item/1005009515493507.html",
       price: 84.39,
     },
+    {
+      name: "ESP32-S3 4-calowy ekran dotykowy LCD 480x480 RS485 /SHT20 / płytka rozwojowa przekaźnika dla Arduino LVGL 86 TVbox - AliExpress 7",
+      price: 33.69,
+      image:
+        "https://ae01.alicdn.com/kf/S5da0b11d00554b358da898f2d1e1a6a8G.jpg",
+      url: "https://pl.aliexpress.com/item/1005007906933040.html",
+    },
+    {
+      name: "HKL-EA8 16M duża karta IoT Flash inteligentne sterowanie przemysłowe w domu NPN PNP wejście sygnału 0-5V 4-20MA wejście analogowe wyjście 0-10V - AliExpress 44",
+      price: 142.79,
+      image:
+        "https://ae01.alicdn.com/kf/Sfc98d46dba194e469d3d3b463b077700W.jpg",
+      url: "https://pl.aliexpress.com/item/1005008468553434.html",
+    },
   ],
 ];
