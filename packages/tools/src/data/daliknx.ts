@@ -489,6 +489,13 @@ export const daliknx = [
       price: 249,
       url: "https://www.conrad.pl/pl/p/urzadzenie-sterujace-kontrolne-abb-2cdg110060r0011-hausautomatisierung-2330394.html",
     },
+    {
+      name: "Interfejs KNX IP IPS/S 3.1.1",
+      price: 666.07,
+      image:
+        "https://www.eibabo.pl/media/seo_images/productimages_eibabo/NS6516886/ZOOM/abb-ips_s_3_1_1-eib-ns6516886_01.jpg",
+      url: "https://www.eibabo.pl/abb/interfejs-knx-ip-ips-s-3.1.1-eb16516886?utm_source=Portals&utm_medium=CPC&utm_campaign=eibabo-PL_GoogleShopping_PL&gad_source=1&gad_campaignid=1675088301&gbraid=0AAAAAC3lR04zA7GyWVVFEOs-pV3m7y8v5&gclid=EAIaIQobChMIpcOkgdfRkAMVUIuDBx3FER0TEAQYAiABEgKgAvD_BwE",
+    },
   ],
   [
     {

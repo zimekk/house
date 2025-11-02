@@ -79,5 +79,68 @@ export const lights = [
         "https://ae01.alicdn.com/kf/Sfc98d46dba194e469d3d3b463b077700W.jpg",
       url: "https://pl.aliexpress.com/item/1005008468553434.html",
     },
+    {
+      name: "Płytka rozwojowa ESP32-P4 Smart 86 Box z dwurdzeniowymi i jednordzeniowymi procesorami RISC-V 32-bitowymi opartymi na kontrolerze ESP32-P4 - AliExpress 7",
+      price: 191.59,
+      image:
+        "https://ae01.alicdn.com/kf/S6bd18b3ece594c94bf41754332890eb5K.jpg",
+      url: "https://pl.aliexpress.com/item/1005009455582410.html",
+    },
+    {
+      name: "ESP32-S3 4.0 Cal inteligentny wyświetlacz dla Arduino LVGL WiFi płyta rozwojowa Bluetooth moduł LCD TFT moduł pojemnościowy - AliExpress 13",
+      price: 123.59,
+      image:
+        "https://ae01.alicdn.com/kf/S580066e850e945f3b85ee711aaf3b478T.jpg",
+      url: "https://pl.aliexpress.com/item/1005009013384109.html",
+    },
+    {
+      name: "Gotowy do wysyłki Nowy System Bezpieczeństwa Domu SIP Wideodomofon Domofon KNX Inteligentny Dom Monitor Sterowanie Zasłonami Światłem Panel Przełącznika - AliExpress 15",
+      price: 2278.79,
+      image:
+        "https://ae01.alicdn.com/kf/S39c19a2295504ee1ab6819d4f89011f9h.jpg",
+      url: "https://pl.aliexpress.com/item/1005008982127454.html",
+    },
+    {
+      name: "Inteligentny panel sterowania MOES Tuya WiFi 3,5-calowy ekran dotykowy, 3 przekaźniki i przyciski, pilot na podczerwień, koncentrator Bluetooth Sigmesh, automatyka domowa - AliExpress 44",
+      price: 252.84,
+      image:
+        "https://ae01.alicdn.com/kf/S48bff80c23a34686b2b34a4b1497f016t.jpg",
+      url: "https://pl.aliexpress.com/item/1005008876804544.html",
+    },
+    {
+      name: "Dooya DT98 Mini elektryczny silnik kurtyny Jednościeżowy inteligentny dom Kompatybilny z aplikacją Mijia Zdalnie sterowany pręt z napędem silnikowym do Curtai - AliExpress 13",
+      price: 580.99,
+      image:
+        "https://ae01.alicdn.com/kf/Sc1e217e880d54fa493f4982fb6a9c42dn.jpg",
+      url: "https://pl.aliexpress.com/item/1005008327951751.html",
+    },
+    {
+      name: "Inteligentny silnik do zasłon Tuya Smart Wifi Mini, elektryczny napęd do szyn zasłonowych, inteligentny system zdalnego sterowania zasłonami. - AliExpress 13",
+      price: 421.19,
+      image:
+        "https://ae01.alicdn.com/kf/S3c90d85c107e4310bbc60dc7cc28cc56O.jpg",
+      url: "https://pl.aliexpress.com/item/1005009871860809.html",
+    },
+    {
+      name: "Elektryczna szyna do zasłon z falowaniem S, regulowana, inteligentny silnik do zasłon Tuya, Mini, Zigbee, WiFi, sterowanie Alexa i Google Assistant - AliExpress 13",
+      price: 506.79,
+      image:
+        "https://ae01.alicdn.com/kf/Scbb7fc43b9434b238f58baaf5e6df84fr.jpg",
+      url: "https://pl.aliexpress.com/item/1005010003915591.html",
+    },
+    {
+      name: "Elektryczna kurtyna marzeń wifi zigbee tuya Alexa Google Alice Sterowanie głosem Inteligentny domowy elektryczny system kurtyn Zestaw torów - AliExpress 13",
+      price: 767.79,
+      image:
+        "https://ae01.alicdn.com/kf/Sf536c207232a4718800b450c2cb1a5472.jpg",
+      url: "https://pl.aliexpress.com/item/1005006942919435.html",
+    },
+    {
+      name: "Elektryczny zestaw szyn do zasłon NOVO N31 z obsługą Tuya WiFi i modnymi oświetleniami atmosferycznymi, szyna karnisza do zasłon i akcesoria. - AliExpress 13",
+      price: 813.39,
+      image:
+        "https://ae01.alicdn.com/kf/Sd3917d3fe22b4ec985cb7f1afdec400cu.jpg",
+      url: "https://pl.aliexpress.com/item/1005009156782060.html",
+    },
   ],
 ];
