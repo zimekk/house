@@ -1,6 +1,135 @@
 import parse from "./utils/parse";
 
+// Object.assign(window, {__markers: (window.__markers||'').concat((v=>([(t => `\n${Math.round(t/60)}:${String(Math.floor(t%60)/100).split('.')[1]} ${prompt('marker')}`)(v.currentTime)]))($('video:not([data-no-fullscreen])')))}),copy({title:$('h1.ytd-watch-metadata').innerText,url:document.location.href,markers:window.__markers})
+
 export const videos = [
+  {
+    // Domy w najlepszym wydaniu minimalistycznym: betonowy luksus spotyka się z wymarzonym domem w styl...
+    url: "https://www.youtube.com/watch?v=_2qBe9S1ecY",
+    markers: parse(`
+0:05 jadalnia
+0:15 kuchnia
+2:46 konsola
+2:54 korytarz
+3:32 salon
+3:18 ogród
+4:03 kuchnia
+5:5 jadalnia
+6:35 taras
+6:2 sypialnia
+7:06 łazienka
+8:53 gabinet
+11:55 korytarz
+13:11 salon
+18:46 kuchnia
+19:26 okap
+20:03 jadalnia
+25:38 sypialnia
+27:55 łazienka
+29:15 gabinet
+32:3 salon
+32:24 kuchnia
+33:1 jadalnia
+34:08 sypialnia
+35:08 łazienka
+36:54 gabinet
+37:3 salon
+37:58 korytarz
+       `),
+  },
+  {
+    // Własny dom architekta zaprojektowany dla jej trzyosobowej rodziny (zwiedzanie domu)
+    url: "https://www.youtube.com/watch?v=cKCupN1gVtU",
+    markers: parse(`
+1:12 wejście +
+1:46 kuchnia
+2:12 salon
+2:23 kuchnia ogrodowa
+2:42 elewacja +
+2:51 sypialnia
+2:58 toaleta
+3:03 łazienka
+3:56 kącik
+      `),
+  },
+  {
+    // Własna minimalistyczna oaza architekta na wewnętrznych przedmieściach (wycieczka po domu)
+    url: "https://www.youtube.com/watch?v=Ti71fevr_ws",
+    markers: parse(`
+0:30 wejście +
+0:33 kuchnia +
+0:49 rzut
+1:15 salon
+1:34 jadalnia +
+3:27 toaleta +
+3:50 łazienka +
+4:25 sypialnia
+      `),
+  },
+  {
+    // INSIDE 2 OF THE MOST INNOVATIVE LUXURY HOMES THAT CHANGED THE GAME FOR 2026
+    url: "https://www.youtube.com/watch?v=UMS3jzbdkgE",
+    markers: parse(`
+      0:58 podjazd +
+      2:22 wejście
+      2:35 rzut
+3:15 konsola +
+3:22 gabinet
+4:20 kącik, wiatrak +
+5:05 łazienka
+5:55 garderoba
+7:28 garderoba
+9:23 garderoba
+9:40 toaleta
+10:25 konsola +
+10:49 sypialnia
+10:58 wiatrak +
+12:26 łazienka
+14:02 garderoba
+15:48 jadalnia
+16:25 kuchnia
+17:53 salon
+20:00 spiżarnia
+20:45 pralnia
+21:20 toaleta
+22:10 garaż
+23:15 taras
+      27:05 podjazd
+32:55 jadalnia
+33:25 pralnia
+      `),
+  },
+  {
+    // MUST SEE... INSIDE THE VERY BEST LUXURY HOUSE I'VE EVER SEEN W/ NANNY QUARTERS FOR $5M
+    url: "https://www.youtube.com/watch?v=Wnw4PEvBavQ",
+    markers: parse(`
+      0:00 wejście
+0:10 rzut
+1:00 podjazd +
+2:44 rzut
+3:29 toaleta
+4:13 kuchnia +
+4:34 jadalnia
+7:53 salon
+9:08 pralnia
+10:25 toaleta
+11:21 gabinet
+12:13 toaleta
+13:12 sypialnia
+13:44 garderoba
+13:58 toaleta
+15:12 garderoba
+15:27 toaleta
+16:14 toaleta
+17:23 garderoba
+17:36 toaleta
+18:10 konsola +
+18:40 sypialnia
+19:24 łazienka
+20:59 garderoba
+21:26 garderoba
+      `),
+  },
   {
     // Budowa domu w stylu toskańskim – rozmowa z inwestorami i inspiracje wnętrzarskie
     url: "https://www.youtube.com/watch?v=MNYgOPWb8WQ",
