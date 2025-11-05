@@ -119,7 +119,7 @@ importers:
         version: 9.39.1(jiti@1.21.7)
       eslint-config-next:
         specifier: canary
-        version: 16.0.2-canary.6(@typescript-eslint/parser@8.46.2(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)
+        version: 16.0.2-canary.7(@typescript-eslint/parser@8.46.2(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3)
       postcss:
         specifier: ^8.5.1
         version: 8.5.6
@@ -304,10 +304,10 @@ importers:
         version: 19.2.2(@types/react@19.2.2)
       '@vitejs/plugin-react':
         specifier: ^5.0.3
-        version: 5.1.0(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))
+        version: 5.1.0(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))
       vite:
-        specifier: ~7.1.5
-        version: 7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
+        specifier: ~7.2.0
+        version: 7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
 
   packages/floors:
     dependencies:
@@ -1524,8 +1524,8 @@ packages:
   '@next/env@15.5.6':
     resolution: {integrity: sha512-3qBGRW+sCGzgbpc5TS1a0p7eNxnOarGVQhZxfvTdnV0gFI61lX7QNtQ4V1TSREctXzYn5NetbUsLvyqwLFJM6Q==}
 
-  '@next/eslint-plugin-next@16.0.2-canary.6':
-    resolution: {integrity: sha512-09uFg+CCkoEM6wE6oELax26zgSYWh3xW8bhA94zTGKwqsu9yUPWsNv7konBLcDV7AZlVxQ0w5rxftDsSEWHe0w==}
+  '@next/eslint-plugin-next@16.0.2-canary.7':
+    resolution: {integrity: sha512-Ww/PKi3W0PXQcWzWfgyQBeA8VRX0t0T/maJCqNAX7PKX25vCI9tsNt4FZ3n86YdVlj50txXtPgKFNmpoGeFGIw==}
 
   '@next/swc-darwin-arm64@15.5.6':
     resolution: {integrity: sha512-ES3nRz7N+L5Umz4KoGfZ4XX6gwHplwPhioVRc25+QNsDa7RtUF/z8wJcbuQ2Tffm5RZwuN2A063eapoJ1u4nPg==}
@@ -2903,8 +2903,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.0.2-canary.6:
-    resolution: {integrity: sha512-I0+bDWAkdumL67vpBJn5fBrPlHPtZKDyCPFPi5rUKF7Zr8q5Npt8PpyqSqECaXasO0PY1t6X8ypCjl+MAg4WfA==}
+  eslint-config-next@16.0.2-canary.7:
+    resolution: {integrity: sha512-J9ahUx+A99qABnT2fQlgSy+YS4zepH5jZbsWXActFteMce/OWfL9JFhxnaxPouk8aSV23yjwhc7WZVUyl/sDoQ==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -4736,8 +4736,8 @@ packages:
     resolution: {integrity: sha512-t20zYkrSf868+j/p31cRIGN28Phrjm3nRSLR2fyc2tiWi4cZGVdv68yNlwnIINTkMTmPoMiSlc0OadaO7DXZaQ==}
     engines: {node: '>= 6'}
 
-  vite@7.1.12:
-    resolution: {integrity: sha512-ZWyE8YXEXqJrrSLvYgrRP7p62OziLW7xI5HYGWFzOvupfAlrLvURSzv/FyGyy0eidogEM3ujU+kUG1zuHgb6Ug==}
+  vite@7.2.0:
+    resolution: {integrity: sha512-C/Naxf8H0pBx1PA4BdpT+c/5wdqI9ILMdwjSMILw7tVIh3JsxzZqdeTLmmdaoh5MYUEOyBnM9K3o0DzoZ/fe+w==}
     engines: {node: ^20.19.0 || >=22.12.0}
     hasBin: true
     peerDependencies:
@@ -5756,7 +5756,7 @@ snapshots:
 
   '@next/env@15.5.6': {}
 
-  '@next/eslint-plugin-next@16.0.2-canary.6':
+  '@next/eslint-plugin-next@16.0.2-canary.7':
     dependencies:
       fast-glob: 3.3.1
 
@@ -6430,7 +6430,7 @@ snapshots:
       react-dom: 19.2.0(react@19.2.0)
       sugar-high: 0.4.7
 
-  '@vitejs/plugin-react@5.1.0(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))':
+  '@vitejs/plugin-react@5.1.0(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@babel/core': 7.28.5
       '@babel/plugin-transform-react-jsx-self': 7.27.1(@babel/core@7.28.5)
@@ -6438,7 +6438,7 @@ snapshots:
       '@rolldown/pluginutils': 1.0.0-beta.43
       '@types/babel__core': 7.20.5
       react-refresh: 0.18.0
-      vite: 7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
     transitivePeerDependencies:
       - supports-color
 
@@ -6451,13 +6451,13 @@ snapshots:
       chai: 6.2.0
       tinyrainbow: 3.0.3
 
-  '@vitest/mocker@4.0.7(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))':
+  '@vitest/mocker@4.0.7(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))':
     dependencies:
       '@vitest/spy': 4.0.7
       estree-walker: 3.0.3
       magic-string: 0.30.21
     optionalDependencies:
-      vite: 7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
 
   '@vitest/pretty-format@4.0.7':
     dependencies:
@@ -7288,9 +7288,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.0.2-canary.6(@typescript-eslint/parser@8.46.2(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3):
+  eslint-config-next@16.0.2-canary.7(@typescript-eslint/parser@8.46.2(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3))(eslint@9.39.1(jiti@1.21.7))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.0.2-canary.6
+      '@next/eslint-plugin-next': 16.0.2-canary.7
       eslint: 9.39.1(jiti@1.21.7)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@9.39.1(jiti@1.21.7))
@@ -9348,7 +9348,7 @@ snapshots:
       string_decoder: 1.3.0
       util-deprecate: 1.0.2
 
-  vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1):
+  vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       esbuild: 0.25.11
       fdir: 6.5.0(picomatch@4.0.3)
@@ -9367,7 +9367,7 @@ snapshots:
   vitest@4.0.7(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1):
     dependencies:
       '@vitest/expect': 4.0.7
-      '@vitest/mocker': 4.0.7(vite@7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))
+      '@vitest/mocker': 4.0.7(vite@7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1))
       '@vitest/pretty-format': 4.0.7
       '@vitest/runner': 4.0.7
       '@vitest/snapshot': 4.0.7
@@ -9384,7 +9384,7 @@ snapshots:
       tinyexec: 0.3.2
       tinyglobby: 0.2.15
       tinyrainbow: 3.0.3
-      vite: 7.1.12(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
+      vite: 7.2.0(@types/node@24.10.0)(jiti@2.6.1)(sass@1.93.3)(terser@5.44.0)(yaml@2.8.1)
       why-is-node-running: 2.3.0
     optionalDependencies:
       '@types/node': 24.10.0
