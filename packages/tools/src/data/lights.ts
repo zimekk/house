@@ -142,5 +142,110 @@ export const lights = [
         "https://ae01.alicdn.com/kf/Sd3917d3fe22b4ec985cb7f1afdec400cu.jpg",
       url: "https://pl.aliexpress.com/item/1005009156782060.html",
     },
+    {
+      name: "Tuya 155MM 4rd Smart Zigbee/WiFi elektryczny silnik kurtyny migawki cichy silnik ze zdalnym sterowaniem APPVoice z Alexa Google Home - AliExpress ",
+      price: 119.82,
+      image:
+        "https://ae01.alicdn.com/kf/S5bd8e86d9176445a8b735fd07fb7d38dM.jpg",
+      url: "https://pl.aliexpress.com/item/1005007279142455.html",
+    },
+    {
+      name: "Płytka rozwojowa ESP32-S3 7-calowy wyświetlacz dotykowy 800×480 Dwurdzeniowy procesor Xtensa LX7 8M Flash WiFi BT5 dla GUI LVGL HMI ESP32 - AliExpress 7",
+      price: 149.99,
+      image:
+        "https://ae01.alicdn.com/kf/S994df21c8de2450c819790aff945d4a40.jpg",
+      url: "https://pl.aliexpress.com/item/1005007033908236.html",
+    },
+    {
+      name: "50CM Nordic żyrandol sufitowy nowoczesny E27 LED stół do jadalni wisiorek światła do salonu sypialnia Loft Decor lampa wisząca - AliExpress 39",
+      price: 642.99,
+      image:
+        "https://ae01.alicdn.com/kf/S728f29942539447a845dff08e10b98c5V.jpg",
+      url: "https://pl.aliexpress.com/item/1005009105280318.html",
+    },
+    {
+      name: "Moduł laserowy czujnik odległości do Arduino STM32 zmierz odległość lotu 50CM 200CM 400CM I2C wyjście TOF050C TOF0200C TOF0400C - AliExpress 502",
+      price: 9.99,
+      image:
+        "https://ae01.alicdn.com/kf/S3e221dbdc85f45ab8bbdc814643ba02ad.jpg",
+      url: "https://pl.aliexpress.com/item/1005006922414022.html",
+    },
+    {
+      name: "230 sztuk 2/3/4/5p zestaw zacisków męskich i żeńskich obudowa złącze pinowe JST XH-2.54 4-wartościowy adapter złączy - AliExpress 502",
+      price: 8.39,
+      image:
+        "https://ae01.alicdn.com/kf/S1fbf6fd07f3744e79231cf7dbf82fde3P.jpg",
+      url: "https://pl.aliexpress.com/item/1005008791163858.html",
+    },
+    {
+      name: "Czujnik wilgotności i temperatury Zigbee Tuya Smart Tester gleby Czujnik wilgotności Obsługa Home Assistant Z2M Aplikacja Smart Life - AliExpress 13",
+      price: 25.23,
+      image:
+        "https://ae01.alicdn.com/kf/Se0b29f455d424248a5a98014ba2b7b2bl.jpg",
+      url: "https://pl.aliexpress.com/item/1005009331847639.html",
+    },
+    {
+      name: "Moduł czujnika obecności człowieka 24 GHz Inteligentny radar fal milimetrowych Moduł wykrywania tętna z BT HLK-LD2410B - AliExpress 502",
+      price: 17.1,
+      image:
+        "https://ae01.alicdn.com/kf/S0e374ffe6ef543988dc33f6943ef8c9bV.jpg",
+      url: "https://pl.aliexpress.com/item/1005006315304472.html",
+    },
+    {
+      name: "10 sztuk/1 szt. LD2410S 24G moduł czujnika radarowego wykrywania obecności człowieka HLK-LD2410S małej mocy LD2410 odległość wykrywania 8M 3.3V 0.1mA - AliExpress ",
+      price: 14.09,
+      image:
+        "https://ae01.alicdn.com/kf/S7a7d631c31294c3c89191d0cd5b4e03dx.jpg",
+      url: "https://pl.aliexpress.com/item/1005006208398629.html",
+    },
+    {
+      name: "AHT10 precyzyjny cyfrowy czujnik temperatury i wilgotności moduł pomiarowy komunikacja I2C wymień DHT11 SHT20 AM2302 - AliExpress 502",
+      price: 6.19,
+      image:
+        "https://ae01.alicdn.com/kf/S90897d329c9a4b82bccc276d33e97117D.jpg",
+      url: "https://pl.aliexpress.com/item/1005008130578753.html",
+    },
+    {
+      name: "Zemismart Zigbee 3.0 inteligentna prowadnica kurtyny praca z Tuya Zigbee Hub SmartThings Alexa Google Home Assistant elektryczne zasłony - AliExpress ",
+      price: 396.22,
+      image:
+        "https://ae01.alicdn.com/kf/S5aa808a60c0140c09270d4e02f689c32K.jpg",
+      url: "https://pl.aliexpress.com/item/1005008158938333.html",
+    },
+    {
+      name: "Dooya DT98 Mini elektryczny silnik kurtyny Jednościeżowy inteligentny dom Kompatybilny z aplikacją Mijia Zdalnie sterowany pręt z napędem silnikowym do Curtai - AliExpress 13",
+      price: 602.79,
+      image:
+        "https://ae01.alicdn.com/kf/Sc1e217e880d54fa493f4982fb6a9c42dn.jpg",
+      url: "https://pl.aliexpress.com/item/1005008327951751.html",
+    },
+    {
+      name: "1 szt. Męskie i żeńskie złącze płyta testowa MINI z płytą 2.54mm podziałka 19/20pin DP HD kobiecy męski płytka przyłączeniowa - AliExpress ",
+      price: 8.91,
+      image:
+        "https://ae01.alicdn.com/kf/Sb2ccee99c08949fab9f882377b2c3ab3g.jpg",
+      url: "https://pl.aliexpress.com/item/1005006287755751.html",
+    },
+    {
+      name: "Silikonowa podkładka lutownicza platforma mata na stół do stacji lutowniczej żelazka naprawa telefonu PC magnetyczna izolacja termiczna bez ołowiu S-160 - AliExpress ",
+      price: 16.15,
+      image:
+        "https://ae01.alicdn.com/kf/S0a090ccf96f84093a4559c90f57b82f7D.jpg",
+      url: "https://pl.aliexpress.com/item/1005009085657828.html",
+    },
+    {
+      name: "5 Typ 9CM 15CM 20CM 25CM 30CM Linijka PCB Wielofunkcyjne narzędzie pomiarowe Rezystor Kondensator Układ scalony IC SMD Dioda Tranzystor - AliExpress ",
+      price: 4.89,
+      image:
+        "https://ae01.alicdn.com/kf/Sbc32b0e8ae00411386f1b7627d2c346fc.jpg",
+      url: "https://pl.aliexpress.com/item/1005008077823195.html",
+    },
+    {
+      name: "100 sztuk żółty przycisk wypełniony żelem przewód telefoniczny łącznik UY 2 Port - AliExpress ",
+      price: 10.59,
+      image:
+        "https://ae01.alicdn.com/kf/Sb08dacbc85bc4d828491ffa99bd35db5o.jpg",
+      url: "https://pl.aliexpress.com/item/1005005689913648.html",
+    },
   ],
 ];
