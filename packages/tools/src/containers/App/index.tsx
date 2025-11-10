@@ -1,4 +1,5 @@
 import { type ChangeEventHandler, useCallback, useMemo, useState } from "react";
+import { LazyImage } from "@acme/ui";
 import { Link } from "../../components/link";
 import { boards } from "../../data/boards";
 import { daliknx } from "../../data/daliknx";
@@ -9,6 +10,7 @@ import styles from "./styles.module.scss";
 
 interface ItemType {
   name: string;
+  image?: string;
   price: number;
   url?: string;
 }
@@ -25,6 +27,10 @@ const formatAmount = (amount: number) =>
   new Intl.NumberFormat("pl-PL", {
     minimumFractionDigits: 2,
   }).format(amount);
+
+function Image({ src }: { src: string }) {
+  return <LazyImage className={styles.Image} src={src} />;
+}
 
 function Table({ list }: { list: ItemType[] }) {
   const [selected, setSelected] = useState(() => list.map((_, key) => key));
@@ -76,6 +82,7 @@ function Table({ list }: { list: ItemType[] }) {
               </label>
             </td>
             <td className={styles.Name}>
+              {item.image && <Image src={item.image} />}
               <Link
                 href={item.url}
                 onClick={(e) => {
