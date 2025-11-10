@@ -1,4 +1,46 @@
 export const orders = [
+  // copy({id:document.querySelector('a.button-compare-add').dataset.idProduct,name:document.querySelector('h1[itemprop="name"]').innerText,price:Number(document.querySelector('span.current-price-value').getAttribute('content')),image:document.querySelector('meta[property="og:image"]').content,url:document.location.href})
+  [
+    {
+      id: "1201081",
+      name: "Fnirsi HS01 precyzyjna lutownica cyfrowa 65W USB-C PD Kit",
+      price: 224.82,
+      image:
+        "https://kamami.pl/79381-large_default/fnirsi-hs01-precyzyjna-lutownica-cyfrowa-65w-usb-c-pd-zestaw-hs01-black-pd-65w-kit.jpg",
+      url: "https://kamami.pl/lutownice-przenosne-pozostale/1185530-fnirsi-hs01-precyzyjna-lutownica-cyfrowa-65w-usb-c-pd-zestaw-hs01-black-pd-65w-kit-5906623476220.html",
+    },
+    {
+      id: "1201081",
+      name: "Kalafonia 45g Cynel",
+      price: 4.1,
+      image: "https://kamami.pl/22760-large_default/kalafonia-45g-cynel.jpg",
+      url: "https://kamami.pl/kalafonia/554969-kalafonia-45g-cynel-5906623405206.html",
+    },
+    {
+      id: "1201081",
+      name: "Cynel Sn99,3Cu0,7 36894 1,00mm/14g - spoiwo lutownicze z topnikiem 36894, fiolka",
+      price: 7.9,
+      image:
+        "https://kamami.pl/91865-large_default/cynel-sn993cu07-36894-100mm14g-spoiwo-lutownicze-z-topnikiem-36894-fiolka.jpg",
+      url: "https://kamami.pl/cyna-bezolowiowa/1186509-cynel-sn993cu07-36894-100mm14g-spoiwo-lutownicze-z-topnikiem-36894-fiolka-5902884607632.html",
+    },
+    {
+      id: "1201081",
+      name: "Cyna Cynel Sn60Pb40 z topnikiem SW26 1,00mm 16g fiolka",
+      price: 5.5,
+      image:
+        "https://kamami.pl/19860-large_default/cyna-lc60-1mm-16g-fiolka.jpg",
+      url: "https://kamami.pl/cyna-olowiowa/547397-cyna-lc60-1mm-16g-fiolka-5906623404896.html",
+    },
+    {
+      id: "1201081",
+      name: "Automatyczny ściągacz izolacji - YT-2268",
+      price: 15.28,
+      image:
+        "https://kamami.pl/38066-large_default/automatyczny-sciagacz-izolacji-yato-yt-2268.jpg",
+      url: "https://kamami.pl/sciagacze-izolacji/581585-automatyczny-sciagacz-izolacji-yato-yt-2268-5906083922688.html",
+    },
+  ],
   [
     {
       name: "Raspberry Pi SSD Kit 512GB - zestaw z dyskiem SSD do Raspberry Pi 5",
