@@ -3,11 +3,10 @@ import { useEffect, useRef, useState } from "react";
 import { Control, ScaleLine, defaults as defaultControls } from "ol/control";
 import { type Coordinate } from "ol/coordinate";
 // import { toStringXY } from 'ol/coordinate';
-import Feature from "ol/Feature";
 import Map from "ol/Map";
 import View from "ol/View";
 import { GeoJSON } from "ol/format";
-// import { Polygon } from "ol/geom";
+// import { type Geometry } from "ol/geom";
 import { Draw, Modify, Snap } from "ol/interaction";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
 import { fromLonLat, transform } from "ol/proj";
@@ -15,8 +14,10 @@ import OSM from "ol/source/OSM";
 import TileWMS from "ol/source/TileWMS";
 import VectorSource from "ol/source/Vector";
 // import XYZ from "ol/source/XYZ";
+// import { getArea } from "ol/sphere.js";
 import { Circle, Fill, Stroke, Style } from "ol/style";
 import "ol/ol.css";
+import useFeatures from "./useFeatures";
 import styles from "./styles.module.scss";
 
 // https://openlayers.org/en/latest/examples/custom-controls.html
@@ -40,7 +41,7 @@ class RotateNorthControl extends Control {
   handleRotateNorth() {
     const map = this.getMap();
     if (map) {
-      console.log(map.getView().getRotation());
+      // console.log(map.getView().getRotation());
       map.getView().setRotation(-0.19);
     }
   }
@@ -66,6 +67,7 @@ export default function App() {
       },
     ],
   }));
+  const [features2, features3, features4, features5] = useFeatures();
   const [selectedCoord, setSelectedCoord] = useState<Coordinate>();
 
   // pull refs
@@ -104,6 +106,25 @@ export default function App() {
       }),
     });
 
+    const vector2 = new VectorLayer({
+      source: new VectorSource({
+        features: new GeoJSON({}).readFeatures(features2),
+      }),
+      style: new Style({
+        fill: new Fill({
+          color: "rgba(255, 255, 255, 0.2)",
+        }),
+        stroke: new Stroke({
+          color: "#ffcc33",
+          width: 2,
+        }),
+      }),
+    });
+
+    // https://openlayers.org/en/latest/examples/measure.html
+    // const polygon = (vector2).getSource()?.getFeatures()[0].getGeometry() as Geometry
+    // console.log(getArea(polygon))
+
     // create map
     const map = new Map({
       target: mapElement.current || undefined,
@@ -135,11 +156,54 @@ export default function App() {
           }),
         }),
         vector,
+        vector2,
+        new VectorLayer({
+          source: new VectorSource({
+            features: new GeoJSON({}).readFeatures(features3),
+          }),
+          style: new Style({
+            fill: new Fill({
+              color: "rgba(255, 255, 255, 0.2)",
+            }),
+            stroke: new Stroke({
+              color: "#ff3344",
+              width: 1,
+            }),
+          }),
+        }),
+        new VectorLayer({
+          source: new VectorSource({
+            features: new GeoJSON({}).readFeatures(features4),
+          }),
+          style: new Style({
+            fill: new Fill({
+              color: "rgba(255, 255, 255, 0.2)",
+            }),
+            stroke: new Stroke({
+              color: "#2233cc",
+              width: 1,
+            }),
+          }),
+        }),
+        new VectorLayer({
+          source: new VectorSource({
+            features: new GeoJSON({}).readFeatures(features5),
+          }),
+          style: new Style({
+            fill: new Fill({
+              color: "rgba(255, 255, 255, 0.2)",
+            }),
+            stroke: new Stroke({
+              color: "#33cc22",
+              width: 2,
+            }),
+          }),
+        }),
       ].filter(Boolean),
       view: new View({
         projection: "EPSG:3857",
-        center: fromLonLat([20.75854578484479, 52.13468296989453]),
-        zoom: 18,
+        center: fromLonLat([20.7594, 52.1346]),
+        zoom: 20,
       }),
       controls: defaultControls().extend([
         new RotateNorthControl(),
@@ -191,6 +255,7 @@ export default function App() {
 
     // transform coord to EPSG 4326 standard Lat Long
     const transormedCoord = transform(clickedCoord, "EPSG:3857", "EPSG:4326");
+    // console.log({clickedCoord,transormedCoord})
 
     // set React state
     setSelectedCoord(transormedCoord);
