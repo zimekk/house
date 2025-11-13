@@ -1,8 +1,37 @@
 import parse from "./utils/parse";
 
 // Object.assign(window, {__markers: (window.__markers||'').concat((v=>([(t => `\n${Math.round(t/60)}:${String(Math.floor(t%60)/100).split('.')[1]} ${prompt('marker')}`)(v.currentTime)]))($('video:not([data-no-fullscreen])')))}),copy({title:$('h1.ytd-watch-metadata').innerText,url:document.location.href,markers:window.__markers})
+// delete window.__markers
 
 export const videos = [
+  {
+    title:
+      "Dom Na Skraju Lasu - Architekci zaprojektowali dom i wnętrza w harmonii z naturą - video | Neostudio",
+    url: "https://www.youtube.com/watch?v=U1SPJu_Pv4E",
+    markers: `
+    0:25 taras
+    1:48 salon
+    1:24 jadalnia
+    2:12 kominek
+    3:56 łazienka
+    3:24 sypialnia
+    `,
+  },
+  {
+    title:
+      "W kalifornijskim domu inspirowanym stylem połowy XX wieku, zaprojektowanym tak, aby nawiązywać do...",
+    url: "https://www.youtube.com/watch?v=mxeJGMnnTzw",
+    markers: `
+    2:36 rzut
+    2:42 wejście
+    2:16 kuchnia
+    3:36 sypialnia
+    3:56 kącik
+    4:44 sypialnia
+    4:5 łazienka
+    4:24 basen
+`,
+  },
   {
     // Domy w najlepszym wydaniu minimalistycznym: betonowy luksus spotyka się z wymarzonym domem w styl...
     url: "https://www.youtube.com/watch?v=_2qBe9S1ecY",
@@ -3225,4 +3254,7 @@ export const videos = [
 8:28 toaleta
       `),
   },
-];
+].map(({ markers, ...item }) => ({
+  ...item,
+  markers: typeof markers === "string" ? parse(markers) : markers,
+}));
