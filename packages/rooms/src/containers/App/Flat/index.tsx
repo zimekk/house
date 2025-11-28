@@ -385,6 +385,241 @@ export default function Flat() {
       ),
   );
 
+  const [house] = useState<Room[]>(() =>
+    ([] as Room[]).concat(
+      ((x, y) => [
+        {
+          name: "Garaż",
+          move: [x, y],
+          size: [6.36, 6.64 - (1.2 * 0.2) / 6.36],
+        },
+        {
+          name: "Pom. techniczne",
+          move: [x, y],
+          size: [2.1, 2.42],
+        },
+        {
+          name: "Klatka schodowa",
+          move: [x, y],
+          size: [2.1, 3.6],
+        },
+        {
+          name: "WC",
+          move: [x, y],
+          size: [1.56, 2.26],
+        },
+        {
+          name: "Spiżarnia",
+          move: [x, y],
+          size: [2.16, 1.64],
+        },
+        {
+          name: "Kuchnia",
+          move: [x, y],
+          size: [4.82, 1.8],
+        },
+        {
+          name: "Jadalnia",
+          move: [x, y],
+          size: [4.82 + 0.6, 1.22 + 1.6 + 2.42],
+        },
+        {
+          name: "Salon",
+          move: [x, y],
+          size: [4, 5.14],
+        },
+        {
+          name: "Gabinet",
+          move: [x, y],
+          size: [3.56, 2.96],
+        },
+        {
+          name: "Hol wejściowy",
+          move: [x, y],
+          size: [5.44 - 1.72 + 0.16, 1.6],
+        },
+        {
+          name: "Komunikacja 1",
+          move: [x, y],
+          size: [1.72 + 2.1 + 1.7, 2.82],
+        },
+        {
+          name: "Komunikacja 2",
+          move: [x, y],
+          size: [2.1, 0.62],
+        },
+        {
+          name: "Sypialnia 1",
+          move: [x, y],
+          size: [3.9, 3.44],
+        },
+        {
+          name: "Garderoba 1",
+          move: [x, y],
+          size: [1.22, 2.04],
+        },
+        {
+          name: "Sypialnia 2",
+          move: [x, y],
+          size: [3.9, 3.44],
+        },
+        {
+          name: "Garderoba 2",
+          move: [x, y],
+          size: [1.22, 2.04],
+        },
+        {
+          name: "Komunikacja 1",
+          move: [x, y],
+          size: [1.38, 2.64],
+        },
+        {
+          name: "Komunikacja 2",
+          move: [x, y],
+          size: [1, (2.64 + 0.16) / 2],
+        },
+        {
+          name: "Przestrzeń wspólna",
+          move: [x, y],
+          size: [2.1 + 6.98, 3.44],
+        },
+        {
+          name: "Łazienka",
+          move: [x, y],
+          size: [2.2, 3.44],
+        },
+        {
+          name: "Pralnia",
+          move: [x, y],
+          size: [1.6, 3.44],
+        },
+        {
+          name: "Gabinet",
+          move: [x, y],
+          size: [2.7, 3.44],
+        },
+        {
+          name: "Garderoba A",
+          move: [x, y],
+          size: [1.5, 1.76],
+        },
+        {
+          name: "Garderoba B",
+          move: [x, y],
+          size: [2.2, 1.68],
+        },
+        {
+          name: "Sauna",
+          move: [x, y],
+          size: [1.6, 2.5 - 0.85],
+        },
+        {
+          name: "Prysznic",
+          move: [x, y],
+          size: [0.855, 1.6],
+        },
+        {
+          name: "Łazienka główna",
+          move: [x, y],
+          size: [1.8, 1.84],
+        },
+        {
+          name: "Sypialnia główna",
+          move: [x, y],
+          size: [4.16, 3.44],
+        },
+      ])(2.5, 1),
+    ),
+  );
+
+  const [marina] = useState<Room[]>(() =>
+    ([] as Room[]).concat(
+      ((x, y) => [
+        {
+          name: "Garaż",
+          move: [x, y],
+          size: [3.01, 5.9],
+        },
+        {
+          name: "Pralnia",
+          move: [x, y],
+          size: [2.35, 1.23],
+        },
+        {
+          name: "Toaleta",
+          move: [x, y],
+          size: [2.35, 1.45],
+        },
+        {
+          name: "Hall",
+          move: [x, y],
+          size: [2.62, 1.23 + 1.45],
+        },
+        {
+          name: "Salon z aneksem + Schody",
+          move: [x, y],
+          size: [6.65, 6.93],
+        },
+        {
+          name: "Hall",
+          move: [x, y],
+          size: [3.02 + 3.51 - 2.3, 2.42],
+          size: [2.255, 2.42],
+        },
+        {
+          name: "Łazienka",
+          move: [x, y],
+          size: [2.3, 2.42],
+        },
+        {
+          name: "Sypialnia I",
+          move: [x, y],
+          size: [3.51, 4.39],
+        },
+        {
+          name: "Sypialnia II",
+          move: [x, y],
+          size: [3.02, 4.15],
+        },
+        {
+          name: "Sypialnia III",
+          move: [x, y],
+          size: [3.285, 4.95],
+        },
+        {
+          name: "Garderoba",
+          move: [x, y],
+          size: [1.69, 1.92],
+        },
+        {
+          name: "Łazienka",
+          move: [x, y],
+          size: [1.69, 3.03],
+        },
+        {
+          name: "Poddasze 1",
+          move: [x, y],
+          size: [3.44, 3.25],
+        },
+        {
+          name: "Poddasze 2",
+          move: [x, y],
+          size: [1.6, 1.71],
+        },
+        {
+          name: "Poddasze 3",
+          move: [x, y],
+          size: [3.44, 6.92 - (2.42 * 2.8) / 3.44],
+        },
+        {
+          name: "Łazienka",
+          move: [x, y],
+          size: [2.02, 1.71],
+        },
+      ])(2.5, 1),
+    ),
+  );
+
   return (
     <div
       style={{
@@ -452,6 +687,12 @@ export default function Flat() {
       </div>
       <div>
         <Table list={rooms} />
+      </div>
+      <div>
+        <Table list={house} />
+      </div>
+      <div>
+        <Table list={marina} />
       </div>
     </div>
   );
