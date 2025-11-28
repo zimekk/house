@@ -187,6 +187,538 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.contractors.pl/img1/1630939683_sciezka-z-plyt-betonowych-w-nowoczesnym-ogrodzie.jpg",
+    url: "https://www.contractors.pl/przywi%C4%85zanie_do_jako%C5%9Bci_i_detalu_w_ogrodzie___plyty_betonowe_contractors-106792-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1631728075_nowoczesny-ogrod.jpg",
+    url: "https://www.contractors.pl/przywi%C4%85zanie_do_jako%C5%9Bci_i_detalu_w_ogrodzie___plyty_betonowe_contractors-106792-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1608031652_nowoczesny-ogrod.jpg",
+    url: "https://www.contractors.pl/nowoczesny_ogrod-106756-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1608031652_beton-architektoniczny-w-ogrodzie.jpg",
+    url: "https://www.contractors.pl/nowoczesny_ogrod-106756-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1608031652_dom-nowoczesny-z-ogrodem.jpg",
+    url: "https://www.contractors.pl/nowoczesny_ogrod-106756-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1608031651_nowoczesny-dom-z-ogrodem.jpg",
+    url: "https://www.contractors.pl/nowoczesny_ogrod-106756-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1608031653_ogrod-nowoczesny.jpg",
+    url: "https://www.contractors.pl/nowoczesny_ogrod-106756-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1724771199_betonowe-schody-lewitujace-w-ogrodzie.jpg",
+    url: "https://www.contractors.pl/schody_lewituj%C4%85ce_w_malym_ogrodzie-107018-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1724771199_duze-stopnie-betonowe.jpg",
+    url: "https://www.contractors.pl/schody_lewituj%C4%85ce_w_malym_ogrodzie-107018-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1689577837_plyty-betonowe-na-schody.jpg",
+    url: "https://www.contractors.pl/lewituj%C4%85ce_schody_betonowe-106939-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1689577838_plyty-na-stopnie-lewitujace.jpg",
+    url: "https://www.contractors.pl/lewituj%C4%85ce_schody_betonowe-106939-0-gal106620.html",
+  },
+  {
+    src: "https://www.contractors.pl/img1/1689577838_schody-w-ogrodzie.jpg",
+    url: "https://www.contractors.pl/lewituj%C4%85ce_schody_betonowe-106939-0-gal106620.html",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2025/02/donice-duze-ingeborg-warszawa-artline-beton.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2025/02/donice-duze-betonowe-osiedle-warszawa-artline-beton.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2025/02/ogrodzenie-betonowe-inspiracje-warszawa-artline-beton.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2023/10/o_nas.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2023/10/2mury_ogrodzeniowe_beton_architektoniczny_Artline_Beton.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2023/10/4Nowoczesne_ogrodzenie_muryL_beton_architektoniczny_Artline_Beton.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2023/10/3mury_ogrodzeniowe_L_Torsten_Artline_Beton.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://artline-beton.pl/wp-content/uploads/2023/10/4mury_ogrodzeniowe_L_Torsten_Artline_Beton.jpg",
+    url: "https://artline-beton.pl/realizacje/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-46-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-21-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-44-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-38-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-35-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-34-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-32-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-29-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-27-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-25-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-24-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-23-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-22-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-20-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-11-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-12-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-16-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-17-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-18-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-19-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-10-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-08-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-07-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-05-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-04-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-03-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2024/08/Minimalistyczny-apartament-we-wloskim-stylu-1200px-02-magazif.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-apartamentow/historia-pewnej-znajomosci-minimalistyczny-apartament-we-wloskim-stylu/",
+  },
+  {
+    src: "https://magazif.com/wp-content/uploads/2025/07/bezowy-salon-seo-02.jpg",
+    url: "https://magazif.com/projekty-wnetrz/wnetrza-mieszkalne/projekty-salonu/bezowy-salon-inspiracje/",
+  },
+  {
+    src: "https://www.calligaris.com/media/immagini/2580_n_DUE-kitchen-thumb_listing_1490x930.jpg",
+    url: "https://www.calligaris.com/EEU/en/inspiration",
+  },
+  {
+    src: "https://www.calligaris.com/media/immagini/2061_n_22014-CAL-C22-Arch01-G20-01-co-o%20(5)%20(1).jpg",
+    url: "https://www.calligaris.com/EEU/en/inspiration",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_linear_zw/pict-big/DOTA%20LINEAR%201200%20ZW%20WIZ3%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/zwieszane/dota-linear-zw#Dota_Linear_ZW_9/5-2069-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_linear_zw/pict-big/DOTA%20LINEAR%201620%20ZW%20WIZ3%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/zwieszane/dota-linear-zw#Dota_Linear_ZW_9/5-2069-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_multi-dot_zw/pict-big/RAY%20multiDot%20ZW%203216D%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/zwieszane/ray-multidot-zw#Ray_multi_dot_ZW_6/5-2274-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_multi-dot_zw/pict-big/RAY%20multiDot%20ZW%20linie%203199M%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/zwieszane/ray-multidot-zw#Ray_multi_dot_ZW_6/5-2274-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_multi-dot_zw/pict-big/RAY%20multiDot%20ZW%20linie%203208M%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/zwieszane/ray-multidot-zw#Ray_multi_dot_ZW_6/5-2274-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_zw/pict-big/RAY%20DF%20ZW%203244M%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/zwieszane/ray-zw#Ray_ZW_6/6-0623-12-927-DF",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_zw/pict-big/RAY%20DF%20ZW%203248M%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/zwieszane/ray-zw#Ray_ZW_6/6-0623-12-927-DF",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_zw/pict-big/RAY%20DF%20ZW%20linie%203233M%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/zwieszane/ray-zw#Ray_ZW_6/6-0623-12-927-DF",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_mini_zw/pict-big/XILO%20MINI%20ZW%20L%20WIZ2%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-mini-zw#Xilo_mini_S_Wiszaca/GM-S11_BM-S12-NF-12-927-00",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_mini_zw/pict-big/XILO%20MINI%20ZW%20M%20WIZ2%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-mini-zw#Xilo_mini_S_Wiszaca/GM-S11_BM-S12-NF-12-927-00",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_mini_zw/pict-big/XILO%20MINI%20ZW%20S%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-mini-zw#Xilo_mini_S_Wiszaca/GM-S11_BM-S12-NF-12-927-00",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_zw/pict-big/XILO%20BODY%20M%20Opal%20ZW%20Black%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-zw#Xilo_S_Zwieszana/GL-S11_BD-S12-NF-12-927-00",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_zw/pict-big/XILO%20BODY%20M%20Smoky%20Brown%20ZW%20DM%20LABRA%208%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-zw#Xilo_S_Zwieszana/GL-S11_BD-S12-NF-12-927-00",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_zw/pict-big/XILO%20BODY%20S%20Petrol%20Blue%20ZW%20DM%20LABRA%204%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-zw#Xilo_S_Zwieszana/GL-S11_BD-S12-NF-12-927-00",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_zw/pict-big/Xilo%20S%20Zwieszana%20WIZ3%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-zw#Xilo_S_Zwieszana/GL-S11_BD-S12-NF-12-927-00",
+  },
+  {
+    src: "https://labra.pl/content/groups/yon_46_grid_zw/pict-big/YON%2046-12%20GRID%20ZW%203125M%20HofR%20strona.jpg",
+    url: "https://labra.pl/pl/zwieszane/yon-46-grid-zw#Yon_Grid_ZW_46_6/6-2675-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/yon_46_grid_zw/pict-big/YON%2046-12%20GRID%20ZW%203130M%20HofR%20strona.jpg",
+    url: "https://labra.pl/pl/zwieszane/yon-46-grid-zw#Yon_Grid_ZW_46_6/6-2675-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/yon_46_grid_zw/pict-big/YON%2046-12%20GRID%20ZW%20linie%203115M+Camera_Profile%20HofR%20v2%20strona.jpg",
+    url: "https://labra.pl/pl/zwieszane/yon-46-grid-zw#Yon_Grid_ZW_46_6/6-2675-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_linear_nt/pict-big/1%20DOTA%20LINEAR%20NT%20linie%203807M%20HofR%20v2%20strona.jpg",
+    url: "https://labra.pl/pl/natynkowe/dota-linear-nt#Dota_Linear_NT_9/3-2050-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_linear_nt/pict-big/2%20DOTA%20LINEAR%20NT%203811K%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/dota-linear-nt#Dota_Linear_NT_9/3-2050-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_nt/pict-big/1%20DOTA%20LONG%20NT%201632142%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/dota-nt#Dota_High_NT_40_1/3-2077-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_nt/pict-big/2%20DOTA%20NT%20HIGH%2098729%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/dota-nt#Dota_High_NT_40_1/3-2077-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_nt/pict-big/3%20DOTA%20SINGLE%2040.1%20NT%20linie%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/dota-nt#Dota_High_NT_40_1/3-2077-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_nt/pict-big/DOTA%20ONE%20NT%2040.1%20WIZ2%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/natynkowe/dota-nt#Dota_High_NT_40_1/3-2077-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/shift_nt/pict-big/SHIFT%201x3%20NT%201114%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/shift-nt#Shift_NT_1_3/3-1331-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/shift_nt/pict-big/SHIFT%201x4%20NT%201119%20HofR_DM%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/shift-nt#Shift_NT_1_3/3-1331-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/shift_nt/pict-big/SHIFT%20NT%20linie%201215%20HofR%20v2_DM%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/shift-nt#Shift_NT_1_3/3-1331-12-927-W",
+  },
+  {
+    src: "https://labra.pl/content/groups/solid_area_nt/pict-big/SOLID%20AREA%202-0%20NT%20linie%201381%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/solid-area-nt#Solid_Area_NT_2_0/3-1250-12-830",
+  },
+  {
+    src: "https://labra.pl/content/groups/solid_area_nt/pict-big/SOLID%20AREA%204-0%20NT%201350%20HofR%20strona.jpg",
+    url: "https://labra.pl/pl/natynkowe/solid-area-nt#Solid_Area_NT_2_0/3-1250-12-830",
+  },
+  {
+    src: "https://labra.pl/content/groups/solid_area_nt/pict-big/SOLID%20AREA%20NT%201365%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/natynkowe/solid-area-nt#Solid_Area_NT_2_0/3-1250-12-830",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_mini_nt/pict-big/XILO%20MINI%20KN%20M%20WIZ2%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-mini-nt#Xilo_mini_S_Natynkowa_Waterproof/GM-S11_BM-S11-NF-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_mini_nt/pict-big/XILO%20MINI%20NT%20L%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-mini-nt#Xilo_mini_S_Natynkowa_Waterproof/GM-S11_BM-S11-NF-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_mini_nt/pict-big/XILO%20MINI%20NT%20S%20WIZ2%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-mini-nt#Xilo_mini_S_Natynkowa_Waterproof/GM-S11_BM-S11-NF-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/xilo_mini_nt/pict-big/XILO%20MINI%20NT%20S%20WIZ3%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/dekoracyjne/xilo-mini-nt#Xilo_mini_S_Natynkowa_Waterproof/GM-S11_BM-S11-NF-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/bold/pict-big/1%20BOLD%20grupa%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/kinkiety/bold#Bold_Q_1_0_KN/4-1912-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/bold/pict-big/2%20BOLD%20Q%201-0%20KN%201964%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/kinkiety/bold#Bold_Q_1_0_KN/4-1912-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/bold/pict-big/BOLD%20Q%201.0%20KN%20WIZ3%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/kinkiety/bold#Bold_Q_1_0_KN/4-1912-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_linear_wp/pict-big/1%20DOTA%20LINEAR%20900%20WP%20linie%20WIZ2%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/dota-linear-wp#Dota_Linear_WP_9/4-2059-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_linear_wp/pict-big/DOTA%20LINEAR%20WP%20900%20WIZ3%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/wpuszczane/dota-linear-wp#Dota_Linear_WP_9/4-2059-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_linear_wp/pict-big/DOTA%20LINEAR%20WP%20900%20WIZ4%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/wpuszczane/dota-linear-wp#Dota_Linear_WP_9/4-2059-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_trimless/pict-big/1%20DOTA%20TRIMLESS%2040-1%20linie%202823M%20+%202771M%20+%202283%20HofR%20v2%20strona.jpg",
+    url: "https://labra.pl/pl/wpuszczane/dota-trimless#Dota_Trimless_40_1_HP/4-1931-12-930-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_trimless/pict-big/3%20DOTA%20TRIMLESS%2040-3%202284%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/dota-trimless#Dota_Trimless_40_1_HP/4-1931-12-930-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/hedion_flat/pict-big/HEDION%20FLAT%2060%20TRIMLESS%20WIZ2%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/wpuszczane/hedion-flat#Hedion_Flat_60_Trimless/4-3845-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/hedion_flat/pict-big/HEDION%20FLAT%2060%20WIZ3%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/hedion-flat#Hedion_Flat_60_Trimless/4-3845-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/hedion_flat/pict-big/HEDION%20FLAT%2080%20WIZ2%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/hedion-flat#Hedion_Flat_60_Trimless/4-3845-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/hedion_flat/pict-big/HEDION%20FLAT%20grupa%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/hedion-flat#Hedion_Flat_60_Trimless/4-3845-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/iner/pict-big/INER%201%20TRIMLESS%20edgeLED%202659M%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/iner#Iner_1_Trim_edge_LED/4-0759-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/iner/pict-big/INER%201%20edgeLED%202671M%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/iner#Iner_1_Trim_edge_LED/4-0759-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/iner/pict-big/INER%201%20edgeLED%20linie%202666M%20+%202646%20HofR%20strona.jpg",
+    url: "https://labra.pl/pl/wpuszczane/iner#Iner_1_Trim_edge_LED/4-0759-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/iner/pict-big/INER%20MIDI%201.0%20TRIM%20G2%20WIZ2%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/wpuszczane/iner#Iner_1_Trim_edge_LED/4-0759-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_lightline_wp/pict-big/Ray%20Evo%20Set%20Lightline%201150%20WP%20SBDM%202%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/ray-evo-set-lightline-wp#Ray_EVO-Lightline_WP_6/4-3452-12-927-DF",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_lightline_wp/pict-big/Ray%20Evo%20Set%20Lightline%201150%20WP%20SBDM%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/ray-evo-set-lightline-wp#Ray_EVO-Lightline_WP_6/4-3452-12-927-DF",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_set_wp/pict-big/RAY%20EVO%20SET%20WP%20L.16%20MODULE%2010.0%204SHI+1L%20WIZ3%20DM%20LABRA%20strona.jpg",
+    url: "https://labra.pl/pl/wpuszczane/ray-evo-set-wp#Ray_EVO_I_16_Set_1_ST35x2_LL_WP/6-4167-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_set_wp/pict-big/RAY%20EVO%20SET%20WP%20L.16%20MODULE%204.0%204SHM+1L%20WIZ3%20DM%20LABRA%20strona.jpg",
+    url: "https://labra.pl/pl/wpuszczane/ray-evo-set-wp#Ray_EVO_I_16_Set_1_ST35x2_LL_WP/6-4167-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_set_wp/pict-big/RAY%20EVO%20SET%20WP%20grupa%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/ray-evo-set-wp#Ray_EVO_I_16_Set_1_ST35x2_LL_WP/6-4167-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_set_wp/pict-big/RAY%20EVO%20SET%20WP%20L.16%20MODULE%2010.0%204SHI+1L%20WIZ3%20DM%20LABRA%20strona.jpg",
+    url: "https://labra.pl/pl/wpuszczane/ray-evo-set-wp#Ray_EVO_I_16_Set_1_ST35x2_LL_WP/6-4167-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_set_wp/pict-big/RAY%20EVO%20SET%20WP%20L.16%20MODULE%204.0%204SHM+1L%20WIZ3%20DM%20LABRA%20strona.jpg",
+    url: "https://labra.pl/pl/wpuszczane/ray-evo-set-wp#Ray_EVO_I_16_Set_1_ST35x2_LL_WP/6-4167-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/solid_area_wp/pict-big/SOLID%20AREA%204-0%20WP%202992M%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/solid-area-wp#Solid_Area_WP_2_0/4-1256-12-830",
+  },
+  {
+    src: "https://labra.pl/content/groups/solid_area_wp/pict-big/SOLID%20AREA%204-0%20WP%202996M%20HofR%20strona.webp",
+    url: "https://labra.pl/pl/wpuszczane/solid-area-wp#Solid_Area_WP_2_0/4-1256-12-830",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/pict-big/M26%20SYSTEM%20dodatkowe%20WIZ1%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/pict-big/M26%20SYSTEM%20dodatkowe%20WIZ2%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/pict-big/M26%20SYSTEM%20dodatkowe%20WIZ3%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/pict-big/M26%20SYSTEM%20dodatkowe%20WIZ4%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/pict-big/M26%20SYSTEM%20dodatkowe%20WIZ5%20DM%20LABRA.webp",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/in-space/M26%20-%20Shift%20On%201.4%20x1%20office%20iStock-2177065677%20+%20WIZ4%20DM%20LABRA.jpg",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/in-space/M26%20-%20Xilo%20mini%20S%20living%20room%20iStock-1283068296%20+%20WIZ3%20DM%20LABRA%20LowRes.jpg",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/fx26_system/in-space/wn%C4%99trze%20pod%20M26%20v8.jpg",
+    url: "https://labra.pl/pl/systemy/fx26-system#Juno%C2%A013_Spotlight_AD_48V-F/7-4387-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/dota_system/pict-big/3%20DOTA-SYSTEM-8434%20strona.webp",
+    url: "https://labra.pl/pl/systemy/dota-system#Dota_System-Light_Module_1/6-2349-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/microsystem/pict-big/Microsystem%20Shift%20Micro%20DM2%20strona.webp",
+    url: "https://labra.pl/pl/systemy/microsystem#Microsystem-Flato_AD_48V/7-3673-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/microsystem/pict-big/Microsystem_Stik_%20strona.webp",
+    url: "https://labra.pl/pl/systemy/microsystem#Microsystem-Flato_AD_48V/7-3673-12-927",
+  },
+  {
+    src: "https://labra.pl/content/groups/multisystem_lt/pict-big/MULTISYSTEM%20LT%20NT%20-%20AD%2048V%20SHIFT%20ON%2012x1%20linie%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/systemy/multisystem-lt#Multisystem_LT-Easy_Spot_40_AD_48V/7-3995LT-12-927-M",
+  },
+  {
+    src: "https://labra.pl/content/groups/multisystem_lt/pict-big/MULTISYSTEM%20LT%20WP%20TRIMLESS%20-%20AD%2048V%20STIK%2016%20SP%20linie%20WIZ1%20DM%20LABRA%20strona.webp",
+    url: "https://labra.pl/pl/systemy/multisystem-lt#Multisystem_LT-Easy_Spot_40_AD_48V/7-3995LT-12-927-M",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_system/pict-big/RAY%20EVO%20LIGHTLINE%20linie%204213K%20HofR%20v2%20strona.webp",
+    url: "https://labra.pl/pl/systemy/ray-evo-system#Ray_EVO_System-Geit_Flat_x1_C/6-2948-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_evo_system/in-space/21-04-28%20431.jpg",
+    url: "https://labra.pl/pl/systemy/ray-evo-system#Ray_EVO_System-Geit_Flat_x1_C/6-2948-12-927-S",
+  },
+  {
+    src: "https://labra.pl/content/groups/ray_system_wp/pict-big/RAY_SYSTEM-3%20strona.webp",
+    url: "https://labra.pl/pl/systemy/ray-system-wp#Ray_System_WP-Lightline_6/6-2004-12-927-DF",
+  },
+  {
+    src: "https://labra.pl/content/groups/track_3f_dali_adv/pict-big/TRACK%203F%20ADV%20linie%20WIZ1%20DM%20LABRA%20strona.jpg",
+    url: "https://labra.pl/pl/systemy/track-3f-dali-advanced#Fraam_Move_AD_3F_3_6/7-2145-12-927-DF",
+  },
+  {
+    src: "https://labra.pl/content/realizations/2023_Rzesz%C3%B3w_Dom%20prywatny_Bello%20Studio/1%20LABRA_hedion_Rzesz%C3%B3w_designBelloStudio_photoPatrykPolewany2.webp",
+    url: "https://labra.pl/pl/inspiracje/2023rzeszowdom-prywatnybello-studio-1.html",
+  },
+  {
+    src: "https://labra.pl/content/realizations/2023_Rzesz%C3%B3w_Dom%20prywatny_Bello%20Studio/IMG_3708-EditPP.webp",
+    url: "https://labra.pl/pl/inspiracje/2023rzeszowdom-prywatnybello-studio-1.html#carousel",
+  },
+  {
+    src: "https://labra.pl/content/realizations/2023_Lviv_mieszkanie_A44%20STUDIO/A44STUDIO_OSTR_05.webp",
+    url: "https://labra.pl/inspiracje/2023lvivmieszkaniea44-studio-1.html",
+  },
+  {
+    src: "https://labra.pl/content/realizations/2023_Lviv_mieszkanie_A44%20STUDIO/A44STUDIO_OSTR_11.webp",
+    url: "https://labra.pl/inspiracje/2023lvivmieszkaniea44-studio-1.html#carousel",
+  },
+  {
+    src: "https://labra.pl/content/realizations/2023_Lviv_mieszkanie_A44%20STUDIO/A44STUDIO_OSTR_18.webp",
+    url: "https://labra.pl/inspiracje/2023lvivmieszkaniea44-studio-1.html#carousel",
+  },
+  {
+    src: "https://labra.pl/content/realizations/2017_Lviv_apartament_prywatny_ARMZ_interior_design_studio_Nikolay_Korsun/1.jpg",
+    url: "https://labra.pl/inspiracje/2017lvivapartamentprywatnyarmzinteriordesignstudionikolaykorsun-1.html#carousel",
+  },
+  {
+    src: "https://labra.pl/content/realizations/2017_Lviv_apartament_prywatny_ARMZ_interior_design_studio_Nikolay_Korsun/3.jpg",
+    url: "https://labra.pl/inspiracje/2017lvivapartamentprywatnyarmzinteriordesignstudionikolaykorsun-1.html#carousel",
+  },
+  {
     src: "https://www.ligne-roset.com/media/ligne_roset_ww/1005mo.jpg",
     url: "https://www.ligne-roset.com/en/p/modular-settees/composition-togo-1371",
   },

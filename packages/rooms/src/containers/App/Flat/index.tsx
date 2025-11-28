@@ -563,7 +563,7 @@ export default function Flat() {
         {
           name: "Hall",
           move: [x, y],
-          size: [3.02 + 3.51 - 2.3, 2.42],
+          // size: [3.02 + 3.51 - 2.3, 2.42],
           size: [2.255, 2.42],
         },
         {
