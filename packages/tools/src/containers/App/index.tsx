@@ -5,6 +5,7 @@ import { boards } from "../../data/boards";
 import { daliknx } from "../../data/daliknx";
 import { garden } from "../../data/garden";
 import { lights } from "../../data/lights";
+import { moto } from "../../data/moto";
 import { orders } from "../../data/orders";
 import styles from "./styles.module.scss";
 
@@ -20,6 +21,7 @@ const OPTIONS = {
   daliknx,
   garden,
   lights,
+  moto,
   orders,
 } as const;
 
