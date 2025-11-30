@@ -1,6 +1,7 @@
 import type { AppProps } from "next/app";
 import type { ReactNode, ComponentType } from "react";
 import type { LayoutProps } from ".";
+import "./globals.css";
 import "@vercel/examples-ui/globals.css";
 
 const Noop = ({ children }: { children?: ReactNode }) => <>{children}</>;
