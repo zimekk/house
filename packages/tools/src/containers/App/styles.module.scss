@@ -17,6 +17,11 @@
       padding: 0 0.25em;
     }
   }
+  .Image {
+    float: left;
+    width: 40px;
+    margin-right: 0.5em;
+  }
 }
 .Columns {
   display: flex;
@@ -26,9 +31,4 @@
   & > div {
     min-width: 18em;
   }
-}
-.Image {
-  float: left;
-  width: 40px;
-  margin-right: 0.5em;
 }
