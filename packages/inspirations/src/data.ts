@@ -187,6 +187,18 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://freight.cargo.site/w/1080/q/75/i/A1684004496499402716396236600780/EVRA-001.jpg",
+    url: "https://dion.eu/evra",
+  },
+  {
+    src: "https://freight.cargo.site/w/1500/q/75/i/T1967450481739861833797954991564/EVRA-011.jpg",
+    url: "https://dion.eu/evra",
+  },
+  {
+    src: "https://freight.cargo.site/w/1500/q/75/i/H1967450692752167292961515926988/EVRA-012.jpg",
+    url: "https://dion.eu/evra",
+  },
+  {
     src: "https://www.contractors.pl/img1/1630939683_sciezka-z-plyt-betonowych-w-nowoczesnym-ogrodzie.jpg",
     url: "https://www.contractors.pl/przywi%C4%85zanie_do_jako%C5%9Bci_i_detalu_w_ogrodzie___plyty_betonowe_contractors-106792-0-gal106620.html",
   },
