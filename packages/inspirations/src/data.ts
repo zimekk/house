@@ -187,6 +187,38 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://static.wixstatic.com/media/992f60_a046b25dd2c34bfab5e02b380a1e1389~mv2.jpg/v1/fit/w_1402,h_1080,q_90,enc_avif,quality_auto/992f60_a046b25dd2c34bfab5e02b380a1e1389~mv2.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-824c57b8-3dd0-4886-b4bc-711e2cdaea46",
+  },
+  {
+    src: "https://static.wixstatic.com/media/992f60_63ff91e041344033863e0079c3d86275~mv2.jpg/v1/fit/w_1402,h_1080,q_90,enc_avif,quality_auto/992f60_63ff91e041344033863e0079c3d86275~mv2.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-3c75686e-e10d-47d1-b176-44b5fbb8dad0",
+  },
+  {
+    src: "https://static.wixstatic.com/media/992f60_f4f1c03c08304787ae969f3084d0e44e~mv2.jpg/v1/fit/w_872,h_1080,q_90,enc_avif,quality_auto/992f60_f4f1c03c08304787ae969f3084d0e44e~mv2.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-77b2cad3-ee98-43e7-93e9-1de462078f46",
+  },
+  {
+    src: "https://static.wixstatic.com/media/992f60_7cdea91c3f504eaba4219d15e638ffb6~mv2.jpg/v1/fit/w_872,h_1080,q_90,enc_avif,quality_auto/992f60_7cdea91c3f504eaba4219d15e638ffb6~mv2.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-b79a819e-a8bb-40d7-97f8-0c04d33c5cfc",
+  },
+  {
+    src: "https://static.wixstatic.com/media/992f60_20d4a64c07ec486d8a7b2095120fc14b~mv2.jpg/v1/fit/w_1402,h_1080,q_90,enc_avif,quality_auto/992f60_20d4a64c07ec486d8a7b2095120fc14b~mv2.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-8f0c42b0-1f9b-41c8-a6b9-6d9231915916",
+  },
+  {
+    src: "https://static.wixstatic.com/media/992f60_b91cddecf7334e96a37bae08689d8b5f~mv2.jpg/v1/fit/w_1402,h_1080,q_90,enc_avif,quality_auto/992f60_b91cddecf7334e96a37bae08689d8b5f~mv2.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-0582a6e8-e16b-4422-8cf6-8d2c622b9921",
+  },
+  {
+    src: "https://static.wixstatic.com/media/992f60_6a0ba1b5de0f405d94c158beeff38be1~mv2.jpg/v1/fit/w_1402,h_1080,q_90,enc_avif,quality_auto/992f60_6a0ba1b5de0f405d94c158beeff38be1~mv2.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-3cd922fd-51f7-4ca7-86d3-98c99689ab00",
+  },
+  {
+    src: "https://static.wixstatic.com/media/1d110d25a08446189f683b39b2cea1d5.jpg/v1/fit/w_872,h_1080,q_90,enc_avif,quality_auto/1d110d25a08446189f683b39b2cea1d5.jpg",
+    url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-294954f0-6760-4af0-b7b1-f7d709d7abee",
+  },
+  {
     src: "https://freight.cargo.site/w/1080/q/75/i/A1684004496499402716396236600780/EVRA-001.jpg",
     url: "https://dion.eu/evra",
   },
