@@ -187,6 +187,22 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.nordlux.com/cdn-cgi/image/width=1400,format=auto/https://nordluxpimdata.blob.core.windows.net/nordlux-product-images/M%20Alton%202010506047_1.jpg",
+    url: "https://www.nordlux.com/product/201050/2010506047",
+  },
+  {
+    src: "https://www.nordlux.com/cdn-cgi/image/width=1400,format=auto/https://nordluxpimdata.blob.core.windows.net/nordlux-product-images/M%20Alton%2047303047_1.jpg",
+    url: "https://www.nordlux.com/product/4730/47303047",
+  },
+  {
+    src: "https://www.nordlux.com/cdn-cgi/image/width=1400,format=auto/https://nordluxpimdata.blob.core.windows.net/nordlux-product-images/M%20Alton%2047303001_2.jpg",
+    url: "https://www.nordlux.com/product/4730/47303001",
+  },
+  {
+    src: "https://www.nordlux.com/cdn-cgi/image/width=1400,format=auto/https://nordluxpimdata.blob.core.windows.net/nordlux-product-images/M%20Alton%202010514047_1.jpg",
+    url: "https://www.nordlux.com/product/201051/2010514047",
+  },
+  {
     src: "https://static.wixstatic.com/media/992f60_a046b25dd2c34bfab5e02b380a1e1389~mv2.jpg/v1/fit/w_1402,h_1080,q_90,enc_avif,quality_auto/992f60_a046b25dd2c34bfab5e02b380a1e1389~mv2.jpg",
     url: "https://www.belif.pl/portfolio?pgid=jsn11hmd-824c57b8-3dd0-4886-b4bc-711e2cdaea46",
   },
