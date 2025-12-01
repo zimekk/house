@@ -247,5 +247,12 @@ export const lights = [
         "https://ae01.alicdn.com/kf/Sb08dacbc85bc4d828491ffa99bd35db5o.jpg",
       url: "https://pl.aliexpress.com/item/1005005689913648.html",
     },
+    {
+      name: "DALI AC Triac Dimmer DT-C z przełącznikiem przyciskowym Ściemniacz krawędziowy DT4 do jednokolorowych ściemnialnych lamp LED AC100-240V 360W - AliExpress 39",
+      price: 29.12,
+      image:
+        "https://ae01.alicdn.com/kf/S58320361ec784205aba01746ac6c553bL.jpg",
+      url: "https://pl.aliexpress.com/item/1005007328614262.html",
+    },
   ],
 ];
