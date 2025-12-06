@@ -254,5 +254,68 @@ export const lights = [
         "https://ae01.alicdn.com/kf/S58320361ec784205aba01746ac6c553bL.jpg",
       url: "https://pl.aliexpress.com/item/1005007328614262.html",
     },
+    {
+      name: "DALI AC Triac Dimmer DT-C z przełącznikiem przyciskowym Ściemniacz krawędziowy DT4 do jednokolorowych ściemnialnych lamp LED AC100-240V 360W - AliExpress 39",
+      price: 26.84,
+      image:
+        "https://ae01.alicdn.com/kf/S58320361ec784205aba01746ac6c553bL.jpg",
+      url: "https://pl.aliexpress.com/item/1005007328614262.html",
+    },
+    {
+      name: "Silikonowa rurka neonowa IP67 Wodoodporny elastyczny miękki żel krzemionkowy Znak 1m 2m 3m 4m 5m Dla WS2811 WS2812B 5050 2835 COB LED Strip Light - AliExpress 39",
+      price: 3.69,
+      image:
+        "https://ae01.alicdn.com/kf/Sd60600cced64422b881bca69926aa203c.jpg",
+      url: "https://pl.aliexpress.com/item/1005007705654602.html",
+    },
+    {
+      name: "ESP32-S3 7-calowa płytka rozwojowa pojemnościowego wyświetlacza dotykowego, ESP32 z wyświetlaczem, 800 × 480, 5-punktowy dotyk - AliExpress 44",
+      price: 141.19,
+      image:
+        "https://ae01.alicdn.com/kf/S242c28c3bf634fd8b83050f4ad2fc345k.jpg",
+      url: "https://pl.aliexpress.com/item/1005006981594450.html",
+    },
+    {
+      name: "Aktywny inżektor PoE++ 2.5G 10G, moc 90W, montaż na szynę DIN, IEEE 802.3af/at/bt, 4-pair PoE do kamer PTZ, WiFi 6/6E - AliExpress 30",
+      price: 75.82,
+      image:
+        "https://ae01.alicdn.com/kf/Sb55b7a9d215c4417955ea2f390c3ddf49.jpg",
+      url: "https://pl.aliexpress.com/item/1005009400746249.html",
+    },
+    {
+      name: "WeMos LOLIN D1 Mini Pro NodeMcu Lua Internet rzeczy moduł płytka prototypowa IOT WIFI ESP-12F ESP8266 CH340G TYPE-C kabel USB - AliExpress 13",
+      price: 2.17,
+      image:
+        "https://ae01.alicdn.com/kf/S606bb4c452a742c49491e4c6afa2d8a0h.jpg",
+      url: "https://pl.aliexpress.com/item/1005005676635460.html",
+    },
+    {
+      name: "10M/20M Miękka Silikonowa Neonowa Taśma LED 220V Wysoki Lumen Wodoodporna Taśma Diodowa Zewnętrzna do Dekoracji Domu - AliExpress 39",
+      price: 49.84,
+      image:
+        "https://ae01.alicdn.com/kf/Sf82b83f24c2a4796b1406d27b233c98e1.jpg",
+      url: "https://pl.aliexpress.com/item/1005008968353234.html",
+    },
+    {
+      name: "GLEDOPTO ESP32 WLED LED Controller Dynamic RGB IC IO33 DIY App Easy Wiring WS2811 WS2812 SK6812 TM1814 WS2813 WS2815 Strip Light - AliExpress 39",
+      price: 34.8,
+      image:
+        "https://ae01.alicdn.com/kf/Sd2b06901a0724776a39fed7154e37bf1M.jpg",
+      url: "https://pl.aliexpress.com/item/1005007017224313.html",
+    },
+    {
+      name: "Zigbee DALI wpuszczany inteligentny reflektor LED COB 5 CCT przełączany Ultra cienka, przeciwodblaskowa, ściemnialna aluminiowa lampa sufitowa o wysokim CRI 95 - AliExpress 39",
+      price: 11.92,
+      image:
+        "https://ae01.alicdn.com/kf/S9600e8892da94785aa98d6ad579f65aeG.jpg",
+      url: "https://pl.aliexpress.com/item/1005004317325002.html",
+    },
+    {
+      name: "Oprawa wpuszczana LED typu Downlight czarny nowoczesny reflektor kryty antyodblaskowy CRI97 aluminiowa lampa sufitowa do salonu sypialnia - AliExpress 39",
+      price: 5.2,
+      image:
+        "https://ae01.alicdn.com/kf/S42cb3ef610ce44f8a504acdc252d8da29.jpg",
+      url: "https://pl.aliexpress.com/item/1005008488408856.html",
+    },
   ],
 ];
