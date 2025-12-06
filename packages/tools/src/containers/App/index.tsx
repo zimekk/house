@@ -3,6 +3,7 @@ import { LazyImage } from "@acme/ui";
 import { Link } from "../../components/link";
 import { boards } from "../../data/boards";
 import { daliknx } from "../../data/daliknx";
+import { devices } from "../../data/devices";
 import { garden } from "../../data/garden";
 import { lights } from "../../data/lights";
 import { moto } from "../../data/moto";
@@ -10,6 +11,7 @@ import { orders } from "../../data/orders";
 import styles from "./styles.module.scss";
 
 interface ItemType {
+  brand?: string;
   name: string;
   image?: string;
   price: number;
@@ -19,6 +21,7 @@ interface ItemType {
 const OPTIONS = {
   boards,
   daliknx,
+  devices,
   garden,
   lights,
   moto,
