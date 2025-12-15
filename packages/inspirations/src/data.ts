@@ -187,6 +187,191 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-All-Day-Beach_3.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-All-Day-Beach_7.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Exterior-Plans_8.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Exterior-Plans_12.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Exterior-Plans_17.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Exterior-Plans_31.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Lobby_3.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Lobby_5.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Lobby_7.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Med-Kitchen_6.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Standart-Room_2.jpg",
+  },
+  ,
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Standart-Room_5.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Standart-Room_6.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Swimup-Room_6.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Swimup-Room_7.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Swimup-Room_10.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Swimup-Room_11.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_5.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_10.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_12.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_13.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_15.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_17.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_20.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_21.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_25.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_26.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/ladybug/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2024/07/Ladybug-House_28.jpeg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103700-2.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103743.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103769.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103841.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103893.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103909.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103920.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas103938.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104122.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104146-1.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104154-1.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104168.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104178.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104361.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104384.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104401.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104526.jpg",
+  },
+  {
+    url: "https://yesimkozanli.com/portfolio/radisson-blu-hotel-kas/",
+    src: "https://yesimkozanli.com/wp-content/uploads/2023/05/20230710_YesimKozanli_Radisson_Kas104578.jpg",
+  },
+  {
     src: "https://www.nordlux.com/cdn-cgi/image/width=1400,format=auto/https://nordluxpimdata.blob.core.windows.net/nordlux-product-images/M%20Alton%202010506047_1.jpg",
     url: "https://www.nordlux.com/product/201050/2010506047",
   },
