@@ -1,9 +1,44 @@
 import parse from "./utils/parse";
 
-// Object.assign(window, {__markers: (window.__markers||'').concat((v=>([(t => `\n${Math.round(t/60)}:${String(Math.floor(t%60)/100).split('.')[1]} ${prompt('marker')}`)(v.currentTime)]))($('video:not([data-no-fullscreen])')))}),copy({title:$('h1.ytd-watch-metadata').innerText,url:document.location.href,markers:window.__markers})
+// Object.assign(window, {__markers: (window.__markers||'').concat((v=>([(t => `\n${Math.floor(t/60)}:${String(Math.floor(t%60)/100).split('.')[1]} ${prompt('marker')}`)(v.currentTime)]))($('video:not([data-no-fullscreen])')))}),copy({title:$('h1.ytd-watch-metadata').innerText,url:document.location.href,markers:window.__markers})
 // delete window.__markers
 
 export const videos = [
+  {
+    title: "HOLA Design - Apartament w stylu Modern French Classic w Warszawie",
+    url: "https://www.youtube.com/watch?v=tEKuTQFSc3o",
+    markers: "\n1:47 sypialnia",
+  },
+  {
+    title:
+      "HOLA Design: Mokotowska Chic - luksusowy apartament w stylu art deco w Warszawie",
+    url: "https://www.youtube.com/watch?v=uXqx7hXLYbs",
+    markers: "\n1:53 gabinet",
+  },
+  {
+    title: "Hola Design: Apartament z nutą orientu na Szczęśliwicach",
+    url: "https://www.youtube.com/watch?v=zhRkPMIur8U",
+    markers: "\n0:12 salon\n1:08 łazienka",
+  },
+  {
+    title:
+      "Hola Design: Rezydencja (z) lewitujących domów. Wnętrza luksusowej willi",
+    url: "https://www.youtube.com/watch?v=RgfN9yxfc_s",
+    markers: "\n0:30 korytarz\n1:32 sauna\n1:37 basen\n2:10 sypialnia",
+  },
+  {
+    title: "€6,995,000 ULTRA MODERN house with a SCANDINAVIAN design !!",
+    url: "https://www.youtube.com/watch?v=_4J4U5uY5Yg",
+    markers:
+      "\n1:05 salon\n1:17 salon\n1:22 sypialnia\n1:29 podjazd\n1:54 brama\n4:35 wejście\n4:23 toaleta\n5:05 gabinet\n5:44 schody\n6:32 barek\n7:28 salon\n8:43 kącik\n8:54 jadalnia\n9:28 kuchnia\n10:08 kącik kawowy\n11:42 kuchnia ogrodowa\n12:09 basen\n14:39 drzwi\n14:48 sypialnia\n14:58 toaleta\n15:00 konsola\n15:35 salon\n16:07 sauna\n22:44 sypialnia\n23:10 toaleta\n24:29 łazienka\n25:56 łazienka\n26:06 garderoba\n26:16 sypialnia\n26:52 sypialnia\n27:49 garderoba\n28:32 garderoba\n30:34 łazienka\n30:03 sypialnia\n31:03 taras",
+  },
+  {
+    title:
+      "Интерьер cовременной виллы Residence 18 //Interior of the villa Residence 18",
+    url: "https://www.youtube.com/watch?v=KbhYy4hmWfE",
+    markers:
+      "\n0:15 wejście\n2:25 salon\n4:06 jadalnia\n4:39 schody\n5:57 kuchnia\n9:51 kącik\n12:19 sypialnia\n13:21 garderoba\n14:4 sypialnia\n14:13 garderoba\n14:23 sypialnia\n15:27 toaletka\n16:49 łazienka",
+  },
   {
     title:
       "Dom Na Skraju Lasu - Architekci zaprojektowali dom i wnętrza w harmonii z naturą - video | Neostudio",

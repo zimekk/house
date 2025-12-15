@@ -230,7 +230,6 @@ export const inspirations = [
     url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
     src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Standart-Room_2.jpg",
   },
-  ,
   {
     url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
     src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-Standart-Room_5.jpg",
