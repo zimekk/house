@@ -32,7 +32,7 @@
     "@dev/video": "workspace:*",
     "@dev/web": "workspace:*",
     "@vercel/examples-ui": "^1.0.4",
-    "next": "~16.0.0",
+    "next": "~16.1.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
   },
