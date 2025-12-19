@@ -486,4 +486,82 @@ export const lights = [
       url: "https://pl.aliexpress.com/item/1005008394075585.html",
     },
   ],
+  [
+    {
+      name: "Skydance 12V 24V 150W DALI Ściemnialny sterownik LED stałonapięciowy LN-150-12-DA LN-150-24-DA do jednokolorowych i CCT taśm LED - AliExpress ",
+      price: 66,
+      image:
+        "https://ae01.alicdn.com/kf/S0839d1cbf1f641eda8a3a14f5538dad56.jpg",
+      url: "https://pl.aliexpress.com/item/1005009824439643.html",
+    },
+    {
+      name: "Skydance AC DALI Switch Dimmer DH DH1 DH8 DH-B (DT7) DH4 Relay Unit AC100-240V 1/2/4/8 Channel DMX Push Switch for DALI Product - AliExpress 39",
+      price: 17.72,
+      image:
+        "https://ae01.alicdn.com/kf/Sa5aa677f71924566bbf2a902237bc3aeI.jpg",
+      url: "https://pl.aliexpress.com/item/1005008637796703.html",
+    },
+    {
+      name: "Skydance DA1 DA1-S DA4 DA4-M DA4-L DA4-D DA4-WPS DP4 DA5-L DT4 DT6 Jednokolorowy pasek CV DALI Ściemniacz LED PMW Ściemnianie 12-48V DC - AliExpress 39",
+      price: 3.64,
+      image:
+        "https://ae01.alicdn.com/kf/S6a33af876b8e4d158e2a6b484276ba54W.jpg",
+      url: "https://pl.aliexpress.com/item/1005005752815229.html",
+    },
+    {
+      name: "Skydance Czujnik ruchu dłoni EB(C) Czujnik drzwi ED(C) Czujnik dotykowy drewna EW Laserowa głowica czujnika EL-C Sonda czujnika Seria szafy schodowej - AliExpress 39",
+      price: 3.64,
+      image:
+        "https://ae01.alicdn.com/kf/Sf43ed410009d4aedb48d6f6889b38b4cH.jpg",
+      url: "https://pl.aliexpress.com/item/1005008887590977.html",
+    },
+    {
+      name: "Taśma LED COB SPI RGB RGBW RGBCCT 5m DC12V 24V 840 784 720 576 LED/M Elastyczna Taśma LED FCOB Ściemnialna Liniowa Taśma Wstążka - AliExpress 39",
+      price: 32.94,
+      image:
+        "https://ae01.alicdn.com/kf/S840f0179c8cd4a9e9124d3b93530f65eR.jpg",
+      url: "https://pl.aliexpress.com/item/1005005963422695.html",
+    },
+    {
+      name: "5m 12V DC 5050 UV LED Strip Light 395nm - 405nm Ultraviolet Flexible SMD LED Tape IP20 IP65 Black White PCB for DJ Fluorescence - AliExpress 39",
+      price: 10.7,
+      image:
+        "https://ae01.alicdn.com/kf/Hf90cb87a641341bca3d303a6e894f07a4.jpg",
+      url: "https://pl.aliexpress.com/item/32780704783.html",
+    },
+    {
+      name: "0.3m 0.5m 1m 2m 5m 2Pin 3Pin 4Pin 5Pin przedłużacz SM JST 22AWG SM wtyk przewód męski na żeński przewód łączący do użytku z Led CCTV - AliExpress 13",
+      price: 3.71,
+      image:
+        "https://ae01.alicdn.com/kf/S6f6174d23fee489683b6f3cef9c1fe20x.jpg",
+      url: "https://pl.aliexpress.com/item/1005003772053637.html",
+    },
+    {
+      name: "1m 2m 3m 5m 6Pin 6Pins LED Connector 2.0mm Pin Picth Extension Cable Cord Wire Female Connector for RGBCCT LED Strip Light - AliExpress 13",
+      price: 3.64,
+      image:
+        "https://ae01.alicdn.com/kf/S27963cafe7cb46cc8f3be56bcca76debe.jpg",
+      url: "https://pl.aliexpress.com/item/1005004828217268.html",
+    },
+    {
+      name: "3-pinowe szybkie złącze CCT COB LED Strip do IP20 CCT FOB Strip 8mm 10mm Bez lutowania Bez lutowania Pasek do paska / narożnik przewodu - AliExpress 13",
+      price: 18.59,
+      image:
+        "https://ae01.alicdn.com/kf/S4d3d5facf63b4f31aaf204577094cec8Z.jpg",
+      url: "https://pl.aliexpress.com/item/1005006051233398.html",
+    },
+    {
+      name: "10szt 6Pin 12mm Cut-End Snap On Clip Connector Socket 2.0mm Pin Picth + wtyczka męska do Hue V3 2.0 Standard 6-Pin RGBCCT LED Strip - AliExpress 13",
+      price: 3.64,
+      image:
+        "https://ae01.alicdn.com/kf/Se6317bebc15f492684d6600b23e1a3c8y.jpg",
+      url: "https://pl.aliexpress.com/item/1005004835699867.html",
+    },
+    {
+      name: "5m 10m 20m 30m 50m 100m 6Pin 6-Pin 6 kanałów przedłużacz kabla przewód zasilający złącze LED 22AWG dla RGB CCT taśmy LED - AliExpress 13",
+      price: 25.59,
+      image: "https://ae01.alicdn.com/kf/HTB1NVSYL9zqK1RjSZFpq6ykSXXax.jpg",
+      url: "https://pl.aliexpress.com/item/32878618544.html",
+    },
+  ],
 ];
