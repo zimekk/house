@@ -485,6 +485,20 @@ export const lights = [
         "https://ae01.alicdn.com/kf/S2a5736afe7e340b6a9d928072e065768k.jpg",
       url: "https://pl.aliexpress.com/item/1005008394075585.html",
     },
+    {
+      name: "Płytka rozwojowa ESP32-S3 WiFi BT 4-calowy ekran dotykowy IPS dla Arduino LVGL IOT ESP32 86 Box Central Centrol - AliExpress 7",
+      price: 82.78,
+      image:
+        "https://ae01.alicdn.com/kf/S374ea1878a604b848eade08a55459c16R.jpg",
+      url: "https://pl.aliexpress.com/item/1005009384274904.html",
+    },
+    {
+      name: "Konfigurowalna super cicha elektryczna szyna kurtynowa dla Aqara Tuya Wifi/Zigbee Dooya 82 silnik inteligentne zasłony domowe pręt cornice - AliExpress 13",
+      price: 95.59,
+      image:
+        "https://ae01.alicdn.com/kf/Scec4ff8508fe4dd89e8476c35bb95608s.jpg",
+      url: "https://pl.aliexpress.com/item/1005007666391473.html",
+    },
   ],
   [
     {
@@ -510,10 +524,20 @@ export const lights = [
     },
     {
       name: "Skydance Czujnik ruchu dłoni EB(C) Czujnik drzwi ED(C) Czujnik dotykowy drewna EW Laserowa głowica czujnika EL-C Sonda czujnika Seria szafy schodowej - AliExpress 39",
-      price: 3.64,
+      // price: 3.64,
+      // price: 34.67,// kolor: ED(C) Only
+      price: 36.99, // kolor: EL-C Only
       image:
         "https://ae01.alicdn.com/kf/Sf43ed410009d4aedb48d6f6889b38b4cH.jpg",
       url: "https://pl.aliexpress.com/item/1005008887590977.html",
+    },
+    {
+      name: "SKYDANCE PIR Czujnik Ruchu ER-A/Czujnik Dotykowy EC-A/Czujnik Laserowy EL-C Używany do oświetlenia schodów/garaży szaf, garderoby - AliExpress 39",
+      // "price": 10.06,
+      price: 43.04, // kolor: EL-C
+      image:
+        "https://ae01.alicdn.com/kf/Scf07c4319d7d4d8cb390e770ef26d231a.jpg",
+      url: "https://pl.aliexpress.com/item/1005008880536640.html",
     },
     {
       name: "Taśma LED COB SPI RGB RGBW RGBCCT 5m DC12V 24V 840 784 720 576 LED/M Elastyczna Taśma LED FCOB Ściemnialna Liniowa Taśma Wstążka - AliExpress 39",
@@ -562,6 +586,130 @@ export const lights = [
       price: 25.59,
       image: "https://ae01.alicdn.com/kf/HTB1NVSYL9zqK1RjSZFpq6ykSXXax.jpg",
       url: "https://pl.aliexpress.com/item/32878618544.html",
+    },
+    {
+      name: "Panel ścienny DALI CENFAYA z 8/4 przyciskami, urządzenie wejściowe DALI-2, obsługuje funkcję sprzężenia zwrotnego, wbudowany zasilacz magistrali, 100-240VAC - AliExpress ",
+      // price: 30.77,
+      price: 75.18, // kolor: 4 Button DALI Panel
+      image:
+        "https://ae01.alicdn.com/kf/Sf373ba5d4fd746ad912e4d1dbe5e7d15W.jpg",
+      url: "https://pl.aliexpress.com/item/1005010394214614.html",
+    },
+    {
+      name: "DMX512 & RDM Decoder 12CH 24CH Wyjście Cyfrowy wyświetlacz numeryczny Funkcja 16bit 8bit RGB Tryb Ściemniacz Tryb wybieralny DC 12V 24V - AliExpress 39",
+      price: 169.99,
+      // price: 180.79, // kolor: 12CH DMX512
+      // price: 242.99, // kolor: 24CH DMX512
+      image:
+        "https://ae01.alicdn.com/kf/S3e82a15ae3ef4368aa1afea075d5251cB.jpg",
+      url: "https://pl.aliexpress.com/item/1005008862491598.html",
+    },
+    {
+      name: "CENFAYA DALI DMX Ściemniacz LED DALI ze Stałą Napięciem DP4 Wyświetlacz OLED 4CH*12A 12-48VDC DT6 DT8 DALI 8/16-bit Tryb Ręczny DMX - AliExpress ",
+      price: 96.4, // kolor: DALI DMX LED Dimmer
+      image:
+        "https://ae01.alicdn.com/kf/S92561ef1019244afa4c6cb4d422108ebc.jpg",
+      url: "https://pl.aliexpress.com/item/1005010513876509.html",
+    },
+    {
+      name: "Konwerter sygnału CENFAYA DALI DMX512, obsługa 3-przyciskowa, wyświetlacz cyfrowy, DC 12V 24V 36V 48V, montaż na szynie DIN, certyfikat DALI-2 - AliExpress ",
+      price: 55.99, // kolor: black
+      image:
+        "https://ae01.alicdn.com/kf/S52edd9ec5bcb412fa8ab98792c39551b3.jpg",
+      url: "https://pl.aliexpress.com/item/1005009381387586.html",
+    },
+    {
+      name: "Kontroler LED ESP32 WLED z Ethernetem, Reagujący na Muzykę, Sterowany Dźwiękiem, UART DIY Dynamiczny dla Taśm Cyfrowych Adresowalnych RGB IC WS2812 - AliExpress 39",
+      price: 93.86,
+      image:
+        "https://ae01.alicdn.com/kf/Sa256e3e47c7f412989374ff8d4a4193aF.jpg",
+      url: "https://pl.aliexpress.com/item/1005010486217178.html",
+    },
+    {
+      name: "5-kanałowy dekoder DMX z wyświetlaczem cyfrowym RDM, sterownik ściemniacza DMX512 PWM RGBCCT, kontroler LED do modułów LED 12V RGBWW RGB - AliExpress ",
+      price: 64.36,
+      image:
+        "https://ae01.alicdn.com/kf/S5a91cf79b5d1451382262342f1d8486bd.jpg",
+      url: "https://pl.aliexpress.com/item/1005007709742439.html",
+    },
+  ],
+  [
+    {
+      name: "Mean Well DLP-04R Zasilacz magistrali DALI AC90-305V Szyna wejściowa DIN DALI Zasilacz systemowy Wyjście DC16V - AliExpress 13",
+      price: 76.39,
+      image:
+        "https://ae01.alicdn.com/kf/S949ef5f7ef4c45be8136833189163fa9c.png",
+      url: "https://pl.aliexpress.com/item/1005009056900115.html",
+    },
+    {
+      name: "Zasilacz Mean Well DLP-04R DALI Bus, wejście AC90-305V, montaż na szynę DIN, system DALI, wyjście DC16V",
+      price: 79.39, // Napięcie wyjściowe: DLP-04R
+      image:
+        "https://ae01.alicdn.com/kf/S7bfd2b71eaef43ddb021046ad878d721L.png",
+      url: "https://pl.aliexpress.com/item/1005010431789489.html",
+    },
+    {
+      name: "Zasilacz MEAN WELL DALI Bus DLP-04L - AliExpress 13",
+      price: 91.39,
+      image:
+        "https://ae01.alicdn.com/kf/S89a26646f89e4e8b887797ad7ecb944cl.jpeg",
+      url: "https://pl.aliexpress.com/item/1005009872067594.html",
+    },
+    {
+      name: "Czujnik ruchu na podczerwień MEAN WELL DALI-2 DLS-203/208-P PIR, indukcja piroelektryczna na podczerwień",
+      price: 109.39,
+      image:
+        "https://ae01.alicdn.com/kf/S980a3679826a44b59a6242ee1170e787K.jpeg",
+      url: "https://pl.aliexpress.com/item/1005010269634226.html",
+    },
+    {
+      name: "Czujnik ruchu DALI-2 na podczerwień DLS-203/208-P PIR, indukcja piroelektryczna na podczerwień - AliExpress ",
+      price: 112.79, // kolor: DLS-203-P
+      image:
+        "https://ae01.alicdn.com/kf/S2f07e2d05cfd4ffeb1be85c1920c04d2x.jpeg",
+      url: "https://pl.aliexpress.com/item/1005010269377657.html",
+    },
+    {
+      name: "Ściemniacz LED DALI 12V 24V DC 4-kanałowy Stałe Napięcie Wyświetlacz Cyfrowy Ściemnianie PMW Szyna DIN 20A 240W 480W Ściemniacz do Taśm LED - AliExpress 39",
+      price: 65.59,
+      image:
+        "https://ae01.alicdn.com/kf/S666f583532db49b19caf3faf1954da18X.jpg",
+      url: "https://pl.aliexpress.com/item/1005009388509118.html",
+    },
+    {
+      name: "Zasilacz MEAN WELL serii DLC-02-KN KNX-DALI Gateway",
+      price: 1529.79, // Napięcie wyjściowe: DLC-02-KN
+      image:
+        "https://ae01.alicdn.com/kf/S8c1d11694ec94dd5a92a09aa3805acdd6.jpg",
+      url: "https://pl.aliexpress.com/item/1005009554128585.html",
+    },
+    {
+      name: "DLC-02 Cyfrowy kontroler oświetlenia DALI Mean Well DLC-02-KN Bramka KNX do DALI-2 - AliExpress 13",
+      price: 969.59, // Napięcie wyjściowe: DLC-02 Controller
+      // "price": 1_175.39, // Napięcie wyjściowe: DLC-02-KN KNX-DALI
+      image:
+        "https://ae01.alicdn.com/kf/S8ca115b1b69c4a06a26df9efd849ab10M.jpg",
+      url: "https://pl.aliexpress.com/item/1005010041372534.html",
+    },
+    {
+      name: "SP901E Wzmacniacz sygnału SPI dla WS2812B WS2811 WS2813 Pixel RGB LED Strip Signal Repeater Adresowalna taśma Dream Color Tape DC5-24V - AliExpress ",
+      price: 11.38,
+      image: "https://ae01.alicdn.com/kf/HTB1Gj3ydlWD3KVjSZFsq6AqkpXaW.jpg",
+      url: "https://pl.aliexpress.com/item/33041516360.html",
+    },
+    {
+      name: "5-kanałowy dekoder DMX z cyfrowym wyświetlaczem RDM DMX512 Dimmer Driver PWM RGBCCT kontroler LED wejście moduł lampy LED 12V-48VDC - AliExpress 39",
+      price: 96.1,
+      image:
+        "https://ae01.alicdn.com/kf/S3a56ca0ecfa846afa12965ef351dec05X.jpg",
+      url: "https://pl.aliexpress.com/item/1005006851181238.html",
+    },
+    {
+      name: "4/6/8/10mm wąska LED Neon silikonowa rurka lampa linowa wpuszczana DC12V elastyczny wodoodporny dyfuzor szafka szafa wstążka pasek świetlny - AliExpress 39",
+      price: 12.05,
+      image:
+        "https://ae01.alicdn.com/kf/S6682e9b644304d6f9cea2e2219681bbbC.jpg",
+      url: "https://pl.aliexpress.com/item/1005007424507477.html",
     },
   ],
 ];
