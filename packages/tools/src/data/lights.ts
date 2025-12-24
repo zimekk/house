@@ -711,5 +711,45 @@ export const lights = [
         "https://ae01.alicdn.com/kf/S6682e9b644304d6f9cea2e2219681bbbC.jpg",
       url: "https://pl.aliexpress.com/item/1005007424507477.html",
     },
+    {
+      name: "Płytka rozwojowa ESP32-P4 Smart 86 TV Box z 4-calowym ekranem dotykowym 720x720, RS485, przekaźnikiem, kamerą, RJ45 i portem ETH - AliExpress 7",
+      price: 193.35,
+      // "price": 217.22, // kolor: Basic version
+      // "price": 272.64, // kolor: ETH-RS485-Relay
+      image:
+        "https://ae01.alicdn.com/kf/Sec5b3aff17ea4c2f82a99f6faa8a2d0dS.jpg",
+      url: "https://pl.aliexpress.com/item/1005010050491065.html",
+    },
+    {
+      name: "BVBV ESP32-S3-POE-ETH ESP32-S3 Płytka rozwojowa Ethernet Obsługa dwurdzeniowego Wi-Fi PoE i bezprzewodowego portu USB typu C Bluetooth - AliExpress 6",
+      price: 106.99,
+      image:
+        "https://ae01.alicdn.com/kf/S5ffe07b37c284d8f94131554829a756fa.jpg",
+      url: "https://pl.aliexpress.com/item/1005008765371740.html",
+    },
+    {
+      name: "Płytka rozwojowa Waveshare ESP32-S3 ETH, port Ethernet 10/100 Mb/s RJ45, dwurdzeniowy 240 MHz, opcjonalnie dla modułu PoE/modułu kamery - AliExpress 13",
+      // "price": 87.39, // Color: ESP32-S3-ETH
+      price: 106.4, // Color: ESP32-S3-POE-ETH
+      image:
+        "https://ae01.alicdn.com/kf/S0212a3f448704676a88207d0549ab8887.jpg",
+      url: "https://pl.aliexpress.com/item/1005008001642764.html",
+    },
+    {
+      name: "Płytka rozwojowa Waveshare ESP32-P4-ETH ESP32-P4 Wysokiej wydajność ESP32-P4 POE RJ45 - AliExpress 502",
+      // "price": 57.39, // kolor: ESP32-P4-ETH
+      // "price": 67.59, // kolor: ESP32-P4-ETH-M
+      price: 85.39, // kolor: ESP32-P4-POE-ETH
+      image:
+        "https://ae01.alicdn.com/kf/Sf859a4daca1040e3acbe5addd5cec41bu.jpg",
+      url: "https://pl.aliexpress.com/item/1005009718228392.html",
+    },
+    {
+      name: "Płytka rozszerzeń Waveshare Pico-DALI2 dla płyt ESP32-Pico serii ESP32 C6 S3, kontrola komunikacji DALI, obsługa wielu diod LED - AliExpress 502",
+      price: 24.39, // kolor: Pico-DALI2 Board
+      image:
+        "https://ae01.alicdn.com/kf/Sa3eb60c4a9b94fdc9f340cfa1943d217Y.jpg",
+      url: "https://pl.aliexpress.com/item/1005009497621971.html",
+    },
   ],
 ];
