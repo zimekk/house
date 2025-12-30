@@ -751,5 +751,47 @@ export const lights = [
         "https://ae01.alicdn.com/kf/Sa3eb60c4a9b94fdc9f340cfa1943d217Y.jpg",
       url: "https://pl.aliexpress.com/item/1005009497621971.html",
     },
+    {
+      name: "Gotowy do wysyłki Nowy System Bezpieczeństwa Domu SIP Wideodomofon Domofon KNX Inteligentny Dom Monitor Sterowanie Zasłonami Światłem Panel Przełącznika - AliExpress 15",
+      price: 2254.99,
+      image:
+        "https://ae01.alicdn.com/kf/S39c19a2295504ee1ab6819d4f89011f9h.jpg",
+      url: "https://pl.aliexpress.com/item/1005008982127454.html",
+    },
+    {
+      name: "Moduł szeregowy ModBus RTU IO z interfejsem RS485 AI DI DO 8 Wyjść Cyfrowych Montaż na szynę DIN 8~28VDC CDEBYTE MA01-AXCX4020 - AliExpress ",
+      price: 23.79,
+      image:
+        "https://ae01.alicdn.com/kf/Sd03bdf3bb9434180bc173fd38b1e904cO.jpg",
+      url: "https://pl.aliexpress.com/item/1005002871055445.html",
+    },
+    {
+      name: "Nowoczesna szklana lampa wisząca LED, prosta, nowoczesna, do restauracji, baru, nad ladę, do kawiarni, lampka nocna, oświetlenie dekoracyjne do wnętrz. - AliExpress ",
+      price: 90.25,
+      image:
+        "https://ae01.alicdn.com/kf/Sc5b0e890b6d540bab2709c6f983f5d38y.jpg",
+      url: "https://pl.aliexpress.com/item/1005010205931191.html",
+    },
+    {
+      name: "7-24V Modbus-Rtu 1/2/4 kanałowy moduł przekaźnika przełącznik Modbus RTU RS485/TTL wejście komunikacyjne wyjście z zabezpieczeniem przed odwróceniem - AliExpress ",
+      price: 6.45,
+      image:
+        "https://ae01.alicdn.com/kf/S28f61d069a684718b55ef2523d250f68y.jpg",
+      url: "https://pl.aliexpress.com/item/1005008746324578.html",
+    },
+    {
+      name: "5v 1 2 4 8-kanałowy moduł przekaźnika z transoptorem. Wyjście X Way dla Arduino 1CH 2CH 4CH 8CH - AliExpress 13",
+      price: 3.65,
+      image:
+        "https://ae01.alicdn.com/kf/S5edeabd7a3f74ed595a31e261e06b52dq.png",
+      url: "https://pl.aliexpress.com/item/1005008226072942.html",
+    },
+    {
+      name: "Zemismart Zigbee 3.0 inteligentna prowadnica kurtyny praca z Tuya Zigbee Hub SmartThings Alexa Google Home Assistant elektryczne zasłony - AliExpress 13",
+      price: 394.77,
+      image:
+        "https://ae01.alicdn.com/kf/S5aa808a60c0140c09270d4e02f689c32K.jpg",
+      url: "https://pl.aliexpress.com/item/1005008158938333.html",
+    },
   ],
 ];
