@@ -793,5 +793,28 @@ export const lights = [
         "https://ae01.alicdn.com/kf/S5aa808a60c0140c09270d4e02f689c32K.jpg",
       url: "https://pl.aliexpress.com/item/1005008158938333.html",
     },
+    {
+      name: "Łazienka szklana płyta profil aluminiowy LED wbudowany w kształcie litery F wodoodporna warstwa kanałowa półka szyna szafka prysznicowa listwa świetlna - AliExpress ",
+      price: 42.37, // Emitujący kolor: Black 3510 / kolor: 0.5mx1pcs
+      image:
+        "https://ae01.alicdn.com/kf/S3824010813be434b8faff091c4714c86P.jpg",
+      url: "https://pl.aliexpress.com/item/1005006236520945.html",
+    },
+    {
+      name: "Bezramowy sufitowy górny narożnik profil aluminiowy LED wpuszczany podwieszany dyfuzor PC kanał płyta gipsowa ukryta podświetlenie lampa liniowa - AliExpress 39",
+      // "price": 36.69,
+      price: 36.69, // Emitujący kolor: Z38B / kolor: 0.5mX1pcs
+      image:
+        "https://ae01.alicdn.com/kf/S313f6dc200504aa89d9dcf324a29bd7bQ.png",
+      url: "https://pl.aliexpress.com/item/1005007408565589.html",
+    },
+    {
+      name: "Niszowy kosz na śmieci ze stali nierdzewnej 304, pojemnik na chusteczki higieniczne, wbudowany w toaletę, metalowa szafka, możliwość personalizacji. - AliExpress 15",
+      // "price": 712.99,
+      price: 797.59, // kolor: Stainless steel natu
+      image:
+        "https://ae01.alicdn.com/kf/S20c2af6a407e4e6ab13965aa2d97eda2C.jpg",
+      url: "https://pl.aliexpress.com/item/1005009893198802.html",
+    },
   ],
 ];
