@@ -2,6 +2,14 @@ import { type ChangeEventHandler, useCallback, useMemo, useState } from "react";
 import { LazyImage } from "@acme/ui";
 import { Link } from "../../components/link";
 import { offers } from "../../data/offers";
+import {
+  type FiltersState,
+  Filters,
+  OptionsState,
+  PRICE_LIST,
+  SORT_BY,
+  initialQueries,
+} from "./Filters";
 import styles from "./styles.module.scss";
 
 interface ItemType {
@@ -25,10 +33,19 @@ function Image({ src }: { src: string }) {
   return <LazyImage className={styles.Image} src={src} />;
 }
 
-function Table({ list }: { list: ItemType[] }) {
+function Table({ list, queries }: { list: ItemType[]; queries: FiltersState }) {
   const [selected, setSelected] = useState(() => list.map((_, key) => key));
 
-  const filtered = useMemo(() => list, [list]);
+  const filtered = useMemo(
+    () =>
+      list.sort((a, b) =>
+        typeof a[queries.sortBy] === "number" &&
+        typeof b[queries.sortBy] === "number"
+          ? (a[queries.sortBy] as number) - (b[queries.sortBy] as number)
+          : (a[queries.sortBy] as string).localeCompare(b[queries.sortBy]),
+      ),
+    [list, queries],
+  );
 
   const handleSelect = useCallback<ChangeEventHandler<HTMLInputElement>>(
     ({ target }) =>
@@ -131,10 +148,14 @@ function Table({ list }: { list: ItemType[] }) {
 }
 
 export default function App() {
+  const [queries, setQueries] = useState(() => initialQueries());
   const [option, setOption] = useState(
     () => Object.keys(OPTIONS).pop() as keyof typeof OPTIONS,
   );
-  const options = useMemo<Array<ItemType[]>>(() => OPTIONS[option], [option]);
+  const result = useMemo<Array<ItemType[]>>(() => OPTIONS[option], [option]);
+
+  const options = useMemo(() => ({}), [result]);
+
   return (
     <div>
       <h1>led</h1>
@@ -150,10 +171,11 @@ export default function App() {
           ))}
         </select>
       </fieldset>
+      <Filters options={options} setQueries={setQueries} />
       <div className={styles.Columns} key={option}>
-        {options.map((list, index) => (
+        {result.map((list, index) => (
           <div key={index}>
-            <Table list={list} />
+            <Table list={list} queries={queries} />
           </div>
         ))}
       </div>
