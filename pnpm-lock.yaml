@@ -74,6 +74,9 @@ importers:
       '@dev/paint':
         specifier: workspace:*
         version: link:../../packages/paint
+      '@dev/poi':
+        specifier: workspace:*
+        version: link:../../packages/poi
       '@dev/rooms':
         specifier: workspace:*
         version: link:../../packages/rooms
@@ -146,7 +149,7 @@ importers:
         version: link:../ui
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -180,7 +183,7 @@ importers:
         version: link:../tools
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -211,7 +214,7 @@ importers:
         version: 1.0.1
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       ral-to-hex:
         specifier: ^0.0.0
         version: 0.0.0
@@ -254,7 +257,7 @@ importers:
         version: 5.1.6
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       ol:
         specifier: ^10.0.0
         version: 10.7.0
@@ -319,7 +322,7 @@ importers:
     dependencies:
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       ol:
         specifier: ^10.0.0
         version: 10.7.0
@@ -359,7 +362,7 @@ importers:
         version: 3.10.1
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -399,7 +402,7 @@ importers:
         version: link:../ui
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -427,7 +430,7 @@ importers:
     dependencies:
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       ol:
         specifier: ^10.0.0
         version: 10.7.0
@@ -470,7 +473,7 @@ importers:
         version: 5.1.6
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       ol:
         specifier: ^10.0.0
         version: 10.7.0
@@ -525,7 +528,7 @@ importers:
         version: 4.2.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       perfect-freehand:
         specifier: ^1.2.2
         version: 1.2.2
@@ -558,11 +561,42 @@ importers:
         specifier: ^5.7.3
         version: 5.9.3
 
+  packages/poi:
+    dependencies:
+      next:
+        specifier: ~16.1.0
+        version: 16.1.1(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
+      ol:
+        specifier: ^10.0.0
+        version: 10.7.0
+      react:
+        specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
+        version: 19.2.3
+      react-dom:
+        specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
+        version: 19.2.3(react@19.2.3)
+      styled-components:
+        specifier: ^6.1.14
+        version: 6.1.19(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
+    devDependencies:
+      '@types/react':
+        specifier: ^19.1.13
+        version: 19.2.7
+      '@types/styled-components':
+        specifier: ^5.1.26
+        version: 5.1.36
+      eslint:
+        specifier: ^9.35.0
+        version: 9.39.2(jiti@2.6.1)
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
+
   packages/rooms:
     dependencies:
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -605,7 +639,7 @@ importers:
         version: 4.2.6(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       perfect-freehand:
         specifier: ^1.2.2
         version: 1.2.2
@@ -654,7 +688,7 @@ importers:
         version: 9.5.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0)
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -691,7 +725,7 @@ importers:
         version: link:../ui
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -725,7 +759,7 @@ importers:
         version: 2.1.1
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.0(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.0(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -762,7 +796,7 @@ importers:
         version: 2.1.1
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -805,7 +839,7 @@ importers:
         version: 9.5.0(@types/react@19.2.7)(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(three@0.182.0)
       next:
         specifier: ~16.1.0
-        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0)
+        version: 16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.3
@@ -4326,11 +4360,6 @@ packages:
 
   safer-buffer@2.1.2:
     resolution: {integrity: sha512-YZo3K82SD7Riyi0E1EQPojLz7kpepnSQI9IyPbHHg1XXXevb5dJI7tpyN2ADxGcQbHG7vcyRHk0cbwqcQriUtg==}
-
-  sass@1.97.0:
-    resolution: {integrity: sha512-KR0igP1z4avUJetEuIeOdDlwaUDvkH8wSx7FdSjyYBS3dpyX3TzHfAMO0G1Q4/3cdjcmi3r7idh+KCmKqS+KeQ==}
-    engines: {node: '>=14.0.0'}
-    hasBin: true
 
   sass@1.97.1:
     resolution: {integrity: sha512-uf6HoO8fy6ClsrShvMgaKUn14f2EHQLQRtpsZZLeU/Mv0Q1K5P0+x2uvH6Cub39TVVbWNSrraUhDAoFph6vh0A==}
@@ -8283,7 +8312,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@16.1.0(react-dom@19.2.0(react@19.2.3))(react@19.2.3)(sass@1.97.0):
+  next@16.1.0(react-dom@19.2.0(react@19.2.3))(react@19.2.3)(sass@1.97.1):
     dependencies:
       '@next/env': 16.1.0
       '@swc/helpers': 0.5.15
@@ -8302,13 +8331,13 @@ snapshots:
       '@next/swc-linux-x64-musl': 16.1.0
       '@next/swc-win32-arm64-msvc': 16.1.0
       '@next/swc-win32-x64-msvc': 16.1.0
-      sass: 1.97.0
+      sass: 1.97.1
       sharp: 0.34.5
     transitivePeerDependencies:
       - '@babel/core'
       - babel-plugin-macros
 
-  next@16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.0):
+  next@16.1.0(react-dom@19.2.3(react@19.2.3))(react@19.2.3)(sass@1.97.1):
     dependencies:
       '@next/env': 16.1.0
       '@swc/helpers': 0.5.15
@@ -8327,7 +8356,7 @@ snapshots:
       '@next/swc-linux-x64-musl': 16.1.0
       '@next/swc-win32-arm64-msvc': 16.1.0
       '@next/swc-win32-x64-msvc': 16.1.0
-      sass: 1.97.0
+      sass: 1.97.1
       sharp: 0.34.5
     transitivePeerDependencies:
       - '@babel/core'
@@ -8777,15 +8806,6 @@ snapshots:
       is-regex: 1.2.1
 
   safer-buffer@2.1.2: {}
-
-  sass@1.97.0:
-    dependencies:
-      chokidar: 4.0.3
-      immutable: 5.1.4
-      source-map-js: 1.2.1
-    optionalDependencies:
-      '@parcel/watcher': 2.5.1
-    optional: true
 
   sass@1.97.1:
     dependencies:

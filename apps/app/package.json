@@ -26,6 +26,7 @@
     "@dev/map": "workspace:*",
     "@dev/model": "workspace:*",
     "@dev/paint": "workspace:*",
+    "@dev/poi": "workspace:*",
     "@dev/rooms": "workspace:*",
     "@dev/sketch": "workspace:*",
     "@dev/three": "workspace:*",

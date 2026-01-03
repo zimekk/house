@@ -28,6 +28,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "map",
         "model",
         "paint",
+        "poi",
         "rooms",
         "sketch",
         "three",
