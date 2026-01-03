@@ -3,11 +3,23 @@
 export const lights = [
   [
     {
+      name: "Ultracienki zasilacz LED AC190V 240V do DC12V 24V 60W 100W 150W 200W 300W Transformator Adapter Driver FCOB WS2815 Light Strip - AliExpress 39",
+      // "price": 3.64,
+      // "price": 33.43, // 5,85zł Moc: 60W Napięcie: AC190V 240V to DC24V
+      // "price": 38.69, // 11,11zł Moc: 100W Napięcie: AC190V 240V to DC24V
+      price: 45.27, // 17,70zł Moc: 150W Napięcie: AC190V 240V to DC24V
+      image:
+        "https://ae01.alicdn.com/kf/Sab9d5b7367ac44709ba9420616951570b.jpg",
+      url: "https://pl.aliexpress.com/item/4001260747482.html",
+    },
+    {
       name: "FCOB LED Strip Light 336 480 528 LED High Density Flexible FOB COB Led Light RA90 Warm Nature Cool White Linear Dimmable 12V 24V - AliExpress 39",
       image:
         "https://ae01.alicdn.com/kf/Sdc2a88e0bd7445c5b9cb0ae7074b21f6N.jpg",
       url: "https://pl.aliexpress.com/item/4000145232270.html",
-      price: 15.69,
+      // price: 15.69,
+      // price: 48.48, // 48,48zł <- 79,33zł / Emitujący kolor: 3000K Warm White / Moc: 24v 336 leds / Długość: 10 m
+      price: 13.2, // 13,20zł <- 41,89zł / Emitujący kolor: 3000K Warm White / Moc: 24v 336 leds / Długość: 5m
     },
     {
       name: "5 metrów czarno-białej rurki termokurczliwej do 8mm 10mm 12mm 3528 3014 3535 5050 SMD LED Strip Lights WS2812B WS2811 WS2815 - AliExpress 39",
@@ -49,7 +61,22 @@ export const lights = [
       image:
         "https://ae01.alicdn.com/kf/S2ad647b1713943c2abc50782ef3ebe9a3.jpg",
       url: "https://pl.aliexpress.com/item/1005009755308729.html",
-      price: 106.79,
+      // price: 106.79,
+      price: 171.1, // 161,19zł / kolor: 09 Color Eth PoE
+    },
+    {
+      name: "WS2811 WS2812B SP901E Kontroler wzmacniacza sygnału LED Wyjście SPI Sygnał TTL 5V Dla modułów taśm LED WS2813 WS2815 SK6812 - AliExpress 39",
+      price: 97.19,
+      image: "https://ae01.alicdn.com/kf/HTB1mOg9Q4TpK1RjSZR0q6zEwXXag.jpg",
+      url: "https://pl.aliexpress.com/item/1005010069746566.html",
+    },
+    {
+      name: "Mata magnetyczna Silikonowa mata naprawcza Podkładka lutownicza do płytek drukowanych Odporna na ciepło 932 ° F Antystatyczny do naprawy telefonów ESD Iron - AliExpress ",
+      // "price": 11.28,
+      price: 34.05, // 32,26zł / kolor: S140 350 X 250mm
+      image:
+        "https://ae01.alicdn.com/kf/S0e9a7769077c43b0ab63f154dcd84217Y.jpg",
+      url: "https://pl.aliexpress.com/item/1005008040032049.html",
     },
     {
       name: "Oryginalny Mean Well RS-15/25/35/50 seria Meanwell 3.3V 5V 12V 15V 24V 48V pojedyncze wyjście zasilacz impulsowy - AliExpress ",
@@ -498,6 +525,13 @@ export const lights = [
       image:
         "https://ae01.alicdn.com/kf/Scec4ff8508fe4dd89e8476c35bb95608s.jpg",
       url: "https://pl.aliexpress.com/item/1005007666391473.html",
+    },
+    {
+      name: "10 sztuk SN74HC165N SN74HC165 DIP16 DIP 74HC165N 74HC165 74165 - AliExpress ",
+      price: 8.31,
+      image:
+        "https://ae01.alicdn.com/kf/Sfd6883d770bc45d5b8f5e89c158da264K.jpg",
+      url: "https://pl.aliexpress.com/item/32950715212.html",
     },
   ],
   [
