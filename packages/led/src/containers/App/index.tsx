@@ -2,6 +2,8 @@ import { type ChangeEventHandler, useCallback, useMemo, useState } from "react";
 import { LazyImage } from "@acme/ui";
 import { Link } from "../../components/link";
 import { offers } from "../../data/offers";
+import { presets } from "../../data/presets";
+import { results } from "../../data/results";
 import {
   type FiltersState,
   Filters,
@@ -9,6 +11,7 @@ import {
   // PRICE_LIST,
   initialQueries,
 } from "./Filters";
+import Presets, { Results } from "./Presets";
 import styles from "./styles.module.scss";
 
 interface ItemType {
@@ -179,6 +182,8 @@ export default function App() {
         </select>
       </fieldset>
       <Filters options={options} setQueries={setQueries} />
+      <Presets presets={presets} />
+      <Results results={results} />
       <div className={styles.Columns} key={option}>
         {result.map((list, index) => (
           <div key={index}>
