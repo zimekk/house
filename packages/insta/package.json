@@ -1,0 +1,51 @@
+{
+  "name": "@dev/insta",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "lint": "TIMING=1 eslint \"**/*.{ts,tsx,js,jsx}\" --fix",
+    "clean": "rm -rf .turbo"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./components/*": [
+      "./src/components/*/index.tsx"
+    ],
+    "./*": [
+      "./src/*.ts",
+      "./src/*.tsx",
+      "./src/*/index.ts"
+    ]
+  },
+  "files": [
+    "src"
+  ],
+  "typesVersions": {
+    "*": {
+      "*": [
+        "src/*",
+        "src/*/index"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "next": "~15.5.0 || ~16.0.0 || ~16.1.0",
+    "react": "^17.0.0 || ^18.0.0-0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0-0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@acme/ui": "workspace:*",
+    "rxjs": "^7.8.2",
+    "styled-components": "^6.1.14",
+    "zod": "^4.1.12"
+  },
+  "devDependencies": {
+    "@types/react": "^19.1.13",
+    "@types/styled-components": "^5.1.26",
+    "eslint": "^9.35.0",
+    "typescript": "^5.7.3"
+  }
+}
