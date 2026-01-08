@@ -57,6 +57,23 @@ export const lights = [
       price: 39.49,
     },
     {
+      name: "GLEDOPTO Elite ESP32 Kontroler WLED Przewodowy Ethernet Reaktywny na Dźwięk Energooszczędny Przekaźnik Bezpiecznik 20A Dynamiczny RGBIC WS2811 WS2812 SK6812 - AliExpress ",
+      // "price": 27.39, // kolor: IR Sensor Switch
+      // "price": 78.33, // 77,19zł / kolor: 615WL No Ethernet
+      price: 94.19, // 92,79zł / kolor: 616WL With Ethernet
+      image:
+        "https://ae01.alicdn.com/kf/S1bc9d1db0e13400386258885c5e896d0D.jpg",
+      url: "https://pl.aliexpress.com/item/1005009880754804.html",
+    },
+    {
+      name: "GLEDOPTO WLED Kontroler LED ESP32 Mikrofon Muzyka UART RGB IC Cyfrowe Światła Adresowalne Oświetlenie Sznurowe WS2811 WS2812B WS2815 SK6812 - AliExpress ",
+      // "price": 26,
+      price: 79.55, // 53,28zł / kolor: ESP32 Mic UART White
+      image:
+        "https://ae01.alicdn.com/kf/S95d53527f6464932996161faa8958616y.jpg",
+      url: "https://pl.aliexpress.com/item/1005009262493430.html",
+    },
+    {
       name: "SMLIGHT A1-SLWF-09 WLED Ethernet PoE Audioreaktywny Kontroler LED Home Assistant do Taśm WS2811 WS2812B WS2813 WS2815 RGBIC - AliExpress ",
       image:
         "https://ae01.alicdn.com/kf/S2ad647b1713943c2abc50782ef3ebe9a3.jpg",
