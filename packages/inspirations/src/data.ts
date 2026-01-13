@@ -187,6 +187,14 @@ https://sztuka-architektury.pl/assets/front/images/content/TpfpltJGaLYTr9acYGbrx
 
 export const inspirations = [
   {
+    src: "https://www.ceramicasantagostino.it/api/_image/oven/media/CSA_PRIMEWOOD_White30180_dining-1.jpg?origin=https%3A%2F%2Fwww.ceramicasantagostino.it&search=&t=L0oSAklEVxJDSVYCAlVPVV4CBxoGAllDBBlUHxBfTkEjHxIOEBAcQR4MFxJTDhgRE0cbGxFJDQ5CBFRADBMEAHsFAEQaFEFjICQrI3ImOyAlbzssOncLCBgIE19SXVExMAELSR0SQxFdDwQUAhI%3D",
+    url: "https://www.ceramicasantagostino.it/en/collections/primewood/primewood-white",
+  },
+  {
+    src: "https://www.ceramicasantagostino.it/api/_image/oven/media/CSA_PRIMEWOOD_White30180_detail%201.jpg?origin=https%3A%2F%2Fwww.ceramicasantagostino.it&search=&t=L0oSAklEVxJDSVYCAlVPVV4CBxoGAllDBBlUHxBfTkEjHxIOEBAcQR4MFxJTDhgRE0cbGxFJDQ5CBFRADBMEAHsFAEQaFEFjICQrI3ImOyAlbzssOncLCBgIE19SXVExMA0RQRoZSxJDVFoZUAhUGA%3D%3D",
+    url: "https://www.ceramicasantagostino.it/en/collections/primewood/primewood-white",
+  },
+  {
     url: "https://yesimkozanli.com/portfolio/paloma-finesse-side/",
     src: "https://yesimkozanli.com/wp-content/uploads/2024/11/YKA_Paloma-Finesse-All-Day-Beach_3.jpg",
   },
