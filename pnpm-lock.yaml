@@ -131,7 +131,7 @@ importers:
         version: 9.39.2(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.2.0-canary.1(@typescript-eslint/parser@8.46.4(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.2.0-canary.3(@typescript-eslint/parser@8.46.4(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3)
       postcss:
         specifier: ^8.5.1
         version: 8.5.6
@@ -420,7 +420,7 @@ importers:
         version: 6.3.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       zod:
         specifier: ^4.1.12
-        version: 4.3.5
+        version: 4.3.6
     devDependencies:
       '@types/react':
         specifier: ^19.1.13
@@ -457,7 +457,7 @@ importers:
         version: 6.3.8(react-dom@19.2.3(react@19.2.3))(react@19.2.3)
       zod:
         specifier: ^4.1.12
-        version: 4.3.5
+        version: 4.3.6
     devDependencies:
       '@types/react':
         specifier: ^19.1.13
@@ -1620,8 +1620,8 @@ packages:
   '@next/env@16.1.4':
     resolution: {integrity: sha512-gkrXnZyxPUy0Gg6SrPQPccbNVLSP3vmW8LU5dwEttEEC1RwDivk8w4O+sZIjFvPrSICXyhQDCG+y3VmjlJf+9A==}
 
-  '@next/eslint-plugin-next@16.2.0-canary.1':
-    resolution: {integrity: sha512-MCOW97cOLO2eVTPc2HgHm+PcJ8kKZbHBle6ZcRkKTLMCD9g9l7lyQR8XmixJlE4y7bTY2N4LQAZdNqFN4/OqmA==}
+  '@next/eslint-plugin-next@16.2.0-canary.3':
+    resolution: {integrity: sha512-lfRBr4AS7ZxreGYpLDsAf2DDLBrVR7aUsk3XDrjZLI1++rLT01xZDlIqVTQbXlkqhrYRGThT3fOGWjl1BI3DKg==}
 
   '@next/swc-darwin-arm64@16.1.1':
     resolution: {integrity: sha512-JS3m42ifsVSJjSTzh27nW+Igfha3NdBOFScr9C80hHGrWx55pTrVL23RJbqir7k7/15SKlrLHhh/MQzqBBYrQA==}
@@ -3181,8 +3181,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.2.0-canary.1:
-    resolution: {integrity: sha512-pho3H121Dcj0WRpNAP4Fw+2p1mv1cgvHbmMfxK1X8IEDhWi+rPUHh1vf5nSYo5q8cWibeYvZZRsUbwBpRSuMdQ==}
+  eslint-config-next@16.2.0-canary.3:
+    resolution: {integrity: sha512-ABlQwJOZAV6aB90MJ7IyxZNp818lrNkOCE+KMn7RQLmbmkFpvpaoOj0oxMsJzWovLDM/700tynYaa/M85j1lHQ==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -5167,8 +5167,8 @@ packages:
     peerDependencies:
       zod: ^3.25.0 || ^4.0.0
 
-  zod@4.3.5:
-    resolution: {integrity: sha512-k7Nwx6vuWx1IJ9Bjuf4Zt1PEllcwe7cls3VNzm4CQ1/hgtFUK2bRNG3rvnpPUhFjmqJKAKtjV576KnUkHocg/g==}
+  zod@4.3.6:
+    resolution: {integrity: sha512-rftlrkhHZOcjDwkGlnUtZZkvaPHCsDATp4pGpuOOMDaTdDDXF91wuVDJoWoPsKX/3YPQ5fHuF3STjcYyKr+Qhg==}
 
   zstddec@0.1.0:
     resolution: {integrity: sha512-w2NTI8+3l3eeltKAdK8QpiLo/flRAr2p8AGeakfMZOXBxOg9HIu4LVDxBi81sYgVhFhdJjv1OrB5ssI8uFPoLg==}
@@ -5917,7 +5917,7 @@ snapshots:
 
   '@next/env@16.1.4': {}
 
-  '@next/eslint-plugin-next@16.2.0-canary.1':
+  '@next/eslint-plugin-next@16.2.0-canary.3':
     dependencies:
       fast-glob: 3.3.1
 
@@ -7562,9 +7562,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.2.0-canary.1(@typescript-eslint/parser@8.46.4(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.2.0-canary.3(@typescript-eslint/parser@8.46.4(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.2.0-canary.1
+      '@next/eslint-plugin-next': 16.2.0-canary.3
       eslint: 9.39.2(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.46.4(eslint@9.39.2(jiti@2.6.1))(typescript@5.9.3))(eslint@9.39.2(jiti@2.6.1)))(eslint@9.39.2(jiti@2.6.1))
@@ -7670,8 +7670,8 @@ snapshots:
       '@babel/parser': 7.28.5
       eslint: 9.39.2(jiti@2.6.1)
       hermes-parser: 0.25.1
-      zod: 4.3.5
-      zod-validation-error: 4.0.2(zod@4.3.5)
+      zod: 4.3.6
+      zod-validation-error: 4.0.2(zod@4.3.6)
     transitivePeerDependencies:
       - supports-color
 
@@ -9716,11 +9716,11 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  zod-validation-error@4.0.2(zod@4.3.5):
+  zod-validation-error@4.0.2(zod@4.3.6):
     dependencies:
-      zod: 4.3.5
+      zod: 4.3.6
 
-  zod@4.3.5: {}
+  zod@4.3.6: {}
 
   zstddec@0.1.0: {}
 
