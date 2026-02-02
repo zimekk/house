@@ -85,6 +85,12 @@ export default function App() {
       location: [52.1940719, 21.0443418],
     },
     {
+      name: "Domio Home Interiors Warsaw",
+      website: "https://www.domiohome.com/",
+      address: "Mokotowska 57, 00-542 Warszawa",
+      location: [52.2253928, 21.0188631],
+    },
+    {
       name: "Flora Point - Świat Roślin",
       website: "https://www.florapoint.pl/",
       address: "Mrówcza 212, 04-697 Warszawa",
