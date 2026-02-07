@@ -43,7 +43,7 @@
     "@types/react": "^19.1.13",
     "@types/styled-components": "^5.1.26",
     "@types/youtube-player": "^5.5.7",
-    "eslint": "^9.35.0",
+    "eslint": "^10.0.0",
     "typescript": "^5.7.3"
   }
 }
