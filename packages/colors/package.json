@@ -29,17 +29,17 @@
     }
   },
   "peerDependencies": {
-    "next": "~15.5.0 || ~16.0.0 || ~16.1.0",
+    "next": "~16.1.0",
     "react": "^17.0.0 || ^18.0.0-0 || ^19.0.0",
     "react-dom": "^17.0.0 || ^18.0.0-0 || ^19.0.0"
   },
   "dependencies": {
     "ncs-color": "^1.0.1",
     "ral-to-hex": "^0.0.0",
-    "styled-components": "^6.1.14"
+    "styled-components": "^6.3.9"
   },
   "devDependencies": {
-    "@types/react": "^19.1.13",
+    "@types/react": "^19.2.14",
     "@types/styled-components": "^5.1.26",
     "eslint": "^10.0.0",
     "typescript": "^5.7.3"

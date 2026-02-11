@@ -174,9 +174,12 @@ export default function App() {
       controls: defaultControls().extend([new ScaleLine()]),
     });
 
-    view.fit(source.getExtent(), {
-      padding: [100, 100, 100, 100],
-    });
+    const extent = source.getExtent();
+    if (extent) {
+      view.fit(extent, {
+        padding: [100, 100, 100, 100],
+      });
+    }
 
     // set map onclick handler
     map.on("click", handleMapClick);
