@@ -550,6 +550,92 @@ export const lights = [
         "https://ae01.alicdn.com/kf/Sfd6883d770bc45d5b8f5e89c158da264K.jpg",
       url: "https://pl.aliexpress.com/item/32950715212.html",
     },
+    {
+      name: "Moduł nadajnika i odbiornika IR ESP32 – protokół NEC, transmisja WiFi dla inteligentnego domu, zasilanie - AliExpress ",
+      price: 18.59, // Kolor: A
+      image:
+        "https://ae01.alicdn.com/kf/Se3f1e591a7a44505a0aee6bd5f4d30500.jpg",
+      url: "https://pl.aliexpress.com/item/1005010715515252.html",
+    },
+    {
+      name: "75mm suwak miksera BK10x2 dwukanałowy prosty potencjometr przesuwny B103 7.5CM suwak miksera - AliExpress ",
+      price: 7.49,
+      image:
+        "https://ae01.alicdn.com/kf/H36767d51673d489f8fc71a896a8cd04dF.png",
+      url: "https://pl.aliexpress.com/item/1005001530747022.html",
+    },
+    {
+      name: "Mini DC-DC Buck Step Down Converter Board Module 6V-24 V to 3.3V 5V 12V DC DC Voltage Regulator PCB Board Power Buck Module - AliExpress ",
+      price: 9.71, // kolor: 5V
+      // "price": 9.99, // kolor: 3.3V
+      image:
+        "https://ae01.alicdn.com/kf/Sbc35dd4783ac44d5aa0f44b7c8b21083O.jpg",
+      url: "https://pl.aliexpress.com/item/1005007360027772.html",
+    },
+    {
+      name: "DC3.6V-32V do 5V/9V/12V stabilizowany moduł konwertera napięcia regulowany moduł regulatora napięcia wzmacniającego Buck zasilacz - AliExpress ",
+      // "price": 12.32, // kolor: 12V
+      price: 12.32, // kolor: 5V
+      image:
+        "https://ae01.alicdn.com/kf/S439ead9c2aee41ca8e8106dabe5daa81D.jpg",
+      url: "https://pl.aliexpress.com/item/1005008308365600.html",
+    },
+    {
+      name: "Moduł zasilania DC-DC z regulacją obniżającą napięcie 6-80V do 3.3V 5V 12V, przetwornica obniżająca napięcie (Buck Converter) - AliExpress ",
+      price: 2.79, // kolor: B
+      image:
+        "https://ae01.alicdn.com/kf/S81089fc6307f45348e77fda9a50c995cj.jpg",
+      url: "https://pl.aliexpress.com/item/1005009657050980.html",
+    },
+    {
+      name: "DC-DC 3A Buck Step-down Moduł zasilacza 5V-12V 24V do 5V 3.3V 9V 12V Stałe wyjście wysokoprądowe dla Arduino Zastępuje LM2596 - AliExpress ",
+      // "price": 3.64,
+      price: 4.6, // Standard źródła zasilania: 1 SZT. / kolor: 5V
+      image:
+        "https://ae01.alicdn.com/kf/S40e89a1a7e494c958b1b8d3414d47c0fV.jpg?has_lang=1&ver=2",
+      url: "https://pl.aliexpress.com/item/1005003564766694.html",
+    },
+    {
+      name: "1/5/10 szt. Przetwornica DC-DC Buck Moduł Zasilania Obniżającego Napięcie 5V-30V Do 3.3V 5V 3A Regulator Napięcia do Samochodu Motocykla Akumulatora - AliExpress ",
+      // "price": 3.64,
+      price: 4.38, // Standard źródła zasilania: 1 SZT. / kolor: 5V
+      image:
+        "https://ae01.alicdn.com/kf/S15e3a911773941de86fe67dd02022815b.jpg",
+      url: "https://pl.aliexpress.com/item/1005009615481447.html",
+    },
+    {
+      name: "1szt 41F-1Z-C2-1 + HF41F 24-ZS 12-Z 5-ZS 5V 12V 24V ZST 6A 250V 1CO Slim/SSR Przekaźnik montowany na gniazdku śrubowym z przekaźnikiem waflowym LED - AliExpress ",
+      // "price": 3.64,
+      price: 18.06, // Rozmiar: 5V-ZS 41F-1Z-C2-1
+      image:
+        "https://ae01.alicdn.com/kf/S444780376d184388aef1a8d515d7c2d1f.jpg",
+      url: "https://pl.aliexpress.com/item/1005005274947502.html",
+    },
+    {
+      name: "CENFAYA DALI DMX 4-kanałowy przełącznik 100-240VAC 4CH*16A AC DH4 DT7 DALI-2 OLED Sisplay Screen DMX512 standardowe protokoły 220V - AliExpress ",
+      // "price": 117.22,
+      price: 145.91, // Rozmiar: Przełącznik DALI DMX 4-kanałowy
+      image:
+        "https://ae01.alicdn.com/kf/S8dfa05cbed744edab1c367688f2e9eeaa.jpg",
+      url: "https://pl.aliexpress.com/item/1005009447488043.html",
+    },
+    {
+      name: "Skydance AC DALI Switch Dimmer DH DH1 DH8 DH-B (DT7) DH4 Relay Unit AC100-240V 1/2/4/8 Channel DMX Push Switch for DALI Product - AliExpress 39",
+      // "price": 28.4,
+      price: 129.12, // kolor: DH4 Only
+      // "price": 142.77, // kolor: DH8 Only
+      image:
+        "https://ae01.alicdn.com/kf/Sa5aa677f71924566bbf2a902237bc3aeI.jpg",
+      url: "https://pl.aliexpress.com/item/1005008637796703.html",
+    },
+    {
+      name: "NOWOŚĆ 100-240VDC DALI / DMX RDM 8-kanałowy sterownik przekaźnika 8CH*16A Wyświetlacz numeryczny / szyna Din DH8 (DT7) do lamp LED - AliExpress 39",
+      // "price": 96.51,
+      price: 122.62,
+      image:
+        "https://ae01.alicdn.com/kf/S791b9f0e4bac4dcbbd88bd3a85c409e6X.jpg",
+      url: "https://pl.aliexpress.com/item/1005006172487386.html",
+    },
   ],
   [
     {
