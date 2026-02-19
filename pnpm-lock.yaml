@@ -131,7 +131,7 @@ importers:
         version: 10.0.0(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.2.0-canary.50(@typescript-eslint/parser@8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
+        version: 16.2.0-canary.51(@typescript-eslint/parser@8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3)
       postcss:
         specifier: ^8.5.1
         version: 8.5.6
@@ -164,7 +164,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -195,7 +195,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -229,7 +229,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -272,7 +272,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.182.0
         version: 0.182.0
@@ -337,7 +337,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -380,7 +380,7 @@ importers:
         version: 11.0.1
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -417,7 +417,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       zod:
         specifier: ^4.1.12
         version: 4.3.6
@@ -454,7 +454,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       zod:
         specifier: ^4.1.12
         version: 4.3.6
@@ -488,7 +488,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -531,7 +531,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.182.0
         version: 0.182.0
@@ -592,7 +592,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -623,7 +623,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -651,7 +651,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -703,7 +703,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -743,7 +743,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.182.0
         version: 0.182.0
@@ -780,7 +780,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -854,7 +854,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       youtube-player:
         specifier: ^5.6.0
         version: 5.6.0
@@ -894,7 +894,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.182.0
         version: 0.182.0
@@ -1637,8 +1637,8 @@ packages:
   '@next/env@16.1.6':
     resolution: {integrity: sha512-N1ySLuZjnAtN3kFnwhAwPvZah8RJxKasD7x1f8shFqhncnWZn4JMfg37diLNuoHsLAlrDfM3g4mawVdtAG8XLQ==}
 
-  '@next/eslint-plugin-next@16.2.0-canary.50':
-    resolution: {integrity: sha512-jWe5v7ieFM1rApYE+5LbANfnn8lsVN9HtcYsH6N9M6wBJ5AKC18BQQf1RDMkdF/7YBHazO4MDLJsHQZMwLZBcQ==}
+  '@next/eslint-plugin-next@16.2.0-canary.51':
+    resolution: {integrity: sha512-GcuaR9Ue9EYISBo9f1oeEwTX6Rn6jClmliMIptKqgMzlXkY0YHh/JMkY90yNbUNW8xyKa3lYvOJOV2im8SVyAg==}
 
   '@next/swc-darwin-arm64@16.1.6':
     resolution: {integrity: sha512-wTzYulosJr/6nFnqGW7FrG3jfUUlEf8UjGA0/pyypJl42ExdVgC6xJgcXQ+V8QFn6niSG2Pb8+MIG1mZr2vczw==}
@@ -2559,6 +2559,11 @@ packages:
     engines: {node: '>=0.4.0'}
     hasBin: true
 
+  acorn@8.16.0:
+    resolution: {integrity: sha512-UVJyE9MttOsBQIDKw1skb9nAwQuR5wuGD3+82K6JgJlm/Y+KI92oNsMNGZCYdDsVtRHSak0pcV5Dno5+4jh9sw==}
+    engines: {node: '>=0.4.0'}
+    hasBin: true
+
   ajv-formats@2.1.1:
     resolution: {integrity: sha512-Wx0Kx52hxE7C18hkMEggYlEifqWZtYaRgouJor+WMdPnQyEK13vgEWyVNup7SoeeoLMsr4kf5h6dOW11I15MUA==}
     peerDependencies:
@@ -3082,8 +3087,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.2.0-canary.50:
-    resolution: {integrity: sha512-/kldcbbqzWplTpXT4R9Pgc/T+NAvJmPAE4IK8oHvtTuWQRp1QAXRY8m0GJVKPKbzy0+xsOZaqfDFvEhou4KrHQ==}
+  eslint-config-next@16.2.0-canary.51:
+    resolution: {integrity: sha512-7hn1W6TusqELWDTH/YwS86dO9cZGegTbMWRRy799LueVgrBAnlVGBjXXEvMDspyB/li3pbJ2zFBXDXYNrxuD9w==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -4542,8 +4547,8 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  styled-components@6.3.10:
-    resolution: {integrity: sha512-vX2InL9LGFjpsWEBDbRQdhjl7PxZXzLqKeCxgGFl0x7tC6CYrcWdYgD0GUCU/m2MhhymJDbBTpdF0gwwG98phg==}
+  styled-components@6.3.11:
+    resolution: {integrity: sha512-opzgceGlQ5rdZdGwf9ddLW7EM2F4L7tgsgLn6fFzQ2JgE5EVQ4HZwNkcgB1p8WfOBx1GEZP3fa66ajJmtXhSrA==}
     engines: {node: '>= 16'}
     peerDependencies:
       react: '>= 16.8.0'
@@ -5755,7 +5760,7 @@ snapshots:
 
   '@next/env@16.1.6': {}
 
-  '@next/eslint-plugin-next@16.2.0-canary.50':
+  '@next/eslint-plugin-next@16.2.0-canary.51':
     dependencies:
       fast-glob: 3.3.1
 
@@ -6640,9 +6645,9 @@ snapshots:
 
   abs-svg-path@0.1.1: {}
 
-  acorn-import-phases@1.0.4(acorn@8.15.0):
+  acorn-import-phases@1.0.4(acorn@8.16.0):
     dependencies:
-      acorn: 8.15.0
+      acorn: 8.16.0
 
   acorn-jsx@5.3.2(acorn@8.15.0):
     dependencies:
@@ -6653,6 +6658,8 @@ snapshots:
       acorn: 8.15.0
 
   acorn@8.15.0: {}
+
+  acorn@8.16.0: {}
 
   ajv-formats@2.1.1(ajv@8.17.1):
     optionalDependencies:
@@ -7294,9 +7301,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.2.0-canary.50(@typescript-eslint/parser@8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3):
+  eslint-config-next@16.2.0-canary.51(@typescript-eslint/parser@8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.2.0-canary.50
+      '@next/eslint-plugin-next': 16.2.0-canary.51
       eslint: 10.0.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.0(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.0(jiti@2.6.1)))(eslint@10.0.0(jiti@2.6.1))
@@ -8886,7 +8893,7 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  styled-components@6.3.10(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
       '@emotion/unitless': 0.10.0
@@ -8940,7 +8947,7 @@ snapshots:
   terser@5.46.0:
     dependencies:
       '@jridgewell/source-map': 0.3.11
-      acorn: 8.15.0
+      acorn: 8.16.0
       commander: 2.20.3
       source-map-support: 0.5.21
 
@@ -9259,8 +9266,8 @@ snapshots:
       '@webassemblyjs/ast': 1.14.1
       '@webassemblyjs/wasm-edit': 1.14.1
       '@webassemblyjs/wasm-parser': 1.14.1
-      acorn: 8.15.0
-      acorn-import-phases: 1.0.4(acorn@8.15.0)
+      acorn: 8.16.0
+      acorn-import-phases: 1.0.4(acorn@8.16.0)
       browserslist: 4.28.1
       chrome-trace-event: 1.0.4
       enhanced-resolve: 5.19.0
