@@ -35,6 +35,13 @@ export function rect(a: Point, b: Point): Point[] {
   return [a, cross(b, a), b, cross(a, b)];
 }
 
+export function middle(a: Point, b: Point): Point {
+  const [ax, ay] = a;
+  const [bx, by] = b;
+
+  return [(ax + bx) / 2, (ay + by) / 2];
+}
+
 function Dzialka({ children }: { children: ReactNode }) {
   return children;
 }
@@ -93,6 +100,48 @@ function OsPietraX({
   return <OsContext.Provider value={context}>{children}</OsContext.Provider>;
 }
 
+interface ParentContextType {
+  ab: SizingN;
+  // ad: SizingN;
+  // dc: SizingN;
+  ba: SizingN;
+  // cd: SizingN;
+}
+
+const ParentContext = createContext<ParentContextType | undefined>(undefined);
+
+function useParentContext() {
+  const value = useContext(ParentContext);
+  if (value === undefined) {
+    throw new Error(
+      `useContext must be used inside a Provider with a value that's not undefined`,
+    );
+  }
+  return value;
+}
+
+function ParentPovider({
+  children,
+  vars,
+}: {
+  children: any;
+  vars: ParentContextType;
+}) {
+  const context = vars;
+
+  if (children) {
+    (Array.isArray(children) ? children : [children]).forEach((child: any) => {
+      if (child.props.calc) {
+        child.props.calc(context, child.props.vars);
+      }
+    });
+  }
+
+  return (
+    <ParentContext.Provider value={context}>{children}</ParentContext.Provider>
+  );
+}
+
 function Dom({
   children,
   size,
@@ -127,7 +176,20 @@ function Sypialnia({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
-      {children}
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
+      <ParentPovider
+        vars={{
+          ab: { x, y, w, h, n: 0 },
+          ba: { x: x + w, y: y + h, w: 0, h: 0, n: 0 },
+        }}
+      >
+        {children}
+      </ParentPovider>
     </>
   );
 }
@@ -148,7 +210,20 @@ function Garderoba({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
-      {children}
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
+      <ParentPovider
+        vars={{
+          ab: { x, y, w, h, n: 0 },
+          ba: { x: x + w, y: y + h, w: 0, h: 0, n: 0 },
+        }}
+      >
+        {children}
+      </ParentPovider>
     </>
   );
 }
@@ -169,6 +244,12 @@ function Schody({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
       {children}
     </>
   );
@@ -190,7 +271,20 @@ function Lazienka({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
-      {children}
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
+      <ParentPovider
+        vars={{
+          ab: { x, y, w, h, n: 0 },
+          ba: { x: x + w, y: y + h, w: 0, h: 0, n: 0 },
+        }}
+      >
+        {children}
+      </ParentPovider>
     </>
   );
 }
@@ -211,7 +305,20 @@ function Pralnia({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
-      {children}
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
+      <ParentPovider
+        vars={{
+          ab: { x, y, w, h, n: 0 },
+          ba: { x: x + w, y: y + h, w: 0, h: 0, n: 0 },
+        }}
+      >
+        {children}
+      </ParentPovider>
     </>
   );
 }
@@ -232,7 +339,20 @@ function Gabinet({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
-      {children}
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
+      <ParentPovider
+        vars={{
+          ab: { x, y, w, h, n: 0 },
+          ba: { x: x + w, y: y + h, w: 0, h: 0, n: 0 },
+        }}
+      >
+        {children}
+      </ParentPovider>
     </>
   );
 }
@@ -253,6 +373,78 @@ function Korytarz({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
+      <ParentPovider
+        vars={{
+          ab: { x, y, w, h, n: 0 },
+          ba: { x: x + w, y: y + h, w: 0, h: 0, n: 0 },
+        }}
+      >
+        {children}
+      </ParentPovider>
+    </>
+  );
+}
+
+function Zabudowa({
+  children,
+  vars = {},
+  size,
+}: {
+  children?: ReactNode;
+  vars?: Partial<Sizing>;
+  calc?: (context: ParentContextType, vars: Partial<Sizing>) => void;
+  size: (context: ParentContextType, vars: Partial<Sizing>) => Sizing;
+}) {
+  const context = useParentContext();
+  const { x, y, w, h } = size(context, vars);
+  // console.log(["Zabudowa"], { w, h, x, y });
+  return (
+    <>
+      <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+        fontSize={0.1}
+      />
+      {children}
+    </>
+  );
+}
+
+function Klapa({
+  children,
+  vars = {},
+  size,
+}: {
+  children?: ReactNode;
+  vars?: Partial<Sizing>;
+  calc?: (context: ParentContextType, vars: Partial<Sizing>) => void;
+  size: (context: ParentContextType, vars: Partial<Sizing>) => Sizing;
+}) {
+  const context = useParentContext();
+  const { x, y, w, h } = size(context, vars);
+  // console.log(["Klapa"], { w, h, x, y });
+  return (
+    <>
+      <path
+        d={draw(rect([x, y], [x + w, y + h]))}
+        style={styles.line}
+        stroke-dasharray=".05,.05"
+      />
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+      />
       {children}
     </>
   );
@@ -274,6 +466,13 @@ function Komin({
   return (
     <>
       <path d={draw(rect([x, y], [x + w, y + h]))} style={styles.line} />
+      <Meter
+        points={[
+          [x, y],
+          [x + w, y + h],
+        ]}
+        fontSize={0.1}
+      />
       {children}
     </>
   );
@@ -331,6 +530,42 @@ function Pietro({ children }: { children: ReactNode }) {
 
 function Strych({ children }: { children?: ReactNode }) {
   return children;
+}
+
+function Meter({
+  points,
+  fontSize = 0.2,
+}: {
+  points: [Point, Point];
+  fontSize?: number;
+}) {
+  const [a, c] = points;
+  const b = cross(c, a);
+  const d = cross(a, c);
+  const [ax, ay] = a;
+  const [cx, cy] = c;
+
+  const w = Math.abs(ax - cx);
+  const h = Math.abs(ay - cy);
+
+  return w > 0.1 && h > 0.1 ? (
+    <g>
+      <g transform={`translate(${middle(a, b).join(" ")})`}>
+        <g transform={`rotate(${0})`}>
+          <text style={{ fontSize }} textAnchor="middle" y={fontSize}>
+            {`${Math.round(1000 * w) / 1000}`}
+          </text>
+        </g>
+      </g>
+      <g transform={`translate(${middle(a, d).join(" ")})`}>
+        <g transform={`rotate(${-90})`}>
+          <text style={{ fontSize }} textAnchor="middle" y={fontSize}>
+            {`${Math.round(1000 * h) / 1000}`}
+          </text>
+        </g>
+      </g>
+    </g>
+  ) : null;
 }
 
 export default function Layout() {
@@ -396,7 +631,76 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.2,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  context.ba.y -= h;
+                  const x = context.ba.x - w;
+                  const y = context.ba.y;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  context.ba.y -= h;
+                  const x = context.ba.x - w;
+                  const y = context.ba.y;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  context.ba.y -= h;
+                  const x = context.ba.x - w;
+                  const y = context.ba.y;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  context.ba.y -= h;
+                  const x = context.ba.x - w;
+                  const y = context.ba.y;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Garderoba>
 
             <Sypialnia
               vars={{
@@ -618,7 +922,56 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Zabudowa
+                vars={{
+                  w: 1.4,
+                  h: 0.9,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.8,
+                  h: 1.5,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y + (context.ab.h - h) / 2;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.5,
+                  h: 1.5,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x + (context.ab.w - w);
+                  const y = context.ab.y + (context.ab.h - h) / 2;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Lazienka>
             <Gabinet
               vars={{
                 w: 2.7,
@@ -636,7 +989,24 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 1.8,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Gabinet>
             <Skos
               size={(context) => {
                 const w = context.wymiaryDomu.w - context.ab.x - 0.48 - 0.16;
@@ -673,7 +1043,57 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Zabudowa
+                vars={{
+                  w: 1.5,
+                  h: 1.8,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w + 0.1;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.9,
+                  h: 1.8,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 1,
+                  h: 0.5,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - w;
+                  const y = context.ba.y - h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Lazienka>
             <Garderoba
               vars={{
                 w: 1.5 + 1.6 + 0.16,
@@ -696,7 +1116,127 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  context.ba.y += h;
+                  const x = context.ba.x - context.ab.w;
+                  const y = context.ba.y - context.ab.h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  context.ba.y += h;
+                  const x = context.ba.x - context.ab.w;
+                  const y = context.ba.y - context.ab.h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Garderoba>
             <Pralnia
               vars={{
                 w: 1.6,
@@ -717,7 +1257,92 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Klapa
+                vars={{
+                  w: 1.2,
+                  h: 0.8,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - w - 0.2;
+                  const y = context.ba.y - h - 0.1;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.2,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.2,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ab.x;
+                  const y = context.ab.y;
+                  context.ab.x += w;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Pralnia>
             <Korytarz
               size={(context) => {
                 const w = context.osPralni.w;
@@ -760,7 +1385,24 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Zabudowa
+                vars={{
+                  w: 2,
+                  h: 2,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - w - 1;
+                  const y = context.ba.y - h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Sypialnia>
             <Garderoba
               vars={{
                 w: 1.6,
@@ -784,7 +1426,93 @@ export default function Layout() {
                   h,
                 };
               }}
-            />
+            >
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.2,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - context.ab.w;
+                  const y = context.ba.y - context.ab.h;
+                  context.ba.y += h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - context.ab.w;
+                  const y = context.ba.y - context.ab.h;
+                  context.ba.y += h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - context.ab.w;
+                  const y = context.ba.y - context.ab.h;
+                  context.ba.y += h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.6,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - context.ab.w;
+                  const y = context.ba.y - context.ab.h;
+                  context.ba.y += h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+              <Zabudowa
+                vars={{
+                  w: 0.6,
+                  h: 0.2,
+                }}
+                size={(context, { w = 0, h = 0 }) => {
+                  const x = context.ba.x - context.ab.w;
+                  const y = context.ba.y - context.ab.h;
+                  context.ba.y += h;
+                  return {
+                    x,
+                    y,
+                    w,
+                    h,
+                  };
+                }}
+              />
+            </Garderoba>
             <Korytarz
               vars={{
                 w: 1.6 + 0.16,
