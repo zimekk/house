@@ -23,6 +23,7 @@
     "@dev/floors": "workspace:*",
     "@dev/inspirations": "workspace:*",
     "@dev/insta": "workspace:*",
+    "@dev/layout": "workspace:*",
     "@dev/led": "workspace:*",
     "@dev/map": "workspace:*",
     "@dev/model": "workspace:*",

@@ -65,6 +65,9 @@ importers:
       '@dev/insta':
         specifier: workspace:*
         version: link:../../packages/insta
+      '@dev/layout':
+        specifier: workspace:*
+        version: link:../../packages/layout
       '@dev/led':
         specifier: workspace:*
         version: link:../../packages/led
@@ -100,10 +103,10 @@ importers:
         version: link:../../packages/web
       '@vercel/examples-ui':
         specifier: ^1.0.4
-        version: 1.0.5(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 1.0.5(next@16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^19.0.0
         version: 19.2.4
@@ -152,7 +155,7 @@ importers:
         version: link:../ui
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -186,7 +189,7 @@ importers:
         version: link:../tools
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -217,7 +220,7 @@ importers:
         version: 1.0.1
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       ral-to-hex:
         specifier: ^0.0.0
         version: 0.0.0
@@ -260,7 +263,7 @@ importers:
         version: 5.1.6
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       ol:
         specifier: ^10.8.0
         version: 10.8.0
@@ -325,7 +328,7 @@ importers:
     dependencies:
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       ol:
         specifier: ^10.8.0
         version: 10.8.0
@@ -365,7 +368,7 @@ importers:
         version: 3.10.1
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -405,7 +408,7 @@ importers:
         version: link:../ui
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -435,6 +438,58 @@ importers:
         specifier: ^5.7.3
         version: 5.9.3
 
+  packages/layout:
+    dependencies:
+      '@react-pdf/renderer':
+        specifier: ^4.3.0
+        version: 4.3.2(react@19.2.4)
+      '@react-three/drei':
+        specifier: ^10.7.6
+        version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1)
+      '@react-three/fiber':
+        specifier: ^9.2.0
+        version: 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1)
+      nanoid:
+        specifier: ^5.0.3
+        version: 5.1.6
+      next:
+        specifier: ~16.1.0
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+      ol:
+        specifier: ^10.8.0
+        version: 10.8.0
+      react:
+        specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
+        version: 19.2.4
+      react-dom:
+        specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
+        version: 19.2.4(react@19.2.4)
+      styled-components:
+        specifier: ^6.3.9
+        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+      three:
+        specifier: ^0.183.0
+        version: 0.183.1
+    devDependencies:
+      '@types/react':
+        specifier: ^19.2.14
+        version: 19.2.14
+      '@types/styled-components':
+        specifier: ^5.1.26
+        version: 5.1.36
+      '@types/three':
+        specifier: ^0.183.0
+        version: 0.183.1
+      eslint:
+        specifier: ^10.0.0
+        version: 10.0.1(jiti@2.6.1)
+      typescript:
+        specifier: ^5.7.3
+        version: 5.9.3
+      vitest:
+        specifier: ^4.0.0
+        version: 4.0.18(@types/node@25.0.9)(jiti@2.6.1)(lightningcss@1.31.1)(sass@1.97.3)(terser@5.46.0)(yaml@2.8.2)
+
   packages/led:
     dependencies:
       '@acme/ui':
@@ -442,7 +497,7 @@ importers:
         version: link:../ui
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -476,7 +531,7 @@ importers:
     dependencies:
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       ol:
         specifier: ^10.8.0
         version: 10.8.0
@@ -519,7 +574,7 @@ importers:
         version: 5.1.6
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       ol:
         specifier: ^10.8.0
         version: 10.8.0
@@ -574,7 +629,7 @@ importers:
         version: 4.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       perfect-freehand:
         specifier: ^1.2.2
         version: 1.2.3
@@ -611,7 +666,7 @@ importers:
     dependencies:
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       ol:
         specifier: ^10.8.0
         version: 10.8.0
@@ -642,7 +697,7 @@ importers:
     dependencies:
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -685,7 +740,7 @@ importers:
         version: 4.2.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       perfect-freehand:
         specifier: ^1.2.2
         version: 1.2.3
@@ -734,7 +789,7 @@ importers:
         version: 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1)
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -771,7 +826,7 @@ importers:
         version: link:../ui
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -805,7 +860,7 @@ importers:
         version: 2.1.1
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -842,7 +897,7 @@ importers:
         version: 2.1.1
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -885,7 +940,7 @@ importers:
         version: 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1)
       next:
         specifier: ~16.1.0
-        version: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+        version: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react:
         specifier: ^17.0.0 || ^18.0.0-0 || ^19.0.0
         version: 19.2.4
@@ -4376,11 +4431,6 @@ packages:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
 
-  semver@7.7.3:
-    resolution: {integrity: sha512-SdsKMrI9TdgjdweUSR9MweHA4EJ8YxHn8DFaDisvhVlUOe4BF1tLD7GAj0lIqWVl+dPb/rExr0Btby5loQm20Q==}
-    engines: {node: '>=10'}
-    hasBin: true
-
   semver@7.7.4:
     resolution: {integrity: sha512-vFKC2IEtQnVhpT78h1Yp8wzwrf8CM+MzKMHGJZfBtzhZNycRFnXsHk6E5TxIkkMsgNS7mdX3AGB7x2QM2di4lA==}
     engines: {node: '>=10'}
@@ -5338,7 +5388,7 @@ snapshots:
   '@emotion/babel-plugin@11.13.5':
     dependencies:
       '@babel/helper-module-imports': 7.28.6
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       '@emotion/hash': 0.9.2
       '@emotion/memoize': 0.9.0
       '@emotion/serialize': 1.3.3
@@ -5896,7 +5946,7 @@ snapshots:
 
   '@react-pdf/pdfkit@4.1.0':
     dependencies:
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       '@react-pdf/png-js': 3.0.0
       browserify-zlib: 0.2.0
       crypto-js: 4.2.0
@@ -5919,7 +5969,7 @@ snapshots:
 
   '@react-pdf/render@4.3.2':
     dependencies:
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       '@react-pdf/fns': 3.1.2
       '@react-pdf/primitives': 4.1.1
       '@react-pdf/textkit': 6.1.0
@@ -5932,7 +5982,7 @@ snapshots:
 
   '@react-pdf/renderer@4.3.2(react@19.2.4)':
     dependencies:
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       '@react-pdf/fns': 3.1.2
       '@react-pdf/font': 4.0.4
       '@react-pdf/layout': 4.4.2
@@ -5978,7 +6028,7 @@ snapshots:
 
   '@react-three/drei@10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1)':
     dependencies:
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       '@mediapipe/tasks-vision': 0.10.17
       '@monogrid/gainmap-js': 3.1.0(three@0.183.1)
       '@react-three/fiber': 9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1)
@@ -6011,7 +6061,7 @@ snapshots:
 
   '@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(three@0.183.1)':
     dependencies:
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       '@types/webxr': 0.5.24
       base64-js: 1.5.1
       buffer: 6.0.3
@@ -6495,11 +6545,11 @@ snapshots:
       '@use-gesture/core': 10.3.1
       react: 19.2.4
 
-  '@vercel/examples-ui@1.0.5(next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
+  '@vercel/examples-ui@1.0.5(next@16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3))(react-dom@19.2.4(react@19.2.4))(react@19.2.4)':
     dependencies:
       '@swc/helpers': 0.4.37
       clsx: 1.2.1
-      next: 16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
+      next: 16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3)
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
       sugar-high: 0.4.7
@@ -6804,7 +6854,7 @@ snapshots:
 
   babel-plugin-macros@3.1.0:
     dependencies:
-      '@babel/runtime': 7.28.4
+      '@babel/runtime': 7.28.6
       cosmiconfig: 7.1.0
       resolve: 1.22.11
 
@@ -7321,7 +7371,7 @@ snapshots:
       eslint: 10.0.1(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.1(jiti@2.6.1)))(eslint@10.0.1(jiti@2.6.1))
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.1(jiti@2.6.1)))(eslint@10.0.1(jiti@2.6.1)))(eslint@10.0.1(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.0.1(jiti@2.6.1))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@10.0.1(jiti@2.6.1))
       eslint-plugin-react: 7.37.5(eslint@10.0.1(jiti@2.6.1))
       eslint-plugin-react-hooks: 7.0.1(eslint@10.0.1(jiti@2.6.1))
@@ -7354,7 +7404,7 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.1(jiti@2.6.1)))(eslint@10.0.1(jiti@2.6.1)))(eslint@10.0.1(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.0.1(jiti@2.6.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -7369,7 +7419,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint@10.0.1(jiti@2.6.1)))(eslint@10.0.1(jiti@2.6.1)))(eslint@10.0.1(jiti@2.6.1)):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.0.1(jiti@2.6.1))(typescript@5.9.3))(eslint-import-resolver-typescript@3.10.1)(eslint@10.0.1(jiti@2.6.1)):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -7832,7 +7882,7 @@ snapshots:
 
   is-bun-module@2.0.0:
     dependencies:
-      semver: 7.7.3
+      semver: 7.7.4
 
   is-callable@1.2.7: {}
 
@@ -8213,7 +8263,7 @@ snapshots:
 
   neo-async@2.6.2: {}
 
-  next@16.1.6(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3):
+  next@16.1.6(@babel/core@7.29.0)(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.97.3):
     dependencies:
       '@next/env': 16.1.6
       '@swc/helpers': 0.5.15
@@ -8222,7 +8272,7 @@ snapshots:
       postcss: 8.4.31
       react: 19.2.4
       react-dom: 19.2.4(react@19.2.4)
-      styled-jsx: 5.1.6(react@19.2.4)
+      styled-jsx: 5.1.6(@babel/core@7.29.0)(react@19.2.4)
     optionalDependencies:
       '@next/swc-darwin-arm64': 16.1.6
       '@next/swc-darwin-x64': 16.1.6
@@ -8674,8 +8724,6 @@ snapshots:
 
   semver@6.3.1: {}
 
-  semver@7.7.3: {}
-
   semver@7.7.4: {}
 
   serialize-javascript@6.0.2:
@@ -8712,7 +8760,7 @@ snapshots:
     dependencies:
       '@img/colour': 1.0.0
       detect-libc: 2.1.2
-      semver: 7.7.3
+      semver: 7.7.4
     optionalDependencies:
       '@img/sharp-darwin-arm64': 0.34.5
       '@img/sharp-darwin-x64': 0.34.5
@@ -8924,10 +8972,12 @@ snapshots:
     optionalDependencies:
       react-dom: 19.2.4(react@19.2.4)
 
-  styled-jsx@5.1.6(react@19.2.4):
+  styled-jsx@5.1.6(@babel/core@7.29.0)(react@19.2.4):
     dependencies:
       client-only: 0.0.1
       react: 19.2.4
+    optionalDependencies:
+      '@babel/core': 7.29.0
 
   stylis@4.2.0: {}
 

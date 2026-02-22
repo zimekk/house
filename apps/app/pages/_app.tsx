@@ -25,6 +25,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "floors",
         "inspirations",
         "insta",
+        "layout",
         "led",
         "map",
         "model",
