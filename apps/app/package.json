@@ -45,7 +45,7 @@
     "@types/node": "^24.5.1",
     "@types/react": "^19.2.14",
     "autoprefixer": "^10.4.12",
-    "copy-webpack-plugin": "^13.0.0",
+    "copy-webpack-plugin": "^14.0.0",
     "eslint": "^10.0.0",
     "eslint-config-next": "canary",
     "postcss": "^8.5.1",
