@@ -48,7 +48,7 @@
     "copy-webpack-plugin": "^14.0.0",
     "eslint": "^10.0.0",
     "eslint-config-next": "canary",
-    "postcss": "^8.5.1",
+    "postcss": "^8.5.8",
     "sass": "^1.92.1",
     "tailwindcss": "^4.1.17",
     "typescript": "^5.7.3"
