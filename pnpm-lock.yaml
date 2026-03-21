@@ -167,7 +167,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -198,7 +198,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -232,7 +232,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -275,7 +275,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -340,7 +340,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -383,7 +383,7 @@ importers:
         version: 11.0.1
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -420,7 +420,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       zod:
         specifier: ^4.1.12
         version: 4.3.6
@@ -469,7 +469,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -512,7 +512,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       zod:
         specifier: ^4.1.12
         version: 4.3.6
@@ -546,7 +546,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -589,7 +589,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -650,7 +650,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -681,7 +681,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -709,7 +709,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -761,7 +761,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -801,7 +801,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -838,7 +838,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -912,7 +912,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       youtube-player:
         specifier: ^5.6.0
         version: 5.6.0
@@ -952,7 +952,7 @@ importers:
         version: 19.2.4(react@19.2.4)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
+        version: 6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -4561,8 +4561,8 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  styled-components@6.3.11:
-    resolution: {integrity: sha512-opzgceGlQ5rdZdGwf9ddLW7EM2F4L7tgsgLn6fFzQ2JgE5EVQ4HZwNkcgB1p8WfOBx1GEZP3fa66ajJmtXhSrA==}
+  styled-components@6.3.12:
+    resolution: {integrity: sha512-hFR6xsVkVYbsdcUlzPYFvFfoc6o2KlV0VvgRIQwSYMtdThM7SCxnjX9efh/cWce2kTq16I/Kl3xM98xiLptsXA==}
     engines: {node: '>= 16'}
     peerDependencies:
       react: '>= 16.8.0'
@@ -8795,7 +8795,7 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  styled-components@6.3.11(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
+  styled-components@6.3.12(react-dom@19.2.4(react@19.2.4))(react@19.2.4):
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
       '@emotion/unitless': 0.10.0
