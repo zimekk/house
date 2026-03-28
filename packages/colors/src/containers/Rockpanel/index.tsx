@@ -21,7 +21,7 @@ function Samples({
             <input
               type="checkbox"
               checked={checked}
-              onClick={({ target }) =>
+              onChange={({ target }) =>
                 target instanceof HTMLInputElement && onCheck(target.checked)
               }
             />
@@ -76,8 +76,9 @@ export function Rockpanel({
           <Samples ral="RAL 9007" rgb="#4d4d4d" />
           <Samples ral="RAL 9007" rgb="#434343" />
           <Samples ral="RAL 9007" rgb="#494a52" />
-          {filtered.map(({ name, color }) => (
+          {filtered.map(({ name, color }, index) => (
             <Samples
+              key={index}
               ral={name}
               rgb={color}
               checked={selected.includes(name)}
@@ -92,8 +93,9 @@ export function Rockpanel({
           ))}
         </div>
         <div className={styles.Overflow}>
-          {list.map(({ name, color }) => (
+          {list.map(({ name, color }, index) => (
             <Samples
+              key={index}
               ral={name}
               rgb={color}
               checked={selected.includes(name)}
