@@ -4,7 +4,7 @@ import Document from "./Document";
 
 export default function Viewer() {
   return (
-    <PDFViewer>
+    <PDFViewer width="100%" height="100%">
       <Document />
     </PDFViewer>
   );

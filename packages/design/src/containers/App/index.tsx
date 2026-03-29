@@ -454,7 +454,7 @@ export default function App() {
         flex: "1 1 auto",
       }}
     >
-      <h1>design</h1>
+      {/* <h1>design</h1> */}
       <Print />
       <a href="/api/design">download</a>
       <div

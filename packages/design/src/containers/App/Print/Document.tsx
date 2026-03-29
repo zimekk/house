@@ -10,6 +10,7 @@ import {
   Path,
   Polygon,
 } from "@react-pdf/renderer";
+import Sketch from "./Sketch";
 
 const styles = StyleSheet.create({
   page: {
@@ -30,32 +31,30 @@ const color = "black";
 
 export default () => (
   <Document>
-    <Page size="A4" style={styles.page}>
+    <Page size="A4" orientation="landscape" style={styles.page}>
       <View style={styles.section}>
         <Text>Section #1</Text>
-        <Svg style={{ width: 400, height: 400 }}>
-          <G transform="scale(20) translate(5,5)">
+        <Svg style={{ width: 680, height: 500 }}>
+          <Sketch />
+          {/* <G transform="scale(20) translate(5,5)">
             <Path
               fill="#f2cc99"
               stroke={color}
               strokeWidth={0.01}
               d={`M 0 0 l 1 1 l -1 0 l 0 -1`}
             />
-            <Text style={styles.text} x={1} y={2} textAnchor="end">
-              text
-            </Text>
             <Text style={styles.text} x={1} y={3} textAnchor="middle">
               long text
             </Text>
             <Text style={styles.text} x={1} y={4}>
               very long text
             </Text>
-          </G>
+          </G> */}
         </Svg>
       </View>
-      <View style={styles.section}>
+      {/* <View style={styles.section}>
         <Text>Section #2</Text>
-      </View>
+      </View> */}
     </Page>
   </Document>
 );

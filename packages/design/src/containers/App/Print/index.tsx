@@ -8,7 +8,7 @@ export default function Print() {
   }, []);
 
   return (
-    <div style={{ border: "1px solid blue", height: 200 }}>
+    <div style={{ border: "1px solid blue", height: 800 }}>
       <Viewer />
     </div>
   );
