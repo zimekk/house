@@ -74,7 +74,7 @@ export function ground() {
   } = rooms();
 
   return createShapeWithHoles(bryla, [
-    inner(salon, 0.16 / 2),
+    salon,
     kuchnia,
     inner(spizarnia, 0.16 / 2),
     inner(gabinet1, 0.16 / 2),

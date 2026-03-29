@@ -13,27 +13,46 @@ import {
   shift,
 } from "../utils";
 
+export function windows() {
+  return [
+    [0.6, 0, 0],
+    [6 * 0.6, 0.6, 0.9],
+  ];
+}
+
+export function cabinets1() {
+  return [[0.6, 2.8], [0.6], [0.6], [0.6], [0.6], [0.6], [0.6], [0.6, 2.8]];
+}
+
+export function cabinets2() {
+  return [[0.6], [0.6], [0.6], [0.6]];
+}
+
+export function cabinets3() {
+  return [[0.6], [0.6]];
+}
+
 export function rooms() {
   const start = [0, 0] as Point;
   const bryla = ((w, h) => rect(start, [w, h]))(20, 8);
 
   const salon = ((r1) => {
-    const [a, b, c, d] = inner(r1, -0.16 / 2);
+    const [a, b, c, d] = inner(r1, 0);
     const a2 = shift(b, [-4, 2]);
     const c2 = c;
     return rect(a2, c2);
   })(inner(bryla, 0.48));
 
   const kuchnia = ((r1, r2) => {
-    const [a, b, c, d] = inner(r1, -0.16 / 2);
-    const a2 = shift(b, [-4, 0]);
+    const [a, b, c, d] = inner(r1, 0);
+    const a2 = shift(b, [-4.8, 0]);
     const c2 = c;
     const v = (([_a, _b, _c, c2]) => delta(c, c2))(r2);
     return ((a2, c2) => rect(a2, c2))(shift(a2, v), shift(c2, v));
   })(inner(bryla, 0.48), salon);
 
   const spizarnia = ((r1) => {
-    const [a, b, c, d] = r1;
+    const [a, b, c, d] = inner(r1, -0.16 / 2);
     const b2 = a;
     const d2 = shift(a, [-4, 3]);
     const a2 = cross(d2, b2),
@@ -52,7 +71,7 @@ export function rooms() {
 
   const schody1 = ((r1, r2) => {
     const [a, b, c, _d] = r1;
-    const [_a, _b, _c, d] = r2;
+    const [_a, _b, _c, d] = inner(r2, -0.16 / 2);
     const a2 = b;
     const c2 = d;
     return rect(a2, c2);
@@ -143,7 +162,7 @@ export function rooms() {
     bryla,
     // ground
     salon,
-    kuchnia: inner(kuchnia, 0.16 / 2),
+    kuchnia,
     spizarnia,
     gabinet1,
     schody1,
