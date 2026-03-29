@@ -98,21 +98,25 @@ export function middle(a: Point, b: Point): Point {
 
 export function mirrorh<T extends Points>(points: T, center: Point): T {
   const [x1, y1] = center;
-  const r = points.map(([x2, y2]) => {
-    const dx = x2 - x1;
-    const dy = y2 - y1;
-    return [x1 - dx, y2];
-  }) as T;
+  const r = points
+    .map(([x2, y2]) => {
+      const dx = x2 - x1;
+      const dy = y2 - y1;
+      return [x1 - dx, y2];
+    })
+    .reverse() as T;
   return r;
 }
 
 export function mirrorv<T extends Points>(points: T, center: Point): T {
   const [x1, y1] = center;
-  const r = points.map(([x2, y2]) => {
-    const dx = x2 - x1;
-    const dy = y2 - y1;
-    return [x2, y1 - dy];
-  }) as T;
+  const r = points
+    .map(([x2, y2]) => {
+      const dx = x2 - x1;
+      const dy = y2 - y1;
+      return [x2, y1 - dy];
+    })
+    .reverse() as T;
   return r;
 }
 

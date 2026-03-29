@@ -12,6 +12,9 @@
   "type": "module",
   "exports": {
     ".": "./src/index.ts",
+    "./shapes": [
+      "./src/shapes/index.ts"
+    ],
     "./utils": [
       "./src/utils/index.ts"
     ],
