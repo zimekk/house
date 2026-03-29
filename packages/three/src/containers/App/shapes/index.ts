@@ -1,14 +1,9 @@
 import * as THREE from "three";
 import {
   type Point,
-  center,
   cross,
-  delta,
   inner,
-  middle,
   mirrorh,
-  mirrorv,
-  rect,
   ria,
   rib,
   shift,
@@ -119,4 +114,76 @@ export function roof() {
   const shape = createShape(bryla);
 
   return [shape];
+}
+
+export function stairs() {
+  const { schody1 } = rooms();
+
+  const points = (([a, b, c, d], [p, q, k, n, sx = 1]) =>
+    Array.from(Array(n))
+      .reduce((result, _, _i): Point[] => {
+        const i = _i + k;
+        const [ax, ay] = [(i - k) * p + sx, i * q];
+        return result
+          .concat(result.length ? [] : [[(i - k) * p + sx, (i - 1) * q]])
+          .concat([
+            [ax, ay],
+            [ax, ay + q],
+          ]);
+      }, [])
+      .concat([((i) => [(i - k + 1) * p + sx, i * q])(n + k)])
+      .map((a: Point) => shift(a, cross(d, [0, 0]))))(
+    inner(schody1, 0.16 / 2),
+    [0.28, 0.1725, 2, 15],
+  );
+
+  return createShapeWithHoles(points, []);
+}
+
+export function stairs1() {
+  const { schody1 } = rooms();
+
+  const points = (([a, b, c, d], [p, q, k, n, sx = 0]) =>
+    Array.from(Array(n))
+      .reduce((result, _, _i): Point[] => {
+        const i = _i + k;
+        const [ax, ay] = [(i - k) * p + sx, i * q];
+        return result
+          .concat(result.length ? [] : [[(n - 1) * p + sx + 1, i * q]])
+          .concat([
+            [ax, ay],
+            [ax, ay + q],
+          ]);
+      }, [])
+      .concat([((i) => [(i - k - 1) * p + sx + 1, i * q])(n + k)])
+      .map((a: Point) => shift(a, cross([d[1] - 1.28, d[0]], [0, 0]))))(
+    inner(schody1, 0.16 / 2),
+    [0.28, 0.1725, 0, 2],
+  );
+
+  return createShapeWithHoles(points, []);
+}
+
+export function stairs2() {
+  const { schody1 } = rooms();
+
+  const points = (([a, b, c, d], [p, q, k, n, sx = 0]) =>
+    Array.from(Array(n))
+      .reduce((result, _, _i): Point[] => {
+        const i = _i + k;
+        const [ax, ay] = [(_i ? (i - k - 1) * p : (i - k) * p + 1) + sx, i * q];
+        return result
+          .concat(result.length ? [] : [[(i - k + 1 - 1) * p + sx, i * q]])
+          .concat([
+            [ax, ay],
+            [ax, ay + q],
+          ]);
+      }, [])
+      .concat([((i) => [(i - k + 1 - 1) * p + sx, i * q])(n + k)])
+      .map((a: Point) => shift(a, [8 - 0.48 - 1, 0])))(
+    inner(schody1, 0.16 / 2),
+    [-0.28, 0.1725, 2 + 15, 3],
+  );
+
+  return createShapeWithHoles(points, []);
 }

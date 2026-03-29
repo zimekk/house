@@ -157,3 +157,7 @@ export function shift(a: Point, b: Point): Point {
 
   return [ax + bx, ay + by];
 }
+
+export function swap(points: Point[]): Point[] {
+  return points.map(([x, y]) => [y, x]);
+}

@@ -17,6 +17,7 @@ import {
   inner,
   rect,
   shift,
+  swap,
 } from "@dev/model/utils";
 import * as shapes from "@dev/model/shapes";
 
@@ -127,41 +128,76 @@ export function kitchen() {
     [
       flatten(inner(salon, 0.16 / 2)),
       flatten(kuchnia),
-      flatten(inner(spizarnia, 0.16 / 2)),
-      // inner(gabinet1, 0.16 / 2),
-      // inner(schody1, 0.16 / 2),
+      // flatten(inner(spizarnia, 0.16 / 2)),
+      flatten(inner(gabinet1, 0.16 / 2)),
+      flatten(inner(schody1, 0.16 / 2)),
       // inner(lazienka, 0.16 / 2),
-      flatten(inner(garaz, 0.16 / 2)),
-    ].concat(
-      shapes
-        .cabinets1()
-        .reduce(
-          (result, [w, h = 0.9, d = 0.6]) => {
-            const { space = 0, width = 0 } = result.length
-              ? result[result.length - 1]
-              : {};
-            return result.concat({
-              width: w,
-              height: h,
-              depth: d,
-              space: space + width,
-            });
-          },
-          [] as {
-            width: number;
-            height: number;
-            depth: number;
-            space: number;
-          }[],
-        )
-        .map(({ width, height, depth, space }): Point4 => {
-          const [a, b, c, d] = flatten(kuchnia);
-          const [ax, ay] = a;
-          const x = ax + space;
+      // flatten(inner(garaz, 0.16 / 2)),
+    ]
+      .concat(
+        (([a, b, c, d], [p, q, n]) =>
+          Array.from(Array(n)).map((_, i) => {
+            const a = shift(d, [0, i * q]);
+            return rect(a, shift(a, [1, q]));
+          }))(flatten(inner(schody1, 0.16 / 2)), [0.28, -0.1725, 2]),
+      )
+      .concat([
+        (([a, b, c, d], [p, q, k, n, sx = 1]) =>
+          Array.from(Array(n))
+            .reduce((result, _, _i): Point[] => {
+              const i = _i + k;
+              const [ax, ay] = [(i - k) * p + sx, i * q];
+              return result
+                .concat(result.length ? [] : [[(i - k) * p + sx, (i - 1) * q]])
+                .concat([
+                  [ax, ay],
+                  [ax, ay + q],
+                ]);
+            }, [])
+            .concat([((i) => [(i - k + 1) * p + sx, i * q])(n + k)])
+            .map((a: Point) => shift(a, d)))(
+          flatten(inner(schody1, 0.16 / 2)),
+          [0.28, -0.1725, 2, 15],
+        ),
+      ])
+      .concat(
+        (([a, b, c, d], [p, q, k, n, m, sx = 1]) =>
+          Array.from(Array(m)).map((_, _i) => {
+            const i = _i + k + n;
+            const a = shift(d, [n * p + sx, i * q]);
+            return rect(a, shift(a, [1, q]));
+          }))(flatten(inner(schody1, 0.16 / 2)), [0.28, -0.1725, 2, 15, 2]),
+      )
+      .concat(
+        shapes
+          .cabinets1()
+          .reduce(
+            (result, [w, h = 0.9, d = 0.6]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              space: number;
+            }[],
+          )
+          .map(({ width, height, depth, space }): Point4 => {
+            const [a, b, c, d] = flatten(kuchnia);
+            const [ax, ay] = a;
+            const x = ax + space;
 
-          return rect([x, h], [x + width, h - height]);
-        }),
-    ),
+            return rect([x, h], [x + width, h - height]);
+          }),
+      ),
   );
 }
 
@@ -227,10 +263,6 @@ export function kitchen2() {
     garaz,
   } = shapes.rooms();
   const h = 2.8;
-
-  function swap(points: Point[]): Point[] {
-    return points.map(([x, y]) => [y, x]);
-  }
 
   function flatten(points: Point4, height: number = 2.8) {
     return (([a, b, c, d]) => rect(cross(a, [0, 0]), cross(d, [0, height])))(

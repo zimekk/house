@@ -43,6 +43,53 @@ export function Roof(props: ComponentPropsWithoutRef<"mesh">) {
   );
 }
 
+export function Stairs(props: ComponentPropsWithoutRef<"mesh">) {
+  const shape = useMemo(() => {
+    const geometry = new THREE.ExtrudeGeometry(shapes.stairs(), {
+      depth: 1,
+      bevelEnabled: false,
+    });
+    geometry.translate(0, 0, 8 - 0.48 - 1);
+    return geometry;
+  }, []);
+
+  const stairs1 = useMemo(() => {
+    const geometry = new THREE.ExtrudeGeometry(shapes.stairs1(), {
+      depth: 1,
+      bevelEnabled: false,
+    });
+    geometry.rotateY(-Math.PI / 2);
+    // geometry.translate(0, 2.8 + 0.65 + 0.1, 8);
+    return geometry;
+  }, []);
+
+  const stairs2 = useMemo(() => {
+    const geometry = new THREE.ExtrudeGeometry(shapes.stairs2(), {
+      depth: 1,
+      bevelEnabled: false,
+    });
+    geometry.rotateY(-Math.PI / 2);
+    // geometry.translate(0, 2.8 + 0.65 + 0.1, 8);
+    return geometry;
+  }, []);
+
+  return (
+    <mesh {...props}>
+      <Geometry computeVertexNormals>
+        <Base geometry={shape} />
+        <Addition geometry={stairs1} position={[0.48 + 4 + 1, 0, 0]} />
+        <Addition
+          geometry={stairs2}
+          position={[0.48 + 4 + 1 + 1 + 15 * 0.28, 0, 0]}
+        />
+      </Geometry>
+      {/* <Outlines thickness={5} color="hotpink" /> */}
+      <Wireframe />
+      <meshStandardMaterial envMapIntensity={0.25} />
+    </mesh>
+  );
+}
+
 export function Attic(props: ComponentPropsWithoutRef<"mesh">) {
   const offset = 2.8 + 0.65;
   const shape = useMemo(() => {
@@ -548,6 +595,7 @@ export function House(props: object) {
       <Roof position={[-10, 0, -5]} />
       <Attic position={[-10, 0, -5]} />
       <Ground position={[-10, 0, -5]} />
+      <Stairs position={[-10, 0, -5]} />
       <Kitchen position={[-10, 0, -5]} />
     </>
   );
