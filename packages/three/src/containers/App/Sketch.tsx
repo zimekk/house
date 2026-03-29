@@ -325,42 +325,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
         shapes
           .cabinets1()
           .reduce(
-            (result, [w, h = 0.9, d = 0.6]) => {
-              const { space = 0, width = 0 } = result.length
-                ? result[result.length - 1]
-                : {};
-              return result.concat({
-                width: w,
-                height: h,
-                depth: d,
-                space: space + width,
-              });
-            },
-            [] as {
-              width: number;
-              height: number;
-              depth: number;
-              space: number;
-            }[],
-          )
-          .map(
-            ({ width, height, depth, space }): Cabinet => ({
-              geometry: new THREE.BoxGeometry(
-                width - 2 * margin,
-                height - 2 * margin,
-                depth + margin,
-              ),
-              position: [ax + space + width / 2, height / 2, ay + depth / 2],
-            }),
-          ),
-      )
-      .concat(
-        [
-          [0.6, 0],
-          [3.6, 0.04, 0.6, 0.89],
-        ]
-          .reduce(
-            (result, [w, h = 0.9, d = 0.6, o = 0]) => {
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
               const { space = 0, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -396,9 +361,88 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
           ),
       )
       .concat(
+        [
+          [0.6, 0],
+          [6 * 0.6, 0.04, 0.6, 0.89],
+        ]
+          .reduce(
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, depth, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 2 * margin,
+                depth + margin,
+              ),
+              position: [
+                ax + space + width / 2,
+                height / 2 + offset,
+                ay + depth / 2,
+              ],
+            }),
+          ),
+      )
+      .concat(
+        [[8 * 0.6, 0.1, 0.6, 0]]
+          .reduce(
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, depth, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 0 * margin,
+                depth + margin - 0.1,
+              ),
+              position: [
+                ax + space + width / 2,
+                height / 2 + offset,
+                ay + depth / 2,
+              ],
+            }),
+          ),
+      )
+      .concat(
         [[0.8], [0.8], [0.8]]
           .reduce(
-            (result, [w, h = 0.9, d = 0.6, o = 0]) => {
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
               const { space = 0, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -434,9 +478,14 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
           ),
       )
       .concat(
-        [[0.6], [0.6], [0.6, 0.9, 0.3], [0.6, 0.9, 0.3]]
+        [
+          [0.6, 0.9, 0.3, 0],
+          [0.6, 0.9, 0.3, 0],
+          [0.6, 0.9, 0.3, 0],
+          [0.6, 0.9, 0.3, 0],
+        ]
           .reduce(
-            (result, [w, h = 0.9, d = 0.6]) => {
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
               const { space = 0, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -444,6 +493,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
                 width: w,
                 height: h,
                 depth: d,
+                offset: o,
                 space: space + width,
               });
             },
@@ -451,11 +501,12 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
               width: number;
               height: number;
               depth: number;
+              offset: number;
               space: number;
             }[],
           )
           .map(
-            ({ width, height, depth, space }): Cabinet => ({
+            ({ width, height, depth, offset, space }): Cabinet => ({
               geometry: new THREE.BoxGeometry(
                 width - 2 * margin,
                 height - 2 * margin,
@@ -463,14 +514,18 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
               ),
               position: [
                 ax + 1.2 + space + width / 2,
-                height / 2,
+                height / 2 + offset,
                 ay + 2.4 + depth / 2,
               ],
             }),
           ),
       )
       .concat(
-        [[2.4, 0.04, 1.2, 0.89]]
+        [
+          [0.04, 0.9, 1.2, 0],
+          [2.4, 0.04, 1.2, 0.89],
+          [0.04, 0.9, 1.2, 0],
+        ]
           .reduce(
             (result, [w, h = 0.9, d = 0.6, o = 0]) => {
               const { space = 0, width = 0 } = result.length
@@ -498,6 +553,44 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
                 width - 2 * margin,
                 height - 2 * margin,
                 depth + margin,
+              ),
+              position: [
+                ax + 1.2 + space + width / 2 - 0.04,
+                height / 2 + offset,
+                ay + 1.8 + depth / 2,
+              ],
+            }),
+          ),
+      )
+      .concat(
+        [[2.4, 0.1, 0.9, 0]]
+          .reduce(
+            (result, [w, h = 0.9, d = 0.6, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, depth, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 0 * margin,
+                depth + margin - 0.1,
               ),
               position: [
                 ax + 1.2 + space + width / 2,
@@ -511,7 +604,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
         shapes
           .cabinets2()
           .reduce(
-            (result, [w, h = 2.8, d = 0.5]) => {
+            (result, [w, h = 2.7, d = 0.5, o = 0.1]) => {
               const { space = 2, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -519,6 +612,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
                 width: w,
                 height: h,
                 depth: d,
+                offset: o,
                 space: space + width,
               });
             },
@@ -526,17 +620,22 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
               width: number;
               height: number;
               depth: number;
+              offset: number;
               space: number;
             }[],
           )
           .map(
-            ({ width, height, depth, space }): Cabinet => ({
+            ({ width, height, depth, offset, space }): Cabinet => ({
               geometry: new THREE.BoxGeometry(
                 depth + margin,
                 height - 2 * margin,
                 width - 2 * margin,
               ),
-              position: [ax - depth / 2, height / 2, ay + space + width / 2],
+              position: [
+                ax - depth / 2,
+                height / 2 + offset,
+                ay + space + width / 2,
+              ],
             }),
           ),
       )
@@ -544,7 +643,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
         shapes
           .cabinets3()
           .reduce(
-            (result, [w, h = 2.8, d = 0.2]) => {
+            (result, [w, h = 2.7, d = 0.2, o = 0.1]) => {
               const { space = 0, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -552,6 +651,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
                 width: w,
                 height: h,
                 depth: d,
+                offset: o,
                 space: space + width,
               });
             },
@@ -559,17 +659,22 @@ export function Kitchen(props: ComponentPropsWithoutRef<"mesh">) {
               width: number;
               height: number;
               depth: number;
+              offset: number;
               space: number;
             }[],
           )
           .map(
-            ({ width, height, depth, space }): Cabinet => ({
+            ({ width, height, depth, offset, space }): Cabinet => ({
               geometry: new THREE.BoxGeometry(
                 depth + margin,
                 height - 2 * margin,
                 width - 2 * margin,
               ),
-              position: [dx - depth / 2, height / 2, dy - (space + width / 2)],
+              position: [
+                dx - depth / 2,
+                height / 2 + offset,
+                dy - (space + width / 2),
+              ],
             }),
           ),
       );

@@ -21,7 +21,7 @@ export function windows() {
 }
 
 export function cabinets1() {
-  return [[0.6, 2.8], [0.6], [0.6], [0.6], [0.6], [0.6], [0.6], [0.6, 2.8]];
+  return [[0.6, 2.7], [0.6], [0.6], [0.6], [0.6], [0.6], [0.6], [0.6, 2.7]];
 }
 
 export function cabinets2() {

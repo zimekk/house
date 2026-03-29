@@ -172,7 +172,7 @@ export function kitchen() {
         shapes
           .cabinets1()
           .reduce(
-            (result, [w, h = 0.9, d = 0.6]) => {
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
               const { space = 0, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -180,6 +180,7 @@ export function kitchen() {
                 width: w,
                 height: h,
                 depth: d,
+                offset: o,
                 space: space + width,
               });
             },
@@ -187,15 +188,81 @@ export function kitchen() {
               width: number;
               height: number;
               depth: number;
+              offset: number;
               space: number;
             }[],
           )
-          .map(({ width, height, depth, space }): Point4 => {
+          .map(({ width, height, offset, space }): Point4 => {
             const [a, b, c, d] = flatten(kuchnia);
             const [ax, ay] = a;
             const x = ax + space;
 
-            return rect([x, h], [x + width, h - height]);
+            return rect([x, h - offset], [x + width, h - height - offset]);
+          }),
+      )
+      .concat(
+        [
+          [0.6, 0, 0, 0],
+          [6 * 0.6, 0.02, 0, 0.9],
+        ]
+          .reduce(
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(({ width, height, offset, space }): Point4 => {
+            const [a, b, c, d] = flatten(kuchnia);
+            const [ax, ay] = a;
+            const x = ax + space;
+
+            return rect([x, h - offset], [x + width, h - height - offset]);
+          }),
+      )
+      .concat(
+        [[8 * 0.6, 0.1, 0, 0]]
+          .reduce(
+            (result, [w, h = 0.8, d = 0.6, o = 0.1]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(({ width, height, offset, space }): Point4 => {
+            const [a, b, c, d] = flatten(kuchnia);
+            const [ax, ay] = a;
+            const x = ax + space;
+
+            return rect([x, h - offset], [x + width, h - height]);
           }),
       ),
   );
@@ -270,16 +337,14 @@ export function kitchen2() {
     );
   }
 
-  console.log({ bryla, swap: swap(bryla), flatten: flatten(bryla) });
-
   return createShapeWithHoles(
     flatten(bryla),
     [flatten(kuchnia)]
       .concat(
-        [[0.6], [1.2, 0]]
+        [[0.6], [1.2, 0, 0, 0]]
           .concat(shapes.cabinets2())
           .reduce(
-            (result, [w, h = 2.8, d = 0.5]) => {
+            (result, [w, h = 2.7, d = 0.5, o = 0.1]) => {
               const { space = 0, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -287,6 +352,7 @@ export function kitchen2() {
                 width: w,
                 height: h,
                 depth: d,
+                offset: o,
                 space: space + width,
               });
             },
@@ -294,23 +360,60 @@ export function kitchen2() {
               width: number;
               height: number;
               depth: number;
+              offset: number;
               space: number;
             }[],
           )
-          .map(({ width, height, depth, space }): Point4 => {
+          .map(({ width, height, offset, space }): Point4 => {
             const [a, b, c, d] = flatten(kuchnia);
             const [ax, ay] = a;
             const [bx, by] = b;
             const x = bx - space;
 
-            return rect([x - width, h], [x, h - height]);
+            return rect([x - width, h - offset], [x, h - height - offset]);
+          }),
+      )
+      .concat(
+        [
+          [0.6, 0.1, 0, 0],
+          [1.2, 0, 0, 0],
+          [4 * 0.6, 0.1, 0, 0],
+        ]
+          .reduce(
+            (result, [w, h = 2.8, d = 0.5, o = 0.1]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(({ width, height, offset, space }): Point4 => {
+            const [a, b, c, d] = flatten(kuchnia);
+            const [ax, ay] = a;
+            const [bx, by] = b;
+            const x = bx - space;
+
+            return rect([x - width, h - offset], [x, h - height]);
           }),
       )
       .concat(
         shapes
           .cabinets3()
           .reduce(
-            (result, [w, h = 2.8, d = 0.2]) => {
+            (result, [w, h = 2.7, d = 0.2, o = 0.1]) => {
               const { space = 0, width = 0 } = result.length
                 ? result[result.length - 1]
                 : {};
@@ -318,6 +421,7 @@ export function kitchen2() {
                 width: w,
                 height: h,
                 depth: d,
+                offset: o,
                 space: space + width,
               });
             },
@@ -325,15 +429,47 @@ export function kitchen2() {
               width: number;
               height: number;
               depth: number;
+              offset: number;
               space: number;
             }[],
           )
-          .map(({ width, height, depth, space }): Point4 => {
+          .map(({ width, height, offset, space }): Point4 => {
             const [a, b, c, d] = flatten(kuchnia);
             const [ax, ay] = a;
             const x = ax + space;
 
-            return rect([x, h], [x + width, h - height]);
+            return rect([x, h - offset], [x + width, h - height - offset]);
+          }),
+      )
+      .concat(
+        [[2 * 0.6, 0.1, 0, 0]]
+          .reduce(
+            (result, [w, h = 2.7, d = 0.5, o = 0.1]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                depth: d,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              depth: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(({ width, height, offset, space }): Point4 => {
+            const [a, b, c, d] = flatten(kuchnia);
+            const [ax, ay] = a;
+            const x = ax + space;
+
+            return rect([x, h - offset], [x + width, h - height]);
           }),
       ),
   );
@@ -344,8 +480,8 @@ let y = 0;
 export default () => (
   <G transform="scale(25) translate(5,1)">
     <G transform={`translate(0,${((y, _) => y)(y, (y += 5))})`}>
-      <Path fill="#f2cc99" stroke={color} strokeWidth={0.01} d={kitchen()} />
       <Path fill="#99ddf2" stroke={color} strokeWidth={0.01} d={windows()} />
+      <Path fill="#f2cc99" stroke={color} strokeWidth={0.01} d={kitchen()} />
       <Text style={styles.text} x={-0.5} y={-0.5} textAnchor="start">
         kitchen
       </Text>
