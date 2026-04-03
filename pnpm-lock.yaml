@@ -313,7 +313,7 @@ importers:
         version: 2.4.0(vite@8.0.3(@types/node@25.0.9)(esbuild@0.27.2)(jiti@2.6.1)(sass@1.99.0)(terser@5.46.1)(yaml@2.8.2))
       '@types/chrome':
         specifier: ^0.1.12
-        version: 0.1.38
+        version: 0.1.39
       '@types/react':
         specifier: ^19.2.14
         version: 19.2.14
@@ -2264,8 +2264,8 @@ packages:
   '@types/chai@5.2.3':
     resolution: {integrity: sha512-Mw558oeA9fFbv65/y4mHtXDs9bPnFMZAL/jxdPFUpOHHIXX91mcgEHbS5Lahr+pwZFR8A7GQleRWeI6cGFC2UA==}
 
-  '@types/chrome@0.1.38':
-    resolution: {integrity: sha512-5aK4m9wZqoWAoB98aElESLm/5pXpqJnFWMNoiCs/XdPsXR6wNdVkJFSdQ9Wr4PnTuUrxD0SuNuDHh3EG5QeBzA==}
+  '@types/chrome@0.1.39':
+    resolution: {integrity: sha512-AttzlXiLx2TSqmuJy8baP7YrOb8yyIM6V02dePrK/n1wRlhnu7Obd7GqUUVhje0hhkU7BaJuQmoFXRd5hWqdjQ==}
 
   '@types/deep-eql@4.0.2':
     resolution: {integrity: sha512-c9h9dVVMigMPc4bwTvC5dxqtqJZwQPePsWjPlpSOnojbor6pGqdk541lfA7AqFQr5pB1BRdq0juY9db81BwyFw==}
@@ -6316,7 +6316,7 @@ snapshots:
       '@types/deep-eql': 4.0.2
       assertion-error: 2.0.1
 
-  '@types/chrome@0.1.38':
+  '@types/chrome@0.1.39':
     dependencies:
       '@types/filesystem': 0.0.36
       '@types/har-format': 1.2.16
