@@ -85,10 +85,22 @@ export default function App() {
       location: [52.1940719, 21.0443418],
     },
     {
+      name: "CENTER-MEBEL",
+      website: "https://center-mebel.pl/kontakt/",
+      address: "Mazowiecka 12/36, 00-048 Warszawa",
+      location: [52.2378176, 21.0082636],
+    },
+    {
       name: "Domio Home Interiors Warsaw",
       website: "https://www.domiohome.com/",
       address: "Mokotowska 57, 00-542 Warszawa",
       location: [52.2253928, 21.0188631],
+    },
+    {
+      name: "Elkamino Dom",
+      website: "https://elkaminodom.pl/kontakt",
+      address: "Średnia 33, 05-822 Milanówek",
+      location: [52.1055434, 20.6892325],
     },
     {
       name: "Flora Point - Świat Roślin",
