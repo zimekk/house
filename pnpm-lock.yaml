@@ -167,7 +167,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -198,7 +198,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -232,7 +232,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -278,7 +278,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -343,7 +343,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -386,7 +386,7 @@ importers:
         version: 11.0.1
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -423,7 +423,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       zod:
         specifier: ^4.1.12
         version: 4.3.6
@@ -472,7 +472,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -515,7 +515,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       zod:
         specifier: ^4.1.12
         version: 4.3.6
@@ -549,7 +549,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -592,7 +592,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -653,7 +653,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -684,7 +684,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -712,7 +712,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -764,7 +764,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -804,7 +804,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -841,7 +841,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -915,7 +915,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       youtube-player:
         specifier: ^5.6.0
         version: 5.6.0
@@ -955,7 +955,7 @@ importers:
         version: 19.2.5(react@19.2.5)
       styled-components:
         specifier: ^6.3.9
-        version: 6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
+        version: 6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)
       three:
         specifier: ^0.183.0
         version: 0.183.2
@@ -2373,9 +2373,6 @@ packages:
 
   '@types/styled-components@5.1.36':
     resolution: {integrity: sha512-pGMRNY5G2rNDKEv2DOiFYa7Ft1r0jrhmgBwHhOMzPTgCjO76bCot0/4uEfqj7K0Jf1KdQmDtAuaDk9EAs9foSw==}
-
-  '@types/stylis@4.2.7':
-    resolution: {integrity: sha512-VgDNokpBoKF+wrdvhAAfS55OMQpL6QRglwTwNC3kIgBrzZxA4WsFj+2eLfEA/uMUDzBcEhYmjSbwQakn/i3ajA==}
 
   '@types/three@0.183.1':
     resolution: {integrity: sha512-f2Pu5Hrepfgavttdye3PsH5RWyY/AvdZQwIVhrc4uNtvF7nOWJacQKcoVJn0S4f0yYbmAE6AR+ve7xDcuYtMGw==}
@@ -4279,10 +4276,6 @@ packages:
     resolution: {integrity: sha512-PS08Iboia9mts/2ygV3eLpY5ghnUcfLV/EXTOW1E2qYxJKGGBUtNjN76FYHnMs36RmARn41bC0AZmn+rR0OVpQ==}
     engines: {node: ^10 || ^12 || >=14}
 
-  postcss@8.4.49:
-    resolution: {integrity: sha512-OCVPnIObs4N29kxTjzLfUryOkvZEq+pf8jTF0lg8E7uETuWHA+v7j3c/xJmiqpX450191LlmZfUKkXxkTry7nA==}
-    engines: {node: ^10 || ^12 || >=14}
-
   postcss@8.5.9:
     resolution: {integrity: sha512-7a70Nsot+EMX9fFU3064K/kdHWZqGVY+BADLyXc8Dfv+mTLLVl6JzJpPaCZ2kQL9gIJvKXSLMHhqdRRjwQeFtw==}
     engines: {node: ^10 || ^12 || >=14}
@@ -4534,9 +4527,6 @@ packages:
   setimmediate@1.0.5:
     resolution: {integrity: sha512-MATJdZp8sLqDl/68LfQmbP8zKPLQNV6BIZoIgrscFDQ+RsvK/BxeDQOgyxKKoh0y/8h3BqVFnCqQ/gd+reiIXA==}
 
-  shallowequal@1.1.0:
-    resolution: {integrity: sha512-y0m1JoUZSlPAjXVtPPW70aZWfIL/dSP7AFkRnniLCrK/8MDKog3TySTBmckD+RObVxH0v4Tox67+F14PdED2oQ==}
-
   sharp@0.34.5:
     resolution: {integrity: sha512-Ou9I5Ft9WNcCbXrU9cMgPBcCK8LiwLqcbywW3t4oDV37n1pzpuNLsYiAV8eODnjbtQlSDwZ2cUEeQz4E54Hltg==}
     engines: {node: ^18.17.0 || ^20.3.0 || >=21.0.0}
@@ -4684,14 +4674,20 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  styled-components@6.3.12:
-    resolution: {integrity: sha512-hFR6xsVkVYbsdcUlzPYFvFfoc6o2KlV0VvgRIQwSYMtdThM7SCxnjX9efh/cWce2kTq16I/Kl3xM98xiLptsXA==}
+  styled-components@6.4.0:
+    resolution: {integrity: sha512-BL1EDFpt+q10eAeZB0q9ps6pSlPejaBQWBkiuM16pyoVTG4NhZrPrZK0cqNbrozxSsYwUsJ9SQYN6NyeKJYX9A==}
     engines: {node: '>= 16'}
     peerDependencies:
+      css-to-react-native: '>= 3.2.0'
       react: '>= 16.8.0'
       react-dom: '>= 16.8.0'
+      react-native: '>= 0.68.0'
     peerDependenciesMeta:
+      css-to-react-native:
+        optional: true
       react-dom:
+        optional: true
+      react-native:
         optional: true
 
   styled-jsx@5.1.6:
@@ -6467,8 +6463,6 @@ snapshots:
       '@types/react': 19.2.14
       csstype: 3.2.3
 
-  '@types/stylis@4.2.7': {}
-
   '@types/three@0.183.1':
     dependencies:
       '@dimforge/rapier3d-compat': 0.12.0
@@ -7018,7 +7012,8 @@ snapshots:
 
   callsites@3.1.0: {}
 
-  camelize@1.0.1: {}
+  camelize@1.0.1:
+    optional: true
 
   camera-controls@3.1.1(three@0.183.2):
     dependencies:
@@ -7147,7 +7142,8 @@ snapshots:
       shebang-command: 2.0.0
       which: 2.0.2
 
-  css-color-keywords@1.0.0: {}
+  css-color-keywords@1.0.0:
+    optional: true
 
   css-select@5.2.2:
     dependencies:
@@ -7162,6 +7158,7 @@ snapshots:
       camelize: 1.0.1
       css-color-keywords: 1.0.0
       postcss-value-parser: 4.2.0
+    optional: true
 
   css-what@6.2.2: {}
 
@@ -7430,7 +7427,7 @@ snapshots:
       eslint: 10.2.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1))
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint-import-resolver-typescript@3.10.1)(eslint@10.2.0(jiti@2.6.1))
       eslint-plugin-jsx-a11y: 6.10.2(eslint@10.2.0(jiti@2.6.1))
       eslint-plugin-react: 7.37.5(eslint@10.2.0(jiti@2.6.1))
       eslint-plugin-react-hooks: 7.0.1(eslint@10.2.0(jiti@2.6.1))
@@ -7463,7 +7460,7 @@ snapshots:
       tinyglobby: 0.2.15
       unrs-resolver: 1.11.1
     optionalDependencies:
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1))
+      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint-import-resolver-typescript@3.10.1)(eslint@10.2.0(jiti@2.6.1))
     transitivePeerDependencies:
       - supports-color
 
@@ -7478,7 +7475,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint-import-resolver-typescript@3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1)):
+  eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint-import-resolver-typescript@3.10.1)(eslint@10.2.0(jiti@2.6.1)):
     dependencies:
       '@rtsao/scc': 1.1.0
       array-includes: 3.1.9
@@ -8528,12 +8525,6 @@ snapshots:
       picocolors: 1.1.1
       source-map-js: 1.2.1
 
-  postcss@8.4.49:
-    dependencies:
-      nanoid: 3.3.11
-      picocolors: 1.1.1
-      source-map-js: 1.2.1
-
   postcss@8.5.9:
     dependencies:
       nanoid: 3.3.11
@@ -8814,8 +8805,6 @@ snapshots:
 
   setimmediate@1.0.5: {}
 
-  shallowequal@1.1.0: {}
-
   sharp@0.34.5:
     dependencies:
       '@img/colour': 1.1.0
@@ -9020,19 +9009,14 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  styled-components@6.3.12(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
+  styled-components@6.4.0(css-to-react-native@3.2.0)(react-dom@19.2.5(react@19.2.5))(react@19.2.5):
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
-      '@emotion/unitless': 0.10.0
-      '@types/stylis': 4.2.7
-      css-to-react-native: 3.2.0
       csstype: 3.2.3
-      postcss: 8.4.49
       react: 19.2.5
-      shallowequal: 1.1.0
       stylis: 4.3.6
-      tslib: 2.8.1
     optionalDependencies:
+      css-to-react-native: 3.2.0
       react-dom: 19.2.5(react@19.2.5)
 
   styled-jsx@5.1.6(@babel/core@7.29.0)(react@19.2.4):
