@@ -134,7 +134,7 @@ importers:
         version: 10.2.0(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.2.1-canary.31(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
+        version: 16.2.1-canary.32(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
       postcss:
         specifier: ^8.5.8
         version: 8.5.9
@@ -254,7 +254,7 @@ importers:
         version: link:../model
       '@react-pdf/renderer':
         specifier: ^4.3.0
-        version: 4.4.0(react@19.2.5)
+        version: 4.4.1(react@19.2.5)
       '@react-three/drei':
         specifier: ^10.7.6
         version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2)
@@ -448,7 +448,7 @@ importers:
         version: link:../model
       '@react-pdf/renderer':
         specifier: ^4.3.0
-        version: 4.4.0(react@19.2.5)
+        version: 4.4.1(react@19.2.5)
       '@react-three/drei':
         specifier: ^10.7.6
         version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2)
@@ -568,7 +568,7 @@ importers:
     dependencies:
       '@react-pdf/renderer':
         specifier: ^4.3.0
-        version: 4.4.0(react@19.2.5)
+        version: 4.4.1(react@19.2.5)
       '@react-three/drei':
         specifier: ^10.7.6
         version: 10.7.7(@react-three/fiber@9.5.0(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2))(@types/react@19.2.14)(@types/three@0.183.1)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2)
@@ -1701,8 +1701,8 @@ packages:
   '@next/env@16.2.3':
     resolution: {integrity: sha512-ZWXyj4uNu4GCWQw9cjRxWlbD+33mcDszIo9iQxFnBX3Wmgq9ulaSJcl6VhuWx5pCWqqD+9W6Wfz7N0lM5lYPMA==}
 
-  '@next/eslint-plugin-next@16.2.1-canary.31':
-    resolution: {integrity: sha512-ux7cJqWQSO5+Wx5SRxku/At/Cl4YhXLTzY5QI+QAB19Xp4Fk1xSsQSYda9LwG/UX6uiKVpzQksmxCQRYpXjutw==}
+  '@next/eslint-plugin-next@16.2.1-canary.32':
+    resolution: {integrity: sha512-UsD9ivAKX3HUCZVC27tOu4uZQ34rZ8RYaS55AA+MRK3ujGyAO2HdDHHYMixf3s+7oc6R2FvBdqAYBxwNASCWAA==}
 
   '@next/swc-darwin-arm64@16.2.0':
     resolution: {integrity: sha512-/JZsqKzKt01IFoiLLAzlNqys7qk2F3JkcUhj50zuRhKDQkZNOz9E5N6wAQWprXdsvjRP4lTFj+/+36NSv5AwhQ==}
@@ -1938,8 +1938,8 @@ packages:
   '@react-pdf/image@3.0.4':
     resolution: {integrity: sha512-z0ogVQE0bKqgXQ5smgzIU857rLV7bMgVdrYsu3UfXDDLSzI7QPvzf6MFTFllX6Dx2rcsF13E01dqKPtJEM799g==}
 
-  '@react-pdf/layout@4.5.0':
-    resolution: {integrity: sha512-XlGLzcZFdEYQHK6b9z9uPOVywbjv6pQ92D4RvqRmYNjpf7lQLnhdHr63tbiF7fB5k8Lg9/lGBXkHbzkeQW5geQ==}
+  '@react-pdf/layout@4.5.1':
+    resolution: {integrity: sha512-1V8ssgg9FHVsmvuCKmp7TWoUiPGgxAR2cgyvdcao8UQm7emWB7rP1o4CieHH56kgZyXXbwWqQAmmtgvcju+xfA==}
 
   '@react-pdf/pdfkit@5.0.0':
     resolution: {integrity: sha512-FcQBWGtfhMGuOB0G3NcnF/cBq/JnFVs22i1tuafiT1XlmG6KjCxgTGng5bVh+b9RtTuwNpUGmCtB6CmG6B4ZVA==}
@@ -1955,19 +1955,19 @@ packages:
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
-  '@react-pdf/render@4.4.0':
-    resolution: {integrity: sha512-+gGa9ymGosN6Ld3hFFSIVCV03Vva5S+asW7vmKetZY4LnhX5ea2gYNy6wL3e9VsLHqFDAefIXGtGDLH6XxQHag==}
+  '@react-pdf/render@4.4.1':
+    resolution: {integrity: sha512-TBaEw6F+IBI4oVHUF7LL2OJX87unRrk6r7mkEmgjehN9BV5LF53I8CzVtdAchuO1+YhvE4MoMzkNelA+X2luRA==}
 
-  '@react-pdf/renderer@4.4.0':
-    resolution: {integrity: sha512-TtCcz1vyYD6fddhvBagwr9Aj3gRFLCqvduERQyNhTzHJi3zAKayHvJFr2PxcP4sRyIDRhibDW6ApqNhTqIVPoQ==}
+  '@react-pdf/renderer@4.4.1':
+    resolution: {integrity: sha512-mK7xyCdDUagO1kg8jraad3aUzdVAGBru08qyjjp8FMhGsh4BcuPGa0SycQ8Pv8EDEdyEOfmiE+XI1sBybSLwaQ==}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   '@react-pdf/stylesheet@6.1.4':
     resolution: {integrity: sha512-jiwovO7lUwgccAh3JbVcXnh90AiSKZetdz2ETcWsKApPPLzLUzPkEs6wCVvZqh3lcGOAPFV3AfdMkFnLwv1ryg==}
 
-  '@react-pdf/textkit@6.1.1':
-    resolution: {integrity: sha512-HAHoa407q0UHLzwe/oL6VwgJj2cGKs5vORSVY+cRG/GC0kt7nxUV9N+2hA6VcqJA37gSRg7BTLsVr8Tt+4l5ow==}
+  '@react-pdf/textkit@6.2.0':
+    resolution: {integrity: sha512-0B22Kue/ALHiEcYNbrx2BdkpHPTq2j3u2xmAyCnf3XJbTyANjljJjtWRohkVLQKqOlieD88BvmQt7OeWLj+ZYg==}
 
   '@react-pdf/types@2.10.0':
     resolution: {integrity: sha512-iz0NusqQ/9ZHQirWhJqOaxY1UkpvuNkEDtH4/SPCnhZJKBO/IhlFLFHuzbHkmWByBoX6X3m8GCc2b/1QH6QNlA==}
@@ -3206,8 +3206,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.2.1-canary.31:
-    resolution: {integrity: sha512-c46kSZRiWE4p/mu5afiOCaQufbyKtQeCl+JwmvBChfzHHymSP4ti5GQh7ptZPBPXe/Dmnkt5L+7sJD85xQrcyw==}
+  eslint-config-next@16.2.1-canary.32:
+    resolution: {integrity: sha512-SSc+4HfVK8Z6FWmX3ZgDth6uMtJ8RYKMgDRE09ycTE4PI/ncsKGFPUq0ySwsb7QBnrLqRrBbkUeY66ZlvbzE6w==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -5870,7 +5870,7 @@ snapshots:
 
   '@next/env@16.2.3': {}
 
-  '@next/eslint-plugin-next@16.2.1-canary.31':
+  '@next/eslint-plugin-next@16.2.1-canary.32':
     dependencies:
       fast-glob: 3.3.1
 
@@ -6021,13 +6021,13 @@ snapshots:
       '@react-pdf/png-js': 3.0.0
       jay-peg: 1.1.1
 
-  '@react-pdf/layout@4.5.0':
+  '@react-pdf/layout@4.5.1':
     dependencies:
       '@react-pdf/fns': 3.1.3
       '@react-pdf/image': 3.0.4
       '@react-pdf/primitives': 4.2.0
       '@react-pdf/stylesheet': 6.1.4
-      '@react-pdf/textkit': 6.1.1
+      '@react-pdf/textkit': 6.2.0
       '@react-pdf/types': 2.10.0
       emoji-regex-xs: 1.0.0
       queue: 6.0.2
@@ -6058,12 +6058,12 @@ snapshots:
       react: 19.2.5
       scheduler: 0.25.0-rc-603e6108-20241029
 
-  '@react-pdf/render@4.4.0':
+  '@react-pdf/render@4.4.1':
     dependencies:
       '@babel/runtime': 7.29.2
       '@react-pdf/fns': 3.1.3
       '@react-pdf/primitives': 4.2.0
-      '@react-pdf/textkit': 6.1.1
+      '@react-pdf/textkit': 6.2.0
       '@react-pdf/types': 2.10.0
       abs-svg-path: 0.1.1
       color-string: 1.9.1
@@ -6071,16 +6071,16 @@ snapshots:
       parse-svg-path: 0.1.2
       svg-arc-to-cubic-bezier: 3.2.0
 
-  '@react-pdf/renderer@4.4.0(react@19.2.5)':
+  '@react-pdf/renderer@4.4.1(react@19.2.5)':
     dependencies:
       '@babel/runtime': 7.29.2
       '@react-pdf/fns': 3.1.3
       '@react-pdf/font': 4.0.6
-      '@react-pdf/layout': 4.5.0
+      '@react-pdf/layout': 4.5.1
       '@react-pdf/pdfkit': 5.0.0
       '@react-pdf/primitives': 4.2.0
       '@react-pdf/reconciler': 2.0.0(react@19.2.5)
-      '@react-pdf/render': 4.4.0
+      '@react-pdf/render': 4.4.1
       '@react-pdf/types': 2.10.0
       events: 3.3.0
       object-assign: 4.1.1
@@ -6097,7 +6097,7 @@ snapshots:
       media-engine: 1.0.3
       postcss-value-parser: 4.2.0
 
-  '@react-pdf/textkit@6.1.1':
+  '@react-pdf/textkit@6.2.0':
     dependencies:
       '@react-pdf/fns': 3.1.3
       bidi-js: 1.0.3
@@ -7400,9 +7400,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.2.1-canary.31(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2):
+  eslint-config-next@16.2.1-canary.32(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2):
     dependencies:
-      '@next/eslint-plugin-next': 16.2.1-canary.31
+      '@next/eslint-plugin-next': 16.2.1-canary.32
       eslint: 10.2.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1))
