@@ -134,7 +134,7 @@ importers:
         version: 10.2.0(jiti@2.6.1)
       eslint-config-next:
         specifier: canary
-        version: 16.2.1-canary.36(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
+        version: 16.2.1-canary.43(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2)
       postcss:
         specifier: ^8.5.8
         version: 8.5.9
@@ -263,7 +263,7 @@ importers:
         version: 9.6.0(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2)
       nanoid:
         specifier: ^5.0.3
-        version: 5.1.7
+        version: 5.1.9
       next:
         specifier: ~16.2.0
         version: 16.2.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.98.0)
@@ -457,7 +457,7 @@ importers:
         version: 9.6.0(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2)
       nanoid:
         specifier: ^5.0.3
-        version: 5.1.7
+        version: 5.1.9
       next:
         specifier: ~16.2.0
         version: 16.2.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.98.0)
@@ -577,7 +577,7 @@ importers:
         version: 9.6.0(@types/react@19.2.14)(react-dom@19.2.5(react@19.2.5))(react@19.2.5)(three@0.183.2)
       nanoid:
         specifier: ^5.0.3
-        version: 5.1.7
+        version: 5.1.9
       next:
         specifier: ~16.2.0
         version: 16.2.0(react-dom@19.2.4(react@19.2.4))(react@19.2.4)(sass@1.98.0)
@@ -1701,8 +1701,8 @@ packages:
   '@next/env@16.2.3':
     resolution: {integrity: sha512-ZWXyj4uNu4GCWQw9cjRxWlbD+33mcDszIo9iQxFnBX3Wmgq9ulaSJcl6VhuWx5pCWqqD+9W6Wfz7N0lM5lYPMA==}
 
-  '@next/eslint-plugin-next@16.2.1-canary.36':
-    resolution: {integrity: sha512-fqmgnU+uwnZZ6+6JspkIP5dKep5SAHy1jSt9FX0uoK8RDFsa+FvP1ymohH96hwy9bxTdpr5xr1KrAcnBQloyRQ==}
+  '@next/eslint-plugin-next@16.2.1-canary.43':
+    resolution: {integrity: sha512-zmpqZt8Y6r7qxckwZmlUlE9uMrdkIZDjNbGagFgvNPzrOTzPdsMw7UIKPrk+v6XbyaoHoKtyXm68ew7RCGVr/g==}
 
   '@next/swc-darwin-arm64@16.2.0':
     resolution: {integrity: sha512-/JZsqKzKt01IFoiLLAzlNqys7qk2F3JkcUhj50zuRhKDQkZNOz9E5N6wAQWprXdsvjRP4lTFj+/+36NSv5AwhQ==}
@@ -3203,8 +3203,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.2.1-canary.36:
-    resolution: {integrity: sha512-+asqTJ7f6xXwk9sqIXI93fncIOYxn6b6raGFEOA6Gj8+jG2Q6pAKR9/UHPrEXml2pU3yacPjkr5TOwjIR2wP3w==}
+  eslint-config-next@16.2.1-canary.43:
+    resolution: {integrity: sha512-aWpSDo9XK3ypICbVnzpZZN1pelGJ8YM7XaYTdMcYdn52uKRcl1m823Chn3YOuRG6YRghJwKVR5TO+b7TjChc6A==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -4040,8 +4040,8 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  nanoid@5.1.7:
-    resolution: {integrity: sha512-ua3NDgISf6jdwezAheMOk4mbE1LXjm1DfMUDMuJf4AqxLFK3ccGpgWizwa5YV7Yz9EpXwEaWoRXSb/BnV0t5dQ==}
+  nanoid@5.1.9:
+    resolution: {integrity: sha512-ZUvP7KeBLe3OZ1ypw6dI/TzYJuvHP77IM4Ry73waSQTLn8/g8rpdjfyVAh7t1/+FjBtG4lCP42MEbDxOsRpBMw==}
     engines: {node: ^18 || >=20}
     hasBin: true
 
@@ -5885,7 +5885,7 @@ snapshots:
 
   '@next/env@16.2.3': {}
 
-  '@next/eslint-plugin-next@16.2.1-canary.36':
+  '@next/eslint-plugin-next@16.2.1-canary.43':
     dependencies:
       fast-glob: 3.3.1
 
@@ -7413,9 +7413,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.2.1-canary.36(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2):
+  eslint-config-next@16.2.1-canary.43(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2):
     dependencies:
-      '@next/eslint-plugin-next': 16.2.1-canary.36
+      '@next/eslint-plugin-next': 16.2.1-canary.43
       eslint: 10.2.0(jiti@2.6.1)
       eslint-import-resolver-node: 0.3.9
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0(@typescript-eslint/parser@8.54.0(eslint@10.2.0(jiti@2.6.1))(typescript@6.0.2))(eslint@10.2.0(jiti@2.6.1)))(eslint@10.2.0(jiti@2.6.1))
@@ -8289,7 +8289,7 @@ snapshots:
 
   nanoid@3.3.11: {}
 
-  nanoid@5.1.7: {}
+  nanoid@5.1.9: {}
 
   napi-postinstall@0.3.4: {}
 
