@@ -109,6 +109,12 @@ export default function App() {
       location: [52.2122229, 21.1575947],
     },
     {
+      name: "GRODNO S.A. Hurtownia Elektryczna Warszawa Ursynów",
+      website: "https://www.grodno.pl/punkty-sprzedazy",
+      address: "Puławska 294, 02-819 Warszawa",
+      location: [52.1735863, 20.9904477],
+    },
+    {
       name: "Internity Home - Wyposażenie Wnętrz",
       website: "https://internityhome.pl/",
       address: "Duchnicka 3, 01-797 Warszawa",
