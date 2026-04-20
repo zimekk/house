@@ -9,7 +9,13 @@ import {
 } from "@react-three/drei";
 
 export const Environment = memo(
-  ({ direction = [5, 5, 5] }: { direction?: [number, number, number] }) => (
+  ({
+    direction = [5, 5, 5],
+    preset = false,
+  }: {
+    direction?: [number, number, number];
+    preset?: boolean;
+  }) => (
     <>
       <color attach="background" args={["skyblue"]} />
       <directionalLight
@@ -57,11 +63,18 @@ export const Environment = memo(
           bias={0.001}
         />
       </AccumulativeShadows> */}
-      <EnvironmentImpl preset="city" />
+      {preset ? (
+        <EnvironmentImpl preset="city" />
+      ) : (
+        <EnvironmentImpl
+          files="https://dl.polyhaven.org/file/ph-assets/HDRIs/hdr/2k/evening_road_01_2k.hdr"
+          ground={{ height: 50, radius: 500, scale: 200 }}
+        />
+      )}
       <GizmoHelper>
         <GizmoViewport
-          axisColors={["red", "green", "blue"]}
-          labelColor="black"
+        // axisColors={["red", "green", "blue"]}
+        // labelColor="black"
         />
         {/* alternative: <GizmoViewcube /> */}
       </GizmoHelper>
