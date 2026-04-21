@@ -1257,6 +1257,57 @@ export function Table(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+export function Stairs(props: ComponentPropsWithoutRef<"group">) {
+  const w = 1,
+    d = 0.28,
+    h = 0.1725;
+  const a = 1,
+    b = 15 + 1,
+    c = a + 2;
+  let x = 0,
+    y = 0,
+    z = 0;
+  return (
+    <group {...props}>
+      <mesh position={[a * d + 1 * w, h / 2, -b * d - 1 * w]}>
+        <Geometry computeVertexNormals>
+          <Base geometry={new THREE.BoxGeometry(d, h, d)} />
+          {Array.from(Array(a)).map((_, i) => (
+            <Addition
+              key={++x}
+              geometry={new THREE.BoxGeometry(i ? d : d, h, w)}
+              position={[(w - d) / 2 - +x * d, x * h, 0]}
+            />
+          ))}
+          {Array.from(Array(b)).map((_, i) => (
+            <Addition
+              key={++y}
+              geometry={new THREE.BoxGeometry(w, h, i ? d : w)}
+              position={[
+                (1 - x) * d - d,
+                (x + y) * h,
+                (i ? (w - d) / 2 : 0) + y * d,
+              ]}
+            />
+          ))}
+          {Array.from(Array(c)).map((_, i) => (
+            <Addition
+              key={++z}
+              geometry={new THREE.BoxGeometry(i ? d : w, h, w)}
+              position={[
+                (z - x) * d + (i ? (w - d) / 2 : 0),
+                (x + y + z) * h,
+                (Math.max(y, 1) - 1) * d + w,
+              ]}
+            />
+          ))}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
 export function Coffee(props: ComponentPropsWithoutRef<"mesh">) {
   const w = 1.22,
     d = 0.02,
@@ -1371,6 +1422,7 @@ export default function House(props: object) {
         />
       ))}
       <Table position={[2.2, 0, 4.2]} rotation={[0, Math.PI / 2, 0]} />
+      <Stairs position={[0.1, 0, 6]} rotation={[0, Math.PI / 2, 0]} />
       <Shelf
         position={[-0.67, 2.8 / 2, 5.5 - 1.22 / 2]}
         rotation={[0, Math.PI / 2, 0]}
