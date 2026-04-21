@@ -1257,6 +1257,35 @@ export function Table(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+export function Sofa(props: ComponentPropsWithoutRef<"group">) {
+  return (
+    <group {...props}>
+      <mesh position={[0, 0.48 / 2 + 0.06, 0]}>
+        <Geometry computeVertexNormals>
+          <Base geometry={new THREE.BoxGeometry(0.98, 0.48, 2.52 - 0.81)} />
+          <Addition
+            geometry={new THREE.BoxGeometry(1.64, 0.48, 0.81)}
+            position={[(1.64 - 0.98) / 2, 0, +2.52 / 2]}
+          />
+          <Addition
+            geometry={new THREE.BoxGeometry(0.98, 0.68, 0.15)}
+            position={[0, (0.68 - 0.48) / 2, -(2.52 - 0.81 + 0.15) / 2]}
+          />
+          <Addition
+            geometry={new THREE.BoxGeometry(0.98, 0.68, 0.15)}
+            position={[0, (0.68 - 0.48) / 2, (2.52 - 0.81 + 0.15) / 2 + 0.81]}
+          />
+          <Addition
+            geometry={new THREE.BoxGeometry(0.2, 0.83, 2.52)}
+            position={[(0.1 - 0.98) / 2, (0.83 - 0.48) / 2, 0.81 / 2]}
+          />
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
 export function Stairs(props: ComponentPropsWithoutRef<"group">) {
   const w = 1,
     d = 0.28,
@@ -1421,6 +1450,7 @@ export default function House(props: object) {
           rotation={[0, -Math.PI / 2, 0]}
         />
       ))}
+      <Sofa position={[6, 0, 3.5]} rotation={[0, Math.PI / 2, 0]} />
       <Table position={[2.2, 0, 4.2]} rotation={[0, Math.PI / 2, 0]} />
       <Stairs position={[0.1, 0, 6]} rotation={[0, Math.PI / 2, 0]} />
       <Shelf
