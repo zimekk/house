@@ -105,7 +105,7 @@ export function rooms() {
   const spizarnia = ((r1) => {
     const [a, b, c, d] = inner(r1, -0.16 / 2);
     const b2 = a;
-    const d2 = shift(a, [-4, 3]);
+    const d2 = shift(a, [-2.5, 1.8]);
     const a2 = cross(d2, b2),
       c2 = cross(b2, d2);
     return rect(a2, c2);
