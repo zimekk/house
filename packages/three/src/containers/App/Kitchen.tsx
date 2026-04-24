@@ -1152,6 +1152,123 @@ export function Pantry(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+export function Toilet(props: ComponentPropsWithoutRef<"group">) {
+  const boxes = useMemo(() => {
+    const { lazienka } = shapes.rooms();
+    const [a, b, c, d] = lazienka;
+    const [ax, ay] = a;
+    const [bx, by] = b;
+    const [cx, cy] = c;
+    // const [dx, dy] = d;
+    const margin = 0.01;
+
+    return ([] as Cabinet[]).concat(
+      ((w, h) => [
+        {
+          geometry: new THREE.BoxGeometry(w, h, 0.2),
+          position: [ax + w / 2, -0.1, ay + h / 2],
+          rotation: [-Math.PI / 2, 0, 0],
+        },
+        // N
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay],
+          rotation: [0, 0, 0],
+        },
+        // S
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay + h],
+          rotation: [0, Math.PI, 0],
+        },
+        // E
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax + w, 2.8 / 2, ay + h / 2],
+          rotation: [0, -Math.PI / 2, 0],
+        }))(h),
+        // W
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax, 2.8 / 2, ay + h / 2],
+          // position:[ax,2.8/2,ay+1.8/2],
+          rotation: [0, Math.PI / 2, 0],
+        }))(h),
+      ])(Math.abs(ax - cx), Math.abs(ay - cy)),
+    );
+  }, []);
+
+  const windows = useMemo(() => {
+    const { lazienka } = shapes.rooms();
+    const [a, b, c, d] = lazienka;
+    const [ax, ay] = a;
+    const [bx, by] = b;
+    const [cx, cy] = c;
+    const [dx, dy] = d;
+    const margin = 0.01;
+    return ([] as Cabinet[]).concat(
+      [
+        [0.6 + 0.2, 0],
+        [0.8, 2.8],
+      ]
+        .reduce(
+          (result, [w, h, o = 0]) => {
+            const { space = 0, width = 0 } = result.length
+              ? result[result.length - 1]
+              : {};
+            return result.concat({
+              width: w,
+              height: h,
+              offset: o,
+              space: space + width,
+            });
+          },
+          [] as {
+            width: number;
+            height: number;
+            offset: number;
+            space: number;
+          }[],
+        )
+        .map(
+          ({ width, height, offset, space }): Cabinet => ({
+            geometry: new THREE.BoxGeometry(
+              width - 2 * margin,
+              height - 2 * margin,
+              0.48 + margin,
+            ),
+            position: [
+              cx - (space + width / 2),
+              height / 2 + offset,
+              cy + 0.48 / 2,
+            ],
+          }),
+        ),
+    );
+  }, []);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {/* <Base geometry={new THREE.PlaneGeometry(5,7)} rotation={[-Math.PI/2,0,0]} position={[12,0,2]}/> */}
+          {boxes.map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {windows.map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
 export function Hall(props: ComponentPropsWithoutRef<"group">) {
   const boxes = useMemo(() => {
     const { schody1 } = shapes.rooms();
@@ -1199,45 +1316,85 @@ export function Hall(props: ComponentPropsWithoutRef<"group">) {
     const [cx, cy] = c;
     const [dx, dy] = d;
     const margin = 0.01;
-    return ([] as Cabinet[]).concat(
-      [
-        [1.72, 0],
-        [2.1, 2.8],
-      ]
-        .reduce(
-          (result, [w, h, o = 0]) => {
-            const { space = 0, width = 0 } = result.length
-              ? result[result.length - 1]
-              : {};
-            return result.concat({
-              width: w,
-              height: h,
-              offset: o,
-              space: space + width,
-            });
-          },
-          [] as {
-            width: number;
-            height: number;
-            offset: number;
-            space: number;
-          }[],
-        )
-        .map(
-          ({ width, height, offset, space }): Cabinet => ({
-            geometry: new THREE.BoxGeometry(
-              width - 2 * margin,
-              height - 2 * margin,
-              0.48 + margin,
-            ),
-            position: [
-              cx - (space + width / 2),
-              height / 2 + offset,
-              cy + 0.48 / 2,
-            ],
-          }),
-        ),
-    );
+    return ([] as Cabinet[])
+      .concat(
+        [
+          [1.72, 0],
+          [2.1, 2.8],
+        ]
+          .reduce(
+            (result, [w, h, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 2 * margin,
+                0.48 + margin,
+              ),
+              position: [
+                cx - (space + width / 2),
+                height / 2 + offset,
+                cy + 0.48 / 2,
+              ],
+            }),
+          ),
+      )
+      .concat(
+        [
+          [0.6 + 0.2, 0],
+          [0.8, 2.8],
+        ]
+          .reduce(
+            (result, [w, h, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 2 * margin,
+                0.48 + margin,
+              ),
+              position: [
+                bx - (space + width / 2),
+                height / 2 + offset,
+                by + 0.48 / 2,
+              ],
+            }),
+          ),
+      );
   }, []);
 
   return (
@@ -1628,6 +1785,7 @@ export function Table(props: ComponentPropsWithoutRef<"group">) {
       </mesh>
       {[1, 1, 1, 1, 1, 1].map((_, index, list) => (
         <Chair
+          key={index}
           position={[
             ((2 * (Math.floor(index / 3) % 2) - 1) * (d + 0.5)) / 2,
             0,
@@ -1829,6 +1987,7 @@ export default function House(props: object) {
     <>
       {[1, 1].map((_, index) => (
         <Stool
+          key={index}
           position={[2.5 + index * 0.5, 0, 1.4]}
           rotation={[0, -Math.PI / 2, 0]}
         />
@@ -1849,6 +2008,7 @@ export default function House(props: object) {
       <Hall position={[-11, 0, -2]} />
       <Guest position={[-11, 0, -2]} />
       <Pantry position={[-11, 0, -2]} />
+      <Toilet position={[-11, 0, -2]} />
     </>
   );
 }
