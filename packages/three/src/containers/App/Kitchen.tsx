@@ -1827,6 +1827,95 @@ export function Sofa(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+function RainShower(props: ComponentPropsWithoutRef<"group">) {
+  const x = 0.4,
+    h = 0.1,
+    r = 0.05,
+    d = 0.025;
+
+  return (
+    <group {...props}>
+      <mesh position={[0, 2.1, -0.9 / 2]}>
+        <Geometry computeVertexNormals>
+          <Base
+            geometry={
+              new THREE.ExtrudeGeometry(
+                (() => {
+                  const shape = new THREE.Shape();
+                  shape.absellipse(0, 0, d / 2, d / 2, 0, 2 * Math.PI);
+                  return shape;
+                })(),
+                (() => {
+                  const extrudePath = new THREE.CatmullRomCurve3([
+                    new THREE.Vector3(0, 0, 0),
+                    new THREE.Vector3(0, 0, x - r),
+                    new THREE.Vector3(0, -h + r, x),
+                    new THREE.Vector3(0, -h, x),
+                    // new THREE.Vector3(0, h, x - r),
+                  ]);
+                  return {
+                    steps: 10,
+                    bevelEnabled: false,
+                    extrudePath,
+                  };
+                })(),
+              )
+            }
+          />
+          {((r, d) => (
+            <Addition
+              geometry={new THREE.CylinderGeometry(r, r, d)}
+              position={[0, 0, d / 2]}
+              rotation={[Math.PI / 2, 0, 0]}
+            />
+          ))(0.05, 0.02)}
+          {((r, d) => (
+            <Addition
+              geometry={new THREE.CylinderGeometry(r, r, d)}
+              position={[0, -0.1, 0.4]}
+              rotation={[0, 0, 0]}
+            />
+          ))(0.15, 0.02)}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Shower(props: ComponentPropsWithoutRef<"group">) {
+  const { lazienka } = shapes.rooms();
+  const [a, b, c, d] = lazienka;
+  const [ax, ay] = a;
+  // const [bx, by] = b;
+  // const [cx, cy] = c;
+  // const [dx, dy] = d;
+  const w = 1.4,
+    h = 0.9,
+    s = 0.04;
+
+  return (
+    <group {...props}>
+      <group position={[ax + w / 2, s / 2, ay + h / 2]}>
+        <mesh>
+          <Geometry computeVertexNormals>
+            <Base geometry={new THREE.BoxGeometry(w, s, h)} />
+            {((r, d) => (
+              <Addition
+                geometry={new THREE.CylinderGeometry(r, r, d)}
+                position={[0, d / 2, 0]}
+                rotation={[0, 0, 0]}
+              />
+            ))(0.08, 0.03)}
+          </Geometry>
+          <meshStandardMaterial color="white" />
+        </mesh>
+        <RainShower />
+      </group>
+    </group>
+  );
+}
+
 export function Stairs(props: ComponentPropsWithoutRef<"group">) {
   const w = 1,
     d = 0.28,
@@ -2009,6 +2098,7 @@ export default function House(props: object) {
       <Guest position={[-11, 0, -2]} />
       <Pantry position={[-11, 0, -2]} />
       <Toilet position={[-11, 0, -2]} />
+      <Shower position={[-11, 0, -2]} />
     </>
   );
 }
