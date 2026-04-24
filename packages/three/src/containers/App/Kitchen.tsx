@@ -1024,6 +1024,13 @@ export function Hall(props: ComponentPropsWithoutRef<"group">) {
           position: [ax + w / 2, 2.8 / 2, ay + h],
           rotation: [0, Math.PI, 0],
         },
+        // W
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax, 2.8 / 2, ay + h / 2],
+          // position:[ax,2.8/2,ay+1.8/2],
+          rotation: [0, Math.PI / 2, 0],
+        }))(h),
       ])(Math.abs(ax - cx), Math.abs(ay - cy)),
     );
   }, []);
@@ -1071,6 +1078,124 @@ export function Hall(props: ComponentPropsWithoutRef<"group">) {
               cx - (space + width / 2),
               height / 2 + offset,
               cy + 0.48 / 2,
+            ],
+          }),
+        ),
+    );
+  }, []);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {/* <Base geometry={new THREE.PlaneGeometry(5,7)} rotation={[-Math.PI/2,0,0]} position={[12,0,2]}/> */}
+          {boxes.map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {windows.map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+      <Tap position={[10.72 + 0.7 + 1.5 * 0.6, 0.9, 0.6]} />
+    </group>
+  );
+}
+
+export function Guest(props: ComponentPropsWithoutRef<"group">) {
+  const boxes = useMemo(() => {
+    const { gabinet1 } = shapes.rooms();
+    const [a, b, c, d] = gabinet1;
+    const [ax, ay] = a;
+    const [cx, cy] = c;
+    // const [dx, dy] = d;
+    // const margin = 0.01;
+
+    return ([] as Cabinet[]).concat(
+      ((w, h) => [
+        {
+          geometry: new THREE.BoxGeometry(w, h, 0.2),
+          position: [ax + w / 2, -0.1, ay + h / 2],
+          rotation: [-Math.PI / 2, 0, 0],
+        },
+        // N
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay],
+          rotation: [0, 0, 0],
+        },
+        // S
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay + h],
+          rotation: [0, Math.PI, 0],
+        },
+        // E
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax + w, 2.8 / 2, ay + h / 2],
+          rotation: [0, -Math.PI / 2, 0],
+        }))(h),
+        // W
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax, 2.8 / 2, ay + h / 2],
+          // position:[ax,2.8/2,ay+1.8/2],
+          rotation: [0, Math.PI / 2, 0],
+        }))(h),
+      ])(Math.abs(ax - cx), Math.abs(ay - cy)),
+    );
+  }, []);
+
+  const windows = useMemo(() => {
+    const { gabinet1 } = shapes.rooms();
+    const [a, b, c, d] = gabinet1;
+    const [ax, ay] = a;
+    const [bx, by] = b;
+    const [cx, cy] = c;
+    const [dx, dy] = d;
+    const margin = 0.01;
+    return ([] as Cabinet[]).concat(
+      [
+        // [0.62, 0],
+        [0.6, 2.8],
+        [1.5, 2.8],
+      ]
+        .reduce(
+          (result, [w, h = 0.9, o = 0]) => {
+            const { space = 0, width = 0 } = result.length
+              ? result[result.length - 1]
+              : {};
+            return result.concat({
+              width: w,
+              height: h,
+              offset: o,
+              space: space + width,
+            });
+          },
+          [] as {
+            width: number;
+            height: number;
+            offset: number;
+            space: number;
+          }[],
+        )
+        .map(
+          ({ width, height, offset, space }): Cabinet => ({
+            geometry: new THREE.BoxGeometry(
+              0.16 + margin,
+              height - 2 * margin,
+              width - 2 * margin,
+            ),
+            position: [
+              dx - 0.16 / 2,
+              height / 2 + offset,
+              dy - (space + width / 2),
             ],
           }),
         ),
@@ -1568,6 +1693,7 @@ export default function House(props: object) {
       <Island position={[1.22 / 2 + 0.9, 0.9 / 2, 0.9]} rotation={[0, 0, 0]} />
       <Kitchen position={[-11, 0, -2]} />
       <Hall position={[-11, 0, -2]} />
+      <Guest position={[-11, 0, -2]} />
     </>
   );
 }
