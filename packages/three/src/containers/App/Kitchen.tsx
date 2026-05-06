@@ -14,6 +14,7 @@ import {
   // Intersection,
   Subtraction,
 } from "@react-three/csg";
+import { type Point, inner, shift } from "@dev/model/utils";
 import * as shapes from "./shapes";
 
 interface Cabinet {
@@ -21,6 +22,95 @@ interface Cabinet {
   position?: [number, number, number];
   rotation?: [number, number, number];
   scale?: [number, number, number];
+}
+
+function createFloor([a, c]: [Point, Point]): Cabinet {
+  const [ax, ay] = a;
+  const [cx, cy] = c;
+
+  const w = Math.abs(ax - cx),
+    h = Math.abs(ay - cy);
+
+  return {
+    geometry: new THREE.BoxGeometry(w, h, 0.2),
+    position: [ax + w / 2, -0.1, ay + h / 2],
+    rotation: [-Math.PI / 2, 0, 0],
+  };
+}
+
+function createWalls(list: [Point, Point][]): Cabinet[] {
+  return list.map(([a, b]) => {
+    const [ax, ay] = a;
+    const [bx, by] = b;
+    const dx = bx - ax;
+    const dy = by - ay;
+
+    console.log({ ax, ay, bx, by, dx, dy });
+
+    return dx
+      ? {
+          geometry: new THREE.PlaneGeometry(dx, 2.8),
+          position: [ax + dx / 2, 2.8 / 2, ay],
+          rotation: [0, 0, 0],
+        }
+      : {
+          geometry: new THREE.PlaneGeometry(dy, 2.8),
+          position: [ax, 2.8 / 2, ay + dy / 2],
+          rotation: [0, -Math.PI / 2, 0],
+        };
+  });
+}
+
+function createWindows(a: Point, b: Point, list: [number, number, number?][]) {
+  const [ax, ay] = a;
+  const [bx, by] = b;
+  const margin = 0.01;
+
+  const dx = bx - ax;
+  const dy = by - ay;
+
+  return list
+    .reduce(
+      (result, [w, h = 0.9, o = 0]) => {
+        const { space = 0, width = 0 } = result.length
+          ? result[result.length - 1]
+          : {};
+        return result.concat({
+          width: w,
+          height: h,
+          offset: o,
+          space: space + width,
+        });
+      },
+      [] as {
+        width: number;
+        height: number;
+        offset: number;
+        space: number;
+      }[],
+    )
+    .map(
+      ({ width, height, offset, space }): Cabinet => ({
+        geometry: dx
+          ? new THREE.BoxGeometry(
+              width - 2 * margin,
+              height - 2 * margin,
+              0.16 + margin,
+            )
+          : new THREE.BoxGeometry(
+              0.16 + margin,
+              height - 2 * margin,
+              width - 2 * margin,
+            ),
+        position: dx
+          ? dx > 0
+            ? [ax + (space + width / 2), height / 2 + offset, ay - 0.16 / 2]
+            : [ax - (space + width / 2), height / 2 + offset, ay - 0.16 / 2]
+          : dy > 0
+            ? [ax - 0.16 / 2, height / 2 + offset, ay + (space + width / 2)]
+            : [ax - 0.16 / 2, height / 2 + offset, ay - (space + width / 2)],
+      }),
+    );
 }
 
 export function Kitchen(props: ComponentPropsWithoutRef<"group">) {
@@ -992,6 +1082,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"group">) {
         <meshStandardMaterial color="white" />
       </mesh>
       <Tap position={[10.72 + 0.7 + 1.5 * 0.6, 0.9, 0.6]} />
+      <Sofa position={[17, 0, 5.5]} rotation={[0, Math.PI / 2, 0]} />
     </group>
   );
 }
@@ -999,7 +1090,7 @@ export function Kitchen(props: ComponentPropsWithoutRef<"group">) {
 export function Pantry(props: ComponentPropsWithoutRef<"group">) {
   const boxes = useMemo(() => {
     const { spizarnia } = shapes.rooms();
-    const [a, b, c, d] = spizarnia;
+    const [a, b, c, d] = inner(spizarnia, 0.16 / 2);
     const [ax, ay] = a;
     const [bx, by] = b;
     const [cx, cy] = c;
@@ -1083,7 +1174,7 @@ export function Pantry(props: ComponentPropsWithoutRef<"group">) {
 
   const windows = useMemo(() => {
     const { spizarnia } = shapes.rooms();
-    const [a, b, c, d] = spizarnia;
+    const [a, b, c, d] = inner(spizarnia, 0.16 / 2);
     const [ax, ay] = a;
     const [bx, by] = b;
     const [cx, cy] = c;
@@ -1155,7 +1246,7 @@ export function Pantry(props: ComponentPropsWithoutRef<"group">) {
 export function Toilet(props: ComponentPropsWithoutRef<"group">) {
   const boxes = useMemo(() => {
     const { lazienka } = shapes.rooms();
-    const [a, b, c, d] = lazienka;
+    const [a, b, c, d] = inner(lazienka, 0.16 / 2);
     const [ax, ay] = a;
     const [bx, by] = b;
     const [cx, cy] = c;
@@ -1200,7 +1291,7 @@ export function Toilet(props: ComponentPropsWithoutRef<"group">) {
 
   const windows = useMemo(() => {
     const { lazienka } = shapes.rooms();
-    const [a, b, c, d] = lazienka;
+    const [a, b, c, d] = inner(lazienka, 0.16 / 2);
     const [ax, ay] = a;
     const [bx, by] = b;
     const [cx, cy] = c;
@@ -1208,7 +1299,7 @@ export function Toilet(props: ComponentPropsWithoutRef<"group">) {
     const margin = 0.01;
     return ([] as Cabinet[]).concat(
       [
-        [0.6 + 0.2, 0],
+        [0.2, 0],
         [0.8, 2.8],
       ]
         .reduce(
@@ -1269,12 +1360,12 @@ export function Toilet(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
-export function Hall(props: ComponentPropsWithoutRef<"group">) {
+export function Entrance(props: ComponentPropsWithoutRef<"group">) {
   const boxes = useMemo(() => {
-    const { schody1 } = shapes.rooms();
-    const [a, b, c, d] = schody1;
+    const { korytarz } = shapes.rooms();
+    const [a, b, c, d] = inner(korytarz, 0.16 / 2);
     const [ax, ay] = a;
-    const [cx, cy] = c;
+    const [cx, cy] = shift(c, [0.16, 0]);
     // const [dx, dy] = d;
     // const margin = 0.01;
 
@@ -1309,8 +1400,115 @@ export function Hall(props: ComponentPropsWithoutRef<"group">) {
   }, []);
 
   const windows = useMemo(() => {
+    const { korytarz } = shapes.rooms();
+    const [a, b, c, d] = inner(korytarz, 0.16 / 2);
+    const [ax, ay] = a;
+    const [bx, by] = b;
+    const [cx, cy] = c;
+    const [dx, dy] = d;
+    const margin = 0.01;
+    return ([] as Cabinet[]).concat(
+      [
+        [1, 2.8],
+        [0.6, 2.8],
+      ]
+        .reduce(
+          (result, [w, h = 0.9, o = 0]) => {
+            const { space = 0, width = 0 } = result.length
+              ? result[result.length - 1]
+              : {};
+            return result.concat({
+              width: w,
+              height: h,
+              offset: o,
+              space: space + width,
+            });
+          },
+          [] as {
+            width: number;
+            height: number;
+            offset: number;
+            space: number;
+          }[],
+        )
+        .map(
+          ({ width, height, offset, space }): Cabinet => ({
+            geometry: new THREE.BoxGeometry(
+              0.16 + margin,
+              height - 2 * margin,
+              width - 2 * margin,
+            ),
+            position: [
+              dx - 0.16 / 2,
+              height / 2 + offset,
+              dy - (space + width / 2),
+            ],
+          }),
+        ),
+    );
+  }, []);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {/* <Base geometry={new THREE.PlaneGeometry(5,7)} rotation={[-Math.PI/2,0,0]} position={[12,0,2]}/> */}
+          {boxes.map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {windows.map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Hall(props: ComponentPropsWithoutRef<"group">) {
+  const boxes = useMemo(() => {
     const { schody1 } = shapes.rooms();
-    const [a, b, c, d] = schody1;
+    const [a, b, c, d] = inner(schody1, 0.16 / 2);
+    const [ax, ay] = a;
+    const [cx, cy] = shift(c, [0.16, 0]);
+
+    return ([] as Cabinet[]).concat(
+      ((w, h) => [
+        {
+          geometry: new THREE.BoxGeometry(w, h, 0.2),
+          position: [ax + w / 2, -0.1, ay + h / 2],
+          rotation: [-Math.PI / 2, 0, 0],
+        },
+        // N
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay],
+          rotation: [0, 0, 0],
+        },
+        // S
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay + h],
+          rotation: [0, Math.PI, 0],
+        },
+        // W
+        ((h, w) => ({
+          geometry: new THREE.PlaneGeometry(h - w, 2.8),
+          position: [ax, 2.8 / 2, ay + w / 2 + h / 2],
+          rotation: [0, Math.PI / 2, 0],
+        }))(h, 1.6 - 0.16),
+      ])(Math.abs(ax - cx), Math.abs(ay - cy)),
+    );
+  }, []);
+
+  const windows = useMemo(() => {
+    const { schody1 } = shapes.rooms();
+    const [a, b, c, d] = inner(schody1, 0.16 / 2);
     const [ax, ay] = a;
     const [bx, by] = b;
     const [cx, cy] = c;
@@ -1359,6 +1557,10 @@ export function Hall(props: ComponentPropsWithoutRef<"group">) {
       .concat(
         [
           [0.6 + 0.2, 0],
+          [0.8, 2.8],
+          [1.2, 0],
+          [0.8, 2.8],
+          [1.2, 0],
           [0.8, 2.8],
         ]
           .reduce(
@@ -1419,10 +1621,322 @@ export function Hall(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+export function Garage(props: ComponentPropsWithoutRef<"group">) {
+  const boxes = useMemo(() => {
+    const { garaz } = shapes.rooms();
+    const [a, b, c, d] = inner(garaz, 0.16 / 2);
+    const [ax, ay] = a;
+    const [cx, cy] = c;
+    // const [dx, dy] = d;
+    // const margin = 0.01;
+
+    return ([] as Cabinet[]).concat(
+      ((w, h) => [
+        {
+          geometry: new THREE.BoxGeometry(w, h, 0.2),
+          position: [ax + w / 2, -0.1, ay + h / 2],
+          rotation: [-Math.PI / 2, 0, 0],
+        },
+        // N
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay],
+          rotation: [0, 0, 0],
+        },
+        // S
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay + h],
+          rotation: [0, Math.PI, 0],
+        },
+        // E
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax + w, 2.8 / 2, ay + h / 2],
+          rotation: [0, -Math.PI / 2, 0],
+        }))(h),
+        // W
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax, 2.8 / 2, ay + h / 2],
+          // position:[ax,2.8/2,ay+1.8/2],
+          rotation: [0, Math.PI / 2, 0],
+        }))(h),
+      ])(Math.abs(ax - cx), Math.abs(ay - cy)),
+    );
+  }, []);
+
+  const windows = useMemo(() => {
+    const { garaz } = shapes.rooms();
+    const [a, b, c, d] = inner(garaz, 0.16 / 2);
+    const [ax, ay] = a;
+    const [bx, by] = b;
+    const [cx, cy] = c;
+    const [dx, dy] = d;
+    const margin = 0.01;
+    return ([] as Cabinet[])
+      .concat(
+        [
+          [0.66, 0],
+          [5.5, 2.375],
+        ]
+          .reduce(
+            (result, [w, h = 0.9, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                0.16 + margin,
+                height - 2 * margin,
+                width - 2 * margin,
+              ),
+              position: [
+                dx - 0.16 / 2,
+                height / 2 + offset,
+                dy - (space + width / 2),
+              ],
+            }),
+          ),
+      )
+      .concat(
+        [
+          [0.2, 0],
+          [0.8, 2.8],
+        ]
+          .reduce(
+            (result, [w, h, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 2 * margin,
+                0.48 + margin,
+              ),
+              position: [
+                cx - (space + width / 2),
+                height / 2 + offset,
+                cy + 0.48 / 2,
+              ],
+            }),
+          ),
+      );
+  }, []);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {/* <Base geometry={new THREE.PlaneGeometry(5,7)} rotation={[-Math.PI/2,0,0]} position={[12,0,2]}/> */}
+          {boxes.map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {windows.map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Technical(props: ComponentPropsWithoutRef<"group">) {
+  const boxes = useMemo(() => {
+    const { techniczne } = shapes.rooms();
+    const [a, b, c, d] = inner(techniczne, 0.16 / 2);
+    const [ax, ay] = a;
+    const [cx, cy] = c;
+    // const [dx, dy] = d;
+    // const margin = 0.01;
+
+    return ([] as Cabinet[]).concat(
+      ((w, h) => [
+        {
+          geometry: new THREE.BoxGeometry(w, h, 0.2),
+          position: [ax + w / 2, -0.1, ay + h / 2],
+          rotation: [-Math.PI / 2, 0, 0],
+        },
+        // N
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay],
+          rotation: [0, 0, 0],
+        },
+        // S
+        {
+          geometry: new THREE.PlaneGeometry(w, 2.8),
+          position: [ax + w / 2, 2.8 / 2, ay + h],
+          rotation: [0, Math.PI, 0],
+        },
+        // E
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax + w, 2.8 / 2, ay + h / 2],
+          rotation: [0, -Math.PI / 2, 0],
+        }))(h),
+        // W
+        ((h) => ({
+          geometry: new THREE.PlaneGeometry(h, 2.8),
+          position: [ax, 2.8 / 2, ay + h / 2],
+          // position:[ax,2.8/2,ay+1.8/2],
+          rotation: [0, Math.PI / 2, 0],
+        }))(h),
+      ])(Math.abs(ax - cx), Math.abs(ay - cy)),
+    );
+  }, []);
+
+  const windows = useMemo(() => {
+    const { techniczne } = shapes.rooms();
+    const [a, b, c, d] = inner(techniczne, 0.16 / 2);
+    const [ax, ay] = a;
+    const [bx, by] = b;
+    const [cx, cy] = c;
+    const [dx, dy] = d;
+    const margin = 0.01;
+    return ([] as Cabinet[])
+      .concat(
+        [
+          [0.2, 0],
+          [0.8, 2.8],
+        ]
+          .reduce(
+            (result, [w, h = 0.9, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                0.16 + margin,
+                height - 2 * margin,
+                width - 2 * margin,
+              ),
+              position: [
+                dx - 0.16 / 2,
+                height / 2 + offset,
+                dy - (space + width / 2),
+              ],
+            }),
+          ),
+      )
+      .concat(
+        [
+          [0.2, 0],
+          [0.8, 2.8],
+        ]
+          .reduce(
+            (result, [w, h, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 2 * margin,
+                0.48 + margin,
+              ),
+              position: [
+                cx - (space + width / 2),
+                height / 2 + offset,
+                cy + 0.48 / 2,
+              ],
+            }),
+          ),
+      );
+  }, []);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {/* <Base geometry={new THREE.PlaneGeometry(5,7)} rotation={[-Math.PI/2,0,0]} position={[12,0,2]}/> */}
+          {boxes.map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {windows.map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
 export function Guest(props: ComponentPropsWithoutRef<"group">) {
   const boxes = useMemo(() => {
     const { gabinet1 } = shapes.rooms();
-    const [a, b, c, d] = gabinet1;
+    const [a, b, c, d] = inner(gabinet1, 0.16 / 2);
     const [ax, ay] = a;
     const [cx, cy] = c;
     // const [dx, dy] = d;
@@ -1466,52 +1980,92 @@ export function Guest(props: ComponentPropsWithoutRef<"group">) {
 
   const windows = useMemo(() => {
     const { gabinet1 } = shapes.rooms();
-    const [a, b, c, d] = gabinet1;
+    const [a, b, c, d] = inner(gabinet1, 0.16 / 2);
     const [ax, ay] = a;
     const [bx, by] = b;
     const [cx, cy] = c;
     const [dx, dy] = d;
     const margin = 0.01;
-    return ([] as Cabinet[]).concat(
-      [
-        // [0.62, 0],
-        [0.6, 2.8],
-        [1.5, 2.8],
-      ]
-        .reduce(
-          (result, [w, h = 0.9, o = 0]) => {
-            const { space = 0, width = 0 } = result.length
-              ? result[result.length - 1]
-              : {};
-            return result.concat({
-              width: w,
-              height: h,
-              offset: o,
-              space: space + width,
-            });
-          },
-          [] as {
-            width: number;
-            height: number;
-            offset: number;
-            space: number;
-          }[],
-        )
-        .map(
-          ({ width, height, offset, space }): Cabinet => ({
-            geometry: new THREE.BoxGeometry(
-              0.16 + margin,
-              height - 2 * margin,
-              width - 2 * margin,
-            ),
-            position: [
-              dx - 0.16 / 2,
-              height / 2 + offset,
-              dy - (space + width / 2),
-            ],
-          }),
-        ),
-    );
+    return ([] as Cabinet[])
+      .concat(
+        [
+          // [0.62, 0],
+          [0.6, 2.8],
+          [1.5, 2.8],
+        ]
+          .reduce(
+            (result, [w, h = 0.9, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                0.16 + margin,
+                height - 2 * margin,
+                width - 2 * margin,
+              ),
+              position: [
+                dx - 0.16 / 2,
+                height / 2 + offset,
+                dy - (space + width / 2),
+              ],
+            }),
+          ),
+      )
+      .concat(
+        [
+          [0.2, 0],
+          [0.8, 2.8],
+        ]
+          .reduce(
+            (result, [w, h, o = 0]) => {
+              const { space = 0, width = 0 } = result.length
+                ? result[result.length - 1]
+                : {};
+              return result.concat({
+                width: w,
+                height: h,
+                offset: o,
+                space: space + width,
+              });
+            },
+            [] as {
+              width: number;
+              height: number;
+              offset: number;
+              space: number;
+            }[],
+          )
+          .map(
+            ({ width, height, offset, space }): Cabinet => ({
+              geometry: new THREE.BoxGeometry(
+                width - 2 * margin,
+                height - 2 * margin,
+                0.48 + margin,
+              ),
+              position: [
+                bx - (space + width / 2),
+                height / 2 + offset,
+                by + 0.48 / 2,
+              ],
+            }),
+          ),
+      );
   }, []);
 
   return (
@@ -1532,6 +2086,8 @@ export function Guest(props: ComponentPropsWithoutRef<"group">) {
         </Geometry>
         <meshStandardMaterial color="white" />
       </mesh>
+      <Desk position={[1, 0, 7.2]} rotation={[0, 0, 0]} />
+      <Sofa position={[2.4, 0, 8.8]} rotation={[0, Math.PI / 2, 0]} />
     </group>
   );
 }
@@ -1827,6 +2383,199 @@ export function Sofa(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+export function Bed(props: ComponentPropsWithoutRef<"group">) {
+  const w = 1.4,
+    d = 2,
+    g = 0.04,
+    s = 0.03;
+
+  return (
+    <group {...props}>
+      <mesh position={[0, 0.2 / 2 + 0.3, 0]}>
+        <Geometry computeVertexNormals>
+          <Base geometry={new THREE.BoxGeometry(d, 0.2, w)} />
+          <Addition
+            geometry={new THREE.BoxGeometry(g, g, w)}
+            rotation={[0, 0, 0]}
+            position={[-1, 0.95 / 2 + g / 2, 0]}
+          />
+          <Addition
+            geometry={new THREE.BoxGeometry(g, 0.2, w)}
+            rotation={[0, 0, 0]}
+            position={[-1, -0.2 + 0.2 / 2, 0]}
+          />
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(s, 0.95 - 0.5, w / 2 - 0.1)}
+              rotation={[0, 0, 0]}
+              position={[
+                -1,
+                0.95 / 2 - 0.2,
+                ((2 * (index % 2) - 1) * (w / 2 - 0.1 / 2)) / 2,
+              ]}
+            />
+          ))}
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(g, 0.95, g)}
+              rotation={[0, 0, 0]}
+              position={[
+                -1,
+                -0.4 + 0.95 / 2,
+                ((2 * (index % 2) - 1) * (w + g / 2)) / 2,
+              ]}
+            />
+          ))}
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(g, 0.41, g)}
+              rotation={[0, 0, 0]}
+              position={[
+                1,
+                0.2 / 2 + -0.3,
+                ((2 * (index % 2) - 1) * (w + g / 2)) / 2,
+              ]}
+            />
+          ))}
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(2, 0.2, s)}
+              rotation={[0, 0, 0]}
+              position={[
+                0,
+                0.2 / 2 + -0.2,
+                ((2 * (index % 2) - 1) * (w + g / 2)) / 2,
+              ]}
+            />
+          ))}
+          <Addition
+            geometry={new THREE.BoxGeometry(s, 0.2, w)}
+            rotation={[0, 0, 0]}
+            position={[1, 0.2 / 2 + -0.2, 0]}
+          />
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Bed2(props: ComponentPropsWithoutRef<"group">) {
+  const w = 1.8,
+    d = 2,
+    g = 0.04,
+    s = 0.03;
+
+  return (
+    <group {...props}>
+      <mesh position={[0, 0.2 / 2 + 0.3, 0]}>
+        <Geometry computeVertexNormals>
+          <Base geometry={new THREE.BoxGeometry(d, 0.2, w)} />
+          <Addition
+            geometry={new THREE.BoxGeometry(g, g, w)}
+            rotation={[0, 0, 0]}
+            position={[-1, 0.95 / 2 + g / 2, 0]}
+          />
+          <Addition
+            geometry={new THREE.BoxGeometry(g, 0.2, w)}
+            rotation={[0, 0, 0]}
+            position={[-1, -0.2 + 0.2 / 2, 0]}
+          />
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(s, 0.95 - 0.5, w / 2 - 0.1)}
+              rotation={[0, 0, 0]}
+              position={[
+                -1,
+                0.95 / 2 - 0.2,
+                ((2 * (index % 2) - 1) * (w / 2 - 0.1 / 2)) / 2,
+              ]}
+            />
+          ))}
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(g, 0.95, g)}
+              rotation={[0, 0, 0]}
+              position={[
+                -1,
+                -0.4 + 0.95 / 2,
+                ((2 * (index % 2) - 1) * (w + g / 2)) / 2,
+              ]}
+            />
+          ))}
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(g, 0.41, g)}
+              rotation={[0, 0, 0]}
+              position={[
+                1,
+                0.2 / 2 + -0.3,
+                ((2 * (index % 2) - 1) * (w + g / 2)) / 2,
+              ]}
+            />
+          ))}
+          {[1, 1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.BoxGeometry(2, 0.2, s)}
+              rotation={[0, 0, 0]}
+              position={[
+                0,
+                0.2 / 2 + -0.2,
+                ((2 * (index % 2) - 1) * (w + g / 2)) / 2,
+              ]}
+            />
+          ))}
+          <Addition
+            geometry={new THREE.BoxGeometry(s, 0.2, w)}
+            rotation={[0, 0, 0]}
+            position={[1, 0.2 / 2 + -0.2, 0]}
+          />
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Desk(props: ComponentPropsWithoutRef<"group">) {
+  const w = 1.2,
+    d = 0.6,
+    h = 0.73,
+    z = 0.035;
+  const r = 0.04 / 2,
+    m = 0.1;
+  return (
+    <group {...props}>
+      <mesh position={[0, h - z / 2, 0]}>
+        <Geometry computeVertexNormals>
+          <Base geometry={new THREE.BoxGeometry(d, z, w)} />
+          {[1, 1, -1, -1].map((_, index, list) => (
+            <Addition
+              key={index}
+              geometry={new THREE.CylinderGeometry(r, r, h)}
+              rotation={[0, 0, 0]}
+              position={[
+                ((2 * (index % 2) - 1) * (d - m)) / 2,
+                -h / 2,
+                ((2 * (Math.floor(index / 2) % 2) - 1) * (w - m)) / 2,
+              ]}
+            />
+          ))}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
 function RainShower(props: ComponentPropsWithoutRef<"group">) {
   const x = 0.4,
     h = 0.1,
@@ -1839,26 +2588,18 @@ function RainShower(props: ComponentPropsWithoutRef<"group">) {
         <Geometry computeVertexNormals>
           <Base
             geometry={
-              new THREE.ExtrudeGeometry(
-                (() => {
-                  const shape = new THREE.Shape();
-                  shape.absellipse(0, 0, d / 2, d / 2, 0, 2 * Math.PI);
-                  return shape;
-                })(),
-                (() => {
-                  const extrudePath = new THREE.CatmullRomCurve3([
+              new THREE.TubeGeometry(
+                (() =>
+                  new THREE.CatmullRomCurve3([
                     new THREE.Vector3(0, 0, 0),
                     new THREE.Vector3(0, 0, x - r),
                     new THREE.Vector3(0, -h + r, x),
                     new THREE.Vector3(0, -h, x),
-                    // new THREE.Vector3(0, h, x - r),
-                  ]);
-                  return {
-                    steps: 10,
-                    bevelEnabled: false,
-                    extrudePath,
-                  };
-                })(),
+                  ]))(),
+                48,
+                d / 2,
+                16,
+                false,
               )
             }
           />
@@ -1885,7 +2626,7 @@ function RainShower(props: ComponentPropsWithoutRef<"group">) {
 
 export function Shower(props: ComponentPropsWithoutRef<"group">) {
   const { lazienka } = shapes.rooms();
-  const [a, b, c, d] = lazienka;
+  const [a, b, c, d] = inner(lazienka, 0.16 / 2);
   const [ax, ay] = a;
   // const [bx, by] = b;
   // const [cx, cy] = c;
@@ -2071,6 +2812,484 @@ export function Island(props: ComponentPropsWithoutRef<"mesh">) {
   );
 }
 
+export function Bedroom1(props: ComponentPropsWithoutRef<"group">) {
+  const boxes = useMemo(() => {
+    const { sypialnia1 } = shapes.rooms();
+    const [a, b, c, d] = inner(sypialnia1, 0.16 / 2);
+    return ([] as Cabinet[]).concat(
+      createFloor([a, c]),
+      createWalls([
+        [a, b], // N
+        [b, c], // E
+        [c, d], // S
+        [d, a], // W
+      ]),
+    );
+  }, []);
+
+  const windows = useMemo(() => {
+    const { sypialnia1 } = shapes.rooms();
+    const [a, b, c, d] = inner(sypialnia1, 0.16 / 2);
+    return ([] as Cabinet[])
+      .concat(
+        createWindows(d, a, [
+          [0.2, 0],
+          [0.6, 2.8],
+          [1.5, 2.8],
+        ]),
+      )
+      .concat(
+        createWindows(c, b, [
+          [0.2, 0],
+          [0.8, 2.8],
+          [0.8, 0],
+          [0.8, 2.8],
+        ]),
+      );
+  }, []);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {/* <Base geometry={new THREE.PlaneGeometry(5,7)} rotation={[-Math.PI/2,0,0]} position={[12,0,2]}/> */}
+          {boxes.map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {windows.map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+      <Bed position={[2, 0, 1.5]} rotation={[0, -Math.PI / 2, 0]} />
+      <Desk position={[2, 0, 3.5]} rotation={[0, Math.PI / 2, 0]} />
+    </group>
+  );
+}
+
+export function Bedroom2(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().sypialnia2, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(a, d, [
+            [0.2, 0],
+            [0.6, 2.8],
+            [1.5, 2.8],
+          ])
+            .concat(
+              createWindows(b, c, [
+                [0.2, 0],
+                [0.8, 2.8],
+                [0.8, 0],
+                [0.8, 2.8],
+              ]),
+            )
+            .map((props, index) =>
+              0 ? (
+                <Addition key={index} {...props} />
+              ) : (
+                <Subtraction key={index} {...props} />
+              ),
+            )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Bedroom3(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().sypialnia3, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(b, c, [
+            [0.2, 0],
+            [0.6, 2.8],
+            [1.5, 2.8],
+          ])
+            .concat(
+              createWindows(a, d, [
+                [0.2, 0],
+                [0.8, 2.8],
+                [0.8, 0],
+                [0.8, 2.8],
+              ]),
+            )
+            .map((props, index) =>
+              0 ? (
+                <Addition key={index} {...props} />
+              ) : (
+                <Subtraction key={index} {...props} />
+              ),
+            )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+      <Bed2
+        position={(([x, y]) => [x, 0, y])(shift(c, [-1.9, -1.1]))}
+        rotation={[0, Math.PI / 2, 0]}
+      />
+    </group>
+  );
+}
+
+export function Wardrobe1(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().garderoba1, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(d, a, [
+            [0.8, 0],
+            [0.8, 2.8],
+          ]).map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Wardrobe2(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().garderoba2, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(a, d, [
+            [0.8, 0],
+            [0.8, 2.8],
+          ]).map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Loundry(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().pralnia, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(b, c, [
+            [0.2, 0],
+            [0.8, 2.8],
+          ]).map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Hall2(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().korytarz2, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {/* {((props) => <Base {...props} />)(createFloor([a, c]))} */}
+          {createWalls([
+            // [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(d, c, [
+            [1, 0],
+            [2.1, 2.1],
+          ]).map((props, index) =>
+            0 ? (
+              <Addition key={index} {...props} />
+            ) : (
+              <Subtraction key={index} {...props} />
+            ),
+          )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Wardrobe3(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().garderoba3, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(c, d, [
+            [0.2, 0],
+            [0.8, 2.8],
+          ])
+            .concat(
+              createWindows(a, b, [
+                [0.2, 0],
+                [0.8, 0.7, 2.1],
+              ]),
+            )
+            .concat(
+              createWindows(b, a, [
+                [0.2, 0],
+                [0.8, 0.7, 2.1],
+              ]),
+            )
+            .map((props, index) =>
+              0 ? (
+                <Addition key={index} {...props} />
+              ) : (
+                <Subtraction key={index} {...props} />
+              ),
+            )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Bathroom1(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().lazienka1, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(c, d, [
+            [0.8, 0],
+            [0.8, 2.8],
+          ])
+            .concat(
+              createWindows(a, b, [
+                [0.2, 0],
+                [0.8, 0.7, 2.1],
+              ]),
+            )
+            .concat(
+              createWindows(b, a, [
+                [0.2, 0],
+                [0.8, 0.7, 2.1],
+              ]),
+            )
+            .map((props, index) =>
+              0 ? (
+                <Addition key={index} {...props} />
+              ) : (
+                <Subtraction key={index} {...props} />
+              ),
+            )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Bathroom2(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().lazienka2, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(a, d, [
+            [0.8, 0],
+            [0.8, 2.8],
+          ])
+            .concat(
+              createWindows(b, c, [
+                [1, 0],
+                [0.8, 2.8],
+              ]),
+            )
+            .map((props, index) =>
+              0 ? (
+                <Addition key={index} {...props} />
+              ) : (
+                <Subtraction key={index} {...props} />
+              ),
+            )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function Office(props: ComponentPropsWithoutRef<"group">) {
+  const [a, b, c, d] = inner(shapes.rooms().gabinet2, 0.16 / 2);
+
+  return (
+    <group {...props}>
+      <mesh>
+        <Geometry computeVertexNormals>
+          {((props) => <Base {...props} />)(createFloor([a, c]))}
+          {createWalls([
+            [a, b], // N
+            [b, c], // E
+            [c, d], // S
+            [d, a], // W
+          ]).map((props, index) => (
+            <Addition key={index} {...props} />
+          ))}
+          {createWindows(c, d, [
+            [0.2, 0],
+            [0.8, 2.8],
+          ])
+            .concat(
+              createWindows(a, b, [
+                [0.2, 0],
+                [0.8, 2.1, 0.7],
+              ]),
+            )
+            .concat(
+              createWindows(b, a, [
+                [0.2, 0],
+                [0.8, 2.1, 0.7],
+              ]),
+            )
+            .map((props, index) =>
+              0 ? (
+                <Addition key={index} {...props} />
+              ) : (
+                <Subtraction key={index} {...props} />
+              ),
+            )}
+        </Geometry>
+        <meshStandardMaterial color="white" />
+      </mesh>
+    </group>
+  );
+}
+
+export function FirstFloor(props: ComponentPropsWithoutRef<"group">) {
+  return (
+    <group {...props}>
+      <Bedroom1 position={[0, 0, 0]} />
+      <Wardrobe1 position={[0, 0, 0]} />
+      <Bedroom2 position={[0, 0, 0]} />
+      <Wardrobe2 position={[0, 0, 0]} />
+      <Bathroom1 position={[0, 0, 0]} />
+      <Office position={[0, 0, 0]} />
+      <Bedroom3 position={[0, 0, 0]} />
+      <Wardrobe3 position={[0, 0, 0]} />
+      <Bathroom2 position={[0, 0, 0]} />
+      <Loundry position={[0, 0, 0]} />
+      <Hall2 position={[0, 0, 0]} />
+    </group>
+  );
+}
+
 export default function House(props: object) {
   return (
     <>
@@ -2081,7 +3300,6 @@ export default function House(props: object) {
           rotation={[0, -Math.PI / 2, 0]}
         />
       ))}
-      <Sofa position={[6, 0, 3.5]} rotation={[0, Math.PI / 2, 0]} />
       <Table position={[2.2, 0, 4.2]} rotation={[0, Math.PI / 2, 0]} />
       <Stairs position={[0.1, 0, 6]} rotation={[0, Math.PI / 2, 0]} />
       <Shelf
@@ -2094,11 +3312,15 @@ export default function House(props: object) {
       />
       <Island position={[1.22 / 2 + 0.9, 0.9 / 2, 0.9]} rotation={[0, 0, 0]} />
       <Kitchen position={[-11, 0, -2]} />
+      <Entrance position={[-11, 0, -2]} />
       <Hall position={[-11, 0, -2]} />
       <Guest position={[-11, 0, -2]} />
       <Pantry position={[-11, 0, -2]} />
       <Toilet position={[-11, 0, -2]} />
+      <Technical position={[-11, 0, -2]} />
       <Shower position={[-11, 0, -2]} />
+      <Garage position={[-11, 0, -2]} />
+      <FirstFloor position={[-11, 2.8 + 0.65, -2]} />
     </>
   );
 }

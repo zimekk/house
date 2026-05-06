@@ -105,20 +105,25 @@ export function rooms() {
   const spizarnia = ((r1) => {
     const [a, b, c, d] = inner(r1, -0.16 / 2);
     const b2 = a;
-    const d2 = shift(a, [-2.5, 1.8]);
+    const d2 = shift(a, [-2.5 - 0.16, 1.8]);
     const a2 = cross(d2, b2),
       c2 = cross(b2, d2);
     return rect(a2, c2);
   })(kuchnia);
 
-  const gabinet1 = ((r1) => {
+  const korytarz = ((r1) => {
     const [a, b, c, d] = inner(r1, -0.16 / 2);
-    const b2 = shift(d, [4, -3]);
-    const d2 = d;
-    const a2 = cross(d2, b2),
-      c2 = cross(b2, d2);
+    const a2 = shift(d, [0, -1.6 - 1.22]),
+      c2 = shift(a2, [4, 1.6]);
     return rect(a2, c2);
   })(inner(bryla, 0.48));
+
+  const gabinet1 = ((r1) => {
+    const [a, b, c, d] = inner(r1, 0 / 2);
+    const a2 = d,
+      c2 = shift(c, [0, 1.22 + 1.9]);
+    return rect(a2, c2);
+  })(korytarz);
 
   const schody1 = ((r1, r2) => {
     const [a, b, c, _d] = r1;
@@ -126,23 +131,31 @@ export function rooms() {
     const a2 = b;
     const c2 = d;
     return rect(a2, c2);
-  })(gabinet1, kuchnia);
+  })(korytarz, kuchnia);
 
   const lazienka = ((r1, r2) => {
     const [a, _b, c, d] = r1;
     const [_a, b, _c, _d] = r2;
-    const a2 = d,
-      c2 = b;
+    const a2 = shift(d, [0, 0]),
+      c2 = shift(b, [-0.6, 0]);
     return rect(a2, c2);
   })(spizarnia, schody1);
+
+  const techniczne = ((r1, r2) => {
+    const [a, b, c, _d] = inner(r1, -0.16 / 2);
+    const [_a, _b, _c, d] = r2;
+    const a2 = shift(cross(d, a), [-2.1, -2.7]);
+    const c2 = d;
+    return rect(a2, c2);
+  })(inner(bryla, 0.48), lazienka);
 
   const garaz = ((r1, r2) => {
     const [a, b, c, _d] = inner(r1, -0.16 / 2);
     const [_a, _b, _c, d] = r2;
-    const a2 = shift(a, [0, 0]);
+    const a2 = shift(a, [-1.2, -2.7]);
     const c2 = d;
     return rect(a2, c2);
-  })(inner(bryla, 0.48), lazienka);
+  })(inner(bryla, 0.48), techniczne);
 
   const sypialnia1 = ((r1) => {
     const [a, b, c, d] = inner(r1, -0.16 / 2);
@@ -153,7 +166,7 @@ export function rooms() {
 
   const sypialnia3 = ((r1) => {
     const [a, b, c, d] = inner(r1, -0.16 / 2);
-    const a2 = shift(middle(b, c), [-4, 0]);
+    const a2 = shift(middle(b, c), [-4.4, 0]);
     const c2 = c;
     return rect(a2, c2);
   })(inner(bryla, 0.48));
@@ -161,16 +174,20 @@ export function rooms() {
   const garderoba1 = ((r1) => {
     const [a, b, c, d] = r1;
     const a2 = b;
-    const c2 = shift(b, [2, 3]);
+    const c2 = shift(b, [1.28 - 0.16 + 0.16, 3.44 - 1]);
     return rect(a2, c2);
   })(sypialnia1);
 
   const lazienka1 = ((r1, r2) => {
-    const [a, b, c, d] = inner(r1, -0.16 / 2);
-    const a2 = a;
-    const c2 = shift(middle(a, d), [4, 0]);
-    const v = (([_, b]) => delta(a, b))(r2);
-    return ((a2, c2) => rect(a2, c2))(shift(a2, v), shift(c2, v));
+    // const [a, b, c, d] = inner(r2, -0.16 / 2);
+    const [a, b, c, d] = r2;
+    const a2 = b;
+    // const c2 = shift(middle(a, d), [4, 0]);
+    // const c2 = (([a,b,c,d]) => shift(c, [4,0]))(r2);
+    const c2 = shift(c, [4, 0]);
+    // const v = (([_, b]) => delta(a, b))(r2);
+    return ((a2, c2) => rect(a2, c2))(a2, c2);
+    // return ((a2, c2) => rect(a2, c2))(shift(a2, v), shift(c2, v));
   })(inner(bryla, 0.48), garderoba1);
 
   const lazienka2 = ((r1, r2) => {
@@ -209,6 +226,20 @@ export function rooms() {
     return rect(a2, c2);
   })(garderoba2);
 
+  const pralnia = ((r1, r2) => {
+    const [a, b, c, d] = r1;
+    const a2 = (([, b, c]) => shift(cross(a, b), [-1.28, 0]))(r2);
+    const c2 = d;
+    return rect(a2, c2);
+  })(sypialnia3, garderoba2);
+
+  const korytarz2 = ((r1, r2) => {
+    const [a, b, c, d] = r1;
+    const a2 = (([, b, c]) => shift(b, [0, 0]))(r2);
+    const c2 = d;
+    return rect(a2, c2);
+  })(pralnia, garderoba2);
+
   return {
     bryla,
     // ground
@@ -216,12 +247,14 @@ export function rooms() {
     kuchnia,
     spizarnia,
     gabinet1,
+    korytarz,
     schody1,
     lazienka,
     garaz,
     // attic
     sypialnia1,
     sypialnia2,
+    techniczne,
     garderoba1,
     garderoba2,
     lazienka1,
@@ -229,6 +262,8 @@ export function rooms() {
     lazienka2,
     garderoba3,
     sypialnia3,
+    pralnia,
     schody2,
+    korytarz2,
   };
 }
