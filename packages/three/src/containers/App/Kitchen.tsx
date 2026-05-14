@@ -2657,6 +2657,50 @@ export function Shower(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+export function MediaWall(props: ComponentPropsWithoutRef<"group">) {
+  const { salon } = shapes.rooms();
+  const [a, b, c, d] = inner(salon, 0 / 2);
+  const [ax, ay] = a;
+  const [bx, by] = b;
+  // const [cx, cy] = c;
+  // const [dx, dy] = d;
+  const w = bx - ax,
+    h = 0.6,
+    s = 0.2;
+
+  return (
+    <group {...props}>
+      <group position={[ax + w / 2, s / 2, ay + h / 2 - 0.1]}>
+        <mesh>
+          <Geometry computeVertexNormals>
+            <Base geometry={new THREE.BoxGeometry(w, s, h)} />
+            {((l, m) => (
+              <Addition
+                geometry={new THREE.BoxGeometry(w, l - m, h)}
+                position={[0, (l + m - s) / 2, 0]}
+              />
+            ))(2.8, s + 0.4)}
+            {/* https://www.tcl.com/in/en/blog/tv-screen-sizes-what-are-the-numbers-for-why-should-i-care */}
+            {((w, l, h2, m) => (
+              <Addition
+                geometry={new THREE.BoxGeometry(w, l, h2)}
+                position={[0, l / 2 - s / 2 + m, h2 / 2 + h / 2]}
+              />
+            ))(1.44, 0.81, 0.02, s + 0.4 + 0.1)}
+            {((w2, l, h2, m) => (
+              <Addition
+                geometry={new THREE.BoxGeometry(w2, l, h2)}
+                position={[(w2 - w) / 2 + m, l / 2 - s / 2 + s, (h2 - h) / 2]}
+              />
+            ))(0.8, 0.4, 0.5, 0.1)}
+          </Geometry>
+          <meshStandardMaterial color="white" />
+        </mesh>
+      </group>
+    </group>
+  );
+}
+
 export function Stairs(props: ComponentPropsWithoutRef<"group">) {
   const w = 1,
     d = 0.28,
@@ -3321,6 +3365,7 @@ export default function House(props: object) {
       <Shower position={[-11, 0, -2]} />
       <Garage position={[-11, 0, -2]} />
       <FirstFloor position={[-11, 2.8 + 0.65, -2]} />
+      <MediaWall position={[-11, 0, -2]} />
     </>
   );
 }
