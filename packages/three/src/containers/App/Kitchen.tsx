@@ -1,5 +1,12 @@
 import * as THREE from "three";
-import { useRef, ComponentPropsWithoutRef, useEffect, useMemo } from "react";
+import { OrbitControls } from "three-stdlib";
+import {
+  useRef,
+  useState,
+  ComponentPropsWithoutRef,
+  useEffect,
+  useMemo,
+} from "react";
 import {
   Edges,
   MeshTransmissionMaterial,
@@ -7,6 +14,7 @@ import {
   PivotControls,
   Wireframe,
 } from "@react-three/drei";
+import { type Camera, useThree } from "@react-three/fiber";
 import {
   Addition,
   Base,
@@ -3334,6 +3342,69 @@ export function FirstFloor(props: ComponentPropsWithoutRef<"group">) {
   );
 }
 
+export function Target({
+  zoom,
+  position,
+  cameraPosition,
+  ...props
+}: ComponentPropsWithoutRef<"mesh"> & {
+  cameraPosition?: { x: number; y: number; z: number };
+  zoom?: number;
+}) {
+  const [hovered, hover] = useState(false);
+  const { camera, controls } = useThree<{
+    camera: Camera;
+    controls: OrbitControls;
+  }>();
+
+  return (
+    <mesh
+      position={position}
+      {...props}
+      onClick={(event) => {
+        console.log(camera);
+        console.log(controls);
+        camera.lookAt(1, 1, 1);
+
+        if (controls) {
+          console.log({
+            polarAngle: controls.getPolarAngle(),
+            azimuthalAngle: controls.getAzimuthalAngle(),
+            distance: controls.getDistance(),
+            target: controls.target,
+            cameraPosition: camera.position,
+          });
+          // https://github.com/mrdoob/three.js/blob/master/examples/jsm/controls/OrbitControls.js#L600
+          console.log({
+            position: { ...controls.target },
+            cameraPosition: { ...camera.position },
+            zoom: camera.zoom,
+          });
+
+          if (position) {
+            const [x, y, z] = position as [number, number, number];
+            controls.target.copy({ x, y, z });
+          }
+          if (cameraPosition) {
+            camera.position.copy(cameraPosition);
+          }
+          if (zoom) {
+            camera.zoom = zoom;
+            camera.updateProjectionMatrix();
+          }
+        }
+      }}
+      onPointerOver={(event) => hover(true)}
+      onPointerOut={(event) => hover(false)}
+    >
+      <Geometry computeVertexNormals>
+        <Base geometry={new THREE.BoxGeometry(0.1, 0.1, 0.1)} />
+      </Geometry>
+      <meshStandardMaterial color={hovered ? "orange" : "blue"} />
+    </mesh>
+  );
+}
+
 export default function House(props: object) {
   return (
     <>
@@ -3365,6 +3436,46 @@ export default function House(props: object) {
       <Shower position={[-11, 0, -2]} />
       <Garage position={[-11, 0, -2]} />
       <FirstFloor position={[-11, 2.8 + 0.65, -2]} />
+      {/* rtv */}
+      <Target
+        position={[6.5, 1, 1.05]}
+        cameraPosition={{
+          x: 2.5127640769014694,
+          y: 2.6688051812360154,
+          z: 6.296408258329316,
+        }}
+        zoom={120}
+      />
+      {/* caffee corner */}
+      <Target
+        position={[-0.25, 1, 1.5]}
+        cameraPosition={{
+          x: 7.722058444819312,
+          y: 2.6530480290020155,
+          z: 6.446575415148051,
+        }}
+        zoom={120}
+      />
+      {/* kitchen */}
+      <Target
+        position={[1.9, 1, -0.85]}
+        cameraPosition={{
+          x: 3.9946009715275665,
+          y: 2.039551388041415,
+          z: 3.5721204108833327,
+        }}
+        zoom={120}
+      />
+      {/* shelves */}
+      <Target
+        position={[-0.25, 1.1, 4.9]}
+        cameraPosition={{
+          x: 8.020159777035287,
+          y: 2.4864012061752994,
+          z: 2.1012031343165245,
+        }}
+        zoom={150}
+      />
       <MediaWall position={[-11, 0, -2]} />
     </>
   );
