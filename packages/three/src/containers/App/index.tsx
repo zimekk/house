@@ -4,14 +4,17 @@ import { OrbitControls } from "@react-three/drei";
 import { Environment } from "./Environment";
 import Kitchen from "./Kitchen";
 import { House } from "./Sketch";
+import WasdControls from "./WasdControls";
 // import { House } from "./Floor";
 // import { House } from "./House";
 
 const items = ["kitchen", "building"];
 
 export default function App() {
+  const [orthographic, setOrthographic] = useState(() => true);
   const [selected, setSelected] = useState(() => items[0]);
   const canvasRef = useRef<HTMLCanvasElement>(null);
+  const orbitControls = useRef(null);
 
   const onSave = useCallback<MouseEventHandler>(
     (e) => {
@@ -25,6 +28,13 @@ export default function App() {
     },
     [canvasRef],
   );
+
+  const onToggleCamera = useCallback<MouseEventHandler>((e) => {
+    e.preventDefault();
+    setOrthographic((orthographic) => !orthographic);
+  }, []);
+
+  const key = `${selected}-${orthographic ? "1" : "0"}`;
 
   return (
     <>
@@ -49,34 +59,39 @@ export default function App() {
             {item}
           </a>
         ))}
+        <a href="#" onClick={onToggleCamera}>
+          {orthographic ? "perspective" : "orthographic"}
+        </a>{" "}
         <a href="#" onClick={onSave}>
           save as png
         </a>
       </div>
       {selected === "kitchen" ? (
         <Canvas
-          key={selected}
+          key={key}
           ref={canvasRef}
-          orthographic
-          camera={{ position: [10, 10, 10], zoom: 100 }}
+          orthographic={orthographic}
+          camera={{ position: [10, 10, 10], zoom: orthographic ? 200 : 5 }}
           gl={{ preserveDrawingBuffer: true }}
         >
           <Kitchen />
           <Environment preset />
+          <WasdControls orbitControls={orbitControls} />
           <OrbitControls
+            ref={orbitControls}
             makeDefault
-            rotateSpeed={2}
+            rotateSpeed={1}
             minPolarAngle={0}
             maxPolarAngle={Math.PI / 2}
-            minDistance={5}
-            maxDistance={10}
-            minZoom={50}
+            minDistance={10}
+            maxDistance={50}
+            minZoom={5}
             maxZoom={250}
           />
         </Canvas>
       ) : (
         <Canvas
-          key={selected}
+          key={key}
           ref={canvasRef}
           shadows
           camera={{ position: [-35, 5, 35], fov: 25, zoom: 1 }}
