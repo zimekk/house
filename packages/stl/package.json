@@ -1,0 +1,52 @@
+{
+  "name": "@dev/stl",
+  "version": "1.0.0",
+  "license": "UNLICENSED",
+  "private": true,
+  "scripts": {
+    "lint": "TIMING=1 eslint \"**/*.{ts,tsx,js,jsx}\" --fix",
+    "clean": "rm -rf .turbo"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./*": [
+      "./src/*.ts",
+      "./src/*.tsx",
+      "./src/*/index.ts"
+    ]
+  },
+  "files": [
+    "src"
+  ],
+  "typesVersions": {
+    "*": {
+      "*": [
+        "src/*",
+        "src/*/index"
+      ]
+    }
+  },
+  "peerDependencies": {
+    "next": "~16.1.0 || ~16.2.0",
+    "react": "^17.0.0 || ^18.0.0-0 || ^19.0.0",
+    "react-dom": "^17.0.0 || ^18.0.0-0 || ^19.0.0"
+  },
+  "dependencies": {
+    "@dev/model": "workspace:*",
+    "@react-three/csg": "^4.0.0",
+    "@react-three/drei": "^10.7.6",
+    "@react-three/fiber": "^9.2.0",
+    "styled-components": "^6.3.9",
+    "three": "^0.184.0",
+    "three-stdlib": "^2.36.1"
+  },
+  "devDependencies": {
+    "@types/react": "^19.2.14",
+    "@types/styled-components": "^5.1.26",
+    "@types/three": "^0.184.0",
+    "eslint": "^10.0.0",
+    "typescript": "^6.0.0"
+  }
+}

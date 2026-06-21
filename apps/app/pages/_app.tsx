@@ -33,6 +33,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "poi",
         "rooms",
         "sketch",
+        "stl",
         "three",
         "tools",
         "video",

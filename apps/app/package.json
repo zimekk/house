@@ -31,6 +31,7 @@
     "@dev/poi": "workspace:*",
     "@dev/rooms": "workspace:*",
     "@dev/sketch": "workspace:*",
+    "@dev/stl": "workspace:*",
     "@dev/three": "workspace:*",
     "@dev/tools": "workspace:*",
     "@dev/video": "workspace:*",
