@@ -1,11 +1,21 @@
-import React, { MouseEventHandler, useCallback, useRef, useState } from "react";
-import Layout from "../Layout";
+import React, {
+  MouseEventHandler,
+  Suspense,
+  lazy,
+  useCallback,
+  useEffect,
+  useRef,
+  useState,
+} from "react";
+import Svg from "../Svg";
+import Stl from "../Stl";
+import defs from "./defs";
 import styles from "./styles.module.scss";
 
-const items = ["sketch"];
+const items = ["ground", "ground-floor", "ceiling", "first-floor"];
 
 export default function App() {
-  const [selected, setSelected] = useState(() => items[0]);
+  const [selected, setSelected] = useState(() => "");
   const svgRef = useRef<SVGSVGElement>(null);
 
   const onSave = useCallback<MouseEventHandler>(
@@ -33,6 +43,10 @@ export default function App() {
     [svgRef],
   );
 
+  useEffect(() => {
+    setSelected(items[0]);
+  }, []);
+
   return (
     <>
       <div
@@ -47,7 +61,7 @@ export default function App() {
             href="#"
             key={index}
             style={{
-              color: "white",
+              // color: "white",
               margin: 4,
               textDecoration: selected === item ? "underline" : "",
             }}
@@ -60,14 +74,16 @@ export default function App() {
           save as svg
         </a>
       </div>
-      <div className={styles.Container}>
-        <div>{selected}</div>
-        <div className={styles.Wrapper}>
-          <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg">
-            <Layout />
-          </svg>
+      {selected && (
+        <div className={styles.Container}>
+          <div className={styles.Wrapper}>
+            <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg">
+              <Svg d={defs(selected, 9 - 0.3, 0)} />
+            </svg>
+            <Stl d={defs(selected, 9 - 0.3, 0)} />
+          </div>
         </div>
-      </div>
+      )}
     </>
   );
 }
