@@ -1,3 +1,4 @@
+import * as THREE from "three";
 import React, {
   ChangeEvent,
   ChangeEventHandler,
@@ -7,6 +8,14 @@ import React, {
   useRef,
   useState,
 } from "react";
+import {
+  Geometry,
+  Base,
+  Subtraction,
+  Intersection,
+  Addition,
+  CSGGeometryRef,
+} from "@react-three/csg";
 import {
   // Center,
   // Edges,
@@ -25,6 +34,7 @@ import {
   Vector3,
 } from "three";
 import { STLExporter } from "three/addons/exporters/STLExporter.js";
+// import { OBJExporter } from "three/addons/exporters/OBJExporter.js";
 import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
 import styles from "./styles.module.scss";
 
@@ -45,7 +55,19 @@ function saveArrayBuffer(buffer: BlobPart, filename: string) {
   save(new Blob([buffer], { type: "application/octet-stream" }), filename);
 }
 
-export default function Stl({ d }: { d: string }) {
+export default function Stl({
+  d,
+  p,
+  r,
+  y,
+  h,
+}: {
+  d: string;
+  p?: string;
+  r?: string;
+  y: number;
+  h: number;
+}) {
   const [preview, setPreview] = useState("");
   const [wireframe, setWireframe] = useState(true);
   const [showCanvas] = useState(true);
@@ -67,11 +89,13 @@ export default function Stl({ d }: { d: string }) {
 
   const handleExport = useCallback(() => {
     const exporter = new STLExporter();
+    // const exporter = new OBJExporter();
     if (meshRef.current) {
       const result = exporter.parse(meshRef.current, { binary: true });
       saveArrayBuffer(
         result,
         `${new Date().toISOString().split(".").shift()}-shape.stl`,
+        // `${new Date().toISOString().split(".").shift()}-shape.obj`,
       );
     }
   }, []);
@@ -93,15 +117,41 @@ export default function Stl({ d }: { d: string }) {
     [],
   );
 
-  const shape = useMemo(() => {
+  const base = useMemo(() => {
     const svgString = `<path d="${d}"/>`;
-    console.log({ d });
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
-    return SVGLoader.createShapes(path);
-  }, [d]);
 
-  const extrudeSettings = { steps: 1, depth: 2, bevelEnabled: false };
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: h,
+      bevelEnabled: false,
+    });
+  }, [d, h]);
+
+  const roof = useMemo(() => {
+    const svgString = `<path d="${r}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 19.8,
+      bevelEnabled: false,
+    });
+  }, [r]);
+
+  const profile = useMemo(() => {
+    const svgString = `<path d="${p}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 19.8,
+      bevelEnabled: false,
+    });
+  }, [p]);
 
   return (
     <section className={styles.Section}>
@@ -138,9 +188,10 @@ export default function Stl({ d }: { d: string }) {
               up: [0, 0, 1],
             }}
           >
-            <Extrude
+            {/* <Extrude
               ref={meshRef}
               args={[shape, extrudeSettings]}
+              position={[0, 0, y + h]}
               rotation={[Math.PI, 0, 0]}
               castShadow
             >
@@ -149,7 +200,34 @@ export default function Stl({ d }: { d: string }) {
               ) : (
                 <meshStandardMaterial color="#9d4b4b" />
               )}
-            </Extrude>
+            </Extrude> */}
+            <mesh
+              ref={meshRef}
+              castShadow
+              position={[0, 0, y + h]}
+              rotation={[Math.PI, 0, 0]}
+            >
+              <Geometry>
+                <Base name="shape" geometry={base} />
+                <Intersection
+                  name="profile"
+                  geometry={profile}
+                  position={[0.2, -5, y + h - 5]}
+                  rotation={[Math.PI / 2, Math.PI / 2, 0]}
+                />
+                <Addition
+                  name="roof"
+                  geometry={roof}
+                  position={[0.2, -5, y + h - 5]}
+                  rotation={[Math.PI / 2, Math.PI / 2, 0]}
+                />
+              </Geometry>
+              {wireframe ? (
+                <meshBasicMaterial color="#2f7f4f" wireframe />
+              ) : (
+                <meshStandardMaterial color="#9d4b4b" />
+              )}
+            </mesh>
             <Grid
               position={[0, 0, 0]}
               rotation={[Math.PI / 2, 0, 0]}

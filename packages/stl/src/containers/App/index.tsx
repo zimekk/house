@@ -10,9 +10,10 @@ import React, {
 import Svg from "../Svg";
 import Stl from "../Stl";
 import defs from "./defs";
+import profile from "./profile";
 import styles from "./styles.module.scss";
 
-const items = ["ground", "ground-floor", "ceiling", "first-floor"];
+const items = ["ground", "ground-floor", "ceiling", "first-floor", "attic"];
 
 export default function App() {
   const [selected, setSelected] = useState(() => "");
@@ -79,8 +80,36 @@ export default function App() {
           <div className={styles.Wrapper}>
             <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg">
               <Svg d={defs(selected, 9 - 0.3, 0)} />
+              <Svg d={profile("profile", 9, 6)} />
+              <Svg d={profile("roof", 9 + 10, 6)} />
             </svg>
-            <Stl d={defs(selected, 9 - 0.3, 0)} />
+            <Stl
+              d={defs(selected, 9 - 0.3, 0)}
+              r={profile("roof", 9, 5)}
+              p={profile("profile", 9, 5)}
+              {...({
+                ground: {
+                  y: -0.2,
+                  h: 0.2,
+                },
+                "ground-floor": {
+                  y: 0,
+                  h: 2.8,
+                },
+                ceiling: {
+                  y: 2.8,
+                  h: 0.65,
+                },
+                "first-floor": {
+                  y: 2.8 + 0.65,
+                  h: 2.8,
+                },
+                attic: {
+                  y: 2.8 + 0.65 + 2.8,
+                  h: 0.65,
+                },
+              }[selected] as { y: number; h: number })}
+            />
           </div>
         </div>
       )}
