@@ -85,6 +85,12 @@ export default function App() {
       location: [52.1940719, 21.0443418],
     },
     {
+      name: "Brilliant Anko",
+      website: "https://abbanko.pl/kontakt/",
+      address: "Czerniakowska 126a, 00-453 Warszawa",
+      location: [52.216771, 21.0455371],
+    },
+    {
       name: "CENTER-MEBEL",
       website: "https://center-mebel.pl/kontakt/",
       address: "Mazowiecka 12/36, 00-048 Warszawa",
@@ -125,6 +131,12 @@ export default function App() {
       website: "https://internityhome.pl/",
       address: "Bartycka 24/26/Paw. 208, 00-716 Warszawa",
       location: [52.213226, 20.9150625],
+    },
+    {
+      name: "KOMA Oświetlenie",
+      website: "https://koma.lux.pl/Kontakt,pid,45.html",
+      address: "Czerniakowska 42, 00-715 Warszawa",
+      location: [52.2061738, 21.0470168],
     },
     {
       name: "Peka Showroom Warszawa",
