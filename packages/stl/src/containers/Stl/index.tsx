@@ -56,17 +56,21 @@ function saveArrayBuffer(buffer: BlobPart, filename: string) {
 }
 
 export default function Stl({
-  d,
+  path,
   p,
   r,
-  y,
-  h,
+  ws,
+  ww,
 }: {
-  d: string;
+  path: {
+    y: number;
+    h: number;
+    d: string;
+  };
   p?: string;
   r?: string;
-  y: number;
-  h: number;
+  ws?: string;
+  ww?: string;
 }) {
   const [preview, setPreview] = useState("");
   const [wireframe, setWireframe] = useState(true);
@@ -84,6 +88,7 @@ export default function Stl({
     followCamera: false,
     infiniteGrid: true,
   });
+  const { y, h, d } = path;
 
   const meshRef = useRef<Mesh>(null);
 
@@ -153,6 +158,32 @@ export default function Stl({
     });
   }, [p]);
 
+  const windowsS = useMemo(() => {
+    const svgString = `<path d="${ws}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 0.35,
+      bevelEnabled: false,
+    });
+  }, [ws]);
+
+  const windowsW = useMemo(() => {
+    const svgString = `<path d="${ww}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 0.35,
+      bevelEnabled: false,
+    });
+  }, [ww]);
+
+  const alpha = (35 * Math.PI) / 180;
+
   return (
     <section className={styles.Section}>
       <div
@@ -209,17 +240,29 @@ export default function Stl({
             >
               <Geometry>
                 <Base name="shape" geometry={base} />
-                <Intersection
+                {/* <Intersection
                   name="profile"
                   geometry={profile}
                   position={[0.2, -5, y + h - 5]}
                   rotation={[Math.PI / 2, Math.PI / 2, 0]}
-                />
+                /> */}
                 <Addition
                   name="roof"
                   geometry={roof}
                   position={[0.2, -5, y + h - 5]}
                   rotation={[Math.PI / 2, Math.PI / 2, 0]}
+                />
+                <Addition
+                  name="windows"
+                  geometry={windowsS}
+                  position={[0.2, -0.1, y + h - 11.3]}
+                  rotation={[alpha, 0, 0]}
+                />
+                <Addition
+                  name="windows"
+                  geometry={windowsW}
+                  position={[0.2, -1.7, y + h - 4.4]}
+                  rotation={[-alpha, 0, 0]}
                 />
               </Geometry>
               {wireframe ? (
