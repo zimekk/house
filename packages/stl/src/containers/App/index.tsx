@@ -19,6 +19,7 @@ const items = [
   "ceiling",
   "first-floor",
   "attic",
+  "chimney",
   "ground-floor-windows",
   "first-floor-windows",
 ];
@@ -94,11 +95,12 @@ export default function App() {
               <Svg d={profile("windows-w", 9 - 0.3, -3)} />
             </svg>
             <Stl
-              path={defs(selected, 9 - 0.3, 0)}
-              r={profile("roof", 9, 5)}
-              p={profile("profile", 9, 5)}
-              ws={profile("windows-s", 9, 2)}
-              ww={profile("windows-w", 9, 2)}
+              name={selected}
+              // path={defs(selected, 9 - 0.3, 0)}
+              // r={profile("roof", 9, 5)}
+              // p={profile("profile", 9, 5)}
+              // ws={profile("windows-s", 9, 2)}
+              // ww={profile("windows-w", 9, 2)}
             />
           </div>
         </div>

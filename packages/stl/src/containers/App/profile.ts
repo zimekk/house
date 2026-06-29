@@ -33,7 +33,7 @@ export default (profile: string, x = 0, y = 0) => {
         ? [
             draw(
               ((a) => rect(shift(a, [0, -2]), shift(a, [2.1, 0])))(
-                shift(bryla[3], [0.48 + 3 + 2.5, -0.48]),
+                shift(bryla[3], [0.48 + 3.56 + 0.16 + 1.72, -0.48]),
               ),
             ), // fixme
           ]
