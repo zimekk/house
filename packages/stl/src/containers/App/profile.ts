@@ -34,6 +34,7 @@ export default (profile: string, x = 0, y = 0) => {
             draw(
               ((a) => rect(shift(a, [0, -2]), shift(a, [2.1, 0])))(
                 shift(bryla[3], [0.48 + 3.56 + 0.16 + 1.72, -0.48]),
+                // shift(bryla[3], [0, -0.48]),
               ),
             ), // fixme
           ]
@@ -42,6 +43,7 @@ export default (profile: string, x = 0, y = 0) => {
               draw(
                 ((a) => rect(shift(a, [-1.1, 0]), shift(a, [0, 2])))(
                   shift(bryla[1], [-0.48 - 2.9, 0.48]),
+                  // shift(bryla[1], [0, 0.48]),
                 ),
               ),
               draw(

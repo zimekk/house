@@ -99,6 +99,32 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     });
   }, [wd, wh]);
 
+  const { y: ky, h: kh, d: kd } = defs("kitchen-windows", 9 - 0.3, 0);
+  const kitchenWindows = useMemo(() => {
+    const svgString = `<path d="${kd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: kh,
+      bevelEnabled: false,
+    });
+  }, [kd, kh]);
+
+  const { h: dh, d: dd } = defs("garage-doors", 9 - 0.3, 0);
+  const garage = useMemo(() => {
+    const svgString = `<path d="${dd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: dh,
+      bevelEnabled: false,
+    });
+  }, [dd, dh]);
+
   return (
     <mesh
       name="parter"
@@ -110,6 +136,16 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
         <Base name="base-" geometry={base} />
         <Addition name="ground-" geometry={ground} position={[0, 0, h]} />
         <Subtraction name="windows-" geometry={windows} position={[0, 0, 0]} />
+        <Subtraction
+          name="kitchen-"
+          geometry={kitchenWindows}
+          position={[0, 0, y + h - kh - ky]}
+        />
+        <Subtraction
+          name="garage-"
+          geometry={garage}
+          position={[0, 0, h - dh]}
+        />
       </Geometry>
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
@@ -173,6 +209,19 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     });
   }, [wd, wh]);
 
+  const { y: ky, h: kh, d: kd } = defs("knee-windows", 9 - 0.3, 0);
+  const kneeWindows = useMemo(() => {
+    const svgString = `<path d="${kd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: kh,
+      bevelEnabled: false,
+    });
+  }, [kd, kh]);
+
   return (
     <mesh
       name="parter"
@@ -189,7 +238,16 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
           rotation={[Math.PI / 2, Math.PI / 2, 0]}
         />
         <Addition name="ceiling-" geometry={ceiling} position={[0, 0, h]} />
-        <Subtraction name="windows-" geometry={windows} position={[0, 0, 0]} />
+        <Subtraction
+          name="windows-"
+          geometry={windows}
+          position={[0, 0, h - wh]}
+        />
+        <Subtraction
+          name="knee-"
+          geometry={kneeWindows}
+          position={[0, 0, y + h - kh - ky]}
+        />
       </Geometry>
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
@@ -203,8 +261,8 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
 function Roof({ wireframe }: { wireframe: boolean }) {
   const { y, h } = defs("first-floor", 9 - 0.3, 0);
   const r = profile("roof", 9, 5);
-  const ws = profile("windows-s", 9, 2);
-  const ww = profile("windows-w", 9, 2);
+  const ws = profile("windows-s", 9 - 0.5, 2);
+  const ww = profile("windows-w", 9 - 0.5, 2);
 
   const roof = useMemo(() => {
     const svgString = `<path d="${r}"/>`;

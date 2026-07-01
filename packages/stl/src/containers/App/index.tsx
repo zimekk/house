@@ -89,10 +89,23 @@ export default function App() {
           <div className={styles.Wrapper}>
             <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg">
               <Svg d={defs(selected, 9 - 0.3, -3).d} />
+              {selected === "ground-floor" ? (
+                <>
+                  <Svg d={defs("ground-floor-windows", 9 - 0.3, -3).d} />
+                  <Svg d={defs("garage-doors", 9 - 0.3, -3).d} />
+                  <Svg d={defs("chimney", 9 - 0.3, -3).d} />
+                </>
+              ) : selected === "first-floor" ? (
+                <>
+                  <Svg d={defs("first-floor-windows", 9 - 0.3, -3).d} />
+                  <Svg d={defs("knee-windows", 9 - 0.3, -3).d} />
+                  <Svg d={defs("chimney", 9 - 0.3, -3).d} />
+                  <Svg d={profile("windows-s", 9 - 0.3, -3)} />
+                  <Svg d={profile("windows-w", 9 - 0.3, -3)} />
+                </>
+              ) : null}
               {/* <Svg d={profile("profile", 9, 6)} /> */}
               {/* <Svg d={profile("roof", 9 + 10, 6)} /> */}
-              <Svg d={profile("windows-s", 9 - 0.3, -3)} />
-              <Svg d={profile("windows-w", 9 - 0.3, -3)} />
             </svg>
             <Stl
               name={selected}
