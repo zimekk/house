@@ -9,6 +9,11 @@ const draw = (ps: Point[]) =>
 const line = (p: Point) => `L${p.join(" ")}`;
 const move = (p: Point) => `M${p.join(" ")}`;
 
+// https://contenthub.velux.com/api/public/content/d8834-2b885-bd479_downloadOriginal?v=5db6af7a
+// 78x118
+// 94x118
+// console.log((b => rib(b))(1))
+
 export default (profile: string, x = 0, y = 0) => {
   const h = 2.8;
   const k = 2.1;
@@ -32,8 +37,8 @@ export default (profile: string, x = 0, y = 0) => {
       : profile === "windows-s"
         ? [
             draw(
-              ((a) => rect(shift(a, [0, -2]), shift(a, [2.1, 0])))(
-                shift(bryla[3], [0.48 + 3.56 + 0.16 + 1.72, -0.48]),
+              ((a) => rect(shift(a, [0, -1.2]), shift(a, [2.1, 0])))(
+                shift(bryla[3], [0.48 + 3.56 + 0.16 + 1.72, -1]),
                 // shift(bryla[3], [0, -0.48]),
               ),
             ), // fixme
@@ -41,29 +46,29 @@ export default (profile: string, x = 0, y = 0) => {
         : profile === "windows-w"
           ? [
               draw(
-                ((a) => rect(shift(a, [-1.1, 0]), shift(a, [0, 2])))(
-                  shift(bryla[1], [-0.48 - 2.9, 0.48]),
+                ((a) => rect(shift(a, [-0.78, 0]), shift(a, [0, 1.18])))(
+                  shift(bryla[1], [-0.48 - 3, 1.4]),
                   // shift(bryla[1], [0, 0.48]),
                 ),
               ),
               draw(
-                ((a) => rect(shift(a, [-1.1, 0]), shift(a, [0, 2])))(
-                  shift(bryla[1], [-0.48 - 2.9 - 1.7, 0.48]),
+                ((a) => rect(shift(a, [-0.78, 0]), shift(a, [0, 1.18])))(
+                  shift(bryla[1], [-0.48 - 3 - 1.8, 1.4]),
                 ),
               ),
               draw(
-                ((a) => rect(shift(a, [-1.1, 0]), shift(a, [0, 2])))(
-                  shift(bryla[1], [-0.48 - 2.9 - 1.7 - 1.2, 0.48]),
+                ((a) => rect(shift(a, [-0.78, 0]), shift(a, [0, 1.18])))(
+                  shift(bryla[1], [-0.48 - 3 - 1.8 - 1, 1.4]),
                 ),
               ),
               draw(
-                ((a) => rect(shift(a, [-1.1, 0]), shift(a, [0, 2])))(
-                  shift(bryla[1], [-0.48 - 2.9 - 1.7 - 2 - 2.2, 0.48]),
+                ((a) => rect(shift(a, [-0.78, 0]), shift(a, [0, 1.18])))(
+                  shift(bryla[1], [-0.48 - 3 - 1.8 - 2.1 - 2.2, 1.4]),
                 ),
               ),
               draw(
-                ((a) => rect(shift(a, [-1.1, 0]), shift(a, [0, 2])))(
-                  shift(bryla[1], [-0.48 - 2.9 - 1.7 - 2 - 2.2 - 1.2, 0.48]),
+                ((a) => rect(shift(a, [-0.78, 0]), shift(a, [0, 1.18])))(
+                  shift(bryla[1], [-0.48 - 3 - 1.8 - 2.1 - 2.2 - 1, 1.4]),
                 ),
               ),
             ]

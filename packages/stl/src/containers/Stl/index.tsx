@@ -3,6 +3,7 @@ import React, {
   ChangeEvent,
   ChangeEventHandler,
   InputEventHandler,
+  MouseEventHandler,
   useCallback,
   useMemo,
   useRef,
@@ -45,18 +46,23 @@ import styles from "./styles.module.scss";
 const loader = new SVGLoader();
 
 // https://threejs.org/examples/#misc_exporter_stl
-function save(blob: Blob, filename: string) {
+function save(href: string, filename: string) {
   const link = document.createElement("a");
   link.style.display = "none";
   document.body.appendChild(link);
-  link.href = URL.createObjectURL(blob);
+  link.href = href;
   link.download = filename;
   link.click();
   document.body.removeChild(link);
 }
 
 function saveArrayBuffer(buffer: BlobPart, filename: string) {
-  save(new Blob([buffer], { type: "application/octet-stream" }), filename);
+  save(
+    URL.createObjectURL(
+      new Blob([buffer], { type: "application/octet-stream" }),
+    ),
+    filename,
+  );
 }
 
 function GroundFloor({ wireframe }: { wireframe: boolean }) {
@@ -127,7 +133,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
 
   return (
     <mesh
-      name="parter"
+      name="ground-floor"
       castShadow
       position={[0, 0, y + h]}
       rotation={[Math.PI, 0, 0]}
@@ -150,7 +156,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
       ) : (
-        <meshStandardMaterial color="#9d4b4b" />
+        <meshStandardMaterial color="#fff" />
       )}
     </mesh>
   );
@@ -196,6 +202,19 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     });
   }, [cd, ch]);
 
+  const { y: ty, h: th, d: td } = defs("terrace-attic", 9 - 0.3, 0);
+  const attic = useMemo(() => {
+    const svgString = `<path d="${td}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: th,
+      bevelEnabled: false,
+    });
+  }, [td, th]);
+
   const { h: wh, d: wd } = defs("first-floor-windows", 9 - 0.3, 0);
   const windows = useMemo(() => {
     const svgString = `<path d="${wd}"/>`;
@@ -208,6 +227,19 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
       bevelEnabled: false,
     });
   }, [wd, wh]);
+
+  const { h: fh, d: fd } = defs("front-windows", 9 - 0.3, 0);
+  const frontWindows = useMemo(() => {
+    const svgString = `<path d="${fd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: fh,
+      bevelEnabled: false,
+    });
+  }, [fd, fh]);
 
   const { y: ky, h: kh, d: kd } = defs("knee-windows", 9 - 0.3, 0);
   const kneeWindows = useMemo(() => {
@@ -224,7 +256,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
 
   return (
     <mesh
-      name="parter"
+      name="first-floor"
       castShadow
       position={[0, 0, y + h]}
       rotation={[Math.PI, 0, 0]}
@@ -238,10 +270,20 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
           rotation={[Math.PI / 2, Math.PI / 2, 0]}
         />
         <Addition name="ceiling-" geometry={ceiling} position={[0, 0, h]} />
+        <Addition
+          name="attic-"
+          geometry={attic}
+          position={[0, 0, y + h - th - ty]}
+        />
         <Subtraction
           name="windows-"
           geometry={windows}
           position={[0, 0, h - wh]}
+        />
+        <Subtraction
+          name="windows-"
+          geometry={frontWindows}
+          position={[0, 0, h - fh]}
         />
         <Subtraction
           name="knee-"
@@ -252,7 +294,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
       ) : (
-        <meshStandardMaterial color="#9d4b4b" />
+        <meshStandardMaterial color="#fff" />
       )}
     </mesh>
   );
@@ -275,6 +317,32 @@ function Roof({ wireframe }: { wireframe: boolean }) {
       bevelEnabled: false,
     });
   }, [r]);
+
+  const { y: ty, h: th, d: td } = defs("attic", 9 - 0.3, 0);
+  const attic = useMemo(() => {
+    const svgString = `<path d="${td}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: th,
+      bevelEnabled: false,
+    });
+  }, [td, th]);
+
+  const p = profile("profile", 9, 5);
+  const profile1 = useMemo(() => {
+    const svgString = `<path d="${p}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 19.8,
+      bevelEnabled: false,
+    });
+  }, [p]);
 
   const windowsS = useMemo(() => {
     const svgString = `<path d="${ws}"/>`;
@@ -306,28 +374,43 @@ function Roof({ wireframe }: { wireframe: boolean }) {
     <mesh
       name="roof"
       castShadow
-      position={[0.2, 5, y + h - 1.2]}
-      rotation={[-Math.PI / 2, Math.PI / 2, 0]}
+      // position={[0.2, 5, y + h - 1.2]}
+      position={[0, 0, ty + th]}
+      // rotation={[-Math.PI / 2, Math.PI / 2, 0]}
+      rotation={[Math.PI, 0, 0]}
     >
       <Geometry>
-        <Base name="roof-" geometry={roof} />
+        <Base name="attic-" geometry={attic} />
+        <Intersection
+          name="profile-"
+          geometry={profile1}
+          position={[0.2, -5, 1.6 - 0.15]}
+          rotation={[Math.PI / 2, Math.PI / 2, 0]}
+        />
+        <Addition
+          name="roof-"
+          geometry={roof}
+          // position={[0, 0, y + h - th - ty]}
+          position={[0.2, -5, 1.45]}
+          rotation={[0, Math.PI / 2, Math.PI / 2]}
+        />
         <Subtraction
           name="windows-"
           geometry={windowsS}
-          position={[19, 4, 0]}
-          rotation={[Math.PI / 2, +alpha, Math.PI / 2]}
+          position={[0.2, 0.65, -4.3]}
+          rotation={[alpha, 0, 0]}
         />
         <Subtraction
           name="windows-"
           geometry={windowsW}
-          position={[9, -3, 0]}
-          rotation={[Math.PI / 2, -alpha, Math.PI / 2]}
+          position={[0.2, -2.8, 2.8]}
+          rotation={[-alpha, 0, 0]}
         />
       </Geometry>
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
       ) : (
-        <meshStandardMaterial color="#9d4b4b" />
+        <meshStandardMaterial color="#fff" />
       )}
     </mesh>
   );
@@ -361,13 +444,137 @@ function Chimney({ wireframe }: { wireframe: boolean }) {
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
       ) : (
-        <meshStandardMaterial color="#9d4b4b" />
+        <meshStandardMaterial color="#fff" />
+      )}
+    </mesh>
+  );
+}
+
+function Stairs({ wireframe }: { wireframe: boolean }) {
+  const w = 1,
+    d = 0.28,
+    h = 0.1725;
+  const a = 1,
+    b = 15 + 1,
+    c = a + 2;
+  let x = 0,
+    y = 0,
+    z = 0;
+
+  // const { y, h } = defs("stairs", 9 - 0.3, 0);
+
+  return (
+    <mesh
+      name="stairs"
+      castShadow
+      position={[6.62 - 1.72, -8.22 + 1.48, 0.1]}
+      rotation={[Math.PI / 2, Math.PI / 2, 0]}
+    >
+      <Geometry>
+        <Base geometry={new THREE.BoxGeometry(d, h, d)} />
+        {Array.from(Array(a)).map((_, i) => (
+          <Addition
+            key={++x}
+            geometry={new THREE.BoxGeometry(i ? d : d, h, w)}
+            position={[(w - d) / 2 - +x * d, x * h, 0]}
+          />
+        ))}
+        {Array.from(Array(b)).map((_, i) => (
+          <Addition
+            key={++y}
+            geometry={new THREE.BoxGeometry(w, h, i ? d : w)}
+            position={[
+              (1 - x) * d - d,
+              (x + y) * h,
+              (i ? (w - d) / 2 : 0) + y * d,
+            ]}
+          />
+        ))}
+        {Array.from(Array(c)).map((_, i) => (
+          <Addition
+            key={++z}
+            geometry={new THREE.BoxGeometry(i ? d : w, h, w)}
+            position={[
+              (z - x) * d + (i ? (w - d) / 2 : 0),
+              (x + y + z) * h,
+              (Math.max(y, 1) - 1) * d + w,
+            ]}
+          />
+        ))}
+      </Geometry>
+      {wireframe ? (
+        <meshBasicMaterial color="#2f7f4f" wireframe />
+      ) : (
+        <meshStandardMaterial color="#fff" />
+      )}
+    </mesh>
+  );
+}
+
+function Stairs2({ wireframe }: { wireframe: boolean }) {
+  const w = 1.05,
+    d = 0.28,
+    h = 0.1725;
+  const a = 6,
+    b = 0,
+    c = a + 6;
+  let x = 0,
+    y = 0,
+    z = 0;
+
+  // const { y, h } = defs("stairs", 9 - 0.3, 0);
+
+  return (
+    <mesh
+      name="stairs"
+      castShadow
+      position={[6.64, -2.38 - d, 0.1]}
+      rotation={[Math.PI / 2, -Math.PI / 2, 0]}
+      scale={[1, 1, -1]}
+    >
+      <Geometry>
+        <Base geometry={new THREE.BoxGeometry(d, h, d)} />
+        {Array.from(Array(a)).map((_, i) => (
+          <Addition
+            key={++x}
+            geometry={new THREE.BoxGeometry(i ? d : d, h, w)}
+            position={[(w - d) / 2 - +x * d, x * h, 0]}
+          />
+        ))}
+        {Array.from(Array(b)).map((_, i) => (
+          <Addition
+            key={++y}
+            geometry={new THREE.BoxGeometry(w, h, i ? d : w)}
+            position={[
+              (1 - x) * d - d,
+              (x + y) * h,
+              (i ? (w - d) / 2 : 0) + y * d,
+            ]}
+          />
+        ))}
+        {Array.from(Array(c)).map((_, i) => (
+          <Addition
+            key={++z}
+            geometry={new THREE.BoxGeometry(i ? d : w, h, b || i ? w : 2 * w)}
+            position={[
+              (z - x) * d + (i ? (w - d) / 2 : 0),
+              (x + y + z) * h,
+              (Math.max(y, 1) - 1) * d + (b || i ? w : w / 2),
+            ]}
+          />
+        ))}
+      </Geometry>
+      {wireframe ? (
+        <meshBasicMaterial color="#2f7f4f" wireframe />
+      ) : (
+        <meshStandardMaterial color="#fff" />
       )}
     </mesh>
   );
 }
 
 export default function Stl({ name }: { name: string }) {
+  const [expanded, setExpanded] = useState(true);
   const [preview, setPreview] = useState("");
   const [wireframe, setWireframe] = useState(true);
   const [showCanvas] = useState(true);
@@ -378,7 +585,7 @@ export default function Stl({ name }: { name: string }) {
     cellColor: "#6f6f6f",
     sectionSize: { value: 100, min: 0, max: 10, step: 0.1 }.value,
     sectionThickness: { value: 1.5, min: 0, max: 5, step: 0.1 }.value,
-    sectionColor: "#9d4b4b",
+    sectionColor: "#fff",
     fadeDistance: { value: 250, min: 0, max: 100, step: 1 }.value,
     fadeStrength: { value: 1, min: 0, max: 1, step: 0.1 }.value,
     followCamera: false,
@@ -436,6 +643,11 @@ export default function Stl({ name }: { name: string }) {
     }
   }, [groupRef, name]);
 
+  const handleExpand: ChangeEventHandler<HTMLInputElement> = useCallback(
+    ({ target }) => setExpanded(target.checked),
+    [],
+  );
+
   const handleToggle: ChangeEventHandler<HTMLInputElement> = useCallback(
     ({ target }) => setWireframe(target.checked),
     [],
@@ -443,14 +655,31 @@ export default function Stl({ name }: { name: string }) {
 
   const handleFileChange: ChangeEventHandler<HTMLInputElement> = useCallback(
     ({ target }) => {
-      // https://stackoverflow.com/questions/38049966/get-image-preview-before-uploading-in-react
-      const objectUrl = URL.createObjectURL((target.files as FileList)[0]);
-      setPreview(objectUrl);
-
-      // free memory when ever this component is unmounted
-      return () => URL.revokeObjectURL(objectUrl);
+      const [file] = target.files as FileList;
+      if (file) {
+        // https://stackoverflow.com/questions/38049966/get-image-preview-before-uploading-in-react
+        const objectUrl = URL.createObjectURL(file);
+        setPreview(objectUrl);
+        // free memory when ever this component is unmounted
+        // return () => URL.revokeObjectURL(objectUrl);
+      }
     },
     [],
+  );
+
+  const canvasRef = useRef<HTMLCanvasElement>(null);
+
+  const handleSave = useCallback<MouseEventHandler>(
+    (e) => {
+      e.preventDefault();
+      if (canvasRef.current) {
+        save(
+          canvasRef.current.toDataURL("image/png"),
+          `${new Date().toISOString().split(".").shift()}-screenshot.png`,
+        );
+      }
+    },
+    [canvasRef],
   );
 
   return (
@@ -462,15 +691,20 @@ export default function Stl({ name }: { name: string }) {
           padding: 8,
         }}
       >
-        <button onClick={handleExport}>save as stl</button>
+        <button onClick={handleExport}>save as obj</button>{" "}
+        <button onClick={handleSave}>save as png</button>{" "}
         <input type="file" onChange={handleFileChange} />
-        {preview && <button onClick={() => setPreview("")}>x</button>}
+        {preview && <button onClick={() => setPreview("")}>x</button>}{" "}
+        <label>
+          <input type="checkbox" onChange={handleExpand} checked={expanded} />
+          <span>expanded</span>
+        </label>{" "}
         <label>
           <input type="checkbox" onChange={handleToggle} checked={wireframe} />
           <span>wireframe</span>
         </label>
       </div>
-      <div style={{ height: 400, position: "relative" }}>
+      <div style={{ height: expanded ? 800 : 200, position: "relative" }}>
         {preview && (
           <div style={{ position: "absolute", width: "100%", height: "100%" }}>
             <img
@@ -481,18 +715,22 @@ export default function Stl({ name }: { name: string }) {
         )}
         {showCanvas && (
           <Canvas
+            ref={canvasRef}
             shadows
             camera={{
               fov: 30,
               position: [-10, -20, 30],
               up: [0, 0, 1],
             }}
+            gl={{ preserveDrawingBuffer: true }}
           >
             <group ref={groupRef} name="dom">
               <GroundFloor wireframe={wireframe} />
               <FirstFloor wireframe={wireframe} />
               <Roof wireframe={wireframe} />
               <Chimney wireframe={wireframe} />
+              <Stairs wireframe={wireframe} />
+              <Stairs2 wireframe={wireframe} />
             </group>
             <Grid
               position={[0, 0, 0]}
@@ -504,7 +742,7 @@ export default function Stl({ name }: { name: string }) {
             {!wireframe && <Environment preset="city" />}
             <GizmoHelper alignment="bottom-right" margin={[80, 80]}>
               <GizmoViewport
-                axisColors={["#9d4b4b", "#2f7f4f", "#3b5b9d"]}
+                axisColors={["#fff", "#2f7f4f", "#3b5b9d"]}
                 labelColor="white"
               />
             </GizmoHelper>
