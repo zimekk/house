@@ -39,6 +39,7 @@ import { GLTFExporter } from "three/addons/exporters/GLTFExporter.js";
 import { STLExporter } from "three/addons/exporters/STLExporter.js";
 import { OBJExporter } from "three/addons/exporters/OBJExporter.js";
 import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
+import { ric } from "@dev/model/utils";
 import defs from "../App/defs";
 import profile from "../App/profile";
 import styles from "./styles.module.scss";
@@ -65,6 +66,39 @@ function saveArrayBuffer(buffer: BlobPart, filename: string) {
   );
 }
 
+function Ground({ wireframe }: { wireframe: boolean }) {
+  const { y: gy, h: gh, d: gd } = defs("ground", 9 - 0.3, 0);
+  const ground = useMemo(() => {
+    const svgString = `<path d="${gd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: gh,
+      bevelEnabled: false,
+    });
+  }, [gd, gh]);
+
+  return (
+    <mesh
+      name="ground"
+      castShadow
+      position={[0, 0, gy + gh]}
+      rotation={[Math.PI, 0, 0]}
+    >
+      <Geometry>
+        <Base name="ground-" geometry={ground} />
+      </Geometry>
+      {wireframe ? (
+        <meshBasicMaterial color="#2f7f4f" wireframe />
+      ) : (
+        <meshStandardMaterial color="#fff" />
+      )}
+    </mesh>
+  );
+}
+
 function GroundFloor({ wireframe }: { wireframe: boolean }) {
   const { y, h, d } = defs("ground-floor", 9 - 0.3, 0);
   const base = useMemo(() => {
@@ -78,19 +112,6 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
       bevelEnabled: false,
     });
   }, [d, h]);
-
-  const { h: gh, d: gd } = defs("ground", 9 - 0.3, 0);
-  const ground = useMemo(() => {
-    const svgString = `<path d="${gd}"/>`;
-    const svgData = loader.parse(svgString);
-    const [path] = svgData.paths;
-
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
-      steps: 1,
-      depth: gh,
-      bevelEnabled: false,
-    });
-  }, [gd, gh]);
 
   const { h: wh, d: wd } = defs("ground-floor-windows", 9 - 0.3, 0);
   const windows = useMemo(() => {
@@ -118,6 +139,19 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     });
   }, [kd, kh]);
 
+  const { y: ry, h: rh, d: rd } = defs("garage-windows", 9 - 0.3, 0);
+  const garageWindows = useMemo(() => {
+    const svgString = `<path d="${rd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: rh,
+      bevelEnabled: false,
+    });
+  }, [rd, rh]);
+
   const { h: dh, d: dd } = defs("garage-doors", 9 - 0.3, 0);
   const garage = useMemo(() => {
     const svgString = `<path d="${dd}"/>`;
@@ -140,7 +174,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     >
       <Geometry>
         <Base name="base-" geometry={base} />
-        <Addition name="ground-" geometry={ground} position={[0, 0, h]} />
+        {/* <Addition name="ground-" geometry={ground} position={[0, 0, h]} /> */}
         <Subtraction name="windows-" geometry={windows} position={[0, 0, 0]} />
         <Subtraction
           name="kitchen-"
@@ -151,6 +185,62 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
           name="garage-"
           geometry={garage}
           position={[0, 0, h - dh]}
+        />
+        <Subtraction
+          name="garage-"
+          geometry={garageWindows}
+          position={[0, 0, y + h - rh - ry]}
+        />
+      </Geometry>
+      {wireframe ? (
+        <meshBasicMaterial color="#2f7f4f" wireframe />
+      ) : (
+        <meshStandardMaterial color="#fff" />
+      )}
+    </mesh>
+  );
+}
+
+function Ceiling({ wireframe }: { wireframe: boolean }) {
+  const { y: cy, h: ch, d: cd } = defs("ceiling", 9 - 0.3, 0);
+  const ceiling = useMemo(() => {
+    const svgString = `<path d="${cd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: ch,
+      bevelEnabled: false,
+    });
+  }, [cd, ch]);
+
+  const { y: ty, h: th, d: td } = defs("terrace-attic", 9 - 0.3, 0);
+  const attic = useMemo(() => {
+    const svgString = `<path d="${td}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: th,
+      bevelEnabled: false,
+    });
+  }, [td, th]);
+
+  return (
+    <mesh
+      name="ceiling"
+      castShadow
+      position={[0, 0, cy + ch]}
+      rotation={[Math.PI, 0, 0]}
+    >
+      <Geometry>
+        <Base name="ceiling-" geometry={ceiling} />
+        <Addition
+          name="attic-"
+          geometry={attic}
+          position={[0, 0, cy + ch - th - ty]}
         />
       </Geometry>
       {wireframe ? (
@@ -188,32 +278,6 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
       bevelEnabled: false,
     });
   }, [p]);
-
-  const { h: ch, d: cd } = defs("ceiling", 9 - 0.3, 0);
-  const ceiling = useMemo(() => {
-    const svgString = `<path d="${cd}"/>`;
-    const svgData = loader.parse(svgString);
-    const [path] = svgData.paths;
-
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
-      steps: 1,
-      depth: ch,
-      bevelEnabled: false,
-    });
-  }, [cd, ch]);
-
-  const { y: ty, h: th, d: td } = defs("terrace-attic", 9 - 0.3, 0);
-  const attic = useMemo(() => {
-    const svgString = `<path d="${td}"/>`;
-    const svgData = loader.parse(svgString);
-    const [path] = svgData.paths;
-
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
-      steps: 1,
-      depth: th,
-      bevelEnabled: false,
-    });
-  }, [td, th]);
 
   const { h: wh, d: wd } = defs("first-floor-windows", 9 - 0.3, 0);
   const windows = useMemo(() => {
@@ -269,12 +333,24 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
           position={[0.2, -5, y + h - 5]}
           rotation={[Math.PI / 2, Math.PI / 2, 0]}
         />
-        <Addition name="ceiling-" geometry={ceiling} position={[0, 0, h]} />
-        <Addition
-          name="attic-"
-          geometry={attic}
-          position={[0, 0, y + h - th - ty]}
-        />
+        {((x, z) => (
+          <>
+            <Addition
+              name="skylight-"
+              geometry={new THREE.BoxGeometry(1.2, 1.2, 0.2)}
+              position={[-1.2 + 0.48 + x, -2.1 + 0.48 + z, y - 0.65 - 0.2 / 2]}
+            />
+            <Subtraction
+              name="skylight-"
+              geometry={new THREE.BoxGeometry(1, 1, 0.2 + 0.66 + 0.1)}
+              position={[
+                -1.2 + 0.48 + x,
+                -2.1 + 0.48 + z,
+                y - 0.65 - 0.2 / 2 + 0.65 / 2,
+              ]}
+            />
+          </>
+        ))(6.36 - 1 + 0.1, 1 / 2)}
         <Subtraction
           name="windows-"
           geometry={windows}
@@ -300,8 +376,81 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
   );
 }
 
-function Roof({ wireframe }: { wireframe: boolean }) {
+function Attic({ wireframe }: { wireframe: boolean }) {
   const { y, h } = defs("first-floor", 9 - 0.3, 0);
+
+  const { y: ty, h: th, d: td } = defs("attic", 9 - 0.3, 0);
+  const attic = useMemo(() => {
+    const svgString = `<path d="${td}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: th,
+      bevelEnabled: false,
+    });
+  }, [td, th]);
+
+  const { y: gy, h: gh, d: gd } = defs("gable-walls", 9 - 0.3, 0);
+  const gable = useMemo(() => {
+    const svgString = `<path d="${gd}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: gh,
+      bevelEnabled: false,
+    });
+  }, [gd, gh]);
+
+  const p = profile("profile", 9, 5);
+  const profile1 = useMemo(() => {
+    const svgString = `<path d="${p}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 19.8,
+      bevelEnabled: false,
+    });
+  }, [p]);
+
+  // const alpha = (35 * Math.PI) / 180;
+
+  return (
+    <mesh
+      name="attic"
+      castShadow
+      position={[0, 0, ty + th]}
+      rotation={[Math.PI, 0, 0]}
+    >
+      <Geometry>
+        <Base name="attic-" geometry={attic} />
+        <Addition
+          name="gable-"
+          geometry={gable}
+          position={[0, 0, y + h - gh - gy]}
+        />
+        <Intersection
+          name="profile-"
+          geometry={profile1}
+          position={[0.2, -5, 1.6 - 0.15]}
+          rotation={[Math.PI / 2, Math.PI / 2, 0]}
+        />
+      </Geometry>
+      {wireframe ? (
+        <meshBasicMaterial color="#2f7f4f" wireframe />
+      ) : (
+        <meshStandardMaterial color="#fff" />
+      )}
+    </mesh>
+  );
+}
+
+function Roof({ wireframe }: { wireframe: boolean }) {
   const r = profile("roof", 9, 5);
   const ws = profile("windows-s", 9 - 0.5, 2);
   const ww = profile("windows-w", 9 - 0.5, 2);
@@ -374,9 +523,7 @@ function Roof({ wireframe }: { wireframe: boolean }) {
     <mesh
       name="roof"
       castShadow
-      // position={[0.2, 5, y + h - 1.2]}
       position={[0, 0, ty + th]}
-      // rotation={[-Math.PI / 2, Math.PI / 2, 0]}
       rotation={[Math.PI, 0, 0]}
     >
       <Geometry>
@@ -406,6 +553,22 @@ function Roof({ wireframe }: { wireframe: boolean }) {
           position={[0.2, -2.8, 2.8]}
           rotation={[-alpha, 0, 0]}
         />
+        {Array.from(Array(32)).map((_, i) =>
+          [2 * 4, 2 * 5, 2 * 6].includes(i)
+            ? null
+            : ((w = 1.134, h = 1.99, d = 0.1, m = 0.03, r = 2) => (
+                <Addition
+                  key={i}
+                  geometry={new THREE.BoxGeometry(w, h, d)}
+                  position={(([a, b], x, y) => [
+                    0.8 + 1.1 / 2 + (w + m) * x,
+                    7 - b * y,
+                    0.1 - a * y,
+                  ])(ric(h + m), Math.floor(i / r), i % r)}
+                  rotation={[alpha, 0, 0]}
+                />
+              ))(),
+        )}
       </Geometry>
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
@@ -461,8 +624,6 @@ function Stairs({ wireframe }: { wireframe: boolean }) {
     y = 0,
     z = 0;
 
-  // const { y, h } = defs("stairs", 9 - 0.3, 0);
-
   return (
     <mesh
       name="stairs"
@@ -515,9 +676,9 @@ function Stairs2({ wireframe }: { wireframe: boolean }) {
   const w = 1.05,
     d = 0.28,
     h = 0.1725;
-  const a = 6,
+  const a = 9,
     b = 0,
-    c = a + 6;
+    c = a + 2;
   let x = 0,
     y = 0,
     z = 0;
@@ -528,7 +689,7 @@ function Stairs2({ wireframe }: { wireframe: boolean }) {
     <mesh
       name="stairs"
       castShadow
-      position={[6.64, -2.38 - d, 0.1]}
+      position={[6.64, -2.4 - d * 4, 0.1]}
       rotation={[Math.PI / 2, -Math.PI / 2, 0]}
       scale={[1, 1, -1]}
     >
@@ -573,10 +734,16 @@ function Stairs2({ wireframe }: { wireframe: boolean }) {
   );
 }
 
-export default function Stl({ name }: { name: string }) {
+export default function Stl({
+  name = "house",
+  selected,
+}: {
+  name?: string;
+  selected: string[];
+}) {
   const [expanded, setExpanded] = useState(true);
   const [preview, setPreview] = useState("");
-  const [wireframe, setWireframe] = useState(true);
+  const [wireframe, setWireframe] = useState(false);
   const [showCanvas] = useState(true);
   const [gridConfig] = useState({
     // gridSize: [10.5, 10.5],
@@ -616,8 +783,22 @@ export default function Stl({ name }: { name: string }) {
           );
           break;
         case "obj":
+          // const data: ObjectMap = { nodes: {}, materials: {} };
+          const scene = groupRef.current;
+          console.log(scene);
+          // console.log((groupRef.current.traverse))
+
+          scene.traverse((o) => {
+            if (o.name.includes("-")) {
+              // o.removeFromParent()
+              o.remove();
+            } else if (o.name) {
+              console.log(o);
+              // data.nodes[o.name] = o;
+            }
+          });
           saveArrayBuffer(
-            new OBJExporter().parse(groupRef.current),
+            new OBJExporter().parse(scene),
             `${new Date().toISOString().split(".").shift()}-${name}.obj`,
           );
           break;
@@ -725,10 +906,21 @@ export default function Stl({ name }: { name: string }) {
             gl={{ preserveDrawingBuffer: true }}
           >
             <group ref={groupRef} name="dom">
-              <GroundFloor wireframe={wireframe} />
-              <FirstFloor wireframe={wireframe} />
-              <Roof wireframe={wireframe} />
-              <Chimney wireframe={wireframe} />
+              {selected.includes("ground") && <Ground wireframe={wireframe} />}
+              {selected.includes("ground-floor") && (
+                <GroundFloor wireframe={wireframe} />
+              )}
+              {selected.includes("ceiling") && (
+                <Ceiling wireframe={wireframe} />
+              )}
+              {selected.includes("first-floor") && (
+                <FirstFloor wireframe={wireframe} />
+              )}
+              {selected.includes("attic") && <Attic wireframe={wireframe} />}
+              {selected.includes("roof") && <Roof wireframe={wireframe} />}
+              {selected.includes("chimney") && (
+                <Chimney wireframe={wireframe} />
+              )}
               <Stairs wireframe={wireframe} />
               <Stairs2 wireframe={wireframe} />
             </group>
@@ -739,7 +931,16 @@ export default function Stl({ name }: { name: string }) {
               {...gridConfig}
             />
             <OrbitControls makeDefault />
-            {!wireframe && <Environment preset="city" />}
+            {!wireframe && (
+              <Environment
+                preset="city"
+                environmentRotation={[
+                  (90 * Math.PI) / 180,
+                  (90 * Math.PI) / 180,
+                  (30 * Math.PI) / 180,
+                ]}
+              />
+            )}
             <GizmoHelper alignment="bottom-right" margin={[80, 80]}>
               <GizmoViewport
                 axisColors={["#fff", "#2f7f4f", "#3b5b9d"]}

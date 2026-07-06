@@ -1,4 +1,5 @@
 import React, {
+  ChangeEventHandler,
   MouseEventHandler,
   Suspense,
   lazy,
@@ -19,14 +20,33 @@ const items = [
   "ceiling",
   "first-floor",
   "attic",
+  "roof",
   "chimney",
   "ground-floor-windows",
   "first-floor-windows",
 ];
 
 export default function App() {
-  const [selected, setSelected] = useState(() => "");
+  const [selected, setSelected] = useState<typeof items>(() => [
+    "ground",
+    "ground-floor",
+    "first-floor",
+    "ceiling",
+    "attic",
+    "roof",
+    "chimney",
+  ]);
   const svgRef = useRef<SVGSVGElement>(null);
+
+  const handleToggle: ChangeEventHandler<HTMLInputElement> = useCallback(
+    ({ target }) =>
+      setSelected((selected) =>
+        selected
+          .filter((name) => name !== target.name)
+          .concat(target.checked ? [target.name] : []),
+      ),
+    [],
+  );
 
   const onSave = useCallback<MouseEventHandler>(
     (e) => {
@@ -53,9 +73,9 @@ export default function App() {
     [svgRef],
   );
 
-  useEffect(() => {
-    setSelected(items[0]);
-  }, []);
+  // useEffect(() => {
+  //   setSelected(items[0]);
+  // }, []);
 
   return (
     <>
@@ -67,18 +87,25 @@ export default function App() {
         }}
       >
         {items.map((item, index) => (
-          <a
-            href="#"
+          <span
             key={index}
             style={{
               // color: "white",
               margin: 4,
-              textDecoration: selected === item ? "underline" : "",
+              // textDecoration: selected === item ? "underline" : "",
             }}
-            onClick={(e) => (e.preventDefault(), setSelected(item))}
+            // onClick={(e) => (e.preventDefault(), setSelected(item))}
           >
-            {item}
-          </a>
+            <label>
+              <input
+                type="checkbox"
+                name={item}
+                onChange={handleToggle}
+                checked={selected.includes(item)}
+              />
+              <span>{item}</span>
+            </label>
+          </span>
         ))}
         <a href="#" onClick={onSave}>
           save as svg
@@ -89,14 +116,27 @@ export default function App() {
           <div className={styles.Wrapper}>
             {true && (
               <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg">
-                <Svg d={defs(selected, 9 - 0.3, -0.5).d} />
-                {selected === "ground-floor" ? (
+                {/* <Svg d={defs(selected, 9 - 0.3, -0.5).d} /> */}
+                {selected.includes("ground") && (
+                  <>
+                    <Svg d={defs("ground", 9 - 0.3, -0.5).d} />
+                  </>
+                )}
+                {selected.includes("ground-floor") && (
                   <>
                     <Svg d={defs("ground-floor-windows", 9 - 0.3, -0.5).d} />
+                    <Svg d={defs("garage-windows", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("garage-doors", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("chimney", 9 - 0.3, -0.5).d} />
                   </>
-                ) : selected === "first-floor" ? (
+                )}
+                {selected.includes("ceiling") && (
+                  <>
+                    <Svg d={defs("ceiling", 9 - 0.3, -0.5).d} />
+                    <Svg d={defs("terrace", 9 - 0.3, -0.5).d} />
+                  </>
+                )}
+                {selected.includes("first-floor") && (
                   <>
                     <Svg d={defs("first-floor-windows", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("knee-windows", 9 - 0.3, -0.5).d} />
@@ -104,17 +144,14 @@ export default function App() {
                     <Svg d={profile("windows-s", 9 - 0.3, -0.5)} />
                     <Svg d={profile("windows-w", 9 - 0.3, -0.5)} />
                   </>
-                ) : selected === "ceiling" ? (
-                  <>
-                    <Svg d={defs("terrace", 9 - 0.3, -0.5).d} />
-                  </>
-                ) : null}
+                )}
                 {/* <Svg d={profile("profile", 9, 6)} /> */}
                 {/* <Svg d={profile("roof", 9 + 10, 6)} /> */}
               </svg>
             )}
             <Stl
-              name={selected}
+              selected={selected}
+              // name={selected}
               // path={defs(selected, 9 - 0.3, 0)}
               // r={profile("roof", 9, 5)}
               // p={profile("profile", 9, 5)}
