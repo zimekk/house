@@ -73,6 +73,12 @@ export default function App() {
       location: [52.2146506, 21.1356086],
     },
     {
+      name: "Producent stolarki aluminiowej ALMATEX",
+      website: "https://almatex.com.pl/kontakt",
+      address: "Leśna 45, 05-270 Marki",
+      location: [52.3115735, 21.1063488],
+    },
+    {
       name: "AlmiDécor",
       website: "https://almidecor.com/pages/showroom-almidecor-warszawa",
       address: "Wiertnicza 159, 02-956 Warszawa",
@@ -133,16 +139,46 @@ export default function App() {
       location: [52.213226, 20.9150625],
     },
     {
+      name: "ISS Ogrodzenia - Wiśniowski, Konsport - Ogrodzenia panelowe i palisadowe, Bramy garażowe",
+      website: "https://ogrodzenia-iss.pl/",
+      address: "Obwodnica 1, 05-840 Brwinów",
+      location: [52.1315122, 20.6059591],
+    },
+    {
+      name: "Jarbetal sp.j. Szkiela B.J.",
+      website: "https://jarbetal.pl/kontakt/",
+      address: "Groblowa 3, 05-804 Pruszków",
+      location: [52.1660478, 20.7719672],
+    },
+    {
       name: "KOMA Oświetlenie",
       website: "https://koma.lux.pl/Kontakt,pid,45.html",
       address: "Czerniakowska 42, 00-715 Warszawa",
       location: [52.2061738, 21.0470168],
     },
     {
+      name: "Marmorin design",
+      website: "https://marmorindesign.pl/kontakt/",
+      address: "Puławska 300A/6, 02-819 Warszawa",
+      location: [52.1476162, 21.0161285],
+    },
+    {
       name: "Peka Showroom Warszawa",
       website: "https://peka.pl/",
       address: "Józefa Sierakowskiego 4/lok. U10, 03-712 Warszawa",
       location: [52.2490864, 21.0315601],
+    },
+    {
+      name: "Stone Group",
+      website: "https://www.ceglynaelewacje.pl/",
+      address: "Powstańców Śląskich 65, 01-355 Warszawa",
+      location: [52.2332554, 20.9118035],
+    },
+    {
+      name: "STUV HOUSE KOMINKI KOZŁOWSKI WARSZAWA",
+      website: "http://kominki-kozlowski.pl/",
+      address: "Sokołowska 50, 05-090 Wypędy",
+      location: [52.1440676, 20.881056],
     },
   ]);
   const mapElement = useRef<HTMLDivElement>(null);
