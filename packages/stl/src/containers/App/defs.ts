@@ -1,4 +1,4 @@
-import { type Point, rect, shift } from "@dev/model/utils";
+import { type Point, inner, rect, shift } from "@dev/model/utils";
 
 const draw = (ps: Point[]) =>
   ps
@@ -10,6 +10,8 @@ const hole = (ps: Point[]) => draw(ps.slice().reverse());
 
 const line = (p: Point) => `L${p.join(" ")}`;
 const move = (p: Point) => `M${p.join(" ")}`;
+
+const at = 0.6;
 
 export default (level: string, x = 0, y = 0) => {
   const gabinet = ((x, y, w, h) => rect([x, y - h], [x + w, y]))(
@@ -125,12 +127,12 @@ export default (level: string, x = 0, y = 0) => {
           d: [
             draw([
               [x, y],
-              [x + 11.3 - 4 - 0.48, y],
-              [x + 11.3 - 4 - 0.48, y - 1.7],
+              [x + 11.3 - 4 - at, y],
+              [x + 11.3 - 4 - at, y - 1.7],
               [x + 11.3 + 3, y - 1.7],
               [x + 11.3 + 3, y + 1.9 + 6.1 + 1.9],
-              [x + 11.3 - 0.48, y + 1.9 + 6.1 + 1.9],
-              [x + 11.3 - 0.48, y + 1.9 + 6.1],
+              [x + 11.3 - at, y + 1.9 + 6.1 + 1.9],
+              [x + 11.3 - at, y + 1.9 + 6.1],
               [x + 11.3 - 15.28, y + 1.9 + 6.1],
               [x + 11.3 - 15.28, y + 1.9 + 6.1 + 1.9],
               [x + 11.3 - 15.28 - 4.52 - 1.2 - 0.8, y + 1.9 + 6.1 + 1.9],
@@ -177,18 +179,18 @@ export default (level: string, x = 0, y = 0) => {
               //   shift(bryla[1], [-4,0]),
               // ]),
               draw([
-                shift(bryla[1], [-4 - 0.48, -1.7]),
+                shift(bryla[1], [-4 - at, -1.7]),
                 shift(bryla[1], [3, -1.7]),
                 shift(bryla[2], [3, 1.9]),
-                shift(bryla[2], [-0.48, 1.9]),
-                shift(bryla[2], [-0.48, 0]),
+                shift(bryla[2], [-at, 1.9]),
+                shift(bryla[2], [-at, 0]),
                 shift(bryla[2], [0, 0]),
-                shift(bryla[2], [0, 1.9 - 0.48]),
-                shift(bryla[2], [3 - 0.48, 1.9 - 0.48]),
-                shift(bryla[1], [3 - 0.48, 0.48 - 1.7]),
-                shift(bryla[1], [-4, 0.48 - 1.7]),
+                shift(bryla[2], [0, 1.9 - at]),
+                shift(bryla[2], [3 - at, 1.9 - at]),
+                shift(bryla[1], [3 - at, at - 1.7]),
+                shift(bryla[1], [-4, at - 1.7]),
                 shift(bryla[1], [-4, 0]),
-                shift(bryla[1], [-4 - 0.48, 0]),
+                shift(bryla[1], [-4 - at, 0]),
               ]),
               // draw([
               //   shift(bryla[0], [.48+5.44+2.1,-2.7+.48]),
@@ -204,12 +206,12 @@ export default (level: string, x = 0, y = 0) => {
                 shift(garaz[0], [-0.48 - 0.8, -0.48]),
                 shift(kotlownia[1], [0.48, -0.48]),
                 shift(kotlownia[2], [0.48, 0.24 - 0.48]),
-                shift(kotlownia[2], [0, 0.24 - 0.48]),
-                shift(kotlownia[1], [0, 0]),
-                shift(garaz[0], [-0.8, 0]),
-                shift(gabinet[3], [-0.8 - 1.2, 0]),
-                shift(gabinet[2], [0, 0]),
-                shift(gabinet[2], [0, -1.9 + 0.48]),
+                shift(kotlownia[2], [0.48 - at, 0.24 - 0.48]),
+                shift(kotlownia[1], [0.48 - at, at - 0.48]),
+                shift(garaz[0], [at - 0.48 - 0.8, at - 0.48]),
+                shift(gabinet[3], [at - 0.48 - 0.8 - 1.2, 0.48 - at]),
+                shift(gabinet[2], [0.48 - at, 0.48 - at]),
+                shift(gabinet[2], [0.48 - at, -1.9 + 0.48]),
                 shift(gabinet[2], [+0.48, -1.9 + 0.48]),
                 shift(gabinet[2], [+0.48, +0.48]),
                 shift(gabinet[3], [-0.48 - 0.8 - 1.2, +0.48]),
@@ -256,9 +258,9 @@ export default (level: string, x = 0, y = 0) => {
             }
           : level === "attic"
             ? {
-                y: 2.8 + 0.65 + 2.8,
-                h: 0.2,
-                d: [draw(bryla)].join(" "),
+                y: 2.8 + 0.65 + 2.8 + 0.2 - 0.02,
+                h: 0.02,
+                d: [draw(inner(bryla, 0.48))].join(" "),
               }
             : level === "chimney"
               ? {
@@ -555,7 +557,7 @@ export default (level: string, x = 0, y = 0) => {
                                 }
                               : level === "gable-walls"
                                 ? {
-                                    y: 2.8 + 0.65 + 0.7 + 1.2 + 0.7 + 0.2,
+                                    y: 2.8 + 0.65 + 0.7 + 1.2 + 0.7,
                                     h: 2,
                                     d: [
                                       draw(
@@ -599,23 +601,11 @@ export default (level: string, x = 0, y = 0) => {
                                         ],
                                         [
                                           x + 11.3 - 15.28 - 4.52 - 1.2,
-                                          y +
-                                            1.9 +
-                                            6.1 +
-                                            1.9 -
-                                            5.2 -
-                                            7.4 +
-                                            0.66,
+                                          y + 1.9 + 6.1 + 1.9 - 5.2 - 7.4 + at,
                                         ],
                                         [
                                           x + 11.3 - 15.28 - 4.52 - 1.2 - 0.8,
-                                          y +
-                                            1.9 +
-                                            6.1 +
-                                            1.9 -
-                                            5.2 -
-                                            7.4 +
-                                            0.66,
+                                          y + 1.9 + 6.1 + 1.9 - 5.2 - 7.4 + at,
                                         ],
                                         [
                                           x + 11.3 - 15.28 - 4.52 - 1.2 - 0.8,
@@ -733,7 +723,7 @@ export default (level: string, x = 0, y = 0) => {
                                       // draw(schody),
                                       draw(lazienka),
                                       draw(
-                                        ((a) => rect(a, shift(a, [3, 0.48])))(
+                                        ((a) => rect(a, shift(a, [3, at])))(
                                           shift(bryla[1], [0, -1.7]),
                                         ),
                                       ), // fixme

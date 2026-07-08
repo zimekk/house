@@ -39,7 +39,7 @@ import { GLTFExporter } from "three/addons/exporters/GLTFExporter.js";
 import { STLExporter } from "three/addons/exporters/STLExporter.js";
 import { OBJExporter } from "three/addons/exporters/OBJExporter.js";
 import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
-import { ric } from "@dev/model/utils";
+import { rib, ric } from "@dev/model/utils";
 import defs from "../App/defs";
 import profile from "../App/profile";
 import styles from "./styles.module.scss";
@@ -242,6 +242,24 @@ function Ceiling({ wireframe }: { wireframe: boolean }) {
           geometry={attic}
           position={[0, 0, cy + ch - th - ty]}
         />
+        {((x, z) => (
+          <>
+            <Addition
+              name="skylight-"
+              geometry={new THREE.BoxGeometry(1.2, 1.2, 0.2)}
+              position={[-1.2 + 0.48 + x, -2.1 + 0.48 + z, cy - 2.8 - 0.2 / 2]}
+            />
+            <Subtraction
+              name="skylight-"
+              geometry={new THREE.BoxGeometry(1, 1, 0.2 + 0.66 + 0.1)}
+              position={[
+                -1.2 + 0.48 + x,
+                -2.1 + 0.48 + z,
+                cy - 2.8 - 0.2 / 2 + 0.65 / 2,
+              ]}
+            />
+          </>
+        ))(6.36 - 1 + 0.1, 1 / 2)}
       </Geometry>
       {wireframe ? (
         <meshBasicMaterial color="#2f7f4f" wireframe />
@@ -333,24 +351,6 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
           position={[0.2, -5, y + h - 5]}
           rotation={[Math.PI / 2, Math.PI / 2, 0]}
         />
-        {((x, z) => (
-          <>
-            <Addition
-              name="skylight-"
-              geometry={new THREE.BoxGeometry(1.2, 1.2, 0.2)}
-              position={[-1.2 + 0.48 + x, -2.1 + 0.48 + z, y - 0.65 - 0.2 / 2]}
-            />
-            <Subtraction
-              name="skylight-"
-              geometry={new THREE.BoxGeometry(1, 1, 0.2 + 0.66 + 0.1)}
-              position={[
-                -1.2 + 0.48 + x,
-                -2.1 + 0.48 + z,
-                y - 0.65 - 0.2 / 2 + 0.65 / 2,
-              ]}
-            />
-          </>
-        ))(6.36 - 1 + 0.1, 1 / 2)}
         <Subtraction
           name="windows-"
           geometry={windows}
@@ -434,6 +434,23 @@ function Attic({ wireframe }: { wireframe: boolean }) {
           geometry={gable}
           position={[0, 0, y + h - gh - gy]}
         />
+        {((s = 19.8 - 2 * 0.48, k = 2, n = 24 * k) =>
+          Array.from(Array(n + k)).map((_, i) =>
+            ((w = 0.24, t = 0.08, h = 6, d = 0.2, m = (s - w) / (n / k)) => (
+              <Addition
+                key={i}
+                geometry={new THREE.BoxGeometry(t, h, d)}
+                position={(() => [
+                  m * Math.floor(i / k) +
+                    0.68 +
+                    w / 2 +
+                    (i % k ? -(w - t) / 2 : (w - t) / 2),
+                  h / 2 + 1,
+                  d / 2 + 0.02 + (i % k ? -0 : 0),
+                ])()}
+              />
+            ))(),
+          ))()}
         <Intersection
           name="profile-"
           geometry={profile1}
@@ -554,20 +571,35 @@ function Roof({ wireframe }: { wireframe: boolean }) {
           rotation={[-alpha, 0, 0]}
         />
         {Array.from(Array(32)).map((_, i) =>
-          [2 * 4, 2 * 5, 2 * 6].includes(i)
-            ? null
-            : ((w = 1.134, h = 1.99, d = 0.1, m = 0.03, r = 2) => (
-                <Addition
-                  key={i}
-                  geometry={new THREE.BoxGeometry(w, h, d)}
-                  position={(([a, b], x, y) => [
-                    0.8 + 1.1 / 2 + (w + m) * x,
-                    7 - b * y,
-                    0.1 - a * y,
-                  ])(ric(h + m), Math.floor(i / r), i % r)}
-                  rotation={[alpha, 0, 0]}
-                />
-              ))(),
+          ((
+            w = 1.134,
+            h = 1.762,
+            d = 0.1,
+            m = 0.03,
+            r = Math.floor(rib(4)[2] / h),
+          ) =>
+            [2 * 4, 2 * 5, 2 * 6].includes(i) ? null : (
+              <Addition
+                key={i}
+                geometry={new THREE.BoxGeometry(w, h, d)}
+                position={(([a, b], [da, db], x, y) => [
+                  0.8 +
+                    (w + m) * x +
+                    ((rw, wm) => (rw - wm * Math.floor((rw - m) / wm)) / 2)(
+                      19.8,
+                      w + m,
+                    ),
+                  7 - b * y + db,
+                  0.1 - a * y + da,
+                ])(
+                  ric(h + m),
+                  ric(-0.94 + (rib(4)[2] - (h + m) * r) / 2),
+                  Math.floor(i / r),
+                  i % r,
+                )}
+                rotation={[alpha, 0, 0]}
+              />
+            ))(),
         )}
       </Geometry>
       {wireframe ? (
