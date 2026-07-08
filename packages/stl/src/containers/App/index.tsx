@@ -24,6 +24,7 @@ const items = [
   "chimney",
   "ground-floor-windows",
   "first-floor-windows",
+  "stairs",
 ];
 
 export default function App() {
@@ -132,7 +133,7 @@ export default function App() {
                 )}
                 {selected.includes("ceiling") && (
                   <>
-                    <Svg d={defs("ceiling", 9 - 0.3, -0.5).d} />
+                    <Svg d={defs("ceiling", 9 - 0.3, -0.5, selected).d} />
                     <Svg d={defs("terrace", 9 - 0.3, -0.5).d} />
                   </>
                 )}

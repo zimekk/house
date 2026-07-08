@@ -201,8 +201,14 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
   );
 }
 
-function Ceiling({ wireframe }: { wireframe: boolean }) {
-  const { y: cy, h: ch, d: cd } = defs("ceiling", 9 - 0.3, 0);
+function Ceiling({
+  wireframe,
+  selected,
+}: {
+  wireframe: boolean;
+  selected: string[];
+}) {
+  const { y: cy, h: ch, d: cd } = defs("ceiling", 9 - 0.3, 0, selected);
   const ceiling = useMemo(() => {
     const svgString = `<path d="${cd}"/>`;
     const svgData = loader.parse(svgString);
@@ -213,7 +219,7 @@ function Ceiling({ wireframe }: { wireframe: boolean }) {
       depth: ch,
       bevelEnabled: false,
     });
-  }, [cd, ch]);
+  }, [cd, ch, selected]);
 
   const { y: ty, h: th, d: td } = defs("terrace-attic", 9 - 0.3, 0);
   const attic = useMemo(() => {
@@ -943,7 +949,7 @@ export default function Stl({
                 <GroundFloor wireframe={wireframe} />
               )}
               {selected.includes("ceiling") && (
-                <Ceiling wireframe={wireframe} />
+                <Ceiling wireframe={wireframe} selected={selected} />
               )}
               {selected.includes("first-floor") && (
                 <FirstFloor wireframe={wireframe} />
@@ -953,8 +959,11 @@ export default function Stl({
               {selected.includes("chimney") && (
                 <Chimney wireframe={wireframe} />
               )}
-              <Stairs wireframe={wireframe} />
-              <Stairs2 wireframe={wireframe} />
+              {selected.includes("stairs") ? (
+                <Stairs wireframe={wireframe} />
+              ) : (
+                <Stairs2 wireframe={wireframe} />
+              )}
             </group>
             <Grid
               position={[0, 0, 0]}

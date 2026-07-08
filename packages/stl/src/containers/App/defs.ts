@@ -13,7 +13,7 @@ const move = (p: Point) => `M${p.join(" ")}`;
 
 const at = 0.6;
 
-export default (level: string, x = 0, y = 0) => {
+export default (level: string, x = 0, y = 0, selected: string[] = []) => {
   const gabinet = ((x, y, w, h) => rect([x, y - h], [x + w, y]))(
     x + 11.3 - 15.28 - 4.52 + 0.48,
     y + 1.9 + 6.1 + 1.9 - 0.48,
@@ -145,24 +145,25 @@ export default (level: string, x = 0, y = 0) => {
                 y + 1.9 + 6.1 + 1.9 - 5.2 - 7.4,
               ],
             ]),
-            hole([
-              shift(garderoba1[1], [0.16, 0]),
-              shift(lazienka2[0], [-0.16, 0]),
-              shift(lazienka2[3], [-0.16, 0.16]),
-              shift(lazienka2[3], [-0.16 - 1, 0.16]),
-              shift(garderoba1[2], [0.16 + 1.1, 0.16]),
-              shift(garderoba1[2], [0.16, 0.16]),
-            ]),
-            hole(
-              ((d = 0.28, w = 1, b = 14, c = 1) => [
-                shift(garderoba2[2], [0, 0]),
-                shift(garderoba2[2], [0, -w]),
-                shift(garderoba2[2], [w + b * d - 1.38, -w]),
-                shift(garderoba2[2], [w + b * d - 1.38, -w - c * d]),
-                shift(garderoba2[2], [w + b * d + w - 1.38, -w - c * d]),
-                shift(garderoba2[2], [w + b * d + w - 1.38, 0]),
-              ])(),
-            ),
+            !selected.includes("stairs")
+              ? hole([
+                  shift(garderoba1[1], [0.16, 0]),
+                  shift(lazienka2[0], [-0.16, 0]),
+                  shift(lazienka2[3], [-0.16, 0.16]),
+                  shift(lazienka2[3], [-0.16 - 1, 0.16]),
+                  shift(garderoba1[2], [0.16 + 1.1, 0.16]),
+                  shift(garderoba1[2], [0.16, 0.16]),
+                ])
+              : hole(
+                  ((d = 0.28, w = 1, b = 14, c = 1) => [
+                    shift(garderoba2[2], [0, 0]),
+                    shift(garderoba2[2], [0, -w]),
+                    shift(garderoba2[2], [w + b * d - 1.38, -w]),
+                    shift(garderoba2[2], [w + b * d - 1.38, -w - c * d]),
+                    shift(garderoba2[2], [w + b * d + w - 1.38, -w - c * d]),
+                    shift(garderoba2[2], [w + b * d + w - 1.38, 0]),
+                  ])(),
+                ),
           ].join(" "),
         }
       : level === "terrace-attic"
