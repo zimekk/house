@@ -22,8 +22,6 @@ const items = [
   "attic",
   "roof",
   "chimney",
-  "ground-floor-windows",
-  "first-floor-windows",
   "stairs",
 ];
 
@@ -119,31 +117,33 @@ export default function App() {
               <svg ref={svgRef} xmlns="http://www.w3.org/2000/svg">
                 {/* <Svg d={defs(selected, 9 - 0.3, -0.5).d} /> */}
                 {selected.includes("ground") && (
-                  <>
-                    <Svg d={defs("ground", 9 - 0.3, -0.5).d} />
-                  </>
+                  <>{/* <Svg d={defs("ground", 9 - 0.3, -0.5).d} /> */}</>
                 )}
                 {selected.includes("ground-floor") && (
                   <>
+                    <Svg d={defs("ground-floor", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("ground-floor-windows", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("garage-windows", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("garage-doors", 9 - 0.3, -0.5).d} />
-                    <Svg d={defs("chimney", 9 - 0.3, -0.5).d} />
                   </>
                 )}
                 {selected.includes("ceiling") && (
                   <>
                     <Svg d={defs("ceiling", 9 - 0.3, -0.5, selected).d} />
-                    <Svg d={defs("terrace", 9 - 0.3, -0.5).d} />
                   </>
                 )}
                 {selected.includes("first-floor") && (
                   <>
+                    <Svg d={defs("first-floor", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("first-floor-windows", 9 - 0.3, -0.5).d} />
                     <Svg d={defs("knee-windows", 9 - 0.3, -0.5).d} />
+                    <Svg d={profile("windows-s", 9 - 0.3, 0)} />
+                    <Svg d={profile("windows-w", 9 - 0.3, -1.5)} />
+                  </>
+                )}
+                {selected.includes("chimney") && (
+                  <>
                     <Svg d={defs("chimney", 9 - 0.3, -0.5).d} />
-                    <Svg d={profile("windows-s", 9 - 0.3, -0.5)} />
-                    <Svg d={profile("windows-w", 9 - 0.3, -0.5)} />
                   </>
                 )}
                 {/* <Svg d={profile("profile", 9, 6)} /> */}

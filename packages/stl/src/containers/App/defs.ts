@@ -1,15 +1,15 @@
 import { type Point, inner, rect, shift } from "@dev/model/utils";
 
-const draw = (ps: Point[]) =>
+export const draw = (ps: Point[]) =>
   ps
     .map((p, i) => (i > 0 ? line(p) : move(p)))
     .concat("z")
     .join(" ");
 
-const hole = (ps: Point[]) => draw(ps.slice().reverse());
+export const hole = (ps: Point[]) => draw(ps.slice().reverse());
 
-const line = (p: Point) => `L${p.join(" ")}`;
-const move = (p: Point) => `M${p.join(" ")}`;
+export const line = (p: Point) => `L${p.join(" ")}`;
+export const move = (p: Point) => `M${p.join(" ")}`;
 
 const at = 0.6;
 
@@ -261,7 +261,12 @@ export default (level: string, x = 0, y = 0, selected: string[] = []) => {
             ? {
                 y: 2.8 + 0.65 + 2.8 + 0.2 - 0.02,
                 h: 0.02,
-                d: [draw(inner(bryla, 0.48))].join(" "),
+                d: [
+                  (([a, b, c, d]) =>
+                    draw(rect(shift(a, [3.9, 0]), shift(c, [3.9, 0]))))(
+                    inner(bryla, 0.48),
+                  ),
+                ].join(" "),
               }
             : level === "chimney"
               ? {
@@ -469,30 +474,30 @@ export default (level: string, x = 0, y = 0, selected: string[] = []) => {
                                 ((a, w) =>
                                   rect(shift(a, [0, -w]), shift(a, [0.48, 0])))(
                                   shift(bryla[3], [0, -0.48 - 1]),
-                                  1.5,
+                                  1.5 + 0.6,
                                 ),
                               ), // fixme
-                              draw(
-                                ((a, w) =>
-                                  rect(shift(a, [0, -w]), shift(a, [0.48, 0])))(
-                                  shift(bryla[3], [0, -0.48 - 1 - 1.5]),
-                                  0.6,
-                                ),
-                              ), // fixme
+                              // draw(
+                              //   ((a, w) =>
+                              //     rect(shift(a, [0, -w]), shift(a, [0.48, 0])))(
+                              //     shift(bryla[3], [0, -0.48 - 1 - 1.5]),
+                              //     0.6,
+                              //   ),
+                              // ), // fixme
                               draw(
                                 ((a, w) =>
                                   rect(shift(a, [0, 0]), shift(a, [0.48, w])))(
                                   shift(bryla[0], [0, 0.48 + 1]),
-                                  1.5,
+                                  1.5 + 0.6,
                                 ),
                               ), // fixme
-                              draw(
-                                ((a, w) =>
-                                  rect(shift(a, [0, 0]), shift(a, [0.48, w])))(
-                                  shift(bryla[0], [0, 0.48 + 1 + 1.5]),
-                                  0.6,
-                                ),
-                              ), // fixme
+                              // draw(
+                              //   ((a, w) =>
+                              //     rect(shift(a, [0, 0]), shift(a, [0.48, w])))(
+                              //     shift(bryla[0], [0, 0.48 + 1 + 1.5]),
+                              //     0.6,
+                              //   ),
+                              // ), // fixme
                             ].join(" "),
                           }
                         : level === "front-windows"
@@ -524,17 +529,25 @@ export default (level: string, x = 0, y = 0, selected: string[] = []) => {
                                   draw(
                                     ((a, w = 0.94) =>
                                       rect(
-                                        shift(a, [-w, 0]),
-                                        shift(a, [0, 0.48]),
-                                      ))(shift(bryla[1], [-0.48 - 3 - 1.8, 0])),
+                                        shift(a, [-w, -0.48]),
+                                        shift(a, [0, 0]),
+                                      ))(
+                                      shift(gabinet2[0], [
+                                        2.7 / 2 - 0.16 / 2,
+                                        0,
+                                      ]),
+                                    ),
                                   ), // fixme
                                   draw(
                                     ((a, w = 0.94) =>
                                       rect(
-                                        shift(a, [-w, 0]),
-                                        shift(a, [0, 0.48]),
+                                        shift(a, [0, -0.48]),
+                                        shift(a, [w, 0]),
                                       ))(
-                                      shift(bryla[1], [-0.48 - 3 - 1.8 - 1, 0]),
+                                      shift(gabinet2[1], [
+                                        -2.7 / 2 + 0.16 / 2,
+                                        0,
+                                      ]),
                                     ),
                                   ), // fixme
                                 ].join(" "),

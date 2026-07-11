@@ -39,9 +39,11 @@ import { GLTFExporter } from "three/addons/exporters/GLTFExporter.js";
 import { STLExporter } from "three/addons/exporters/STLExporter.js";
 import { OBJExporter } from "three/addons/exporters/OBJExporter.js";
 import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
-import { rib, ric } from "@dev/model/utils";
+import { rib, ric, shift } from "@dev/model/utils";
 import defs from "../App/defs";
+import points from "../App/points";
 import profile from "../App/profile";
+import { Target } from "./Target";
 import styles from "./styles.module.scss";
 
 const loader = new SVGLoader();
@@ -165,6 +167,19 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     });
   }, [dd, dh]);
 
+  const f = profile("window", 0, 0);
+  const windowFrames = useMemo(() => {
+    const svgString = `<path d="${f}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 0.1,
+      bevelEnabled: false,
+    });
+  }, [f]);
+
   return (
     <mesh
       name="ground-floor"
@@ -190,6 +205,12 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
           name="garage-"
           geometry={garageWindows}
           position={[0, 0, y + h - rh - ry]}
+        />
+        <Addition
+          name="windowFrames-"
+          geometry={windowFrames}
+          position={[0.2 + 0.48 - 0.24, 0, 2.8]}
+          rotation={[Math.PI / 2, Math.PI / 2, 0]}
         />
       </Geometry>
       {wireframe ? (
@@ -342,6 +363,19 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     });
   }, [kd, kh]);
 
+  const f = profile("window", 0, 0);
+  const windowFrames = useMemo(() => {
+    const svgString = `<path d="${f}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+      steps: 1,
+      depth: 0.1,
+      bevelEnabled: false,
+    });
+  }, [f]);
+
   return (
     <mesh
       name="first-floor"
@@ -371,6 +405,13 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
           name="knee-"
           geometry={kneeWindows}
           position={[0, 0, y + h - kh - ky]}
+        />
+        {/* <Subtraction name="windows-" geometry={windows} position={[0, 0, 0]} /> */}
+        <Addition
+          name="windowFrames-"
+          geometry={windowFrames}
+          position={[0.2 + 0.48 - 0.24, 0, h]}
+          rotation={[Math.PI / 2, Math.PI / 2, 0]}
         />
       </Geometry>
       {wireframe ? (
@@ -424,8 +465,6 @@ function Attic({ wireframe }: { wireframe: boolean }) {
     });
   }, [p]);
 
-  // const alpha = (35 * Math.PI) / 180;
-
   return (
     <mesh
       name="attic"
@@ -445,6 +484,7 @@ function Attic({ wireframe }: { wireframe: boolean }) {
             ((w = 0.24, t = 0.08, h = 6, d = 0.2, m = (s - w) / (n / k)) => (
               <Addition
                 key={i}
+                name="bar-"
                 geometry={new THREE.BoxGeometry(t, h, d)}
                 position={(() => [
                   m * Math.floor(i / k) +
@@ -578,15 +618,21 @@ function Roof({ wireframe }: { wireframe: boolean }) {
         />
         {Array.from(Array(32)).map((_, i) =>
           ((
+            // https://akademia-fotowoltaiki.pl/wymiary-paneli-fotowoltaicznych/
             w = 1.134,
+            // h =1.262,
             h = 1.762,
+            // h = 1.961,
+            // h = 2.092,
+            // h = 2.278,
             d = 0.1,
             m = 0.03,
             r = Math.floor(rib(4)[2] / h),
           ) =>
-            [2 * 4, 2 * 5, 2 * 6].includes(i) ? null : (
+            [r * 4, r * 5, r * 6].includes(i) ? null : (
               <Addition
                 key={i}
+                name="pv-"
                 geometry={new THREE.BoxGeometry(w, h, d)}
                 position={(([a, b], [da, db], x, y) => [
                   0.8 +
@@ -599,7 +645,7 @@ function Roof({ wireframe }: { wireframe: boolean }) {
                   0.1 - a * y + da,
                 ])(
                   ric(h + m),
-                  ric(-0.94 + (rib(4)[2] - (h + m) * r) / 2),
+                  ric(-1.15 + ((r - 1) * h) / 2),
                   Math.floor(i / r),
                   i % r,
                 )}
@@ -670,10 +716,11 @@ function Stairs({ wireframe }: { wireframe: boolean }) {
       rotation={[Math.PI / 2, Math.PI / 2, 0]}
     >
       <Geometry>
-        <Base geometry={new THREE.BoxGeometry(d, h, d)} />
+        <Base name="stairs-" geometry={new THREE.BoxGeometry(d, h, d)} />
         {Array.from(Array(a)).map((_, i) => (
           <Addition
             key={++x}
+            name="step-"
             geometry={new THREE.BoxGeometry(i ? d : d, h, w)}
             position={[(w - d) / 2 - +x * d, x * h, 0]}
           />
@@ -681,6 +728,7 @@ function Stairs({ wireframe }: { wireframe: boolean }) {
         {Array.from(Array(b)).map((_, i) => (
           <Addition
             key={++y}
+            name="step-"
             geometry={new THREE.BoxGeometry(w, h, i ? d : w)}
             position={[
               (1 - x) * d - d,
@@ -692,6 +740,7 @@ function Stairs({ wireframe }: { wireframe: boolean }) {
         {Array.from(Array(c)).map((_, i) => (
           <Addition
             key={++z}
+            name="step-"
             geometry={new THREE.BoxGeometry(i ? d : w, h, w)}
             position={[
               (z - x) * d + (i ? (w - d) / 2 : 0),
@@ -732,10 +781,11 @@ function Stairs2({ wireframe }: { wireframe: boolean }) {
       scale={[1, 1, -1]}
     >
       <Geometry>
-        <Base geometry={new THREE.BoxGeometry(d, h, d)} />
+        <Base name="stairs-" geometry={new THREE.BoxGeometry(d, h, d)} />
         {Array.from(Array(a)).map((_, i) => (
           <Addition
             key={++x}
+            name="step-"
             geometry={new THREE.BoxGeometry(i ? d : d, h, w)}
             position={[(w - d) / 2 - +x * d, x * h, 0]}
           />
@@ -743,6 +793,7 @@ function Stairs2({ wireframe }: { wireframe: boolean }) {
         {Array.from(Array(b)).map((_, i) => (
           <Addition
             key={++y}
+            name="step-"
             geometry={new THREE.BoxGeometry(w, h, i ? d : w)}
             position={[
               (1 - x) * d - d,
@@ -754,6 +805,7 @@ function Stairs2({ wireframe }: { wireframe: boolean }) {
         {Array.from(Array(c)).map((_, i) => (
           <Addition
             key={++z}
+            name="step-"
             geometry={new THREE.BoxGeometry(i ? d : w, h, b || i ? w : 2 * w)}
             position={[
               (z - x) * d + (i ? (w - d) / 2 : 0),
@@ -785,13 +837,13 @@ export default function Stl({
   const [showCanvas] = useState(true);
   const [gridConfig] = useState({
     // gridSize: [10.5, 10.5],
-    cellSize: { value: 10, min: 0, max: 10, step: 0.1 }.value,
-    cellThickness: { value: 1, min: 0, max: 5, step: 0.1 }.value,
+    cellSize: { value: 1, min: 0, max: 10, step: 0.1 }.value,
+    cellThickness: { value: 0.5, min: 0, max: 5, step: 0.1 }.value,
     cellColor: "#6f6f6f",
-    sectionSize: { value: 100, min: 0, max: 10, step: 0.1 }.value,
+    sectionSize: { value: 10, min: 0, max: 10, step: 0.1 }.value,
     sectionThickness: { value: 1.5, min: 0, max: 5, step: 0.1 }.value,
     sectionColor: "#fff",
-    fadeDistance: { value: 250, min: 0, max: 100, step: 1 }.value,
+    fadeDistance: { value: 75, min: 0, max: 100, step: 1 }.value,
     fadeStrength: { value: 1, min: 0, max: 1, step: 0.1 }.value,
     followCamera: false,
     infiniteGrid: true,
@@ -965,6 +1017,146 @@ export default function Stl({
                 <Stairs2 wireframe={wireframe} />
               )}
             </group>
+            <Target
+              position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                points(9 - 0.3, 0).bryla()[0],
+              )}
+              cameraPosition={{
+                x: -23.49290137415445,
+                y: 11.320843583705859,
+                z: 9.972582234518049,
+              }}
+              zoom={1.1}
+            />
+            <Target
+              position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                points(9 - 0.3, 0).bryla()[1],
+              )}
+              cameraPosition={{
+                x: 37.1461841006,
+                y: 15.025933770520233,
+                z: 10.880125836391201,
+              }}
+              zoom={1}
+            />
+            <Target
+              position={(([x, y, z = 2.8 + 0.65 + 0.2]) => [x, -y, z])(
+                points(9 - 0.3, 0).bryla()[2],
+              )}
+              cameraPosition={{
+                x: 49.5410080388676,
+                y: -29.996492827845657,
+                z: 13.60209681353208,
+              }}
+              zoom={1.4}
+            />
+            <Target
+              position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                points(9 - 0.3, 0).bryla()[3],
+              )}
+              cameraPosition={{
+                x: -25.023861038729514,
+                y: -30.068002904363183,
+                z: 11.990979559929546,
+              }}
+              zoom={1.4}
+            />
+            {/* gabinet */}
+            <Target
+              position={(([x, y, z = 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).gabinet()[3], [1, -1]),
+              )}
+              cameraPosition={{
+                x: 3.45394145057525,
+                y: -7.2118274683613866,
+                z: 1.5,
+              }}
+              zoom={0.5}
+            />
+            {/* kuchnia */}
+            <Target
+              position={(([x, y, z = 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla()[1], [-7, 3]),
+              )}
+              cameraPosition={{
+                x: 14.63235248385119,
+                y: -8.215458581486743,
+                z: 1.5,
+              }}
+              zoom={0.5}
+            />
+            {/* salon */}
+            <Target
+              position={(([x, y, z = 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla()[1], [-3, 4]),
+              )}
+              cameraPosition={{
+                x: 11.905121984958786,
+                y: -7.368556492116799,
+                z: 1.5,
+              }}
+              zoom={0.5}
+            />
+            {/* jadalnia */}
+            <Target
+              position={(([x, y, z = 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla()[1], [-7, 6]),
+              )}
+              cameraPosition={{
+                x: 16.1701783203853,
+                y: -5.055494278961566,
+                z: 1.5,
+              }}
+              zoom={0.5}
+            />
+            {/* korytarz */}
+            <Target
+              position={(([x, y, z = 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla()[1], [-13, 5]),
+              )}
+              cameraPosition={{
+                x: 6.506995241353838,
+                y: -10.420035271857179,
+                z: 1.5,
+              }}
+              zoom={0.5}
+            />
+            {/* schody */}
+            <Target
+              position={(([x, y, z = 2.8 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla()[1], [-12, 5]),
+              )}
+              cameraPosition={{
+                x: 6.6895928057855185,
+                y: -0.3534213357828042,
+                z: 2.1657663564714573,
+              }}
+              zoom={0.3}
+            />
+            {/* sypialnia1 */}
+            <Target
+              position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla()[0], [1, 2.5]),
+              )}
+              cameraPosition={{
+                x: 4.711495657363763,
+                y: -3.8116733807981706,
+                z: 2.8 + 0.65 + 1.5,
+              }}
+              zoom={0.5}
+            />
+            {/* sypialnia2 */}
+            <Target
+              position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla()[0], [1, 3.44 + 0.16 + 1]),
+              )}
+              cameraPosition={{
+                x: 4.69058788246462,
+                y: -4.655383801796499,
+                z: 2.8 + 0.65 + 1.5,
+              }}
+              zoom={0.5}
+            />
             <Grid
               position={[0, 0, 0]}
               rotation={[Math.PI / 2, 0, 0]}
