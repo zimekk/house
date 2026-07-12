@@ -1,8 +1,8 @@
 import * as THREE from "three";
 import React, {
-  ChangeEvent,
+  // ChangeEvent,
   ChangeEventHandler,
-  InputEventHandler,
+  // InputEventHandler,
   MouseEventHandler,
   useCallback,
   useMemo,
@@ -15,7 +15,6 @@ import {
   Subtraction,
   Intersection,
   Addition,
-  CSGGeometryRef,
 } from "@react-three/csg";
 import {
   // Center,
@@ -26,24 +25,27 @@ import {
   Grid,
   OrbitControls,
 } from "@react-three/drei";
-import { Extrude } from "@react-three/drei";
-import { Canvas } from "@react-three/fiber";
+// import { Extrude } from "@react-three/drei";
+import { Canvas, useLoader } from "@react-three/fiber";
 import {
   // DoubleSide,
   type Group,
-  type Mesh,
-  CatmullRomCurve3,
-  Vector3,
+  // type Mesh,
+  // CatmullRomCurve3,
+  // Vector3,
 } from "three";
-import { GLTFExporter } from "three/addons/exporters/GLTFExporter.js";
+// import { GLTFExporter } from "three/addons/exporters/GLTFExporter.js";
 import { STLExporter } from "three/addons/exporters/STLExporter.js";
 import { OBJExporter } from "three/addons/exporters/OBJExporter.js";
+import { FBXLoader } from "three/addons/loaders/FBXLoader.js";
+import { OBJLoader } from "three/addons/loaders/OBJLoader.js";
 import { SVGLoader } from "three/addons/loaders/SVGLoader.js";
 import { rib, ric, shift } from "@dev/model/utils";
 import defs from "../App/defs";
 import points from "../App/points";
 import profile from "../App/profile";
 import { Target } from "./Target";
+// import obj from '../../objects/counter-basin-55.obj'
 import styles from "./styles.module.scss";
 
 const loader = new SVGLoader();
@@ -824,6 +826,114 @@ function Stairs2({ wireframe }: { wireframe: boolean }) {
   );
 }
 
+// function Washbasin({ wireframe }: { wireframe: boolean }) {
+//   const obj = useLoader(OBJLoader, '/objects/counter-basin-55.obj')
+//   return <primitive object={obj} position={[0,0,8]} rotation={[Math.PI/2,0,0]} scale={[.01,.01,.01]}/>
+// }
+
+// https://www.bimobject.com/en/hansgrohe/product/61068xxx
+function Washbasin({ wireframe }: { wireframe: boolean }) {
+  const obj = useLoader(FBXLoader, "/objects/counter-basin-55.fbx");
+  return (
+    <group>
+      {(({ geometry, material }) => (
+        <mesh
+          name="washbasin"
+          geometry={geometry}
+          material={material}
+          position={[0, -0.22, 0.7 - 0.17]}
+          scale={[0.001, 0.001, 0.001]}
+        >
+          {wireframe ? (
+            <meshBasicMaterial color="#2f7f4f" wireframe />
+          ) : (
+            <meshStandardMaterial color="#fff" />
+          )}
+        </mesh>
+      ))(obj.children[1] as THREE.Mesh)}
+      {/* <mesh name="washbasin" geometry={new THREE.BoxGeometry(0.55, 0.45, 0.01)}>
+        {wireframe ? (
+          <meshBasicMaterial color="#2f7f4f" wireframe />
+        ) : (
+          <meshStandardMaterial color="#fff" />
+        )}
+      </mesh> */}
+    </group>
+  );
+}
+
+// https://www.bimobject.com/en/hansgrohe/product/62025xxx
+function Toilet({ wireframe }: { wireframe: boolean }) {
+  const obj = useLoader(FBXLoader, "/objects/toilet.fbx");
+  // console.log(obj)
+  return (
+    <group>
+      {(({ geometry, material }) => (
+        <mesh
+          name="washbasin"
+          geometry={geometry}
+          material={material}
+          position={[0, 0, 0.4 - 0.32]}
+          scale={[0.001, 0.001, 0.001]}
+        >
+          {wireframe ? (
+            <meshBasicMaterial color="#2f7f4f" wireframe />
+          ) : (
+            <meshStandardMaterial color="#fff" />
+          )}
+        </mesh>
+      ))(obj.children[0] as THREE.Mesh)}
+      {(({ geometry, material }) => (
+        <mesh
+          name="washbasin"
+          geometry={geometry}
+          material={material}
+          position={[0, 0, 0.4 - 0.32]}
+          scale={[0.001, 0.001, 0.001]}
+        >
+          {wireframe ? (
+            <meshBasicMaterial color="#2f7f4f" wireframe />
+          ) : (
+            <meshStandardMaterial color="#fff" />
+          )}
+        </mesh>
+      ))(obj.children[1] as THREE.Mesh)}
+      {/* <mesh name="washbasin" geometry={new THREE.BoxGeometry(0.55, 0.45, 0.01)}>
+        {wireframe ? (
+          <meshBasicMaterial color="#2f7f4f" wireframe />
+        ) : (
+          <meshStandardMaterial color="#fff" />
+        )}
+      </mesh> */}
+    </group>
+  );
+}
+
+// https://www.bimobject.com/en/kaldewei/product/2267-5
+function ShowerTray({ wireframe }: { wireframe: boolean }) {
+  const obj = useLoader(FBXLoader, "/objects/cayonoplan-1400x900.fbx");
+  return (
+    <group>
+      {(({ geometry, material }) => (
+        <mesh
+          name="shower-tray"
+          geometry={geometry}
+          material={material}
+          position={[0.7, -0.45, 0]}
+          rotation={[Math.PI / 2, 0, 0]}
+          scale={[0.001, 0.001, 0.001]}
+        >
+          {wireframe ? (
+            <meshBasicMaterial color="#2f7f4f" wireframe />
+          ) : (
+            <meshStandardMaterial color="#fff" />
+          )}
+        </mesh>
+      ))(obj.children[0] as THREE.Mesh)}
+    </group>
+  );
+}
+
 export default function Stl({
   name = "house",
   selected,
@@ -998,13 +1108,63 @@ export default function Stl({
             <group ref={groupRef} name="dom">
               {selected.includes("ground") && <Ground wireframe={wireframe} />}
               {selected.includes("ground-floor") && (
-                <GroundFloor wireframe={wireframe} />
+                <group>
+                  <group
+                    position={(([x, y, z = 0]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka[0], [0, -0.4]),
+                    )}
+                    rotation={[0, 0, Math.PI / 2]}
+                  >
+                    <Washbasin wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 0]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka[3], [0, 0]),
+                    )}
+                  >
+                    <ShowerTray wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 0]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka[3], [0, 1.2]),
+                    )}
+                    rotation={[0, 0, Math.PI / 2]}
+                  >
+                    <Toilet wireframe={wireframe} />
+                  </group>
+                  <GroundFloor wireframe={wireframe} />
+                </group>
               )}
               {selected.includes("ceiling") && (
                 <Ceiling wireframe={wireframe} selected={selected} />
               )}
               {selected.includes("first-floor") && (
-                <FirstFloor wireframe={wireframe} />
+                <group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka2[0], [0, 2]),
+                    )}
+                    rotation={[0, 0, Math.PI / 2]}
+                  >
+                    <Washbasin wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka2[0], [0, 0]),
+                    )}
+                  >
+                    <ShowerTray wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka2[0], [0, 1.2]),
+                    )}
+                    rotation={[0, 0, Math.PI / 2]}
+                  >
+                    <Toilet wireframe={wireframe} />
+                  </group>
+                  <FirstFloor wireframe={wireframe} />
+                </group>
               )}
               {selected.includes("attic") && <Attic wireframe={wireframe} />}
               {selected.includes("roof") && <Roof wireframe={wireframe} />}
@@ -1019,7 +1179,7 @@ export default function Stl({
             </group>
             <Target
               position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
-                points(9 - 0.3, 0).bryla()[0],
+                points(9 - 0.3, 0).bryla[0],
               )}
               cameraPosition={{
                 x: -23.49290137415445,
@@ -1030,7 +1190,7 @@ export default function Stl({
             />
             <Target
               position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
-                points(9 - 0.3, 0).bryla()[1],
+                points(9 - 0.3, 0).bryla[1],
               )}
               cameraPosition={{
                 x: 37.1461841006,
@@ -1041,7 +1201,7 @@ export default function Stl({
             />
             <Target
               position={(([x, y, z = 2.8 + 0.65 + 0.2]) => [x, -y, z])(
-                points(9 - 0.3, 0).bryla()[2],
+                points(9 - 0.3, 0).bryla[2],
               )}
               cameraPosition={{
                 x: 49.5410080388676,
@@ -1052,7 +1212,7 @@ export default function Stl({
             />
             <Target
               position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
-                points(9 - 0.3, 0).bryla()[3],
+                points(9 - 0.3, 0).bryla[3],
               )}
               cameraPosition={{
                 x: -25.023861038729514,
@@ -1061,10 +1221,22 @@ export default function Stl({
               }}
               zoom={1.4}
             />
+            {/* garaz */}
+            <Target
+              position={(([x, y, z = 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).gabinet[3], [2, -10]),
+              )}
+              cameraPosition={{
+                x: -0.7525585278121221,
+                y: -3.319436696934292,
+                z: 1.5,
+              }}
+              zoom={0.5}
+            />
             {/* gabinet */}
             <Target
               position={(([x, y, z = 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).gabinet()[3], [1, -1]),
+                shift(points(9 - 0.3, 0).gabinet[3], [1, -1]),
               )}
               cameraPosition={{
                 x: 3.45394145057525,
@@ -1076,7 +1248,7 @@ export default function Stl({
             {/* kuchnia */}
             <Target
               position={(([x, y, z = 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).bryla()[1], [-7, 3]),
+                shift(points(9 - 0.3, 0).bryla[1], [-7, 3]),
               )}
               cameraPosition={{
                 x: 14.63235248385119,
@@ -1088,7 +1260,7 @@ export default function Stl({
             {/* salon */}
             <Target
               position={(([x, y, z = 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).bryla()[1], [-3, 4]),
+                shift(points(9 - 0.3, 0).bryla[1], [-3, 4]),
               )}
               cameraPosition={{
                 x: 11.905121984958786,
@@ -1100,7 +1272,7 @@ export default function Stl({
             {/* jadalnia */}
             <Target
               position={(([x, y, z = 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).bryla()[1], [-7, 6]),
+                shift(points(9 - 0.3, 0).bryla[1], [-7, 6]),
               )}
               cameraPosition={{
                 x: 16.1701783203853,
@@ -1112,7 +1284,7 @@ export default function Stl({
             {/* korytarz */}
             <Target
               position={(([x, y, z = 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).bryla()[1], [-13, 5]),
+                shift(points(9 - 0.3, 0).bryla[1], [-13, 5]),
               )}
               cameraPosition={{
                 x: 6.506995241353838,
@@ -1121,10 +1293,22 @@ export default function Stl({
               }}
               zoom={0.5}
             />
+            {/* lazienka */}
+            <Target
+              position={(([x, y, z = 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).lazienka[3], [0.5, 0.5]),
+              )}
+              cameraPosition={{
+                x: 10.042265484329832,
+                y: -4.6001658228011095,
+                z: 1.5,
+              }}
+              zoom={0.25}
+            />
             {/* schody */}
             <Target
               position={(([x, y, z = 2.8 + 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).bryla()[1], [-12, 5]),
+                shift(points(9 - 0.3, 0).bryla[1], [-12, 4]),
               )}
               cameraPosition={{
                 x: 6.6895928057855185,
@@ -1133,10 +1317,46 @@ export default function Stl({
               }}
               zoom={0.3}
             />
+            {/* poddasze */}
+            <Target
+              position={(([x, y, z = 2.8 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).bryla[1], [-11, 5]),
+              )}
+              cameraPosition={{
+                x: 5.969920338228892,
+                y: -7.498976628708515,
+                z: 2.8 + 0.65 + 1.5,
+              }}
+              zoom={0.3}
+            />
+            {/* lazienka2 */}
+            <Target
+              position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).lazienka2[0], [1, 2]),
+              )}
+              cameraPosition={{
+                x: 10.56242224963796,
+                y: -4.105262088671858,
+                z: 2.8 + 0.65 + 1.5,
+              }}
+              zoom={0.4}
+            />
+            {/* gabinet2 */}
+            <Target
+              position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).gabinet2[0], [1, 2]),
+              )}
+              cameraPosition={{
+                x: 12.740024520115428,
+                y: -3.9505377680458267,
+                z: 2.8 + 0.65 + 1.5,
+              }}
+              zoom={0.4}
+            />
             {/* sypialnia1 */}
             <Target
               position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).bryla()[0], [1, 2.5]),
+                shift(points(9 - 0.3, 0).bryla[0], [1, 2.5]),
               )}
               cameraPosition={{
                 x: 4.711495657363763,
@@ -1148,7 +1368,7 @@ export default function Stl({
             {/* sypialnia2 */}
             <Target
               position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
-                shift(points(9 - 0.3, 0).bryla()[0], [1, 3.44 + 0.16 + 1]),
+                shift(points(9 - 0.3, 0).bryla[0], [1, 3.44 + 0.16 + 1]),
               )}
               cameraPosition={{
                 x: 4.69058788246462,

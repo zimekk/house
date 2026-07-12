@@ -1,5 +1,6 @@
 import { rect, rib, shift } from "@dev/model/utils";
 import { draw, hole } from "./defs";
+import points from "./points";
 
 // https://contenthub.velux.com/api/public/content/d8834-2b885-bd479_downloadOriginal?v=5db6af7a
 // 78x118
@@ -11,7 +12,8 @@ export default (profile: string, x = 0, y = 0) => {
   const k = 2.1;
   const w = 8;
   const d = 0.48;
-  const bryla = rect([x + 11.3 - 15.28 - 4.52, y], [x + 11.3, y + 1.9 + 6.1]);
+  const { bryla } = points(x, y);
+  // const bryla = rect([x + 11.3 - 15.28 - 4.52, y], [x + 11.3, y + 1.9 + 6.1]);
   const path =
     profile === "roof"
       ? [
