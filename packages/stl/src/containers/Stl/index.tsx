@@ -45,6 +45,7 @@ import defs from "../App/defs";
 import points from "../App/points";
 import profile from "../App/profile";
 import { Target } from "./Target";
+import { WasdControls } from "./WasdControls";
 // import obj from '../../objects/counter-basin-55.obj'
 import styles from "./styles.module.scss";
 
@@ -77,7 +78,7 @@ function Ground({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: gh,
       bevelEnabled: false,
@@ -110,7 +111,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: h,
       bevelEnabled: false,
@@ -123,7 +124,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: wh,
       bevelEnabled: false,
@@ -136,7 +137,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: kh,
       bevelEnabled: false,
@@ -149,7 +150,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: rh,
       bevelEnabled: false,
@@ -162,7 +163,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: dh,
       bevelEnabled: false,
@@ -175,7 +176,7 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 0.1,
       bevelEnabled: false,
@@ -224,6 +225,61 @@ function GroundFloor({ wireframe }: { wireframe: boolean }) {
   );
 }
 
+function Sauna({ wireframe }: { wireframe: boolean }) {
+  const { y, h } = defs("first-floor", 9 - 0.3, 3);
+  const f = profile("sauna", 0, 0);
+  const sauna = useMemo(() => {
+    const svgString = `<path d="${f}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
+      steps: 1,
+      depth: 2.1,
+      bevelEnabled: false,
+    });
+  }, [f]);
+
+  const p = profile("profile", 1.48, 5);
+  const profile1 = useMemo(() => {
+    const svgString = `<path d="${p}"/>`;
+    const svgData = loader.parse(svgString);
+    const [path] = svgData.paths;
+
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
+      steps: 1,
+      depth: 19.8,
+      bevelEnabled: false,
+    });
+  }, [p]);
+
+  return (
+    <mesh name="sauna" castShadow position={[0, 0, 0]} rotation={[0, 0, 0]}>
+      <Geometry>
+        <Base name="sauna-" geometry={sauna} />
+        <Addition
+          name="sauna-"
+          geometry={new THREE.BoxGeometry(1.8, 3.44 - 2 + 0.1, 0.7)}
+          position={(([x, y, z = 2.1 + 0.7 / 2]) => [x, -y, z])(
+            shift(points(-7.22, 0.29).sauna[0], [0, 0]),
+          )}
+        />
+        <Intersection
+          name="sauna-"
+          geometry={profile1}
+          position={[2.98, -5, y + h - 5 + 0.3]}
+          rotation={[(3 * Math.PI) / 2, (3 * Math.PI) / 2, 0]}
+        />
+      </Geometry>
+      {wireframe ? (
+        <meshBasicMaterial color="#2f7f4f" wireframe />
+      ) : (
+        <meshStandardMaterial color="#fff" />
+      )}
+    </mesh>
+  );
+}
+
 function Ceiling({
   wireframe,
   selected,
@@ -237,7 +293,7 @@ function Ceiling({
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: ch,
       bevelEnabled: false,
@@ -250,7 +306,7 @@ function Ceiling({
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: th,
       bevelEnabled: false,
@@ -306,7 +362,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: h,
       bevelEnabled: false,
@@ -319,7 +375,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 19.8,
       bevelEnabled: false,
@@ -332,7 +388,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: wh,
       bevelEnabled: false,
@@ -345,7 +401,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: fh,
       bevelEnabled: false,
@@ -358,7 +414,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: kh,
       bevelEnabled: false,
@@ -371,7 +427,7 @@ function FirstFloor({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 0.1,
       bevelEnabled: false,
@@ -434,7 +490,7 @@ function Attic({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: th,
       bevelEnabled: false,
@@ -447,7 +503,7 @@ function Attic({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: gh,
       bevelEnabled: false,
@@ -460,7 +516,7 @@ function Attic({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 19.8,
       bevelEnabled: false,
@@ -525,7 +581,7 @@ function Roof({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 19.8,
       bevelEnabled: false,
@@ -538,7 +594,7 @@ function Roof({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: th,
       bevelEnabled: false,
@@ -551,7 +607,7 @@ function Roof({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 19.8,
       bevelEnabled: false,
@@ -563,7 +619,7 @@ function Roof({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 0.35,
       bevelEnabled: false,
@@ -575,7 +631,7 @@ function Roof({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: 0.35,
       bevelEnabled: false,
@@ -673,7 +729,7 @@ function Chimney({ wireframe }: { wireframe: boolean }) {
     const svgData = loader.parse(svgString);
     const [path] = svgData.paths;
 
-    return new THREE.ExtrudeGeometry(SVGLoader.createShapes(path), {
+    return new THREE.ExtrudeGeometry(path.toShapes(), {
       steps: 1,
       depth: h,
       bevelEnabled: false,
@@ -934,6 +990,56 @@ function ShowerTray({ wireframe }: { wireframe: boolean }) {
   );
 }
 
+// https://www.bimobject.com/en/kaldewei/product/1050-4035
+function Bathtube({ wireframe }: { wireframe: boolean }) {
+  const obj = useLoader(OBJLoader, "/objects/1050(300).obj");
+  return (
+    <group>
+      {(({ geometry, material }) => (
+        <mesh
+          name="shower-tray"
+          geometry={geometry}
+          material={material}
+          position={[0.7, -0.45, 0]}
+          rotation={[0, 0, 0]}
+          scale={[0.001, 0.001, 0.001]}
+        >
+          {wireframe ? (
+            <meshBasicMaterial color="#2f7f4f" wireframe />
+          ) : (
+            <meshStandardMaterial color="#fff" />
+          )}
+        </mesh>
+      ))(obj.children[0] as THREE.Mesh)}
+    </group>
+  );
+}
+
+// https://www.bimobject.com/en/electrolux/product/electrolux_free_standing_washer_hec_60_xxl_white
+function Washer({ wireframe }: { wireframe: boolean }) {
+  const obj = useLoader(OBJLoader, "/objects/washer.obj");
+  return (
+    <group>
+      {(({ geometry, material }) => (
+        <mesh
+          name="washer"
+          geometry={geometry}
+          material={material}
+          position={[0, -0.3, 0]}
+          rotation={[0, 0, 0]}
+          scale={[0.001, 0.001, 0.001]}
+        >
+          {wireframe ? (
+            <meshBasicMaterial color="#2f7f4f" wireframe />
+          ) : (
+            <meshStandardMaterial color="#fff" />
+          )}
+        </mesh>
+      ))(obj.children[0] as THREE.Mesh)}
+    </group>
+  );
+}
+
 export default function Stl({
   name = "house",
   selected,
@@ -1048,6 +1154,7 @@ export default function Stl({
     [],
   );
 
+  const orbitControlsRef = useRef(null);
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   const handleSave = useCallback<MouseEventHandler>(
@@ -1142,14 +1249,6 @@ export default function Stl({
                 <group>
                   <group
                     position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
-                      shift(points(9 - 0.3, 0).lazienka2[0], [0, 2]),
-                    )}
-                    rotation={[0, 0, Math.PI / 2]}
-                  >
-                    <Washbasin wireframe={wireframe} />
-                  </group>
-                  <group
-                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
                       shift(points(9 - 0.3, 0).lazienka2[0], [0, 0]),
                     )}
                   >
@@ -1157,11 +1256,82 @@ export default function Stl({
                   </group>
                   <group
                     position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
-                      shift(points(9 - 0.3, 0).lazienka2[0], [0, 1.2]),
+                      shift(points(9 - 0.3, 0).lazienka2[2], [0, -1]),
+                    )}
+                    rotation={[0, 0, -Math.PI / 2]}
+                  >
+                    <Washbasin wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka2[2], [0, -2]),
+                    )}
+                    rotation={[0, 0, -Math.PI / 2]}
+                  >
+                    <Washbasin wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka2[3], [0, -0.4]),
                     )}
                     rotation={[0, 0, Math.PI / 2]}
                   >
                     <Toilet wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka2[3], [0, -0.9]),
+                    )}
+                    rotation={[0, 0, Math.PI / 2]}
+                  >
+                    <Bathtube wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).pralnia[0], [0, 1]),
+                    )}
+                    rotation={[0, 0, Math.PI / 2]}
+                  >
+                    <Washer wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).pralnia[0], [0, 1.6]),
+                    )}
+                    rotation={[0, 0, Math.PI / 2]}
+                  >
+                    <Washer wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka3[1], [0, 0]),
+                    )}
+                    rotation={[0, 0, -Math.PI / 2]}
+                  >
+                    <ShowerTray wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka3[2], [-0.5, 0]),
+                    )}
+                    rotation={[0, 0, Math.PI]}
+                  >
+                    <Washbasin wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka3[3], [0.5, 0]),
+                    )}
+                    rotation={[0, 0, Math.PI]}
+                  >
+                    <Toilet wireframe={wireframe} />
+                  </group>
+                  <group
+                    position={(([x, y, z = 2.8 + 0.65]) => [x, -y, z])(
+                      shift(points(9 - 0.3, 0).lazienka3[0], [0, 0]),
+                    )}
+                  >
+                    <Sauna wireframe={wireframe} />
                   </group>
                   <FirstFloor wireframe={wireframe} />
                 </group>
@@ -1341,6 +1511,18 @@ export default function Stl({
               }}
               zoom={0.4}
             />
+            {/* pralnia */}
+            <Target
+              position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).pralnia[0], [1, 2]),
+              )}
+              cameraPosition={{
+                x: 12.242605617835181,
+                y: -4.035997789420421,
+                z: 2.8 + 0.65 + 1.5,
+              }}
+              zoom={0.4}
+            />
             {/* gabinet2 */}
             <Target
               position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
@@ -1377,13 +1559,26 @@ export default function Stl({
               }}
               zoom={0.5}
             />
+            {/* lazienka3 */}
+            <Target
+              position={(([x, y, z = 2.8 + 0.65 + 1.2]) => [x, -y, z])(
+                shift(points(9 - 0.3, 0).lazienka3[2], [-1, -1]),
+              )}
+              cameraPosition={{
+                x: 16.807422814940733,
+                y: -2.3117149323090542,
+                z: 2.8 + 0.65 + 1.5,
+              }}
+              zoom={0.3}
+            />
             <Grid
               position={[0, 0, 0]}
               rotation={[Math.PI / 2, 0, 0]}
               args={[1, 1]}
               {...gridConfig}
             />
-            <OrbitControls makeDefault />
+            <WasdControls orbitControls={orbitControlsRef} />
+            <OrbitControls ref={orbitControlsRef} makeDefault />
             {!wireframe && (
               <Environment
                 preset="city"

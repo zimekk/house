@@ -61,6 +61,9 @@ export default (x = 0, y = 0, z = 10) => {
   const lazienka3 = ((a) => rect(shift(a, [-2.5, 0]), shift(a, [0, 3.44])))(
     shift(bryla[1], [-0.48, 0.48]),
   );
+  const sauna = ((a) => rect(shift(a, [-1.8, 0]), shift(a, [0, 3.44 - 2])))(
+    shift(lazienka3[1], [-0.9, 0]),
+  );
   const garderoba3 = ((a) => rect(shift(a, [-1.5, 0]), shift(a, [0, 3.44])))(
     shift(lazienka3[0], [-0.16, 0]),
   );
@@ -86,6 +89,7 @@ export default (x = 0, y = 0, z = 10) => {
     lazienka2,
     lazienka3,
     pralnia,
+    sauna,
     schody,
     spizarnia,
     sypialnia1,
