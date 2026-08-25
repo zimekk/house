@@ -266,6 +266,18 @@ export default function App() {
       location: [52.1719186, 20.8322464],
     },
     {
+      name: "SklepBaterie.pl",
+      website: "https://www.sklepbaterie.pl/",
+      address: "Sękocińska 29, 05-830 Wolica",
+      location: [52.1157445, 20.8682554],
+    },
+    {
+      name: "Smart Home & Design - Oficjalny dystrybutor Grenton Smart Home",
+      website: "http://www.smarthomedesign.com.pl/",
+      address: "Al. Prymasa Tysiąclecia 83A/lokal 9, 01-242 Warszawa",
+      location: [52.2261299, 20.9543767],
+    },
+    {
       name: "Autoryzowany Dealer STIHL, Serwis wszystkich marek",
       website: "",
       address: "Al. Jerozolimskie 338, 05-820 Piastów",
@@ -282,6 +294,12 @@ export default function App() {
       website: "http://kominki-kozlowski.pl/",
       address: "Sokołowska 50, 05-090 Wypędy",
       location: [52.1440676, 20.881056],
+    },
+    {
+      name: "TomDom - Salon Łazienek",
+      website: "http://www.tomdom.pl/",
+      address: "Postępu 1, 02-676 Warszawa",
+      location: [52.1711197, 20.9868257],
     },
     {
       name: "VIYAR – wszystko do produkcji mebli",
