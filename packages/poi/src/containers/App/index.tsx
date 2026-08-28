@@ -2,15 +2,16 @@ import { useEffect, useRef, useState } from "react";
 // openlayers
 import { ScaleLine, defaults as defaultControls } from "ol/control";
 import { type Coordinate } from "ol/coordinate";
-import Map from "ol/Map";
-import View from "ol/View";
-import Feature from "ol/Feature";
-import { Point } from "ol/geom";
+import { Feature, Map, View } from "ol";
+import { inAndOut } from "ol/easing";
+import { Point, SimpleGeometry } from "ol/geom";
+import { Select } from "ol/interaction";
 import { Tile as TileLayer, Vector as VectorLayer } from "ol/layer";
 import { fromLonLat, transform } from "ol/proj";
 import OSM from "ol/source/OSM";
 import VectorSource from "ol/source/Vector";
-import { Circle, Fill, Stroke, Style } from "ol/style";
+import { Circle, Fill, Stroke, Style, Text } from "ol/style";
+import { StyleFunction } from "ol/style/Style";
 import "ol/ol.css";
 import styles from "./styles.module.scss";
 
@@ -21,9 +22,15 @@ interface Place {
   location: [number, number];
 }
 
-function Places({ places }: { places: Place[] }) {
+function Places({
+  places,
+  setLocation,
+}: {
+  places: Place[];
+  setLocation: (location: Place["location"]) => void;
+}) {
   return (
-    <ul>
+    <ol className={styles.Places}>
       {places.map(({ name, website, address, location }, index) => (
         <li key={index}>
           <a
@@ -53,13 +60,14 @@ function Places({ places }: { places: Place[] }) {
                 (selection.removeAllRanges(), selection.addRange(range)))(
                 window.getSelection(),
               );
+              setLocation(location);
             }}
           >
             {address}
           </a>
         </li>
       ))}
-    </ul>
+    </ol>
   );
 }
 
@@ -333,17 +341,25 @@ export default function App() {
       mapRef.current.setTarget(undefined);
     }
 
-    const coordinates = [
-      [20.7594, 52.1346],
-      [20.75907447322544, 52.13477143461034],
-      [20.75974786143117, 52.13469118662698],
-      [20.759971036190713, 52.13442983819979],
-      [20.758997907993905, 52.134528896721974],
-    ].concat(places.map(({ location }) => [...location].reverse()));
+    const coordinates = places
+      .map(({ location }) => [...location].reverse())
+      .concat([
+        [20.7594, 52.1346],
+        [20.75907447322544, 52.13477143461034],
+        [20.75974786143117, 52.13469118662698],
+        [20.759971036190713, 52.13442983819979],
+        [20.758997907993905, 52.134528896721974],
+      ]);
 
     const features: Feature[] = coordinates
       .map((coordinates) => fromLonLat(coordinates))
-      .map((coordinates) => new Feature(new Point(coordinates)));
+      .map(
+        (coordinates, index) =>
+          new Feature({
+            geometry: new Point(coordinates),
+            label: index + 1,
+          }),
+      );
 
     const source = new VectorSource({
       features,
@@ -355,6 +371,29 @@ export default function App() {
       // zoom: 20,
     });
 
+    const dynamicStyle: StyleFunction = (feature) =>
+      ((isSelected) =>
+        new Style({
+          image: new Circle({
+            radius: 10,
+            fill: new Fill({ color: "#ffffff80" }),
+            stroke: new Stroke({
+              color: isSelected ? "#9400D3" : "#3333ff",
+              width: 2,
+            }),
+          }),
+          text: new Text({
+            font: "bold 12px sans-serif",
+            fill: new Fill({ color: isSelected ? "#9400D3" : "#3333ff" }),
+            text: feature.get("label"), // Dynamically pulls the attribute
+          }),
+        }))(
+        select
+          .getFeatures()
+          .getArray()
+          .includes(feature as Feature),
+      );
+
     // create map
     const map = new Map({
       target: mapElement.current || undefined,
@@ -364,16 +403,7 @@ export default function App() {
         }),
         new VectorLayer({
           source,
-          style: new Style({
-            image: new Circle({
-              radius: 7,
-              fill: new Fill({ color: "#ffffff80" }),
-              stroke: new Stroke({
-                color: "#3333ff",
-                width: 2,
-              }),
-            }),
-          }),
+          style: dynamicStyle,
         }),
       ].filter(Boolean),
       view,
@@ -387,6 +417,26 @@ export default function App() {
       });
     }
 
+    const select = new Select({
+      // Force the selection to use the feature's existing style
+      style: dynamicStyle,
+    });
+    select.on("select", (e) => {
+      const selectedFeatures = e.selected;
+      if (selectedFeatures.length > 0) {
+        const feature = selectedFeatures[0];
+        const label = feature.get("label");
+        console.log("Clicked feature label:", label);
+        console.log(feature);
+        const geometry = feature.getGeometry();
+        if (geometry instanceof SimpleGeometry) {
+          const center = geometry.getCoordinates() as Coordinate;
+          // map.getView().setCenter(center)
+          map.getView().animate({ center, duration: 400, easing: inAndOut });
+        }
+      }
+    });
+    map.addInteraction(select);
     // set map onclick handler
     map.on("click", handleMapClick);
 
@@ -415,7 +465,15 @@ export default function App() {
       <h1>poi</h1>
       <div ref={mapElement} className={styles.Map}></div>
       <div>{JSON.stringify(selectedCoord, null, 2)}</div>
-      <Places places={places} />
+      <Places
+        places={places}
+        setLocation={([lat, lon]) =>
+          mapRef.current?.getView().animate({
+            center: fromLonLat([lon, lat]),
+            duration: 400,
+          })
+        }
+      />
     </div>
   );
 }
