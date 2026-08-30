@@ -953,5 +953,12 @@ export const lights = [
         "https://ae01.alicdn.com/kf/S20c2af6a407e4e6ab13965aa2d97eda2C.jpg",
       url: "https://pl.aliexpress.com/item/1005009893198802.html",
     },
+    {
+      name: "Panel przełączników ściennych CENFAYA 8/4-przyciskowy DALI, urządzenie wejściowe DALI-2, obsługuje funkcję sprzężenia zwrotnego, zasilany przez magistralę DALI, wskaźnik LED.",
+      price: 94.39,
+      image:
+        "https://ae-pic-a1.aliexpress-media.com/kf/Sf373ba5d4fd746ad912e4d1dbe5e7d15W.jpg?has_lang=1&ver=1",
+      url: "https://pl.aliexpress.com/item/1005010394214614.html",
+    },
   ],
 ];

@@ -4,6 +4,7 @@ import { Link } from "../../components/link";
 import { boards } from "../../data/boards";
 import { daliknx } from "../../data/daliknx";
 import { devices } from "../../data/devices";
+import { fans } from "../../data/fans";
 import { garden } from "../../data/garden";
 import { lights } from "../../data/lights";
 import { moto } from "../../data/moto";
@@ -22,6 +23,7 @@ const OPTIONS = {
   boards,
   daliknx,
   devices,
+  fans,
   garden,
   lights,
   moto,
