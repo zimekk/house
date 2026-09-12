@@ -33,6 +33,7 @@
     "@dev/sketch": "workspace:*",
     "@dev/stl": "workspace:*",
     "@dev/three": "workspace:*",
+    "@dev/tiles": "workspace:*",
     "@dev/tools": "workspace:*",
     "@dev/video": "workspace:*",
     "@dev/web": "workspace:*",
