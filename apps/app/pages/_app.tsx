@@ -35,6 +35,7 @@ export default function MyApp({ Component, pageProps }: AppProps) {
         "sketch",
         "stl",
         "three",
+        "tiles",
         "tools",
         "video",
       ]}

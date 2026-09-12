@@ -1,0 +1,527 @@
+export default [
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_060.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_056.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_043.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_047.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_044.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_special_tw_the_top_024.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_042.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_040.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-stone-look/marazzi_grande_stone_look_005.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-stone-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_012.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_011.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_009.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_005.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_001.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/nobilis/marazzi_nobilis_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/nobilis-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-di-sicilia/marazzi_mystone_pietra_di_sicilia_023.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-di-sicilia-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-di-sicilia/marazzi_mystone_pietra_di_sicilia_021.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-di-sicilia-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-di-sicilia/marazzi_mystone_pietra_di_sicilia_020.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-di-sicilia-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-di-sicilia/marazzi_mystone_pietra_di_sicilia_014.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-di-sicilia-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-di-sicilia/marazzi_mystone_pietra_di_sicilia_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-di-sicilia-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-marble-look/marazzi_grande_marble_look_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-marble-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-marble-look/marazzi_grande_marble_look_138.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-marble-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-marble-look/marazzi_grande_marble_look_026.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-marble-look-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-marble-look/marazzi_sb_the_mansion_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-marble-look-kolekcje/",
+  },
+
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-limestone20/marazzi_mystone_limestone20_005.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-limestone20-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-limestone20/marazzi_mystone_limestone20_003.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-limestone20-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-travertino/marazzi_mystone_travertino_026.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-travertino-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-travertino/marazzi_mystone_travertino_028.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-travertino-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-travertino/marazzi_mystone_travertino_010.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-travertino-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-travertino/marazzi_mystone_travertino_007.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-travertino-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_028.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_029.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_030.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_031.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_034.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_033.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_027.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_026.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_024.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_025.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_004.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_006.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_018.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_015.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_016.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_011.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter/marazzi_caracter_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/caracter-m97l/marazzi_caracter_m97l-1600x1600.jpg",
+    url: "https://www.marazzi.pl/kolekcje/caracter-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/boiserie/marazzi_boiserie_007.jpg",
+    url: "https://www.marazzi.pl/kolekcje/boiserie-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/boiserie/marazzi_boiserie_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/boiserie-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/boiserie/marazzi_boiserie_006.jpg",
+    url: "https://www.marazzi.pl/kolekcje/boiserie-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/crea/marazzi_crea_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/crea-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/crea/marazzi_crea_010.jpg",
+    url: "https://www.marazzi.pl/kolekcje/crea-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_012.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_011.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_016.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_015.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_010.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_009.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_007.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_006.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-pietra-ligure/marazzi_mystone_pietra_ligure_005.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-pietra-ligure-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_019.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_004.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_007.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_006.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_001.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_003.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terramater/marazzi_crogiolo_terramater_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terramater-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/vivo/marazzi_vivo_009.jpg",
+    url: "https://www.marazzi.pl/kolekcje/vivo-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/vivo/marazzi_vivo_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/vivo-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/vivo/marazzi_vivo_004.jpg",
+    url: "https://www.marazzi.pl/kolekcje/vivo-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/vivo/marazzi_vivo_005.jpg",
+    url: "https://www.marazzi.pl/kolekcje/vivo-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/vivo/marazzi_vivo_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/vivo-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/naturalia/marazzi_naturalia_019.jpg",
+    url: "https://www.marazzi.pl/kolekcje/naturalia-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/naturalia/marazzi_naturalia_003.jpg",
+    url: "https://www.marazzi.pl/kolekcje/naturalia-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/poster/marazzi_poster_001.jpg",
+    url: "https://www.marazzi.pl/kolekcje/poster-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/poster/marazzi_poster_012.jpg",
+    url: "https://www.marazzi.pl/kolekcje/poster-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/poster/marazzi_poster_007.jpg",
+    url: "https://www.marazzi.pl/kolekcje/poster-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/white-deco/marazzi_white_deco_010.jpg",
+    url: "https://www.marazzi.pl/kolekcje/white-deco-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/white-deco/marazzi_white_deco_004.jpg",
+    url: "https://www.marazzi.pl/kolekcje/white-deco-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/alba/marazzi_alba_021.jpg",
+    url: "https://www.marazzi.pl/kolekcje/alba-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/alba/marazzi_alba_023.jpg",
+    url: "https://www.marazzi.pl/kolekcje/alba-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/alba/marazzi_alba_024.jpg",
+    url: "https://www.marazzi.pl/kolekcje/alba-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/alba/marazzi_alba_007.jpg",
+    url: "https://www.marazzi.pl/kolekcje/alba-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/alba/marazzi_alba_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/alba-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/alba/marazzi_alba_009.jpg",
+    url: "https://www.marazzi.pl/kolekcje/alba-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-moon/marazzi_sb_pure_nordic_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-moon-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-moon/marazzi_sb_pure_nordic_014.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-moon-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-moon/marazzi_mystone_moon_011.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-moon-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-moon/marazzi_mystone_moon_009.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-moon-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-moon/marazzi_mystone_moon_004.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-moon-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terratech/marazzi_sb_the_spa_015.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terratech-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terratech/marazzi_sb_the_spa_014.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terratech-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terratech/marazzi_terratech_015.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terratech-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/terratech/marazzi_terratech_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/terratech-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/allmarble-wall/marazzi_sb_the_mansion_003.jpg",
+    url: "https://www.marazzi.pl/kolekcje/allmarble-wall-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/allmarble-wall/marazzi_sb_the_suite_004.jpg",
+    url: "https://www.marazzi.pl/kolekcje/allmarble-wall-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/allmarble-wall/marazzi_sb_the_suite_005.jpg",
+    url: "https://www.marazzi.pl/kolekcje/allmarble-wall-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/allmarble-wall/marazzi_allmarble_wall_008.jpg",
+    url: "https://www.marazzi.pl/kolekcje/allmarble-wall-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_024.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_023.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_018.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_020.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_019.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_017.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_016.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_021.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_009.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_010.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-ceppo-di-gre/marazzi_mystone_ceppo_di_gre_006.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-ceppo-di-gre-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/powder/marazzi_powder_075.jpg",
+    url: "https://www.marazzi.pl/kolekcje/powder-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/powder/marazzi_powder_073.jpg",
+    url: "https://www.marazzi.pl/kolekcje/powder-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/treverkmore/marazzi_treverkmore_016.jpg",
+    url: "https://www.marazzi.pl/kolekcje/treverkmore-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/treverkmore/marazzi_treverkmore_013.jpg",
+    url: "https://www.marazzi.pl/kolekcje/treverkmore-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/treverkmore/marazzi_treverkmore_005.jpg",
+    url: "https://www.marazzi.pl/kolekcje/treverkmore-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/treverkmore/marazzi_treverkmore_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/treverkmore-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-kashmir/marazzi_mystone_kashmir_006.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-kashmir-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-kashmir/marazzi_mystone_kashmir_004.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-kashmir-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/mystone-kashmir/marazzi_mystone_kashmir_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/mystone-kashmir-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/stony/marazzi_stony_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/stony-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/stony/marazzi_stony_006.jpg",
+    url: "https://www.marazzi.pl/kolekcje/stony-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/treverksoul/marazzi_treverksoul_002.jpg",
+    url: "https://www.marazzi.pl/kolekcje/treverksoul-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/treverksoul/marazzi_treverksoul_001.jpg",
+    url: "https://www.marazzi.pl/kolekcje/treverksoul-kolekcje/",
+  },
+  {
+    src: "https://www.marazzi.pl/app/uploads/collezioni/grande-resin-look/marazzi_sb_small_solutions_012.jpg",
+    url: "https://www.marazzi.pl/kolekcje/grande-resin-look-kolekcje/",
+  },
+];
