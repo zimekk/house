@@ -1,0 +1,266 @@
+export default [
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/boost-stone-ivory/162x324-1-atlas-plan-boost-stone-ivory-stone-effect-kitchen-tiles.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/boost-stone-ivory/?5=19&18=77&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/boost-stone-ivory/atlas-plan-boost-pro-ivory-stone-effect-porcelain-stoneware-table-top-clamp_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/boost-stone-ivory/?5=19&18=77&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/boost-stone-ivory/atlas-plan-boost-stone-ivory-porcelain-stoneware-kitchen-backsplash-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/boost-stone-ivory/?5=19&18=77&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/boost-stone-ivory/atlas-plan-boost-stone-ivory-stone-effect-porcelain-stoneware-kitchen-top-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/boost-stone-ivory/?5=19&18=77&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/boost-stone-ivory/atlas-plan-boost-stone-ivory-kitchen-porcelain-stoneware-clamp_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/boost-stone-ivory/?5=19&18=77&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/boost-stone-ivory/atlas-plan-boost-stone-ivory-stone-effect-stoneware-kitchen-doors-cladding-clamp_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/boost-stone-ivory/?5=19&18=77&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/scenic-living-with-wild-flowers/01-living-scenographic-with-forest-flowers-atlas-wall-tv-atlas-plan-clamp_960_960_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/scenic-living-with-wildflowers/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/scenic-living-with-wild-flowers/02-1-living-scenographic-with-wall-tv-in-the-woods-and-floor-in-granite-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/scenic-living-with-wildflowers/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/scenic-living-with-wild-flowers/03-living-scenographic-with-shelf-groove-and-wall-tv-in-the-woods-atlas-plan-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/scenic-living-with-wildflowers/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/scenic-living-with-wild-flowers/04-1-living-scenographic-with-a-staircase-atlas-plan-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/scenic-living-with-wildflowers/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/scenic-living-with-wild-flowers/04-2-living-scenographic-with-sofa-in-the-textile-and-wall-tv-in-the-woods-atlas-plan-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/scenic-living-with-wildflowers/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/functional-and-elegant-kitchen-with-travertino-sand/01-kitchen-functional-and-elegant-with-travertine-sand-island-worktop-backsplash-atlas-plan-clamp_960_960_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/functional-and-elegant-kitchen-with-travertine-sand/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/functional-and-elegant-kitchen-with-travertino-sand/02-kitchen-with-island-in-travertine-sand-worktop-and-backlash-atlas-plan-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/functional-and-elegant-kitchen-with-travertine-sand/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/functional-and-elegant-kitchen-with-travertino-sand/03-2-kitchen-with-worktop-travertine-sand-and-elegant-details-atlas-plan-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/functional-and-elegant-kitchen-with-travertine-sand/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/functional-and-elegant-kitchen-with-travertino-sand/03-1-kitchen-with-travertine-worktop-backlash-and-lighting-atlas-plan-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/functional-and-elegant-kitchen-with-travertine-sand/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/travertino-sand/162x324-1-non-rectified-stoneware-slab-travertino-sand-atlas-plan.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/travertino-sand/?5=19&18=76&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/arazay-project/1-minimalist-modern-apartment-stone-effect-black-and-white-palette-arazay-project-atlas-plan-clamp_960_960_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/kitchen-kone-mix-stone-effect-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/arazay-project/2-atlas-plan-kone-mix-porcelain-stoneware-surfaces-kitchen-island-worktop-backsplash-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/kitchen-kone-mix-stone-effect-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/arazay-project/4-ornamental-aesthetic-ceppo-di-gre-kone-mix-atlas-plan-arazay-project-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/kitchen-kone-mix-stone-effect-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/arazay-project/3-minimalist-mood-with-natural-stone-effect-suggestions-arazay-project-atlas-plan-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/kitchen-kone-mix-stone-effect-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/kone-mix/162x324-atlas-plan-stone-effect-tile-kone-mix.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/kone-mix/?5=20&18=77&44=173",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/sarit-haim-2-project/2-1-boost-stone-ivory-stone-effect-porcelain-stoneware-kitchen-island-top-clip_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/boost-stone-ivory-stone-effect-kitchen-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/sarit-haim-2-project/2-2-boost-stone-ivory-stone-effect-stoneware-kitchen-wall-tiles-by-atlas-plan-clip_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/boost-stone-ivory-stone-effect-kitchen-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/sarit-haim-2-project/2-3-boost-stone-ivory-stone-effect-stoneware-kitchen-worktop-by-atlas-plan-clip_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/boost-stone-ivory-stone-effect-kitchen-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/sarit-haim-2-project/3-stone-effect-large-stoneware-slab-for-kitchen-worktop-by-atlas-plan-clip_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/boost-stone-ivory-stone-effect-kitchen-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/sarit-haim-2-project/5-atlas-plan-large-porcelain-stoneware-slabs-for-kitchen-worktop-for-sarit-haim-project-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/boost-stone-ivory-stone-effect-kitchen-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/sarit-haim-2-project/4-stone-effect-porcelain-stoneware-kitchen-worktop-and-backsplash-by-atlas-plan-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/boost-stone-ivory-stone-effect-kitchen-island/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/poggenpohl-hampstead/3-porcelain-stoneware-kitchen-in-crystal-white-by-atlas-plan-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/porcelain-stoneware-commercial-showroom/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/poggenpohl-hampstead/5-kitchen-worktop-and-backsplash-in-atlas-plan-porcelain-stoneware-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/porcelain-stoneware-commercial-showroom/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/poggenpohl-hampstead/4-top-and-side-panels-for-kitchen-island-with-atlas-plan-stoneware-slabs-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/porcelain-stoneware-commercial-showroom/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/poggenpohl-hampstead/2-2-showroom-kitchen-countertop-in-atlas-plan-calacatta-imperiale-effect-stoneware-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/porcelain-stoneware-commercial-showroom/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/poggenpohl-hampstead/2-3-table-top-clad-with-atlas-plan-large-porcelain-stoneware-slabs-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/porcelain-stoneware-commercial-showroom/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/poggenpohl-hampstead/2-4-kitchen-countertop-with-large-crystal-white-stoneware-slabs-by-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/porcelain-stoneware-commercial-showroom/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/prvni-keramicka-project/1-atlas-plan-kone-mix-ceppo-di-gre-effect-stoneware-kitchen-peninsula-cladding-clamp_960_960_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stone-effect-island-kitchen-kone-mix/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/prvni-keramicka-project/2-ceppo-di-gre-effect-porcelain-stoneware-large-size-slab-kitchen-top-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stone-effect-island-kitchen-kone-mix/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/prvni-keramicka-project/4-ceppo-di-gre-effect-atlas-plan-clad-kitchen-peninsula-detail-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stone-effect-island-kitchen-kone-mix/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/prvni-keramicka-project/3-atlas-plan-kone-mix-kitchen-top-ceppo-di-gre-effect-large-size-stoneware-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stone-effect-island-kitchen-kone-mix/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/prvni-keramicka-project/5-atlas-plan-ceppo-di-gre-effect-stoneware-large-size-slabs-kitchen-peninsula-top-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stone-effect-island-kitchen-kone-mix/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/prvni-keramicka-project/7-atlas-plan-ceppo-di-gre-effect-porcelain-stoneware-kone-mix-kitchen-project-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stone-effect-island-kitchen-kone-mix/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/prvni-keramicka-project/6-atlas-plan-porcelain-stoneware-kitchen-peninsula-side-panel-cladding-clip_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stone-effect-island-kitchen-kone-mix/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/revach-project/1proj-clamp_960_960_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/modern-functional-kitchen-calacatta-prestige/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/revach-project/2projslider1-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/modern-functional-kitchen-calacatta-prestige/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/revach-project/2projslider2-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/modern-functional-kitchen-calacatta-prestige/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/revach-project/2projslider3-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/modern-functional-kitchen-calacatta-prestige/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/revach-project/3proj-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/modern-functional-kitchen-calacatta-prestige/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/calacatta-prestigio/162x324-1-wall-tiling-calacatta-apuan-marble-effect-stoneware.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/calacatta-prestigio/?5=18&18=76&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/ramat-gan-project/ceppo-di-gre-kone-mix-162x324cm-stoneware-slab-project-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stylish-showroom-porcelain-stoneware-surfaces/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/ramat-gan-project/kitchen-top-in-ceppo-di-gre-effect-porcelain-stoneware-atlas-plan-project-erez-hyatt-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stylish-showroom-porcelain-stoneware-surfaces/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/ramat-gan-project/ceppo-di-gre-stoneware-for-luxury-and-design-flat-project-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stylish-showroom-porcelain-stoneware-surfaces/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/ramat-gan-project/ceppo-di-gre-effect-porcelain-stoneware-luxury-kitchen-atlas-plan-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stylish-showroom-porcelain-stoneware-surfaces/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/ramat-gan-project/ceppo-di-gre-stone-effect-porcelain-stoneware-vanity-top-project-atlas-plan-clamp_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stylish-showroom-porcelain-stoneware-surfaces/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/ramat-gan-project/ceppo-di-gre-effect-stoneware-sink-top-project-erez-hyatt-atlas-plan-clamp_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/stylish-showroom-porcelain-stoneware-surfaces/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/project-with-atlas-plan-marble-effect-porcelain-stoneware-flooring-and-kitchen-clamp_960_960_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/calacatta-extra-marble-effect-porcelain-stoneware-kitchen-worktops-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/calacatta-extra-marble-effect-porcelain-stoneware-flooring-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/calacatta-extra-marble-effect-stoneware-kitchen-backsplash-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/marble-effect-stoneware-slab-with-through-body-vein-for-kitchen-top-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/calacatta-extra-marble-effect-porcelain-stoneware-surfaces-kitchen-project-atlas-plan-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/atlas-plan-marble-effect-porcelain-stoneware-kitchen-and-flooring-project-clamp_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/linor-avissar-project/atlas-plan-calacatta-extra-marble-effect-stoneware-kitchen-and-flooring-project-clamp_768_1024_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/gleaming-kitchen-calacatta-extra/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/calacatta-extra/162x324-bookmatch-1-atlas-plan-calacatta-extra-bookmatch-a.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/calacatta-extra/?5=18&18=76&44=172",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/lebanon-project/bookmatch-marble-effect-stoneware-slabs-lebanon-project-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/luxury-commercial-building-calacatta-imperiale/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/lebanon-project/large-calacatta-imperiale-porcelain-stoneware-slabs-atlas-plan-lebanon-project-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/luxury-commercial-building-calacatta-imperiale/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/lebanon-project/marble-effect-stoneware-commercial-spaces-surfaces-cladding-atlas-plan-clamp_1440_900_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/luxury-commercial-building-calacatta-imperiale/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/projects/lebanon-project/luxury-commercial-spaces-porcelain-stoneware-atlas-plan-lebanon-project-clamp_768_768_50.webp",
+    url: "https://www.atlasplan.com/en-US/projects/luxury-commercial-building-calacatta-imperiale/",
+  },
+  {
+    src: "https://storage.atlasplan.com/public/assets/large-slabs/calacatta-imperiale/162x324-bookmatch-1-calacatta-imperiale-marble-effect-tiles-atlas-plan.webp",
+    url: "https://www.atlasplan.com/en-US/large-format-porcelain-slabs/calacatta-imperiale/?5=18&18=76&44=173",
+  },
+];

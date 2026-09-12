@@ -1,0 +1,222 @@
+export default [
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_32e099d27b444e0d87352572e893a330~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/Calacatta%20Gold%20Ambiance-%20Living%20Full%20view.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-calacatta-gold",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_299fdd09296c4295be5b76b33d04eddb~mv2.jpg/v1/fill/w_1199,h_576,al_c,q_85,enc_avif,quality_auto/RAK_CALACATTA_IMPERIALE_HALL_HR_V2.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-calacatta-imperiale",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_e474288513ee474fa5db17b39d74c7c7~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/RAK_COUNTERTOP_CALACATTA%20VERDE_AMB%204_HR_V1.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-calacatta-verde",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_04304ab24e08441986924c308102120c~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A4MGCCTV-GRE_N0XCD.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-calacatta-verde",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_531c237c77214aa59b829c3a41536d98~mv2.png/v1/fill/w_2400,h_1152,al_c,q_95,enc_avif,quality_auto/RAK_Shop_Calacatta_Apuano.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-calcatta-apuano",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_db3b99aa019047c3842922ea9b5d96cb~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/RAK_COUNTERTOP_AMB%203_CLOSE%20UP_PORTRATE-v2-HR.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-ceppo-d%E2%80%99iseo",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_1f06322c8b444ec799ec409412d8793f~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A4MGCPPD-LIG_M0XCU.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-ceppo-d%E2%80%99iseo",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_8baff79aba24495f90e452764cf43799~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/RAK_CERSAIE26_AMB%206_DUNE%20WIND_LIBRARY%20CORNER_ALTA-1.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-dune-wind",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_96b8ac6616894bc4ac44de63481ebe2e~mv2.jpg/v1/fill/w_3200,h_1536,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/RAK_Bar_Golden_Glints%20copy.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-golden-glints",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_a76cd67a4fa048e1b6ddddc729b1b6bf~mv2.jpg/v1/fill/w_732,h_876,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/CALACATTA%20GLINTS-120X280-F1.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-golden-glints",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_39d590876cff47a9a306acb7b18a46dd~mv2.jpg/v1/fill/w_360,h_727,al_c,lg_1,q_80,enc_avif,quality_auto/CALACATTA%20GLINTS-60X120.jpg",
+    url: "https://www.maximussurfaces.com/product-list-tiles-info/maximus-golden-glints-3",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_9f4d948f9a3b43e1879c5387d76aa91a~mv2.png/v1/fill/w_2400,h_1152,al_c,q_95,enc_avif,quality_auto/RAK_Cersaie24_IstanbulCucina_P1.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-grey-antique",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_8567ca8bcf77491bbc2465e832a61239~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A6MGGRAQ-GRY_B0X8P.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-grey-antique",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_d2355b37a91244fd88e6052b9558e47d~mv2.png/v1/fill/w_2400,h_1152,al_c,q_95,enc_avif,quality_auto/RAK-MAXIMUS-Sassi-Kitchen.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-i-sassi-matera",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_0e023f9fd7284e258ab9e310aeb87720~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GISMR-DRS_M6X6R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-i-sassi-matera",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_baaa7e1772f14e9cab711958ed8a5971~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GISMR-DIR_M6X5R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-i-sassi-matera",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_05cbaf0dbcf240f0ab8500327e8b045f~mv2.png/v1/fill/w_2400,h_1152,al_c,q_95,enc_avif,quality_auto/RAK-MAXIMUS-Sassi-Kitchen-02.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-i-sassi-borgogna",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_9166f9c874ef465dbc31bbf5ab22fe99~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GISBR-SND_M6X5R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-i-sassi-borgogna",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_bf14dadf9f7448b5a5913cba0c65f955~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GISBR-IVO_M6X6R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-i-sassi-borgogna",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_d8302dd280b245b0b0c461be6d0b91f8~mv2.jpg/v1/fill/w_3200,h_1536,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/RAK_ICELAND%20WHITE_BATHROOM_HR_V2%20copy.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-iceland-white",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_f7043970c5e145128adaa73958e19bf8~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GICMR-HWH_M0A6R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-iceland-white",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_967beec2c0d34f7a98f096bf953d632b~mv2.png/v1/fill/w_2400,h_1152,al_c,q_95,enc_avif,quality_auto/MOON%20STONE%20COUNTER%20TOP%20HD.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-moon-stone",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_b4664ab6ea2a4854a7c15aa6e81e5dea~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GMOST-BEE_A0X6R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-moon-stone",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_b82baf24d7eb4d8691962d4338c2c3b1~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GMOST-GRY_A0X6R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-moon-stone",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_01d7ad0efb1b4268a867f7c02d5dac88~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A82GMOST-WHE_A0X6R.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-moon-stone",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_d936512bf5bb4f08a36a829873bed50c~mv2.jpg/v1/fill/w_3200,h_1536,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/RAK_PIETRASANTA_COUNTERTOP_HR_V3%20copy.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-pietrasanta-marble",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_163b2e17b012462eb0194460b7cb66ef~mv2.jpg/v1/fill/w_732,h_876,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Maximus%20Pietrasanta%20Marble-162x324.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-pietrasanta-marble",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_dc5254f562a1479c919e4e8193486102~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/RAK%202023_Countertop%20Pontino_Ivory%20For%20Cover%20flatten.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-pontino",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_6f0cd1e461bd453ca05f7776f4a92e7b~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A4MGPNTO-LIG_M0XCU.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-pontino",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_30d45607e87a4f5e8b897bfa85220be3~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A4MGPNTO-IVO_M0XCU.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-pontino",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_51ed987529814a249d53404bcd6b2551~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/Rain%20marble%20amb.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-rain-marble",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_6b8085d26a89490b897e5c018c0911e7~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A4MGRANM-HWH_N0XCD.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-rain-marble",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_8b753fafca374d29a17fa5914477aa6c~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/RAK_REVIVE%20CONCRETE_LOFT%20BRICK_KITCHEN_HR_V1.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-surface-xl",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_420140eb158341dd847d6734661784a6~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/RAK_TAJ%20MAHAL_KITCHEN_HR_V2.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-taj-mahal",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_448021e168054c68b8fc0a14d41c4f50~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A4MGTHMH-PRL_N0XCD.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-taj-mahal",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_2abd102b39574acdaa808ef8d6b296aa~mv2.jpg/v1/fill/w_3200,h_1536,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/RAK-MAXIMUS-Travertine-Kitchen%20copy.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-travertine-osso",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_75201869dc524468a71b6374346e9cba~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A12GTROS-LBE_MLX5R-Travertino_Osso_LightBeige_Decor.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-travertine-osso",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_c8024e3e2a8d403e9d2d3fccf114e3a1~mv2.png/v1/fill/w_600,h_718,al_c,q_90,enc_avif,quality_auto/A12GTROS-WHE_MLX5R-Travertino_Osso_White_Decor.png",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-travertine-osso",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_2c7411c1fa7f4b2eb3fd9677311d0333~mv2.jpg/v1/fill/w_732,h_876,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/TRAVERTINE%20OSSO%20LIGHT%20BEIGE%20120X280_01%20(1).jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-travertine-osso",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_3527a56a343941349c00f483fa81b580~mv2.jpg/v1/fill/w_732,h_876,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/TRAVERTINE%20OSSO_WHITE%2060x120_01.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-travertine-osso",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_377d9d7478444984a6b49cbd3cb7a6b2~mv2.jpg/v1/fill/w_2400,h_1152,al_c,q_90,enc_avif,quality_auto/RAK_PRECIOUS_Counter%20nero.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-uni",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_1b9160be69f44165b77ca3f4bbb42d5e~mv2.jpg/v1/fill/w_3200,h_1536,al_c,q_90,usm_0.66_1.00_0.01,enc_avif,quality_auto/RAK_Kitchen_White_Golden_Marble%20copy.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-white-golden-marble",
+  },
+  {
+    src: "https://static.wixstatic.com/media/cb9d76_9a56d2e6de7f45758a4ab44175da2a71~mv2.jpg/v1/fill/w_732,h_876,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/WHITE%20GOLDEN%20MARBLE-0071-12990-120X120-F1.jpg",
+    url: "https://www.maximussurfaces.com/maximus-collections/maximus-white-golden-marble",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/ceppo%20di%20gre'%20stone/ambience/high-res/Ceppo%20di%20gre_negozio%20di%20fiori_mid%20grey_light%20grey%20copy.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/ceppo-di-gre-stone/#collection-gallery-1",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/ceppo%20di%20gre'%20stone/ambience/high-res/Rak%20Bagno%20ceppo%20di%20gre%20_%20Grey.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/ceppo-di-gre-stone/#collection-gallery-2",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/ceppo%20di%20gre'%20stone/ambience/high-res/Rak_Tiles2022_Horeca_Restaurant_1_Part1.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/ceppo-di-gre-stone/#collection-gallery-3",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/products/web/__sized__/93-AGB12CPDGLIGZMLNLR-CEPPODIGRESTONE-crop-c0-5__0-5-300x300-70.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/ceppo-di-gre-stone/",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/iceland%20white/ambience/high-res/RAK_HOSPITALITY_BAGNO%20STANDARD_OPZ%202_HR_V1.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/iceland-white/#collection-gallery-1",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/iceland%20white/ambience/high-res/RAK_ICELAND%20WHITE_HONED_CLOSE%20UP_VERT_HR_V1.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/iceland-white/#collection-gallery-2",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/products/web/__sized__/58-A06GICMR-WHE-N0X0P-ICELANDWHITEWHITE-crop-c0-5__0-5-300x300-70.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/iceland-white/",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/portland%20stone/ambience/high-res/portland%20stone%201.png",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/portland-stone/#collection-gallery-1",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/portland%20stone/ambience/high-res/portland%20stone%202.png",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/portland-stone/#collection-gallery-2",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/portland%20stone/ambience/high-res/RAK_Cersaie24_Portland%20Living%20Closeup.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/portland-stone/#collection-gallery-3",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/travertine%20cross%20cut/ambience/high-res/travertine%20cross%20cut.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/travertine-cross-cut/#collection-gallery-1",
+  },
+  {
+    src: "https://d3hdqda5v86kzc.cloudfront.net/media/products/tiles/images/series/travertine%20cross%20cut/ambience/high-res/RAK%202023_Cersaie_Travertine_Part1-amb.jpg",
+    url: "https://www.rakceramics.com/en/tiles-floors-coverings/collections/travertine-cross-cut/#collection-gallery-2",
+  },
+];

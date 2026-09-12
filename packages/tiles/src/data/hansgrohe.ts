@@ -1,0 +1,82 @@
+export default [
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr08277_tif.png?format=HBW48",
+    url: "https://www.hansgrohe.pl/articledetail-raindance-alive-s-komplet-prysznicowy-300-2jet-z-termostatem-showerselect-comfort-24595140",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr08318_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-raindance-alive-s-puro-komplet-prysznicowy-300-1jet-z-termostatem-ecostat-element-24592140",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr06824_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-pulsify-s-puro-komplet-prysznicowy-260-1-jet-z-ecostat-fine-i-glowka-prysznicowa-3jet-24236140",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05111_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xelu-q-umywalka-wpuszczana-w-blat-z-polka-po-prawej-stronie-800-480-szlifowana-bez-otworu-na-baterie-bez-przelewu-smartclean-61029450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05114_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xelu-q-umywalka-wpuszczana-w-blat-z-polka-po-lewej-stronie-800-480-szlifowana-bez-otworu-na-baterie-bez-przelewu-smartclean-61035450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr06726_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xanuia-q-umywalka-wiszaca-compact-550-370-bez-otworu-na-baterie-z-przelewem-smartclean-61121450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr06736_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xanuia-q-umywalka-wiszaca-700-480-z-otworem-na-baterie-z-przelewem-smartclean-61132450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr06040_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xanuia-q-umywalka-wpuszczana-w-blat-550-480-szlifowana-z-otworem-na-baterie-z-przelewem-60238450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05159_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xuniva-q-umywalka-nablatowa-550-400-bez-otworu-na-baterie-bez-przelewu-60168450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05153_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xuniva-q-umywalka-wpuszczana-w-blat-550-450-z-otworem-na-baterie-z-przelewem-60162450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr04344_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xuniva-q-umywalka-wpuszczana-w-blat-550-400-bez-otworu-na-baterie-z-przelewem-60158450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05163_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xuniva-q-umywalka-nablatowa-600-450-z-otworem-na-baterie-z-przelewem-smartclean-61082450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05106_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xelu-q-umywalka-wiszaca-600-480-bez-otworu-na-baterie-bez-przelewu-smartclean-61017450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05104_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xelu-q-mala-umywalka-wiszaca-500-480-bez-otworu-na-baterie-bez-przelewu-smartclean-61013450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05105_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-xelu-q-umywalka-wpuszczana-w-blat-600-480-szlifowana-z-otworem-na-baterie-bez-przelewu-smartclean-61018450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05812_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-elupura-s-miska-wiszaca-wc-540-bezkolnierzowa-aquafall-flush-hygieneeffect-z-deska-wc-softclose-quickrelease-62021450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr06149_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-elupura-original-s-miska-wiszaca-wc-540-aquachannel-flush-z-deska-wc-softclose-quickrelease-60288450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr08729_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-elupura-s-zestaw-stelaz-podtynkowy-iframe-z-przyciskiem-splukujacym-iframe-element-e-i-miska-wiszaca-wc-elupura-s-z-deska-wc-60303000",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05812_tif.png?format=HBW48",
+    url: "https://www.hansgrohe.pl/articledetail-elupura-s-miska-wiszaca-wc-540-bezkolnierzowa-aquafall-flush-z-deska-wc-softclose-quickrelease-60292450",
+  },
+  {
+    src: "https://assets.hansgrohe.com/mam/celum/celum_assets/154__hpr05814_tif.png?format=HBW49",
+    url: "https://www.hansgrohe.pl/articledetail-elupura-s-miska-wiszaca-wc-540-bezkolnierzowa-aquahelix-flush-hygieneeffect-z-deska-wc-softclose-quickrelease-slim-62025450",
+  },
+];
