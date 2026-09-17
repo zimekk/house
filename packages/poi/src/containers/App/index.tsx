@@ -183,6 +183,12 @@ export default function App() {
       location: [52.1735863, 20.9904477],
     },
     {
+      name: "Hansgrohe Sp. z o.o.",
+      website: "https://www.hansgrohe.pl/",
+      address: "Koszykowa 65, 00-667 Warszawa",
+      location: [52.2226289, 20.9751398],
+    },
+    {
       name: "Intar Sp. z o.o. - Materiały i usługi dla meblarstwa",
       website: "https://intar.pl/",
       address: "Kutrzeby 30, 05-082 Stare Babice",
