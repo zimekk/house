@@ -1,0 +1,246 @@
+export default [
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-podlogowa-melt-cone-fat-nickel-tom-dixon-5.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-podlogowe/lampa-podlogowa-melt-cone-fat-nickel-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-wiszaca-melt-small-tom-dixon-5.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-melt-small-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stolik-okazjonalny-spot-czarny-tom-dixon-1.jpg",
+    url: "https://www.momastudio.pl/meble/salon/stoliki-okazjonalne/stoliki-okazjonalne-metalowe/stolik-okazjonalny-spot-czarny-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stolik-okazjonalny-spot-czarny-tom-dixon.jpg",
+    url: "https://www.momastudio.pl/meble/salon/stoliki-okazjonalne/stoliki-okazjonalne-metalowe/stolik-okazjonalny-spot-czarny-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stolik-okazjonalny-spot-czarny-tom-dixon-5.jpg",
+    url: "https://www.momastudio.pl/meble/salon/stoliki-okazjonalne/stoliki-okazjonalne-metalowe/stolik-okazjonalny-spot-czarny-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-bezprzewodowa-melt-large-brazowa-tom-dixon-3.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-bezprzewodowa-melt-large-bronze-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-74303-wazon-boulder-wide-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/dodatki/dekoracje/wazony/wazon-boulder-stem-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-74303-wazon-boulder-wide-tom-dixon-1.jpg",
+    url: "https://www.momastudio.pl/dodatki/dekoracje/wazony/wazon-boulder-stem-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-74258-lampa-wiszaca-unbeaten-wide-tom-dixon-3.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-unbeaten-flat-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-wiszaca-soft-60-cm-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-soft-60-cm-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-wiszaca-soft-60-cm-tom-dixon-8.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-soft-60-cm-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-wiszaca-soft-60-cm-tom-dixon-10.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-soft-60-cm-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-wiszaca-soft-60-cm-tom-dixon-11.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-soft-60-cm-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-przenosna-jack-tom-dixon.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-przenosna-jack-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-przenosna-jack-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-przenosna-jack-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-przenosna-jack-tom-dixon-3.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-przenosna-jack-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/dywan-zewnerzny-cord-zielony-tom-dixon.jpg",
+    url: "https://www.momastudio.pl/dywany/dywany-zewnetrzne/dywan-zewnetrzny-cord-zielony-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/dywan-wobble-natural-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/dywany/dywany-nowoczesne/dywan-wobble-natural-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/dywan-speck-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/dywany/dywany-nowoczesne/dywan-speck-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/dywan-tweed-tom-dixon-3.jpg",
+    url: "https://www.momastudio.pl/dywany/dywany-nowoczesne/dywan-tweed-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-bezprzewodowa-melt-czarna-tom-dixon.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-bezprzewodowa-melt-czarna-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-bezprzewodowa-melt-czarna-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-bezprzewodowa-melt-czarna-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-podlogowa-melt-cone-fat-nickel-tom-dixon-5.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-podlogowe/lampa-podlogowa-melt-cone-fat-nickel-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-wiszaca-melt-small-tom-dixon-5.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-melt-small-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/LampabezprzewodowaBellLedTaupeTomDixon1.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-bezprzewodowa-bell-led-taupe-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/LampabezprzewodowaBellLedTaupeTomDixon2.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-przenosne/lampa-bezprzewodowa-bell-led-taupe-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/Lampa-wiszaca-Beat-Fat-biala-Tom-Dixon1.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-beat-fat-biala-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/dywan-zewnetrzny-cord-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/dywany/dywany-zewnetrzne/dywan-zewnetrzny-cord-niebieski-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-wiszaca-melt-mini-tom-dixon-2.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-wiszace/lampa-wiszaca-melt-mini-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stol-Slab-200-cm-naturalny-debowy-Tom-Dixon-profile.1-jpg.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/stoly/stoly-drewniane/stol-slab-200-cm-naturalny-debowy-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stol-Slab-200-cm-naturalny-debowy-Tom-Dixon-profile-4.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/stoly/stoly-drewniane/stol-slab-200-cm-naturalny-debowy-tom-dixon",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-73266-fotelHeartConeChairVoloNightblueVitra-5.jpg",
+    url: "https://www.momastudio.pl/meble/salon/fotele-i-szezlongi/fotele-nowoczesne/fotel-heart-cone-chair-cognac-leather-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-73266-fotelHeartConeChairVoloNightblueVitra-7.jpg",
+    url: "https://www.momastudio.pl/meble/salon/fotele-i-szezlongi/fotele-nowoczesne/fotel-heart-cone-chair-cognac-leather-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-72881-sofa-mariposa-vitra-2.jpg",
+    url: "https://www.momastudio.pl/meble/salon/sofy/sofy-modulowe/sofa-mariposa-2-seater-savana-papyrus-melange-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/krzeslo-biurowe-lobby-chair-es-104-cognac-97-vitra-8.jpg",
+    url: "https://www.momastudio.pl/meble/domowe-biuro/fotele-i-krzesla-biurowe/krzeslo-biurowe-lobby-chair-es-104-cognac-97-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-72110-krzeslobiurowerookietkaninaplanocreamwhitepodstawajasnoszaravitra20.jpg",
+    url: "https://www.momastudio.pl/meble/domowe-biuro/fotele-i-krzesla-biurowe/krzeslo-biurowe-rookie-tkanina-plano-nero-podstawa-czarna-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-71588-krzesloeamesplasticsidechairredsrczerwonevitra12.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/krzesla/krzesla-nowoczesne/krzeslo-eames-plastic-side-chair-re-dsr-morski-niebieski-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-71588-krzesloeamesplasticsidechairredsrczerwonevitra7.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/krzesla/krzesla-nowoczesne/krzeslo-eames-plastic-side-chair-re-dsr-morski-niebieski-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/ZegarstolowyNightmosieznyVitra-5.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-stolowe/zegar-stolowy-night-mosiezny-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-71518-zegarsciennyballclockpomaranczowyvitra5.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-scienne/zegar-scienny-ball-clock-czerwony-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-71518-zegarsciennyballclockpomaranczowyvitra4.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-scienne/zegar-scienny-ball-clock-czerwony-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/zegar-scienny-asterisk-mosiezny-vitra-1.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-scienne/zegar-scienny-asterisk-mosiezny-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/zegar-stolowy-cone-vitra-3.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-stolowe/zegar-stolowy-cone-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/zegar-stolowy-diamond-vitra-6-1.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-stolowe/zegar-stolowy-cone-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/krzeslo-belleville-wood-czarny-jesion-vitra-2.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/krzesla/krzesla-nowoczesne/krzeslo-belleville-wood-czarny-jesion-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/fotel-eames-plastic-armchair-lar-bialy-vitra-7.jpg",
+    url: "https://www.momastudio.pl/meble/salon/fotele-i-szezlongi/fotele-nowoczesne/fotel-eames-plastic-armchair-lar-bialy-czarna-podstawa-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-72948-foteleamesplasticarmchairlarszarychromowanapodstawavitra13.jpg",
+    url: "https://www.momastudio.pl/meble/salon/fotele-i-szezlongi/fotele-nowoczesne/fotel-eames-plastic-armchair-lar-pomaranczowy-czarna-podstawa-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-72948-foteleamesplasticarmchairlarbialyvitra8.jpg",
+    url: "https://www.momastudio.pl/meble/salon/fotele-i-szezlongi/fotele-nowoczesne/fotel-eames-plastic-armchair-lar-pomaranczowy-czarna-podstawa-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stole-butterfly-meple-vitra.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/stolki-i-taborety/stolek-butterfly-maple-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stole-butterfly-meple-vitra-3.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/stolki-i-taborety/stolek-butterfly-maple-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stolek-butterfly-meple-vitra-9.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/stolki-i-taborety/stolek-butterfly-maple-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/stolek-butterfly-meple-vitra-10.jpg",
+    url: "https://www.momastudio.pl/meble/jadalnia/stolki-i-taborety/stolek-butterfly-maple-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/zegar-scienny-popsicle-vitra-1.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-scienne/zegar-scienny-popsicle-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-scienna-petite-potence-niebieska-vitra-1.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-scienne/lampa-scienna-petite-potence-niebieska-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/lampa-scienna-petite-potence-czerwona-vitra-2.jpg",
+    url: "https://www.momastudio.pl/oswietlenie/lampy-scienne/lampa-scienna-petite-potence-czerwona-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/zegar-scienny-sunflower-black-ash-brass-Vitra-3.jpg",
+    url: "https://www.momastudio.pl/dodatki/zegary-i-budziki/zegary-scienne/zegar-scienny-sunflower-black-ash-brass-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-71689-krzeslobiurowealuminiumgroupea132tkaninatracklimepodstawajasnoszaravitra12.jpg",
+    url: "https://www.momastudio.pl/meble/domowe-biuro/fotele-i-krzesla-biurowe/krzeslo-biurowe-aluminium-ea-132-tkanina-canola-podstawa-aluminiowa-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-72986-krzeslo-biurowe-aluminium-EA-117-naturalna-skora-cognac-podstawa-bordowa-vitra-8.jpg",
+    url: "https://www.momastudio.pl/meble/domowe-biuro/fotele-i-krzesla-biurowe/krzeslo-biurowe-aluminium-ea-117-tkanina-cosy-pale-blue-podstawa-kremowa-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/fotel-biurowy-soft-pad-chair-EA-231-papyrus-cream-podstawa-czarna-vitra-8.jpg",
+    url: "https://www.momastudio.pl/meble/domowe-biuro/fotele-i-krzesla-biurowe/fotel-biurowy-soft-pad-ea-231-tkanina-laser-papyrus-podstawa-czarna-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-71618-fotelsoftpadchairea222trackpinkmustardpodstawaaluminiowavitra8.jpg",
+    url: "https://www.momastudio.pl/meble/salon/fotele-i-szezlongi/fotele-nowoczesne/fotel-soft-pad-chair-ea-222-tkanina-laser-warm-gray-podstawa-aluminiowa-vitra",
+  },
+  {
+    src: "https://www.momastudio.pl/produkty/kpi-71619-fotelsoftpadchairea222trackpinkmustardpodstawaaluminiowavitra11.jpg",
+    url: "https://www.momastudio.pl/meble/salon/fotele-i-szezlongi/fotele-nowoczesne/fotel-soft-pad-chair-ea-222-tkanina-cosy-2-nutmeg-podstawa-czarna-vitra",
+  },
+];
