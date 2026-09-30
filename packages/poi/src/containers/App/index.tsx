@@ -159,6 +159,12 @@ export default function App() {
       location: [52.2478858, 20.7039494],
     },
     {
+      name: "Drzwi Drims Bazydło Furniture",
+      website: "https://drims.pl/",
+      address: "ks. Zycha 4I, 05-091 Ząbki",
+      location: [52.2825264, 21.0846805],
+    },
+    {
       name: "Sklep budowlany | Hurtownia materiałów budowlanych DTM Bronisze",
       website: "https://dtmhurtownia.pl/",
       address: "Piastowska 3, 05-850 Bronisze",
