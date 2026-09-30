@@ -177,8 +177,22 @@ Miedziany brąz\tVSR 780`)}
           <h3>Velux - Nowy kołnierz EDT do dachówki płaskiej</h3>
           <Table
             list={parseList(`
-szary\tRAL 7043
-              `)}
+szary\tRAL 7043`)}
+          />
+        </div>
+      </div>
+      <div className={styles.Columns}>
+        <div>
+          {/* https://materialy.velux.pl/produkty-montazowe/kolnierze */}
+          <h3>Pruszyński - Panel PD510 Nano</h3>
+          <Table
+            list={parseList(`
+PUM R011
+PUM R028
+PUM R033
+PUM R750
+PUM RAL 7016
+PUM RAL 8017`)}
           />
         </div>
       </div>
