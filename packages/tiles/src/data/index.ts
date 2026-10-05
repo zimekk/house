@@ -1640,6 +1640,7 @@ export const images = [
   ...(await import("./catalano")).default,
   ...(await import("./cerrad")).default,
   ...(await import("./cersanit")).default,
+  ...(await import("./fapceramiche")).default,
   ...(await import("./florim")).default,
   ...(await import("./hansgrohe")).default,
   ...(await import("./imolaceramica")).default,
