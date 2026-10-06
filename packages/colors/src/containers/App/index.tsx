@@ -183,6 +183,18 @@ szary\tRAL 7043`)}
       </div>
       <div className={styles.Columns}>
         <div>
+          {/* https://cdn-cms.gofakro.com/katalog-greenview-26-09-15.pdf */}
+          <h3>Fakro - TRZY KOLORY OBLACHOWANIA DO WYBORU</h3>
+          <Table
+            list={parseList(`
+Antracyt\tRAL 7016
+Szarobrązowy\tRAL 7022
+Czarny\tRAL 9005`)}
+          />
+        </div>
+      </div>
+      <div className={styles.Columns}>
+        <div>
           {/* https://materialy.velux.pl/produkty-montazowe/kolnierze */}
           <h3>Pruszyński - Panel PD510 Nano</h3>
           <Table
