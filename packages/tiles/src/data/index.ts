@@ -1632,6 +1632,7 @@ export const tiles = [
 ];
 
 export const images = [
+  ...(await import("./41zero42")).default,
   ...(await import("./abkgroup")).default,
   ...(await import("./ariostea")).default,
   ...(await import("./atlasconcorde")).default,
