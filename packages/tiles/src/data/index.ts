@@ -1632,6 +1632,7 @@ export const tiles = [
 ];
 
 export const images = [
+  ...(await import("./41zero42")).default,
   ...(await import("./abkgroup")).default,
   ...(await import("./ariostea")).default,
   ...(await import("./atlasconcorde")).default,
@@ -1649,6 +1650,7 @@ export const images = [
   ...(await import("./lampy")).default,
   ...(await import("./marazzi")).default,
   ...(await import("./momastudio")).default,
+  ...(await import("./nova-luce")).default,
   ...(await import("./paradyz")).default,
   ...(await import("./rakceramics")).default,
   ...(await import("./tubadzin")).default,

@@ -1,0 +1,4470 @@
+export default [
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333232/9333232_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12819-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333232/9333232_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12819-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333232/9333232_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12819-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333232/9333232_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12819-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333232/9333232_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12819-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333233/9333233_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12823-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333233/9333233_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12823-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333233/9333233_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12823-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333233/9333233_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12823-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9333233/9333233_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12823-piero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061123/9061123_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12778-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061123/9061123_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12778-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061123/9061123_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12778-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061123/9061123_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12778-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061123/9061123_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12778-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061123/aran%C5%BCacja_9061123_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12778-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061124/9061124.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12779-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061124/9061124_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12779-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061124/9061124_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12779-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061124/9061124_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12779-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061124/9061124_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12779-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061125/9061125_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12780-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061125/9061125_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12780-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061125/9061125_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12780-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061125/9061125_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12780-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061125/9061125_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12780-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061125/aran%C5%BCacja_9061125_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12780-luve.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061126/9061126_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12781-nos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061126/9061126_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12781-nos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061126/9061126_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12781-nos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061126/9061126_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12781-nos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061126/9061126_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12781-nos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019815/9019815_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10990-nolia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019815/9019815_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10990-nolia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019815/9019815_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10990-nolia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019815/9019815_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10990-nolia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019815/9019815_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10990-nolia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009335/9009335_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12735-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009335/9009335_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12735-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009335/9009335_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12735-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009335/9009335_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12735-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009335/aran%C5%BCacja_9009335_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12735-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019812/9019812_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10981-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019812/9019812_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10981-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019812/9019812_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10981-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019812/9019812_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10981-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019812/9019812_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10981-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019812/9019812_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10981-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019814/9019814.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10982-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019814/9019814_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10982-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003672/9003672_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12695-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003672/9003672_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12695-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003672/9003672_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12695-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003672/9003672_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12695-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003672/9003672_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12695-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003672/aran%C5%BCacja_9003672_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12695-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003673/9003673_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12696-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003673/9003673_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12696-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003673/9003673_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12696-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003673/9003673_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12696-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003673/aran%C5%BCacja_9003673_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12696-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003674/9003674_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12697-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003674/9003674_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12697-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003674/9003674_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12697-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003674/9003674_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12697-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003675/9003675_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12698-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003675/9003675_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12698-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003675/aran%C5%BCacja_9003675_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12698-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003676/9003676_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12699-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003676/9003676_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12699-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003676/9003676_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12699-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003676/9003676_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12699-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003676/aran%C5%BCacja_9003676_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12699-davo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003683/9003683_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12706-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003683/9003683_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12706-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003683/9003683_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12706-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003683/9003683_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12706-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003683/9003683_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12706-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003684/9003684_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12707-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003684/9003684_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12707-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003684/9003684_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12707-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003684/9003684_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12707-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003684/9003684_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12707-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003684/aran%C5%BCacja_9003684_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12707-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003685/9003685_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12708-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003685/9003685_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12708-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003685/9003685_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12708-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003685/9003685_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12708-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003685/9003685_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12708-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9003685/aran%C5%BCacja_9003685_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12708-bambel.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009310/9009310_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12717-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009310/9009310_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12717-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009310/9009310_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12717-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009310/9009310_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12717-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009310/aran%C5%BCacja_9009310_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12717-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009310/aran%C5%BCacja_9009310_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12717-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009311/9009311_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12718-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009311/9009311_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12718-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009311/9009311_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12718-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009311/9009311_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12718-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009311/9009311_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12718-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009311/aran%C5%BCacja_9009311_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12718-dazz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009313/9009313_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12720-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009313/9009313_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12720-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009313/9009313_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12720-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009313/9009313_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12720-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009313/aran%C5%BCacja_9009313_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12720-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009313/aran%C5%BCacja_9009313_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12720-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009314/9009314_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12721-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009314/9009314_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12721-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009314/9009314_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12721-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009314/9009314_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12721-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009314/9009314_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12721-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009314/9009314_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12721-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009315/9009315_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12722-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009315/9009315_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12722-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009315/9009315_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12722-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009315/9009315_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12722-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009315/9009315_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12722-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009315/aran%C5%BCacja_9009315_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12722-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009316/9009316_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12723-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009316/9009316_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12723-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009316/9009316_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12723-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009316/aran%C5%BCacja_9009316_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12723-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009317/9009317_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12724-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009317/9009317_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12724-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009317/9009317_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12724-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009317/aran%C5%BCacja_9009317_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12724-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009318/9009318_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12725-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009318/9009318_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12725-baris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009326/9009326_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12726-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009326/9009326_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12726-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009326/9009326_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12726-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009326/aran%C5%BCacja_9009326_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12726-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009328/9009328_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12728-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009328/9009328_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12728-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009328/9009328_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12728-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009328/9009328_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12728-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009328/9009328_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12728-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009328/aran%C5%BCacja_9009328_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12728-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009329/9009329_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12729-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009329/9009329_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12729-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009329/9009329_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12729-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009329/aran%C5%BCacja_9009329_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12729-spazio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009334/9009334_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12734-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009334/9009334_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12734-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009334/9009334_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12734-brielle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088204/9088204_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10329-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088204/9088204_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10329-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088204/9088204_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10329-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088204/9088204_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10329-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088204/9088204_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10329-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088206/9088206_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10330-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088206/9088206_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10330-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088206/9088206_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10330-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088206/9088206_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10330-glovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061144/9061144_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12799-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061144/9061144_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12799-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061144/9061144_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12799-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061144/9061144_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12799-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061144/aran%C5%BCacja_9061144_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12799-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061145/9061145_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12800-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061145/9061145_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12800-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061145/9061145_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12800-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061145/9061145_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12800-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061146/9061146_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12801-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061146/9061146_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12801-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061146/9061146_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12801-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061146/9061146_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12801-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061146/9061146_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12801-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061146/aran%C5%BCacja_9061146_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12801-karen.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061108/9061108_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12763-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061108/9061108_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12763-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061108/9061108_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12763-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061108/9061108_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12763-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061108/9061108_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12763-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061108/9061108_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12763-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061108/aran%C5%BCacja_9061108_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12763-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061109/9061109_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12764-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061109/9061109_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12764-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061109/9061109_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12764-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061109/9061109_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12764-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061109/9061109_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12764-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061109/9061109_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12764-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061109/aran%C5%BCacja_9061109_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12764-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061110/9061110_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12765-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061110/9061110_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12765-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061110/9061110_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12765-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061110/9061110_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12765-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061110/9061110_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12765-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061110/9061110_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12765-syrin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9365014/9365014_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12810-brea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9365014/aran%C5%BCacja_9365014_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12810-brea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9365014/9365014_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12810-brea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9365014/9365014_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12810-brea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9365015/9365015_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12811-brea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9365015/aran%C5%BCacja_9365015_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-12811-brea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695341/9695341_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10317-vea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695341/9695341_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10317-vea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695341/9695341_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10317-vea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695341/9695341_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10317-vea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019813/9019813_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10986-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019813/9019813_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10986-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019813/9019813_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10986-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019813/9019813_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10986-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019813/9019813_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10986-vaster.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214142/9214142_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10898-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214142/9214142_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10898-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214142/9214142_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10898-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214142/9214142_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10898-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214142/aran%C5%BCacja_9214142_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10898-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214143/9214143_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10899-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214143/9214143_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10899-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214143/9214143_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10899-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214143/9214143_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10899-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214143/9214143_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10899-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214143/9214143_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10899-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214144/9214144_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10900-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214144/9214144_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10900-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214144/9214144_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10900-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214144/9214144_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10900-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214144/aran%C5%BCacja_9214144_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10900-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214145/9214145_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10901-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214145/9214145_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10901-pheme.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190212/9190212_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10162-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190212/9190212_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10162-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190212/9190212_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10162-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190212/9190212_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10162-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190212/9190212_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10162-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190213/9190213_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10163-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190213/9190213_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10163-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190213/9190213_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10163-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190211/9190211_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10164-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190211/9190211_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10164-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190211/9190211_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10164-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190211/9190211_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10164-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9190211/9190211_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10164-silenzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9780105/9780105_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11019-reflet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9780105/9780105_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11019-reflet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9780105/9780105_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11019-reflet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9780105/9780105_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11019-reflet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9780105/9780105_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11019-reflet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236236/9236236_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11032-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236236/9236236_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11032-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236236/9236236_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11032-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236237/9236237_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11033-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236237/9236237_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11033-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236237/9236237_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11033-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236237/9236237_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11033-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236214/9236214_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10087-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236214/9236214_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10087-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236214/9236214_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10087-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236214/9236214_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10087-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236215/9236215_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10091-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236215/9236215_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10091-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236215/9236215_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10091-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236216/9236216.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10092-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236216/9236216_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10092-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236216/9236216_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10092-parlo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695701/9695701_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10182-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695701/9695701_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10182-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695701/9695701_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10182-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695701/9695701_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10182-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695702/9695702_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10183-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695702/9695702_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10183-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695702/9695702_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10183-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695702/9695702_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10183-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695703/9695703_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10184-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695703/9695703_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10184-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695703/9695703_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10184-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695704/9695704.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10185-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695704/9695704_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10185-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695704/9695704_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10185-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695704/9695704_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10185-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695704/9695704_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10185-ovia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104715/9104715_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11023-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104715/9104715_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11023-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104715/9104715_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11023-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104715/9104715_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11023-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104715/9104715_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11023-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104715/9104715_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11023-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104716/9104716_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11024-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104716/9104716_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11024-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104716/9104716_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11024-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104716/9104716_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11024-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104717/9104717_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11025-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104717/9104717_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11025-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104717/9104717_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11025-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104717/9104717_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11025-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104717/9104717_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11025-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104718/9104718_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11026-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104718/9104718_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11026-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104718/9104718_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11026-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9104718/9104718_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11026-olia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9100147/9100147_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10958-nue.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9100147/9100147_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10958-nue.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9100147/9100147_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10958-nue.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9100147/9100147_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10958-nue.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9100147/aran%C5%BCacja_9100147_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10958-nue.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002105/9002105_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10262-noble.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002105/9002105_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10262-noble.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002105/9002105_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10262-noble.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002105/9002105_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10262-noble.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236226/9236226_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10095-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236226/9236226_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10095-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236226/9236226_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10095-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236223/9236223_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10096-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236223/9236223_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10096-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236223/9236223_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10096-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236223/9236223_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10096-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236224/9236224_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10097-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236224/9236224_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10097-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236224/9236224_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10097-marlin.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019802/9019802_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11039-maris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019802/9019802_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11039-maris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019802/9019802_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11039-maris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019802/9019802_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11039-maris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019802/9019802_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11039-maris.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695196/9695196_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10176-lumia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695196/9695196_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10176-lumia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695196/9695196_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10176-lumia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695196/9695196_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10176-lumia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695198/9695198_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10177-lumia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695198/9695198_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10177-lumia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695198/9695198_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10177-lumia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001140/9001140_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10372-linnet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001140/9001140_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10372-linnet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001140/9001140_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10372-linnet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001141/9001141_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10373-linnet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001141/9001141_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10373-linnet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001141/9001141_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10373-linnet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001133/9001133_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10364-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001133/9001133_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10364-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001133/9001133_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10364-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001133/9001133_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10364-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001134/9001134.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10365-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001134/9001134_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10365-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001134/9001134_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10365-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001134/9001134_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10365-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001136/9001136_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10367-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001136/9001136_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10367-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001136/9001136_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10367-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001136/9001136_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10367-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001137/9001137_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10368-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001137/9001137_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10368-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001137/9001137_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10368-joelle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019800/9019800_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11037-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019800/9019800_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11037-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019800/9019800_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11037-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019800/9019800_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11037-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019800/9019800_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11037-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019801/9019801_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11038-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019801/9019801_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11038-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019801/9019801_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11038-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019801/9019801_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11038-hulo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030953/9030953_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10071-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030953/9030953_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10071-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030953/9030953_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10071-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030957/9030957_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10072-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030957/9030957_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10072-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030957/9030957_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10072-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030961/9030961_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10073-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030961/9030961_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10073-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030961/9030961_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10073-greamy.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9268055/9268055_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11003-glaze.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9268055/9268055_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11003-glaze.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9268055/9268055_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11003-glaze.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9268055/9268055_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11003-glaze.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001094/9001094_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10207-gemma.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001094/9001094_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10207-gemma.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001094/9001094_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10207-gemma.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001094/9001094_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10207-gemma.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540276/9540276_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10197-flusso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540276/9540276_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10197-flusso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540276/9540276_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10197-flusso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540276/9540276_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10197-flusso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019792/9019792.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11165-filomena.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088217/9088217_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10322-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088217/9088217_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10322-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088217/9088217_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10322-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088217/9088217_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10322-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088217/9088217_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10322-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088217/9088217_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10322-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088218/9088218_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10323-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088218/9088218_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10323-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088218/9088218_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10323-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088218/9088218_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10323-esti.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9214231/9214231_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11151-emery.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9586669/9586669_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10291-delina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9586669/9586669_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10291-delina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9586669/9586669_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10291-delina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9586669/9586669_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10291-delina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011431/9011431_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11218-conico.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011431/9011431_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11218-conico.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011431/9011431_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11218-conico.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011430/9011430_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11221-conico.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011430/9011430_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-11221-conico.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060268/9060268_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10915-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060268/9060268_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10915-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060268/aran%C5%BCacja_9060268_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10915-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060266/9060266_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10916-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060266/9060266_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10916-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060266/9060266_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10916-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060265/9060265_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10917-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060265/9060265_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10917-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060265/9060265_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10917-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060265/aran%C5%BCacja_9060265_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10917-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060265/9060265_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10917-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002671/9002671_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9966-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002671/9002671_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9966-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002671/aran%C5%BCacja_9002671_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9966-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002673/9002673_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9967-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002673/9002673_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9967-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002673/9002673_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9967-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002673/aran%C5%BCacja_9002673_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9967-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002675/9002675_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9968-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002675/9002675_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9968-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002675/9002675_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9968-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002675/aran%C5%BCacja_9002675_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9968-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002674/9002674_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9970-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002674/9002674_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9970-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002674/9002674_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9970-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002674/aran%C5%BCacja_9002674_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9970-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002676/9002676_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9971-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002676/9002676_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9971-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002676/aran%C5%BCacja_9002676_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9971-aere.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002660/9002660_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9179-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002660/9002660_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9179-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002660/aran%C5%BCacja_9002660_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9179-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002662/9002662_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9181-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002662/9002662_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9181-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002662/9002662_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9181-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002661/9002661_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9180-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002661/9002661_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9180-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002661/9002661_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9180-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9419422/9419422_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5935-aila.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9419422/9419422_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5935-aila.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8105602-d/8105602_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3020-albi-61.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8105604-D/8105604_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3023-albi-81.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8105603-D/8105603_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3029-albi-81.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8105601-d/8105601_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3030-albi-61.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8105620/8105620_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5409-albi-41.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8105618/8105618_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5411-albi-41.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8105618/8105618_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5411-albi-41.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9248108/9248108_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6333-amara.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9248108/9248108_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6333-amara.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9248107/9248107_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6334-amara.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9248107/9248107_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6334-amara.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919114/9919114_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9543-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919114/9919114_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9543-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919114/9919114_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9543-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919115/9919115_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9544-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919115/9919115_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9544-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919115/9919115_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9544-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919113/9919113_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9546-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919113/9919113_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9546-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9919113/9919113_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9546-ammos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695284/9695284_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8532-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695284/9695284_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8532-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695284/9695284_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8532-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695284/aran%C5%BCacja_9695284_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8532-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695285/9695285_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8533-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695285/9695285_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8533-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695285/9695285_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8533-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695285/aran%C5%BCacja_9695285_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8533-anapnoe.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009133/9009133_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8455-apnea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009133/9009133_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8455-apnea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009133/aran%C5%BCacja_9009133_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8455-apnea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9348053/9348053_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5430-apus.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/17222004/17222004_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2940-aria.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/17222004/17222004_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2940-aria.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/17222004-d/17222004_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2971-aria.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/17222004-d/17222004_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2971-aria.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030554/9030554_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8442-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030554/9030554_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8442-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030554/9030554_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8442-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030554/9030554_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8442-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030555/9030555_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8443-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030555/9030555_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8443-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030555/9030555_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8443-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030555/9030555_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8443-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030556/9030556_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8444-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030556/9030556_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8444-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030556/9030556_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8444-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030556/9030556_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8444-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030556/9030556_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8444-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030556/aran%C5%BCacja_9030556_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8444-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030557/9030557_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8445-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030557/9030557_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8445-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030557/9030557_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8445-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030557/9030557_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8445-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030557/aran%C5%BCacja_9030557_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8445-bally.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030551/9030551_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8498-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030551/9030551_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8498-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030551/9030551_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8498-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030551/aran%C5%BCacja_9030551_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8498-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030552/aran%C5%BCacja_9030552_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8499-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030552/9030552_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8499-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030553/9030553_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8500-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030553/9030553_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8500-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030553/9030553_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8500-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030553/9030553_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8500-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030553/aran%C5%BCacja_9030553_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8500-bento.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009270/9009270_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8219-blacu.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009270/9009270_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8219-blacu.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009270/9009270_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8219-blacu.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009270/9009270_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8219-blacu.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009270/9009270_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8219-blacu.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204025/9204025_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9933-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204025/9204025_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9933-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204025/aran%C5%BCacja_9204025_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9933-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204026/9204026_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9934-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204026/9204026_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9934-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204026/aran%C5%BCacja_9204026_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9934-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204027/9204027_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9935-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204027/9204027_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9935-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204027/aran%C5%BCacja_9204027_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9935-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204028/9204028_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9936-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204028/9204028_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9936-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9204028/aran%C5%BCacja_9204028_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9936-bolita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060279/9060279_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10009-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060279/9060279_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10009-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060279/9060279_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10009-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060279/aran%C5%BCacja_9060279_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10009-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060281/9060281_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10010-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060281/9060281_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10010-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060281/9060281_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10010-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060281/aran%C5%BCacja_9060281_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10010-brillia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620148/9620148_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8518-brume.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620148/9620148_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8518-brume.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620148/9620148_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8518-brume.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620149/9620149_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8519-brume.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620149/9620149_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8519-brume.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620149/9620149_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8519-brume.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620149/aran%C5%BCacja_9620149_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8519-brume.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9070167/9070167_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6758-change.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9070169/9070169_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6759-change.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9070169/9070169_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6759-change.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870024/9870024_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8539-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870024/9870024_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8539-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870024/9870024_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8539-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870024/aran%C5%BCacja_9870024_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8539-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870025/9870025_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8540-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870025/9870025_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8540-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870025/9870025_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8540-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870025/aran%C5%BCacja_9870025_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8540-chronos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236510/9236510_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6193-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236510/9236510_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6193-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236510/9236510_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6193-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236510/9236510_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6193-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236510/9236510_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6193-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236500/9236500_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6195-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236500/9236500_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6195-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236500/9236500_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6195-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236500/9236500_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6195-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236500/9236500_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6195-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236500/9236500_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6195-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236500/9236500_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6195-cinzia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009107/aran%C5%BCacja_9009107_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8469-clio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009107/9009107_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8469-clio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009107/9009107_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8469-clio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009107/9009107_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8469-clio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009112/9009112_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8474-clio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009112/9009112_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8474-clio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011472/9011472_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9613-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011472/9011472_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9613-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011472/9011472_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9613-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011472/9011472_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9613-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011473/9011473_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9618-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011473/9011473_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9618-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011473/9011473_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9618-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011473/9011473_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9618-comet.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002067/9002067_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8599-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002067/9002067_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8599-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002067/9002067.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8599-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002068/9002068.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8600-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002068/9002068_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8600-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002068/9002068_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8600-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002068/aran%C5%BCacja_9002068_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8600-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002069/9002069.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8601-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002069/9002069_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8601-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002069/9002069_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8601-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002069/aran%C5%BCacja_9002069_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8601-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002070/9002070.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8602-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002070/9002070_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8602-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002070/aran%C5%BCacja_9002070_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8602-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002072/9002072.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8604-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002072/9002072_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8604-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002072/9002072_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8604-conga.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540201/9540201.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6958-dandia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540201/9540201_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6958-dandia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540200/9540200.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6959-dandia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540200/9540200_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6959-dandia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/17222001-d/17222001_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3034-dea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/17222001-d/17222001_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3034-dea.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030894/9030894.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9307-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030894/9030894_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9307-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030895/9030895_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9308-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030895/9030895_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9308-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030895/9030895_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9308-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030895/aran%C5%BCacja_9030895_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9308-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030896/9030896_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9309-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030896/9030896_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9309-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030896/aran%C5%BCacja_9030896_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9309-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030897/9030897_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9310-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030897/9030897_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9310-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030897/9030897_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9310-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030897/aran%C5%BCacja_9030897_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9310-deos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030643/9030643_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8172-dobi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030643/9030643_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8172-dobi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030643/9030643_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8172-dobi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9070164/9070164.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7841-doc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9070164/9070164_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7841-doc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9070164/9070164_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7841-doc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088172/9088172_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10045-dome.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088172/9088172_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10045-dome.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088172/9088172_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10045-dome.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088172/9088172_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10045-dome.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088172/aran%C5%BCacja_9088172_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10045-dome.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060221/9060221_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7904-dro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060221/9060221_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7904-dro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540205/9540205_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7099-dylan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540205/9540205.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7099-dylan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019729/9019729_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8594-elmo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019729/9019729_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8594-elmo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019729/9019729_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8594-elmo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9019729/aran%C5%BCacja_9019729_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8594-elmo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9172864/9172864.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7023-empatia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9172867/9172867_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7024-empatia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9172867/9172867.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7024-empatia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9172735/9172735_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5378-empatia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9172735/9172735_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5378-empatia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/6265004/6265004_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2931-ferrol.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/6265004/6265004_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2931-ferrol.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/6265004/6265004_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2931-ferrol.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/1701101001/1701101001_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2961-fusion.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/1701101001/1701101001_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2961-fusion.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/1701101001/1701101001_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-2961-fusion.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9102591/9102591_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5323-goccio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9102591/9102591_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5323-goccio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9102591/9102591_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5323-goccio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9102592/9102592_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5324-goccio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9102592/9102592_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5324-goccio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9102592/9102592_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5324-goccio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9818511/9818511_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6105-grania.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9818511/9818511_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6105-grania.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9081805/9081805_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9322-gratta.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9081805/9081805_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9322-gratta.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9081805/9081805_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9322-gratta.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9081805/aran%C5%BCacja_9081805_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9322-gratta.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028851/9028851_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7129-gustave.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028851/9028851_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7129-gustave.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028851/9028851_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7129-gustave.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870022/9870022_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8543-holm.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870022/9870022_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8543-holm.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870022/9870022_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8543-holm.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870022/9870022_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8543-holm.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9870022/aran%C5%BCacja_9870022_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8543-holm.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501252/9501252.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8900-idor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501252/9501252_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8900-idor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501252/9501252_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8900-idor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501252/9501252_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8900-idor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501252/9501252_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8900-idor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501252/9501252_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8900-idor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9100441/9100441_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5560-impero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695113/9695113_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8797-irmos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695113/9695113_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8797-irmos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695113/9695113_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8797-irmos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695113/9695113_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8797-irmos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236101/9236101_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9289-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236101/9236101_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9289-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236101/aran%C5%BCacja_9236101_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9289-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236102/9236102_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9290-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236102/9236102_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9290-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236102/aran%C5%BCacja_9236102_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9290-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236103/9236103_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9291-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236103/9236103_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9291-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236103/9236103_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9291-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236103/aran%C5%BCacja_9236103_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9291-jailyn.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620168/9620168_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8786-lalu.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620168/9620168_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8786-lalu.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624079/9624079_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8066-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624079/9624079.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8066-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624080/9624080_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8067-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624080/9624080.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8067-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624096/9624096.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8069-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624097/9624097_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8070-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624097/9624097.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8070-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624071/9624071_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6178-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624072/9624072_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6179-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624072/9624072_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6179-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9624074/9624074_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6181-lato.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9080200/9080200_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6014-lazione.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9080200/9080200_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6014-lazione.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9080300/9080300_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6017-lazione.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9080300/9080300_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6017-lazione.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9080400/9080400_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6020-lazione.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9080400/9080400_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6020-lazione.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9080400/9080400_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6020-lazione.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9010033/aran%C5%BCacja_9010033_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5338-lior.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9010033/9010033_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5338-lior.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088111/9088111_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8806-lios.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088111/9088111_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8806-lios.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088111/9088111_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8806-lios.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501213/9501213_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8224-lisi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501213/9501213_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8224-lisi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501213/9501213_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8224-lisi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9501213/9501213.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8224-lisi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8107402/8107402_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3064-livorno.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/8107402/8107402_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3064-livorno.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695503/9695503_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9255-lonela.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695503/9695503_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9255-lonela.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695503/aran%C5%BCacja_9695503_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9255-lonela.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060254/9060254_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9303-lopo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060254/9060254_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9303-lopo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060254/aran%C5%BCacja_9060254_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9303-lopo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060253/9060253_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9300-lui.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060253/9060253_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9300-lui.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060253/aran%C5%BCacja_9060253_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9300-lui.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011446/9011446.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9573-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011446/9011446_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9573-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011446/9011446_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9573-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011446/9011446_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9573-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011446/9011446_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9573-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011447/9011447_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9578-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011447/9011447_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9578-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011447/9011447_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9578-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011447/9011447_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9578-luvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011420/9011420_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9619-mao.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011420/9011420_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9619-mao.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011420/9011420_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9619-mao.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011421/9011421_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9622-mao.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011421/9011421_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9622-mao.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011421/9011421_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9622-mao.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011421/9011421_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9622-mao.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011334/9011334_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8225-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011334/9011334_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8225-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011334/9011334_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8225-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011334/9011334_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8225-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011335/9011335_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8226-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011335/9011335_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8226-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011335/9011335_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8226-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011335/9011335_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8226-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011335/aran%C5%BCacja_9011335_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8226-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011336/9011336_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8227-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011336/9011336_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8227-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011336/9011336_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8227-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011336/9011336_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8227-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011336/9011336_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8227-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011337/9011337_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8228-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011337/9011337_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8228-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011337/9011337_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8228-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011337/9011337_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8228-mare.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988103/9988103_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6149-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988103/9988103_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6149-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988103/9988103_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6149-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988103/9988103_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6149-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988104/9988104_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6150-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988104/9988104_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6150-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988104/9988104_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6150-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988105/9988105_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6151-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988105/9988105_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6151-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988105/9988105_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6151-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988105/9988105_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6151-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988105/9988105_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6151-mayan.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9147112/9147112_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5439-menton.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9147112/9147112_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5439-menton.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011462/9011462_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9603-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011462/9011462_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9603-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011462/9011462_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9603-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011462/9011462_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9603-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011463/9011463_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9608-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011463/9011463_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9608-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011463/9011463_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9608-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011463/9011463_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9608-mor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009236/9009236_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7122-murano.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009236/9009236_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7122-murano.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9481093/9481093_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5395-nager.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9481093/9481093_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5395-nager.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9481093/9481093_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5395-nager.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186951/9186951_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8155-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186951/9186951_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8155-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186951/9186951_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8155-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186951/9186951_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8155-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186951/9186951_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8155-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186951/9186951_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8155-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186952/9186952_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8154-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186952/9186952_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8154-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186952/9186952_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8154-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186952/9186952_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8154-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186952/9186952_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8154-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9186952/9186952_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8154-navi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011407/9011407_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9587-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011407/9011407_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9587-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011407/9011407_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9587-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011407/9011407_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9587-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011407/9011407_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9587-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011406/9011406_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9591-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011406/9011406_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9591-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011406/9011406_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9591-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9011406/9011406_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9591-nessi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060215/9060215_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7906-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060215/9060215_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7906-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060215/9060215_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7906-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060215/9060215_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7906-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060217/9060217_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7908-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060217/9060217_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7908-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060217/9060217_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7908-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060217/9060217.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7908-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060214/9060214_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7909-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060214/9060214_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7909-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060214/9060214_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7909-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9060214/9060214.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7909-net.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/920421/920421.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6837-nevoso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/920422/920422.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6838-nevoso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/920423/920423_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6839-nevoso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/920423/920423.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6839-nevoso.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009190/9009190.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9500-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009190/9009190_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9500-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009192/9009192_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9502-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009192/9009192_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9502-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009192/9009192_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9502-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009192/9009192_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9502-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009194/9009194_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9504-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009194/9009194_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9504-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009194/9009194_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9504-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009198/9009198_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9508-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009198/9009198_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9508-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009198/9009198_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9508-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009200/9009200_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9510-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009200/9009200_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9510-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009200/9009200_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9510-noesis.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009222/9009222.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9940-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009222/9009222_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9940-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009222/9009222_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9940-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009223/9009223_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9941-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009223/9009223_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9941-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009223/aran%C5%BCacja_9009223_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9941-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030542/9030542_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8211-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030542/9030542_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8211-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030542/9030542_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8211-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030542/9030542_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8211-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030543/9030543_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8212-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030543/9030543_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8212-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030543/9030543_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8212-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030543/9030543_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8212-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030543/9030543_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8212-nostos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061435/9061435_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7034-nuvole.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061435/9061435_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7034-nuvole.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9061435/9061435.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7034-nuvole.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988170/9988170_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5557-obitar.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9988170/9988170_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5557-obitar.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009352/9009352_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9950-obrie.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009352/9009352_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9950-obrie.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009352/aran%C5%BCacja_9009352_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9950-obrie.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695228/9695228_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6254-palencia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695228/9695228_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6254-palencia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695228/9695228_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6254-palencia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695228/9695228_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6254-palencia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009300/9009300_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9484-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009300/9009300_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9484-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009300/9009300_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9484-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009301/9009301_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9485-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009301/9009301_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9485-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009301/9009301_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9485-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009302/9009302_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9486-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009302/9009302_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9486-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009302/9009302_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9486-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009303/9009303_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9487-pallina.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911530/9911530_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7862-picto.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620140/9620140_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8583-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620140/9620140_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8583-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620140/aran%C5%BCacja_9620140_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8583-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620141/9620141_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8584-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620141/9620141_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8584-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620141/9620141_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8584-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620141/aran%C5%BCacja_9620141_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8584-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620144/9620144_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8585-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620144/9620144_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8585-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620144/9620144_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8585-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620144/9620144_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8585-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620144/aran%C5%BCacja_9620144_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8585-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620145/9620145_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8586-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9620145/aran%C5%BCacja_9620145_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8586-polifemo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911525/9911525_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6266-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911525/9911525_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6266-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911525/9911525_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6266-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911525/9911525_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6266-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911525/9911525_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6266-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911526/9911526_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6267-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911526/9911526_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6267-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911526/9911526_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6267-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9911526/9911526_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6267-pongo.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865110/9865110_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6119-preston-110.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865110/9865110_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6119-preston-110.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865110/9865110_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6119-preston-110.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865110/9865110_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6119-preston-110.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865140/9865140_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6120-preston-40.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865140/9865140_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6120-preston-40.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865140/9865140_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6120-preston-40.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865140/9865140_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6120-preston-40.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865140/9865140_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6120-preston-40.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865160/9865160_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6121-preston-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865160/9865160_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6121-preston-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865160/9865160_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6121-preston-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865180/9865180_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6122-preston-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9865180/9865180_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6122-preston-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002050/9002050_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8229-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002050/9002050_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8229-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002050/9002050_11.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8229-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002052/9002052_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8231-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002052/9002052_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8231-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002052/9002052_11.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8231-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002052/9002052_12.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8231-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002052/9002052_13.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8231-puize.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9210312/9210312_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7019-purple.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9210312/9210312_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7019-purple.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9210312/9210312_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7019-purple.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9210312/9210312_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7019-purple.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9210312/9210312_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7019-purple.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9210312/9210312_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7019-purple.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9853044/9853044_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5412-rando-smart-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9453453/9453453_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5416-rando-thin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9453453/9453453_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5416-rando-thin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9130652/9130652_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10003-riaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9130652/9130652_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10003-riaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9130652/9130652_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10003-riaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9130652/aran%C5%BCacja_9130652_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10003-riaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9130651/9130651_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10004-riaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9130651/9130651_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10004-riaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9130651/aran%C5%BCacja_9130651_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10004-riaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9726481/9726481_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5614-savaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9726483/9726483_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5615-savaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9726483/9726483_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5615-savaz.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695255/9695255_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6934-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695255/9695255_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6934-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695255/9695255_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6934-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695255/9695255_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6934-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695255/9695255.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6934-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695254/9695254_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6931-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695254/9695254_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6931-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695254/9695254_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6931-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695254/9695254_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6931-scope.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695248/9695248_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6953-shell.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695248/9695248_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6953-shell.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695249/9695249_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6954-shell.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695249/9695249_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6954-shell.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695249/9695249_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6954-shell.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9426751/9426751_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5603-spada.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002681/9002681_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9980-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002681/9002681_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9980-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002681/aran%C5%BCacja_9002681_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9980-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002682/9002682_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9981-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002682/9002682_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9981-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002682/aran%C5%BCacja_9002682_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9981-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002683/9002683_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9982-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002683/9002683_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9982-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002683/9002683_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9982-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002684/9002684_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9983-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002684/9002684_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9983-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002684/aran%C5%BCacja_9002684_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9983-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002667/9002667_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9186-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002667/9002667_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9186-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002667/9002667_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9186-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002666/9002666_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9185-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002666/9002666_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9185-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002666/9002666_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9185-starla.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232150/9232150_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9555-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232150/9232150_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9555-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232150/9232150_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9555-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232150/9232150_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9555-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232150/9232150_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9555-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232151/9232151_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9556-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232151/9232151_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9556-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232151/9232151_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9556-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232151/9232151_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9556-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232152/9232152_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9557-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232152/9232152_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9557-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232152/9232152_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9557-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9232152/9232152_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9557-stilvi.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558604/9558604_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6998-sting-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558604/9558604.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6998-sting-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558607/9558607.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6999-sting-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558670/9558670_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7002-sting-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558600/9558600_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7009-sting-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558600/9558600.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7009-sting-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558603/9558603_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7010-sting-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9558606/9558606_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7011-sting-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001072/9001072_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9216-talcum.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001072/9001072_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9216-talcum.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001072/9001072_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9216-talcum.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001072/aran%C5%BCacja_9001072_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9216-talcum.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001073/9001073_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9217-talcum.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001073/9001073_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9217-talcum.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9001073/aran%C5%BCacja_9001073_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9217-talcum.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345601/9345601_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6381-tarquin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345601/9345601_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6381-tarquin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345605/9345605_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6382-tarquin-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345605/9345605_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6382-tarquin-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345609/9345609_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6383-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345609/9345609_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6383-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345600/9345600_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6384-tarquin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345600/9345600_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6384-tarquin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345604/9345604_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6385-tarquin-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345608/9345608_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6386-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345608/9345608_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6386-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345608/9345608_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6386-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345608/9345608_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6386-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345603/9345603_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6387-tarquin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345603/9345603_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6387-tarquin-60.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345607/9345607_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6388-tarquin-80.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345611/9345611_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6389-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345611/9345611_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6389-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345611/9345611_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6389-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345611/9345611_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6389-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345611/9345611_8.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6389-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9345611/9345611_9.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6389-tarquin-100.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002668/9002668_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9187-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002668/9002668_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9187-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002668/aran%C5%BCacja_9002668_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9187-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002670/9002670_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9189-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002670/9002670_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9189-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9002670/aran%C5%BCacja_9002670_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9189-lefko.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695286/9695286_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8914-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695286/9695286_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8914-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695286/9695286_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8914-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695286/9695286_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8914-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695286/9695286_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8914-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695287/9695287_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8915-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695287/9695287_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8915-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695287/9695287_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8915-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9695287/9695287_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8915-tholos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9287921/9287921_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6796-trimle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9287921/9287921.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6796-trimle.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009180/9009180_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9466-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009180/9009180_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9466-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009180/9009180_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9466-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009181/9009181_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9467-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009181/9009181_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9467-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009181/9009181_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9467-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009181/9009181_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9467-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009182/9009182_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9468-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009182/9009182_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9468-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009182/9009182_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9468-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009183/9009183_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9469-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009183/9009183_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9469-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9009183/9009183_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-9469-ulon.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088162/9088162_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10383-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088162/9088162_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10383-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088162/9088162_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10383-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088162/9088162_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10383-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088183/9088183_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10384-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088163/9088163_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10385-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088163/9088163_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10385-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088163/9088163_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10385-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9088163/9088163_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10385-notic.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540329/9540329_10.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10942-solvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540329/9540329_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10942-solvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540329/9540329_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10942-solvia.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030121/aran%C5%BCacja_9030121_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10945-madoc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030121/9030121_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10945-madoc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030121/9030121_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10945-madoc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030122/aran%C5%BCacja_9030122_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10946-madoc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030122/9030122_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10946-madoc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030122/9030122_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10946-madoc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9030122/9030122_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-10946-madoc.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9724101/aran%C5%BCacja_9724101_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5610-veiro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9724101/9724101_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5610-veiro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9724102/9724102_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5611-veiro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9724102/9724102_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5611-veiro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9724141/9724141_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5612-veiro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9724141/9724141_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5612-veiro.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236700/9236700_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6196-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236700/9236700_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6196-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236700/9236700_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6196-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236710/9236710_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6198-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236710/9236710_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6198-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236710/9236710_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6198-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236710/9236710_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6198-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9236710/9236710_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-6198-velor.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/7605176/7605176_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3581-venanzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/7605176/7605176_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-3581-venanzio.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028836/9028836.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7085-vita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028836/9028836_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7085-vita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028837/9028837_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7086-vita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028837/9028837_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7086-vita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9028837/9028837_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-7086-vita.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9077881/9077881_1A.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5428-volcano.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9077881/9077881_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5428-volcano.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9077882/9077882_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5429-volcano.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9077882/9077882_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5429-volcano.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540246/9540246_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8903-vrahos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540246/9540246_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8903-vrahos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9540335/9540335_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8905-vrahos.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577017/9577017.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8906-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577018/9577018.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8907-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577019/9577019_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8908-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577019/9577019_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8908-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577019/aran%C5%BCacja_9577019_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8908-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577020/9577020_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8909-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577020/9577020_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8909-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577021/9577021_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8910-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577021/9577021_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8910-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9577021/aran%C5%BCacja_9577021_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-8910-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704191/9704191_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5964-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704191/9704191_2.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5964-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704191/9704191_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5964-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704191/9704191_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5964-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704191/9704191_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5964-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704191/9704191_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5964-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704191/9704191_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5964-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704192/9704192_1.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5965-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704192/9704192_3.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5965-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704192/9704192_4.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5965-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704192/9704192_5.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5965-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704192/9704192_6.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5965-zero.html",
+  },
+  {
+    src: "https://www.nova-luce.pl/Media/Products/9704192/9704192_7.jpg",
+    url: "https://www.nova-luce.pl/produkty/p-5965-zero.html",
+  },
+];
