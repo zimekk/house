@@ -1,0 +1,46 @@
+export default [
+  {
+    src: "https://norlys.com/uploads/category/2024_10_16_16_53_49_30001.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_14_17_05_43_32978.png",
+    url: "https://norlys.com/pl/products,21,Arvika",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_26_11_56_29_62692.jpg",
+    url: "https://norlys.com/pl/products,32,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_14_19_53_29_18104.png",
+    url: "https://norlys.com/pl/products,32,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2019_03_26_11_56_29_62692.jpg",
+    url: "https://norlys.com/pl/products,32,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_14_19_53_29_18104.png",
+    url: "https://norlys.com/pl/products,32,Asker",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_17_16_14026.png",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2024_01_31_17_08_15_14284.png",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_15_15_17_16_14026.png",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2024_01_31_17_08_15_14284.png",
+    url: "https://norlys.com/pl/products,188,Hellvik",
+  },
+  {
+    src: "https://norlys.com/uploads/category/2023_11_06_15_28_31_31958.jpg",
+    url: "https://norlys.com/pl/products,75,Oppland",
+  },
+];
