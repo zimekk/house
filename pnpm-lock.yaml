@@ -170,7 +170,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -201,7 +201,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -235,7 +235,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -281,7 +281,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       three:
         specifier: ^0.185.0
         version: 0.185.1
@@ -346,7 +346,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -389,7 +389,7 @@ importers:
         version: 11.0.1
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -426,7 +426,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       zod:
         specifier: ^4.1.12
         version: 4.4.3
@@ -475,7 +475,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       three:
         specifier: ^0.185.0
         version: 0.185.1
@@ -518,7 +518,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       zod:
         specifier: ^4.1.12
         version: 4.4.3
@@ -552,7 +552,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -595,7 +595,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       three:
         specifier: ^0.185.0
         version: 0.185.1
@@ -656,7 +656,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -687,7 +687,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -715,7 +715,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -767,7 +767,7 @@ importers:
         version: 4.6.6
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -807,7 +807,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       three:
         specifier: ^0.185.0
         version: 0.185.1
@@ -856,7 +856,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       three:
         specifier: ^0.185.0
         version: 0.185.1
@@ -899,7 +899,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -930,7 +930,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
     devDependencies:
       '@types/react':
         specifier: ^19.2.14
@@ -1004,7 +1004,7 @@ importers:
         version: 7.8.2
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       youtube-player:
         specifier: ^5.6.0
         version: 5.6.0(supports-color@8.1.1)
@@ -1044,7 +1044,7 @@ importers:
         version: 19.2.8(react@19.2.8)
       styled-components:
         specifier: ^6.3.9
-        version: 6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
+        version: 6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8)
       three:
         specifier: ^0.185.0
         version: 0.185.1
@@ -2238,6 +2238,9 @@ packages:
 
   '@types/styled-components@5.1.36':
     resolution: {integrity: sha512-pGMRNY5G2rNDKEv2DOiFYa7Ft1r0jrhmgBwHhOMzPTgCjO76bCot0/4uEfqj7K0Jf1KdQmDtAuaDk9EAs9foSw==}
+
+  '@types/stylis@4.2.7':
+    resolution: {integrity: sha512-VgDNokpBoKF+wrdvhAAfS55OMQpL6QRglwTwNC3kIgBrzZxA4WsFj+2eLfEA/uMUDzBcEhYmjSbwQakn/i3ajA==}
 
   '@types/three@0.185.1':
     resolution: {integrity: sha512-db1xTb+EgYF2didW+eudSvVPtn75zo+fGsY8ShQrJY/B5ZBmC2Fiaykv3aImHAlCNEGuMPkPGXBJGLwzu5mC7A==}
@@ -4478,14 +4481,17 @@ packages:
     resolution: {integrity: sha512-vavAMRXOgBVNF6nyEEmL3DBK19iRpDcoIwW+swQ+CbGiu7lju6t+JklA1MHweoWtadgt4ISVUsXLyDq34ddcwA==}
     engines: {node: '>=4'}
 
-  styled-components@6.4.4:
-    resolution: {integrity: sha512-tJk5CmKUPMDoTsZQ8m0hHInBk9HFKUPSusqmbBuefDX+yUbMBWea2Ob/wdXFyHW8XZqXkprJscysAdKeGWNqlA==}
+  styled-components@6.6.0:
+    resolution: {integrity: sha512-drKKsqvDBxVRn4ySU67iQ5nQBuo/1xyYeBfdhDde112PkqrS3+95KPnpDs5hFRcmrW+q6+gbyywYYYR14oWFtw==}
     engines: {node: '>= 16'}
     peerDependencies:
+      css-to-react-native: '>= 3.2.0'
       react: '>= 16.8.0'
       react-dom: '>= 16.8.0'
       react-native: '>= 0.68.0'
     peerDependenciesMeta:
+      css-to-react-native:
+        optional: true
       react-dom:
         optional: true
       react-native:
@@ -6101,6 +6107,8 @@ snapshots:
       '@types/hoist-non-react-statics': 3.3.7(@types/react@19.2.17)
       '@types/react': 19.2.17
       csstype: 3.2.3
+
+  '@types/stylis@4.2.7': {}
 
   '@types/three@0.185.1':
     dependencies:
@@ -8535,9 +8543,10 @@ snapshots:
 
   strip-bom@3.0.0: {}
 
-  styled-components@6.4.4(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
+  styled-components@6.6.0(react-dom@19.2.8(react@19.2.8))(react@19.2.8):
     dependencies:
       '@emotion/is-prop-valid': 1.4.0
+      '@types/stylis': 4.2.7
       css-to-react-native: 3.2.0
       csstype: 3.2.3
       react: 19.2.8
