@@ -137,7 +137,7 @@ importers:
         version: 10.14.0(jiti@2.7.0)(supports-color@8.1.1)
       eslint-config-next:
         specifier: canary
-        version: 16.5.0-canary.36(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3)
+        version: 16.5.0-canary.38(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3)
       postcss:
         specifier: ^8.5.8
         version: 8.5.32
@@ -325,7 +325,7 @@ importers:
         version: 19.2.3(@types/react@19.2.17)
       '@vitejs/plugin-react':
         specifier: ^6.0.0
-        version: 6.1.1(vite@8.0.16(@types/node@24.19.2)(jiti@2.7.0)(sass@1.102.0)(terser@5.49.0)(yaml@2.9.1))
+        version: 6.2.1(vite@8.0.16(@types/node@24.19.2)(jiti@2.7.0)(sass@1.102.0)(terser@5.49.0)(yaml@2.9.1))
       vite:
         specifier: ~8.0.0
         version: 8.0.16(@types/node@24.19.2)(jiti@2.7.0)(sass@1.102.0)(terser@5.49.0)(yaml@2.9.1)
@@ -1652,8 +1652,8 @@ packages:
   '@next/env@16.2.11':
     resolution: {integrity: sha512-0do5A3BJ2gxWr0ZCMcD6BhW+e595jyxdTl3rXTS6lOtD8ektMiW6CO+EPwt1Eca1DBnm90r/7GdiKWBKxH++DA==}
 
-  '@next/eslint-plugin-next@16.5.0-canary.36':
-    resolution: {integrity: sha512-q92L7J4dOtEa6hj/lUqg2M0B+1Re3LVjwPQYaBqeyhd14grc2k17DZmDTZaindIa6GpHxZWzDe9iHBYmqyfVDQ==}
+  '@next/eslint-plugin-next@16.5.0-canary.38':
+    resolution: {integrity: sha512-WtEyKIf6o5CxrTH/FdXw7UgOZKq2oQfyuFv7scb8fCuWlDevnqSui9GOOJVXnGpMVCG/1WpSLQXN5zCEkJGzWg==}
 
   '@next/swc-darwin-arm64@16.2.11':
     resolution: {integrity: sha512-wryL4pjKmDwGv2ox6+GZDFxvmtSRLqApBR8kL1j4+vhB7Z5vJC/zAnXpiR9Xkfzl0AS8WLMnsuGV/UKI67/rrw==}
@@ -2445,13 +2445,13 @@ packages:
       react: ^17.0.2 || ^18.0.0-0
       react-dom: ^17.0.2 || ^18.0.0-0
 
-  '@vitejs/plugin-react@6.1.1':
-    resolution: {integrity: sha512-yxLaQV9gkhS8ezJqCM6+ndU7mDY6gqAg75NQ+0IjwEI8IYOmQCgkRwHKVSfWXW076DsqMo0Dk+0FK1U+M5RgFw==}
+  '@vitejs/plugin-react@6.2.1':
+    resolution: {integrity: sha512-9KyWCij3r0+qLG3Q62vBmv0VyevmYibAtxaCIVK9o0k6CXgaajZRIe8tpfchQcdZArJ5b/7OrIz4W3b2uxVRDA==}
     engines: {node: ^20.19.0 || >=22.12.0}
     peerDependencies:
-      '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0
+      '@rolldown/plugin-babel': ^0.1.7 || ^0.2.0 || ^0.3.0
       babel-plugin-react-compiler: ^1.0.0
-      oxc-transform-react: ^0.145.0
+      oxc-transform-react: '>=0.152.0 <0.157.0'
       vite: ^8.0.0
     peerDependenciesMeta:
       '@rolldown/plugin-babel':
@@ -3035,8 +3035,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.5.0-canary.36:
-    resolution: {integrity: sha512-yB5rXEnMa62AXVTA+9FGajcJzC45fH04Emgp6nhn6emX7KaOFZ3WsP4jthua09tmbQvFrzq/evid7iRbikd6QA==}
+  eslint-config-next@16.5.0-canary.38:
+    resolution: {integrity: sha512-eHi8uvPTBO5Bbb5xVUJjKMpDNkir7p6QWZ7LTMfd9k0VPPJIgX/RbBg3JTjWl/6RGgYSdDCjW20TJp9/VtuM4A==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -5594,7 +5594,7 @@ snapshots:
 
   '@next/env@16.2.11': {}
 
-  '@next/eslint-plugin-next@16.5.0-canary.36(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))':
+  '@next/eslint-plugin-next@16.5.0-canary.38(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
       fast-glob: 3.3.1
@@ -6300,7 +6300,7 @@ snapshots:
       react-dom: 19.2.8(react@19.2.8)
       sugar-high: 0.4.7
 
-  '@vitejs/plugin-react@6.1.1(vite@8.0.16(@types/node@24.19.2)(jiti@2.7.0)(sass@1.102.0)(terser@5.49.0)(yaml@2.9.1))':
+  '@vitejs/plugin-react@6.2.1(vite@8.0.16(@types/node@24.19.2)(jiti@2.7.0)(sass@1.102.0)(terser@5.49.0)(yaml@2.9.1))':
     dependencies:
       '@rolldown/pluginutils': 1.0.1
       vite: 8.0.16(@types/node@24.19.2)(jiti@2.7.0)(sass@1.102.0)(terser@5.49.0)(yaml@2.9.1)
@@ -7011,9 +7011,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.5.0-canary.36(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3):
+  eslint-config-next@16.5.0-canary.38(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.5.0-canary.36(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
+      '@next/eslint-plugin-next': 16.5.0-canary.38(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
       eslint: 10.14.0(jiti@2.7.0)(supports-color@8.1.1)
       eslint-import-resolver-node: 0.3.10(supports-color@8.1.1)
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)
