@@ -137,7 +137,7 @@ importers:
         version: 10.14.0(jiti@2.7.0)(supports-color@8.1.1)
       eslint-config-next:
         specifier: canary
-        version: 16.5.0-canary.39(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3)
+        version: 16.5.0-canary.40(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3)
       postcss:
         specifier: ^8.5.8
         version: 8.5.32
@@ -312,8 +312,8 @@ importers:
         version: 19.3.1(react@19.3.1)
     devDependencies:
       '@crxjs/vite-plugin':
-        specifier: ^2.0.0
-        version: 2.7.1(supports-color@8.1.1)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0)(sass@1.107.1)(terser@5.49.0)(yaml@2.9.1))
+        specifier: ^3.0.0
+        version: 3.0.0(supports-color@8.1.1)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0)(sass@1.107.1)(terser@5.49.0)(yaml@2.9.1))
       '@types/chrome':
         specifier: ^0.3.0
         version: 0.3.7
@@ -1233,8 +1233,8 @@ packages:
     resolution: {integrity: sha512-aalGyl7dbB5PArRebDIX43ZvBlXrYm9uWzGJ26t+4SzJVPsOuvfILGGbw5X4yX7i50YEmJ8zvbiWnqH/AAnZqg==}
     engines: {node: '>=22'}
 
-  '@crxjs/vite-plugin@2.7.1':
-    resolution: {integrity: sha512-mn77Lc1ilIvbO7ZqijjNy+AnRgc8srkfHOtV6HrGrYZgRe8YI3aIcSjHJCU5Kq75SejEZGrdAoHdn3gBGeKpEA==}
+  '@crxjs/vite-plugin@3.0.0':
+    resolution: {integrity: sha512-86InOwnuCC6WPAC6/fsZYAzrmxbWn4qLtrchA6iApJ+CoWugHbyWJlsav1ZH2quw+Laq+1T6LBHMjYwxEVtyEQ==}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0 || ^5.0.0 || ^6.0.0 || ^7.0.0 || ^8.0.0
 
@@ -1661,8 +1661,8 @@ packages:
   '@next/env@16.4.5':
     resolution: {integrity: sha512-JwSPwpdkZL5VMl2jA/q+JI8MZdweAL3xmw5/tb9y/TLtmS0YXZnmYDzSihwk8xTj1OL+WM53gTqaj96yuLp6Xw==}
 
-  '@next/eslint-plugin-next@16.5.0-canary.39':
-    resolution: {integrity: sha512-LIKTqsy0RoC+k1RgtI3AmCwwjw5VXI7y/JH3QBkGuPt5jHNF/chWAdMWlokj1tXHArbq+xiarAuKPt9gLJUvJg==}
+  '@next/eslint-plugin-next@16.5.0-canary.40':
+    resolution: {integrity: sha512-0vKD2pM1ZEKQ5+4j0Ef64bTedvkVWwq5cvzwMK10Y5GWFZqEYgcIeazoZzPKM033pee26DLY06Ldi3iWMMDsvA==}
 
   '@next/swc-darwin-arm64@16.4.5':
     resolution: {integrity: sha512-W5TniBzWKASbNNwHZ/S/f1MxQUXU/LdjklVMWA0Ujbfl7SZnUzFls45hO0i/sF7Bx1jJBWp7WWmoQajXtX/O8A==}
@@ -3042,8 +3042,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.5.0-canary.39:
-    resolution: {integrity: sha512-ZPc8wLG6aCFFiqcIr/Ue4wkB4k0BUY0Hc6d4eoWnQIQPv38/6dStCqomKmOL1MHor1xU78ukLqnnBdnmzhZUyg==}
+  eslint-config-next@16.5.0-canary.40:
+    resolution: {integrity: sha512-ZSRIetk6+ef6Kcb+ax/3pFkA1/uB1OvO0Wc/JlMm38/f8iVAk92K8LR+uh7gbidr8E7arc52FPUbA0B/ntJcLg==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=3.3.1'
@@ -5189,7 +5189,7 @@ snapshots:
 
   '@conventional-changelog/template@1.4.0': {}
 
-  '@crxjs/vite-plugin@2.7.1(supports-color@8.1.1)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0)(sass@1.107.1)(terser@5.49.0)(yaml@2.9.1))':
+  '@crxjs/vite-plugin@3.0.0(supports-color@8.1.1)(vite@8.3.5(@types/node@24.19.2)(jiti@2.7.0)(sass@1.107.1)(terser@5.49.0)(yaml@2.9.1))':
     dependencies:
       '@webcomponents/custom-elements': 1.6.0
       acorn-walk: 8.3.5
@@ -5608,7 +5608,7 @@ snapshots:
 
   '@next/env@16.4.5': {}
 
-  '@next/eslint-plugin-next@16.5.0-canary.39(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))':
+  '@next/eslint-plugin-next@16.5.0-canary.40(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
       fast-glob: 3.3.1
@@ -7017,9 +7017,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.5.0-canary.39(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3):
+  eslint-config-next@16.5.0-canary.40(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@6.0.3):
     dependencies:
-      '@next/eslint-plugin-next': 16.5.0-canary.39(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
+      '@next/eslint-plugin-next': 16.5.0-canary.40(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
       eslint: 10.14.0(jiti@2.7.0)(supports-color@8.1.1)
       eslint-import-resolver-node: 0.3.10(supports-color@8.1.1)
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)
