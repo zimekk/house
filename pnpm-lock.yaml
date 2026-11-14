@@ -183,7 +183,7 @@ importers:
         version: 17.6.0
       prettier:
         specifier: ^3.8.1
-        version: 3.9.10
+        version: 3.10.1
       turbo:
         specifier: ^2.8.14
         version: 2.11.11
@@ -295,7 +295,7 @@ importers:
         version: 10.14.0(jiti@2.7.0)(supports-color@8.1.1)
       eslint-config-next:
         specifier: canary
-        version: 16.5.0-canary.48(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2)
+        version: 16.5.0-canary.49(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2)
       postcss:
         specifier: ^8.5.8
         version: 8.5.32
@@ -1822,8 +1822,8 @@ packages:
   '@next/env@16.4.6':
     resolution: {integrity: sha512-SunBjJ6t+oBtecS3dTjdVuMhUogP5wD/vrGL5EVuQYM1iS4O5ilL51HkiJ3sPjMzRHiCChvr4dbaSJbR7F3lxA==}
 
-  '@next/eslint-plugin-next@16.5.0-canary.48':
-    resolution: {integrity: sha512-rjbY2i85FgUfq3lm2wYPfESzKgS1S2O8RGvXptsnF35WDdTi2U+fNRljIuMf/IWLB5lMMU3QPzNSjGOHH8aj/g==}
+  '@next/eslint-plugin-next@16.5.0-canary.49':
+    resolution: {integrity: sha512-oefp4NEB6NpH/wjqFqkSNK+otVOpV5r9oAd/Jebrehxvtf2/aby+g/XFUvJdESSj2aNJcP09ASM6kv/M0+cjWQ==}
 
   '@next/swc-darwin-arm64@16.4.6':
     resolution: {integrity: sha512-kJ4VVZkley17xKaJx72QN2IBqjrj7zenCQZaUF0l9ShS/1Mt2kW4+Z5KGG6vgr3L/J562xTOizVyM1iA/u5nlg==}
@@ -3291,8 +3291,8 @@ packages:
     resolution: {integrity: sha512-TtpcNJ3XAzx3Gq8sWRzJaVajRs0uVxA2YAkdb1jm2YkPz4G6egUFAyA3n5vtEIZefPk5Wa4UXbKuS5fKkJWdgA==}
     engines: {node: '>=10'}
 
-  eslint-config-next@16.5.0-canary.48:
-    resolution: {integrity: sha512-bDroxXM4m+UFQeI+x+CTcriLeAsUoyqfc9pmmuz+YkmrbxB0LuJNw3+6FVPmeT2Y9pd+0XbQTRT9/FZQKF5MXw==}
+  eslint-config-next@16.5.0-canary.49:
+    resolution: {integrity: sha512-RwYk3iqzppB1TOfKsacjeI3C7lcspFJXGZAFov/LRxmyJICMLfm56bpFfbtDc1xMVxowj6C2uMCEVuBvFgtbRg==}
     peerDependencies:
       eslint: '>=9.0.0'
       typescript: '>=4.8.4 <6.1.0'
@@ -4320,8 +4320,8 @@ packages:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
 
-  prettier@3.9.10:
-    resolution: {integrity: sha512-skGHTH1Yb9QvaTC4hWnRTzEYtCpApF0UMBPz+t/0ZPzP8ihefo/btKd+QA7pUE0fEwA1SbS/NmhyEcstdXOIdA==}
+  prettier@3.10.1:
+    resolution: {integrity: sha512-70vp3ZUYoPlFbF9uiTdXHUUCGEIp7d4+6p+8DYbkm2jP7x/3i/paXVF6dopSI3zd/CEitrZN1rc4i85xWmmXlg==}
     engines: {node: '>=14'}
     hasBin: true
 
@@ -5765,7 +5765,7 @@ snapshots:
 
   '@next/env@16.4.6': {}
 
-  '@next/eslint-plugin-next@16.5.0-canary.48(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))':
+  '@next/eslint-plugin-next@16.5.0-canary.49(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))':
     dependencies:
       '@eslint-community/eslint-utils': 4.9.1(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
       fast-glob: 3.3.1
@@ -7190,9 +7190,9 @@ snapshots:
 
   escape-string-regexp@4.0.0: {}
 
-  eslint-config-next@16.5.0-canary.48(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2):
+  eslint-config-next@16.5.0-canary.49(@typescript-eslint/parser@8.65.0(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2))(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)(typescript@7.0.2):
     dependencies:
-      '@next/eslint-plugin-next': 16.5.0-canary.48(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
+      '@next/eslint-plugin-next': 16.5.0-canary.49(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))
       eslint: 10.14.0(jiti@2.7.0)(supports-color@8.1.1)
       eslint-import-resolver-node: 0.3.10(supports-color@8.1.1)
       eslint-import-resolver-typescript: 3.10.1(eslint-plugin-import@2.32.0)(eslint@10.14.0(jiti@2.7.0)(supports-color@8.1.1))(supports-color@8.1.1)
@@ -8248,7 +8248,7 @@ snapshots:
 
   prelude-ls@1.2.1: {}
 
-  prettier@3.9.10: {}
+  prettier@3.10.1: {}
 
   process-nextick-args@2.0.1: {}
 
